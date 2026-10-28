@@ -1,5 +1,5 @@
 {
-  "status": "Parent published and verified specs preservation ref and all three release assets; compact evidence commit/push remains pending. See publication-receipt.json.",
+  "status": "Parent published and verified source/assets and immutable compact evidence8c0784f; review append and final current-head/publication verification remain parent-owned. See publication-receipt.json and reviews.json.",
   "specs": {
     "sourceUnchanged": true,
     "forkParentAndPushPermissionVerifiedAtPreflight": true,
@@ -30,7 +30,7 @@
     "repository": "Azure/typespec-azure"
   },
   "candidatePackages": "Exact17 tarballs retained separately with byte hashes; restoring these bytes differs from claiming a deterministic rebuild",
-  "prohibitions": "No latest ref refresh, PR retarget, source edits, force push or implicit publication. Source ref and verified immutable assets must not move or be overwritten. Compact evidence commit/push/readback and reviews remain parent-owned.",
+  "prohibitions": "No latest ref refresh, PR retarget, source edits, force push or implicit publication. Source ref and verified immutable assets must not move or be overwritten. Final review-append publication/readback and current-head verification remain parent-owned.",
   "sourceLicenses": [
     {
       "file": "source-licenses/azure-rest-api-specs-LICENSE",

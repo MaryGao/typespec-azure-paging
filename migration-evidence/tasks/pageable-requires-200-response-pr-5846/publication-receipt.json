@@ -41,10 +41,13 @@
   "evidenceBranch": {
     "repository": "MaryGao/typespec-azure-paging",
     "branch": "migration-evidence/pageable-requires-200-response-5846",
-    "published": false,
-    "commit": null,
-    "remaining": "Parent compact evidence commit/push and immutable link/readback verification"
+    "published": true,
+    "priorImmutableEvidenceCommit": "8c0784fda238e99a81167d97223e77ec40fc386f",
+    "migrationUrl": "https://github.com/MaryGao/typespec-azure-paging/blob/8c0784fda238e99a81167d97223e77ec40fc386f/migration-evidence/tasks/pageable-requires-200-response-pr-5846/migration.md",
+    "migrationApiReadbackVerifiedByParent": true,
+    "commitScope": "Previously published531-file evidence, not the commit containing this review append; no circular self-commit reference.",
+    "remaining": "Parent publication/readback of compact review append and final current-head/publication verification"
   },
-  "reviews": "Independent local readiness and GitHub A/B remain parent-owned and pending.",
-  "limitations": "Publication verifies retained asset bytes and source-ref identity, not regeneration or fresh-runtime baseline reuse. Prior observation/source replay remains distinct; Windows sealed-baseline limitations and incomplete transitive engine locking remain. Task incomplete; native PR remains draft."
+  "reviews": "Separate local source/readiness reviews passed; GitHub A/B clean at unchanged68d7ddf with mandatory collectors and independent parent verification. See reviews.json.",
+  "limitations": "Publication verifies retained asset bytes and source-ref identity, not regeneration or fresh-runtime baseline reuse. Windows-only saved-context and incomplete transitive engine locking remain; no equivalence or validator retirement claim. Workflow gates complete subject to final parent current-head/publication verification; PR remains OPEN DRAFT."
 }

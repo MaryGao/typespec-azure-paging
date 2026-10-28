@@ -6,7 +6,7 @@
   "passed": true,
   "sourceResultSha256": "952AF8B7FC0C76DB18BDBEBCFCD09574A6DEFD10D61D2B43EFFEC2C0AF719A19",
   "sanitization": "Original source/emitted document bytes unchanged; summary omits machine-specific runtime entrypoint paths and transport-source URLs while preserving counts/native source positions/production JSON paths. Original complete raw result retained locally.",
-  "publication": "Parent published and verified source ref and three release assets; compact evidence branch push/reviews remain pending. See publication-receipt.json. Full ARM, archive/package integrity and retained observation/source replay passed.",
+  "publication": "Parent published/verified source, assets and immutable evidence8c0784f; local/GitHub A/B clean. Final review append and current-head/publication verification remain pending. See publication-receipt.json and reviews.json.",
   "cases": [
     {
       "apiVersion": "0000-00-00",

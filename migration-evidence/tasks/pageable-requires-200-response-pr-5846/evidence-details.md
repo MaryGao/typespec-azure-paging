@@ -1,9 +1,14 @@
 # Supporting evidence and replay preparation
 
-This is local evidence prepared for independent review. Full-corpus execution
+This is published evidence with a local final review-receipt append. Full-corpus execution
 and numerical investigations passed. Local replay receipts are linked below;
 the parent verified source-ref readback and all three fresh asset downloads.
-Compact evidence commit/push and independent readiness/GitHub A/B remain pending.
+The parent published immutable compact evidence `8c0784f` and verified migration-note
+API readback. Separate local source/readiness reviews and GitHub A/B checkpoints
+are clean on unchanged `68d7ddf`; [review receipts](reviews.json) retain exact
+review IDs/UTCs, Balanced reliability and independent parent verification.
+Workflow gates are complete subject to parent final current-head/publication
+verification and publication/readback of this append. PR remains OPEN DRAFT.
 The [publication receipt](publication-receipt.json) retains stable source/release
 links and verified download byte lengths/SHA-256 values.
 Read [migration.md](migration.md) before interpreting isolated test totals.
@@ -40,8 +45,11 @@ The implementation/instruction checkout is untouched. Native changes, snapshot,
 tooling, specs, evidence and output resources have separate ownership. No other
 paging PR is part of this task. All independent local/GitHub reviews and every
 push/source/evidence/asset publication approval remain outer-owned. The parent
-reports that independent local development review passed without significant
-source issues; local readiness and GitHub A/B checkpoints remain pending.
+reports that separate independent local development and readiness reviews passed
+without significant issues. Both GitHub checkpoints completed clean in round 1/5,
+with review-specific empty comments/threads, mandatory final collectors and
+independent parent bundled collection at each exact numeric review/head. Reviewer
+agents are idle; no fixes or semantic repair cycles were needed.
 
 ## Validation and artifact claims
 
@@ -146,7 +154,7 @@ occurrences, file-independent JSON paths, raw/aligned diagnostics and distinct
 native source targets are separate units; no fuzzy-name normalization is used.
 Every one-sided project and both count-gap directions require investigation.
 
-## Recovery paths and pending publication
+## Recovery paths and published evidence
 
 The original unfiltered run assessed all 487 selected ARM projects, with no
 compile/validation/native failure or unassessed project. Its 649 emitted Swagger
@@ -189,9 +197,11 @@ checkpoint `68d7ddf`; current applicable checks have no failing/pending entries.
 The worker did not run CI or modify source/timeouts.
 
 1. **Read saved evidence:** compact sanitized source/runtime/artifact manifests,
-   reports and directly linked examples await the compact evidence branch push.
+   reports and directly linked examples were published in the
+   [prior immutable evidence commit](https://github.com/MaryGao/typespec-azure-paging/tree/8c0784fda238e99a81167d97223e77ec40fc386f/migration-evidence/tasks/pageable-requires-200-response-pr-5846).
    The approved durable large assets are published and fresh-download verified.
-   Local compact files are not a pushed evidence commit.
+   This final local review append still requires parent publication/readback;
+   it does not refer circularly to its own future commit.
 2. **Reanalyze saved observations:** the dependency-free
    `reanalyze-observations.py` reads actual selected-rule validator shards,
    dataset projects and native receipts, recomputes per-project/count-direction
@@ -227,7 +237,9 @@ SHA. The parent verified exact remote readback at
 [`2cd3c5d`](https://github.com/MaryGao/azure-rest-api-specs/tree/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9).
 Evidence fork/ref is
 `MaryGao/typespec-azure-paging:migration-evidence/pageable-requires-200-response-5846`,
-still awaiting the parent's compact evidence commit/push. The
+published at prior immutable commit `8c0784fda238e99a81167d97223e77ec40fc386f`
+with migration-note API readback verified. The parent will separately publish
+this review-receipt append and perform final live verification. The
 [non-draft V3 release](https://github.com/MaryGao/typespec-azure-paging/releases/tag/migration-evidence-pageable-5846-v3)
 targets the unchanged native checkpoint. All three exact assets were freshly
 downloaded and matched their retained sizes/SHA-256 values. Fresh-runtime baseline

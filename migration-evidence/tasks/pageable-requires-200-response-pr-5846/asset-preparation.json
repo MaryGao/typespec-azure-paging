@@ -1,5 +1,5 @@
 {
-  "status": "Parent published all three assets and verified fresh download lengths/SHA256; compact evidence branch push remains pending. See publication-receipt.json.",
+  "status": "Parent published/verified all three assets and immutable compact evidence8c0784f; reviews clean. See publication-receipt.json and reviews.json.",
   "releaseUrl": "https://github.com/MaryGao/typespec-azure-paging/releases/tag/migration-evidence-pageable-5846-v3",
   "freshDownloadAllThreeAssetsVerified": true,
   "assets": [
@@ -68,5 +68,5 @@
     "Dependency-free compact/extracted observation reanalysis passed locally; only Windows execution was exercised.",
     "Parent fresh asset upload/download hash roundtrip passed separately. No regeneration or full transitive engine-locking claim."
   ],
-  "pending": "Parent compact evidence commit/push and immutable link/readback verification, local readiness and GitHubA+B/current-head gates."
+  "pending": "Parent publication/readback of this compact review append and final current-head/publication verification; PR remains OPEN DRAFT."
 }

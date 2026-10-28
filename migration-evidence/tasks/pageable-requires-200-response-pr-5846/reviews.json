@@ -1,0 +1,69 @@
+{
+  "taskId": "pageable-requires-200-response-pr-5846",
+  "flowVersion": "native-first",
+  "cycle": 0,
+  "pr": "https://github.com/Azure/typespec-azure/pull/5846",
+  "head": "68d7ddf11a93dd52f0efedebc36c67c925afc64b",
+  "priorImmutableEvidenceCommit": "8c0784fda238e99a81167d97223e77ec40fc386f",
+  "checkpoints": [
+    {
+      "checkpoint": "development-review",
+      "invocation": "pageable-5846-checkpoint-a-resumed",
+      "requestId": 34475211705,
+      "requestedAt": "2026-10-28T12:53:27Z",
+      "reviewId": 5682915275,
+      "reviewUrl": "https://github.com/Azure/typespec-azure/pull/5846#pullrequestreview-5682915275",
+      "submittedAt": "2026-10-28T12:57:17Z",
+      "roundsUsed": 1,
+      "roundLimit": 5,
+      "reliability": "Balanced",
+      "reviewState": "COMMENTED",
+      "approvalRecommended": true,
+      "reviewSpecificRestComments": [],
+      "unresolvedCopilotThreads": [],
+      "generatedMarkers": [],
+      "mandatoryFinalCollectorResult": "no-new-comments",
+      "parentIndependentBundledCollection": {
+        "result": "no-new-comments",
+        "exactReviewIdVerified": 5682915275,
+        "exactHeadVerified": "68d7ddf11a93dd52f0efedebc36c67c925afc64b"
+      },
+      "independentLocalReview": "Passed: full frozen-base source diff; no significant source issues.",
+      "result": "clean-on-unchanged-head"
+    },
+    {
+      "checkpoint": "release-readiness-review",
+      "invocation": "pageable-5846-checkpoint-b-resumed",
+      "requestId": 34475928413,
+      "requestedAt": "2026-10-28T13:01:35Z",
+      "reviewId": 5683015323,
+      "reviewUrl": "https://github.com/Azure/typespec-azure/pull/5846#pullrequestreview-5683015323",
+      "submittedAt": "2026-10-28T13:05:18Z",
+      "roundsUsed": 1,
+      "roundLimit": 5,
+      "reliability": "Balanced",
+      "reviewState": "COMMENTED",
+      "approvalRecommended": true,
+      "reviewSpecificRestComments": [],
+      "unresolvedCopilotThreads": [],
+      "generatedMarkers": [],
+      "mandatoryFinalCollectorResult": "no-new-comments",
+      "parentIndependentBundledCollection": {
+        "result": "no-new-comments",
+        "exactReviewIdVerified": 5683015323,
+        "exactHeadVerified": "68d7ddf11a93dd52f0efedebc36c67c925afc64b"
+      },
+      "independentLocalReview": "Passed: separate independent release-readiness review; no significant release issues.",
+      "result": "clean-on-unchanged-head"
+    }
+  ],
+  "collectionAuthority": "Checkpoint-specific ledgers, mandatory final collectors and independent parent bundled collections. Raw collection/suppressed details remain local.",
+  "reviewerActivity": "All collectors/fixers idle; no fixes or native changes.",
+  "semanticRepairCyclesUsed": 0,
+  "semanticRepairCyclesLimit": 3,
+  "otherBudgets": "All original and supplemental counters/scopes remain unchanged; each checkpoint used its first round only.",
+  "ci": "Same-head checks clear after authorized rerun; original timeout cause remains unproven.",
+  "workflowStatus": "Workflow gates complete subject to parent final current-head and publication verification, including publication/readback of this compact review append.",
+  "prState": "OPEN DRAFT; no merge or ready-for-review marking performed or claimed.",
+  "limitations": "Windows-only saved-context verification is not regeneration, fresh-runtime reuse or complete transitive engine locking. Zero corpus findings do not establish equivalence or justify validator retirement."
+}

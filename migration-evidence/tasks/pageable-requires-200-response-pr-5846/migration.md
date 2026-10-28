@@ -1,13 +1,20 @@
 # PageableRequires200Response
 
-> Local evidence for independent review. Required full ARM analysis passed.
+> Published evidence. Required full ARM analysis passed.
 > Specs preservation and release-asset download verification passed.
-> Compact evidence commit/push, GitHub A/B reviews and overall completion remain pending.
+> Both local/GitHub A/B checkpoints are clean on unchanged `68d7ddf`.
+> Workflow gates are complete subject to final parent current-head/publication verification.
+> PR remains OPEN DRAFT; no merge or ready marking is claimed.
 
 The [publication receipt](publication-receipt.json) links the
 [published release](https://github.com/MaryGao/typespec-azure-paging/releases/tag/migration-evidence-pageable-5846-v3)
 and exact frozen specs source. The parent verified source-ref readback and all
 three fresh asset download lengths/SHA-256 values; this is not regeneration.
+The [prior immutable evidence](https://github.com/MaryGao/typespec-azure-paging/blob/8c0784fda238e99a81167d97223e77ec40fc386f/migration-evidence/tasks/pageable-requires-200-response-pr-5846/migration.md)
+was published and API-readback verified. [Review receipts](reviews.json) record
+separate clean A/B round-1 Balanced reviews, mandatory final collectors and
+independent parent verification. Publication/readback of this review append and
+the parent's final live checks remain; no production change or rerun was needed.
 
 ## 1. Conclusion and scope
 
