@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "complete": true,
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "filters": {
+    "serviceType": "resource-manager",
+    "path": "ComputeSku",
+    "limit": 1
+  },
+  "summary": {
+    "discoveredProjects": 1,
+    "compiledProjects": 1,
+    "failedProjects": 0,
+    "emittedSwaggerFiles": 1,
+    "validatedProjects": 1,
+    "validationFailures": 0,
+    "violations": 8,
+    "distinctRules": 6
+  },
+  "projects": [
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku",
+      "apiVersion": "2021-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    }
+  ]
+}

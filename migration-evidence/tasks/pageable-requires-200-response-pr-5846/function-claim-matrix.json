@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "task": "pageable-requires-200-response-pr-5846",
+  "cycle": 0,
+  "validator": "PageableRequires200Response",
+  "nativeRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+  "memberCount": 1,
+  "sourceRevision": "9fb5ab82feac40d7273cbcb227fb565c9cc18f06",
+  "scope": "Explicitly selected common next-link concrete @list authoring policy; production ARM corpus, with separate ARM-provider/common POST and data-plane POST semantic controls.",
+  "status": "Native/unit/docs/injected controls, representative and FULL487-project ARM analysis passed. All487 assessed, zero unassessed/one-sided/gap projects; independent reanalysis matched every row. Zero target observations is not equivalence; observed project coverage N/A.",
+  "counting": "Rows are distinct audited behaviors, not an exhaustive rule-wide denominator or estimate of real-spec prevalence. Canonical eleven test cases and four injected cases are test-case counts, not coverage percentages.",
+  "canonicalSuite": "packages/typespec-azure-core/test/rules/pageable-requires-200-response.test.ts",
+  "canonicalReceipt": "native-first-5846-reserve2-focused-suite.receipt.json",
+  "actualPagingControlResult": "native-first-5846-injected-paging-controls-api-version-corrected.json",
+  "actualPublishedExamplesResult": "native-first-5846-doc-examples-corrected.json",
+  "behaviors": [
+    {
+      "id": "missing-explicit-200",
+      "shape": "Concrete GET/POST @list with nextLink, only201",
+      "nativeStatus": "covered",
+      "canonicalCases": 2,
+      "canonicalTests": ["reports a pageable get with only a 201 response", "reports a pageable post with only a 201 response"],
+      "actualInjectedEvidence": "ARM-provider/common POST and data-plane POST incorrect controls each produce raw1/aligned1/production1, actual emitted info.version0000-00-00. No native default finding.",
+      "claimLimit": "Controls establish the common POST policy gap and correct artifact activation, not observed production prevalence. ARM GET overlap alone does not justify a new common policy."
+    },
+    {
+      "id": "numeric-200-compliance",
+      "shape": "Implicit200, explicit200, or numeric200|201",
+      "nativeStatus": "covered",
+      "canonicalCases": 3,
+      "canonicalTests": ["accepts a pageable response with implicit 200", "accepts a pageable response with explicit 200", "accepts a pageable response with 200 and another success"],
+      "actualInjectedEvidence": "ARM-provider/common POST and data-plane POST explicit200 compliant controls each raw0/aligned0/production0.",
+      "claimLimit": "Actual cross-engine controls cover explicit200; implicit/union native behavior is unit-tested, not separately claimed as artifact parity."
+    },
+    {
+      "id": "default-and-range-are-not-numeric-200",
+      "shape": "Default response or2XX range without distinct numeric200",
+      "nativeStatus": "covered",
+      "canonicalCases": 2,
+      "canonicalTests": ["does not treat a default response as an explicit 200", "does not treat a 2XX range as an explicit 200"],
+      "actualInjectedEvidence": null,
+      "claimLimit": "Native contract tested; actual emitted Swagger cross-engine correspondence for these representations is unassessed. Do not equate unit success with full validator parity."
+    },
+    {
+      "id": "no-list-exclusion",
+      "shape": "Next-link-shaped body on non-@list operation",
+      "nativeStatus": "covered",
+      "canonicalCases": 1,
+      "canonicalTests": ["does not impose paging response codes on operations without @list"],
+      "actualInjectedEvidence": null,
+      "claimLimit": "Native metadata boundary, not arbitrary name/property matching. Raw Swagger x-ms-pageable metadata is a distinct selector."
+    },
+    {
+      "id": "no-nextlink-exclusion",
+      "shape": "@list with pageItems and continuationToken but no nextLink",
+      "nativeStatus": "covered",
+      "canonicalCases": 1,
+      "canonicalTests": ["does not require 200 for lists without next-link paging"],
+      "actualInjectedEvidence": null,
+      "claimLimit": "Intentional next-link-native scope; not evidence that Swagger nextLinkName:null checks are obsolete, compiler-prevented, or retired."
+    },
+    {
+      "id": "concrete-operation-template-ownership",
+      "shape": "Authored concrete op is List<string>",
+      "nativeStatus": "covered",
+      "canonicalCases": 1,
+      "canonicalTests": ["checks a concrete operation instantiated from a paging template"],
+      "targetAssertion": "Exactly one warning at the authored operation declaration marker, not generic declaration/instance.",
+      "actualInjectedEvidence": "Supported Core RpcOperation concrete reuse in four actual emitted native/production controls also preserves positive one-finding multiplicity.",
+      "claimLimit": "The original CI duplicate was reproduced before correction; no new emitter behavior or metadata mutation."
+    },
+    {
+      "id": "concrete-interface-template-ownership",
+      "shape": "alias StringLists = Lists<string>; authored op list is StringLists.list",
+      "nativeStatus": "covered",
+      "canonicalCases": 1,
+      "canonicalTests": ["checks a concrete operation instantiated from a paging interface"],
+      "targetAssertion": "Exactly one warning at authored op, excluding generic interface/operation instances.",
+      "actualInjectedEvidence": null,
+      "claimLimit": "Distinct owning-package interface guard regression. No separate artifact/corpus prevalence claim."
+    },
+    {
+      "id": "registered-arm-get-overlap",
+      "shape": "GET201, POST201, GET200 with new Core policy and selected existing ARM status rule",
+      "nativeStatus": "covered",
+      "canonicalCases": 0,
+      "supplementalCases": 3,
+      "actualInjectedEvidence": "Seven-case published-snippet/registered-overlap suite passed unchanged expectations; four published examples plus three overlap controls.",
+      "claimLimit": "Existing ARM use-standard-response-codes selection/defaults not broadened. GET overlap documented; common POST/data-plane missing policy is independent."
+    },
+    {
+      "id": "activation-and-severity",
+      "shape": "Opt-in common warning, false in both ARM/data-plane standard presets",
+      "nativeStatus": "covered",
+      "canonicalCases": 0,
+      "actualInjectedEvidence": "Rulesets suite8 passed; actual positive paging controls have no default target findings and explicit opt-in produces one. Existing official injected framework28 passed/no skips.",
+      "claimLimit": "Intentional native warning/opt-in versus production Swagger error. Full framework suite includes no-boolean checks and is not paging semantic equivalence."
+    },
+    {
+      "id": "legacy-swagger-null-nextlink",
+      "shape": "Raw OpenAPI2 x-ms-pageable with nextLinkName:null and missing responses[200]",
+      "nativeStatus": "outside-defined-next-link-contract",
+      "canonicalCases": 0,
+      "actualInjectedEvidence": null,
+      "claimLimit": "Source validator does not exempt null nextLinkName. Native excludes absent nextLink metadata. This is a declared representation/policy boundary, not full parity, approved retirement, proven rarity, or a zero-frequency finding."
+    },
+    {
+      "id": "selected-version-predicate-alignment",
+      "shape": "Version-dependent paging/status metadata",
+      "nativeStatus": "unassessed",
+      "canonicalCases": 0,
+      "actualInjectedEvidence": "http-reachable retains source locations in selected-version HTTP graph; it does not rerun arbitrary paging/status predicates on projected programs.",
+      "claimLimit": "Version-sensitive mismatches must be investigated individually. Equal counts cannot establish semantic correspondence or justify normalization."
+    }
+  ],
+  "canonicalCaseTotal": 11,
+  "crossAudienceInjectedCaseTotal": 4,
+  "publishedExampleAndRegisteredOverlapCaseTotal": 7,
+  "normalization": "None. Preserve raw Swagger occurrences, file-independent JSON paths, raw/aligned native diagnostics and distinct source targets separately. No fuzzy/property-name matches or count cancellation.",
+  "productionRuleChangeDecision": "No additional production semantic change is demonstrated by the completed zero-positive ARM corpus. Retain the production validator; scoped common next-link controls establish a genuine authoring gap, not full raw Swagger equivalence or retirement.",
+  "reviewAndPublication": "Not requested/performed; outer owns independent local/GitHub reviews and all native/evidence/source/asset publication approvals."
+}

@@ -1,0 +1,82 @@
+{
+  "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes",
+  "status": "success",
+  "apiVersion": "2024-11-01-preview",
+  "rawDiagnostics": [],
+  "diagnostics": [],
+  "defaultTargetDiagnostics": [],
+  "packages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@typespec+compiler@file+..+_117ac3185cdfb1387db02e1cf6be237b\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "sha256": "4dad8a2af7365238d98ee7181675c05f42e37d9e3cab98ab90ca3c9d67b05fc3"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@azure-tools+typespec-azure_16c347d1131c2fb1bc2918d6f85ce88f\\node_modules\\@azure-tools\\typespec-azure-core\\dist\\src\\index.js",
+      "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@azure-tools+typespec-autor_bfdede9f4ba96b5c457639fb55117b22\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@azure-tools+typespec-azure_aa99311b7b2625455144d645e477f185\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\autorest@3.8.0\\node_modules\\autorest\\dist\\exports.js",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-core@1.0.7\\node_modules\\@microsoft.azure\\openapi-validator-core\\dist\\index.js",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@azure-tools+typespec-azure_d89713a6cf2a83b6e27f32ae4a15f199\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@azure-tools+typespec-azure_d89713a6cf2a83b6e27f32ae4a15f199\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@typespec+http@file+..+cand_92ecdd113e88533e8174134fc64ce402\\node_modules\\@typespec\\http\\dist\\src\\index.js",
+      "sha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "entrypoint": "<WORKTREES>\\specs-pageable-requires-200-response-5846\\node_modules\\.pnpm\\@typespec+versioning@file+._e7b48d41519f1c74158ddae5a11f68b4\\node_modules\\@typespec\\versioning\\dist\\src\\index.js",
+      "sha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+    }
+  ]
+}

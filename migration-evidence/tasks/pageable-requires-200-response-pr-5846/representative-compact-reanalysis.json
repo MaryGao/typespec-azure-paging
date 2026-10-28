@@ -1,0 +1,50 @@
+{
+  "rule": "PageableRequires200Response",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "scope": "http-reachable",
+  "metricsMatchOfficialReport": true,
+  "metrics": {
+    "selectedProjectCount": 1,
+    "assessableProjectCount": 1,
+    "selectedValidatorRawCount": 0,
+    "unassessedValidatorRawCount": 0,
+    "unassessedNativeRawCount": 0,
+    "validatorProjects": [],
+    "nativeProjects": [],
+    "overlapProjects": [],
+    "validatorOnlyProjects": [],
+    "nativeOnlyProjects": [],
+    "projectsWithEqualRawCounts": 1,
+    "projectsWithEqualCounts": 1,
+    "validatorRawCount": 0,
+    "validatorFileIndependentCount": 0,
+    "nativeRawCount": 0,
+    "nativeDefaultCount": 0,
+    "nativeAlignedCount": 0,
+    "nativeSourceCount": 0,
+    "nativeLocationlessCount": 0,
+    "rawValidatorExcess": 0,
+    "rawNativeExcess": 0,
+    "validatorExcess": 0,
+    "nativeExcess": 0
+  },
+  "unassessedProjects": [],
+  "gapProjects": [],
+  "projects": [
+    {
+      "project": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku",
+      "apiVersion": "2021-07-01",
+      "validatorRawCount": 0,
+      "validatorFileIndependentCount": 0,
+      "nativeRawCount": 0,
+      "nativeDefaultCount": 0,
+      "nativeAlignedCount": 0,
+      "nativeSourceCount": 0,
+      "nativeLocationlessCount": 0,
+      "difference": 0,
+      "rawDifference": 0
+    }
+  ],
+  "coverageJsonSha256": "5d0be90a5d535f474b5af63c621c640cd492328e91acd5474a3e220c26f22920",
+  "claim": "Observation reanalysis only; not a native/validator rerun, sealed-baseline integrity validation, or semantic equivalence decision."
+}

@@ -1,0 +1,50 @@
+{
+  "taskId": "pageable-requires-200-response-pr-5846",
+  "cycle": 0,
+  "authority": "Parent-approved publication and verified remote readback/fresh-download receipts",
+  "source": {
+    "repository": "MaryGao/azure-rest-api-specs",
+    "ref": "refs/heads/migration-source/pageable-requires-200-response-5846",
+    "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "readbackVerified": true,
+    "url": "https://github.com/MaryGao/azure-rest-api-specs/tree/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9"
+  },
+  "release": {
+    "url": "https://github.com/MaryGao/typespec-azure-paging/releases/tag/migration-evidence-pageable-5846-v3",
+    "tag": "migration-evidence-pageable-5846-v3",
+    "isDraft": false,
+    "target": "68d7ddf11a93dd52f0efedebc36c67c925afc64b"
+  },
+  "assets": [
+    {
+      "file": "candidate-packages-v3.zip",
+      "bytes": 2047881,
+      "sha256": "eb0f9e9ec4c3a8e3fd2ef8efe693a572afd8e415f6108b02cf50a9f91d8c92d9",
+      "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/migration-evidence-pageable-5846-v3/candidate-packages-v3.zip",
+      "freshDownloadLengthAndSha256Verified": true
+    },
+    {
+      "file": "candidate-source-c4497d2.bundle",
+      "bytes": 2312,
+      "sha256": "1d352be7465c174a9b63d942090e2f1aaf09d72f2def6a716ba1a5bb4c70f97e",
+      "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/migration-evidence-pageable-5846-v3/candidate-source-c4497d2.bundle",
+      "freshDownloadLengthAndSha256Verified": true
+    },
+    {
+      "file": "full-arm-sanitized-evidence-v3.zip",
+      "bytes": 167195324,
+      "sha256": "91f1abb2acd4cf9b4c5b4f38d9d8dcfaded2eb37f400d1600314d7ff31c2aa31",
+      "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/migration-evidence-pageable-5846-v3/full-arm-sanitized-evidence-v3.zip",
+      "freshDownloadLengthAndSha256Verified": true
+    }
+  ],
+  "evidenceBranch": {
+    "repository": "MaryGao/typespec-azure-paging",
+    "branch": "migration-evidence/pageable-requires-200-response-5846",
+    "published": false,
+    "commit": null,
+    "remaining": "Parent compact evidence commit/push and immutable link/readback verification"
+  },
+  "reviews": "Independent local readiness and GitHub A/B remain parent-owned and pending.",
+  "limitations": "Publication verifies retained asset bytes and source-ref identity, not regeneration or fresh-runtime baseline reuse. Prior observation/source replay remains distinct; Windows sealed-baseline limitations and incomplete transitive engine locking remain. Task incomplete; native PR remains draft."
+}

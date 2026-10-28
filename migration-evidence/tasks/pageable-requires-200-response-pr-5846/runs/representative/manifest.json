@@ -1,0 +1,9 @@
+{
+  "config": {
+    "scope": "http-reachable"
+  },
+  "purpose": "Extracted saved numerical observations, not a reusable full dataset.",
+  "originalRunManifestSha256": "090d4e0d6c58bdfdd2fa47becbe570d9038a849167dc027eaf49b1ca2e157e0c",
+  "originalBaselineIdentity": "877bbb80965d5966a0ea882e7c3c4165addc02bf000731df87a08c8db28b922d",
+  "fullArchive": null
+}

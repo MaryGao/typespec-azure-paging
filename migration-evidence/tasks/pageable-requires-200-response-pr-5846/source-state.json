@@ -1,0 +1,32 @@
+{
+  "nativeCheckpoint": "68d7ddf11a93dd52f0efedebc36c67c925afc64b",
+  "parent": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+  "tree": "eab9878c52b99f4a6104130ab07e694d5d5513a4",
+  "testedSnapshot": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+  "sourceRuntimeFilesVerified": 234,
+  "archivesVerified": 17,
+  "originalIndexSha256": "3ed7a5052878af5a82e736487e250d9cff96009f99721e0c377aaedc9fee1570",
+  "checkpointIndexSha256": "d80b8afa67f138a5d28604d0273ab249a4477018576eea5f4d05754abf7c5391",
+  "checkpointSemanticIndexSha256": "0a5072cbb2dc2f36f3d1fcd7225bd138ce6e70017dd2c452646d08fa04760c02",
+  "sourceFiles": [
+    {
+      "file": "packages/typespec-azure-core/src/rules/pageable-requires-200-response.md",
+      "blob": "a76b27948de7f35d4c6427de504c1a288297878a",
+      "sha256": "f97bb48fe6c7f470162d55e684ee93a184d12e8a3f6f474ebfc70c8beffa5693"
+    },
+    {
+      "file": "packages/typespec-azure-core/src/rules/pageable-requires-200-response.ts",
+      "blob": "f7ae24893f89e5ea932c3035e498c881717d9149",
+      "sha256": "4ed8e8d751ff69a55d979d8e467ff26bd517d0dadb3645bca500d68dd573bd18"
+    },
+    {
+      "file": "packages/typespec-azure-core/test/rules/pageable-requires-200-response.test.ts",
+      "blob": "898b34f21254806b4c3ca16a727b5a78a02ee028",
+      "sha256": "35fccdb65f28f8964c1b990be29c7bbd56dff013d7176043cf9f4c6d0fabd415"
+    }
+  ],
+  "sourceLockSha256": "46C2D68D2EAE861ACFEC648BF7AB6F46CB4DF8AFD5A5BC25E9CA200241324E7E",
+  "coreGitlink": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+  "sourceProofSha256": "89E2F6EA1B62C02DFC31EE15CE84953A0A5B7B5AEDA0E8127F4A8A8A48C655D3",
+  "interpretation": "Authorized HEAD/index transition only; original source/index/diff receipts retained unchanged, all234 source/runtime files match pre-checkpoint validation. No full rerun solely for same-tree checkpoint."
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "equivalence": "not-determined",
+  "countingUnit": "sum of raw member validator occurrences versus aligned native diagnostics, counted once",
+  "crossValidatorOverlap": "not-normalized; shared paths do not establish semantic identity",
+  "memberNativeAttribution": "unavailable; member-specific semantic tests are required",
+  "members": [
+    {
+      "rule": "PageableRequires200Response",
+      "rawCount": 0,
+      "assessableRawCount": 0,
+      "unassessedRawCount": 0,
+      "observations": [],
+      "projects": [],
+      "nativeAttribution": "unavailable",
+      "semanticCompleteness": "not-determined"
+    }
+  ],
+  "selectedProjectCount": 1,
+  "selectedValidatorRawCount": 0,
+  "assessableProjectCount": 1,
+  "unassessedProjects": [],
+  "unassessedValidatorRawCount": 0,
+  "unassessedNativeRawCount": 0,
+  "validatorProjects": [],
+  "nativeProjects": [],
+  "overlapProjects": [],
+  "validatorOnlyProjects": [],
+  "nativeOnlyProjects": [],
+  "observedProjectCoveragePercent": null,
+  "validatorRawCount": 0,
+  "validatorFileIndependentCount": 0,
+  "nativeRawCount": 0,
+  "nativeDefaultCount": 0,
+  "nativeAlignedCount": 0,
+  "nativeSourceCount": 0,
+  "nativeLocationlessCount": 0,
+  "rawValidatorExcess": 0,
+  "rawNativeExcess": 0,
+  "projectsWithEqualRawCounts": 1,
+  "projectsWithEqualCounts": 1,
+  "validatorExcess": 0,
+  "nativeExcess": 0,
+  "projects": [
+    {
+      "project": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku",
+      "apiVersion": "2021-07-01",
+      "validatorRawCount": 0,
+      "validatorFileIndependentCount": 0,
+      "nativeRawCount": 0,
+      "nativeDefaultCount": 0,
+      "nativeAlignedCount": 0,
+      "nativeSourceCount": 0,
+      "nativeLocationlessCount": 0,
+      "difference": 0,
+      "rawDifference": 0
+    }
+  ]
+}

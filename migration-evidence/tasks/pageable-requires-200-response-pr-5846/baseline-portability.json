@@ -1,0 +1,26 @@
+{
+  "status": "passed-saved-context-schema-compatibility",
+  "originalBaselineIdentity": "392e4b32fe44923ddbf82b02a8908401e6ea9852580a45cc15a9e4d3d3c9d39a",
+  "sanitizedBaselineIdentity": "6f62c292afe61e6b2e7cb156fe4e9bfbda32cd91524d928c1f6330f0a9ecfe7c",
+  "sealedDerivedIdentityVerified": true,
+  "toolingCommit": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+  "actualToolingFunctions": [
+    "validateBaselineCompatibility",
+    "readCoverageDataset"
+  ],
+  "savedOriginalContextAccepted": true,
+  "derivedContextEqualsSavedOriginalContext": true,
+  "selectedProjects": 487,
+  "validatorShards": 121,
+  "datasetReferencesAndShardSchemaValidated": true,
+  "datasetEveryFileHashVerified": "Separately verified during archive extraction; see asset-preparation.json.",
+  "runtimePlatform": "win32",
+  "nodeVersion": "v26.12.1",
+  "limitations": [
+    "This checks the installed analyzer against the frozen saved context, not a reconstructed current runtime or newly built candidate.",
+    "The copying reuseBaseline CLI path and new linter execution were not invoked. No fresh-engine compatible-baseline reuse claim.",
+    "Dataset inventories/reference paths retain the producer's Windows separators; sealed CLI baseline use is Windows-specific unless a separately derived/resealed platform conversion is verified.",
+    "Dependency-free compact/extracted observation reanalysis passed locally; only Windows execution was exercised.",
+    "No regeneration, upload/download roundtrip or full transitive engine-locking claim."
+  ]
+}

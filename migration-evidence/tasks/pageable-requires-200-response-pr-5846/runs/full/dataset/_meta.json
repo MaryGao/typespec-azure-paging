@@ -1,0 +1,2942 @@
+{
+  "schemaVersion": 4,
+  "complete": true,
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "filters": {
+    "serviceType": "resource-manager"
+  },
+  "summary": {
+    "discoveredProjects": 487,
+    "compiledProjects": 487,
+    "failedProjects": 0,
+    "emittedSwaggerFiles": 649,
+    "validatedProjects": 487,
+    "validationFailures": 0,
+    "violations": 222905,
+    "distinctRules": 121
+  },
+  "projects": [
+    {
+      "sourcePath": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/agricultureplatform/AgriculturePlatform.Management",
+      "apiVersion": "2024-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules",
+      "apiVersion": "2021-08-08",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations",
+      "apiVersion": "2023-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement",
+      "apiVersion": "2025-05-25-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule",
+      "apiVersion": "2025-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups",
+      "apiVersion": "2023-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts",
+      "apiVersion": "2023-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/anyscale/resource-manager/Anyscale.Platform/platform",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter",
+      "apiVersion": "2024-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement",
+      "apiVersion": "2025-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/app/resource-manager/Microsoft.App/ContainerApps",
+      "apiVersion": "2026-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/app/resource-manager/Microsoft.App/SreAgent",
+      "apiVersion": "2026-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/appcomplianceautomation/resource-manager/Microsoft.AppComplianceAutomation/AppComplianceAutomation",
+      "apiVersion": "2024-06-27",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration",
+      "apiVersion": "2025-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+      "apiVersion": "2015-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "apiVersion": "2015-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentLinkedStorageAccountApi",
+      "apiVersion": "2020-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components",
+      "apiVersion": "2025-01-23-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi",
+      "apiVersion": "2024-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+      "apiVersion": "2015-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi",
+      "apiVersion": "2021-10-14",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation",
+      "apiVersion": "2015-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+      "apiVersion": "2022-06-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkBookOperations",
+      "apiVersion": "2021-03-08",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi",
+      "apiVersion": "2023-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi",
+      "apiVersion": "2020-11-20",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/applink/AppLink.Management",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation",
+      "apiVersion": "2021-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AccessReview",
+      "apiVersion": "2021-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces",
+      "apiVersion": "2025-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/Authorization",
+      "apiVersion": "2024-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin",
+      "apiVersion": "2015-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment",
+      "apiVersion": "2024-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations",
+      "apiVersion": "2022-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment",
+      "apiVersion": "2022-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions",
+      "apiVersion": "2022-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts",
+      "apiVersion": "2022-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/automation/resource-manager/Microsoft.Automation/Automation",
+      "apiVersion": "2024-10-23",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/AccessAnalyzerAnalyzer.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/AcmCertificateSummary.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ApiGatewayRestApi.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ApiGatewayStage.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/AppSyncGraphqlApi.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/AutoScalingAutoScalingGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Awsconnector.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CloudFormationStack.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CloudFormationStackSet.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CloudFrontDistribution.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CloudTrailTrail.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CloudWatchAlarm.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CodeBuildProject.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/CodeBuildSourceCredentialsInfo.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ConfigServiceConfigurationRecorder.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ConfigServiceDeliveryChannel.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/DaxCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/DynamoDBContinuousBackupsDescription.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/DynamoDBTable.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2AccountAttribute.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Address.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2FlowLog.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Image.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Instance.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2InstanceStatus.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Ipam.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2KeyPair.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2NetworkAcl.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2NetworkInterface.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2RouteTable.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2SecurityGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Snapshot.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Subnet.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Volume.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2Vpc.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2VPCEndpoint.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Ec2VPCPeeringConnection.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EcrImageDetail.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EcrRepository.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EcsCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EcsService.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EcsTaskDefinition.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EfsFileSystem.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EfsMountTarget.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EksCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EksNodegroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticBeanstalkApplication.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticBeanstalkEnvironment.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticLoadBalancingV2Listener.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticLoadBalancingV2TargetGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/EmrCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/GuardDutyDetector.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamAccessKeyLastUsed.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamAccessKeyMetadata.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamInstanceProfile.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamMFADevice.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamPasswordPolicy.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamPolicyVersion.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamRole.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamServerCertificate.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/IamVirtualMFADevice.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/KmsAlias.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/KmsKey.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LambdaFunction.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LambdaFunctionCodeLocation.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LightsailBucket.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LightsailInstance.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LogsLogGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LogsLogStream.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LogsMetricFilter.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/LogsSubscriptionFilter.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Macie2JobSummary.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/MacieAllowList.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/NetworkFirewallFirewall.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/NetworkFirewallFirewallPolicy.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/NetworkFirewallRuleGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/OpenSearchDomainStatus.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/OrganizationsAccount.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/OrganizationsOrganization.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsDBCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsDBInstance.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsDBSnapshot.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsDBSnapshotAttributesResult.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsEventSubscription.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RdsExportTask.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RedshiftCluster.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/RedshiftClusterParameterGroup.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Route53DomainsDomainSummary.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Route53HostedZone.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Route53ResourceRecordSet.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/S3AccessControlPolicy.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/S3AccessPoint.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/S3Bucket.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/S3BucketPolicy.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SageMakerApp.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SageMakerNotebookInstanceSummary.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SecretsManagerResourcePolicy.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SecretsManagerSecret.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SnsSubscription.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SnsTopic.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SqsQueue.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SsmInstanceInformation.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SsmParameter.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/SsmResourceComplianceSummaryItem.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/Wafv2LoggingConfiguration.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/awsconnector/WafWebACLSummary.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azure-kusto/resource-manager/Microsoft.Kusto/Kusto",
+      "apiVersion": "2025-02-14",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azurearcdata/resource-manager/Microsoft.AzureArcData/AzureArcData",
+      "apiVersion": "2026-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azuredatatransfer/resource-manager/Microsoft.AzureDataTransfer/AzureDataTransfer",
+      "apiVersion": "2026-02-06-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azuredependencymap/resource-manager/Microsoft.DependencyMap/DependencyMap",
+      "apiVersion": "2025-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azurefleet/resource-manager/Microsoft.AzureFleet/AzureFleet",
+      "apiVersion": "2026-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azurelargeinstance/resource-manager/Microsoft.AzureLargeInstance/AzureLargeInstance",
+      "apiVersion": "2024-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azureresiliencemanagement/resource-manager/Microsoft.AzureResilienceManagement/AzureResilienceManagement",
+      "apiVersion": "2026-10-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI",
+      "apiVersion": "2026-10-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCIVM",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/batch/resource-manager/Microsoft.Batch/Batch",
+      "apiVersion": "2025-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/billing/resource-manager/Microsoft.Billing/Billing",
+      "apiVersion": "2024-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/billingbenefits/resource-manager/Microsoft.BillingBenefits/BillingBenefits",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust",
+      "apiVersion": "2026-03-17-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/botservice/resource-manager/Microsoft.BotService/BotService",
+      "apiVersion": "2023-09-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/carbon/resource-manager/Microsoft.Carbon/Carbon",
+      "apiVersion": "2025-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cdn/resource-manager/Microsoft.Cdn/EdgeActions",
+      "apiVersion": "2026-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration",
+      "apiVersion": "2024-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/chaos/resource-manager/Microsoft.Chaos/Chaos",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cloudhealth/resource-manager/Microsoft.CloudHealth/CloudHealth",
+      "apiVersion": "2026-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/codesigning/resource-manager/Microsoft.CodeSigning/CodeSigning",
+      "apiVersion": "2026-05-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cognitiveservices/resource-manager/Microsoft.CognitiveServices/CognitiveServices",
+      "apiVersion": "2026-09-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/commerce/resource-manager/Microsoft.Commerce/Commerce",
+      "apiVersion": "2015-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/communication/resource-manager/Microsoft.Communication/Communication",
+      "apiVersion": "2026-03-18",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/communitytraining/resource-manager/Microsoft.Community/Community",
+      "apiVersion": "2023-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Bulkactions",
+      "apiVersion": "2026-10-06-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeDisk",
+      "apiVersion": "2026-03-02",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeGallery",
+      "apiVersion": "2026-03-03",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku",
+      "apiVersion": "2021-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Recommender",
+      "apiVersion": "2026-10-05-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/WorkloadManager",
+      "apiVersion": "2026-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/computebulkactions/ComputeBulkActions.Management",
+      "apiVersion": "2026-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/computelimit/resource-manager/Microsoft.ComputeLimit/ComputeLimit",
+      "apiVersion": "2026-07-31",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/computeschedule/resource-manager/Microsoft.ComputeSchedule/ComputeSchedule",
+      "apiVersion": "2026-04-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/confidentialledger/resource-manager/Microsoft.ConfidentialLedger/ConfidentialLedger",
+      "apiVersion": "2026-05-22-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/confluent/resource-manager/Microsoft.Confluent/Confluent",
+      "apiVersion": "2026-06-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/connectedcache/resource-manager/Microsoft.ConnectedCache/ConnectedCache",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/consumption/resource-manager/Microsoft.Consumption/Consumption",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerinstance/resource-manager/Microsoft.ContainerInstance/ContainerInstance",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks",
+      "apiVersion": "2025-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/aimanager",
+      "apiVersion": "2026-09-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks",
+      "apiVersion": "2026-07-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards",
+      "apiVersion": "2025-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/fleet",
+      "apiVersion": "2026-06-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization",
+      "apiVersion": "2025-09-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/preparedimagespecification",
+      "apiVersion": "2026-05-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/containerstorage/resource-manager/Microsoft.ContainerStorage/ContainerStorage",
+      "apiVersion": "2023-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/contosowidgetmanager/Contoso.Management",
+      "apiVersion": "2021-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dashboard/resource-manager/Microsoft.Dashboard/Dashboard",
+      "apiVersion": "2025-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/databasefleetmanager/resource-manager/Microsoft.DatabaseFleetManager/DatabaseFleetManager",
+      "apiVersion": "2025-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/databasewatcher/resource-manager/Microsoft.DatabaseWatcher/DatabaseWatcher",
+      "apiVersion": "2025-01-02",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/databox/resource-manager/Microsoft.DataBox/DataBox",
+      "apiVersion": "2025-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge",
+      "apiVersion": "2023-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/databricks/resource-manager/Microsoft.Databricks/Databricks",
+      "apiVersion": "2026-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/datadog/resource-manager/Microsoft.Datadog/Datadog",
+      "apiVersion": "2025-12-26-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/datafactory/resource-manager/Microsoft.DataFactory/DataFactory",
+      "apiVersion": "2018-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/datamigration/resource-manager/Microsoft.DataMigration/DataMigration",
+      "apiVersion": "2025-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dataprotection/resource-manager/Microsoft.DataProtection/DataProtection",
+      "apiVersion": "2026-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dell/resource-manager/Dell.Storage/DellStorage",
+      "apiVersion": "2025-03-21-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/devcenter/resource-manager/Microsoft.DevCenter/DevCenter",
+      "apiVersion": "2026-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/developerhub/resource-manager/Microsoft.DevHub/DeveloperHub",
+      "apiVersion": "2025-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/deviceprovisioningservices/resource-manager/Microsoft.Devices/DeviceProvisioningServices",
+      "apiVersion": "2026-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/deviceregistry/resource-manager/Microsoft.DeviceRegistry/DeviceRegistry",
+      "apiVersion": "2026-11-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry",
+      "apiVersion": "2026-11-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/devopsinfrastructure/resource-manager/Microsoft.DevOpsInfrastructure/DevOpsInfrastructure",
+      "apiVersion": "2026-07-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/devtestlabs/resource-manager/Microsoft.DevTestLab/DevTestLabs",
+      "apiVersion": "2018-09-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/discovery/Discovery.Management",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dns/resource-manager/Microsoft.Network/Dns",
+      "apiVersion": "2023-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dnsresolver/resource-manager/Microsoft.Network/DnsResolver",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration",
+      "apiVersion": "2024-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/domainservices/resource-manager/Microsoft.AAD/DomainServices",
+      "apiVersion": "2026-08-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/dynatrace/resource-manager/Dynatrace.Observability/DynatraceObservability",
+      "apiVersion": "2024-04-24",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/configurationmanager",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/configurations",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/disconnectedOperations",
+      "apiVersion": "2026-03-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/edge",
+      "apiVersion": "2025-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/sites",
+      "apiVersion": "2025-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder",
+      "apiVersion": "2024-02-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones",
+      "apiVersion": "2026-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/education/resource-manager/Microsoft.Education/Education",
+      "apiVersion": "2021-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/elastic/resource-manager/Microsoft.Elastic/Elastic",
+      "apiVersion": "2026-03-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/elasticsan/resource-manager/Microsoft.ElasticSan/ElasticSan",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/eventgrid/resource-manager/Microsoft.EventGrid/EventGrid",
+      "apiVersion": "2026-06-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController",
+      "apiVersion": "2026-09-25-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations",
+      "apiVersion": "2021-08-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/fileshares/resource-manager/Microsoft.FileShares/FileShares",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/fist/resource-manager/Microsoft.IoTFirmwareDefense/IoTFirmwareDefense",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/frontdoor/resource-manager/Microsoft.Network/FrontDoor",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/github-network/resource-manager/GitHub.Network/GitHubNetwork",
+      "apiVersion": "2024-04-02",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments",
+      "apiVersion": "2024-04-05",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure",
+      "apiVersion": "2020-02-07-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hardwaresecuritymodules/resource-manager/Microsoft.HardwareSecurityModules/HardwareSecurityModules",
+      "apiVersion": "2025-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsight",
+      "apiVersion": "2025-01-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot",
+      "apiVersion": "2025-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis",
+      "apiVersion": "2025-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices",
+      "apiVersion": "2024-09-20",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/help/resource-manager/Microsoft.Help/Help",
+      "apiVersion": "2024-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/horizondb/resource-manager/Microsoft.HorizonDb/HorizonDb",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hybridaks/resource-manager/Microsoft.HybridContainerService/HybridContainerService",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hybridcompute/resource-manager/Microsoft.HybridCompute/HybridCompute",
+      "apiVersion": "2026-07-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hybridconnectivity/resource-manager/Microsoft.HybridConnectivity/HybridConnectivity",
+      "apiVersion": "2027-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes",
+      "apiVersion": "2026-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder",
+      "apiVersion": "2025-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/impact/resource-manager/Microsoft.Impact/Impact",
+      "apiVersion": "2026-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/informatica/resource-manager/Informatica.DataManagement/Informatica",
+      "apiVersion": "2025-11-27",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+      "apiVersion": "2026-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/iotoperations/resource-manager/Microsoft.IoTOperations/IoTOperations",
+      "apiVersion": "2026-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor",
+      "apiVersion": "2023-10-04-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/iotoperationsmq/resource-manager/Microsoft.IoTOperationsMQ/IoTOperationsMQ",
+      "apiVersion": "2023-10-04-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator",
+      "apiVersion": "2023-10-04-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions",
+      "apiVersion": "2025-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes",
+      "apiVersion": "2024-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations",
+      "apiVersion": "2025-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/kubernetesResources",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes",
+      "apiVersion": "2024-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments",
+      "apiVersion": "2026-06-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/kubernetesruntime/resource-manager/Microsoft.KubernetesRuntime/KubernetesRuntime",
+      "apiVersion": "2024-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval",
+      "apiVersion": "2024-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro",
+      "apiVersion": "2024-08-27-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrcommvault/Commvault.ContentStore.Management",
+      "apiVersion": "2026-09-30",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute",
+      "apiVersion": "2024-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrmongodb/resource-manager/MongoDB.Atlas/MongoDBAtlas",
+      "apiVersion": "2026-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb",
+      "apiVersion": "2024-10-22-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage",
+      "apiVersion": "2026-04-16",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases",
+      "apiVersion": "2024-09-18-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting",
+      "apiVersion": "2024-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/playwright",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/logic/resource-manager/Microsoft.Logic/Logic",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/managednetworkfabric/resource-manager/Microsoft.ManagedNetworkFabric/ManagedNetworkFabric",
+      "apiVersion": "2025-07-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/managedoperations/ManagedOps.Management",
+      "apiVersion": "2026-01-06-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/management/resource-manager/Microsoft.Management/ManagementGroups",
+      "apiVersion": "2023-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/management/resource-manager/Microsoft.Management/ServiceGroups",
+      "apiVersion": "2026-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/manufacturingplatform/Manufacturingplatform.Management",
+      "apiVersion": "2025-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/maps/resource-manager/Microsoft.Maps/Maps",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace",
+      "apiVersion": "2025-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products",
+      "apiVersion": "2025-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews",
+      "apiVersion": "2023-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus",
+      "apiVersion": "2025-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/AKSAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/AssessmentProjects",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/BusinessCases",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/Collectors",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/Waves",
+      "apiVersion": "2026-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/WebAppAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments",
+      "apiVersion": "2024-03-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/migrate/resource-manager/Microsoft.OffAzure/OffAzure",
+      "apiVersion": "2024-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/mission/resource-manager/Microsoft.Mission/Mission",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/mongocluster/resource-manager/Microsoft.DocumentDB/MongoCluster",
+      "apiVersion": "2026-06-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata",
+      "apiVersion": "2025-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi",
+      "apiVersion": "2024-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi",
+      "apiVersion": "2023-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi",
+      "apiVersion": "2015-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi",
+      "apiVersion": "2016-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi",
+      "apiVersion": "2022-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi",
+      "apiVersion": "2024-03-11",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings",
+      "apiVersion": "2021-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi",
+      "apiVersion": "2016-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricAlertApi",
+      "apiVersion": "2026-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi",
+      "apiVersion": "2019-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi",
+      "apiVersion": "2024-02-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi",
+      "apiVersion": "2021-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi",
+      "apiVersion": "2023-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi",
+      "apiVersion": "2025-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi",
+      "apiVersion": "2016-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups",
+      "apiVersion": "2023-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding",
+      "apiVersion": "2018-11-27-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts",
+      "apiVersion": "2026-09-03-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/PipelineGroups",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis",
+      "apiVersion": "2025-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity",
+      "apiVersion": "2025-05-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers",
+      "apiVersion": "2025-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/napster/Napster.CompanionAPI.Management",
+      "apiVersion": "2026-08-11",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/netapp/resource-manager/Microsoft.NetApp/NetApp",
+      "apiVersion": "2026-06-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/network/resource-manager/Microsoft.Network/Network/Network",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/network/resource-manager/Microsoft.Network/Network/Vmss",
+      "apiVersion": "2018-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/networkcloud/resource-manager/Microsoft.NetworkCloud/NetworkCloud",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector",
+      "apiVersion": "2022-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/newrelic/resource-manager/NewRelic.Observability/NewRelicObservability",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/nginx/resource-manager/Nginx.NginxPlus/NginxPlus",
+      "apiVersion": "2025-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs",
+      "apiVersion": "2023-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation",
+      "apiVersion": "2025-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/oracle/resource-manager/Oracle.Database/OracleDatabase",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/orbitalplanetarycomputer/Orbital.Management",
+      "apiVersion": "2026-04-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/paloaltonetworks/resource-manager/PaloAltoNetworks.Cloudngfw/Cloudngfw",
+      "apiVersion": "2026-08-27-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/peering/resource-manager/Microsoft.Peering/Peering",
+      "apiVersion": "2025-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/platformvalidation/resource-manager/Microsoft.PlatformValidation/PlatformValidation",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/playwrighttesting/PlaywrightTesting.Management",
+      "apiVersion": "2024-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyInsightsApi",
+      "apiVersion": "2024-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi",
+      "apiVersion": "2018-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/portal/resource-manager/Microsoft.Portal/Portal",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings",
+      "apiVersion": "2024-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/portalservices/resource-manager/Microsoft.PortalServices/extensions",
+      "apiVersion": "2025-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/postgresql/DBforPostgreSQL.Management",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/postgresqlhsc/resource-manager/Microsoft.DBforPostgreSQL/PostgresqlHsc",
+      "apiVersion": "2023-03-02-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated",
+      "apiVersion": "2021-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform",
+      "apiVersion": "2020-10-30-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/privatedns/resource-manager/Microsoft.Network/PrivateDns",
+      "apiVersion": "2024-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/privatetrafficmanager/resource-manager/Microsoft.Network/PrivateTrafficManager",
+      "apiVersion": "2026-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment",
+      "apiVersion": "2026-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/programmableconnectivity/ProgrammableConnectivity.Management",
+      "apiVersion": "2025-03-30-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/providerhub/resource-manager/Microsoft.ProviderHub/ProviderHub",
+      "apiVersion": "2026-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/purestorage/resource-manager/PureStorage.Block/PureStorageBlock",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/purview/resource-manager/Microsoft.Purview/Purview",
+      "apiVersion": "2024-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy",
+      "apiVersion": "2023-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/quantum/resource-manager/Microsoft.Quantum/Quantum",
+      "apiVersion": "2026-06-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/quota/resource-manager/Microsoft.Quota/Quota",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices",
+      "apiVersion": "2026-08-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/recoveryservicesbackup/resource-manager/Microsoft.RecoveryServices/RecoveryServicesBackup",
+      "apiVersion": "2026-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/recoveryservicesdatareplication/resource-manager/Microsoft.DataReplication/DataReplication",
+      "apiVersion": "2026-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery",
+      "apiVersion": "2026-08-31-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/hcpopenshiftclusters",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters",
+      "apiVersion": "2025-07-25",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/redis/resource-manager/Microsoft.Cache/Redis",
+      "apiVersion": "2025-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/relationships/resource-manager/Microsoft.Relationships/Relationships",
+      "apiVersion": "2026-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/relay/resource-manager/Microsoft.Relay/Relay",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota",
+      "apiVersion": "2020-10-25",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations",
+      "apiVersion": "2022-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector",
+      "apiVersion": "2025-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi",
+      "apiVersion": "2024-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges",
+      "apiVersion": "2020-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi",
+      "apiVersion": "2024-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory",
+      "apiVersion": "2021-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth",
+      "apiVersion": "2025-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Authorization/policy",
+      "apiVersion": "2026-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/bicep",
+      "apiVersion": "2023-11-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/databoundaries",
+      "apiVersion": "2024-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+      "apiVersion": "2026-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deploymentScripts",
+      "apiVersion": "2023-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deploymentStacks",
+      "apiVersion": "2025-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/resources",
+      "apiVersion": "2025-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/resourceValidator",
+      "apiVersion": "2022-06-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/subscriptions",
+      "apiVersion": "2022-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/scvmm/resource-manager/Microsoft.ScVmm/ScVmm",
+      "apiVersion": "2025-03-13",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/search/resource-manager/Microsoft.Search/Search",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI",
+      "apiVersion": "2022-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI",
+      "apiVersion": "2019-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ApiCollectionsAPI",
+      "apiVersion": "2023-11-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI",
+      "apiVersion": "2022-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI",
+      "apiVersion": "2025-05-04",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI",
+      "apiVersion": "2019-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI",
+      "apiVersion": "2023-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI",
+      "apiVersion": "2026-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI",
+      "apiVersion": "2017-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI",
+      "apiVersion": "2026-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI",
+      "apiVersion": "2026-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI",
+      "apiVersion": "2022-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/HealthReportsAPI",
+      "apiVersion": "2023-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI",
+      "apiVersion": "2019-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI",
+      "apiVersion": "2017-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI",
+      "apiVersion": "2015-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI",
+      "apiVersion": "2021-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI",
+      "apiVersion": "2026-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI",
+      "apiVersion": "2026-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI",
+      "apiVersion": "2019-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI",
+      "apiVersion": "2020-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsDevOpsAPI",
+      "apiVersion": "2025-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI",
+      "apiVersion": "2023-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecuritySolutionsAPI",
+      "apiVersion": "2020-01-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityStandardsAPI",
+      "apiVersion": "2024-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI",
+      "apiVersion": "2023-02-15-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI",
+      "apiVersion": "2023-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementsAPI",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI",
+      "apiVersion": "2026-09-16-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI",
+      "apiVersion": "2022-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SqlVulnerabilityAssessmentsAPI",
+      "apiVersion": "2026-04-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI",
+      "apiVersion": "2021-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI",
+      "apiVersion": "2019-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/TasksAPI",
+      "apiVersion": "2015-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/securityinsights/resource-manager/Microsoft.SecurityInsights/SecurityInsights",
+      "apiVersion": "2025-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole",
+      "apiVersion": "2024-07-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus",
+      "apiVersion": "2026-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+      "apiVersion": "2026-03-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters",
+      "apiVersion": "2026-05-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/servicelinker/resource-manager/Microsoft.ServiceLinker/ServiceLinker",
+      "apiVersion": "2024-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService",
+      "apiVersion": "2025-01-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/solutions/resource-manager/Microsoft.Solutions/Solutions",
+      "apiVersion": "2023-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign",
+      "apiVersion": "2025-02-27-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere",
+      "apiVersion": "2024-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/splitio/SplitIO.Experimentation.Management",
+      "apiVersion": "2024-07-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/sql/resource-manager/Microsoft.Sql/SQL",
+      "apiVersion": "2026-08-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/sqlvirtualmachine/resource-manager/Microsoft.SqlVirtualMachine/SqlVirtualMachine",
+      "apiVersion": "2023-10-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storagecache/resource-manager/Microsoft.StorageCache/StorageCache",
+      "apiVersion": "2026-08-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storagediscovery/resource-manager/Microsoft.StorageDiscovery/StorageDiscovery",
+      "apiVersion": "2026-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storagemover/resource-manager/Microsoft.StorageMover/StorageMover",
+      "apiVersion": "2026-05-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync",
+      "apiVersion": "2025-12-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription",
+      "apiVersion": "2025-11-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/support/resource-manager/Microsoft.Support/Support",
+      "apiVersion": "2025-06-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform",
+      "apiVersion": "2026-09-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/trafficmanager/resource-manager/Microsoft.Network/TrafficManager",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId",
+      "apiVersion": "2024-01-26-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/vmware/resource-manager/Microsoft.AVS/AVS",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/web/resource-manager/Microsoft.Web/AppService",
+      "apiVersion": "2026-07-15",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService",
+      "apiVersion": "2025-12-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/widget/resource-manager/Microsoft.Widget/Widget",
+      "apiVersion": "2024-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/workloads/resource-manager/Microsoft.Workloads/monitors",
+      "apiVersion": "2024-02-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites",
+      "apiVersion": "2023-10-01-preview",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    },
+    {
+      "sourcePath": "specification/workloads/resource-manager/Microsoft.Workloads/SAPVirtualInstance",
+      "apiVersion": "2024-09-01",
+      "compileStatus": "success",
+      "validationStatus": "success"
+    }
+  ]
+}

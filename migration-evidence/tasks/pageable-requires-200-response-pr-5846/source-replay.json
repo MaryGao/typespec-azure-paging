@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "snapshot": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+  "tree": "eab9878c52b99f4a6104130ab07e694d5d5513a4",
+  "prerequisite": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+  "prerequisiteRecovery": "Fetched exact public prerequisite into a new independent Git repository. No development-worktree dirt, object alternates or session dependency copied.",
+  "bundle": "candidate-source-c4497d2.bundle",
+  "bundleBytes": 2312,
+  "bundleSha256": "1d352be7465c174a9b63d942090e2f1aaf09d72f2def6a716ba1a5bb4c70f97e",
+  "bundleRecovery": "Bundle verify/fetch passed; exact snapshot checked out detached with clean status and matching tree.",
+  "coreGitlink": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+  "remoteWrites": 0,
+  "publicSourceIdentityChecks": [
+    {
+      "repository": "microsoft/typespec",
+      "commit": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "file": "package.json",
+      "sha256": "c2fd393c561b307e3164f9d60f688416b5b8124aa7c5881c2c3cceb6ebe3a24c",
+      "publicDownloadMatchesFrozenGitBlob": true
+    },
+    {
+      "repository": "microsoft/typespec",
+      "commit": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "file": "pnpm-lock.yaml",
+      "sha256": "f5a429021c45fed27a5486c5787d9773744c475a25b2263fe3a8a96a971070fd",
+      "publicDownloadMatchesFrozenGitBlob": true
+    },
+    {
+      "repository": "microsoft/typespec",
+      "commit": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "file": "LICENSE",
+      "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0",
+      "publicDownloadMatchesFrozenGitBlob": true
+    },
+    {
+      "repository": "Azure/azure-rest-api-specs",
+      "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+      "file": "package.json",
+      "sha256": "80952fb818fcb6c98b97b1c99bfc08482834f9149a8e483bb05acc5e9dd5ff33",
+      "publicDownloadMatchesFrozenGitBlob": true
+    },
+    {
+      "repository": "Azure/azure-rest-api-specs",
+      "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+      "file": "pnpm-lock.yaml",
+      "sha256": "cd9ce2e14858d2c418127c2656512990f810d4c884588eeff5850d23cb63a120",
+      "publicDownloadMatchesFrozenGitBlob": true
+    },
+    {
+      "repository": "Azure/azure-rest-api-specs",
+      "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+      "file": "LICENSE",
+      "sha256": "b37363bf2295aa0acde60ce78a60034a71a0955075fc01aa09cc23eadff44436",
+      "publicDownloadMatchesFrozenGitBlob": true
+    }
+  ],
+  "limitations": "Local bundle roundtrip, not release-asset upload/download. Core/specs public manifest, lock and license bytes verified; no full Core/specs checkout, dependency installation, coverage regeneration or transitive engine-locking claim."
+}

@@ -1,0 +1,653 @@
+{
+  "interpretation": "Local provenance index, not all entries passing: failures/recoveries preserved with exact receipt hashes. Raw machine-specific commands/logs retained locally; full current corpus not yet finished.",
+  "receipts": [
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:01:53.0499743Z",
+      "file": "native-first-5846-actual-candidate-artifact-injection.receipt.json",
+      "finished": "2026-10-28T04:02:52.1709049Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "3568763E13F332DE64E91BF8DC7A5FF359558F66BA8D969CA1F8676AA5C7BE83"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:11:56.0407333Z",
+      "file": "native-first-5846-actual-doc-examples-and-overlap.receipt.json",
+      "finished": "2026-10-27T10:12:05.4659294Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "AFFF07538BE7C8C0DC3DCC888BF5845E5E09C411BD6CC26C765A51F66FAAA22D"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:50:04.0554382Z",
+      "file": "native-first-5846-authored-format.receipt.json",
+      "finished": "2026-10-27T09:50:06.558478Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "12122ED43965A992B6BFEC250FBD011CCB465E965F3B9E096B6684258955710D"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:04:52.2404632Z",
+      "file": "native-first-5846-authorized-pack-readiness.receipt.json",
+      "finished": "2026-10-28T03:04:59.2597278Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "AFBD4415B75FE09E018E467ECBA65B2CD867B4212363C9A48EFB319ABB431B0A"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:07:33.2437695Z",
+      "file": "native-first-5846-autorest-registry-grant-preservation.receipt.json",
+      "finished": "2026-10-28T05:07:36.9382374Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "19BB32A8BB9F6D17CA1216C34D3E22A524551F5BFD5B0C8C81CBCCEE02D67419"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:46:48.0181595Z",
+      "file": "native-first-5846-build-closure-provisioned.receipt.json",
+      "finished": "2026-10-27T09:48:20.0765404Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "E3BDD5267E60615FF6E7B8B0649D18D8AEB3D8D7FF50954196CFA462284B36E6"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:43:47.3630356Z",
+      "file": "native-first-5846-build-closure.receipt.json",
+      "finished": "2026-10-27T09:44:28.1762315Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "3E7B1A51EF0807DEECDD8F73C7A54B9DA763095A4768E79126770122A59BA3BD"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:26:10.4009695Z",
+      "file": "native-first-5846-candidate-source-replay-bundle-preparation.receipt.json",
+      "finished": "2026-10-28T05:26:11.323646Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "D88C8F75CB813CB9889A776C5EB654D18E241B6D0EDAF79AFBA945E10A5B9A19"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:54:56.6260123Z",
+      "file": "native-first-5846-chronus-status.receipt.json",
+      "finished": "2026-10-27T09:54:58.744138Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "8EBFFD85724FE4B7043EAD5CD73891DC413056C0BA094068DB3471D4A2360A28"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:04:58.5604085Z",
+      "file": "native-first-5846-comparison-baseline-build.receipt.json",
+      "finished": "2026-10-27T10:06:28.4864468Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "080A41777BA6FDD53413FF9B8C0683A65E15381E858006698D41AA20B4B3DF60"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:04:22.7652332Z",
+      "file": "native-first-5846-comparison-baseline-core.receipt.json",
+      "finished": "2026-10-27T10:04:46.525949Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "17338844B93874B8CF0CBA4B7D3D77C0BACB287FE5932B53A40FE649561EBE05"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:04:18.6499329Z",
+      "file": "native-first-5846-comparison-baseline-create.receipt.json",
+      "finished": "2026-10-27T10:04:22.5328767Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "714B9EF860C0839C951E117C5465F5E9E6636F40AB82D3C0C1475E797E5D9ECC"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:06:57.1963886Z",
+      "file": "native-first-5846-comparison-baseline-focused.receipt.json",
+      "finished": "2026-10-27T10:07:32.5041124Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "AE4C8902C58E5E0DE6E3B07EB933292C9FCC7FE9D163EB51FE8B88EB3E529CD3"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:04:46.7539377Z",
+      "file": "native-first-5846-comparison-baseline-install.receipt.json",
+      "finished": "2026-10-27T10:04:58.4024869Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "2BF5C185FC9A740336155908796889189643C6490C2475C92C693316A5B92FF5"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:06:56.0619262Z",
+      "file": "native-first-5846-comparison-baseline-loaded-identity.receipt.json",
+      "finished": "2026-10-27T10:06:57.0258493Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "40FC6CF88F40B519FD60F344DB0A2F98FED36294EEB6C127995278FE8BBC40C0"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:08:06.5395622Z",
+      "file": "native-first-5846-comparison-core-full.receipt.json",
+      "finished": "2026-10-27T10:09:58.3413618Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "C840471F4FF0CB18D8CF3647FE29A6A82908C63ABEF9512527ED13CA0732BCDE"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:07:33.3202451Z",
+      "file": "native-first-5846-comparison-draft-focused.receipt.json",
+      "finished": "2026-10-27T10:08:04.2793814Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "A4A08232E7A7E2CEB53A7C6F9B491DB9C3A63390268E312EBF85E559F2DCCD01"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:06:31.2845326Z",
+      "file": "native-first-5846-comparison-preservation-after-baseline-build.receipt.json",
+      "finished": "2026-10-27T10:06:31.751749Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "4F67F11F4147FBE9B85B454C2CAF9DBF6F322AEBE68A923CE6A4B24B51C36CCE"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:09:58.9526865Z",
+      "file": "native-first-5846-comparison-preservation-after-full.receipt.json",
+      "finished": "2026-10-27T10:09:59.5018284Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "96CDBF60EF53E4AFE5B0B42F0DBB96C665240FDF3D7151D87D045C1AFC3C7322"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:07:32.7264265Z",
+      "file": "native-first-5846-comparison-preservation-before-draft.receipt.json",
+      "finished": "2026-10-27T10:07:33.1814853Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "66393982EE9CCF8BD564D877B222E4CC92E8AF1F1007B148B7B0E4D7613B558D"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:08:05.7604394Z",
+      "file": "native-first-5846-comparison-preservation-before-full.receipt.json",
+      "finished": "2026-10-27T10:08:06.2846063Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "544CB40801B68E5B331B28AED8AC21FFB52DC5BBAA3C12577703D3F05FAC57CD"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:04:17.1671845Z",
+      "file": "native-first-5846-comparison-preserve-native.receipt.json",
+      "finished": "2026-10-27T10:04:18.4798591Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "8C43878CC6105BE5F8A46EC7F05491A82126A711F9FC1929BA45FAFF17FD369B"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:00:13.3971643Z",
+      "file": "native-first-5846-complete-artifact-closure-assembly.receipt.json",
+      "finished": "2026-10-28T04:00:33.0512186Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "DB02132263DAC56F62CF0A0A384AA2F49C7DD66DF9B6E537777FF75C0216EDE0"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:46.4428856Z",
+      "file": "native-first-5846-core-build-final.receipt.json",
+      "finished": "2026-10-27T09:53:55.2437746Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "9BF9868E9065F8E1267FFC4ACF6FDBA893D965214B5212527D9064C49D7AB29B"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:54:31.8551107Z",
+      "file": "native-first-5846-core-docs-regen.receipt.json",
+      "finished": "2026-10-27T09:54:56.4302725Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "EB1931BD1852CFDA6F57D018331CDFB246452EBAF6EDE08E3AEBAEBD3280C0D8"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:54:20.6610885Z",
+      "file": "native-first-5846-core-full-tests-final.receipt.json",
+      "finished": "2026-10-27T09:55:10.5912595Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "0512E01BCB49DE2CAC57877ADDAA7CC6891D9FE52876EF094AF6498E0829C454"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:58:39.1082459Z",
+      "file": "native-first-5846-core-full-tests-timeout-diagnosis.receipt.json",
+      "finished": "2026-10-27T10:01:06.9868645Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "F6C220A021811300655ACB9F9DB4B3931491E2079337B136641637E8FD72A9D7"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:22:57.9988045Z",
+      "file": "native-first-5846-core-implicit-install-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T03:23:04.6341308Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "12AF3D2ABE7E579E5DD53A2A70BADEA2DD1FADCC7993EFACAEEE343B54D6BD10"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:55.3961388Z",
+      "file": "native-first-5846-core-lint-final.receipt.json",
+      "finished": "2026-10-27T09:53:57.3145019Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "982D5AC440ED8279595BA926B8528B9401F39209072FA4250451D16317EED126"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:11:17.0378753Z",
+      "file": "native-first-5846-core-main-assumption-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T03:11:22.2325533Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "6A9C9550B4EA863F1ABB5533249E10B25C647FCB200E478A99AA11E57F9B83E4"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:14:50.7693107Z",
+      "file": "native-first-5846-core-output-shadow-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T03:14:53.0109748Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "B7930DC75299D900A308D7A0A613DE22A32A18B4E9ACBE4209A155C10EA34580"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:46:25.8769318Z",
+      "file": "native-first-5846-core-root-install.receipt.json",
+      "finished": "2026-10-27T09:46:29.5717649Z",
+      "exitCode": 0,
+      "head": null,
+      "sha256": "9D42DFFBFFD630E49A6CFC199466CB94517A6F2F143998EE46A94E86ECF800A9"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:58:17.6768374Z",
+      "file": "native-first-5846-core-wrapper-direct-cli-help.receipt.json",
+      "finished": "2026-10-28T03:58:28.7151224Z",
+      "exitCode": 0,
+      "head": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "sha256": "F0F228B9845524B0980B156CDA638975BBD03EE8D8E2E38593C8041FBB2A62BE"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:58:47.0847607Z",
+      "file": "native-first-5846-core-wrapper-direct-pack-attempt1.receipt.json",
+      "finished": "2026-10-28T03:59:09.275343Z",
+      "exitCode": 0,
+      "head": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "sha256": "24359BD072CE4811A63814AFB2DDFCF4497BFAD83191343D15A0E699EBA941CD"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:57:28.9847857Z",
+      "file": "native-first-5846-core-wrapper-runtime-provenance.receipt.json",
+      "finished": "2026-10-28T03:58:17.4163608Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "27BCBB0756290C30CE0253D90E8C055839F4F2B9F0CC5B3823759B48FB76F55E"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:13:51.7041212Z",
+      "file": "native-first-5846-corrected-core-pack-readiness.receipt.json",
+      "finished": "2026-10-28T03:13:52.3140441Z",
+      "exitCode": 1,
+      "head": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "sha256": "9BD032D11FDE98034211D5DE405910F5874D43B390EF4C40099DE3478E57F992"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:56:18.2084788Z",
+      "file": "native-first-5846-diff-hygiene.receipt.json",
+      "finished": "2026-10-27T09:56:18.4617871Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "C9CA435F5752D09A5059BA3B33089085EBCB91EEE1AE636341AD98DD087075CE"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:56:16.5598379Z",
+      "file": "native-first-5846-explicit-docs-format-check.receipt.json",
+      "finished": "2026-10-27T09:56:18.0483042Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "A1A83A627A92D00E8E101780373CC5E7EB32D4195F9D37A4811B7D320BB8BCDF"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:56:14.8402098Z",
+      "file": "native-first-5846-explicit-docs-format.receipt.json",
+      "finished": "2026-10-27T09:56:16.3658078Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "9F9A61CE6C2790D59659F7A03F484F4DC65565BD81819BF6052F674F20A44F83"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:10:21.6416136Z",
+      "file": "native-first-5846-first-core-pack-readiness.receipt.json",
+      "finished": "2026-10-28T03:10:22.176628Z",
+      "exitCode": 1,
+      "head": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "sha256": "B9471BA19D6B501E44CEC088A49EB1D2BF66DBBB963FD6362B7EDE735FBB6A80"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:50:06.7610286Z",
+      "file": "native-first-5846-focused-green.receipt.json",
+      "finished": "2026-10-27T09:50:19.0850979Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "F6279722F5A79495AEC474323EA19B5E474B4261A634A3432BB16434749CFFF6"
+    },
+    {
+      "gate": "required preexisting defect reproduction",
+      "started": "2026-10-27T09:48:21.6601328Z",
+      "file": "native-first-5846-focused-red.receipt.json",
+      "finished": "2026-10-27T09:48:44.3423328Z",
+      "exitCode": 1,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "A7E86920D11A2F439F69D7867D4583A80C656528869A0760D48BF58CDC45CBAB"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:15:44.9259349Z",
+      "file": "native-first-5846-immutable-source-snapshot.receipt.json",
+      "finished": "2026-10-27T10:15:50.7335864Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "2B380EFC7B4E84477A14846B9B70F174D0118A43437C9233DEEDB181D52DF2BB"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:03:47.8808611Z",
+      "file": "native-first-5846-injected-framework-control-suite.receipt.json",
+      "finished": "2026-10-28T04:05:59.2538006Z",
+      "exitCode": 0,
+      "head": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+      "sha256": "9D04A6E7B02DB3227DCB5BAF5E5C0D545C03771268D1B99B75694FDD3A22B8DA"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:08:49.2719459Z",
+      "file": "native-first-5846-injected-paging-arm-data-plane-controls.receipt.json",
+      "finished": "2026-10-28T04:08:57.1784082Z",
+      "exitCode": 1,
+      "head": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+      "sha256": "0E0619299A618C47FCF705F795D61344C2D041A026C3DEB6903B4447BDFA591B"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:55:15.5941942Z",
+      "file": "native-first-5846-injected-paging-controls-genuine-api-version.receipt.json",
+      "finished": "2026-10-28T04:56:18.6032542Z",
+      "exitCode": 0,
+      "head": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+      "sha256": "BEB14B6576241712C54448F01603D967DBB7BD186EB209949B22733D5F8DFBF1"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T06:07:30.5762541Z",
+      "file": "native-first-5846-local-evidence-controls-and-reanalysis-preparation.receipt.json",
+      "finished": "2026-10-28T06:07:31.0975974Z",
+      "exitCode": 0,
+      "head": "36174b95978ff4fef775091f0bbdffecc41f2672",
+      "sha256": "F9860A3A48AF73E228ECCFB7F49217253EEDA3E8F3AB5C854DCB18CA7FD6DC4B"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:18:03.4667324Z",
+      "file": "native-first-5846-native-preservation-after-snapshot-build.receipt.json",
+      "finished": "2026-10-27T10:18:03.995136Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "00E742C7B0618772F6601B9E5A95C7A21912D7EED180BBFA869CB05EF9DA1157"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:54:35.1965164Z",
+      "file": "native-first-5846-outer-local-checkpoint-source-preservation.receipt.json",
+      "finished": "2026-10-28T05:54:41.764933Z",
+      "exitCode": 0,
+      "head": "68d7ddf11a93dd52f0efedebc36c67c925afc64b",
+      "sha256": "18221E3CB7ACCC6056D042D19265F77FCE7F39D49601422C78824FD67D6C94FA"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:17:24.9949235Z",
+      "file": "native-first-5846-output-fixed-core-pack-readiness.receipt.json",
+      "finished": "2026-10-28T03:17:25.9299735Z",
+      "exitCode": 0,
+      "head": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a",
+      "sha256": "3CDBFD0A4B0C58F47FEB3F655BDFE019C6EE1A834DFA8914F49A21C10A14C309"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:20:18.9364244Z",
+      "file": "native-first-5846-pack-failure-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-27T10:20:25.5000865Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "B69CE0270B274F80D6B1FB159BD2AA530F23BE250F7BBE3D0FB6126410F6F424"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:10:35.6467143Z",
+      "file": "native-first-5846-paging-control-api-version-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T04:10:44.8357803Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "4816FAA41B32F1CB7FF9C34B3AFC508415C109FB06D42C3CF3D9F56D8E113F77"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:54:42.3167889Z",
+      "file": "native-first-5846-paging-version-resumption-preservation.receipt.json",
+      "finished": "2026-10-28T04:54:47.1817587Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "6D6850AAED56012EB1160E65D938312563AFF5A9CCBC5F5EAF9757ACB3CBC25B"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T04:58:24.8654382Z",
+      "file": "native-first-5846-representative-arm-preflight.receipt.json",
+      "finished": "2026-10-28T04:59:20.357927Z",
+      "exitCode": 1,
+      "head": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+      "sha256": "CA81F425998AD69080BA17129B900055DA24E646A478B009E4DC1A5B44550D09"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:03:45.7704959Z",
+      "file": "native-first-5846-representative-bootstrap-handoff-seal.receipt.json",
+      "finished": "2026-10-28T05:03:50.4768263Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "1AFFC96497703983834F990343D82B9F004AAB620CDB9E6B9E37AC184532AA2C"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:02:09.4374389Z",
+      "file": "native-first-5846-representative-core-bootstrap-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T05:02:14.7086396Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "74BF69162ED13C01D8F912273373EE3F9C181B6A91E83A1BA4AE623F130ABDDA"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:27:53.6031527Z",
+      "file": "native-first-5846-representative-independent-observation-reanalysis.receipt.json",
+      "finished": "2026-10-28T05:27:55.3318258Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "3A31213B460A7C7AE0D76BCD0823D73E8D3E1E4360EC982297F90927A2F5841C"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:33.9375596Z",
+      "file": "native-first-5846-reserve2-focused-suite.receipt.json",
+      "finished": "2026-10-27T09:53:46.2892403Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "287AFB3BE05110847D72F7FB8D3BAF0F3768480C0C8883CA163C76B89953B9E9"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:32.4027313Z",
+      "file": "native-first-5846-reserve2-test-format.receipt.json",
+      "finished": "2026-10-27T09:53:33.7450995Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "250C810C427F63DE6990CE90766DA743B49A813A4C1D704F1B755A7D95877F63"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:14:49.4526989Z",
+      "file": "native-first-5846-reserve3-actual-doc-examples-and-overlap.receipt.json",
+      "finished": "2026-10-27T10:14:56.5388091Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "B4CB4586EDCED7E63516AFE9F3E9DD29695B3A2F5AEB361205EF4C7543C11502"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:14:56.7299873Z",
+      "file": "native-first-5846-reserve3-native-preservation.receipt.json",
+      "finished": "2026-10-27T10:14:57.1822091Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "1683338A54FE468C4237D3FE322A848930371DFC12F7931A83277E78F655774D"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:57.4619266Z",
+      "file": "native-first-5846-rulesets-build-final.receipt.json",
+      "finished": "2026-10-27T09:53:58.6603206Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "FDA34152AE28DEC3BF094A20755254069EDB31CD9D344033511A8AF1365ADD58"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T09:53:58.8110046Z",
+      "file": "native-first-5846-rulesets-tests-final.receipt.json",
+      "finished": "2026-10-27T09:54:11.8143733Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "EDA7870398CD9BF6B65217882D68ED089B29D22720D3033BC50141932A1A6829"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:16:27.4573223Z",
+      "file": "native-first-5846-snapshot-closure-build.receipt.json",
+      "finished": "2026-10-27T10:18:00.7228784Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "CF32AB1A9AF98C22A2C2A965E49C9A8C312D1A46CB6AC6F31F48EEE98F55613C"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:16:15.628877Z",
+      "file": "native-first-5846-snapshot-closure-install.receipt.json",
+      "finished": "2026-10-27T10:16:27.3057122Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "3E13AA8F72C68FE2746B357CDA8F6E43FF28A87465C64DD133BF7A55BA80BDCC"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:18:47.4454929Z",
+      "file": "native-first-5846-snapshot-compatible-pack.receipt.json",
+      "finished": "2026-10-27T10:18:55.4141444Z",
+      "exitCode": 1,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "02D8783A909EC3F940844CFD07A35FA3F5E63373CE43504765D6EBDD5550FF0F"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-27T10:15:50.985105Z",
+      "file": "native-first-5846-snapshot-core-init.receipt.json",
+      "finished": "2026-10-27T10:16:15.4069795Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "EFAA01D78BDE17664B99ECAE374440A3CE55DA52EE93B7F5D6F5481D20F0BF27"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T05:07:44.40461Z",
+      "file": "native-first-5846-user-authorized-autorest-registry-representative.receipt.json",
+      "finished": "2026-10-28T05:09:29.7530994Z",
+      "exitCode": 0,
+      "head": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+      "sha256": "515B0C9ED2237EE19DE131946E8FD41DCAF0734B820BB6AD8B131A314A290121"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:04:59.5498203Z",
+      "file": "native-first-5846-user-authorized-compatible-pack.receipt.json",
+      "finished": "2026-10-28T03:05:41.482779Z",
+      "exitCode": 0,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "70F959458290F827F529E50200FD140A9181533CD6996BB85CFC15D6B2AE833E"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:06:59.3894666Z",
+      "file": "native-first-5846-user-authorized-pack-inventory.receipt.json",
+      "finished": "2026-10-28T03:07:00.6064729Z",
+      "exitCode": 1,
+      "head": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+      "sha256": "66DC49B84FA256CE839DBE0548311E628EF7A1952E9F86716889BD699FC98D70"
+    },
+    {
+      "gate": "required",
+      "started": "2026-10-28T03:07:42.3349384Z",
+      "file": "native-first-5846-user-pack-incomplete-readonly-reconciliation.receipt.json",
+      "finished": "2026-10-28T03:07:52.4128286Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "234C8AA5F9103CBB1833406EF723F59F1D2C011A1A3FC3009C5023E88F6F4C82"
+    },
+    {
+      "gate": "read-only prerequisite",
+      "started": "2026-10-27T09:56:18.5998998Z",
+      "file": "native-first-5846-vitest-help.receipt.json",
+      "finished": "2026-10-27T09:56:19.5017987Z",
+      "exitCode": 0,
+      "head": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+      "sha256": "DB2BD5B5355FD5B55ABE815333F12D3A2C706715FE79D000CC06EED23D8DDA55"
+    }
+  ]
+}

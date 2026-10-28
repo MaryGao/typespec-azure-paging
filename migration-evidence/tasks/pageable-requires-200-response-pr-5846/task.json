@@ -1,0 +1,170 @@
+{
+  "task": "pageable-requires-200-response-pr-5846",
+  "cycle": 0,
+  "status": "Parent published and verified source ref/assets; compact evidence commit/push, GitHub A/B and local readiness remain pending. Full ARM, retained replay/integrity, compact audit and CI passed.",
+  "flow": "native-first",
+  "publicationMode": "retain-existing-fork",
+  "memberCount": 1,
+  "members": [
+    "PageableRequires200Response"
+  ],
+  "sourceValidator": {
+    "repository": "Azure/azure-openapi-validator",
+    "revision": "9fb5ab82feac40d7273cbcb227fb565c9cc18f06",
+    "implementation": "packages/rulesets/src/spectral/az-common.ts:295-306",
+    "documentation": "docs/pageable-requires200-response.md",
+    "tests": "packages/rulesets/src/spectral/test/pageable-requires200-response.test.ts",
+    "registration": "Common; ARM and data-plane; error; resolved OpenAPI 2 documents; no TypeSpec-disable flag.",
+    "predicate": "Every operation with x-ms-pageable must have a truthy responses[200].",
+    "unit": "One missing-200 finding per pageable operation.",
+    "options": "None.",
+    "exception": "No exemption for a null nextLinkName, another successful status, or a default response."
+  },
+  "classification": {
+    "status": "partial-existing-coverage-with-evidenced-gap",
+    "getCoverage": "ARM use-standard-response-codes requires 200 on GET inside services when enabled; it is disabled in the standard ARM ruleset.",
+    "nonGetGap": "The same rule explicitly permits POST 201 without 200. ARM POST checks apply only to registered ARM resource operations. list-response-envelope only validates existing 200 envelopes.",
+    "commonGap": "No established compiler or common Azure rule requires 200 for custom non-GET next-link pageable operations.",
+    "newRuleDecision": "A common Core policy is justified by non-GET/data-plane coverage, not by ARM GET examples alone. Extending an ARM-only status policy would not supply the common policy without moving or broadening released responsibilities.",
+    "reviewObligation": "Reassess the smallest implementation and explicitly resolve or document overlap when both common and ARM GET status rules are selected. Do not silently drop GET or change existing rules' enablement."
+  },
+  "nativeContract": {
+    "proposedRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+    "ownership": "Cross-service HTTP author policy; Azure Core.",
+    "audience": "Explicitly selected ARM and data-plane projects.",
+    "predicate": "Concrete @list operations with next-link paging metadata must include a numeric HTTP 200 response.",
+    "targetAndMultiplicity": "One warning per authored concrete operation; instantiated template traversal must not duplicate it.",
+    "exclusions": "Generic declarations/instances according to owning-package conventions; operations without list metadata or next-link metadata.",
+    "severityAndActivation": "Warning, initially disabled in both standard Azure rulesets; existing rule defaults unchanged.",
+    "allowedImplementation": "Supported compiler paging and HTTP metadata only; no emitter dependency or output parsing."
+  },
+  "memberMatrix": [
+    {
+      "validator": "PageableRequires200Response",
+      "nativeBranch": "Missing explicit 200 on a concrete next-link @list operation.",
+      "violatingControl": "POST with a pageable response carrying status 201.",
+      "compliantControl": "Same pageable POST carrying status 200.",
+      "regression": "A concrete operation instantiated from a paging template produces exactly one authored-operation warning.",
+      "additionalMeaningfulBranches": "Implicit 200; default and status ranges; no-list and no-next-link exclusions; supported template/customization evidence.",
+      "comparisonProfile": "Production ARM, explicitly enabled native rule, selected-version HTTP reachability, one operation per actionable finding.",
+      "conclusion": "Genuine common POST/data-plane authoring gap evidenced by four artifact controls; full487 ARM assessment has no target findings or gaps. Not raw-Swagger equivalence or retirement; project coverage N/A."
+    }
+  ],
+  "intentionalDifferences": [
+    "Swagger error versus initially opt-in native warning.",
+    "Normal native paging metadata requires a next link; raw x-ms-pageable with null nextLinkName is a distinct legacy representation and is not silently claimed as covered.",
+    "Source-location HTTP filtering does not reevaluate arbitrary version-dependent paging/status predicates; assess affected cases and keep unresolved cases unassessed.",
+    "Production ARM corpus results are not data-plane corpus equivalence. Establish separate enabled native/production-validator positive and compliant controls."
+  ],
+  "native": {
+    "testedSnapshot": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+    "repository": "MaryGao/typespec-azure-paging",
+    "branch": "fix/pageable-requires-200-response",
+    "draftPrVerifiedByOuter": true,
+    "sameTree": "eab9878c52b99f4a6104130ab07e694d5d5513a4",
+    "approval": "Early user-authorized checkpoint only, not validation/review/completion approval",
+    "checkpoint": "68d7ddf11a93dd52f0efedebc36c67c925afc64b",
+    "checkpointPushedByOuter": true,
+    "pr": "https://github.com/Azure/typespec-azure/pull/5846"
+  },
+  "tooling": {
+    "commit": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+    "core": "a6137cac43a727ce0c2656364fd72d50c272ee4a"
+  },
+  "specs": {
+    "sourceUnchanged": true,
+    "retentionRefPublished": true,
+    "retentionRefReadbackVerified": true,
+    "repository": "Azure/azure-rest-api-specs",
+    "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "selection": "Frozen initial typespec-next selection; no moving ref refresh",
+    "retentionRepository": "MaryGao/azure-rest-api-specs",
+    "retentionRef": "refs/heads/migration-source/pageable-requires-200-response-5846"
+  },
+  "evidence": {
+    "published": false,
+    "base": "36174b95978ff4fef775091f0bbdffecc41f2672",
+    "outerApprovalRequired": true,
+    "parentPublicationApprovalRecorded": true,
+    "publicationReceipt": "publication-receipt.json",
+    "branch": "migration-evidence/pageable-requires-200-response-5846",
+    "repository": "MaryGao/typespec-azure-paging"
+  },
+  "toolchain": {
+    "specsPnpm": "12.6.0",
+    "approvedFeed": "https://packagefeedproxy.microsoft.io/npm/",
+    "python": "3.14.0",
+    "nativeVitest": "5.0.3",
+    "node": "26.12.1",
+    "autorestLauncher": "3.8.0",
+    "nativeToolingPnpm": "11.10.0",
+    "frameworkVitest": "4.1.10",
+    "autorestCore": "3.10.9"
+  },
+  "comparison": {
+    "concurrency": 2,
+    "validator": "PageableRequires200Response",
+    "nativeRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+    "fullCounts": {
+      "selected": 487,
+      "assessable": 487,
+      "unassessed": 0,
+      "validatorRaw": 0,
+      "validatorPaths": 0,
+      "nativeRaw": 0,
+      "nativeAligned": 0,
+      "nativeTargets": 0,
+      "nativeDefault": 0,
+      "validatorOnly": 0,
+      "nativeOnly": 0,
+      "rawValidatorExcess": 0,
+      "rawNativeExcess": 0,
+      "validatorExcess": 0,
+      "nativeExcess": 0,
+      "observedProjectCoveragePercent": null,
+      "equivalence": "not-determined",
+      "baselineIdentity": "392e4b32fe44923ddbf82b02a8908401e6ea9852580a45cc15a9e4d3d3c9d39a",
+      "independentReanalysis": "Every aggregate and all487 project rows matched",
+      "investigations": "Zero failed/unassessed/one-sided or either-direction gap projects; none omitted or waived."
+    },
+    "policy": "Production ARM local validator; explicit native enablement; source suppressions retained, readme suppressions not applied",
+    "normalization": "None; raw occurrences/path identities/native findings/source targets separate; no fuzzy matching or count cancellation",
+    "scope": "http-reachable",
+    "representative": {
+      "filter": "ComputeSku",
+      "rawValidator": 0,
+      "limit": 1,
+      "alignedNative": 0,
+      "selected": 1,
+      "baselineIdentity": "877bbb80965d5966a0ea882e7c3c4165addc02bf000731df87a08c8db28b922d",
+      "rawNative": 0,
+      "assessable": 1,
+      "apiVersion": "2021-07-01",
+      "unassessed": 0
+    },
+    "apiVersionPolicy": "Latest emitted Swagger API version per project; source-location filtering, not arbitrary predicate reevaluation",
+    "fullPopulation": "All487 discovered production ARM TypeSpec projects; no filter/limit"
+  },
+  "review": {
+    "completionClaim": false,
+    "workerRequestedOrCompleted": false,
+    "independentLocalAndGithub": "Parent reports local development review passed without significant source issues; local readiness and GitHub A/B remain outer-owned and pending"
+  },
+  "replay": {
+    "observationReanalysis": "Original representative/full independently matched; extracted V3 and compact replay receipts linked in evidence-details.md",
+    "assetUploadDownloadHashRoundtrip": "PASSED: parent verified all three fresh download lengths/SHA256; see publication-receipt.json",
+    "engineLocking": "No full transitive engine-locking claim; actual bootstrap Core provenance supplements automatic context",
+    "fullBaselineReuse": "No fresh-runtime reuse claim; saved-context analyzer checks and Windows-separator limitation recorded in baseline-portability.json",
+    "sourceBundle": "Local independent clean checkout recovery passed from exact public prerequisite plus checksummed bundle; parent separately verified release-asset fresh download length/SHA256. No regeneration claim."
+  },
+  "ciDisposition": {
+    "source": "Outer independently inspected Ubuntu22 CI",
+    "test": "TCGC use-correct-verb.test.ts standard ARM operations checks put aliases and common overrides",
+    "timeoutMs": 10000,
+    "passed": 4398,
+    "failed": 1,
+    "skipped": 4,
+    "cause": "Unproven",
+    "disposition": "Parent reports authorized run40640778232 attempt2 SUCCESS at same checkpoint; UbuntuNode22 job122722293359 passed and no current applicable failing/pending checks. Original cause remains unproven; worker no CI retry/source/timeout changes."
+  }
+}

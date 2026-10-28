@@ -1,0 +1,9 @@
+{
+  "config": {
+    "scope": "http-reachable"
+  },
+  "purpose": "Extracted saved numerical observations, not a reusable full dataset.",
+  "originalRunManifestSha256": "d0076fdb7123c88d4c5438b194d20708341dc17cbae10c0230169f28d5e37a02",
+  "originalBaselineIdentity": "392e4b32fe44923ddbf82b02a8908401e6ea9852580a45cc15a9e4d3d3c9d39a",
+  "fullArchive": "full-arm-sanitized-evidence-v3.zip"
+}

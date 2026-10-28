@@ -1,0 +1,72 @@
+{
+  "status": "Parent published all three assets and verified fresh download lengths/SHA256; compact evidence branch push remains pending. See publication-receipt.json.",
+  "releaseUrl": "https://github.com/MaryGao/typespec-azure-paging/releases/tag/migration-evidence-pageable-5846-v3",
+  "freshDownloadAllThreeAssetsVerified": true,
+  "assets": [
+    {
+      "file": "candidate-packages-v3.zip",
+      "bytes": 2047881,
+      "sha256": "eb0f9e9ec4c3a8e3fd2ef8efe693a572afd8e415f6108b02cf50a9f91d8c92d9"
+    },
+    {
+      "file": "candidate-source-c4497d2.bundle",
+      "bytes": 2312,
+      "sha256": "1d352be7465c174a9b63d942090e2f1aaf09d72f2def6a716ba1a5bb4c70f97e"
+    },
+    {
+      "file": "full-arm-sanitized-evidence-v3.zip",
+      "bytes": 167195324,
+      "sha256": "91f1abb2acd4cf9b4c5b4f38d9d8dcfaded2eb37f400d1600314d7ff31c2aa31"
+    }
+  ],
+  "originalBaselineIdentity": "392e4b32fe44923ddbf82b02a8908401e6ea9852580a45cc15a9e4d3d3c9d39a",
+  "sanitizedBaselineIdentity": "6f62c292afe61e6b2e7cb156fe4e9bfbda32cd91524d928c1f6330f0a9ecfe7c",
+  "datasetFiles": 93496,
+  "archiveMembers": 94476,
+  "omittedExecutionLogs": 489,
+  "priorVerification": "Every V3 archived member and all derived dataset hashes/seal,17 package ZIP member hashes passed before the subsequent compact-metadata privacy stop. Reused here without rebuild; all asset SHA256 values match the retained stop receipt.",
+  "observationReplay": {
+    "full-public-archive-reanalysis.json": {
+      "metricsMatchOfficialReport": true,
+      "selected": 487,
+      "assessed": 487,
+      "unassessed": 0,
+      "gapProjects": 0
+    },
+    "full-compact-reanalysis.json": {
+      "metricsMatchOfficialReport": true,
+      "selected": 487,
+      "assessed": 487,
+      "unassessed": 0,
+      "gapProjects": 0
+    },
+    "representative-compact-reanalysis.json": {
+      "metricsMatchOfficialReport": true,
+      "selected": 1,
+      "assessed": 1,
+      "unassessed": 0,
+      "gapProjects": 0
+    }
+  },
+  "sourceReplay": "Passed independent clean source-bundle recovery; see source-replay.json.",
+  "baselinePortability": "Saved-context analyzer compatibility/schema passed; see baseline-portability.json. No fresh-engine reuse or cross-platform sealed CLI claim.",
+  "metadataCorrection": {
+    "pointers": [
+      "/availableInstallationMetadata/0/file",
+      "/availableInstallationMetadata/1/file"
+    ],
+    "oldCompactSha256": "4faaae0ab68ad7c840d6f82937095b0d2bb606bb9a118eba2e69006322fd45c4",
+    "correctedCompactSha256": "dc0da7eae7eefa9e70f103ff272e0dfdc20016bb9449a925ee1662657e0ce043",
+    "allOtherRuntimeFieldsAndEntrypointHashesUnchanged": true
+  },
+  "privacy": "Final actual compact-byte audit passed; execution/home paths aliased, raw receipts local, public payloads unchanged.",
+  "v1AndV2PreservedUnchanged": true,
+  "limitations": [
+    "This checks the installed analyzer against the frozen saved context, not a reconstructed current runtime or newly built candidate.",
+    "The copying reuseBaseline CLI path and new linter execution were not invoked. No fresh-engine compatible-baseline reuse claim.",
+    "Dataset inventories/reference paths retain the producer's Windows separators; sealed CLI baseline use is Windows-specific unless a separately derived/resealed platform conversion is verified.",
+    "Dependency-free compact/extracted observation reanalysis passed locally; only Windows execution was exercised.",
+    "Parent fresh asset upload/download hash roundtrip passed separately. No regeneration or full transitive engine-locking claim."
+  ],
+  "pending": "Parent compact evidence commit/push and immutable link/readback verification, local readiness and GitHubA+B/current-head gates."
+}

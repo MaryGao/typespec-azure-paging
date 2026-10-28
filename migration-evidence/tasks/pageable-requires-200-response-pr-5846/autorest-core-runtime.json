@@ -1,0 +1,1143 @@
+{
+  "task": "pageable-requires-200-response-pr-5846",
+  "cycle": 0,
+  "capturedAt": "2026-10-28T05:16:21.4054195Z",
+  "purpose": "Supplemental actual AutoRest bootstrap runtime provenance; required normal core download was explicitly authorized, no manual install or extra network probe",
+  "name": "@autorest/core",
+  "version": "3.10.9",
+  "main": "./dist/exports.js",
+  "bin": {
+    "autorest-core": "./entrypoints/app.js",
+    "autorest-language-service": "./entrypoints/language-service.js"
+  },
+  "directory": "<USER_HOME>\\.autorest\\@autorest_core@3.10.9\\node_modules\\@autorest\\core",
+  "availableCoreCacheDirectories": [
+    "@autorest_core@3.10.9"
+  ],
+  "selectedRange": "^3.2.0",
+  "registry": "https://packagefeedproxy.microsoft.io/npm/",
+  "selectionEvidence": "Only available AutoRest core cache version3.10.9; installed selectVersion picks highest installed satisfying range, raw representative records range and local actual production validator extension",
+  "files": [
+    {
+      "file": ".eslintrc.yaml",
+      "bytes": 83,
+      "sha256": "3E68324F0AB0C93431743F9E7D6DCEA63C0731203C602CA14AF19DBB4B30C368"
+    },
+    {
+      "file": ".rush/temp/chunked-rush-logs/core.build.chunks.jsonl",
+      "bytes": 62,
+      "sha256": "A83105BC46D4C16E841B99DDBC3CD487EBB16B4423A4A6C60740EC3C1858C342"
+    },
+    {
+      "file": ".rush/temp/package-deps_build.json",
+      "bytes": 19644,
+      "sha256": "B0CBBAAE0BA0D5B13AD27312795B4B2EC0D78DC70E0F4F117ACE5C3E0106D055"
+    },
+    {
+      "file": ".rush/temp/shrinkwrap-deps.json",
+      "bytes": 86309,
+      "sha256": "779C58A6A43E92B5896A1CBF948C3D94F16708DA62D8333BD53358ACFDE34D1E"
+    },
+    {
+      "file": "CHANGELOG.json",
+      "bytes": 50126,
+      "sha256": "0AD50F11E6B85BD74D45380B996250B60042F0B5D877316B9F47AA5C4C4B7348"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "bytes": 12864,
+      "sha256": "CA04ABE108674889C30A576C96D7330D2A7D8D99933B2634D06D9107C338FC8A"
+    },
+    {
+      "file": "definitions/index.d.ts",
+      "bytes": 281,
+      "sha256": "5C5E05B444937B96F75CF74B2E46A0443FCF5493A9BE168D5E67120E406BBC05"
+    },
+    {
+      "file": "dist/app.d.ts",
+      "bytes": 71,
+      "sha256": "9CC51BFFC89A27B1B0214483A8CE1CFB5FB0BF8F5E69339186079B12CA5B8050"
+    },
+    {
+      "file": "dist/app.d.ts.map",
+      "bytes": 121,
+      "sha256": "4ADE2DED931C2F213F814F97FA341AC4DA2C24C452FD4D6869E5BFDC1022FC00"
+    },
+    {
+      "file": "dist/app.js",
+      "bytes": 32797,
+      "sha256": "C2F25A608CFF5560779E8846B1402636E65C0545147FA0D553A2733F5316F397"
+    },
+    {
+      "file": "dist/artifact-writer.d.ts",
+      "bytes": 784,
+      "sha256": "F9FF260C96D159D0F12215779AC11FA9AB93C227ABC97C2D0451EEEEBED643F7"
+    },
+    {
+      "file": "dist/artifact-writer.d.ts.map",
+      "bytes": 533,
+      "sha256": "8A33FF2834680B20AF36D9594667E5E981C285690645615AC90469FF6652E91D"
+    },
+    {
+      "file": "dist/commands/help.d.ts",
+      "bytes": 418,
+      "sha256": "B60541FD11AE5D63D20CC2E2AED3157727DF34B72ABBFF6638D2CA66F0FB3B9E"
+    },
+    {
+      "file": "dist/commands/help.d.ts.map",
+      "bytes": 502,
+      "sha256": "70EBF12C07068AFBC4F5C751E7F35439494C2FEFB704451375A0F339C96BE637"
+    },
+    {
+      "file": "dist/commands/index.d.ts",
+      "bytes": 59,
+      "sha256": "D90E946D4F8C4AA8F78A5F3D764E8DE01B82D593D41777DB2E0C8B1F17FE72FF"
+    },
+    {
+      "file": "dist/commands/index.d.ts.map",
+      "bytes": 135,
+      "sha256": "36FEE33178C734019AC0B442F41195CB1CB9DD800CDC373B6304495B50DA6D31"
+    },
+    {
+      "file": "dist/common_temp_node_modules_pnpm_p-map_7_0_3_node_modules_p-map_index_js.js",
+      "bytes": 7769,
+      "sha256": "3CC2C4289502FC2179FADEE621F5B40892C6EA6201B332107A62BC293D695E6A"
+    },
+    {
+      "file": "dist/exports.d.ts",
+      "bytes": 454,
+      "sha256": "B3985DFC364A0BF3C583FED41B115EFCBE2C5AC1F0A410A55E5B52AC380476D4"
+    },
+    {
+      "file": "dist/exports.d.ts.map",
+      "bytes": 435,
+      "sha256": "AC5179DCEB23BCE39C0D7C8D115E76265AA9FB66E8F587E8172400583865E004"
+    },
+    {
+      "file": "dist/exports.js",
+      "bytes": 14270,
+      "sha256": "1D58E4BD3CB094935E88F599331DC308E37A556A3C432CC5E3D0E319DA7A5C08"
+    },
+    {
+      "file": "dist/language-service.js",
+      "bytes": 28984,
+      "sha256": "9BF9BA7673F2DCB1A881F6C02E82762F5E0CFBAF33B331DC4C46E0F6A99FEABC"
+    },
+    {
+      "file": "dist/language-service/document-analysis.d.ts",
+      "bytes": 47,
+      "sha256": "D0F424E7EC5C5EB4BE74B52180C96A2E9DA33AD8385D9759A839015183AABE19"
+    },
+    {
+      "file": "dist/language-service/document-analysis.d.ts.map",
+      "bytes": 148,
+      "sha256": "576F5C42956D049D149A1A47E94B064CA0969BC78ED65FFBB12893FDC784B405"
+    },
+    {
+      "file": "dist/language-service/language-service.d.ts",
+      "bytes": 46,
+      "sha256": "17DDADC14237DFAB493F696C6C8F53FE1E56F185A75872E97179BA5B5A83F3DF"
+    },
+    {
+      "file": "dist/language-service/language-service.d.ts.map",
+      "bytes": 146,
+      "sha256": "BD3687F14AC10F29F87763D469E7D805FD149496819502D4E292606D9C817B1C"
+    },
+    {
+      "file": "dist/language-service/source-map.d.ts",
+      "bytes": 40,
+      "sha256": "A7B53AD918034D36F0A3C99FF5497F39E1A9808B785F45489F2EEC3B3F7AAF80"
+    },
+    {
+      "file": "dist/language-service/source-map.d.ts.map",
+      "bytes": 134,
+      "sha256": "B62BC898D3DC836ACEA66AE2CF648FD4B6481CB6E2ECD805DEFC9F6217498DA6"
+    },
+    {
+      "file": "dist/lib/array.d.ts",
+      "bytes": 113,
+      "sha256": "F7AD4218E20D739570223613889563B2656B5118FA6D0D513A8EADFDDEC9FE3F"
+    },
+    {
+      "file": "dist/lib/array.d.ts.map",
+      "bytes": 213,
+      "sha256": "CFC1441151322812AF75048C887C9B85C663B9F32F1563A201F46DA784009662"
+    },
+    {
+      "file": "dist/lib/artifact.d.ts",
+      "bytes": 124,
+      "sha256": "C6A6742E68A9566CC4737C1A5B7B676DDE0ADB5CA74F23CB98024E1217811F76"
+    },
+    {
+      "file": "dist/lib/artifact.d.ts.map",
+      "bytes": 218,
+      "sha256": "40DE43D2231FA266346A023C16F20204606B7B6FAF52B80D5CBA41EA7E4648D4"
+    },
+    {
+      "file": "dist/lib/autorest-core.d.ts",
+      "bytes": 3083,
+      "sha256": "EF41317FC5A7C38F1A32300DD14FB2F059D62A36051A1E5B5FD8A5B2DE36A5E4"
+    },
+    {
+      "file": "dist/lib/autorest-core.d.ts.map",
+      "bytes": 1531,
+      "sha256": "756A95274D98842E335CD0112AE43FE5E1E0F94E8BEAC40D6A6FB8744C681765"
+    },
+    {
+      "file": "dist/lib/constants.d.ts",
+      "bytes": 198,
+      "sha256": "186E5196A9E3049A1C73E09DB9D456D8DEA2BEF18BBB00E430A8CC39B8358F45"
+    },
+    {
+      "file": "dist/lib/constants.d.ts.map",
+      "bytes": 203,
+      "sha256": "9EECFEB5A2E2BB14CE04F7F15146D57AEB2F86A585EB2AF05A6BB1A2FAF92D40"
+    },
+    {
+      "file": "dist/lib/context/autorest-context-loader.d.ts",
+      "bytes": 1102,
+      "sha256": "24316362B92CF0F4F03E0E494E659570F2F71014E1C85266A261E4A02EEDDCFC"
+    },
+    {
+      "file": "dist/lib/context/autorest-context-loader.d.ts.map",
+      "bytes": 849,
+      "sha256": "63991166DFA0C94867C07A8E73885F255BD39E4D097D8CC22D67912FAB02B7D0"
+    },
+    {
+      "file": "dist/lib/context/autorest-context.d.ts",
+      "bytes": 2926,
+      "sha256": "6D74A0F9AF2150F495E8A54E88807C1F3D59869D615501D307F4CBD2F7A4DAF7"
+    },
+    {
+      "file": "dist/lib/context/autorest-context.d.ts.map",
+      "bytes": 1786,
+      "sha256": "0FDCE83ABF2F339AC7007ED6A5AC7BBA16A45ACA9D711C486547D1C622FA6C84"
+    },
+    {
+      "file": "dist/lib/context/index.d.ts",
+      "bytes": 149,
+      "sha256": "2834322FE0A7AEADAB920FDBB9C2917076F815F4F25EFF725FECA6E5DF4A7C32"
+    },
+    {
+      "file": "dist/lib/context/index.d.ts.map",
+      "bytes": 189,
+      "sha256": "917396448D70099EF6681A89CBCF2B98E80B54ADC17F2C67E639852CBBC47260"
+    },
+    {
+      "file": "dist/lib/context/message-emitter.d.ts",
+      "bytes": 633,
+      "sha256": "C6D4B0336006FE4AD0631F0F9773120F89D6382200EC8BC57297F3B6064E734A"
+    },
+    {
+      "file": "dist/lib/context/message-emitter.d.ts.map",
+      "bytes": 485,
+      "sha256": "F8ACA6048138B5237E2DF05153EE64A7344A4A14CA741F39AB193AD6710E7317"
+    },
+    {
+      "file": "dist/lib/document-type.d.ts",
+      "bytes": 535,
+      "sha256": "15773C7D194C60FB75BCFB792F8E460CF6E59D9CD7F0E2D02B57B24F287A4E4F"
+    },
+    {
+      "file": "dist/lib/document-type.d.ts.map",
+      "bytes": 342,
+      "sha256": "14F4CFDBDB8F5E0B3E32FE2F17ABB13BCF00565E96318D5F1121D1D7E1731277"
+    },
+    {
+      "file": "dist/lib/events.d.ts",
+      "bytes": 1010,
+      "sha256": "ADC3976DFD0F68F0BC5972B746999108FB61745619D7E3411CA2A6C373A32E68"
+    },
+    {
+      "file": "dist/lib/events.d.ts.map",
+      "bytes": 1101,
+      "sha256": "5E78E89E7FCF994DD958C61DC8633EBFB803308E9052D0F662580F748E6B3566"
+    },
+    {
+      "file": "dist/lib/message.d.ts",
+      "bytes": 1898,
+      "sha256": "549EF7FEA3A31FF20A7E55B65494CF6D7D52E980C37914220E765461FB1AB119"
+    },
+    {
+      "file": "dist/lib/message.d.ts.map",
+      "bytes": 1060,
+      "sha256": "1ADD224F1F1CACA0764B5FB2211A33F6563A3ECAB4BB53AFE754D3C58DB8E1CB"
+    },
+    {
+      "file": "dist/lib/outstanding-task-awaiter.d.ts",
+      "bytes": 217,
+      "sha256": "2353EE006F7B950DECC3DB41C59224B7F2DE2C9617468AD910FE6A1D173E0D15"
+    },
+    {
+      "file": "dist/lib/outstanding-task-awaiter.d.ts.map",
+      "bytes": 319,
+      "sha256": "3F9F17D40BE2B91351EA27228188262D75BE320DF5437EC99E66D545C14B6685"
+    },
+    {
+      "file": "dist/lib/pipeline/common.d.ts",
+      "bytes": 259,
+      "sha256": "0D585BCE16533CF326B408C5D19F5DAE15FE4A18F432568C171A8CA2E6007629"
+    },
+    {
+      "file": "dist/lib/pipeline/common.d.ts.map",
+      "bytes": 334,
+      "sha256": "0F1FBB5F1542FE3E5D1D220795BB3FDA328A7F74C9677FB35405E35AB7BF0896"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline-builder.d.ts",
+      "bytes": 778,
+      "sha256": "276646A7D26471299FAC766627CAE7059F51B9500CC98280AFD163F1AA83749F"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline-builder.d.ts.map",
+      "bytes": 797,
+      "sha256": "51C1BCD6D8646EF01B089314481D87401630FD1BF57B18EBF939BDC50B0D165E"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline-cache.d.ts",
+      "bytes": 358,
+      "sha256": "FDF87E7DF14614E6C48C6AD444FDC514AA8EC05C01D87F69C79C11EA203720E1"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline-cache.d.ts.map",
+      "bytes": 406,
+      "sha256": "6B05053D6D2F62288E700574F7505DD4BEF7270DDBAD2316AE1CDCAF2C002150"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline.d.ts",
+      "bytes": 244,
+      "sha256": "4A8B378527F5B56100F1C125A00AE4148DD9558FAA79B59FAF3777AA1BB37655"
+    },
+    {
+      "file": "dist/lib/pipeline/pipeline.d.ts.map",
+      "bytes": 302,
+      "sha256": "8330A1A0BC1A8A791A3C889CDC4BF2389ADC2122D8CDB50A92D81816D7D48F07"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-api.d.ts",
+      "bytes": 1637,
+      "sha256": "2593AEC319C4E9A0A319F6E1D6A49B2CB631B5F159AAE8B6124302F1BEF8BF0D"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-api.d.ts.map",
+      "bytes": 1388,
+      "sha256": "14DD082EC0A42CA83D567E49374097CA2A02E8BF9D33DE51C973A1CC341843D8"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-endpoint.d.ts",
+      "bytes": 1487,
+      "sha256": "B487848C2B7A50E8E220DD5DB306492436BC437BC46A2715948694EBB0B75D77"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-endpoint.d.ts.map",
+      "bytes": 1442,
+      "sha256": "354CC409FC1D322346697052F7589FC3D3E8C768950F0F88F098F117B427ACED"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-loader.d.ts",
+      "bytes": 907,
+      "sha256": "3A4D3D08A11BD4317A64C87A88B63938DC8A6CFE9C151CA49B779A54D3DD6D02"
+    },
+    {
+      "file": "dist/lib/pipeline/plugin-loader.d.ts.map",
+      "bytes": 620,
+      "sha256": "4713DC78D7ACECC85B19D2747A06F6AB1CF2D07B8A14F4C5A190731C9AD48415"
+    },
+    {
+      "file": "dist/lib/plugins/allof-cleaner.d.ts",
+      "bytes": 54,
+      "sha256": "1A89A3F94FB69B0D302A1CDFD2AA3770942771FAB09B31A6A17719E471A9852D"
+    },
+    {
+      "file": "dist/lib/plugins/allof-cleaner.d.ts.map",
+      "bytes": 138,
+      "sha256": "F1A8C0644B10D9D0F9DCF3E351F65281CEDB583192E8888690BDF64E3B883E53"
+    },
+    {
+      "file": "dist/lib/plugins/command.d.ts",
+      "bytes": 48,
+      "sha256": "3BA6BA3BDB8B507B795258B66AA71958EEDE6083AD9A9FBA0D841AA4742C9E91"
+    },
+    {
+      "file": "dist/lib/plugins/command.d.ts.map",
+      "bytes": 126,
+      "sha256": "35161FA9EF51665E9529B90C3713990E8F106E8A22776E9CE2A9D4B2AB47F621"
+    },
+    {
+      "file": "dist/lib/plugins/component-key-renamer.d.ts",
+      "bytes": 649,
+      "sha256": "1ABBA5D174E70F36FB8BED6EE461C6E5741BDC4C3B77C2CC883670D3BF00C150"
+    },
+    {
+      "file": "dist/lib/plugins/component-key-renamer.d.ts.map",
+      "bytes": 708,
+      "sha256": "B720307DE33FA1437194D31BA46FD4B3807DD9B6B6FBA73EAEB19B40D2E70194"
+    },
+    {
+      "file": "dist/lib/plugins/component-modifier.d.ts",
+      "bytes": 59,
+      "sha256": "A3E3590B20AE2329B3E7DAE9598C8D971526CA3613B19703042E4C2F1B8C4327"
+    },
+    {
+      "file": "dist/lib/plugins/component-modifier.d.ts.map",
+      "bytes": 148,
+      "sha256": "708BF271FD16442F3F990F144C07FDF7F4AAD41DFF6DD617CE84D81E33CB5D14"
+    },
+    {
+      "file": "dist/lib/plugins/components-cleaner.d.ts",
+      "bytes": 755,
+      "sha256": "C60925B830092CB8F4E37586F353D3B8F4CB841FF343D7D9A39C7BC204DED85F"
+    },
+    {
+      "file": "dist/lib/plugins/components-cleaner.d.ts.map",
+      "bytes": 496,
+      "sha256": "C7A2DAB22EE0AF0ADF5A0957A1BFCF044DE489E32C18E9D3024396BCB44F96C2"
+    },
+    {
+      "file": "dist/lib/plugins/conversion.d.ts",
+      "bytes": 51,
+      "sha256": "D353FE8328D28F5ACC37541A79DEFF1C3C42FFD53CD7062437CF4D02726770E8"
+    },
+    {
+      "file": "dist/lib/plugins/conversion.d.ts.map",
+      "bytes": 132,
+      "sha256": "6D8DAC84C5FCF2F80E3A878D4FF6B16F2088C968E358AA2E9D33BA4FFDEEEA9C"
+    },
+    {
+      "file": "dist/lib/plugins/deduplicator.d.ts",
+      "bytes": 53,
+      "sha256": "7420081583CB646E92FC4E336898CDD6F74914B336C4358226983B20EC23261F"
+    },
+    {
+      "file": "dist/lib/plugins/deduplicator.d.ts.map",
+      "bytes": 136,
+      "sha256": "8E707BAEC5B4FE72A0E9FFDC7A6B437E3DD29A49B082497A92E6184D84DD83F8"
+    },
+    {
+      "file": "dist/lib/plugins/emitter.d.ts",
+      "bytes": 342,
+      "sha256": "667AA02016C34CA49D8373E8FBA78F7444158C4D57715F52A218C601D6C6E977"
+    },
+    {
+      "file": "dist/lib/plugins/emitter.d.ts.map",
+      "bytes": 427,
+      "sha256": "BA3AE4E233B0EBC50A74C227753DDD9C2E2783C7F80424DBEAF5503551EB9990"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/enum-deduplication-plugin.d.ts",
+      "bytes": 66,
+      "sha256": "5E46480580672598B7C24503C7BF7DD3C1B0EA4D62EC8B33ABD50712A76799C9"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/enum-deduplication-plugin.d.ts.map",
+      "bytes": 184,
+      "sha256": "463BC75750FBE8D36812DDFEBB4CC260F98CDF695837547F6F5933C9029409FC"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/enum-deduplicator.d.ts",
+      "bytes": 694,
+      "sha256": "DE621ED5015728CED4966FBA9989064C1DF3D183FD0AE118D7506A92CAD07498"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/enum-deduplicator.d.ts.map",
+      "bytes": 752,
+      "sha256": "BFECF6CB3ACED8F57ED5833921A7F147A9340B49809BE4BFB200FB5A6ACCC76A"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/index.d.ts",
+      "bytes": 117,
+      "sha256": "B3A74F2C57F48FF4EA00C1F77534ED48F365F969F5417659B287DFF6229113B1"
+    },
+    {
+      "file": "dist/lib/plugins/enum-deduplication/index.d.ts.map",
+      "bytes": 188,
+      "sha256": "D96133A82B24B9BFA06E8D8A310F3337E72A6D08C9E6A0603618F2CD62D91B67"
+    },
+    {
+      "file": "dist/lib/plugins/external.d.ts",
+      "bytes": 49,
+      "sha256": "2E648092C6ACB2B2B5451FF9C6DE5126D29B0DF347275DB2057F0A3114DBF0FC"
+    },
+    {
+      "file": "dist/lib/plugins/external.d.ts.map",
+      "bytes": 128,
+      "sha256": "805C9BE9003329190211E13ADC75600DEF6777D644E540D52D0C9724F8EC4864"
+    },
+    {
+      "file": "dist/lib/plugins/full-ref-resolver/full-ref-resolver-plugin.d.ts",
+      "bytes": 246,
+      "sha256": "C652F0F12ABE345618CC258F25B58AB3C40E86950D83FCE5FCB29F81597035C9"
+    },
+    {
+      "file": "dist/lib/plugins/full-ref-resolver/full-ref-resolver-plugin.d.ts.map",
+      "bytes": 270,
+      "sha256": "07A6FB602045243D18198424CB89FBA773E50CFC8AF544F71A2B47C4E97471AB"
+    },
+    {
+      "file": "dist/lib/plugins/full-ref-resolver/index.d.ts",
+      "bytes": 79,
+      "sha256": "538F53F487F90FF800856C233E7544D0ED4B35BC49EC904CA039E38027B7D2C1"
+    },
+    {
+      "file": "dist/lib/plugins/full-ref-resolver/index.d.ts.map",
+      "bytes": 164,
+      "sha256": "C542485B7D83BD320753BCDDECE860592E357ACEA11FE55E73252ED3663C0019"
+    },
+    {
+      "file": "dist/lib/plugins/help.d.ts",
+      "bytes": 45,
+      "sha256": "8B64DC4B24475C9BCDFAE620D3F29C755D1E728CFF7D447F46A5A5F4903A9228"
+    },
+    {
+      "file": "dist/lib/plugins/help.d.ts.map",
+      "bytes": 120,
+      "sha256": "BA748855C197CECC9ACB8DE155753E6FE729CF9F344D384B8FA3C895CF1AB6ED"
+    },
+    {
+      "file": "dist/lib/plugins/identity/identity-plugin.d.ts",
+      "bytes": 225,
+      "sha256": "6F4916B1B575707ABAA701A5AEFC9A2719336C65355F9B1A4023C274D7CD6FAB"
+    },
+    {
+      "file": "dist/lib/plugins/identity/identity-plugin.d.ts.map",
+      "bytes": 266,
+      "sha256": "A7FD21AE6190B74E3BEC0FCE8E3598367A2C56E8CEF7E50DC062E6E54F514670"
+    },
+    {
+      "file": "dist/lib/plugins/identity/index.d.ts",
+      "bytes": 156,
+      "sha256": "90A882A3FD580115A9494420500CEC348F6B63321FFC7B0662A0176DDA2D519C"
+    },
+    {
+      "file": "dist/lib/plugins/identity/index.d.ts.map",
+      "bytes": 201,
+      "sha256": "48B7D0011449D1D5D07633636023D352807CECE95E1B92DD521A16A6BA379986"
+    },
+    {
+      "file": "dist/lib/plugins/identity/normalize-identity-plugin.d.ts",
+      "bytes": 184,
+      "sha256": "FE823A88C1EAC5239C3438BB7B80FA0DCAF37F0DFD985618FB2F58DCEA9115B1"
+    },
+    {
+      "file": "dist/lib/plugins/identity/normalize-identity-plugin.d.ts.map",
+      "bytes": 252,
+      "sha256": "2A3017A2240D8E6FB49372DD8897D9DCD807D5E4FF8238815995981250D095C0"
+    },
+    {
+      "file": "dist/lib/plugins/identity/reset-identity-plugin.d.ts",
+      "bytes": 62,
+      "sha256": "491DC063617CD6C47AB2FF03729BD5BDF7E47B1D5FEFA7B4CFBD89CF42ACC0F9"
+    },
+    {
+      "file": "dist/lib/plugins/identity/reset-identity-plugin.d.ts.map",
+      "bytes": 166,
+      "sha256": "F301C51F96636AD6690DD04269F6D0DCF8C5E3527E5FFF54A4BE11F375D29805"
+    },
+    {
+      "file": "dist/lib/plugins/index.d.ts",
+      "bytes": 2476,
+      "sha256": "8EB35E7534689E4BE4A64F5309C7829567606906553544A15B065776649D7A69"
+    },
+    {
+      "file": "dist/lib/plugins/index.d.ts.map",
+      "bytes": 189,
+      "sha256": "FE2316D85DB21830FBA16FBCF2DC8BD359FF5B08F0614FD07D4B522F8DBBE5B0"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/common.d.ts",
+      "bytes": 402,
+      "sha256": "A0F14E0086CED5F166B7F005FC47E06A8C3F08E37D839003201BE084B32D0142"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/common.d.ts.map",
+      "bytes": 343,
+      "sha256": "607111CE7F26AB5202F5CE3A8BC0D17C6447EFB14156962E5EC37A93B103DA1F"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/index.d.ts",
+      "bytes": 103,
+      "sha256": "439052ADFB62FC3FB5B8B7065E2683EC98E57894BDBDB0580FFE69BB40589400"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/index.d.ts.map",
+      "bytes": 177,
+      "sha256": "A42128E6480A24A94F643A9D5BE6CED99595880F1B8FCB63C4B4872B9D5EBBCE"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/openapi-loader.d.ts",
+      "bytes": 612,
+      "sha256": "68F5D803413EF8E69C16F2C7A0A9512FE868847E0B4FFC8FC303FCB6927DD8F6"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/openapi-loader.d.ts.map",
+      "bytes": 631,
+      "sha256": "0BD12DF2790117C57321DE0A49861472D774D2E0A2C35844A56FFDE0D6CC6846"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/referenced-file-resolver.d.ts",
+      "bytes": 348,
+      "sha256": "CE8D79A679B07C36961FFAB983E7B0F383D29AA5293B21E7126446DAA1BF3056"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/referenced-file-resolver.d.ts.map",
+      "bytes": 429,
+      "sha256": "27ADE9BF3E24DC1932E38DA7475B42F1BCD07104EE24AD31C1F4A8B40793BDC9"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/swagger-loader.d.ts",
+      "bytes": 617,
+      "sha256": "123EC1D771A2364941DE783308BAE84E68F8DABC498F7DD9CE4F1E0A30ACC31E"
+    },
+    {
+      "file": "dist/lib/plugins/loaders/swagger-loader.d.ts.map",
+      "bytes": 641,
+      "sha256": "BBEE945A7951F0FD4E8858F4E19A699A9CC0F50A1541652C6E7101357724B4D8"
+    },
+    {
+      "file": "dist/lib/plugins/merger.d.ts",
+      "bytes": 2816,
+      "sha256": "2626B44249C3EAB539A21B06A556BD9C1590ADABE6AA34D41CF80CC1D1B7E6F1"
+    },
+    {
+      "file": "dist/lib/plugins/merger.d.ts.map",
+      "bytes": 1517,
+      "sha256": "16B5CD6CF5111F35DFF0ECCCD0891B4D1BAEDD76316989E45BC207180FB36A06"
+    },
+    {
+      "file": "dist/lib/plugins/metadata-generation.d.ts",
+      "bytes": 60,
+      "sha256": "833F8589E804BF92A0FC267C347CF712482B5A9CDF849961CC53F797898BD824"
+    },
+    {
+      "file": "dist/lib/plugins/metadata-generation.d.ts.map",
+      "bytes": 150,
+      "sha256": "5751DF03AC66F302F4F8B5A8C08AF4FC1A8E2C83F9DF2526816DB71D7A31D7E0"
+    },
+    {
+      "file": "dist/lib/plugins/new-composer.d.ts",
+      "bytes": 2995,
+      "sha256": "D4AFAD85D0CC69A7E9E88EAF4025C22DF22289952528659E88208AE588E6C2F4"
+    },
+    {
+      "file": "dist/lib/plugins/new-composer.d.ts.map",
+      "bytes": 2312,
+      "sha256": "5D63DF4949AD8A1FF523C8A172ABDF993C629A4EFFC03AD503EB21FB0354D149"
+    },
+    {
+      "file": "dist/lib/plugins/openapi-stats-collector/index.d.ts",
+      "bytes": 78,
+      "sha256": "2BFCA829DA9487375A930FF2F13000353AD1BAF2E2E678C932C09294CCB7A7C3"
+    },
+    {
+      "file": "dist/lib/plugins/openapi-stats-collector/index.d.ts.map",
+      "bytes": 170,
+      "sha256": "8F01425FC8D29ED9D750A375EAEC63E434D6B6E4A7D0B5EC2B28E46885539E10"
+    },
+    {
+      "file": "dist/lib/plugins/openapi-stats-collector/openapi-stats-collector.d.ts",
+      "bytes": 398,
+      "sha256": "54E00F839A43B712978A2F1E31928F4736DBF55322C2D9AAADCA423327557C9A"
+    },
+    {
+      "file": "dist/lib/plugins/openapi-stats-collector/openapi-stats-collector.d.ts.map",
+      "bytes": 414,
+      "sha256": "1F052255C4E16C44F0547C31B168F6A461CAC1B05427FA4BCA732F2E111EE474"
+    },
+    {
+      "file": "dist/lib/plugins/profile-filter.d.ts",
+      "bytes": 1643,
+      "sha256": "2C6A56CCF03DE15413D39EC16410216BE1D68F09067B989A21A20A2AAA0E5966"
+    },
+    {
+      "file": "dist/lib/plugins/profile-filter.d.ts.map",
+      "bytes": 1684,
+      "sha256": "5A1E8EF42E0EAB170A7E7F68E8EFD7C0EEA9E932E3F4857B3D555B3B635C1011"
+    },
+    {
+      "file": "dist/lib/plugins/save-in-place/index.d.ts",
+      "bytes": 68,
+      "sha256": "CFC417F9358CAC12169EE7444D82F25C1580281D6BE1DCADE39B8EFF4F1C5C8E"
+    },
+    {
+      "file": "dist/lib/plugins/save-in-place/index.d.ts.map",
+      "bytes": 160,
+      "sha256": "42F2DB3E77BC65C8789C3445F23BC6174E3D35BFF54647E292C5E952FAD70E8F"
+    },
+    {
+      "file": "dist/lib/plugins/save-in-place/save-in-place.d.ts",
+      "bytes": 166,
+      "sha256": "954936F086C3EE3A3B67C474BB4A7BE0F615E8AF01EF08C75CBBF2D10D3A43A1"
+    },
+    {
+      "file": "dist/lib/plugins/save-in-place/save-in-place.d.ts.map",
+      "bytes": 233,
+      "sha256": "38A82BBB57F1A7288243976F0E8496EE70928342A81F584B0F53DB75E652FE1B"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/index.d.ts",
+      "bytes": 80,
+      "sha256": "0E42E365FFE3D35BB22FFFD7CE37C29091E43CB88F8F74980A638FDB5928078A"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/index.d.ts.map",
+      "bytes": 164,
+      "sha256": "FF21C4F5F2AAB48BAEFA9A77B443B7AC01E40309F5495B6DD90D5389C33F573F"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/json-schema-validator.d.ts",
+      "bytes": 579,
+      "sha256": "9EE2CEAB4F4CA405D0F0324D601EB273FF4370404D6CDCCD816E86D9E0A9A6D0"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/json-schema-validator.d.ts.map",
+      "bytes": 616,
+      "sha256": "AA9BAFE31B551792410CEF4A111CAA399A2B977C9F774A6401572228B1BF6C7D"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/openapi3-schema-validator.d.ts",
+      "bytes": 237,
+      "sha256": "B7FE1E6D35F9133D7C2E473572385394C3579C1AA2E2A0BC033320E9277A8F0A"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/openapi3-schema-validator.d.ts.map",
+      "bytes": 285,
+      "sha256": "8858CD682EC453CD7A9339CC8970794464279CA56840C4C53650B880318A3A7C"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/schema-validation-plugins.d.ts",
+      "bytes": 338,
+      "sha256": "70151C0FFD98530E736EABDAA85D6D23793D75DFAD98AD366C30C3EDF95C6444"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/schema-validation-plugins.d.ts.map",
+      "bytes": 333,
+      "sha256": "037B7C6BF40ACD374EFD99B9F251B2967FBB3F8469C4F65AACFF98E5C5974A88"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/swagger-schema-validator.d.ts",
+      "bytes": 235,
+      "sha256": "9D5CDB013CAB3673A3562D67D9D18F63EB0048FD01B99EEC2CB40E7D429801E8"
+    },
+    {
+      "file": "dist/lib/plugins/schema-validation/swagger-schema-validator.d.ts.map",
+      "bytes": 283,
+      "sha256": "B755C124CA17F41CFC4C2FE3589EF0B2DC0EA529695D1F3E38D8082C9256A2F0"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/index.d.ts",
+      "bytes": 82,
+      "sha256": "0A2C5B422CE35182AE0879BAB4766A2E814FFC8627F4F0BAA8E5266507616D88"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/index.d.ts.map",
+      "bytes": 167,
+      "sha256": "BBF480D0B8306B0DCED380E25E90B4D529A2BA57F8C9F82B1C3935981A4A61D7"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/semantics-validation-plugin.d.ts",
+      "bytes": 448,
+      "sha256": "76AC300130EF6A385A1699F88DCDF13DC55CDAAC6779C03DFAC990497DD2CAEB"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/semantics-validation-plugin.d.ts.map",
+      "bytes": 479,
+      "sha256": "8ACD23AF659F8CD222C253DE0F1297F4C3C7CBEE9AB2E827E6E901B788CAE941"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/semantics-validation.d.ts",
+      "bytes": 278,
+      "sha256": "AFC0DCDB128E96CEAE1103BE9AB668E7BCC6221FBDAB86E622B517E34020DC90"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/semantics-validation.d.ts.map",
+      "bytes": 363,
+      "sha256": "1701854F6EB1C236E0C2ED3452F87E3F51CA550BDF21151D58CDA657471B3BD7"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/types.d.ts",
+      "bytes": 694,
+      "sha256": "D0075559DF4A2769C1274326C22ABA3C18C0B1295A4345A3B966F3EFD901E7D4"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/types.d.ts.map",
+      "bytes": 654,
+      "sha256": "6E1EB3D8BD239F3AC9820698F435251E704F6900B5124FB5C0286BD2D442597C"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/utils.d.ts",
+      "bytes": 290,
+      "sha256": "E1349519F5F56605CE291390E33FB7C3F091A6E206FFDC6C07572C0F92CDEAC0"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/utils.d.ts.map",
+      "bytes": 378,
+      "sha256": "ADC05C20CE2F751E79B3A66A43619ACF35D88499C8005C38C69A229D6D8AF165"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/discriminator-validator.d.ts",
+      "bytes": 218,
+      "sha256": "6EB19C81A3E784E837BB2E8BB460C3D4A1B2F20DF7766CD83F4D22B9FFC7933E"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/discriminator-validator.d.ts.map",
+      "bytes": 341,
+      "sha256": "D087724622041FB9249A2D694E8EE105B9F54F5338EC7F780485944A21E89225"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/index.d.ts",
+      "bytes": 204,
+      "sha256": "AFB8A08FBC38B81758101C0E21EAC876FD07450BD795B6D0FA90ACB9C95D41CF"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/index.d.ts.map",
+      "bytes": 250,
+      "sha256": "EDCE7F803A5EBFDFC054E7D7F1A39A4DD60E80A50731136823383A6EC3519BE1"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/outdated-extension-validator.d.ts",
+      "bytes": 331,
+      "sha256": "5E5FC9F5A28D64EAEE5777EC2B2CFA4E3A863444A88F92E29D3963F9DED63B49"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/outdated-extension-validator.d.ts.map",
+      "bytes": 363,
+      "sha256": "7BCCA6C20449851C1968B25F6A4FBDAA624DF1346536C45A861BE84ED06AE107"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/paths-validator.d.ts",
+      "bytes": 447,
+      "sha256": "D630B7DD231E30B04534C4423AF365870CCAD3F9A3CE0DAFCCE7B30AEC8D980C"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/paths-validator.d.ts.map",
+      "bytes": 414,
+      "sha256": "CE324328F56CBCCC4DF299FF44835B6A6CEF000858ECCEC43EDBF250C2466E40"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/refs-siblings-validator.d.ts",
+      "bytes": 217,
+      "sha256": "842C4716C95724296C4D24073E809DED8D467A4F1241F2F03A4E6FF2A02B90CD"
+    },
+    {
+      "file": "dist/lib/plugins/semantics-validation/validators/refs-siblings-validator.d.ts.map",
+      "bytes": 327,
+      "sha256": "6BA9C797FC2F7A63C0E997FBB229041290ABA5CF0C42633930F74024A2F31E18"
+    },
+    {
+      "file": "dist/lib/plugins/subset-schemas-deduplicator.d.ts",
+      "bytes": 1193,
+      "sha256": "BBC187651FDC1A987F56D8B201E3E06E51A099D4D1C2A6A2B46732F13263760E"
+    },
+    {
+      "file": "dist/lib/plugins/subset-schemas-deduplicator.d.ts.map",
+      "bytes": 1211,
+      "sha256": "EC9CD4261571AB03727A82E5A297425316CBFBBF71190DA08B92FF5D2FE364F0"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/eval.d.ts",
+      "bytes": 1079,
+      "sha256": "110ADD6CE75E5888CEB70AC3B48B8D111606DABEC74D15C1340F6B3020B06169"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/eval.d.ts.map",
+      "bytes": 762,
+      "sha256": "4E3336F3A6B366AB3210FB08FB9B97275E58EC06679279DF69959216528D8FB5"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/index.d.ts",
+      "bytes": 66,
+      "sha256": "1F588AC51DEC9CB9DE6E4B49FA9FB800B444F954CCC13A328FEE1B4785E23217"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/index.d.ts.map",
+      "bytes": 156,
+      "sha256": "4D186EF5F3D349213DDD67D480A4DB3FAB7E85E75AB1CA2F5D26642E50B7E96F"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/manipulation.d.ts",
+      "bytes": 529,
+      "sha256": "5DB0D69966E99A5D5114B7269BB050BDC45BDF9FABF4BF63B80F36118F81F4D9"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/manipulation.d.ts.map",
+      "bytes": 528,
+      "sha256": "C00BDA1A84EADDCEB4D34F498154C16286B55D84AC428110C658165EBBC706EF"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/object-manipulator.d.ts",
+      "bytes": 657,
+      "sha256": "BE86B47D84990E7D1832A15FF217A21D3B46F3411E482E76842E4D4C64EDAE9C"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/object-manipulator.d.ts.map",
+      "bytes": 726,
+      "sha256": "3CAB148164C6518B004B4B95BA7D58E46A3CA534B0D85D442124D08E927FA800"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/transformer.d.ts",
+      "bytes": 52,
+      "sha256": "7A396827CC56387110A7FCDA83291B854BA923764C1B28DB2DEC2077BA460E59"
+    },
+    {
+      "file": "dist/lib/plugins/transformer/transformer.d.ts.map",
+      "bytes": 149,
+      "sha256": "D9DB9F1D44F821C6BCF816C2B4AA9437FD73DBFD526BA59A4D5A0423569F9BF5"
+    },
+    {
+      "file": "dist/lib/plugins/tree-shaker/tree-shaker.d.ts",
+      "bytes": 2874,
+      "sha256": "75910A70854A5CB646AB31D71480DB6A0B3C388D7EEF6359303F46CA9E95C9E5"
+    },
+    {
+      "file": "dist/lib/plugins/tree-shaker/tree-shaker.d.ts.map",
+      "bytes": 2758,
+      "sha256": "8BBA2381666A90990A475D5D616BA61B9D26DA7A845940B0A4F6192497E4B716"
+    },
+    {
+      "file": "dist/lib/plugins/version-param-handler.d.ts",
+      "bytes": 724,
+      "sha256": "924D816EB95A3ABAA212F24330AAE208DD4E4F737B0E99B4402815AE1E5CA907"
+    },
+    {
+      "file": "dist/lib/plugins/version-param-handler.d.ts.map",
+      "bytes": 774,
+      "sha256": "39125CB610AFE6C23C6DE67E3B3AD2B322606DE345B89EE36BAC446F1B0C333D"
+    },
+    {
+      "file": "dist/lib/sleep.d.ts",
+      "bytes": 98,
+      "sha256": "03722F73BD894269CF252A256B06CED72F819092232C9C4C8DAA1C88C917303E"
+    },
+    {
+      "file": "dist/lib/sleep.d.ts.map",
+      "bytes": 178,
+      "sha256": "0F4CFD33905FCD44418DBC0B4F118D3C0673B2D55B0DD413BEC474CDEDA1B1CA"
+    },
+    {
+      "file": "dist/lib/stats/index.d.ts",
+      "bytes": 95,
+      "sha256": "A59AE13F222E6679EDF860B117752CD7BCC3705FD258489ED4575602E43A6B74"
+    },
+    {
+      "file": "dist/lib/stats/index.d.ts.map",
+      "bytes": 162,
+      "sha256": "7082709F85F91B63F7B4E791A5534E88605115878BCD6A6273BF590AECAC7D49"
+    },
+    {
+      "file": "dist/lib/stats/stats-collector.d.ts",
+      "bytes": 307,
+      "sha256": "6E5C355D9F6616CC4F93C65B71B869FC885B8DAFF8EFF445AA658E1AA1E2849E"
+    },
+    {
+      "file": "dist/lib/stats/stats-collector.d.ts.map",
+      "bytes": 341,
+      "sha256": "85077D7B83E5385E55B477B06B36617D0B561CAE1D7303DFA25DD41F16928C8F"
+    },
+    {
+      "file": "dist/lib/stats/stats.d.ts",
+      "bytes": 778,
+      "sha256": "6BCF925A81485A07BE6AF23969AD73CE40F3BF6C30EB9ECB0DF6942C02973302"
+    },
+    {
+      "file": "dist/lib/stats/stats.d.ts.map",
+      "bytes": 787,
+      "sha256": "53386F5E9D08AB3AB3B4DBA4F3B1A8D33451F81F0FB3E4A0E5E7248E0E4637B8"
+    },
+    {
+      "file": "dist/mappings.wasm",
+      "bytes": 48693,
+      "sha256": "BE2DC7DA3885E55013C8DA58D7BA356705D932459DB94ADA37D5DE2FA8733CFE"
+    },
+    {
+      "file": "dist/resources/default-configuration.md",
+      "bytes": 2991,
+      "sha256": "84EE6597EE52257326B6197D8285BE782A5C560BD2264533E068E246F20775BB"
+    },
+    {
+      "file": "dist/resources/directives.md",
+      "bytes": 6981,
+      "sha256": "925743B61AC96C19FB188B328B4B6E3837F2E811A35B63CAC766B5F513F6EF3E"
+    },
+    {
+      "file": "dist/resources/graphs.md",
+      "bytes": 961,
+      "sha256": "D2A765108F7D3DFA90B1F0B10995911EC6B0F59B679DDA918A88FD0C618A2F89"
+    },
+    {
+      "file": "dist/resources/help-configuration.md",
+      "bytes": 338,
+      "sha256": "DAB9AE5197992143B81F060463F8E92C6FF280C35BCCD582456EE784D610F2FB"
+    },
+    {
+      "file": "dist/resources/inspect.md",
+      "bytes": 1651,
+      "sha256": "991DCDF922004056942917D99FCACDF3F3EB28B4FAB87FAFBE88D14CCAF6F57C"
+    },
+    {
+      "file": "dist/resources/loader-openapi.md",
+      "bytes": 2286,
+      "sha256": "C4CF83DDF6FA3683C50A6CA25FAB18BCB78E3EFD09B688A92CAC62C4F27A59CB"
+    },
+    {
+      "file": "dist/resources/miscellaneous.md",
+      "bytes": 1647,
+      "sha256": "0331BE069C260EAA30EF0547EF2F49A3797DB5BDA0B7E9A6ACDB14EE2F2181AD"
+    },
+    {
+      "file": "dist/resources/pipeline.md",
+      "bytes": 4251,
+      "sha256": "119325699CF9F95F4BAC5032DA43B7B2D5484703526DB79CA1E46F9100D2E3D8"
+    },
+    {
+      "file": "dist/resources/plugin-az.md",
+      "bytes": 165,
+      "sha256": "39ED57E0062E1D741AE1006665834153A3541779605A12E13309B680D767591E"
+    },
+    {
+      "file": "dist/resources/plugin-azure-functions.md",
+      "bytes": 962,
+      "sha256": "615DEE9CA09596F4CFF570DF973F7CE4DF9501FEE6322C31A156F8E95D1ED222"
+    },
+    {
+      "file": "dist/resources/plugin-azureresourceschema.md",
+      "bytes": 352,
+      "sha256": "7A5EAE0123D75D3EC7A977720A868933D6BCE367DA9A1D4204737EB04BB34B72"
+    },
+    {
+      "file": "dist/resources/plugin-csharp.md",
+      "bytes": 2345,
+      "sha256": "F9C258CB629CECCF7424B4D2EF4885BD9AF28452142F98427B66B6AA729A7DBD"
+    },
+    {
+      "file": "dist/resources/plugin-go.md",
+      "bytes": 483,
+      "sha256": "CE10EABF7BC402AD4321CBC82A00F500DF437C6C498452BC6278A80E6DA8BE94"
+    },
+    {
+      "file": "dist/resources/plugin-java.md",
+      "bytes": 634,
+      "sha256": "A3CD40D5C0BCC0BF87BAEB7B1D4634ACE3FF395D5C3C376D0AD1A857E38520A3"
+    },
+    {
+      "file": "dist/resources/plugin-nodejs.md",
+      "bytes": 602,
+      "sha256": "8C14C249D8832748DB6505661FF09A44165367CA2E32008E1D44FBB4944E70DD"
+    },
+    {
+      "file": "dist/resources/plugin-openapi-to-typespec.md",
+      "bytes": 263,
+      "sha256": "BD2F00742914EBCF40863672088737A06A9CBE9B8FF3B0CE906823245B25CB18"
+    },
+    {
+      "file": "dist/resources/plugin-php.md",
+      "bytes": 503,
+      "sha256": "0BF8FFBA01C5B291CE4D3E7E07C573B16818EAAFB72F586B271920EB72B4C638"
+    },
+    {
+      "file": "dist/resources/plugin-powershell.md",
+      "bytes": 533,
+      "sha256": "4596E816376B95210A43FFD0927EFDCEE71C6040A21A217308408BB49B36E3E4"
+    },
+    {
+      "file": "dist/resources/plugin-python.md",
+      "bytes": 658,
+      "sha256": "432DDAE93309CA1A16156E4890352AD4F92D3C8D7122B48B8A4A3BAAC2E2FD2A"
+    },
+    {
+      "file": "dist/resources/plugin-ruby.md",
+      "bytes": 514,
+      "sha256": "0CB4CE4ECF73086950A0E1B3D4CAFA7C8A909AF66439A2D47D3DC0B08EA843A8"
+    },
+    {
+      "file": "dist/resources/plugin-terraform.md",
+      "bytes": 146,
+      "sha256": "81F5976564B955E76E0C6DBA107B932824AA169498EECDDFD2FE9A819DCF5998"
+    },
+    {
+      "file": "dist/resources/plugin-typescript.md",
+      "bytes": 701,
+      "sha256": "CBA804DD091771D66A139B6E3CAC3F996C25D808501909E3247CE208F3C1B257"
+    },
+    {
+      "file": "dist/resources/plugin-validators.md",
+      "bytes": 1039,
+      "sha256": "87171EC923B9E2BA11D6C4829BAF9AF140CBEDF0E476D4D07AAC43BFA970F99D"
+    },
+    {
+      "file": "dist/src_lib_autorest-core_ts.js",
+      "bytes": 969110,
+      "sha256": "3EC73B5E679297793BA35A6546A04EDE4FDC86E327905ABB29A70C0FBFF4EB1D"
+    },
+    {
+      "file": "dist/vendors-common_temp_node_modules_pnpm_azure-tools_object-comparison_3_0_253_node_modules_azur-224ba9.js",
+      "bytes": 4729367,
+      "sha256": "3D8B618CD05E512E184203E00115A85F33F5BE36D85484A5FC260BAE745D32F9"
+    },
+    {
+      "file": "dist/vendors-common_temp_node_modules_pnpm_source-map-support_0_5_21_node_modules_source-map-suppo-13bba0.js",
+      "bytes": 128727,
+      "sha256": "AE6947D2171ECED6375B98EC20490972BC34D1164FACB127ED1182B13DF703DB"
+    },
+    {
+      "file": "dist/yarn/cli.js",
+      "bytes": 5306277,
+      "sha256": "37BF2D90CF51EA2CB57A47F43BD85C3F647C43BBAFAAF11A97D54C7EFD0325CF"
+    },
+    {
+      "file": "entrypoints/app.js",
+      "bytes": 154,
+      "sha256": "4B66A691D4035EA8A5EBE1DE86BA03169CF64FDE8726F0D3F5ABD916C7C266D6"
+    },
+    {
+      "file": "entrypoints/language-service.js",
+      "bytes": 167,
+      "sha256": "4E9974A6FCAE1E987F523755F71097E1A435B2F78E63C67E530E85CDE5F1FEC8"
+    },
+    {
+      "file": "jest.config.js",
+      "bytes": 276,
+      "sha256": "CD63C00B9BB66BFA02F8FFAB3F7F693D9934BA0E95C3FC012D269CF7DD3C2AF1"
+    },
+    {
+      "file": "jest.e2e.config.js",
+      "bytes": 174,
+      "sha256": "583D76FF18DAA8B0AC335ADE006BE325AA6DE916A2902251C375874F6572B1E6"
+    },
+    {
+      "file": "package.json",
+      "bytes": 3219,
+      "sha256": "1A798C36B1AF95C2AE3762079F32363BFCA99E4A3C24B142616E26F724F16324"
+    },
+    {
+      "file": "readme.md",
+      "bytes": 697,
+      "sha256": "D928FE5093305116FC23590271F7A885A6AD66AED67921DA980D9C870ABEC828"
+    },
+    {
+      "file": "rush-logs/core.build.log",
+      "bytes": 38,
+      "sha256": "D4F583910DD8007F6A5D179840B1AAC69496A504693439E9805CAE0EBF71E754"
+    },
+    {
+      "file": "tsconfig.build.json",
+      "bytes": 750,
+      "sha256": "32B858E92397ACAC653BF5020261E9A2AAB04B6656DAE9E715E02FECA05D19EF"
+    },
+    {
+      "file": "webpack.config.js",
+      "bytes": 1440,
+      "sha256": "4FF13066401C1E50B73579FDFDE866948C790634CF8C7559891F2046125BB1B5"
+    }
+  ],
+  "availableInstallationMetadata": [
+    {
+      "file": "<USER_HOME>\\.autorest\\@autorest_core@3.10.9\\package.json",
+      "sha256": "8DA2799022F012C3E864BF62AA207BE71F255758001B28F2CD20396FB158A733"
+    },
+    {
+      "file": "<USER_HOME>\\.autorest\\@autorest_core@3.10.9\\node_modules\\.yarn-integrity",
+      "sha256": "906D5DFD89E6DAAA000608C3B6C8ACA415B9F9816E76929027BD706BBD40B151"
+    }
+  ],
+  "limitations": "Core bootstrap cache not automatically included in analyzer baseline-context hashes; this receipt supplements those identities. No complete transitive engine-locking claim, no claim of proven original transport cause; portable asset/replay verification not yet performed."
+}

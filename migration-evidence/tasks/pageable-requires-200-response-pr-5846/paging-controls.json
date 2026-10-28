@@ -1,0 +1,362 @@
+{
+  "task": "pageable-requires-200-response-pr-5846",
+  "rule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+  "validator": "PageableRequires200Response",
+  "scope": "http-reachable",
+  "passed": true,
+  "sourceResultSha256": "952AF8B7FC0C76DB18BDBEBCFCD09574A6DEFD10D61D2B43EFFEC2C0AF719A19",
+  "sanitization": "Original source/emitted document bytes unchanged; summary omits machine-specific runtime entrypoint paths and transport-source URLs while preserving counts/native source positions/production JSON paths. Original complete raw result retained locally.",
+  "publication": "Parent published and verified source ref and three release assets; compact evidence branch push/reviews remain pending. See publication-receipt.json. Full ARM, archive/package integrity and retained observation/source replay passed.",
+  "cases": [
+    {
+      "apiVersion": "0000-00-00",
+      "productionFindings": [
+        {
+          "code": "PageableRequires200Response",
+          "message": "A response for the 200 HTTP status code must be defined to use x-ms-pageable.",
+          "path": null,
+          "severity": null
+        }
+      ],
+      "audience": "arm",
+      "runtime": [
+        {
+          "name": "@typespec/compiler",
+          "version": "1.17.0",
+          "sha256": "4dad8a2af7365238d98ee7181675c05f42e37d9e3cab98ab90ca3c9d67b05fc3"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-core",
+          "version": "0.73.0",
+          "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+        },
+        {
+          "name": "@azure-tools/typespec-autorest",
+          "version": "0.73.2",
+          "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-resource-manager",
+          "version": "0.73.0",
+          "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+        },
+        {
+          "name": "autorest",
+          "version": "3.8.0",
+          "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator",
+          "version": "2.2.4",
+          "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-core",
+          "version": "1.0.7",
+          "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-rulesets",
+          "version": "2.2.6",
+          "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+        },
+        {
+          "name": "@typespec/http",
+          "version": "1.17.0",
+          "sha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+        },
+        {
+          "name": "@typespec/versioning",
+          "version": "0.87.0",
+          "sha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+        }
+      ],
+      "passed": true,
+      "sourceSha256": "02d0e40646038d45cd0e2fba8820e165b74cdbe2e787fb2f53fae5267275304b",
+      "expected": 1,
+      "nativeAlignedFindings": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+          "message": "Next-link pageable operations must define a 200 response.",
+          "sourceFile": "main.tsp",
+          "line": 13,
+          "column": 4
+        }
+      ],
+      "productionCount": 1,
+      "nativeRawFindings": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+          "message": "Next-link pageable operations must define a 200 response.",
+          "sourceFile": "main.tsp",
+          "line": 13,
+          "column": 4
+        }
+      ],
+      "label": "incorrect",
+      "name": "arm-incorrect",
+      "nativeAlignedCount": 1,
+      "source": "examples/arm-incorrect/main.tsp",
+      "productionRuleSeverity": 0,
+      "nativeRawCount": 1,
+      "emittedDocuments": [
+        {
+          "sha256": "4cdfd44a2cbe056a3696e2c4859f13e49c7d5ba513c7a27233c2ede479906c91",
+          "file": "examples/arm-incorrect/openapi-0.json"
+        }
+      ],
+      "nativeDefaultCount": 0
+    },
+    {
+      "apiVersion": "0000-00-00",
+      "productionFindings": [],
+      "audience": "arm",
+      "runtime": [
+        {
+          "name": "@typespec/compiler",
+          "version": "1.17.0",
+          "sha256": "4dad8a2af7365238d98ee7181675c05f42e37d9e3cab98ab90ca3c9d67b05fc3"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-core",
+          "version": "0.73.0",
+          "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+        },
+        {
+          "name": "@azure-tools/typespec-autorest",
+          "version": "0.73.2",
+          "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-resource-manager",
+          "version": "0.73.0",
+          "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+        },
+        {
+          "name": "autorest",
+          "version": "3.8.0",
+          "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator",
+          "version": "2.2.4",
+          "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-core",
+          "version": "1.0.7",
+          "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-rulesets",
+          "version": "2.2.6",
+          "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+        },
+        {
+          "name": "@typespec/http",
+          "version": "1.17.0",
+          "sha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+        },
+        {
+          "name": "@typespec/versioning",
+          "version": "0.87.0",
+          "sha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+        }
+      ],
+      "passed": true,
+      "sourceSha256": "c76a775b254efe4b48664c30b220679ad96e7820c05cbc6516b50f10949e7168",
+      "expected": 0,
+      "nativeAlignedFindings": [],
+      "productionCount": 0,
+      "nativeRawFindings": [],
+      "label": "correct",
+      "name": "arm-correct",
+      "nativeAlignedCount": 0,
+      "source": "examples/arm-correct/main.tsp",
+      "productionRuleSeverity": 0,
+      "nativeRawCount": 0,
+      "emittedDocuments": [
+        {
+          "sha256": "854bef4793c1b49e01ad55c9ed878097d3b47fb82a3d5de56416c50f0a56860c",
+          "file": "examples/arm-correct/openapi-0.json"
+        }
+      ],
+      "nativeDefaultCount": 0
+    },
+    {
+      "apiVersion": "0000-00-00",
+      "productionFindings": [
+        {
+          "code": "PageableRequires200Response",
+          "message": "A response for the 200 HTTP status code must be defined to use x-ms-pageable.",
+          "path": null,
+          "severity": null
+        }
+      ],
+      "audience": "data-plane",
+      "runtime": [
+        {
+          "name": "@typespec/compiler",
+          "version": "1.17.0",
+          "sha256": "4dad8a2af7365238d98ee7181675c05f42e37d9e3cab98ab90ca3c9d67b05fc3"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-core",
+          "version": "0.73.0",
+          "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+        },
+        {
+          "name": "@azure-tools/typespec-autorest",
+          "version": "0.73.2",
+          "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-resource-manager",
+          "version": "0.73.0",
+          "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+        },
+        {
+          "name": "autorest",
+          "version": "3.8.0",
+          "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator",
+          "version": "2.2.4",
+          "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-core",
+          "version": "1.0.7",
+          "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-rulesets",
+          "version": "2.2.6",
+          "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+        },
+        {
+          "name": "@typespec/http",
+          "version": "1.17.0",
+          "sha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+        },
+        {
+          "name": "@typespec/versioning",
+          "version": "0.87.0",
+          "sha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+        }
+      ],
+      "passed": true,
+      "sourceSha256": "18da4c82439a21945c9ef4628b93f1723460a49c892eec9b2c0233630ce3144f",
+      "expected": 1,
+      "nativeAlignedFindings": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+          "message": "Next-link pageable operations must define a 200 response.",
+          "sourceFile": "main.tsp",
+          "line": 12,
+          "column": 4
+        }
+      ],
+      "productionCount": 1,
+      "nativeRawFindings": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+          "message": "Next-link pageable operations must define a 200 response.",
+          "sourceFile": "main.tsp",
+          "line": 12,
+          "column": 4
+        }
+      ],
+      "label": "incorrect",
+      "name": "data-plane-incorrect",
+      "nativeAlignedCount": 1,
+      "source": "examples/data-plane-incorrect/main.tsp",
+      "productionRuleSeverity": 0,
+      "nativeRawCount": 1,
+      "emittedDocuments": [
+        {
+          "sha256": "cd8e7b7bc6d0ea0392f325105e522a8cdcc1c2bd08e32c589561de2c1af40869",
+          "file": "examples/data-plane-incorrect/openapi-0.json"
+        }
+      ],
+      "nativeDefaultCount": 0
+    },
+    {
+      "apiVersion": "0000-00-00",
+      "productionFindings": [],
+      "audience": "data-plane",
+      "runtime": [
+        {
+          "name": "@typespec/compiler",
+          "version": "1.17.0",
+          "sha256": "4dad8a2af7365238d98ee7181675c05f42e37d9e3cab98ab90ca3c9d67b05fc3"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-core",
+          "version": "0.73.0",
+          "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+        },
+        {
+          "name": "@azure-tools/typespec-autorest",
+          "version": "0.73.2",
+          "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+        },
+        {
+          "name": "@azure-tools/typespec-azure-resource-manager",
+          "version": "0.73.0",
+          "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+        },
+        {
+          "name": "autorest",
+          "version": "3.8.0",
+          "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator",
+          "version": "2.2.4",
+          "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-core",
+          "version": "1.0.7",
+          "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+        },
+        {
+          "name": "@microsoft.azure/openapi-validator-rulesets",
+          "version": "2.2.6",
+          "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+        },
+        {
+          "name": "@typespec/http",
+          "version": "1.17.0",
+          "sha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+        },
+        {
+          "name": "@typespec/versioning",
+          "version": "0.87.0",
+          "sha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+        }
+      ],
+      "passed": true,
+      "sourceSha256": "1843dfb4406518b1d9e1340e6957ecc175274a0a46cb6abc7bba3fc01697f107",
+      "expected": 0,
+      "nativeAlignedFindings": [],
+      "productionCount": 0,
+      "nativeRawFindings": [],
+      "label": "correct",
+      "name": "data-plane-correct",
+      "nativeAlignedCount": 0,
+      "source": "examples/data-plane-correct/main.tsp",
+      "productionRuleSeverity": 0,
+      "nativeRawCount": 0,
+      "emittedDocuments": [
+        {
+          "sha256": "b80777e61741cb11a1100c141cc9cb6267a4349ec4dd90e1e1e4a621e5d26f83",
+          "file": "examples/data-plane-correct/openapi-0.json"
+        }
+      ],
+      "nativeDefaultCount": 0
+    }
+  ]
+}

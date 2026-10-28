@@ -1,0 +1,27 @@
+{
+  "task": "pageable-requires-200-response-pr-5846",
+  "population": 487,
+  "scope": "http-reachable; frozen ARM population, latest emitted API version per project",
+  "officialCoverageSha256": "508E454F9E1180EC113DB433E7E99B3A358B93AAE614A9368C83D476FD70E756",
+  "independentReanalysisSha256": "5F17984C762D5911FE2813F155A899DB0FFB10AA77D4018E384540A1183D3F54",
+  "independentResult": "Every official aggregate and all487 project rows matched",
+  "failedOrUnassessedProjects": [],
+  "validatorOnly": [],
+  "nativeOnly": [],
+  "rawValidatorExcessProjects": [],
+  "rawNativeExcessProjects": [],
+  "pathValidatorExcessProjects": [],
+  "sourceNativeExcessProjects": [],
+  "decision": "Every required failure/one-sided/signed-gap inventory is empty, not waived. Zero-positive population has N/A project coverage and does not determine semantic equivalence, legacy representation prevalence, or data-plane corpus parity.",
+  "positiveCases": [
+    "examples/arm-incorrect/main.tsp",
+    "examples/arm-correct/main.tsp",
+    "examples/data-plane-incorrect/main.tsp",
+    "examples/data-plane-correct/main.tsp"
+  ],
+  "limitations": [
+    "null nextLinkName outside native next-link contract",
+    "http-reachable is source-location filtering, not arbitrary version-predicate reevaluation",
+    "Default/range native unit evidence is not emitted-representation parity"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "Parent published and verified specs preservation ref and all three release assets; compact evidence commit/push remains pending. See publication-receipt.json.",
+  "specs": {
+    "sourceUnchanged": true,
+    "forkParentAndPushPermissionVerifiedAtPreflight": true,
+    "preservationRepository": "MaryGao/azure-rest-api-specs",
+    "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "canonicalRepository": "Azure/azure-rest-api-specs",
+    "preservationRef": "refs/heads/migration-source/pageable-requires-200-response-5846",
+    "refPublicationAndReadback": "PASSED: parent read back exact frozen commit; source unchanged",
+    "sourceUrl": "https://github.com/MaryGao/azure-rest-api-specs/tree/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9"
+  },
+  "candidate": {
+    "bundleSha256": "1D352BE7465C174A9B63D942090E2F1AAF09D72F2DEF6A716BA1A5BB4C70F97E",
+    "localBundleVerifyPassed": true,
+    "freshDownloadAndSourceRecovery": "Local bundle recovery PASSED in an independent clean checkout after fetching exact public prerequisite. Separately, parent fresh release-asset download matched exact bundle length/SHA256. See source-replay.json and publication-receipt.json.",
+    "bundle": "candidate-source-c4497d2.bundle",
+    "prerequisite": "13631cdad77c33d5e11d7f75aaf6190a426ab7fb",
+    "checkpoint": "68d7ddf11a93dd52f0efedebc36c67c925afc64b",
+    "snapshot": "c4497d2c5a034f2cefb2be403b616ba883d036eb",
+    "tree": "eab9878c52b99f4a6104130ab07e694d5d5513a4"
+  },
+  "core": {
+    "toolingCommit": "a6137cac43a727ce0c2656364fd72d50c272ee4a",
+    "repository": "microsoft/typespec",
+    "candidateCommit": "fbb44a7037e1eda84fd108a96aaaffc8a7dc045a"
+  },
+  "tooling": {
+    "commit": "729b948037d6c2d71284c929ec2f2d96d2a7793f",
+    "repository": "Azure/typespec-azure"
+  },
+  "candidatePackages": "Exact17 tarballs retained separately with byte hashes; restoring these bytes differs from claiming a deterministic rebuild",
+  "prohibitions": "No latest ref refresh, PR retarget, source edits, force push or implicit publication. Source ref and verified immutable assets must not move or be overwritten. Compact evidence commit/push/readback and reviews remain parent-owned.",
+  "sourceLicenses": [
+    {
+      "file": "source-licenses/azure-rest-api-specs-LICENSE",
+      "sha256": "B37363BF2295AA0ACDE60CE78A60034A71A0955075FC01AA09CC23EADFF44436"
+    },
+    {
+      "file": "source-licenses/typespec-azure-LICENSE",
+      "sha256": "27EBDA9D51F0A56B7E281CCD8230A27236DCB51C05F64B07869ECF6E965D68B0"
+    },
+    {
+      "file": "source-licenses/typespec-LICENSE",
+      "sha256": "27EBDA9D51F0A56B7E281CCD8230A27236DCB51C05F64B07869ECF6E965D68B0"
+    }
+  ]
+}
