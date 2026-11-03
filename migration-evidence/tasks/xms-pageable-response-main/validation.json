@@ -8,7 +8,7 @@
     "baseBranch": "main",
     "baseCommit": "ef4b930980a3937ac1ca6ce244b2c98cd64c71eb",
     "branch": "fix/xms-pageable-response-main",
-    "commit": "f376baefbdc1fa2fe1486485cda6624d068adf1c",
+    "commit": "82587931b7d8892e65fcdbc4a28bf6c493308304",
     "coreCommit": "05b9bad7c57b9b58e8fb5390f9bab081a1a9ac31",
     "nativeRule": "@azure-tools/typespec-azure-resource-manager/list-response-envelope",
     "swaggerRule": "XmsPageableMustHaveCorrespondingResponse"
@@ -93,6 +93,19 @@
     "correction": "Use native serialized property names with inherited HTTP payload eligibility and declared body media types.",
     "followup": "No significant issues found.",
     "capabilityLimit": "The initial synchronous reviewer could not receive follow-up messages; a separate background reviewer reviewed only the narrower encoded-name correction."
+  },
+  "documentationOnlyFollowup": {
+    "commit": "82587931b7d8892e65fcdbc4a28bf6c493308304",
+    "previousValidatedCommit": "f376baefbdc1fa2fe1486485cda6624d068adf1c",
+    "scope": "Restore original list-response-envelope.md wording and examples, retaining small additions for body correspondence and its provenance.",
+    "checks": [
+      "Owning-package regen-docs passed with existing unrelated documentation warnings.",
+      "Both restored documentation snippets compiled with the required ARM service context: incorrect example reports totalCount, correct example is valid.",
+      "Generated snippets exactly match the two compiled authored snippets.",
+      "Authored and generated documentation formatting passed.",
+      "Staged whitespace check passed."
+    ],
+    "reusedResults": "Production code and test files are unchanged; prior focused/full ARM tests, build, lint, and source-review results remain applicable. No redundant package-suite rerun."
   },
   "realServiceProjectsRun": false,
   "packedOrInjectedArtifacts": false,
