@@ -72,7 +72,7 @@ Discovery alone is not baseline-integrity verification or a candidate coverage
 run. Any later consumer must verify the sealed data and explicitly use the
 supported frozen-reference policy.
 
-Candidate commit: `82587931b7d8892e65fcdbc4a28bf6c493308304`.
+Candidate commit: `93d052257ccf162ed65e09279a08f1ff8c1b6da9`.
 The final focused suite passes 56 tests; the full ARM suite passes 786 tests.
 Build, owning-package lint, root lint, formatting, documentation examples,
 Chronus, and whitespace checks pass. Independent source review found an
@@ -88,3 +88,6 @@ small correspondence additions. Documentation was regenerated, the two restored
 examples were compiled with their required service context, and generated examples
 were verified identical. Production code and tests are unchanged from the
 previously validated commit `f376baefbdc1fa2fe1486485cda6624d068adf1c`.
+The wording explicitly states that HTTP 200 is not required: strict envelope
+checks apply only to HTTP 200 bodies, while fallback bodies receive only the
+next-link correspondence check.

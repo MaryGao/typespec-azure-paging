@@ -8,7 +8,7 @@
     "baseBranch": "main",
     "baseCommit": "ef4b930980a3937ac1ca6ce244b2c98cd64c71eb",
     "branch": "fix/xms-pageable-response-main",
-    "commit": "82587931b7d8892e65fcdbc4a28bf6c493308304",
+    "commit": "93d052257ccf162ed65e09279a08f1ff8c1b6da9",
     "coreCommit": "05b9bad7c57b9b58e8fb5390f9bab081a1a9ac31",
     "nativeRule": "@azure-tools/typespec-azure-resource-manager/list-response-envelope",
     "swaggerRule": "XmsPageableMustHaveCorrespondingResponse"
@@ -106,6 +106,12 @@
       "Staged whitespace check passed."
     ],
     "reusedResults": "Production code and test files are unchanged; prior focused/full ARM tests, build, lint, and source-review results remain applicable. No redundant package-suite rerun."
+  },
+  "httpStatusWordingFollowup": {
+    "commit": "93d052257ccf162ed65e09279a08f1ff8c1b6da9",
+    "previousCommit": "82587931b7d8892e65fcdbc4a28bf6c493308304",
+    "scope": "Clarify that HTTP 200 is not required, strict envelope requirements apply only to HTTP 200 bodies, fallback bodies get correspondence-only validation, and bodyless selected responses are skipped.",
+    "checks": "Documentation regenerated; authored and generated formatting and staged whitespace checks passed. Examples, production source, and tests are unchanged."
   },
   "realServiceProjectsRun": false,
   "packedOrInjectedArtifacts": false,
