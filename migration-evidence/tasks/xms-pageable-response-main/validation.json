@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "taskId": "xms-pageable-response-main",
+  "flowVersion": "native-first",
+  "status": "early-draft-local-validation-complete",
+  "candidate": {
+    "repository": "Azure/typespec-azure",
+    "baseBranch": "main",
+    "baseCommit": "ef4b930980a3937ac1ca6ce244b2c98cd64c71eb",
+    "branch": "fix/xms-pageable-response-main",
+    "commit": "f376baefbdc1fa2fe1486485cda6624d068adf1c",
+    "coreCommit": "05b9bad7c57b9b58e8fb5390f9bab081a1a9ac31",
+    "nativeRule": "@azure-tools/typespec-azure-resource-manager/list-response-envelope",
+    "swaggerRule": "XmsPageableMustHaveCorrespondingResponse"
+  },
+  "runtime": {
+    "node": "26.5.0",
+    "pnpm": "11.10.0",
+    "compiler": "1.17.0",
+    "http": "1.17.0",
+    "resourceManager": "0.73.0"
+  },
+  "checks": [
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager exec vitest run test\\rules\\list-response-envelope.test.ts --reporter=dot",
+      "result": "pass",
+      "testsPassed": 56
+    },
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager build",
+      "result": "pass"
+    },
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager lint",
+      "result": "pass"
+    },
+    {
+      "command": "mise exec -- pnpm exec oxlint packages\\typespec-azure-resource-manager --type-aware --deny-warnings",
+      "result": "pass"
+    },
+    {
+      "command": "mise exec -- pnpm lint",
+      "result": "pass",
+      "setupHistory": "The original root type-aware phase found missing vite/client in the filtered setup. A frozen, scripts-disabled dependency repair was followed by the unchanged original lint command."
+    },
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager test --reporter=dot",
+      "result": "failed-timeouts",
+      "testsPassed": 784,
+      "testsTimedOut": 2,
+      "timeoutMilliseconds": 10000,
+      "failedTests": [
+        "test/arm-common-types-registration.test.ts > common definition > type available in all versions > link to v3",
+        "test/enforce-constraint.test.ts > emits no error when template param extends from Resource"
+      ],
+      "cause": "Not established; not reported as an implementation assertion failure or a proven environmental defect."
+    },
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager test --reporter=dot --maxWorkers=1",
+      "result": "pass",
+      "testsPassed": 786,
+      "testFiles": 82,
+      "testsSkipped": 0,
+      "recovery": "One parent-authorized task-wide timeout-only diagnostic, retaining the complete original scope and unchanged code, dependencies, assertions, test timeouts, and hook timeouts."
+    },
+    {
+      "command": "mise exec -- pnpm --filter @azure-tools/typespec-azure-resource-manager regen-docs",
+      "result": "pass",
+      "limitation": "Existing unrelated missing-documentation warnings retained; no blanket website build."
+    },
+    {
+      "command": "Compile actual authored and generated rule-documentation examples using NodeHost and the registered rule",
+      "result": "pass",
+      "compiles": 4,
+      "expectations": "Incorrect examples emit the expected next-link warning; correct examples emit no diagnostics."
+    },
+    {
+      "command": "mise exec -- pnpm format:check",
+      "result": "pass",
+      "attemptHistory": "An earlier concurrent attempt hit ENOENT on a documentation-example scratch file and was stopped, not counted as passing. Final checking ran serially after scratch inputs were removed."
+    },
+    {
+      "command": "mise exec -- pnpm exec chronus verify --since ef4b930980a3937ac1ca6ce244b2c98cd64c71eb",
+      "result": "pass"
+    },
+    {
+      "command": "git diff --check; git diff --cached --check",
+      "result": "pass"
+    }
+  ],
+  "localSourceReview": {
+    "initial": "One encoded-name correspondence issue found.",
+    "correction": "Use native serialized property names with inherited HTTP payload eligibility and declared body media types.",
+    "followup": "No significant issues found.",
+    "capabilityLimit": "The initial synchronous reviewer could not receive follow-up messages; a separate background reviewer reviewed only the narrower encoded-name correction."
+  },
+  "realServiceProjectsRun": false,
+  "packedOrInjectedArtifacts": false,
+  "fullMigrationAcceptance": false,
+  "deferredUntilUserReview": [
+    "Baseline archive recovery and integrity verification",
+    "Immutable candidate artifact preparation and source attestation",
+    "Injected positive and compliant controls",
+    "Fresh native execution across the full frozen ARM population",
+    "Diagnostic-count and one-sided finding investigations",
+    "Portable evidence recovery and replay verification",
+    "GitHub development-review and release-readiness checkpoints",
+    "Applicable authoritative CI checks"
+  ],
+  "evidenceLimit": "This compact report records local execution outcomes. Raw local logs are not published as portable replay inputs; no full migration equivalence or artifact-level validation is claimed."
+}

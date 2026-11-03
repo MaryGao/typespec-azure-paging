@@ -268,3 +268,6 @@ website/src/content/docs/docs/emitters/**/reference/diagnostics/
 
 # Empty
 prs.external-reviewers.generated.yml
+
+# Local migration tooling and unpublished execution data
+/.local/
