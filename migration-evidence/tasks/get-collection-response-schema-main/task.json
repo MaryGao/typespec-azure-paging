@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "flowVersion": "native-first",
+  "taskId": "get-collection-response-schema-main",
+  "membershipRevision": 1,
+  "validatorRules": ["GetCollectionResponseSchema"],
+  "nativeRule": "@azure-tools/typespec-azure-resource-manager/arm-resource-operation-response",
+  "status": "unvalidated-draft",
+  "base": {
+    "repository": "Azure/typespec-azure",
+    "branch": "main",
+    "commit": "ef4b930980a3937ac1ca6ce244b2c98cd64c71eb",
+    "core": "05b9bad7c57b9b58e8fb5390f9bab081a1a9ac31"
+  },
+  "publication": {
+    "operation": "create",
+    "headRepository": "MaryGao/typespec-azure-paging",
+    "headBranch": "feat/get-collection-response-schema",
+    "baseRepository": "Azure/typespec-azure",
+    "baseBranch": "main",
+    "evidenceRepository": "MaryGao/typespec-azure-paging",
+    "evidenceBranch": "migration-evidence/get-collection-response-schema-main",
+    "reportPath": "migration-evidence/tasks/get-collection-response-schema-main/migration.md",
+    "backend": "gh-cli"
+  },
+  "authorization": {
+    "freshFromCanonicalMain": true,
+    "reusePriorMigration": false,
+    "draftBeforeAnyValidation": true,
+    "initialCommitFormatLintWaiver": true,
+    "personalForkHead": true
+  },
+  "validation": {
+    "status": "deferred-until-draft-pr",
+    "commandsExecuted": [],
+    "sharedBaseline": null,
+    "specsRuntime": null,
+    "coverage": "unassessed",
+    "independentReviews": "not-started",
+    "developmentReviewRounds": 0,
+    "releaseReadinessReviewRounds": 0
+  }
+}
