@@ -1,0 +1,214 @@
+{
+  "status": "failed",
+  "candidateCommit": "62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1",
+  "coreCommit": "a43d2ca6f2ddd4c1a1d05f2e63cd4c8a40a71b76",
+  "toolchain": {
+    "pnpm": "11.10.0",
+    "vitest": "5.0.5",
+    "node": "v26.12.1"
+  },
+  "packages": [
+    {
+      "tests": {
+        "failures": [
+          {
+            "file": "test/lro-protocol.test.ts",
+            "title": "retains required final requests and polling parameter bindings as protocol facts"
+          },
+          {
+            "file": "test/operations.test.ts",
+            "title": "gathers metadata about ResourceCreateOrUpdate operation template"
+          },
+          {
+            "file": "src/decorators/lro-status.test.ts",
+            "title": "emits diagnostic if used on wrong type"
+          },
+          {
+            "file": "src/decorators/operation-links.test.ts",
+            "title": "works for sample usage"
+          },
+          {
+            "file": "src/decorators/override-api-version.test.ts",
+            "title": "returns values applied directly to namespaces and interfaces"
+          },
+          {
+            "file": "test/rules/casing-style.test.ts",
+            "title": "model name must be PascalCase > is valid"
+          }
+        ],
+        "testFiles": {
+          "failed": 6,
+          "passed": 54,
+          "total": 60
+        },
+        "passed": 498,
+        "durationSeconds": 64.01,
+        "failed": 6,
+        "status": "failed",
+        "total": 506,
+        "classification": "Six unchanged default-5000ms test timeouts; no assertion failures reported. No logic-failure or environment-cause attribution is established. Parent reported concurrent corpus source materialization and 93,496-file hashing during this run. Baseline comparisons, full-suite reruns and timeout increases were not performed. The separately recorded reduced-concurrency diagnosis does not replace these original counts.",
+        "failureMessage": "Test timed out in 5000ms.",
+        "skipped": 2
+      },
+      "name": "@azure-tools/typespec-azure-core",
+      "build": "passed",
+      "lint": "passed"
+    },
+    {
+      "tests": {
+        "durationSeconds": 17.28,
+        "failed": 0,
+        "testFiles": 1,
+        "passed": 13,
+        "status": "passed",
+        "total": 13
+      },
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "build": "passed",
+      "lint": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "name": "22-native-affected-builds",
+      "command": "pnpm -r --workspace-concurrency=1 --filter @azure-tools/typespec-azure-core --filter @azure-tools/typespec-azure-rulesets run build",
+      "start": "2026-11-04T22:37:49.387345+08:00",
+      "end": "2026-11-04T22:38:30.4069488+08:00",
+      "exitCode": 0,
+      "localLog": "22-native-affected-builds.log",
+      "localLogSha256": "569ac4291d1feb80fea5dde669e2d7ef37d8848a7663ea01a6aa88e9ad733036"
+    },
+    {
+      "name": "23-native-affected-lint",
+      "command": "pnpm -r --workspace-concurrency=1 --filter @azure-tools/typespec-azure-core --filter @azure-tools/typespec-azure-rulesets run lint",
+      "start": "2026-11-04T22:38:35.7916383+08:00",
+      "end": "2026-11-04T22:38:39.1377414+08:00",
+      "exitCode": 0,
+      "localLog": "23-native-affected-lint.log",
+      "localLogSha256": "89748b9368305c015b21a2197ba2038ab350ab975369aa73138d8ca06c32ebce"
+    },
+    {
+      "name": "24-native-affected-full-tests",
+      "command": "pnpm -r --workspace-concurrency=1 --no-bail --filter @azure-tools/typespec-azure-core --filter @azure-tools/typespec-azure-rulesets run test",
+      "start": "2026-11-04T22:38:35.7961196+08:00",
+      "end": "2026-11-04T22:40:04.4863765+08:00",
+      "exitCode": 1,
+      "localLog": "24-native-affected-full-tests.log",
+      "localLogSha256": "5c34c0879e7a04806e77acf3ccf991624a66f861c6be4497c073501c808f4dba"
+    },
+    {
+      "name": "25-native-doc-generation",
+      "command": "pnpm --filter @azure-tools/typespec-azure-core exec tspd doc . --enable-experimental --llmstxt --rules-dir <session-files>\\validation-5957\\native-docs\\rules --output-dir <session-files>\\validation-5957\\native-docs\\reference",
+      "start": "2026-11-04T22:40:26.0810876+08:00",
+      "end": "2026-11-04T22:40:44.3453827+08:00",
+      "exitCode": 0,
+      "localLog": "25-native-doc-generation.log",
+      "localLogSha256": "aa7afeed0f837f0b2183bcfc07c64a1f7660a73b5d3b546532e7c83e86c85e7e"
+    },
+    {
+      "name": "26-native-changed-format",
+      "command": "$changed = @(git diff --name-only 471dffac285f90e0bf892ac80a37a0a21cf8879b HEAD); pnpm exec prettier --check --ignore-path NUL @changed <session-files>\\validation-5957\\native-docs\\rules\\pageable-requires-200-response.md",
+      "start": "2026-11-04T22:41:09.5940203+08:00",
+      "end": "2026-11-04T22:41:12.8793729+08:00",
+      "exitCode": 1,
+      "localLog": "26-native-changed-format.log",
+      "localLogSha256": "270ee5b262fd2a9aafebc98463044aebb8e5ebe1fa12a34904a23b46f361e8c1"
+    },
+    {
+      "name": "27-native-final-hygiene",
+      "command": "git diff --check 471dffac285f90e0bf892ac80a37a0a21cf8879b HEAD; if ($LASTEXITCODE -eq 0) { git diff --exit-code; git diff --cached --exit-code; git -C core diff --exit-code; git status --short; git -C core status --short; git rev-parse HEAD; git -C core rev-parse HEAD }",
+      "start": "2026-11-04T22:41:09.5939132+08:00",
+      "end": "2026-11-04T22:41:11.7262231+08:00",
+      "exitCode": 0,
+      "localLog": "27-native-final-hygiene.log",
+      "localLogSha256": "1fdd7fe3b5bbeb112d4f16668e5a07dda252a37d96431cd293134ec0aa7e2ba5"
+    },
+    {
+      "name": "28-native-doc-side-effect-cleanup",
+      "command": "git restore --source HEAD -- packages\\typespec-azure-core\\README.md; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git diff --check 471dffac285f90e0bf892ac80a37a0a21cf8879b HEAD; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git diff --exit-code; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git -C core diff --exit-code; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git status --short; git -C core status --short",
+      "start": "2026-11-04T22:41:25.0136951+08:00",
+      "end": "2026-11-04T22:41:26.6218279+08:00",
+      "exitCode": 0,
+      "localLog": "28-native-doc-side-effect-cleanup.log",
+      "localLogSha256": "8d54218f90cc4f059f916198630359083cda4a4bd86de89c7916fcb283a9bbf9"
+    },
+    {
+      "name": "30-native-authoritative-changed-format",
+      "command": "$changed = @(git diff --name-only 471dffac285f90e0bf892ac80a37a0a21cf8879b HEAD); pnpm exec prettier --check --cache @changed",
+      "start": "2026-11-04T22:46:14.8263223+08:00",
+      "end": "2026-11-04T22:46:16.9994652+08:00",
+      "exitCode": 1,
+      "localLog": "30-native-authoritative-changed-format.log",
+      "localLogSha256": "fba3ba4ea332a2a85faa56d234ebd4d12e41b2b99cef7ef6fadc7e6738b5a610"
+    },
+    {
+      "name": "32-core-timeout-serial-file-diagnosis",
+      "command": "pnpm --filter @azure-tools/typespec-azure-core exec vitest run --maxWorkers=1 test/lro-protocol.test.ts test/operations.test.ts src/decorators/lro-status.test.ts src/decorators/operation-links.test.ts src/decorators/override-api-version.test.ts test/rules/casing-style.test.ts",
+      "start": "2026-11-04T22:52:16.8283399+08:00",
+      "end": "2026-11-04T22:53:39.2249157+08:00",
+      "exitCode": 1,
+      "localLog": "32-core-timeout-serial-file-diagnosis.log",
+      "localLogSha256": "7b34b108e502e5f79f932f88112c1d28fa02ae717fefb0c82e8a8979e34f33d5"
+    }
+  ],
+  "timeoutDiagnosis": {
+    "receipt": {
+      "command": "pnpm --filter @azure-tools/typespec-azure-core exec vitest run --maxWorkers=1 test/lro-protocol.test.ts test/operations.test.ts src/decorators/lro-status.test.ts src/decorators/operation-links.test.ts src/decorators/override-api-version.test.ts test/rules/casing-style.test.ts",
+      "exitCode": 1,
+      "localLog": "32-core-timeout-serial-file-diagnosis.log",
+      "localLogSha256": "7b34b108e502e5f79f932f88112c1d28fa02ae717fefb0c82e8a8979e34f33d5"
+    },
+    "testFiles": {
+      "failed": 1,
+      "passed": 5,
+      "total": 6
+    },
+    "concurrentWorkReportedByParent": "Source checkout completed; baseline hashing remained running.",
+    "maxWorkers": 1,
+    "durationSeconds": 75.59,
+    "interpretation": "Five selected files passed under one worker; casing-style retained a timeout. No assertion failures reported. No specific performance/environment cause is established; original full-suite failure remains unchanged.",
+    "timeoutOverrides": false,
+    "status": "failed",
+    "purpose": "Explicitly authorized one reduced-concurrency diagnostic over exactly the six previously failed files; not a full-suite rerun.",
+    "remainingFailure": {
+      "message": "Test timed out in 5000ms.",
+      "file": "test/rules/casing-style.test.ts",
+      "reportedTestDurationMilliseconds": 5279,
+      "title": "model name must be PascalCase > is valid"
+    },
+    "tests": {
+      "failed": 1,
+      "passed": 198,
+      "skipped": 0,
+      "total": 199
+    },
+    "testTimeoutMilliseconds": 5000
+  },
+  "formatting": {
+    "status": "failed",
+    "failedFiles": [
+      "packages/typespec-azure-core/src/rules/pageable-requires-200-response.md",
+      "packages/typespec-azure-core/src/rules/pageable-requires-200-response.ts",
+      "packages/typespec-azure-core/test/rules/pageable-requires-200-response.test.ts"
+    ],
+    "ignoredTaskFiles": [
+      ".chronus/changes/core-pageable-requires-200-response.md",
+      ".chronus/changes/rulesets-pageable-requires-200-response.md"
+    ],
+    "checker": "Prettier, not oxfmt, in this candidate typespec-azure native repository.",
+    "rootScript": "format:check = prettier . --check --cache",
+    "scopedCommand": "pnpm exec prettier --check --cache <git-diff changed task files>",
+    "ciFile": ".github/workflows/consistency.yml",
+    "ciInvocation": "pnpm run format:check (line 97), after building @typespec/prettier-plugin-typespec dependencies."
+  },
+  "documentation": {
+    "generation": "passed-with-warnings",
+    "warnings": "Existing @parm tag and missing documentation for unrelated diagnostics; generation exited zero.",
+    "standaloneExamples": "No separate documentation/example validation script exists in either affected package; no new tests or custom example harness were added.",
+    "note": "Existing Core regen-docs command executed via tspd with rules/output directories redirected into session artifacts. It still updated the Core README rule table; that single generated side effect was restored to HEAD. Exact resulting README diff is preserved in 27-native-final-hygiene.log."
+  },
+  "timeoutOverrides": false,
+  "boundedDiagnosticRuns": 1,
+  "sourceChanges": false,
+  "rawLogAvailability": "Logs are retained locally; hashes and commands are published, not machine-specific log paths."
+}

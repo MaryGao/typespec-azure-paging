@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "status": "validation-complete-acceptance-blocked",
+  "candidateCommit": "62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1",
+  "coreCommit": "a43d2ca6f2ddd4c1a1d05f2e63cd4c8a40a71b76",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselineManifestSha256": "3a50fd0a84e1f87ea163918369c1aebf3cc39f74492381ca27df818475156478",
+  "baselineDescriptorSha256": "e5716f46feb5e2098137aa6f561f9513e059651b93c23d7d0fabeec06e1c85c2",
+  "verifiedBaselineFiles": 93496,
+  "sourceFiles": 4251,
+  "swaggerProducer": {
+    "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "specsRepository": "https://github.com/Azure/azure-rest-api-specs.git",
+    "coreCommit": "88e5bd18b07d0cbd3bbe92946aff36beaf707b54",
+    "nodeVersion": "v26.5.0",
+    "specsPackageManager": "pnpm@12.6.0",
+    "scope": "source",
+    "candidateCommit": "726862b537be9fdb24d7e6a4ca868eb9104025dd"
+  },
+  "node": "v26.12.1",
+  "concurrency": 4,
+  "perProjectTimeoutMs": 240000,
+  "worker": {
+    "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+    "sha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609"
+  },
+  "corpus": {
+    "population": 487,
+    "assessed": 487,
+    "unassessed": 0,
+    "pending": 0,
+    "savedSwaggerFindings": 0,
+    "nativeRawFindings": 0,
+    "nativeHttpReachableFindings": 0,
+    "savedPageableOperations": 4047,
+    "startedAt": "2026-11-04T15:01:59.767Z",
+    "finishedAt": "2026-11-04T15:16:26.202Z",
+    "swaggerGeneration": false,
+    "sourceSuppressionsRetained": true,
+    "nativeMode": "target-only",
+    "scope": "http-reachable",
+    "defaultActivation": "not-assessed"
+  },
+  "installedCandidate": {
+    "status": "passed",
+    "packages": 15,
+    "matchedPackedFiles": 2867
+  },
+  "explicitlyLoadedPackages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypointSha256": "8b62234f6206d445c5d51cf1b28e4724213d5dcf82100f3dc247467af917eebe"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "entrypointSha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypointSha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypointSha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypointSha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypointSha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypointSha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypointSha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "entrypointSha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50"
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "entrypointSha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7"
+    }
+  ],
+  "controls": [
+    {
+      "name": "next-link-201",
+      "expectedFindings": 1,
+      "passed": true,
+      "status": "assessed",
+      "rawCount": 1,
+      "alignedCount": 1
+    },
+    {
+      "name": "next-link-200",
+      "expectedFindings": 0,
+      "passed": true,
+      "status": "assessed",
+      "rawCount": 0,
+      "alignedCount": 0
+    },
+    {
+      "name": "continuation-token-201",
+      "expectedFindings": 1,
+      "passed": true,
+      "status": "assessed",
+      "rawCount": 1,
+      "alignedCount": 1
+    },
+    {
+      "name": "continuation-token-200",
+      "expectedFindings": 0,
+      "passed": true,
+      "status": "assessed",
+      "rawCount": 0,
+      "alignedCount": 0
+    }
+  ],
+  "focusedTests": {
+    "passed": 12,
+    "failed": 0,
+    "command": "pnpm --filter @azure-tools/typespec-azure-core exec vitest run test/rules/pageable-requires-200-response.test.ts",
+    "status": "passed"
+  },
+  "suppressionPivots": {
+    "readmeFilesSearched": 2497,
+    "exactTargetMatches": 0,
+    "relatedReadmes": 39,
+    "swaggerFilesInspected": 9,
+    "pageableOperationsInspected": 14,
+    "targetViolationsFound": 0
+  },
+  "blockers": [
+    "Original full Core suite: six unchanged 5000ms test timeouts; one timeout remains in the reduced-concurrency six-file diagnosis.",
+    "Three task files fail the authoritative scoped Prettier check.",
+    "Required generated documentation updates and standalone authored example compilation remain outstanding.",
+    "Independent development and release-readiness reviews remain outstanding."
+  ],
+  "equivalenceClaimed": false,
+  "releaseReady": false,
+  "sourceChangesDuringValidation": false
+}

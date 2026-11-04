@@ -1,0 +1,92 @@
+[
+  {
+    "name": "@azure-tools/typespec-autorest",
+    "version": "0.73.2",
+    "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+    "sha256": "abf2657771d9a6a9cd58092462e6a26a11bd2cd973393af35575950d221d6f56"
+  },
+  {
+    "name": "@azure-tools/typespec-azure-core",
+    "version": "0.73.0",
+    "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+    "sha256": "228e74cf55f732db24484ba6ec456925472768279f005615131e66fd717ebe2a"
+  },
+  {
+    "name": "@azure-tools/typespec-azure-examples",
+    "version": "0.2.2",
+    "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+    "sha256": "fb1e772d82bf357547b7693580cae266cb65a6514507499abb2a7509c53dc64f"
+  },
+  {
+    "name": "@azure-tools/typespec-azure-resource-manager",
+    "version": "0.73.0",
+    "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+    "sha256": "6f283431fd3be47dfa886febb5fae388e05d55bc85945ba3f8d2e51687940c03"
+  },
+  {
+    "name": "@azure-tools/typespec-azure-rulesets",
+    "version": "0.73.0",
+    "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+    "sha256": "f875d2f3671b61033a26a1e45666be3d0914d2eb60de931a451e1df63b7e97e5"
+  },
+  {
+    "name": "@azure-tools/typespec-client-generator-core",
+    "version": "0.73.0",
+    "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+    "sha256": "b64039cfe30aa73eaa118746f03d7a92361ab458d23683ae5254d1405fcee531"
+  },
+  {
+    "name": "@typespec/compiler",
+    "version": "1.17.0",
+    "archive": "typespec-compiler-1.17.0.tgz",
+    "sha256": "e17ef950bd35b9202edad14a2c7d89bd1964c71c00551eaed9a9e171736c049f"
+  },
+  {
+    "name": "@typespec/events",
+    "version": "0.87.0",
+    "archive": "typespec-events-0.87.0.tgz",
+    "sha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb"
+  },
+  {
+    "name": "@typespec/http",
+    "version": "1.17.0",
+    "archive": "typespec-http-1.17.0.tgz",
+    "sha256": "8aaa012de82494666ee721843edcc7a177d3f4d3ab4e720f1b6e833c06e639e2"
+  },
+  {
+    "name": "@typespec/openapi",
+    "version": "1.17.0",
+    "archive": "typespec-openapi-1.17.0.tgz",
+    "sha256": "5d70239f702db9c60143efb5065343b45515ede6332824cbfffd9cfd8be1ca17"
+  },
+  {
+    "name": "@typespec/rest",
+    "version": "0.87.0",
+    "archive": "typespec-rest-0.87.0.tgz",
+    "sha256": "4f768ffd88ce4077d0edd13d36ca0733b3d922a3c35bc924027a12d90fc92afb"
+  },
+  {
+    "name": "@typespec/sse",
+    "version": "0.87.0",
+    "archive": "typespec-sse-0.87.0.tgz",
+    "sha256": "cec1bdf8ff19d0ee5926efc57ec24abca7a9ea1b13e89d5ea403307149bc13f3"
+  },
+  {
+    "name": "@typespec/streams",
+    "version": "0.87.0",
+    "archive": "typespec-streams-0.87.0.tgz",
+    "sha256": "cc5ef9309a1bbdaad533daf43d9c87f6a58eb7d01de097497d5aeaaaf5b945a3"
+  },
+  {
+    "name": "@typespec/versioning",
+    "version": "0.87.0",
+    "archive": "typespec-versioning-0.87.0.tgz",
+    "sha256": "a726a9150b541771ba0c5f3f0ad5234cf5779481073d61c83bf40c102c236ba7"
+  },
+  {
+    "name": "@typespec/xml",
+    "version": "0.87.0",
+    "archive": "typespec-xml-0.87.0.tgz",
+    "sha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef"
+  }
+]
