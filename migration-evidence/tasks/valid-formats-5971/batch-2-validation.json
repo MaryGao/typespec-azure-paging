@@ -1,10 +1,10 @@
 {
   "status": "complete",
   "assessment": "Second five-project raw source / retained Swagger comparison; not migration acceptance.",
-  "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
+  "candidateCommit": "21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc",
   "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
   "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
-  "finishedAt": "2026-11-05T04:46:47.743Z",
+  "finishedAt": "2026-11-05T05:09:15.498Z",
   "node": "v24.20.0",
   "policy": "Disable all authored-source #suppress directives in memory; keep compared rules explicitly enabled. Fresh production Swagger rule replay applies no README/AutoRest suppression filtering. Same five projects only.",
   "workerSha256": "647a5d3cfbd31605f32c9d6bc2f9b1d924823d0836fa373448d37390517980f4",
@@ -12,7 +12,7 @@
   "swaggerScriptSha256": "2388ee69e007eb60984e8c7a8dc07650311862a4776a8e5baca59bd9c12a301a",
   "artifactVerification": {
     "status": "passed",
-    "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
+    "candidateCommit": "21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc",
     "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
     "packages": [
       {
@@ -21,7 +21,7 @@
         "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
         "sha256": "12f007e3b2b042111a188cbc0225d4e05a45e9798d1790de433db9ac49d4f763",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-autor_712613c19441f12753f3346139bee01e\\node_modules\\@azure-tools\\typespec-autorest"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-autor_bbbd566fb58f32bc2a6f41e90d516123\\node_modules\\@azure-tools\\typespec-autorest"
         ],
         "matchedPackedFiles": 71
       },
@@ -29,9 +29,9 @@
         "name": "@azure-tools/typespec-azure-core",
         "version": "0.73.0",
         "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
-        "sha256": "b7d4146e420ed5472ab3b06537e5ebbea19e4c93a763c6cb5341f7bb80211035",
+        "sha256": "eaa6896488ca486a8258f4f4449d1f705a71e34cbd905d1ee726e6111a2cbc12",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_3034ba089fc349fa5d45c7adbf01bc30\\node_modules\\@azure-tools\\typespec-azure-core"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_6d2f6c46b1d5f43fe1958ed6a7b9d3e7\\node_modules\\@azure-tools\\typespec-azure-core"
         ],
         "matchedPackedFiles": 417
       },
@@ -43,9 +43,12 @@
         "installedDirectories": [
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_b2a840734d6d09372b9b53491a815069\\node_modules\\@azure-tools\\typespec-azure-examples",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_b2a840734d6d09372b9b53491a815069\\node_modules\\@azure-tools\\typespec-azure-examples",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_b2a840734d6d09372b9b53491a815069\\node_modules\\@azure-tools\\typespec-azure-examples",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples"
         ],
         "matchedPackedFiles": 169
@@ -56,7 +59,7 @@
         "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
         "sha256": "030e847fb8a8caf3c7245e18ad9d77dfd40d058c099ab1eba9878b9c0c638eb0",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_1a2c7dc1ac97d8e16792f43a5ba698d8\\node_modules\\@azure-tools\\typespec-azure-resource-manager"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_80a9e78f38709209164ca1b959aecdcb\\node_modules\\@azure-tools\\typespec-azure-resource-manager"
         ],
         "matchedPackedFiles": 423
       },
@@ -66,7 +69,7 @@
         "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
         "sha256": "0148b1a75897a166b5e6b2bc622c4ec4dd6521c9e95ca00ef6a5369ea42a945c",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_6c24974f1586710a06eb9df44eaa7045\\node_modules\\@azure-tools\\typespec-azure-rulesets"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_f367974063661e63395639d13608b44d\\node_modules\\@azure-tools\\typespec-azure-rulesets"
         ],
         "matchedPackedFiles": 19
       },
@@ -76,7 +79,7 @@
         "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
         "sha256": "72a087a6cd663b0909d89dde15774f43d9c2dfc4cff324912bacf6ca87be5eca",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-clien_e430b3a77917d7fc4f32e756a62b69fa\\node_modules\\@azure-tools\\typespec-client-generator-core"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-clien_cd390213cd5aacf269a4ea450ba224e3\\node_modules\\@azure-tools\\typespec-client-generator-core"
         ],
         "matchedPackedFiles": 180
       },
@@ -88,6 +91,8 @@
         "installedDirectories": [
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_0c8f551ffd308883512b66eec68804af\\node_modules\\@typespec\\asset-emitter",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_4368db1df63d3f35dbe2baf1d54ed712\\node_modules\\@typespec\\asset-emitter",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_dce51e0a64d6050e5e07066dca3a1cc7\\node_modules\\@typespec\\asset-emitter",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_dce51e0a64d6050e5e07066dca3a1cc7\\node_modules\\@typespec\\asset-emitter",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_0c8f551ffd308883512b66eec68804af\\node_modules\\@typespec\\asset-emitter",
           "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_4368db1df63d3f35dbe2baf1d54ed712\\node_modules\\@typespec\\asset-emitter"
         ],
@@ -99,7 +104,7 @@
         "archive": "typespec-compiler-1.17.0.tgz",
         "sha256": "05305a9ba831f7d11c70b928eb2ac0cac360c062910d8f2377768c980bff787b",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_1abffd81352632918c514b7a3f32fe2d\\node_modules\\@typespec\\compiler"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_4393765a683c4567a641c3aaea2278a7\\node_modules\\@typespec\\compiler"
         ],
         "matchedPackedFiles": 1082
       },
@@ -109,7 +114,7 @@
         "archive": "typespec-events-0.87.0.tgz",
         "sha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+events@file+..+.._7a1119b0a9cf5d0d5a28370fc67ce8d8\\node_modules\\@typespec\\events"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+events@file+..+.._9ec5e0a2fdb7f9446b6653516b13de36\\node_modules\\@typespec\\events"
         ],
         "matchedPackedFiles": 45
       },
@@ -119,7 +124,7 @@
         "archive": "typespec-http-1.17.0.tgz",
         "sha256": "300dc392c0a0637ea5821ea6a372677709e9690a762deadd1be06862783fddae",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+http@file+..+..+._abc69809b573d2245ff63732dfb0ba6c\\node_modules\\@typespec\\http"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+http@file+..+..+._4c1569faead773fb9fabe227ddd29f9c\\node_modules\\@typespec\\http"
         ],
         "matchedPackedFiles": 181
       },
@@ -129,7 +134,7 @@
         "archive": "typespec-openapi-1.17.0.tgz",
         "sha256": "5c6fd79753f4f837a5b77a6e02bd6bbcc40de8740bde743e482e43a1e7c806a9",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi@file+..+._fed933bf948b085eeef8b915da06685f\\node_modules\\@typespec\\openapi"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi@file+..+._d87b73334b41c437fe5bfd04fed701cb\\node_modules\\@typespec\\openapi"
         ],
         "matchedPackedFiles": 42
       },
@@ -139,7 +144,7 @@
         "archive": "typespec-openapi3-1.17.0.tgz",
         "sha256": "53fd6128fd32e5cd28b267f9f6a83b6db41462cec1ec21e6765f19e4378eec10",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi3@file+..+_3ca7ace573a3526ef8f263a60261d211\\node_modules\\@typespec\\openapi3"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi3@file+..+_090919e7d83a9d308886e8b781dbd454\\node_modules\\@typespec\\openapi3"
         ],
         "matchedPackedFiles": 278
       },
@@ -149,7 +154,7 @@
         "archive": "typespec-rest-0.87.0.tgz",
         "sha256": "c9038ca1a0795082ae0b02fe5b2436a03d358c405931c10f8f723ed2b0526ba9",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+rest@file+..+..+._8d190c8ac999163f47f6c3dae3d2de0c\\node_modules\\@typespec\\rest"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+rest@file+..+..+._9442f11a36fad214c4a2fbe8bd8cae42\\node_modules\\@typespec\\rest"
         ],
         "matchedPackedFiles": 58
       },
@@ -159,7 +164,7 @@
         "archive": "typespec-sse-0.87.0.tgz",
         "sha256": "7750c52b8f58dfbc617140078e57fb9de7dc3292e9fa9b56630f4ed6ffe16725",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+sse@file+..+..+.._4c5f551e9faa7904d7d5e7e83465117d\\node_modules\\@typespec\\sse"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+sse@file+..+..+.._b7371e5a1c1140c56cf7379aef9b8f48\\node_modules\\@typespec\\sse"
         ],
         "matchedPackedFiles": 38
       },
@@ -169,7 +174,7 @@
         "archive": "typespec-streams-0.87.0.tgz",
         "sha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+streams@file+..+._094cca3e7806323f335128bf853dfe44\\node_modules\\@typespec\\streams"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+streams@file+..+._d6f82d84d32a93bb40e96112e2ea54bd\\node_modules\\@typespec\\streams"
         ],
         "matchedPackedFiles": 34
       },
@@ -179,7 +184,7 @@
         "archive": "typespec-versioning-0.87.0.tgz",
         "sha256": "d71421f381f7abef857964aa995088ea7e3d5c1feed7614494c289fbaa5a10cf",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+versioning@file+._940f88ad3cb964d8940462600b5567f4\\node_modules\\@typespec\\versioning"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+versioning@file+._de2c0804e6a4e80f2c580c034a924001\\node_modules\\@typespec\\versioning"
         ],
         "matchedPackedFiles": 61
       },
@@ -189,7 +194,7 @@
         "archive": "typespec-xml-0.87.0.tgz",
         "sha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
         "installedDirectories": [
-          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+xml@file+..+..+.._1ec4312d68757b8313ebd020b57bf267\\node_modules\\@typespec\\xml"
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+xml@file+..+..+.._61bcf34e8d197057cec7d5122dfc62d6\\node_modules\\@typespec\\xml"
         ],
         "matchedPackedFiles": 43
       }
@@ -206,7 +211,7 @@
   },
   "nativeControls": {
     "status": "success",
-    "compiler": "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_1abffd81352632918c514b7a3f32fe2d\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+    "compiler": "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_4393765a683c4567a641c3aaea2278a7\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
     "controls": [
       {
         "name": "violating",
@@ -322,25 +327,25 @@
     "actual": {
       "@azure-tools/typespec-azure-core/no-format": 0,
       "@azure-tools/typespec-azure-core/known-encoding": 0,
-      "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      "@azure-tools/typespec-azure-core/no-generic-numeric": 1
     },
-    "interpretation": "Zero warnings confirms the uncovered Record<decimal> value shape; not an approved acceptance result."
+    "interpretation": "One numeric warning confirms Record<decimal> values are now checked; the earlier zero-warning receipt is preserved in the parent batch directory."
   },
   "totals": {
     "swagger": 12,
     "native": {
       "@azure-tools/typespec-azure-core/no-format": 0,
       "@azure-tools/typespec-azure-core/known-encoding": 10,
-      "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      "@azure-tools/typespec-azure-core/no-generic-numeric": 2
     },
-    "related": 11,
-    "swaggerOnly": 1,
+    "related": 12,
+    "swaggerOnly": 0,
     "typeSpecOnly": 0
   },
   "reportVerification": {
     "status": "passed",
     "swaggerOccurrences": 12,
-    "nativeWarnings": 11,
+    "nativeWarnings": 12,
     "exactAuthoredExcerpts": 24
   },
   "projects": [
@@ -353,12 +358,12 @@
       "nativeCounts": {
         "@azure-tools/typespec-azure-core/no-format": 0,
         "@azure-tools/typespec-azure-core/known-encoding": 0,
-        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 2
       },
       "disabledSuppressions": 50,
       "disabledTargetSuppressions": 1,
-      "relatedSourceWarningOccurrences": 1,
-      "swaggerOnlyOccurrences": 1,
+      "relatedSourceWarningOccurrences": 2,
+      "swaggerOnlyOccurrences": 0,
       "typeSpecOnlyOccurrences": 0,
       "sourceWitnesses": [
         {
@@ -467,8 +472,16 @@
             }
           ],
           "relatedRule": "@azure-tools/typespec-azure-core/no-generic-numeric",
-          "nativeDiagnostics": [],
-          "disposition": "swagger-only"
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+              "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead.",
+              "sourceFile": "models.tsp",
+              "line": 356,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
         },
         {
           "rule": "ValidFormats",
@@ -575,6 +588,13 @@
           "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead.",
           "sourceFile": "models.tsp",
           "line": 332,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead.",
+          "sourceFile": "models.tsp",
+          "line": 356,
           "column": 3
         }
       ]
@@ -1771,5 +1791,28 @@
       "observations": [],
       "nativeDiagnostics": []
     }
-  ]
+  ],
+  "beforeFix": {
+    "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
+    "totals": {
+      "swagger": 12,
+      "native": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 10,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "related": 11,
+      "swaggerOnly": 1,
+      "typeSpecOnly": 0
+    },
+    "report": "https://github.com/MaryGao/typespec-azure-paging/blob/18992e334abe771f9e4473b7d9cec63182b7a6e8/migration-evidence/tasks/valid-formats-5971/batch-2.md",
+    "dictionaryControlWarnings": 0
+  },
+  "candidateChecks": {
+    "focusedTests": 14,
+    "files": 3,
+    "azureCoreBuild": "passed",
+    "repositoryFormat": "passed",
+    "repositoryLint": "passed"
+  }
 }
