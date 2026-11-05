@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/SecurityConnector.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/DeleteSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/GetSecurityConnectorSingleResource_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/GetSecurityConnectorsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/GetSecurityConnectorsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/PatchSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2024-08-01-preview/SecurityConnectors/PutSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/DeleteSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/GetSecurityConnectorSingleResource_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/GetSecurityConnectorsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/GetSecurityConnectorsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/PatchSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/examples/2026-08-01-preview/SecurityConnectors/PutSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6191,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/securityConnectors.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/DeleteSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/GetSecurityConnectorSingleResource_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/GetSecurityConnectorsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/GetSecurityConnectorsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/PatchSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/examples/SecurityConnectors/PutSecurityConnector_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/swagger/preview/2026-08-01-preview/securityConnectors.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6224,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/raw/preview/2026-08-01-preview/securityConnectors.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI/raw/preview/2026-08-01-preview/securityConnectors.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

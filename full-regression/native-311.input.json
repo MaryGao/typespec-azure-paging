@@ -1,0 +1,58 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products",
+    "typespecPath": "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec",
+    "typespecFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductGet_GetByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductGet_GetByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductGet_GetBySubscription.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductGet_GetByTenant.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductList_ListByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductList_ListByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductList_ListBySubscription.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/examples/2025-05-01/ProductList_ListByTenant.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/main.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/parameters.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/product.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/readme.md",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/service.yaml",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/suppressions.yaml",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5802,
+    "swaggerFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductGet_GetByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductGet_GetByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductGet_GetBySubscription.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductGet_GetByTenant.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductList_ListByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductList_ListByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductList_ListBySubscription.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/examples/ProductList_ListByTenant.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/swagger/stable/2025-05-01/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6924,
+    "rawFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/raw/stable/2025-05-01/openapi.jsonl",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products/raw/stable/2025-05-01/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

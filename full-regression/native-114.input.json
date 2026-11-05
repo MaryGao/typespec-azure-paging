@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LogsLogGroup.Management",
+    "typespecPath": "projects/specification/awsconnector/LogsLogGroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_Delete.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_Get.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/examples/2024-12-01/LogsLogGroups_Update.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LogsLogGroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6233,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsLogGroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_Delete.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_Get.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsLogGroups_Update.json",
+      "projects/specification/awsconnector/LogsLogGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsLogGroup.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6727,
+    "rawFiles": [
+      "projects/specification/awsconnector/LogsLogGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsLogGroup.jsonl",
+      "projects/specification/awsconnector/LogsLogGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsLogGroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

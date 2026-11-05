@@ -1,0 +1,51 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi",
+    "typespecPath": "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec",
+    "typespecFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/GraphQueryResource.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/back-compatible.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryAdd.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryDelete.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryList.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryList1.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/examples/2024-04-01/GraphQueryUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/main.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/models.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/service.yaml",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5684,
+    "swaggerFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/graphquery.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryAdd.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryDelete.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryList.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryList1.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/examples/GraphQueryUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/swagger/stable/2024-04-01/graphquery.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5817,
+    "rawFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/raw/stable/2024-04-01/graphquery.jsonl",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi/raw/stable/2024-04-01/graphquery.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

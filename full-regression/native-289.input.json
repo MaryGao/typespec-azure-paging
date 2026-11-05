@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments",
+    "typespecPath": "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/UpgradeAssessment.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/examples/2026-06-15-preview/GetUpgradeAssessments.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/examples/2026-06-15-preview/ListUpgradeAssessments.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/main.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/models.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/readme.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/service.yaml",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-06-15-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5334,
+    "swaggerFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/swagger/preview/2026-06-15-preview/upgradeAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/swagger/preview/2026-06-15-preview/examples/GetUpgradeAssessments.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/swagger/preview/2026-06-15-preview/examples/ListUpgradeAssessments.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/swagger/preview/2026-06-15-preview/upgradeAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6290,
+    "rawFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/raw/preview/2026-06-15-preview/upgradeAssessments.jsonl",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments/raw/preview/2026-06-15-preview/upgradeAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

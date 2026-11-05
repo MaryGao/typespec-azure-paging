@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/AlertsSuppressionRule.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/examples/2019-01-01-preview/AlertsSuppressionRules/DeleteAlertsSuppressionRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/examples/2019-01-01-preview/AlertsSuppressionRules/GetAlertsSuppressionRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/examples/2019-01-01-preview/AlertsSuppressionRules/GetAlertsSuppressionRulesWithAlertType_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/examples/2019-01-01-preview/AlertsSuppressionRules/GetAlertsSuppressionRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/examples/2019-01-01-preview/AlertsSuppressionRules/PutAlertsSuppressionRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5639,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/alertsSuppressionRules.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/alertsSuppressionRules.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/examples/AlertsSuppressionRules/DeleteAlertsSuppressionRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/examples/AlertsSuppressionRules/GetAlertsSuppressionRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/examples/AlertsSuppressionRules/GetAlertsSuppressionRulesWithAlertType_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/examples/AlertsSuppressionRules/GetAlertsSuppressionRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/swagger/preview/2019-01-01-preview/examples/AlertsSuppressionRules/PutAlertsSuppressionRule_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6398,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/raw/preview/2019-01-01-preview/alertsSuppressionRules.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI/raw/preview/2019-01-01-preview/alertsSuppressionRules.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

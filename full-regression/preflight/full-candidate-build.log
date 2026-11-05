@@ -1,0 +1,16 @@
+dd233ce884c25ed54074ad6feaa770ee567c4f5e
+Scope: 2 of 69 workspace projects
+packages/typespec-azure-core build$ pnpm run gen-extern-signature && tsc -p tsconfig.build.json && pnpm run lint-typespec-library
+packages/typespec-azure-core build: $ tspd --enable-experimental gen-extern-signature .
+packages/typespec-azure-core build: TypeSpec Developer Tools
+packages/typespec-azure-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-core build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+packages/typespec-azure-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-core build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-azure-core build: TypeSpec compiler v1.17.0
+packages/typespec-azure-core build: - Compiling...
+packages/typespec-azure-core build: [32m✔[39m Compiling
+packages/typespec-azure-core build: Compilation completed successfully.
+packages/typespec-azure-core build: Done
+packages/typespec-azure-rulesets build$ tsc -p tsconfig.build.json
+packages/typespec-azure-rulesets build: Done

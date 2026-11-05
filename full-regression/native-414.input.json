@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/resourceValidator",
+    "typespecPath": "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec",
+    "typespecFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/examples/2022-06-01/ResourceValidator_ValidateResources.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/main.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/models.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/readme.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/routes.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/service.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-06-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5300,
+    "swaggerFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/swagger/stable/2022-06-01/resourceValidator.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/swagger/stable/2022-06-01/examples/ResourceValidator_ValidateResources.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/swagger/stable/2022-06-01/resourceValidator.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6092,
+    "rawFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/raw/stable/2022-06-01/resourceValidator.jsonl",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resourceValidator/raw/stable/2022-06-01/resourceValidator.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

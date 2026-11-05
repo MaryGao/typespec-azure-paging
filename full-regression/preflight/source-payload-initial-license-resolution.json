@@ -1,0 +1,113 @@
+{
+  "status": "failed",
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "productionSourceSha256": "006bc280878eca70b7c2359164323cf7b2a242b8960c753ca9d9ff78590ed6b6",
+  "excluded": "Package manifests are rewritten by pnpm pack; every other packed file is compared with the final candidate's source/build output.",
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "verifiedPayloadFiles": 70,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "verifiedPayloadFiles": 420,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "verifiedPayloadFiles": 167,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "verifiedPayloadFiles": 422,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "verifiedPayloadFiles": 18,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "verifiedPayloadFiles": 179,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "verifiedPayloadFiles": 1081,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "verifiedPayloadFiles": 43,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    },
+    {
+      "name": "@typespec/http",
+      "verifiedPayloadFiles": 180,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "verifiedPayloadFiles": 40,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    },
+    {
+      "name": "@typespec/rest",
+      "verifiedPayloadFiles": 57,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "verifiedPayloadFiles": 36,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    },
+    {
+      "name": "@typespec/streams",
+      "verifiedPayloadFiles": 32,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    },
+    {
+      "name": "@typespec/versioning",
+      "verifiedPayloadFiles": 60,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "verifiedPayloadFiles": 41,
+      "mismatches": [
+        {
+          "file": "LICENSE",
+          "sha256": "27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0"
+        }
+      ]
+    }
+  ]
+}

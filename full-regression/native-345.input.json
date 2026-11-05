@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/VMInsightsOnboardingStatus.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/examples/2018-11-27-preview/getOnboardingStatusResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/examples/2018-11-27-preview/getOnboardingStatusSingleVM.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/examples/2018-11-27-preview/getOnboardingStatusSingleVMUnknown.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/examples/2018-11-27-preview/getOnboardingStatusSubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/examples/2018-11-27-preview/getOnboardingStatusVMScaleSet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2018-11-27-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5579,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/vmInsightsOnboarding.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/examples/getOnboardingStatusResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/examples/getOnboardingStatusSingleVM.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/examples/getOnboardingStatusSingleVMUnknown.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/examples/getOnboardingStatusSubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/examples/getOnboardingStatusVMScaleSet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/swagger/preview/2018-11-27-preview/vmInsightsOnboarding.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5979,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/raw/preview/2018-11-27-preview/vmInsightsOnboarding.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding/raw/preview/2018-11-27-preview/vmInsightsOnboarding.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

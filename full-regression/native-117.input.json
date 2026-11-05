@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LogsSubscriptionFilter.Management",
+    "typespecPath": "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_Delete.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_Get.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/examples/2024-12-01/LogsSubscriptionFilters_Update.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6364,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsSubscriptionFilter.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_Delete.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_Get.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsSubscriptionFilters_Update.json",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsSubscriptionFilter.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6021,
+    "rawFiles": [
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsSubscriptionFilter.jsonl",
+      "projects/specification/awsconnector/LogsSubscriptionFilter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsSubscriptionFilter.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval",
+    "typespecPath": "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec",
+    "typespecFiles": [
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/client.tsp",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01-preview/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/examples/2024-10-01/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/main.tsp",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/readme.md",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/service.yaml",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6099,
+    "swaggerFiles": [
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/examples/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/swagger/preview/2024-10-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6469,
+    "rawFiles": [
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/raw/preview/2024-10-01-preview/openapi.jsonl",
+      "projects/specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval/raw/preview/2024-10-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,5 +1,7 @@
 # DefaultInEnum: five-project validation
 
+**Full-validation follow-up:** the corrected candidate `dd233ce884c25ed54074ad6feaa770ee567c4f5e` has now completed all 487 frozen ARM project assessments with zero native findings, zero ambient diagnostics, and zero verified saved Swagger findings. Final analyzer integrity sealing is still pending. See the [complete reports](../full-regression/index.md); the five-project results below remain historical evidence for their original candidate.
+
 **5/5 projects assessed; zero target-rule findings in both the fresh native runs and the verified historical Swagger logs.** This is a bounded ARM pilot, not full regression, data-plane validation, equivalence, or release acceptance.
 
 | Project | API version | Authored `.tsp` files | Saved primary Swagger files | Enum/default sites | Saved Swagger findings | Fresh TypeSpec raw / source | Detail |

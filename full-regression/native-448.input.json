@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/ServiceEntitlementSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/CreateOrUpdateServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/CreateOrUpdateServiceEntitlementSettingMinimal.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/DeleteServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/GetServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/ListServiceEntitlementSettingsByResourceGroup.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/ListServiceEntitlementSettingsBySubscription.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/UpdateServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/examples/2026-09-16-preview/ServiceEntitlementSettings/UpdateServiceEntitlementSettingTagsOnly.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-09-16-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5694,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/serviceEntitlementSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/CreateOrUpdateServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/CreateOrUpdateServiceEntitlementSettingMinimal.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/DeleteServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/GetServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/ListServiceEntitlementSettingsByResourceGroup.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/ListServiceEntitlementSettingsBySubscription.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/UpdateServiceEntitlementSetting.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/examples/ServiceEntitlementSettings/UpdateServiceEntitlementSettingTagsOnly.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/swagger/preview/2026-09-16-preview/serviceEntitlementSettings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5913,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/raw/preview/2026-09-16-preview/serviceEntitlementSettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI/raw/preview/2026-09-16-preview/serviceEntitlementSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

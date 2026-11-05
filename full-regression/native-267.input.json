@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices",
+    "typespecPath": "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec",
+    "typespecFiles": [
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/client.tsp",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_Create_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_Delete_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_Get_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/DeidServices_Update_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/PrivateEndpointConnections_Create_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/PrivateEndpointConnections_Delete_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/PrivateEndpointConnections_Get_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/PrivateEndpointConnections_ListByDeidService_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/examples/2024-09-20/PrivateLinks_ListByDeidService_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/main.tsp",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.az.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.cli.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.csharp.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.java.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/readme.python.md",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/service.yaml",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-09-20",
+    "compileStatus": "success",
+    "compileDurationMs": 5875,
+    "swaggerFiles": [
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_Create_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_Delete_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_Get_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/DeidServices_Update_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/PrivateEndpointConnections_Create_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/PrivateEndpointConnections_Delete_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/PrivateEndpointConnections_Get_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/PrivateEndpointConnections_ListByDeidService_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/examples/PrivateLinks_ListByDeidService_MaximumSet_Gen.json",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/swagger/stable/2024-09-20/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6567,
+    "rawFiles": [
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/raw/stable/2024-09-20/openapi.jsonl",
+      "projects/specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices/raw/stable/2024-09-20/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,67 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust",
+    "typespecPath": "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec",
+    "typespecFiles": [
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/.cspell.yaml",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/client.tsp",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_CreateOrUpdate.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_CreateOrUpdate_BV.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_CreateOrUpdate_PayeeEnrollment.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_CreateOrUpdate_PayeeProfile.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_Delete.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_Get.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Assessments_ListUploadToken.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Operations_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Rules_CreateOrUpdate.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Rules_Get.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Rules_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Rules_Update.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/examples/2026-03-17-preview/Rules_Update_BV.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/main.tsp",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/readme.md",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/service.yaml",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-03-17-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6272,
+    "swaggerFiles": [
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_CreateOrUpdate.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_CreateOrUpdate_BV.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_CreateOrUpdate_PayeeEnrollment.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_CreateOrUpdate_PayeeProfile.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_Delete.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_Get.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Assessments_ListUploadToken.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Operations_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Rules_CreateOrUpdate.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Rules_Get.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Rules_List.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Rules_Update.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/examples/Rules_Update_BV.json",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/swagger/preview/2026-03-17-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6333,
+    "rawFiles": [
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/raw/preview/2026-03-17-preview/openapi.jsonl",
+      "projects/specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust/raw/preview/2026-03-17-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EksNodegroup.Management",
+    "typespecPath": "projects/specification/awsconnector/EksNodegroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_Delete.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_Get.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_ListBySubscription.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/examples/2024-12-01/EksNodegroups_Update.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EksNodegroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5369,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksNodegroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksNodegroup.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_Delete.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_Get.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_ListBySubscription.json",
+      "projects/specification/awsconnector/EksNodegroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksNodegroups_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6328,
+    "rawFiles": [
+      "projects/specification/awsconnector/EksNodegroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksNodegroup.jsonl",
+      "projects/specification/awsconnector/EksNodegroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksNodegroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

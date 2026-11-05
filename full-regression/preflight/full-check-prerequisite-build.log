@@ -1,0 +1,15 @@
+Scope: 5 of 69 workspace projects
+core/packages/internal-build-utils build$ tsc -p tsconfig.build.json
+core/packages/tmlanguage-generator build$ tsc -p tsconfig.build.json
+core/packages/internal-build-utils build: Done
+core/packages/tmlanguage-generator build: Done
+core/packages/compiler build$ pnpm gen-manifest && pnpm build:init-templates-index && pnpm compile && pnpm generate-tmlanguage
+core/packages/compiler build: $ node scripts/generate-manifest.ts
+core/packages/compiler build: $ node ./.scripts/build-init-templates.ts
+core/packages/compiler build: $ tsc -p tsconfig.build.json
+core/packages/compiler build: $ node scripts/generate-tmlanguage.ts
+core/packages/compiler build: Done
+core/packages/bundler build$ tsc -p tsconfig.build.json
+core/packages/bundler build: Done
+core/packages/bundle-uploader build$ tsc -p tsconfig.build.json
+core/packages/bundle-uploader build: Done

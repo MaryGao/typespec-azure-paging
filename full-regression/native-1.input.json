@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/agricultureplatform/AgriculturePlatform.Management",
+    "typespecPath": "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/client.tsp",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_Delete_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_Get_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_ListAvailableSolutions_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/AgriService_Update_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/examples/2024-06-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/main.tsp",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/service.yaml",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6569,
+    "swaggerFiles": [
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_Delete_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_Get_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_ListAvailableSolutions_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/AgriService_Update_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/swagger/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 50656,
+    "rawFiles": [
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/raw/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/openapi.jsonl",
+      "projects/specification/agricultureplatform/AgriculturePlatform.Management/raw/resource-manager/Microsoft.AgriculturePlatform/preview/2024-06-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

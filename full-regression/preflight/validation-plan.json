@@ -1,0 +1,29 @@
+{
+  "task": "DefaultInEnum full frozen ARM validation",
+  "authorization": "User: then run full validation",
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "compilerCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "population": 487,
+  "filter": null,
+  "limit": null,
+  "scope": "source",
+  "nativeMode": "target-only",
+  "baselinePolicy": "frozen-reference",
+  "concurrency": 4,
+  "nativeBudgetSeconds": 5400,
+  "estimatedNativeMinutes": "20-40, plus complete baseline verification/copy",
+  "swaggerRegeneration": false,
+  "question": "Does the reviewed final candidate compile and enforce the target rule across every frozen ARM project, and what explains native-versus-historical differences?",
+  "preflight": {
+    "artifactPackages": 15,
+    "verifiedInstalledFiles": 2867,
+    "ruleDocumentationActivationControls": "13 passed",
+    "portableControls": "37 passed; 6 explicitly non-applicable fixtures excluded",
+    "portableNonApplicability": "Six resource-group-path-parameter fixtures require an unrelated migration rule absent from this main-based candidate; the candidate instead registers use-scope-path-standard-name."
+  },
+  "publication": "Update existing draft PR5973 and external evidence; do not merge or claim equivalence.",
+  "evidenceLocation": "C:\\Users\\marygao\\project\\coverage-reports\\default-in-enum\\full-regression"
+}

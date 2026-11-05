@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SecretsManagerSecret.Management",
+    "typespecPath": "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_CreateOrReplace.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_Delete.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_Get.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_ListBySubscription.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/examples/2024-12-01/SecretsManagerSecrets_Update.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5753,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerSecret.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_CreateOrReplace.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_Delete.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_Get.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_ListBySubscription.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerSecrets_Update.json",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerSecret.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6076,
+    "rawFiles": [
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerSecret.jsonl",
+      "projects/specification/awsconnector/SecretsManagerSecret.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerSecret.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

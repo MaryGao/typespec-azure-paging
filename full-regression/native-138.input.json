@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/S3AccessPoint.Management",
+    "typespecPath": "projects/specification/awsconnector/S3AccessPoint.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_Delete.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_Get.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_ListBySubscription.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/examples/2024-12-01/S3AccessPoints_Update.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/S3AccessPoint.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6448,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessPoint.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_Delete.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_Get.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_ListBySubscription.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessPoints_Update.json",
+      "projects/specification/awsconnector/S3AccessPoint.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessPoint.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5901,
+    "rawFiles": [
+      "projects/specification/awsconnector/S3AccessPoint.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessPoint.jsonl",
+      "projects/specification/awsconnector/S3AccessPoint.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessPoint.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

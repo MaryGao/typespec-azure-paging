@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/OpenSearchDomainStatus.Management",
+    "typespecPath": "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_Delete.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_Get.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/examples/2024-12-01/OpenSearchDomainStatuses_Update.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5729,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/openSearchDomainStatus.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_Delete.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_Get.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OpenSearchDomainStatuses_Update.json",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/openSearchDomainStatus.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6306,
+    "rawFiles": [
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/openSearchDomainStatus.jsonl",
+      "projects/specification/awsconnector/OpenSearchDomainStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/openSearchDomainStatus.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

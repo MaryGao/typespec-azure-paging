@@ -1,0 +1,83 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector",
+    "typespecPath": "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec",
+    "typespecFiles": [
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/Appliance.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/back-compatible.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/client.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesCreate_Update.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesDelete.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesGet.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesListByResourceGroup.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesListBySubscription.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesListClusterUserCredential.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesListKeys.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesListOperations.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/AppliancesPatch.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/TelemetryConfig.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2022-10-27/UpgradeGraph.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesCreate_Update.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesDelete.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesGet.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesListByResourceGroup.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesListBySubscription.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesListClusterUserCredential.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesListKeys.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesListOperations.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesPatch.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/AppliancesUpdateProxy.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/TelemetryConfig.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/examples/2025-03-01-preview/UpgradeGraph.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/main.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/models.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.go.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.java.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.python.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.ruby.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/readme.typescript.md",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/routes.tsp",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/service.yaml",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/suppressions.yaml",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-03-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6589,
+    "swaggerFiles": [
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/appliances.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/appliances.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesCreate_Update.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesDelete.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesGet.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesListByResourceGroup.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesListBySubscription.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesListClusterUserCredential.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesListKeys.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesListOperations.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesPatch.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/AppliancesUpdateProxy.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/TelemetryConfig.json",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/swagger/preview/2025-03-01-preview/examples/UpgradeGraph.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6126,
+    "rawFiles": [
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/raw/preview/2025-03-01-preview/appliances.jsonl",
+      "projects/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/raw/preview/2025-03-01-preview/appliances.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,75 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization",
+    "typespecPath": "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec",
+    "typespecFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/cspell.yaml",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_CreateOrUpdate.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_DeleteVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_GetVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_ListByResourceGroup.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_ListBySubscription.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_ListVersions.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/NodeCustomizations_Update.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-08-02-preview/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_CreateOrUpdate.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_DeleteVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_GetVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_ListByResourceGroup.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_ListBySubscription.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_ListVersions.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/NodeCustomizations_Update.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/examples/2025-09-02-preview/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/helpers.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/main.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/models.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/operations.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/readme.go.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/readme.java.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/readme.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/readme.nodejs.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/readme.python.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/service.yaml",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-09-02-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6981,
+    "swaggerFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/nodecustomization.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_CreateOrUpdate.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_DeleteVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_GetVersion.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_ListByResourceGroup.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_ListBySubscription.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_ListVersions.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/NodeCustomizations_Update.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/examples/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/swagger/preview/2025-09-02-preview/nodecustomization.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6226,
+    "rawFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/raw/preview/2025-09-02-preview/nodecustomization.jsonl",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization/raw/preview/2025-09-02-preview/nodecustomization.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

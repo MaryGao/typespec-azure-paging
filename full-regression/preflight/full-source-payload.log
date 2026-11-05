@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "productionSourceSha256": "006bc280878eca70b7c2359164323cf7b2a242b8960c753ca9d9ff78590ed6b6",
+  "excluded": "Package manifests are rewritten by pnpm pack; every other packed file is compared with the final candidate's source/build output.",
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "verifiedPayloadFiles": 70,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "verifiedPayloadFiles": 420,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "verifiedPayloadFiles": 168,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "verifiedPayloadFiles": 422,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "verifiedPayloadFiles": 18,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "verifiedPayloadFiles": 179,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "verifiedPayloadFiles": 1081,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "verifiedPayloadFiles": 44,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/http",
+      "verifiedPayloadFiles": 180,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "verifiedPayloadFiles": 41,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/rest",
+      "verifiedPayloadFiles": 57,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "verifiedPayloadFiles": 37,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/streams",
+      "verifiedPayloadFiles": 33,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/versioning",
+      "verifiedPayloadFiles": 60,
+      "inheritedLicenses": [],
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "verifiedPayloadFiles": 42,
+      "inheritedLicenses": [
+        {
+          "file": "LICENSE",
+          "source": "C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\LICENSE"
+        }
+      ],
+      "mismatches": []
+    }
+  ]
+}

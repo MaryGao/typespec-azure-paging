@@ -1,0 +1,64 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry",
+    "typespecPath": "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec",
+    "typespecFiles": [
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/UpdateInstances.tsp",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/client.tsp",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/Operations_List.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_CheckNameAvailability.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_Create.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_Delete.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_Get.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_LinkInitiate.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_LinkNotify.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_LinkPreflight.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_LinkUpdate.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_ListByResourceGroup.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_ListBySubscription.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/examples/2026-11-02-preview/UpdateInstances_Update.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/main.tsp",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/models.tsp",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/readme.md",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/service.yaml",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-11-02-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5770,
+    "swaggerFiles": [
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/dudeviceupdate.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/dudeviceupdate.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/Operations_List.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_CheckNameAvailability.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_Create.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_Delete.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_Get.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_LinkInitiate.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_LinkNotify.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_LinkPreflight.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_LinkUpdate.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_ListByResourceGroup.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_ListBySubscription.json",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/swagger/DuDeviceRegistry/preview/2026-11-02-preview/examples/UpdateInstances_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 8223,
+    "rawFiles": [
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/raw/DuDeviceRegistry/preview/2026-11-02-preview/dudeviceupdate.jsonl",
+      "projects/specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry/raw/DuDeviceRegistry/preview/2026-11-02-preview/dudeviceupdate.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/examples/2023-08-01-preview/AlertRuleRecommendations_GetByResource_MAC.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/examples/2023-08-01-preview/AlertRuleRecommendations_GetByResource_VM.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/examples/2023-08-01-preview/AlertRuleRecommendations_GetBySubscription_MAC.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/examples/2023-08-01-preview/AlertRuleRecommendations_GetBySubscription_VM.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/routes.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/suppressions.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5437,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/AlertRuleRecommendations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/AlertRuleRecommendations.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/examples/AlertRuleRecommendations_GetByResource_MAC.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/examples/AlertRuleRecommendations_GetByResource_VM.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/examples/AlertRuleRecommendations_GetBySubscription_MAC.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/swagger/preview/2023-08-01-preview/examples/AlertRuleRecommendations_GetBySubscription_VM.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6628,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/raw/preview/2023-08-01-preview/AlertRuleRecommendations.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations/raw/preview/2023-08-01-preview/AlertRuleRecommendations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

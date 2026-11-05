@@ -1,0 +1,68 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments",
+    "typespecPath": "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/ArmModels/AssessmentProjectV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/ArmModels/AzureResourceProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/ArmModels/PrivateEndpointConnection.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/DataModels/DownloadUrl.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/Enums/Enums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/AssessedWorkloadProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/AssessmentProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/CommonAssessmentPropertiesEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/CommonEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/CostComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/ProductSupportStatus.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/SavingComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/Scope.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/Common/StandardizedContracts/SummaryProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/HAApiVersions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/WebModels/HeterogeneousAssessments.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/WebModels/HeterogeneousAssessmentsSummary.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentOperations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentOperations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentSummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/examples/2024-03-03-preview/HeterogeneousAssessmentSummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/haasmroutes.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/main.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/readme.md",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/service.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-03-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6068,
+    "swaggerFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/heterogeneousAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentOperations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentOperations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentSummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/examples/HeterogeneousAssessmentSummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/swagger/preview/2024-03-03-preview/heterogeneousAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6806,
+    "rawFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/raw/preview/2024-03-03-preview/heterogeneousAssessments.jsonl",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments/raw/preview/2024-03-03-preview/heterogeneousAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,85 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation",
+    "typespecPath": "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec",
+    "typespecFiles": [
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/OnlineExperimentationWorkspace.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/PrivateLinkResource.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/client.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_CreateOrUpdate.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_CreateOrUpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_Delete.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_ListByResourceGroup.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_ListBySubscription.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_OperationsList.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_Update.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-05-31-preview/OnlineExperimentationWorkspaces_UpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_CreateOrUpdate.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_CreateOrUpdateWithDisabledPublicNetworkAccess.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_CreateOrUpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_Delete.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_ListByResourceGroup.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_ListBySubscription.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_OperationsList.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_Update.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_UpdatePublicNetworkAccess.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/OnlineExperimentationWorkspaces_UpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateEndpointConnection_Delete.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateEndpointConnection_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateEndpointConnection_List.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateEndpointConnection_Update.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateLinkResource_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/examples/2025-08-01-preview/PrivateLinkResource_List.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/main.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/models.tsp",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/readme.md",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/service.yaml",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 26214,
+    "swaggerFiles": [
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/OnlineExperimentationWorkspace.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/OnlineExperimentationWorkspace.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_CreateOrUpdate.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_CreateOrUpdateWithDisabledPublicNetworkAccess.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_CreateOrUpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_Delete.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_ListByResourceGroup.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_ListBySubscription.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_OperationsList.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_Update.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_UpdatePublicNetworkAccess.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/OnlineExperimentationWorkspaces_UpdateWithEncryption.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateEndpointConnection_Delete.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateEndpointConnection_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateEndpointConnection_List.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateEndpointConnection_Update.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateLinkResource_Get.json",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/swagger/preview/2025-08-01-preview/examples/PrivateLinkResource_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6407,
+    "rawFiles": [
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/raw/preview/2025-08-01-preview/OnlineExperimentationWorkspace.jsonl",
+      "projects/specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation/raw/preview/2025-08-01-preview/OnlineExperimentationWorkspace.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

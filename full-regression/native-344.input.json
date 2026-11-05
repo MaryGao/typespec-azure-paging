@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/TenantActionGroupResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/createOrUpdateTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/deleteTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/getTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/getTestNotificationsAtTenantActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/listTenantActionGroups.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/patchTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/examples/2023-05-01-preview/postTestNotificationsAtTenantActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-05-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5692,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/tenantActionGroups.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/createOrUpdateTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/deleteTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/getTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/getTestNotificationsAtTenantActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/listTenantActionGroups.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/patchTenantActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/examples/postTestNotificationsAtTenantActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/swagger/preview/2023-05-01-preview/tenantActionGroups.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6112,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/raw/preview/2023-05-01-preview/tenantActionGroups.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups/raw/preview/2023-05-01-preview/tenantActionGroups.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

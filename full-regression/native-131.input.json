@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsExportTask.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsExportTask.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_Delete.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_Get.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/examples/2024-12-01/RdsExportTasks_Update.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsExportTask.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6664,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsExportTask.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_Delete.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_Get.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsExportTasks_Update.json",
+      "projects/specification/awsconnector/RdsExportTask.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsExportTask.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5977,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsExportTask.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsExportTask.jsonl",
+      "projects/specification/awsconnector/RdsExportTask.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsExportTask.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

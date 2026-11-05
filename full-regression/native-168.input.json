@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/carbon/resource-manager/Microsoft.Carbon/Carbon",
+    "typespecPath": "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec",
+    "typespecFiles": [
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/client.tsp",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/carbonEmissionsDataAvailableDateRange.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/listOperations.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsLocationItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsMonthlySummaryReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsMonthlySummaryReportWithOtherOptionalFilter.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsOverallSummaryReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsOverallSummaryReportWithOtherOptionalFilter.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsResourceGroupItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsResourceItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsResourceItemDetailsReportWithPaginationToken.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsResourceTypeItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsSubscriptionItemDetailsReportReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNLocationItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNLocationItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceGroupItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceGroupItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceTypeItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNResourceTypeItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNSubscriptionItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/examples/2025-04-01/queryCarbonEmissionsTopNSubscriptionItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/main.tsp",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/readme.md",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/service.yaml",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 8250,
+    "swaggerFiles": [
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/main.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/carbonEmissionsDataAvailableDateRange.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/listOperations.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsLocationItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsMonthlySummaryReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsMonthlySummaryReportWithOtherOptionalFilter.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsOverallSummaryReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsOverallSummaryReportWithOtherOptionalFilter.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsResourceGroupItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsResourceItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsResourceItemDetailsReportWithPaginationToken.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsResourceTypeItemDetailsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsSubscriptionItemDetailsReportReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNLocationItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNLocationItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceGroupItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceGroupItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceTypeItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNResourceTypeItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNSubscriptionItemsMonthlyReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/examples/queryCarbonEmissionsTopNSubscriptionItemsReport.json",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/swagger/stable/2025-04-01/main.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6257,
+    "rawFiles": [
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/raw/stable/2025-04-01/main.jsonl",
+      "projects/specification/carbon/resource-manager/Microsoft.Carbon/Carbon/raw/stable/2025-04-01/main.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

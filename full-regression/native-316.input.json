@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments",
+    "typespecPath": "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/AvsApiVersions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/Common/AvsEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/Common/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/ArmModels/AssessmentProjectV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/ArmModels/AzureResourceProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/ArmModels/PrivateEndpointConnection.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/DataModels/DownloadUrl.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/Enums/Enums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/AssessedWorkloadProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/AssessmentProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/CommonAssessmentPropertiesEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/CommonEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/CostComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/ProductSupportStatus.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/SavingComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/Scope.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/NormalizedContract/StandardizedContracts/SummaryProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/WebModels/AvsAssessedMachineV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/WebModels/AvsAssessmentV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/WebModels/AvsAssessmentV2Summary.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/WebModels/AvsGraphAssessmentOptions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/avsasmroutes.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessedMachinesV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessedMachinesV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentV2SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentV2SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentsV2Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentsV2Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentsV2Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentsV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsAssessmentsV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/examples/2024-03-03-preview/AvsGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/main.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/readme.md",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/service.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-03-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 7248,
+    "swaggerFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/avsAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/avsAssessments.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessedMachinesV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessedMachinesV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentV2SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentV2SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentsV2Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentsV2Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentsV2Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentsV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsAssessmentsV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/swagger/preview/2024-03-03-preview/examples/AvsGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7183,
+    "rawFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/raw/preview/2024-03-03-preview/avsAssessments.jsonl",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments/raw/preview/2024-03-03-preview/avsAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,88 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/WorkloadManager",
+    "typespecPath": "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec",
+    "typespecFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/client.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/Capabilities_CreateOrUpdate_AgentSandbox.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/Capabilities_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/Capabilities_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/Capabilities_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/Capabilities_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_CreateOrUpdate_ManagedKubernetes.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_CreateOrUpdate_ManagedServerless.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_CreateOrUpdate_ReferencedKubernetes.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeBindings_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_CreateOrUpdate_AksAci.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_CreateOrUpdate_AksOnly.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/RuntimeLinks_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_CreateOrUpdate.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_ListByResourceGroup.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_ListBySubscription.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/examples/2026-11-01-preview/WorkloadSpaces_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/main.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/models.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/operations.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/readme.md",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/service.yaml",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-11-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 13323,
+    "swaggerFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/WorkloadManager.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/WorkloadManager.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/Capabilities_CreateOrUpdate_AgentSandbox.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/Capabilities_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/Capabilities_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/Capabilities_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/Capabilities_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_CreateOrUpdate_ManagedKubernetes.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_CreateOrUpdate_ManagedServerless.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_CreateOrUpdate_ReferencedKubernetes.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeBindings_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_CreateOrUpdate_AksAci.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_CreateOrUpdate_AksOnly.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_ListByWorkloadSpace.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/RuntimeLinks_Update.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_CreateOrUpdate.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_Delete.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_Get.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_ListByResourceGroup.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_ListBySubscription.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/swagger/preview/2026-11-01-preview/examples/WorkloadSpaces_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6722,
+    "rawFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/raw/preview/2026-11-01-preview/WorkloadManager.jsonl",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/WorkloadManager/raw/preview/2026-11-01-preview/WorkloadManager.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

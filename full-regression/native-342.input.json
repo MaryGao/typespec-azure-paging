@@ -1,0 +1,59 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/ScheduledQueryRuleResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/createOrUpdateDynamicThresholdScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/createOrUpdateScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/createOrUpdateScheduledQueryRuleResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/createOrUpdateScheduledQueryRuleSubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/createOrUpdateSimpleLogAlertScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/deleteScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/getScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/listScheduledQueryRulesByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/listScheduledQueryRulesBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/examples/2025-01-01-preview/patchScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5892,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/scheduledQueryRule.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/createOrUpdateDynamicThresholdScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/createOrUpdateScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/createOrUpdateScheduledQueryRuleResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/createOrUpdateScheduledQueryRuleSubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/createOrUpdateSimpleLogAlertScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/deleteScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/getScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/listScheduledQueryRulesByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/listScheduledQueryRulesBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/examples/patchScheduledQueryRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/swagger/preview/2025-01-01-preview/scheduledQueryRule.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6556,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/raw/preview/2025-01-01-preview/scheduledQueryRule.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi/raw/preview/2025-01-01-preview/scheduledQueryRule.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

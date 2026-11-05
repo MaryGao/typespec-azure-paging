@@ -1,0 +1,75 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes",
+    "typespecPath": "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec",
+    "typespecFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/KubernetesConfigurationPrivateLinkScope.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/PrivateLinkResource.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/back-compatible.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/client.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateEndpointConnectionDelete.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateEndpointConnectionGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateEndpointConnectionList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopePrivateLinkResourceGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopePrivateLinkResourceListGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesCreate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesDelete.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesListByResourceGroup.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesUpdate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/examples/2024-11-01-preview/PrivateLinkScopesUpdateTagsOnly.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/main.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/models.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.csharp.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.go.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.java.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.python.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.ruby.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/readme.typescript.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/service.yaml",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-11-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6075,
+    "swaggerFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/privateLinkScopes.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateEndpointConnectionDelete.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateEndpointConnectionGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateEndpointConnectionList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopePrivateLinkResourceGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopePrivateLinkResourceListGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesCreate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesDelete.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesGet.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesListByResourceGroup.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesUpdate.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/examples/PrivateLinkScopesUpdateTagsOnly.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/swagger/preview/2024-11-01-preview/privateLinkScopes.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6392,
+    "rawFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/raw/preview/2024-11-01-preview/privateLinkScopes.jsonl",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/raw/preview/2024-11-01-preview/privateLinkScopes.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

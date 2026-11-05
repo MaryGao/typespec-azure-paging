@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LambdaFunctionCodeLocation.Management",
+    "typespecPath": "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_CreateOrReplace.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_Delete.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_Get.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_ListBySubscription.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/examples/2024-12-01/LambdaFunctionCodeLocations_Update.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5580,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunctionCodeLocation.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_CreateOrReplace.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_Delete.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_Get.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_ListBySubscription.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctionCodeLocations_Update.json",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunctionCodeLocation.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5887,
+    "rawFiles": [
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunctionCodeLocation.jsonl",
+      "projects/specification/awsconnector/LambdaFunctionCodeLocation.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunctionCodeLocation.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EfsMountTarget.Management",
+    "typespecPath": "projects/specification/awsconnector/EfsMountTarget.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_CreateOrReplace.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_Delete.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_Get.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_ListBySubscription.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/examples/2024-12-01/EfsMountTargets_Update.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EfsMountTarget.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5494,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsMountTarget.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsMountTarget.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_CreateOrReplace.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_Delete.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_Get.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_ListBySubscription.json",
+      "projects/specification/awsconnector/EfsMountTarget.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsMountTargets_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6128,
+    "rawFiles": [
+      "projects/specification/awsconnector/EfsMountTarget.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsMountTarget.jsonl",
+      "projects/specification/awsconnector/EfsMountTarget.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsMountTarget.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

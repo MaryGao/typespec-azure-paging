@@ -1,0 +1,67 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/PrivateLinkGroupResource.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/PrivateLinkResource.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateEndpointConnections/PrivateEndpointConnections_CreateOrUpdate.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateEndpointConnections/PrivateEndpointConnections_Delete.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateEndpointConnections/PrivateEndpointConnections_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateEndpointConnections/PrivateEndpointConnections_List.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinkResources/PrivateLinkResources_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinkResources/PrivateLinkResources_ListByPrivateLink.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_Create.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_Delete.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_Head.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_List.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_ListBySubscription.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/examples/2026-01-01/PrivateLinks/PrivateLinks_Update.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6935,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/privateLinks.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateEndpointConnections/PrivateEndpointConnections_CreateOrUpdate.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateEndpointConnections/PrivateEndpointConnections_Delete.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateEndpointConnections/PrivateEndpointConnections_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateEndpointConnections/PrivateEndpointConnections_List.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinkResources/PrivateLinkResources_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinkResources/PrivateLinkResources_ListByPrivateLink.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_Create.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_Delete.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_Get.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_Head.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_List.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_ListBySubscription.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/examples/PrivateLinks/PrivateLinks_Update.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/swagger/stable/2026-01-01/privateLinks.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6347,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/raw/stable/2026-01-01/privateLinks.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI/raw/stable/2026-01-01/privateLinks.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

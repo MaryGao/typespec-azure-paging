@@ -1,0 +1,92 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/help/resource-manager/Microsoft.Help/Help",
+    "typespecPath": "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec",
+    "typespecFiles": [
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/DiagnosticResource.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/SimplifiedSolutionsResource.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/SolutionResource.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/SolutionResourceSelfHelp.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/TroubleshooterResource.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/back-compatible.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/client.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/CheckNameAvailabilityForDiagnosticWhenNameIsAvailable.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/CheckNameAvailabilityForDiagnosticWhenNameIsNotAvailable.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/CreateDiagnosticForKeyVaultResource.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/DiscoverSolutionsAtSubscriptionScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/DiscoverSolutionsAtTenantScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/GetDiagnosticForKeyVaultResource.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/ListDiscoverySolutionsAtTenantScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/ListOperations.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/SelfHelpSolution_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/SimplifiedSolutions_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/SimplifiedSolutions_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Solution_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Solution_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Solution_Update.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Solution_WarmUp.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Troubleshooter_Continue.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Troubleshooter_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Troubleshooter_End.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Troubleshooter_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/examples/2024-03-01-preview/Troubleshooter_Restart.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/main.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/models.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.csharp.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.go.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.java.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.python.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/readme.typescript.md",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/routes.tsp",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/service.yaml",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/suppressions.yaml",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6875,
+    "swaggerFiles": [
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/help.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/CheckNameAvailabilityForDiagnosticWhenNameIsAvailable.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/CheckNameAvailabilityForDiagnosticWhenNameIsNotAvailable.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/CreateDiagnosticForKeyVaultResource.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/DiscoverSolutionsAtSubscriptionScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/DiscoverSolutionsAtTenantScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/GetDiagnosticForKeyVaultResource.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/ListDiscoverySolutionsAtTenantScope.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/ListOperations.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/SelfHelpSolution_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/SimplifiedSolutions_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/SimplifiedSolutions_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Solution_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Solution_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Solution_Update.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Solution_WarmUp.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Troubleshooter_Continue.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Troubleshooter_Create.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Troubleshooter_End.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Troubleshooter_Get.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/examples/Troubleshooter_Restart.json",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/swagger/preview/2024-03-01-preview/help.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6858,
+    "rawFiles": [
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/raw/preview/2024-03-01-preview/help.jsonl",
+      "projects/specification/help/resource-manager/Microsoft.Help/Help/raw/preview/2024-03-01-preview/help.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/examples/2027-01-01/SQLAdminInstances_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5820,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/sqlAdminInstance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/examples/SQLAdminInstances_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/swagger/stable/2027-01-01/sqlAdminInstance.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6820,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/raw/stable/2027-01-01/sqlAdminInstance.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances/raw/stable/2027-01-01/sqlAdminInstance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

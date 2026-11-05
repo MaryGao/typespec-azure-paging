@@ -1,0 +1,59 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId",
+    "typespecPath": "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec",
+    "typespecFiles": [
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/back-compatible.tsp",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/client.tsp",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_CreateOrUpdate.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_Delete.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_Get.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_ListByResourceGroup.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_ListBySubscription.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Authorities_Update.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/examples/2024-01-26-preview/Operations_List.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/main.tsp",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.az.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.cli.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.csharp.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.go.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/readme.python.md",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/service.yaml",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/suppressions.yaml",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-01-26-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5593,
+    "swaggerFiles": [
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/verifiedid.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_CreateOrUpdate.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_Delete.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_Get.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_ListByResourceGroup.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_ListBySubscription.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Authorities_Update.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/examples/Operations_List.json",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/swagger/preview/2024-01-26-preview/verifiedid.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6003,
+    "rawFiles": [
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/raw/preview/2024-01-26-preview/verifiedid.jsonl",
+      "projects/specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/raw/preview/2024-01-26-preview/verifiedid.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

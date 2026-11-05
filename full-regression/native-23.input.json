@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/examples/2015-05-01/WebTestLocationsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/routes.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5473,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/swagger/stable/2015-05-01/webTestLocations_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/swagger/stable/2015-05-01/examples/WebTestLocationsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/swagger/stable/2015-05-01/webTestLocations_API.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5906,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/raw/stable/2015-05-01/webTestLocations_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation/raw/stable/2015-05-01/webTestLocations_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,39 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec/examples/2027-01-01/Operations_List.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5544,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/swagger/stable/2027-01-01/operations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/swagger/stable/2027-01-01/examples/Operations_List.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/swagger/stable/2027-01-01/operations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6269,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/raw/stable/2027-01-01/operations.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector/raw/stable/2027-01-01/operations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

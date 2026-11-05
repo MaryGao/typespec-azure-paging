@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/AdvancedThreatProtectionSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/examples/2019-01-01/AdvancedThreatProtection/GetAdvancedThreatProtectionSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/examples/2019-01-01/AdvancedThreatProtection/PutAdvancedThreatProtectionSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5542,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/swagger/stable/2019-01-01/advancedThreatProtectionSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/swagger/stable/2019-01-01/advancedThreatProtectionSettings.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/swagger/stable/2019-01-01/examples/AdvancedThreatProtection/GetAdvancedThreatProtectionSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/swagger/stable/2019-01-01/examples/AdvancedThreatProtection/PutAdvancedThreatProtectionSettings_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5804,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/raw/stable/2019-01-01/advancedThreatProtectionSettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI/raw/stable/2019-01-01/advancedThreatProtectionSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

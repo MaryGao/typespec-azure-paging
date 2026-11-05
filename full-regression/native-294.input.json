@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute",
+    "typespecPath": "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec",
+    "typespecFiles": [
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/.gitignore",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/client.tsp",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01-preview/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/examples/2024-02-01/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/main.tsp",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/readme.md",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/service.yaml",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-02-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6180,
+    "swaggerFiles": [
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/examples/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/swagger/preview/2024-02-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6410,
+    "rawFiles": [
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/raw/preview/2024-02-01-preview/openapi.jsonl",
+      "projects/specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute/raw/preview/2024-02-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

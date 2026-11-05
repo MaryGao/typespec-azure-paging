@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Route53ResourceRecordSet.Management",
+    "typespecPath": "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_Delete.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_Get.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/examples/2024-12-01/Route53ResourceRecordSets_Update.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6407,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53ResourceRecordSet.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_Delete.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_Get.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53ResourceRecordSets_Update.json",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53ResourceRecordSet.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6736,
+    "rawFiles": [
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53ResourceRecordSet.jsonl",
+      "projects/specification/awsconnector/Route53ResourceRecordSet.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53ResourceRecordSet.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

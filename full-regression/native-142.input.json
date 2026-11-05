@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SageMakerApp.Management",
+    "typespecPath": "projects/specification/awsconnector/SageMakerApp.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_CreateOrReplace.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_Delete.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_Get.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_ListBySubscription.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/examples/2024-12-01/SageMakerApps_Update.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SageMakerApp.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5593,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerApp.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_CreateOrReplace.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_Delete.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_Get.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_ListBySubscription.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerApps_Update.json",
+      "projects/specification/awsconnector/SageMakerApp.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerApp.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6020,
+    "rawFiles": [
+      "projects/specification/awsconnector/SageMakerApp.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerApp.jsonl",
+      "projects/specification/awsconnector/SageMakerApp.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerApp.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

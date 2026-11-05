@@ -1,0 +1,47 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges",
+    "typespecPath": "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec",
+    "typespecFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/back-compatible.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/examples/2020-09-01-preview/ResourceChangeDetails.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/examples/2020-09-01-preview/ResourceChanges.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/examples/2020-09-01-preview/ResourceChangesFirstPage.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/examples/2020-09-01-preview/ResourceChangesNextPage.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/main.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/models.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/routes.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/service.yaml",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-09-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5529,
+    "swaggerFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/resourcechanges.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/examples/ResourceChangeDetails.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/examples/ResourceChanges.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/examples/ResourceChangesFirstPage.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/examples/ResourceChangesNextPage.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/swagger/preview/2020-09-01-preview/resourcechanges.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5807,
+    "rawFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/raw/preview/2020-09-01-preview/resourcechanges.jsonl",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges/raw/preview/2020-09-01-preview/resourcechanges.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

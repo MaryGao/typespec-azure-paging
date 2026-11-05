@@ -1,0 +1,56 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway",
+    "typespecPath": "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec",
+    "typespecFiles": [
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/AIGateway.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/AIGatewayCommon.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/AIGatewayOperations.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/AIGatewayResource.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/client.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AIGatewayListOperations.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayCreate.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayDelete.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayGet.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayListByResourceGroup.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayListBySubscription.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/examples/2026-09-01-preview/AiGatewayUpdate.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/main.tsp",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/readme.md",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/service.yaml",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-09-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 13794,
+    "swaggerFiles": [
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AIGatewayListOperations.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayCreate.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayDelete.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayGet.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayListByResourceGroup.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayListBySubscription.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/examples/AiGatewayUpdate.json",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/swagger/preview/2026-09-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5882,
+    "rawFiles": [
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/raw/preview/2026-09-01-preview/openapi.jsonl",
+      "projects/specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway/raw/preview/2026-09-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,58 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/DiagnosticSettingsCategoryResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/DiagnosticSettingsResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/createOrUpdateDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/createOrUpdateDiagnosticSettingCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/deleteDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/getDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/getDiagnosticSettingCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/getDiagnosticSettingsCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/listDiagnosticSettings.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/listDiagnosticSettingsCategories.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/examples/2021-05-01-preview/listDiagnosticSettingsCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-05-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5903,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/createOrUpdateDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/createOrUpdateDiagnosticSettingCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/deleteDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/getDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/getDiagnosticSettingCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/getDiagnosticSettingsCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/listDiagnosticSettings.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/listDiagnosticSettingsCategories.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/examples/listDiagnosticSettingsCategory.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/swagger/preview/2021-05-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6314,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/raw/preview/2021-05-01-preview/openapi.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings/raw/preview/2021-05-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

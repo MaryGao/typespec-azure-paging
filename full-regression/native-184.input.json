@@ -1,0 +1,79 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Recommender",
+    "typespecPath": "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec",
+    "typespecFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/PlacementScoresBase.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/SkuMixPlacementBase.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/back-compatible.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/client.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2025-06-05/GenerateSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2025-06-05/GetSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2025-06-05/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2025-06-05/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/GenerateSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/GenerateSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/GetSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/GetSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-05-05-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/GenerateSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/GenerateSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/GetSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/GetSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-09-05-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GenerateComputePlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GenerateComputePlacementScoresWithoutDesiredLocation.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GenerateSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GenerateSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GenerateSpotPlacementScoresWithoutDesiredLocation.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GetComputePlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GetSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/GetSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/examples/2026-10-05-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/main.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/models.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/readme.md",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/service.yaml",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/skuMixPlacementModels.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-10-05-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6816,
+    "swaggerFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/RecommenderRP.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/RecommenderRP.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GenerateComputePlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GenerateComputePlacementScoresWithoutDesiredLocation.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GenerateSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GenerateSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GenerateSpotPlacementScoresWithoutDesiredLocation.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GetComputePlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GetSkuMixPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/GetSpotPlacementScores.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/swagger/preview/2026-10-05-preview/examples/Operations_List_MinimumSet_Gen.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6099,
+    "rawFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/raw/preview/2026-10-05-preview/RecommenderRP.jsonl",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Recommender/raw/preview/2026-10-05-preview/RecommenderRP.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

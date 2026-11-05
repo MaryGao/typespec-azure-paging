@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations",
+    "typespecPath": "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec",
+    "typespecFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/back-compatible.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2025-03-01/ListAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2025-03-01/OperationsList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2025-04-01/ListAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2025-04-01/OperationsList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2026-06-15-preview/ListAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2026-06-15-preview/OperationsList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2026-07-01-preview/ListAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/examples/2026-07-01-preview/OperationsList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/main.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/models.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/readme.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/routes.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/service.yaml",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6114,
+    "swaggerFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/swagger/preview/2026-07-01-preview/operations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/swagger/preview/2026-07-01-preview/examples/ListAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/swagger/preview/2026-07-01-preview/examples/OperationsList.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/swagger/preview/2026-07-01-preview/operations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6496,
+    "rawFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/raw/preview/2026-07-01-preview/operations.jsonl",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations/raw/preview/2026-07-01-preview/operations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,75 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/app/resource-manager/Microsoft.App/SreAgent",
+    "typespecPath": "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec",
+    "typespecFiles": [
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/agent.models.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/agent.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/agentconnector.models.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/agentconnector.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/client.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/commontypes.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_CreateOrUpdate.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_Delete.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_Get.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_ListByAgent.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_ListSecrets.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/AgentsConnectors_ListWithSecretsByAgent.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_CreateOrUpdate.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_Delete.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_Get.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_ListByResourceGroup.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_ListBySubscription.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_Start.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_Stop.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/Agents_Update.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/examples/2026-01-01/SupportedAgentModels_ListByLocation.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/main.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/readme.md",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/service.yaml",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/supportedagentmodel.models.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/supportedagentmodel.tsp",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6516,
+    "swaggerFiles": [
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/sreagent.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_CreateOrUpdate.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_Delete.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_Get.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_ListByAgent.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_ListSecrets.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/AgentsConnectors_ListWithSecretsByAgent.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_CreateOrUpdate.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_Delete.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_Get.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_ListByResourceGroup.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_ListBySubscription.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_Start.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_Stop.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/Agents_Update.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/examples/SupportedAgentModels_ListByLocation.json",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/swagger/stable/2026-01-01/sreagent.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6218,
+    "rawFiles": [
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/raw/stable/2026-01-01/sreagent.jsonl",
+      "projects/specification/app/resource-manager/Microsoft.App/SreAgent/raw/stable/2026-01-01/sreagent.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

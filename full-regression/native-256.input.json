@@ -1,0 +1,46 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/examples/2027-01-01/ContainerClusters_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/examples/2027-01-01/ContainerClusters_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/examples/2027-01-01/ContainerClusters_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/examples/2027-01-01/ContainerClusters_List.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5928,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/containerClusters.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/containerClusters.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/examples/ContainerClusters_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/examples/ContainerClusters_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/examples/ContainerClusters_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/swagger/stable/2027-01-01/examples/ContainerClusters_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7137,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/raw/stable/2027-01-01/containerClusters.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters/raw/stable/2027-01-01/containerClusters.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

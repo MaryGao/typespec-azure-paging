@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/examples/2021-10-14/LiveTokenGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/routes.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-10-14",
+    "compileStatus": "success",
+    "compileDurationMs": 5492,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/swagger/stable/2021-10-14/livetoken_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/swagger/stable/2021-10-14/examples/LiveTokenGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/swagger/stable/2021-10-14/livetoken_API.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5874,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/raw/stable/2021-10-14/livetoken_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi/raw/stable/2021-10-14/livetoken_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

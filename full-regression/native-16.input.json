@@ -1,0 +1,47 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/examples/2015-05-01/AnalyticsItemDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/examples/2015-05-01/AnalyticsItemGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/examples/2015-05-01/AnalyticsItemList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/examples/2015-05-01/AnalyticsItemPut.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/routes.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5740,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/examples/AnalyticsItemDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/examples/AnalyticsItemGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/examples/AnalyticsItemList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/examples/AnalyticsItemPut.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6952,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/raw/stable/2015-05-01/analyticsItems_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/raw/stable/2015-05-01/analyticsItems_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

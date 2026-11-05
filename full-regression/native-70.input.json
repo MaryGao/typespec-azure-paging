@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2NetworkAcl.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_Delete.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_Get.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/examples/2024-12-01/Ec2NetworkAcls_Update.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5571,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkAcl.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkAcl.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_Delete.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_Get.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkAcls_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5984,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkAcl.jsonl",
+      "projects/specification/awsconnector/Ec2NetworkAcl.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkAcl.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

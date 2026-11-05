@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration",
+    "typespecPath": "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec",
+    "typespecFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/examples/2026-06-01-preview/ObservabilityConfiguration_Get.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/main.tsp",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/observabilityConfiguration.tsp",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/readme.md",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/service.yaml",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/suppressions.yaml",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5366,
+    "swaggerFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/swagger/preview/2026-06-01-preview/observabilityConfiguration.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/swagger/preview/2026-06-01-preview/examples/ObservabilityConfiguration_Get.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/swagger/preview/2026-06-01-preview/observabilityConfiguration.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6813,
+    "rawFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/raw/preview/2026-06-01-preview/observabilityConfiguration.jsonl",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration/raw/preview/2026-06-01-preview/observabilityConfiguration.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

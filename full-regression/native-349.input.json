@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis",
+    "typespecPath": "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec",
+    "typespecFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/baselineProperties.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/client.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/examples/2025-03-01-preview/Slis_CreateOrUpdate.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/examples/2025-03-01-preview/Slis_Delete.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/examples/2025-03-01-preview/Slis_Get.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/examples/2025-03-01-preview/Slis_ListByParent.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/examples/2025-03-01-preview/SloView_SliSignalPreview.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/kqlmQueryResult.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/main.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/readme.md",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/service.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/service.yaml",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/signalPreview.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/sli.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/sliProperties.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-03-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6043,
+    "swaggerFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/examples/Slis_CreateOrUpdate.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/examples/Slis_Delete.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/examples/Slis_Get.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/examples/Slis_ListByParent.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/examples/SloView_SliSignalPreview.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/swagger/preview/2025-03-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6281,
+    "rawFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/raw/preview/2025-03-01-preview/openapi.jsonl",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis/raw/preview/2025-03-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2VPCPeeringConnection.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_Delete.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_Get.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/examples/2024-12-01/Ec2VpcPeeringConnections_Update.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5516,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2VPCPeeringConnection.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2VPCPeeringConnection.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_Delete.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_Get.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2VpcPeeringConnections_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6055,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2VPCPeeringConnection.jsonl",
+      "projects/specification/awsconnector/Ec2VPCPeeringConnection.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2VPCPeeringConnection.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,18 @@
+{
+  "manifestStatus": "running",
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "selected": 487,
+  "assessed": 487,
+  "unassessed": [],
+  "rawNative": 0,
+  "sourceNative": 0,
+  "savedSwagger": 0,
+  "ambient": 0,
+  "enumDefaults": 749,
+  "valueKinds": {
+    "string": 747,
+    "number": 2
+  },
+  "equivalence": "not-determined",
+  "investigationsRequired": 0
+}

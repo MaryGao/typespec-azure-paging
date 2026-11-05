@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/MacieAllowList.Management",
+    "typespecPath": "projects/specification/awsconnector/MacieAllowList.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_CreateOrReplace.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_Delete.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_Get.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_ListByResourceGroup.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_ListBySubscription.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/examples/2024-12-01/MacieAllowLists_Update.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/MacieAllowList.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6105,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macieAllowList.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_CreateOrReplace.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_Delete.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_Get.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_ListByResourceGroup.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_ListBySubscription.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/MacieAllowLists_Update.json",
+      "projects/specification/awsconnector/MacieAllowList.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macieAllowList.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5974,
+    "rawFiles": [
+      "projects/specification/awsconnector/MacieAllowList.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macieAllowList.jsonl",
+      "projects/specification/awsconnector/MacieAllowList.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macieAllowList.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

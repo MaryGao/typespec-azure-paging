@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/DenyAssignment.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/DenyAssignments_CreateForSubscription.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/DenyAssignments_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetAllDenyAssignments.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetDenyAssignmentById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetDenyAssignmentByNameId.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetDenyAssignmentByScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetDenyAssignmentsForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/examples/2024-07-01-preview/GetDenyAssignmentsForResourceGroup.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5722,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/authorization-DenyAssignmentCalls.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/authorization-DenyAssignmentCalls.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/DenyAssignments_CreateForSubscription.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/DenyAssignments_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetAllDenyAssignments.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetDenyAssignmentById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetDenyAssignmentByNameId.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetDenyAssignmentByScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetDenyAssignmentsForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/swagger/preview/2024-07-01-preview/examples/GetDenyAssignmentsForResourceGroup.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 43464,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/raw/preview/2024-07-01-preview/authorization-DenyAssignmentCalls.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment/raw/preview/2024-07-01-preview/authorization-DenyAssignmentCalls.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

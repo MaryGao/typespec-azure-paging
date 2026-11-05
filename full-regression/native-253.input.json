@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/examples/2027-01-01/BigQueryDatasets_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5762,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/bigQueryDataset.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/bigQueryDataset.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/swagger/stable/2027-01-01/examples/BigQueryDatasets_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6349,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/raw/stable/2027-01-01/bigQueryDataset.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset/raw/stable/2027-01-01/bigQueryDataset.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

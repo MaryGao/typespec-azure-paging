@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/SecureScoreItem.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScoreControlDefinitions/ListSecureScoreControlDefinitions_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScoreControlDefinitions/ListSecureScoreControlDefinitions_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScores/GetSecureScoresSingle_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScores/ListSecureScoreControlsForNameWithExpand_builtin_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScores/ListSecureScoreControlsForName_builtin_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScores/ListSecureScoreControls_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/examples/2020-01-01/secureScores/ListSecureScores_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/routes.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5970,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/secureScore.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScoreControlDefinitions/ListSecureScoreControlDefinitions_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScoreControlDefinitions/ListSecureScoreControlDefinitions_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScores/GetSecureScoresSingle_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScores/ListSecureScoreControlsForNameWithExpand_builtin_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScores/ListSecureScoreControlsForName_builtin_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScores/ListSecureScoreControls_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/examples/secureScores/ListSecureScores_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/swagger/stable/2020-01-01/secureScore.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6354,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/raw/stable/2020-01-01/secureScore.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI/raw/stable/2020-01-01/secureScore.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

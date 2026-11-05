@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/ServiceDiagnosticSettingsResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/examples/2016-09-01/createOrUpdateServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/examples/2016-09-01/getServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/examples/2016-09-01/updateServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2016-09-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5598,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/swagger/stable/2016-09-01/serviceDiagnosticsSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/swagger/stable/2016-09-01/examples/createOrUpdateServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/swagger/stable/2016-09-01/examples/getServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/swagger/stable/2016-09-01/examples/updateServiceDiagnosticSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/swagger/stable/2016-09-01/serviceDiagnosticsSettings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7096,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/raw/stable/2016-09-01/serviceDiagnosticsSettings.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi/raw/stable/2016-09-01/serviceDiagnosticsSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

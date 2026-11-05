@@ -1,0 +1,70 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/AutoProvisioningSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/Compliance.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/InformationProtectionPolicy.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/WorkspaceSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/AutoProvisioningSettings/CreateAutoProvisioningSettingsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/AutoProvisioningSettings/GetAutoProvisioningSettingSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/AutoProvisioningSettings/GetAutoProvisioningSettingsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/Compliances/GetCompliance_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/Compliances/GetCompliances_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/InformationProtectionPolicies/CreateOrUpdateInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/InformationProtectionPolicies/GetCustomInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/InformationProtectionPolicies/GetEffectiveInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/InformationProtectionPolicies/ListInformationProtectionPolicies_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/WorkspaceSettings/CreateWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/WorkspaceSettings/DeleteWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/WorkspaceSettings/GetWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/WorkspaceSettings/GetWorkspaceSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/examples/2017-08-01-preview/WorkspaceSettings/UpdateWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2017-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6271,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/security-LegacySettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/AutoProvisioningSettings/CreateAutoProvisioningSettingsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/AutoProvisioningSettings/GetAutoProvisioningSettingSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/AutoProvisioningSettings/GetAutoProvisioningSettingsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/Compliances/GetCompliance_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/Compliances/GetCompliances_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/InformationProtectionPolicies/CreateOrUpdateInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/InformationProtectionPolicies/GetCustomInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/InformationProtectionPolicies/GetEffectiveInformationProtectionPolicy_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/InformationProtectionPolicies/ListInformationProtectionPolicies_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/WorkspaceSettings/CreateWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/WorkspaceSettings/DeleteWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/WorkspaceSettings/GetWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/WorkspaceSettings/GetWorkspaceSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/examples/WorkspaceSettings/UpdateWorkspaceSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/swagger/preview/2017-08-01-preview/security-LegacySettings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5978,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/raw/preview/2017-08-01-preview/security-LegacySettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI/raw/preview/2017-08-01-preview/security-LegacySettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

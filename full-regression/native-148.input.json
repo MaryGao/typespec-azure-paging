@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SqsQueue.Management",
+    "typespecPath": "projects/specification/awsconnector/SqsQueue.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_CreateOrReplace.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_Delete.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_Get.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_ListBySubscription.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/examples/2024-12-01/SqsQueues_Update.json",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SqsQueue.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5771,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sqsQueue.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_CreateOrReplace.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_Delete.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_Get.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_ListBySubscription.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SqsQueues_Update.json",
+      "projects/specification/awsconnector/SqsQueue.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sqsQueue.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6265,
+    "rawFiles": [
+      "projects/specification/awsconnector/SqsQueue.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sqsQueue.jsonl",
+      "projects/specification/awsconnector/SqsQueue.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sqsQueue.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

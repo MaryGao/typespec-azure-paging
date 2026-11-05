@@ -1,0 +1,47 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/ServerVulnerabilityAssessmentsSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/examples/2023-05-01/ServerVulnerabilityAssessmentsSettings/DeleteServerVulnerabilityAssessmentsSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/examples/2023-05-01/ServerVulnerabilityAssessmentsSettings/GetServerVulnerabilityAssessmentsSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/examples/2023-05-01/ServerVulnerabilityAssessmentsSettings/ListServerVulnerabilityAssessmentsSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/examples/2023-05-01/ServerVulnerabilityAssessmentsSettings/PutServerVulnerabilityAssessmentsSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5630,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/ServerVulnerabilityAssessmentsSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/ServerVulnerabilityAssessmentsSettings.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/examples/ServerVulnerabilityAssessmentsSettings/DeleteServerVulnerabilityAssessmentsSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/examples/ServerVulnerabilityAssessmentsSettings/GetServerVulnerabilityAssessmentsSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/examples/ServerVulnerabilityAssessmentsSettings/ListServerVulnerabilityAssessmentsSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/swagger/stable/2023-05-01/examples/ServerVulnerabilityAssessmentsSettings/PutServerVulnerabilityAssessmentsSetting_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5972,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/raw/stable/2023-05-01/ServerVulnerabilityAssessmentsSettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI/raw/stable/2023-05-01/ServerVulnerabilityAssessmentsSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

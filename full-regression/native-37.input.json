@@ -1,0 +1,63 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/RoleAssignment.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_CreateById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_CreateForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_CreateForResourceGroup.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_CreateForSubscription.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_DeleteById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_Get.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_GetById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_ListForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_ListForResourceGroup.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_ListForScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/examples/2022-04-01/RoleAssignments_ListForSubscription.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5641,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/authorization-RoleAssignmentsCalls.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/authorization-RoleAssignmentsCalls.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_CreateById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_CreateForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_CreateForResourceGroup.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_CreateForSubscription.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_DeleteById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_Get.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_GetById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_ListForResource.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_ListForResourceGroup.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_ListForScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/swagger/stable/2022-04-01/examples/RoleAssignments_ListForSubscription.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5900,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/raw/stable/2022-04-01/authorization-RoleAssignmentsCalls.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment/raw/stable/2022-04-01/authorization-RoleAssignmentsCalls.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

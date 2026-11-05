@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/logic/resource-manager/Microsoft.Logic/Logic",
+    "typespecPath": "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec",
+    "typespecFiles": [
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/AUTOMATIONPROJECT-DESIGN.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/AutomationProject.tsp",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/automationProjectModels.tsp",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_CreateOrUpdate.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_Delete.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_Get.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_ListByResourceGroup.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_ListBySubscription.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/AutomationProjects_Update.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/examples/2026-04-01-preview/Operations_List.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/main.tsp",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.az.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.cli.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.go.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.nodejs.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.python.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.ruby.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/readme.typescript.md",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/service.yaml",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/suppressions.yaml",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-04-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 18395,
+    "swaggerFiles": [
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/automationproject.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/automationproject.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_CreateOrUpdate.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_Delete.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_Get.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_ListByResourceGroup.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_ListBySubscription.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/AutomationProjects_Update.json",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/swagger/preview/2026-04-01-preview/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6710,
+    "rawFiles": [
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/raw/preview/2026-04-01-preview/automationproject.jsonl",
+      "projects/specification/logic/resource-manager/Microsoft.Logic/Logic/raw/preview/2026-04-01-preview/automationproject.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

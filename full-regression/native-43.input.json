@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ApiGatewayRestApi.Management",
+    "typespecPath": "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_CreateOrReplace.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_Delete.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_Get.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_ListBySubscription.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/examples/2024-12-01/ApiGatewayRestApis_Update.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5758,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayRestApi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayRestApi.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_CreateOrReplace.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_Delete.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_Get.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_ListBySubscription.json",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayRestApis_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6155,
+    "rawFiles": [
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayRestApi.jsonl",
+      "projects/specification/awsconnector/ApiGatewayRestApi.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayRestApi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

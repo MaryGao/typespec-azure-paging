@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2NetworkInterface.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_Delete.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_Get.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/examples/2024-12-01/Ec2NetworkInterfaces_Update.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5545,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkInterface.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkInterface.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_Delete.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_Get.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2NetworkInterfaces_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7043,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkInterface.jsonl",
+      "projects/specification/awsconnector/Ec2NetworkInterface.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2NetworkInterface.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

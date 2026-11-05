@@ -1,0 +1,88 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro",
+    "typespecPath": "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec",
+    "typespecFiles": [
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/LiftrBase.Data/main.tsp",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/LiftrBase/main.tsp",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/back-compatible.tsp",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/client.tsp",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01-preview/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2023-08-01/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27-preview/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/examples/2024-08-27/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/main.tsp",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/readme.go.md",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/readme.java.md",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/readme.md",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/readme.python.md",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/service.yaml",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-08-27-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 7087,
+    "swaggerFiles": [
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/astronomer.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/astronomer.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/swagger/preview/2024-08-27-preview/examples/Organizations_Update_MaximumSet_Gen.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6798,
+    "rawFiles": [
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/raw/preview/2024-08-27-preview/astronomer.jsonl",
+      "projects/specification/liftrastronomer/resource-manager/Astronomer.Astro/AstronomerAstro/raw/preview/2024-08-27-preview/astronomer.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

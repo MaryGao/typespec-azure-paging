@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/AttributeNamespace.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/examples/2025-12-01-preview/CreateAttributeNamespace.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/examples/2025-12-01-preview/DeleteAttributeNamespace.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/examples/2025-12-01-preview/GetAttributeNamespace.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-12-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5637,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/swagger/preview/2025-12-01-preview/AttributeNamespaces.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/swagger/preview/2025-12-01-preview/AttributeNamespaces.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/swagger/preview/2025-12-01-preview/examples/CreateAttributeNamespace.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/swagger/preview/2025-12-01-preview/examples/DeleteAttributeNamespace.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/swagger/preview/2025-12-01-preview/examples/GetAttributeNamespace.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5865,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/raw/preview/2025-12-01-preview/AttributeNamespaces.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces/raw/preview/2025-12-01-preview/AttributeNamespaces.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

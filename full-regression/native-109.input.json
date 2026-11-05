@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/KmsKey.Management",
+    "typespecPath": "projects/specification/awsconnector/KmsKey.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_CreateOrReplace.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_Delete.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_Get.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_ListByResourceGroup.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_ListBySubscription.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/examples/2024-12-01/KmsKeys_Update.json",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/KmsKey.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5468,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsKey.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_CreateOrReplace.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_Delete.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_Get.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_ListByResourceGroup.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_ListBySubscription.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsKeys_Update.json",
+      "projects/specification/awsconnector/KmsKey.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsKey.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5940,
+    "rawFiles": [
+      "projects/specification/awsconnector/KmsKey.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsKey.jsonl",
+      "projects/specification/awsconnector/KmsKey.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsKey.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

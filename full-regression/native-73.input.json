@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2SecurityGroup.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_Delete.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_Get.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/examples/2024-12-01/Ec2SecurityGroups_Update.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5457,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2SecurityGroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2SecurityGroup.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_Delete.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_Get.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2SecurityGroups_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5941,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2SecurityGroup.jsonl",
+      "projects/specification/awsconnector/Ec2SecurityGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2SecurityGroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

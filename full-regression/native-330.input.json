@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/ActivityLogAlertResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_CreateOrUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_CreateOrUpdateRuleWithAnyOfCondition.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_CreateOrUpdateRuleWithContainsAny.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_CreateOrUpdateTenantLevelServiceHealthRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_Delete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_ListByResourceGroupName.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_ListBySubscriptionId.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/examples/2023-01-01-preview/ActivityLogAlertRule_Update.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6133,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/activityLogAlerts.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/activityLogAlerts.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_CreateOrUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_CreateOrUpdateRuleWithAnyOfCondition.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_CreateOrUpdateRuleWithContainsAny.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_CreateOrUpdateTenantLevelServiceHealthRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_Delete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_ListByResourceGroupName.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_ListBySubscriptionId.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/swagger/preview/2023-01-01-preview/examples/ActivityLogAlertRule_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6558,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/raw/preview/2023-01-01-preview/activityLogAlerts.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi/raw/preview/2023-01-01-preview/activityLogAlerts.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

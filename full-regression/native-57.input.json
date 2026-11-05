@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ConfigServiceDeliveryChannel.Management",
+    "typespecPath": "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_Get.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/examples/2024-12-01/ConfigServiceDeliveryChannels_Update.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5421,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceDeliveryChannel.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceDeliveryChannel.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_Get.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceDeliveryChannels_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6080,
+    "rawFiles": [
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceDeliveryChannel.jsonl",
+      "projects/specification/awsconnector/ConfigServiceDeliveryChannel.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceDeliveryChannel.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

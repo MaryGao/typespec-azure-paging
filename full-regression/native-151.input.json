@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SsmResourceComplianceSummaryItem.Management",
+    "typespecPath": "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_Delete.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_Get.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/examples/2024-12-01/SsmResourceComplianceSummaryItems_Update.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5732,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmResourceComplianceSummaryItem.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_Delete.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_Get.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmResourceComplianceSummaryItems_Update.json",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmResourceComplianceSummaryItem.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6290,
+    "rawFiles": [
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmResourceComplianceSummaryItem.jsonl",
+      "projects/specification/awsconnector/SsmResourceComplianceSummaryItem.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmResourceComplianceSummaryItem.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

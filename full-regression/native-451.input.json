@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/Assignment.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/Standard.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/DeleteAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/GetAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/ListAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/ListBySubscriptionAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/PutAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Assignments/PutDefaultAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Standards/DeleteStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Standards/GetStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Standards/ListBySubscriptionStandards_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Standards/ListStandards_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/examples/2021-08-01-preview/Standards/PutStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6704,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/security-Standards.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/DeleteAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/GetAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/ListAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/ListBySubscriptionAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/PutAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Assignments/PutDefaultAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Standards/DeleteStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Standards/GetStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Standards/ListBySubscriptionStandards_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Standards/ListStandards_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/examples/Standards/PutStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/swagger/preview/2021-08-01-preview/security-Standards.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6135,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/raw/preview/2021-08-01-preview/security-Standards.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI/raw/preview/2021-08-01-preview/security-Standards.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

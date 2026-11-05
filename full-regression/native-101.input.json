@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamInstanceProfile.Management",
+    "typespecPath": "projects/specification/awsconnector/IamInstanceProfile.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_CreateOrUpdate.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_Delete.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_Get.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_ListBySubscription.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/examples/2024-12-01/IamInstanceProfiles_Update.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5679,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamInstanceProfile.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_CreateOrUpdate.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_Delete.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_Get.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_ListBySubscription.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamInstanceProfiles_Update.json",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamInstanceProfile.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6947,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamInstanceProfile.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamInstanceProfile.jsonl",
+      "projects/specification/awsconnector/IamInstanceProfile.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamInstanceProfile.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

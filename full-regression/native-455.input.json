@@ -1,0 +1,68 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole",
+    "typespecPath": "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec",
+    "typespecFiles": [
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/SerialPort.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/back-compatible.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/client.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/CreateSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/DisableConsoleExamples.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/EnableConsoleExamples.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/GetOperationsExample.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/GetSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/ListSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/ListSerialPortSubscription.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/SerialConsoleStatus.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/SerialPortConnectVM.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/examples/2024-07-01/SerialPortConnectVMSS.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/main.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/models.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/readme.cli.md",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/readme.go.md",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/readme.md",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/readme.python.md",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/readme.typescript.md",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/routes.tsp",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/sdk-suppressions.yaml",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/service.yaml",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/suppressions.yaml",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5776,
+    "swaggerFiles": [
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/CreateSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/DisableConsoleExamples.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/EnableConsoleExamples.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/GetOperationsExample.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/GetSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/ListSerialPort.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/ListSerialPortSubscription.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/SerialConsoleStatus.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/SerialPortConnectVM.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/examples/SerialPortConnectVMSS.json",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/swagger/stable/2024-07-01/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6764,
+    "rawFiles": [
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/raw/stable/2024-07-01/openapi.jsonl",
+      "projects/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/raw/stable/2024-07-01/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

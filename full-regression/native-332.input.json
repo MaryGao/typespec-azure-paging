@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/examples/2016-03-01/getAlertRuleIncident.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/examples/2016-03-01/listAlertRuleIncidents.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/routes.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2016-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5518,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/swagger/stable/2016-03-01/alertRulesIncidents.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/swagger/stable/2016-03-01/alertRulesIncidents.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/swagger/stable/2016-03-01/examples/getAlertRuleIncident.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/swagger/stable/2016-03-01/examples/listAlertRuleIncidents.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6266,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/raw/stable/2016-03-01/alertRulesIncidents.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi/raw/stable/2016-03-01/alertRulesIncidents.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2Subnet.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2Subnet.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_Delete.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_Get.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/examples/2024-12-01/Ec2Subnets_Update.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2Subnet.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5336,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Subnet.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Subnet.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_Delete.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_Get.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Subnet.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Subnets_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6163,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2Subnet.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Subnet.jsonl",
+      "projects/specification/awsconnector/Ec2Subnet.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Subnet.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

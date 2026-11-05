@@ -1,0 +1,64 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes",
+    "typespecPath": "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec",
+    "typespecFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/ExtensionType.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/ExtensionTypeVersionForReleaseTrain.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/back-compatible.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/client.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/GetExtensionType.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/GetExtensionTypeByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/GetExtensionTypeVersion.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/GetExtensionTypeVersionByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/ListExtensionTypeVersions.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/ListExtensionTypeVersionsByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/ListExtensionTypes.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/examples/2024-11-01-preview/ListExtensionTypesByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/main.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/models.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.csharp.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.go.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.java.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.python.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.ruby.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/readme.typescript.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/service.yaml",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-11-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6079,
+    "swaggerFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/extensionTypes.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/GetExtensionType.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/GetExtensionTypeByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/GetExtensionTypeVersion.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/GetExtensionTypeVersionByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/ListExtensionTypeVersions.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/ListExtensionTypeVersionsByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/ListExtensionTypes.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/examples/ListExtensionTypesByLocation.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/swagger/preview/2024-11-01-preview/extensionTypes.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6784,
+    "rawFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/raw/preview/2024-11-01-preview/extensionTypes.jsonl",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/raw/preview/2024-11-01-preview/extensionTypes.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

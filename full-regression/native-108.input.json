@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/KmsAlias.Management",
+    "typespecPath": "projects/specification/awsconnector/KmsAlias.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_CreateOrReplace.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_Delete.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_Get.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_ListByResourceGroup.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_ListBySubscription.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/examples/2024-12-01/KmsAliases_Update.json",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/KmsAlias.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5464,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsAlias.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_CreateOrReplace.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_Delete.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_Get.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_ListByResourceGroup.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_ListBySubscription.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/KmsAliases_Update.json",
+      "projects/specification/awsconnector/KmsAlias.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsAlias.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5963,
+    "rawFiles": [
+      "projects/specification/awsconnector/KmsAlias.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsAlias.jsonl",
+      "projects/specification/awsconnector/KmsAlias.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/kmsAlias.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

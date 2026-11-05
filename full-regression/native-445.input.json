@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/GetSensitivitySettingsResponse.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/examples/2023-02-15-preview/SensitivitySettings/GetSensitivitySettingsList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/examples/2023-02-15-preview/SensitivitySettings/GetSensitivitySettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/examples/2023-02-15-preview/SensitivitySettings/PutSensitivitySettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-02-15-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5770,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/swagger/preview/2023-02-15-preview/sensitivitySettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/swagger/preview/2023-02-15-preview/examples/SensitivitySettings/GetSensitivitySettingsList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/swagger/preview/2023-02-15-preview/examples/SensitivitySettings/GetSensitivitySettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/swagger/preview/2023-02-15-preview/examples/SensitivitySettings/PutSensitivitySettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/swagger/preview/2023-02-15-preview/sensitivitySettings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5802,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/raw/preview/2023-02-15-preview/sensitivitySettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI/raw/preview/2023-02-15-preview/sensitivitySettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

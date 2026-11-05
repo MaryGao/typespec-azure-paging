@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/quantum/resource-manager/Microsoft.Quantum/Quantum",
+    "typespecPath": "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec",
+    "typespecFiles": [
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/QuantumWorkspace.tsp",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/client.tsp",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Offerings_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Operations_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/SuiteOffers_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_CheckNameAvailability.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_CreateOrUpdate.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_Delete.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_Get.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_ListByResourceGroup.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_ListKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_RegenerateKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2025-12-15-preview/Workspaces_UpdateTags.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Offerings_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Operations_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/SuiteOffers_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_CheckNameAvailability.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_CreateOrUpdate.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_Delete.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_Get.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_ListByResourceGroup.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_ListKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_RegenerateKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/examples/2026-06-15-preview/Workspaces_UpdateTags.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/main.tsp",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/models.tsp",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/readme.go.md",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/readme.java.md",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/readme.md",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/readme.python.md",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/readme.typescript.md",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/routes.tsp",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/service.yaml",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/suppressions.yaml",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-06-15-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6598,
+    "swaggerFiles": [
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/quantum.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Offerings_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Operations_List.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/SuiteOffers_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_CheckNameAvailability.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_CreateOrUpdate.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_Delete.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_Get.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_ListByResourceGroup.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_ListBySubscription.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_ListKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_RegenerateKeys.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/examples/Workspaces_UpdateTags.json",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/swagger/preview/2026-06-15-preview/quantum.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6070,
+    "rawFiles": [
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/raw/preview/2026-06-15-preview/quantum.jsonl",
+      "projects/specification/quantum/resource-manager/Microsoft.Quantum/Quantum/raw/preview/2026-06-15-preview/quantum.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

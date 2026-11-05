@@ -1,0 +1,1 @@
+import "@azure-tools/typespec-azure-core"; union Known { Cat: "cat" } union Kind { Known, Cat: "kitten", string } model Pet { kind: Kind = "cat"; }

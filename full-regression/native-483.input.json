@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/widget/resource-manager/Microsoft.Widget/Widget",
+    "typespecPath": "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec",
+    "typespecFiles": [
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/employee.tsp",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_Delete_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_Get_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Employees_Update_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2021-11-01/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_Delete_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_Get_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Employees_Update_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/examples/2024-10-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/main.tsp",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/readme.md",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/service.yaml",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/shared.tsp",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6187,
+    "swaggerFiles": [
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/widget.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_Delete_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_Get_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Employees_Update_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/swagger/preview/2024-10-01-preview/widget.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6072,
+    "rawFiles": [
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/raw/preview/2024-10-01-preview/widget.jsonl",
+      "projects/specification/widget/resource-manager/Microsoft.Widget/Widget/raw/preview/2024-10-01-preview/widget.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

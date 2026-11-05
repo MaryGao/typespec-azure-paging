@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamServerCertificate.Management",
+    "typespecPath": "projects/specification/awsconnector/IamServerCertificate.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_Delete.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_Get.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_ListBySubscription.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/examples/2024-12-01/IamServerCertificates_Update.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamServerCertificate.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5412,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamServerCertificate.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_Delete.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_Get.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_ListBySubscription.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamServerCertificates_Update.json",
+      "projects/specification/awsconnector/IamServerCertificate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamServerCertificate.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5980,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamServerCertificate.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamServerCertificate.jsonl",
+      "projects/specification/awsconnector/IamServerCertificate.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamServerCertificate.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

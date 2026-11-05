@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Wafv2LoggingConfiguration.Management",
+    "typespecPath": "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_CreateOrReplace.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_Delete.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_Get.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_ListBySubscription.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/examples/2024-12-01/Wafv2LoggingConfigurations_Update.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5664,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafv2LoggingConfiguration.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_CreateOrReplace.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_Delete.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_Get.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_ListBySubscription.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Wafv2LoggingConfigurations_Update.json",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafv2LoggingConfiguration.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6072,
+    "rawFiles": [
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafv2LoggingConfiguration.jsonl",
+      "projects/specification/awsconnector/Wafv2LoggingConfiguration.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafv2LoggingConfiguration.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/ActionGroupResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/createOrUpdateActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/deleteActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/enableReceiver.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/getActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/getTestNotificationsAtActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/listActionGroups.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/listActionGroupsByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/patchActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/examples/2024-10-01-preview/postTestNotificationsAtActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5983,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/actionGroups.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/actionGroups.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/createOrUpdateActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/deleteActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/enableReceiver.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/getActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/getTestNotificationsAtActionGroupResourceLevel.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/listActionGroups.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/listActionGroupsByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/patchActionGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/swagger/preview/2024-10-01-preview/examples/postTestNotificationsAtActionGroupResourceLevel.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6930,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/raw/preview/2024-10-01-preview/actionGroups.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi/raw/preview/2024-10-01-preview/actionGroups.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

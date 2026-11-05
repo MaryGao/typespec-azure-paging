@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness",
+    "typespecPath": "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec",
+    "typespecFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/client.tsp",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/examples/2026-06-01-preview/Operations_List.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/examples/2026-06-01-preview/SystemReadinessOperations_Get.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/main.tsp",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/readme.md",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/service.yaml",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/systemReadiness.tsp",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5311,
+    "swaggerFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/swagger/preview/2026-06-01-preview/systemReadiness.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/swagger/preview/2026-06-01-preview/examples/Operations_List.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/swagger/preview/2026-06-01-preview/examples/SystemReadinessOperations_Get.json",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/swagger/preview/2026-06-01-preview/systemReadiness.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6761,
+    "rawFiles": [
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/raw/preview/2026-06-01-preview/systemReadiness.jsonl",
+      "projects/specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness/raw/preview/2026-06-01-preview/systemReadiness.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

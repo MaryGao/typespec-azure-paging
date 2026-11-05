@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/network/resource-manager/Microsoft.Network/Network/Vmss",
+    "typespecPath": "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec",
+    "typespecFiles": [
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/NetworkInterface.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/NetworkInterfaceIPConfiguration.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/PublicIPAddress.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/back-compatible.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssNetworkInterfaceGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssNetworkInterfaceIpConfigGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssNetworkInterfaceIpConfigListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssNetworkInterfaceListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssPublicIpGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssPublicIpListAllForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssVmNetworkInterfaceListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/examples/2018-10-01/VmssVmPublicIpListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/main.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/routes.tsp",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/service.yaml",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2018-10-01",
+    "compileStatus": "success",
+    "compileDurationMs": 8584,
+    "swaggerFiles": [
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/vmssNetwork.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssNetworkInterfaceGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssNetworkInterfaceIpConfigGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssNetworkInterfaceIpConfigListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssNetworkInterfaceListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssPublicIpGetForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssPublicIpListAllForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssVmNetworkInterfaceListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/examples/VmssVmPublicIpListForvmssNetwork.json",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/swagger/stable/2018-10-01/vmssNetwork.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7393,
+    "rawFiles": [
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/raw/stable/2018-10-01/vmssNetwork.jsonl",
+      "projects/specification/network/resource-manager/Microsoft.Network/Network/Vmss/raw/stable/2018-10-01/vmssNetwork.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

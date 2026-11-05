@@ -1,0 +1,60 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/communitytraining/resource-manager/Microsoft.Community/Community",
+    "typespecPath": "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec",
+    "typespecFiles": [
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/back-compatible.tsp",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_Create.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_Delete.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_Get.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_ListByResourceGroup.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_ListBySubscription.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/CommunityTrainings_Update.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/examples/2023-11-01/Operations_List.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/main.tsp",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.az.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.cli.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.csharp.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.go.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.java.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.python.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/readme.typescript.md",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/service.yaml",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/suppressions.yaml",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5721,
+    "swaggerFiles": [
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/CommunityTrainings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/CommunityTrainings.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_Create.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_Delete.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_Get.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_ListByResourceGroup.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_ListBySubscription.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/CommunityTrainings_Update.json",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/swagger/stable/2023-11-01/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6167,
+    "rawFiles": [
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/raw/stable/2023-11-01/CommunityTrainings.jsonl",
+      "projects/specification/communitytraining/resource-manager/Microsoft.Community/Community/raw/stable/2023-11-01/CommunityTrainings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

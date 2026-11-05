@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsDBInstance.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsDBInstance.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_Delete.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_Get.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/examples/2024-12-01/RdsDbInstances_Update.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsDBInstance.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5813,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBInstance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_Delete.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_Get.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbInstances_Update.json",
+      "projects/specification/awsconnector/RdsDBInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBInstance.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5989,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsDBInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBInstance.jsonl",
+      "projects/specification/awsconnector/RdsDBInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBInstance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/examples/2025-10-01-preview/OperationResults/GetOperationResult.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/examples/2025-10-01-preview/OperationStatuses/GetOperationStatus.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/examples/2025-10-01-preview/Operations/ListOperations_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/routes.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5449,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/swagger/preview/2025-10-01-preview/security-Operations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/swagger/preview/2025-10-01-preview/examples/OperationResults/GetOperationResult.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/swagger/preview/2025-10-01-preview/examples/OperationStatuses/GetOperationStatus.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/swagger/preview/2025-10-01-preview/examples/Operations/ListOperations_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/swagger/preview/2025-10-01-preview/security-Operations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5799,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/raw/preview/2025-10-01-preview/security-Operations.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI/raw/preview/2025-10-01-preview/security-Operations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

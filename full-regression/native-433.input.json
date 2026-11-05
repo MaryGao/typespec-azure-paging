@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/AscLocation.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/examples/2015-06-01-preview/Locations/GetLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/examples/2015-06-01-preview/Locations/GetLocations_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5522,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/swagger/preview/2015-06-01-preview/locations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/swagger/preview/2015-06-01-preview/examples/Locations/GetLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/swagger/preview/2015-06-01-preview/examples/Locations/GetLocations_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/swagger/preview/2015-06-01-preview/locations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5934,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/raw/preview/2015-06-01-preview/locations.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI/raw/preview/2015-06-01-preview/locations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/WafWebACLSummary.Management",
+    "typespecPath": "projects/specification/awsconnector/WafWebACLSummary.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_Delete.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_Get.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/examples/2024-12-01/WafWebAclSummaries_Update.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6288,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafWebACLSummary.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_Delete.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_Get.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/WafWebAclSummaries_Update.json",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafWebACLSummary.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6066,
+    "rawFiles": [
+      "projects/specification/awsconnector/WafWebACLSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafWebACLSummary.jsonl",
+      "projects/specification/awsconnector/WafWebACLSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/wafWebACLSummary.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

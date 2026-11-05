@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings",
+    "typespecPath": "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec",
+    "typespecFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/CopilotSettings.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/back-compatible.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/client.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/examples/2024-04-01-preview/CopilotSettings_CreateOrUpdate.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/examples/2024-04-01-preview/CopilotSettings_Delete.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/examples/2024-04-01-preview/CopilotSettings_Get.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/examples/2024-04-01-preview/CopilotSettings_Update.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/examples/2024-04-01-preview/Operations_List.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/howtocompile.md",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/main.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/models.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/readme.md",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/service.yaml",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/suppressions.yaml",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-04-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5567,
+    "swaggerFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/copilotSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/copilotSettings.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/examples/CopilotSettings_CreateOrUpdate.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/examples/CopilotSettings_Delete.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/examples/CopilotSettings_Get.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/examples/CopilotSettings_Update.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/swagger/preview/2024-04-01-preview/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5854,
+    "rawFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/raw/preview/2024-04-01-preview/copilotSettings.jsonl",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings/raw/preview/2024-04-01-preview/copilotSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,156 @@
+{
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "node": "v26.5.0",
+  "purpose": "Final injected candidate controls, exact authored documentation snippets with explicit ARM/import wrapper, and actual ruleset activation.",
+  "fixtures": [
+    {
+      "name": "invalid-string",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "startedAt": "2026-11-05T02:33:41.687Z",
+      "finishedAt": "2026-11-05T02:33:45.446Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "invalid-number",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "startedAt": "2026-11-05T02:33:45.527Z",
+      "finishedAt": "2026-11-05T02:33:49.266Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "compliant",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:33:49.344Z",
+      "finishedAt": "2026-11-05T02:33:53.064Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "suppressed",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:33:53.138Z",
+      "finishedAt": "2026-11-05T02:33:56.847Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "colliding-nested-member-names",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:33:56.925Z",
+      "finishedAt": "2026-11-05T02:34:00.735Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "documentation-1",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:00.816Z",
+      "finishedAt": "2026-11-05T02:34:05.509Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "documentation-2",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:05.586Z",
+      "finishedAt": "2026-11-05T02:34:10.371Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "documentation-3",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:10.449Z",
+      "finishedAt": "2026-11-05T02:34:15.190Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "documentation-4",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:15.291Z",
+      "finishedAt": "2026-11-05T02:34:20.169Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "documentation-5",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:20.246Z",
+      "finishedAt": "2026-11-05T02:34:24.982Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "library-all-activation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 1,
+      "defaultCount": 1,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:25.057Z",
+      "finishedAt": "2026-11-05T02:34:31.204Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "arm-preset-nonactivation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 0,
+      "defaultCount": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:31.281Z",
+      "finishedAt": "2026-11-05T02:34:37.430Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    },
+    {
+      "name": "data-plane-preset-nonactivation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 0,
+      "defaultCount": 0,
+      "passed": true,
+      "startedAt": "2026-11-05T02:34:37.503Z",
+      "finishedAt": "2026-11-05T02:34:43.677Z",
+      "workerStatus": "success",
+      "exitCode": 0,
+      "ambientCompilerErrors": []
+    }
+  ]
+}

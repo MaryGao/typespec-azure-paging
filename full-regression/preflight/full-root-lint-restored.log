@@ -1,0 +1,1 @@
+$ oxlint . --deny-warnings && oxlint packages --type-aware --deny-warnings --ignore-pattern "packages/typespec-ts/**"

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management",
+    "typespecPath": "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_Delete.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_Get.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_ListBySubscription.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/examples/2024-12-01/S3ControlMultiRegionAccessPointPolicyDocuments_Update.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5905,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3ControlMultiRegionAccessPointPolicyDocument.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_Delete.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_Get.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_ListBySubscription.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3ControlMultiRegionAccessPointPolicyDocuments_Update.json",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3ControlMultiRegionAccessPointPolicyDocument.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5920,
+    "rawFiles": [
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3ControlMultiRegionAccessPointPolicyDocument.jsonl",
+      "projects/specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3ControlMultiRegionAccessPointPolicyDocument.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

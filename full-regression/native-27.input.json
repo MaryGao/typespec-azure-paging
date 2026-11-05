@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/WorkbookTemplate.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/examples/2020-11-20/WorkbookTemplateAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/examples/2020-11-20/WorkbookTemplateDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/examples/2020-11-20/WorkbookTemplateGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/examples/2020-11-20/WorkbookTemplateUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/examples/2020-11-20/WorkbookTemplatesList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-11-20",
+    "compileStatus": "success",
+    "compileDurationMs": 5420,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/workbookTemplates_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/examples/WorkbookTemplateAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/examples/WorkbookTemplateDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/examples/WorkbookTemplateGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/examples/WorkbookTemplateUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/examples/WorkbookTemplatesList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/swagger/stable/2020-11-20/workbookTemplates_API.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6003,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/raw/stable/2020-11-20/workbookTemplates_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi/raw/stable/2020-11-20/workbookTemplates_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

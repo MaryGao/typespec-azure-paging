@@ -1,0 +1,93 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/Pricing.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/DeleteResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/DeleteResourcePricing_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetPricingByNameCloudPosture_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetPricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetPricingByNameDns_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetPricingByNameStorageAccounts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetPricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/GetResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/ListPricingsWithPlanFilter_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/ListPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/ListResourcePricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutPricingByNamePartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutPricingByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutPricingVMsByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutResourcePricingByNameContainersACR_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2024-01-01/Pricings/PutResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/DeleteResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/DeleteResourcePricing_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameCloudPosture_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameDns_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameExternallyUpdated_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameStorageAccounts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetPricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/GetResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/ListPricingsWithPlanFilter_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/ListPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/ListResourcePricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/PutPricingByNamePartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/PutPricingByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/PutPricingVMsByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/PutResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/examples/2026-07-01/Pricings/PutResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6754,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/pricings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/DeleteResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/DeleteResourcePricing_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameCloudPosture_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameDns_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameExternallyUpdated_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameStorageAccounts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListPricingsWithPlanFilter_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListResourcePricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingByNamePartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingVMsByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/swagger/stable/2026-07-01/pricings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5900,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/raw/stable/2026-07-01/pricings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI/raw/stable/2026-07-01/pricings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

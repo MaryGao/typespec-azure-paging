@@ -1,0 +1,74 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters",
+    "typespecPath": "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec",
+    "typespecFiles": [
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/OpenShiftCluster.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/OpenShiftVersion.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/PlatformWorkloadIdentityRoleSet.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/back-compatible.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/client.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_CreateOrUpdate.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_Delete.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_ListAdminCredentials.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_ListByResourceGroup.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_ListCredentials.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftClusters_Update.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftVersions_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/OpenShiftVersions_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/Operations_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/PlatformWorkloadIdentityRoleSet_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/examples/2025-07-25/PlatformWorkloadIdentityRoleSets_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/main.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/models.tsp",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/readme.go.md",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/readme.java.md",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/readme.md",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/readme.python.md",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/readme.typescript.md",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/service.yaml",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/suppressions.yaml",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-07-25",
+    "compileStatus": "success",
+    "compileDurationMs": 8552,
+    "swaggerFiles": [
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/redhatopenshift.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_CreateOrUpdate.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_Delete.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_ListAdminCredentials.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_ListByResourceGroup.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_ListCredentials.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftClusters_Update.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftVersions_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/OpenShiftVersions_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/Operations_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/PlatformWorkloadIdentityRoleSet_Get.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/examples/PlatformWorkloadIdentityRoleSets_List.json",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/swagger/stable/2025-07-25/redhatopenshift.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6198,
+    "rawFiles": [
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/raw/stable/2025-07-25/redhatopenshift.jsonl",
+      "projects/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters/raw/stable/2025-07-25/redhatopenshift.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

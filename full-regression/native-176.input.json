@@ -1,0 +1,51 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/commerce/resource-manager/Microsoft.Commerce/Commerce",
+    "typespecPath": "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec",
+    "typespecFiles": [
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/back-compatible.tsp",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/client.tsp",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/examples/2015-06-01-preview/GetRateCard.json",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/examples/2015-06-01-preview/GetUsageAggregatesList.json",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/main.tsp",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/models.tsp",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.go.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.nodejs.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.python.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.ruby.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme.typescript.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/readme_temp.md",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/routes.tsp",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/service.yaml",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6173,
+    "swaggerFiles": [
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/examples/GetRateCard.json",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/examples/GetUsageAggregatesList.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6311,
+    "rawFiles": [
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/raw/preview/2015-06-01-preview/commerce.jsonl",
+      "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/raw/preview/2015-06-01-preview/commerce.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/examples/2027-01-01/CloudFunctions_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5578,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/cloudFunction.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/cloudFunction.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/swagger/stable/2027-01-01/examples/CloudFunctions_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7590,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/raw/stable/2027-01-01/cloudFunction.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction/raw/stable/2027-01-01/cloudFunction.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory",
+    "typespecPath": "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec",
+    "typespecFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/back-compatible.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/examples/2021-06-01-preview/ResourcesHistoryGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/examples/2021-06-01-preview/ResourcesHistoryMgsGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/main.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/models.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/routes.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/service.yaml",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5521,
+    "swaggerFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/swagger/preview/2021-06-01-preview/resourceshistory.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/swagger/preview/2021-06-01-preview/examples/ResourcesHistoryGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/swagger/preview/2021-06-01-preview/examples/ResourcesHistoryMgsGet.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/swagger/preview/2021-06-01-preview/resourceshistory.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5895,
+    "rawFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/raw/preview/2021-06-01-preview/resourceshistory.jsonl",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory/raw/preview/2021-06-01-preview/resourceshistory.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

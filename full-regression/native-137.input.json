@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/S3AccessControlPolicy.Management",
+    "typespecPath": "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_Delete.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_Get.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/examples/2024-12-01/S3AccessControlPolicies_Update.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6428,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessControlPolicy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_Delete.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_Get.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3AccessControlPolicies_Update.json",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessControlPolicy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5997,
+    "rawFiles": [
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessControlPolicy.jsonl",
+      "projects/specification/awsconnector/S3AccessControlPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3AccessControlPolicy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

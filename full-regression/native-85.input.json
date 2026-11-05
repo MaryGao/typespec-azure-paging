@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EfsFileSystem.Management",
+    "typespecPath": "projects/specification/awsconnector/EfsFileSystem.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_CreateOrReplace.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_Delete.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_Get.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_ListBySubscription.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/examples/2024-12-01/EfsFileSystems_Update.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EfsFileSystem.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5366,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsFileSystem.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsFileSystem.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_CreateOrReplace.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_Delete.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_Get.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_ListBySubscription.json",
+      "projects/specification/awsconnector/EfsFileSystem.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EfsFileSystems_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6181,
+    "rawFiles": [
+      "projects/specification/awsconnector/EfsFileSystem.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsFileSystem.jsonl",
+      "projects/specification/awsconnector/EfsFileSystem.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/efsFileSystem.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

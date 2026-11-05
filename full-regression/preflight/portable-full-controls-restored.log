@@ -1,0 +1,47 @@
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.10 [39m[90mC:/dev/worktrees/xms-pageable-validation-5844/tooling-complete-52eeec48/packages/typespec-lintdiff[39m
+
+ [32m✓[39m test/harness/native-coverage-worker.test.ts [2m([22m[2m43 tests[22m[2m | [22m[33m6 skipped[39m[2m)[22m[33m 222079[2mms[22m[39m
+     [33m[2m✓[22m[39m loads the official package and explicitly activates a disabled target [33m 10253[2mms[22m[39m
+     [33m[2m✓[22m[39m does not report compliant nonboolean properties [33m 7233[2mms[22m[39m
+     [33m[2m✓[22m[39m loads an explicit native package without claiming lint findings in configured mode [33m 7459[2mms[22m[39m
+     [33m[2m✓[22m[39m loads an explicit native package without claiming lint findings in target-only mode [33m 5437[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects an implicit empty target rather than manufacturing native compliance [33m 377[2mms[22m[39m
+     [33m[2m✓[22m[39m runs only the target and leaves default activation explicitly unassessed [33m 5551[2mms[22m[39m
+     [33m[2m✓[22m[39m retains unassessed default activation after http-reachable alignment [33m 5588[2mms[22m[39m
+     [33m[2m✓[22m[39m retains unassessed default activation after boolean-http alignment [33m 5168[2mms[22m[39m
+     [33m[2m✓[22m[39m retains unassessed default activation when a target-only worker throws [33m 1431[2mms[22m[39m
+     [33m[2m✓[22m[39m preserves inherited short-name options and source suppression in configured mode [33m 7099[2mms[22m[39m
+     [33m[2m✓[22m[39m preserves inherited short-name options and source suppression in target-only mode [33m 5125[2mms[22m[39m
+     [33m[2m✓[22m[39m resolves the import-only official Resource Manager rulesets package [33m 6298[2mms[22m[39m
+     [33m[2m✓[22m[39m preserves directly configured options instead of replacing them with defaults [33m 6471[2mms[22m[39m
+     [33m[2m✓[22m[39m preserves inherited options when explicitly activating a disabled target [33m 6324[2mms[22m[39m
+     [33m[2m✓[22m[39m retains authored source suppressions [33m 6117[2mms[22m[39m
+     [33m[2m✓[22m[39m fails explicitly when the injected library does not register the target [33m 1113[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects an unknown upstream rule instead of interpreting it as zero findings [33m 3080[2mms[22m[39m
+     [33m[2m✓[22m[39m aligns boolean targets to the selected version 2025-01-01 and retains raw findings [33m 6277[2mms[22m[39m
+     [33m[2m✓[22m[39m aligns boolean targets to the selected version 2026-01-01 and retains raw findings [33m 6327[2mms[22m[39m
+     [33m[2m✓[22m[39m respects omit-unreachable-types=false for service namespace schemas [33m 6420[2mms[22m[39m
+     [33m[2m✓[22m[39m respects omit-unreachable-types=true for service namespace schemas [33m 7669[2mms[22m[39m
+     [33m[2m✓[22m[39m includes emitted derived models reachable only through their base model [33m 7485[2mms[22m[39m
+     [33m[2m✓[22m[39m retains default-emitted local children of reference-only bases [33m 6107[2mms[22m[39m
+     [33m[2m✓[22m[39m retains default-emitted named unions with inline boolean properties [33m 6056[2mms[22m[39m
+     [33m[2m✓[22m[39m excludes reference-only derived graphs when unreachable schemas are omitted [33m 6132[2mms[22m[39m
+     [33m[2m✓[22m[39m excludes direct reference-only model contents [33m 6388[2mms[22m[39m
+     [33m[2m✓[22m[39m retains locally emitted visibility transformations of referenced models [33m 6419[2mms[22m[39m
+     [33m[2m✓[22m[39m excludes nonpayload properties from boolean-http while retaining raw findings [33m 6158[2mms[22m[39m
+     [33m[2m✓[22m[39m excludes nonpayload properties from http-reachable while retaining raw findings [33m 6958[2mms[22m[39m
+     [33m[2m✓[22m[39m aligns referenced query parameters with omit-unreachable-types=false [33m 6607[2mms[22m[39m
+     [33m[2m✓[22m[39m aligns referenced query parameters with omit-unreachable-types=true [33m 7026[2mms[22m[39m
+     [33m[2m✓[22m[39m retains ordinary parameters, response headers and shared read schemas [33m 6454[2mms[22m[39m
+     [33m[2m✓[22m[39m retains metadata-annotated properties inside an explicit inline body [33m 6665[2mms[22m[39m
+     [33m[2m✓[22m[39m retains reachable union-variant diagnostic targets [33m 6421[2mms[22m[39m
+     [33m[2m✓[22m[39m retains a reachable operation's owning interface target [33m 6637[2mms[22m[39m
+     [33m[2m✓[22m[39m retains reachable enum-member diagnostic targets [33m 6798[2mms[22m[39m
+     [33m[2m✓[22m[39m retains the selected service namespace diagnostic target [33m 6851[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m37 passed[39m[22m[2m | [22m[33m6 skipped[39m[90m (43)[39m
+[2m   Start at [22m 10:36:55
+[2m   Duration [22m 224.97s[2m (transform 482ms, setup 0ms, import 558ms, tests 222.08s, environment 0ms)[22m
+

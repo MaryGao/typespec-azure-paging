@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/AcmCertificateSummary.Management",
+    "typespecPath": "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_Delete.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_Get.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/examples/2024-12-01/AcmCertificateSummaries_Update.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5285,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/acmCertificateSummary.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/acmCertificateSummary.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_Delete.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_Get.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AcmCertificateSummaries_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 8022,
+    "rawFiles": [
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/acmCertificateSummary.jsonl",
+      "projects/specification/awsconnector/AcmCertificateSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/acmCertificateSummary.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

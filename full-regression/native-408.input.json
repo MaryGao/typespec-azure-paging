@@ -1,0 +1,42 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/bicep",
+    "typespecPath": "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec",
+    "typespecFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/client.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/examples/2023-11-01/DecompileBicep.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/main.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/models.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/readme.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/routes.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/service.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5322,
+    "swaggerFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/swagger/stable/2023-11-01/bicepClient.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/swagger/stable/2023-11-01/bicepClient.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/swagger/stable/2023-11-01/examples/DecompileBicep.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5851,
+    "rawFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/raw/stable/2023-11-01/bicepClient.jsonl",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/bicep/raw/stable/2023-11-01/bicepClient.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

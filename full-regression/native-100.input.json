@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamGroup.Management",
+    "typespecPath": "projects/specification/awsconnector/IamGroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_Delete.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_Get.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/examples/2024-12-01/IamGroups_Update.json",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamGroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5710,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamGroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_Delete.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_Get.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamGroups_Update.json",
+      "projects/specification/awsconnector/IamGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamGroup.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6320,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamGroup.jsonl",
+      "projects/specification/awsconnector/IamGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamGroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

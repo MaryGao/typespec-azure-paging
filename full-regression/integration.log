@@ -1,0 +1,61 @@
+{"cwd":"C:\\dev\\worktrees\\native-default-in-enum-5972","executable":"C:\\Users\\marygao\\AppData\\Local\\mise\\installs\\node\\26.5.0\\node.exe","args":["C:\\dev\\worktrees\\native-default-in-enum-5972\\core\\packages\\tsp-integration\\cmd\\tsp-integration.js","azure-specs","--repo","C:\\dev\\worktrees\\specs-default-in-enum-5972","--stage","patch","--stage","install","--tgz-dir","C:\\dev\\worktrees\\evidence-default-in-enum-5972\\.local\\artifacts-full"]}
+Running [33mpatch[39m, [33minstall[39m stages [36mazure-specs[39m {
+  repo: 'https://github.com/Azure/azure-rest-api-specs',
+  branch: 'typespec-next',
+  pattern: 'specification/**/tspconfig.yaml',
+  exclude: [ 'specification/ai-foundry/data-plane/Foundry/**' ],
+  entrypoints: [ { name: 'client.tsp', options: [Array] }, { name: 'main.tsp' } ]
+}
+- Resolving local package versions
+- Resolving local package versions
+Found packages:
+  [32m@azure-tools/typespec-autorest[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-autorest-0.73.2.tgz[39m
+  [32m@azure-tools/typespec-azure-resource-manager[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-resource-manager-0.73.0.tgz[39m
+  [32m@azure-tools/typespec-azure-examples[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-examples-0.2.2.tgz[39m
+  [32m@azure-tools/typespec-azure-core[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-core-0.73.0.tgz[39m
+  [32m@azure-tools/typespec-azure-rulesets[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-rulesets-0.73.0.tgz[39m
+  [32m@typespec/events[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-events-0.87.0.tgz[39m
+  [32m@azure-tools/typespec-client-generator-core[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-client-generator-core-0.73.0.tgz[39m
+  [32m@typespec/openapi[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-openapi-1.17.0.tgz[39m
+  [32m@typespec/rest[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-rest-0.87.0.tgz[39m
+  [32m@typespec/sse[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-sse-0.87.0.tgz[39m
+  [32m@typespec/http[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-http-1.17.0.tgz[39m
+  [32m@typespec/compiler[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-compiler-1.17.0.tgz[39m
+  [32m@typespec/versioning[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-versioning-0.87.0.tgz[39m
+  [32m@typespec/xml[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-xml-0.87.0.tgz[39m
+  [32m@typespec/streams[39m: [36m../evidence-default-in-enum-5972/.local/artifacts-full/typespec-streams-0.87.0.tgz[39m
+[31m[32m✔[31m[39m Resolving local package versions
+- Patching dependency configuration
+- Patching dependency configuration
+Using pnpm in C:\dev\worktrees\specs-default-in-enum-5972
+Updated pnpm override: @azure-tools/typespec-autorest -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-autorest-0.73.2.tgz
+Updated pnpm override: @azure-tools/typespec-azure-resource-manager -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-resource-manager-0.73.0.tgz
+Updated pnpm override: @azure-tools/typespec-azure-examples -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-examples-0.2.2.tgz
+Updated pnpm override: @azure-tools/typespec-azure-core -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-core-0.73.0.tgz
+Updated pnpm override: @azure-tools/typespec-azure-rulesets -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-azure-rulesets-0.73.0.tgz
+Updated pnpm override: @typespec/events -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-events-0.87.0.tgz
+Updated pnpm override: @azure-tools/typespec-client-generator-core -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/azure-tools-typespec-client-generator-core-0.73.0.tgz
+Updated pnpm override: @typespec/openapi -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-openapi-1.17.0.tgz
+Updated pnpm override: @typespec/rest -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-rest-0.87.0.tgz
+Updated pnpm override: @typespec/sse -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-sse-0.87.0.tgz
+Updated pnpm override: @typespec/http -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-http-1.17.0.tgz
+Updated pnpm override: @typespec/compiler -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-compiler-1.17.0.tgz
+Updated pnpm override: @typespec/versioning -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-versioning-0.87.0.tgz
+Updated pnpm override: @typespec/xml -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-xml-0.87.0.tgz
+Updated pnpm override: @typespec/streams -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/artifacts-full/typespec-streams-0.87.0.tgz
+[31m[32m✔[31m[39m Patching dependency configuration
+- Installing dependencies
+- Installing dependencies
+Using pnpm in C:\dev\worktrees\specs-default-in-enum-5972
+Scope: all 20 workspace projects
+
+Progress: resolved 0, reused 524, downloaded 0, added 0
+
+Packages: +656
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Progress: resolved 656, reused 652, downloaded 0, added 656, done
+
+Done in 2.5s using pnpm v12.6.0
+
+[31m[32m✔[31m[39m Installing dependencies

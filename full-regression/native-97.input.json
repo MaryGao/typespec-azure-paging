@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/GuardDutyDetector.Management",
+    "typespecPath": "projects/specification/awsconnector/GuardDutyDetector.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_CreateOrReplace.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_Delete.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_Get.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_ListByResourceGroup.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_ListBySubscription.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/examples/2024-12-01/GuardDutyDetectors_Update.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5435,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/guardDutyDetector.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_CreateOrReplace.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_Delete.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_Get.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_ListByResourceGroup.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_ListBySubscription.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/GuardDutyDetectors_Update.json",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/guardDutyDetector.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6189,
+    "rawFiles": [
+      "projects/specification/awsconnector/GuardDutyDetector.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/guardDutyDetector.jsonl",
+      "projects/specification/awsconnector/GuardDutyDetector.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/guardDutyDetector.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

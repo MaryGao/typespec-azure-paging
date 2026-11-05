@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/examples/2024-02-01-preview/DeletedWorkbooksList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/routes.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-02-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5662,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/swagger/preview/2024-02-01-preview/deletedWorkbooks_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/swagger/preview/2024-02-01-preview/deletedWorkbooks_API.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/swagger/preview/2024-02-01-preview/examples/DeletedWorkbooksList.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5960,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/raw/preview/2024-02-01-preview/deletedWorkbooks_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi/raw/preview/2024-02-01-preview/deletedWorkbooks_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

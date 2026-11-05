@@ -1,0 +1,67 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/Workbook.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookGet1.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookManagedAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookManagedGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookManagedUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookRevisionGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookRevisionsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbookUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbooksList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbooksList2.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbooksListSub.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/examples/2023-06-01/WorkbooksManagedList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-06-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5970,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/workbooks_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookGet1.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookManagedAdd.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookManagedGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookManagedUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookRevisionGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookRevisionsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbookUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbooksList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbooksList2.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbooksListSub.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/examples/WorkbooksManagedList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/swagger/stable/2023-06-01/workbooks_API.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6288,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/raw/stable/2023-06-01/workbooks_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi/raw/stable/2023-06-01/workbooks_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

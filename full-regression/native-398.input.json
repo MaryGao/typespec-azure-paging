@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota",
+    "typespecPath": "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec",
+    "typespecFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/CurrentQuotaLimitBase.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/QuotaRequestDetails.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/back-compatible.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getComputeOneSkuUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getComputeUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getMachineLearningServicesUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getQuotaRequestStatusById.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getQuotaRequestStatusFailed.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getQuotaRequestStatusInProgress.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/getQuotaRequestsHistory.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/patchComputeQuotaRequest.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/putComputeOneSkuQuotaRequest.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/putMachineLearningServicesQuotaRequestDedicated.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/examples/2020-10-25/putMachineLearningServicesQuotaRequestLowPriority.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/main.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/models.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/service.yaml",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-10-25",
+    "compileStatus": "success",
+    "compileDurationMs": 5869,
+    "swaggerFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/quota.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getComputeOneSkuUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getComputeUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getMachineLearningServicesUsages.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getQuotaRequestStatusById.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getQuotaRequestStatusFailed.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getQuotaRequestStatusInProgress.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/getQuotaRequestsHistory.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/patchComputeQuotaRequest.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/putComputeOneSkuQuotaRequest.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/putMachineLearningServicesQuotaRequestDedicated.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/examples/putMachineLearningServicesQuotaRequestLowPriority.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/swagger/stable/2020-10-25/quota.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5975,
+    "rawFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/raw/stable/2020-10-25/quota.jsonl",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota/raw/stable/2020-10-25/quota.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

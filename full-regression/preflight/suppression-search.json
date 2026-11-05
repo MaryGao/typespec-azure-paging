@@ -1,0 +1,9 @@
+{
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "command": "git grep -n -I -e DefaultInEnum -e default-in-enum -- :(glob)specification/**/*.md :(glob)specification/**/*.yaml :(glob)specification/**/*.yml :(glob)specification/**/*.tsp",
+  "result": "No matching references in tracked Swagger Markdown/YAML configurations or authored TypeSpec sources.",
+  "ruleSpecificMatches": 0,
+  "baselinePolicy": "latest-emitted-api-version; production ARM validator; no readme suppressions",
+  "syntheticSuppressionControl": "Not a real-world project suppression; ignored control files are outside tracked specification sources.",
+  "limits": "Text search does not independently prove absence of blanket exclusions or suppressions outside these file types."
+}

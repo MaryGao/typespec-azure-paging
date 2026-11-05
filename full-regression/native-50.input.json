@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CloudFrontDistribution.Management",
+    "typespecPath": "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_Delete.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_Get.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/examples/2024-12-01/CloudFrontDistributions_Update.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5692,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFrontDistribution.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFrontDistribution.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_Delete.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_Get.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFrontDistributions_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5987,
+    "rawFiles": [
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFrontDistribution.jsonl",
+      "projects/specification/awsconnector/CloudFrontDistribution.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFrontDistribution.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

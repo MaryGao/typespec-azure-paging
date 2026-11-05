@@ -1,0 +1,87 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/DataCollectionEndpointResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/DataCollectionRuleAssociationProxyOnlyResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/DataCollectionRuleResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsListBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsPatch.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionEndpointsUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsCreateEndpointAssoc.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsListByDataCollectionEndpoint.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsListByResource.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRuleAssociationsListByRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesCreateAgentSettings.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesCreateEmbeddedDCE.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesCreateEnrichment.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesListBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/examples/2024-03-11/DataCollectionRulesUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-11",
+    "compileStatus": "success",
+    "compileDurationMs": 6572,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/dataCollection.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/dataCollection.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsListBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsPatch.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionEndpointsUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsCreateEndpointAssoc.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsListByDataCollectionEndpoint.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsListByResource.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRuleAssociationsListByRule.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesCreateAgentSettings.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesCreateEmbeddedDCE.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesCreateEnrichment.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesListBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/swagger/stable/2024-03-11/examples/DataCollectionRulesUpdate.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7289,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/raw/stable/2024-03-11/dataCollection.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi/raw/stable/2024-03-11/dataCollection.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

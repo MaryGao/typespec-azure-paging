@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LogsMetricFilter.Management",
+    "typespecPath": "projects/specification/awsconnector/LogsMetricFilter.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_Delete.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_Get.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/examples/2024-12-01/LogsMetricFilters_Update.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6366,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsMetricFilter.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_CreateOrReplace.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_Delete.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_Get.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_ListBySubscription.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LogsMetricFilters_Update.json",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsMetricFilter.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5887,
+    "rawFiles": [
+      "projects/specification/awsconnector/LogsMetricFilter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsMetricFilter.jsonl",
+      "projects/specification/awsconnector/LogsMetricFilter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/logsMetricFilter.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

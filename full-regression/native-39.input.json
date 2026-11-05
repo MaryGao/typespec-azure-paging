@@ -1,0 +1,71 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/Alert.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/AlertConfiguration.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/AlertDefinition.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/AlertIncident.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertConfigurationById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertConfigurations.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertDefinitionById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertDefinitions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertIncidentById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertIncidents.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlertOperationById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/GetAlerts.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/RefreshAlert.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/RefreshAllAlerts.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/RemediateAlertIncident.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/UpdateAlert.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/examples/2022-08-01-preview/UpdateAlertConfiguration.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/routes.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6472,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/RoleManagementAlerts.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/RoleManagementAlerts.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertConfigurationById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertConfigurations.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertDefinitionById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertDefinitions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertIncidentById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertIncidents.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlertOperationById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/GetAlerts.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/RefreshAlert.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/RefreshAllAlerts.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/RemediateAlertIncident.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/UpdateAlert.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/swagger/preview/2022-08-01-preview/examples/UpdateAlertConfiguration.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6614,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/raw/preview/2022-08-01-preview/RoleManagementAlerts.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts/raw/preview/2022-08-01-preview/RoleManagementAlerts.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

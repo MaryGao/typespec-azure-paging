@@ -1,0 +1,30 @@
+{
+  "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "results": [
+    { "command": "pnpm exec vitest run --maxWorkers=2", "cwd": "packages/typespec-azure-core", "exitCode": 0, "testFilesPassed": 60, "passed": 513, "skipped": 2, "targetRuleCases": 21, "evidence": "Retained command-agent transcript, corrected attempt; raw stdout was not saved by the command agent." },
+    { "command": "pnpm exec vitest run --maxWorkers=2", "cwd": "packages/typespec-azure-rulesets", "exitCode": 0, "passed": 14, "evidence": "Retained command-agent transcript; raw stdout was not saved by the command agent." },
+    { "command": "pnpm run build", "cwd": "packages/typespec-azure-core", "exitCode": 0, "evidence": "Corrected command-agent attempt; compiled source matches final committed source." },
+    { "command": "pnpm run build", "cwd": "packages/typespec-azure-rulesets", "exitCode": 0, "evidence": "Retained command-agent transcript." },
+    { "command": "pnpm run regen-docs", "cwd": "packages/typespec-azure-core", "exitCode": 0, "evidence": "Corrected attempt; generated rule README and linter reference committed. Existing documentation warnings retained in agent transcript." },
+    { "command": "pnpm run regen-docs", "cwd": "packages/typespec-azure-rulesets", "exitCode": 0, "evidence": "No generated rulesets diff." },
+    { "command": "pnpm run check:eng", "cwd": ".", "exitCode": 0, "log": "full-check-eng-restored.log" },
+    { "command": "pnpm run lint", "cwd": ".", "exitCode": 0, "log": "full-root-lint-restored.log" },
+    { "command": "pnpm run format:check", "cwd": ".", "exitCode": 0, "evidence": "Shell84 completed successfully; all matched files use Prettier code style." },
+    { "command": "pnpm exec chronus verify --since f578e3ad757c9e4ea827e7d20212e7c53c303f43", "cwd": ".", "exitCode": 0, "evidence": "Shell94; both changed packages documented after normalizing local change-file line endings." }
+  ],
+  "independentReview": {
+    "initialFinding": "Name-keyed flattened union members can discard declared values when nested members reuse names.",
+    "remedy": "Retain shared helper eligibility and enumerate all literal/enum values recursively; four new focused collision regressions.",
+    "firstRemedyFailure": "Generator was accidentally inserted inside numeric switch branch, causing19 target-test failures and TS2304. Moved to actual module scope.",
+    "finalSourceReview": "Both collision and scope findings resolved; helper rejects cycles; no new high-confidence correctness/type-safety findings.",
+    "reviewAgent": "fd98d818-97d7-4b60-b441-25a2a4136e55",
+    "finalReviewTurn": 1
+  },
+  "initialEnvironmentFailures": [
+    "check:eng lacked built bundle-uploader and feeds/compiler dependencies; root lint lacked playground vite/client types. Restored only missing declared dependency closures without manifest changes, built prerequisites, and both checks passed.",
+    "Chronus could not parse CRLF front matter in locally created ignored change files. Explicit LF formatting fixed parsing; Git attributes already require LF.",
+    "Pinned tooling snapshot initially lacked vitest. Frozen-lockfile ignore-scripts restore succeeded; applicable portable controls then passed.",
+    "Pinned source archive has no .git. Recovered temporary clean worktree at52eeec48b136f97addc10d90dcba4457a04f83a7; all three analyzer/worker/dataset source hashes match archived tooling."
+  ],
+  "notClaimed": ["All monorepo package suites", "Data-plane corpus validation", "CI/review-checkpoint acceptance", "Equivalence"]
+}

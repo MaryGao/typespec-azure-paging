@@ -1,0 +1,88 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform",
+    "typespecPath": "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec",
+    "typespecFiles": [
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/Account.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/EnterprisePolicy.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/PrivateLinkResource.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/back-compatible.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/client.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateEndpointConnectionDelete.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateEndpointConnectionGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateEndpointConnectionListGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateLinkResourceGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/PrivateLinkResourceListGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/createOrUpdateAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/createOrUpdateEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/deleteAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/deleteEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/getAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/getEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/listAccountsByResourceGroup.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/listAccountsBySubscription.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/listEnterprisePoliciesByResourceGroup.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/listEnterprisePoliciesBySubscription.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/listOperations.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/updateAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/examples/2020-10-30-preview/updateEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/main.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/models.tsp",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.csharp.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.go.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.python.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.ruby.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/readme.typescript.md",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/service.yaml",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/suppressions.yaml",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-10-30-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6421,
+    "swaggerFiles": [
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateEndpointConnectionDelete.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateEndpointConnectionGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateEndpointConnectionListGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateLinkResourceGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/PrivateLinkResourceListGet.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/createOrUpdateAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/createOrUpdateEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/deleteAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/deleteEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/getAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/getEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/listAccountsByResourceGroup.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/listAccountsBySubscription.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/listEnterprisePoliciesByResourceGroup.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/listEnterprisePoliciesBySubscription.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/listOperations.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/updateAccount.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/examples/updateEnterprisePolicy.json",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/swagger/preview/2020-10-30-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6252,
+    "rawFiles": [
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/raw/preview/2020-10-30-preview/openapi.jsonl",
+      "projects/specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform/raw/preview/2020-10-30-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

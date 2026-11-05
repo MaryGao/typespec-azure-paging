@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/portalservices/resource-manager/Microsoft.PortalServices/extensions",
+    "typespecPath": "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec",
+    "typespecFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/ExtensionTenantCompileFile.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/client.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/examples/2024-04-01-preview/Operations_List.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/examples/2024-04-01-preview/PortalTenant_Compilefile.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/examples/2025-11-01/Operations_List.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/examples/2025-11-01/PortalTenant_Compilefile.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/howtocompile.md",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/main.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/models.tsp",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/readme.md",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/service.yaml",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/suppressions.yaml",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5762,
+    "swaggerFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/swagger/stable/2025-11-01/extensions.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/swagger/stable/2025-11-01/examples/Operations_List.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/swagger/stable/2025-11-01/examples/PortalTenant_Compilefile.json",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/swagger/stable/2025-11-01/extensions.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5726,
+    "rawFiles": [
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/raw/stable/2025-11-01/extensions.jsonl",
+      "projects/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/raw/stable/2025-11-01/extensions.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamMFADevice.Management",
+    "typespecPath": "projects/specification/awsconnector/IamMFADevice.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_Delete.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_Get.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_ListBySubscription.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/examples/2024-12-01/IamMfaDevices_Update.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamMFADevice.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5698,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamMFADevice.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_Delete.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_Get.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_ListBySubscription.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamMfaDevices_Update.json",
+      "projects/specification/awsconnector/IamMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamMFADevice.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6900,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamMFADevice.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamMFADevice.jsonl",
+      "projects/specification/awsconnector/IamMFADevice.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamMFADevice.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

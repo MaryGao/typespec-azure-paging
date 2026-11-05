@@ -1,0 +1,77 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot",
+    "typespecPath": "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec",
+    "typespecFiles": [
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/HealthBot.tsp",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/back-compatible.tsp",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/client.tsp",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/GetOperations.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ListBotsByResourceGroup.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ListBotsBySubscription.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ListSecrets.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/RegenerateApiJwtSecret.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ResourceCreationPut.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ResourceDeletionDelete.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ResourceInfoGet.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-05-25/ResourceUpdatePatch.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/GetOperations.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ListBotsByResourceGroup.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ListBotsBySubscription.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ListSecrets.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/RegenerateApiJwtSecret.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ResourceCreationPut.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ResourceDeletionDelete.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ResourceInfoGet.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/examples/2025-11-01/ResourceUpdatePatch.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/main.tsp",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/models.tsp",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.az.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.cli.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.go.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.java.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.python.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.ruby.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/readme.typescript.md",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/sdk-suppressions.yaml",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/service.yaml",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/suppressions.yaml",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6880,
+    "swaggerFiles": [
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/healthbot.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/GetOperations.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ListBotsByResourceGroup.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ListBotsBySubscription.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ListSecrets.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/RegenerateApiJwtSecret.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ResourceCreationPut.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ResourceDeletionDelete.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ResourceInfoGet.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/examples/ResourceUpdatePatch.json",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/swagger/stable/2025-11-01/healthbot.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6630,
+    "rawFiles": [
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/raw/stable/2025-11-01/healthbot.jsonl",
+      "projects/specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/raw/stable/2025-11-01/healthbot.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

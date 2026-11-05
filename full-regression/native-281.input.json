@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator",
+    "typespecPath": "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec",
+    "typespecFiles": [
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/back-compatible.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/common.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Solutions_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/examples/2023-10-04-preview/Targets_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/instance.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/main.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/readme.java.md",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/readme.md",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/service.yaml",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/solution.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/suppressions.yaml",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/target.tsp",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-10-04-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 10158,
+    "swaggerFiles": [
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Solutions_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/examples/Targets_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/swagger/preview/2023-10-04-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7947,
+    "rawFiles": [
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/raw/preview/2023-10-04-preview/openapi.jsonl",
+      "projects/specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator/raw/preview/2023-10-04-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

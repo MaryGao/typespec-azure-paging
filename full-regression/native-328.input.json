@@ -1,0 +1,44 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/examples/2025-01-01/DataCollectionRuleConfigurationMetadataFetch.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/examples/2025-01-01/DataCollectionRuleConfigurationMetadataFetchWithStreamMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/examples/2025-01-01/Operations_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/readme.md",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5556,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/swagger/stable/2025-01-01/dataCollectionRuleConfigurationMetadata.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/swagger/stable/2025-01-01/dataCollectionRuleConfigurationMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/swagger/stable/2025-01-01/examples/DataCollectionRuleConfigurationMetadataFetch.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/swagger/stable/2025-01-01/examples/DataCollectionRuleConfigurationMetadataFetchWithStreamMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/swagger/stable/2025-01-01/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6106,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/raw/stable/2025-01-01/dataCollectionRuleConfigurationMetadata.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata/raw/stable/2025-01-01/dataCollectionRuleConfigurationMetadata.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

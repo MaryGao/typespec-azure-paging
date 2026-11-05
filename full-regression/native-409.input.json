@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/databoundaries",
+    "typespecPath": "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec",
+    "typespecFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/DataBoundaryDefinition.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/back-compatible.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/client.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/examples/2024-08-01/GetScopedDataBoundary.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/examples/2024-08-01/GetTenantDataBoundary.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/examples/2024-08-01/Operations_List.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/examples/2024-08-01/PutDataBoundary.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/main.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/models.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/readme.go.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/readme.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/readme.python.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/readme.typescript.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/service.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/suppressions.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-08-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5477,
+    "swaggerFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/dataBoundaries.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/dataBoundaries.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/examples/GetScopedDataBoundary.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/examples/GetTenantDataBoundary.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/examples/Operations_List.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/swagger/stable/2024-08-01/examples/PutDataBoundary.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5971,
+    "rawFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/raw/stable/2024-08-01/dataBoundaries.jsonl",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/databoundaries/raw/stable/2024-08-01/dataBoundaries.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

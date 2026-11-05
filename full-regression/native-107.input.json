@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamVirtualMFADevice.Management",
+    "typespecPath": "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_Delete.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_Get.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_ListBySubscription.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/examples/2024-12-01/IamVirtualMfaDevices_Update.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5506,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamVirtualMFADevice.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_Delete.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_Get.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_ListBySubscription.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamVirtualMfaDevices_Update.json",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamVirtualMFADevice.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5803,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamVirtualMFADevice.jsonl",
+      "projects/specification/awsconnector/IamVirtualMFADevice.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamVirtualMFADevice.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

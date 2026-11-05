@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamAccessKeyMetadata.Management",
+    "typespecPath": "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_Delete.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_Get.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_ListBySubscription.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/examples/2024-12-01/IamAccessKeyMetadataInfo_Update.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5707,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyMetadata.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_Delete.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_Get.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_ListBySubscription.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyMetadataInfo_Update.json",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyMetadata.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6348,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyMetadata.jsonl",
+      "projects/specification/awsconnector/IamAccessKeyMetadata.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyMetadata.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

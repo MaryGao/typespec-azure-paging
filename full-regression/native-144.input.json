@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SecretsManagerResourcePolicy.Management",
+    "typespecPath": "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_Delete.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_Get.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/examples/2024-12-01/SecretsManagerResourcePolicies_Update.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5826,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerResourcePolicy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_Delete.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_Get.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SecretsManagerResourcePolicies_Update.json",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerResourcePolicy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6080,
+    "rawFiles": [
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerResourcePolicy.jsonl",
+      "projects/specification/awsconnector/SecretsManagerResourcePolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/secretsManagerResourcePolicy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

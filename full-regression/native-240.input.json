@@ -1,0 +1,90 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder",
+    "typespecPath": "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec",
+    "typespecFiles": [
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/AddressResource.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/OrderItemResource.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/OrderResource.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/back-compatible.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/client.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/CancelOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/CreateAddress.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/CreateOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/DeleteAddressByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/DeleteOrderItemByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/GetAddressByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/GetOrderByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/GetOrderItemByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListAddressesAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListAddressesAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListConfigurations.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListOperations.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListOrderAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListOrderAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListOrderItemsAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListOrderItemsAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListProductFamilies.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ListProductFamiliesMetadata.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/ReturnOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/UpdateAddress.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/examples/2024-02-01/UpdateOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/main.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/models.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/readme.az.md",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/readme.go.md",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/readme.md",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/readme.python.md",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/routes.tsp",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/service.yaml",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/suppressions.yaml",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-02-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6642,
+    "swaggerFiles": [
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/edgeorder.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/edgeorder.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/CancelOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/CreateAddress.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/CreateOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/DeleteAddressByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/DeleteOrderItemByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/GetAddressByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/GetOrderByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/GetOrderItemByName.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListAddressesAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListAddressesAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListConfigurations.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListOperations.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListOrderAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListOrderAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListOrderItemsAtResourceGroupLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListOrderItemsAtSubscriptionLevel.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListProductFamilies.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ListProductFamiliesMetadata.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/ReturnOrderItem.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/UpdateAddress.json",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/swagger/stable/2024-02-01/examples/UpdateOrderItem.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7848,
+    "rawFiles": [
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/raw/stable/2024-02-01/edgeorder.jsonl",
+      "projects/specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder/raw/stable/2024-02-01/edgeorder.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

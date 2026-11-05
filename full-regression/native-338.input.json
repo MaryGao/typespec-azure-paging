@@ -1,0 +1,41 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/examples/2019-03-01/metricBaselines.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/routes.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5580,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/swagger/stable/2019-03-01/metricBaselines.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/swagger/stable/2019-03-01/examples/metricBaselines.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/swagger/stable/2019-03-01/metricBaselines.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6329,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/raw/stable/2019-03-01/metricBaselines.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi/raw/stable/2019-03-01/metricBaselines.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

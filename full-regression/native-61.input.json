@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/DynamoDBTable.Management",
+    "typespecPath": "projects/specification/awsconnector/DynamoDBTable.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_CreateOrReplace.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_Delete.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_Get.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_ListBySubscription.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/examples/2024-12-01/DynamoDbTables_Update.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/DynamoDBTable.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5658,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBTable.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBTable.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_CreateOrReplace.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_Delete.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_Get.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_ListBySubscription.json",
+      "projects/specification/awsconnector/DynamoDBTable.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbTables_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7373,
+    "rawFiles": [
+      "projects/specification/awsconnector/DynamoDBTable.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBTable.jsonl",
+      "projects/specification/awsconnector/DynamoDBTable.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBTable.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

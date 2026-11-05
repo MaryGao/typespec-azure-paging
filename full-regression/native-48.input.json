@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CloudFormationStack.Management",
+    "typespecPath": "projects/specification/awsconnector/CloudFormationStack.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_Delete.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_Get.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/examples/2024-12-01/CloudFormationStacks_Update.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CloudFormationStack.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5497,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFormationStack.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFormationStack.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_Delete.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_Get.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudFormationStack.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudFormationStacks_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6019,
+    "rawFiles": [
+      "projects/specification/awsconnector/CloudFormationStack.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFormationStack.jsonl",
+      "projects/specification/awsconnector/CloudFormationStack.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudFormationStack.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/default-in-enum"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}
