@@ -8,7 +8,7 @@ The compiler owns closed-default assignability; this independently configurable 
 
 ## 2. Actual coverage
 
-After the initial five-project pilot, the author explicitly authorized full validation. The final candidate `dd233ce884c25ed54074ad6feaa770ee567c4f5e` was assessed across all 487 frozen ARM projects at specs `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`, with no project filter or limit.
+After the initial five-project pilot, the author explicitly authorized full validation. The full-validation candidate `dd233ce884c25ed54074ad6feaa770ee567c4f5e` was assessed across all 487 frozen ARM projects at specs `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`, with no project filter or limit.
 
 | Full-population observation | Result |
 | --- | ---: |
@@ -75,9 +75,10 @@ Source analysis identifies boundaries that must be retained during later compari
 
 - Issue: [Azure/typespec-azure#5972](https://github.com/Azure/typespec-azure/issues/5972), `DefaultInEnum`. Issue #5971, `ValidFormats`, is not part of this task and its existing work was not modified.
 - Flow: `native-first`, following the requested skill from `feature/lintdiff-migration-new`, with the user's explicit early-review override.
-- Canonical base: `Azure/typespec-azure:main`, frozen at `f578e3ad757c9e4ea827e7d20212e7c53c303f43`.
+- Initial canonical base: `Azure/typespec-azure:main`, frozen at `f578e3ad757c9e4ea827e7d20212e7c53c303f43`.
 - Native head: `Azure/typespec-azure:feat/default-in-enum-5972`; the PR targets `main`.
-- Implementation PR: [Azure/typespec-azure#5973](https://github.com/Azure/typespec-azure/pull/5973), still draft. Initial review head was `5d8b20e69bf9e37d49bd3ff50db6a09125992be1`; pilot candidate was `2f052caee34c4ba271e56a3e9754524b6d9216e1`; full-population candidate is `dd233ce884c25ed54074ad6feaa770ee567c4f5e`.
+- Implementation PR: [Azure/typespec-azure#5973](https://github.com/Azure/typespec-azure/pull/5973). Initial review head was `5d8b20e69bf9e37d49bd3ff50db6a09125992be1`; pilot candidate was `2f052caee34c4ba271e56a3e9754524b6d9216e1`; full-population candidate is `dd233ce884c25ed54074ad6feaa770ee567c4f5e`.
+- Post-validation main sync: PR head `b3593dfdb8fc2147a7183bf42dea12c9a24381ae` merges `main` at `3e96b05ca`, preserving both DefaultInEnum and incoming private-endpoint opt-in regressions in the shared rulesets test. Focused DefaultInEnum tests passed 21/21, rulesets tests passed 15/15, ARM/rulesets builds passed, and affected formatting/lint passed. The sealed 487-project corpus run remains pinned to `dd233ce884c25ed54074ad6feaa770ee567c4f5e`; it was not rerun on this merge.
 - Evidence head: `MaryGao/typespec-azure-paging:migration-evidence/default-in-enum-5972`. This is a separate verified personal fork of the canonical repository.
 - Status: all full-population native workers and final analyzer integrity verification completed successfully. Independent local source review accepted the corrected implementation and reviewed the qualified evidence claims. No GitHub development/release review loops or integration labels were run/added; no release acceptance is claimed.
 - Commit messages include `[skip ci]` to request that GitHub Actions defer push/PR validation during this initial review. Required checks remain outstanding.
@@ -131,4 +132,4 @@ Missing declared validation prerequisites (bundle-uploader, feeds/compiler links
 
 ### Outstanding gates
 
-Fresh-checkout portable recovery verification, required live GitHub CI, and independent GitHub development/release-readiness review checkpoints remain outstanding. Final analyzer integrity sealing, local source review, and the checks listed above have completed; no monorepo-wide test suite or data-plane corpus was claimed. No Swagger regeneration occurred. The PR remains a draft, based on and targeting `main`; matching zero findings do not establish equivalence or release readiness.
+Fresh-checkout portable recovery verification, required live GitHub CI, and independent GitHub development/release-readiness review checkpoints remain outstanding. Final analyzer integrity sealing, local source review, and the checks listed above have completed; no monorepo-wide test suite or data-plane corpus was claimed. No Swagger regeneration occurred. The PR is based on and targets `main`; matching zero findings do not establish equivalence or release readiness.
