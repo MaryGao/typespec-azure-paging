@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "evidenceCommit": "570162d0ebe88fa2bdd97c245886bac3fa736b8f",
+  "candidateCommit": "5e7a4849d2c0ed0a0e990bf3e0cf48436e6d218b",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "stableReport": "https://github.com/MaryGao/typespec-azure-paging/blob/migration-evidence/get-must-not-have-request-body-5983/migration-evidence/tasks/get-must-not-have-request-body-5983/migration.md",
+  "immutableReport": "https://github.com/MaryGao/typespec-azure-paging/blob/570162d0ebe88fa2bdd97c245886bac3fa736b8f/migration-evidence/tasks/get-must-not-have-request-body-5983/migration.md",
+  "reportSha256": "a3a15e80313060adbeaca54e85f808ae4c00f4eaba07bc67fd02be376f8cca26",
+  "verification": {
+    "remoteEvidenceHeadMatched": true,
+    "remoteReportDownloadedAndByteMatched": true,
+    "exactCommittedGitBlobPaths": 1501,
+    "uniqueSanitizedPayloadHashes": 1498,
+    "localReportLinksVerified": 2946,
+    "compactEvidenceFreshCheckout": "Verified exact Git checkout-index recovery of all inventoried committed files into a new isolated subdirectory; rechecked hashes, native counts and links; removed only that task-owned temporary subdirectory.",
+    "candidateArtifactUploadAndDownloadHash": "verified",
+    "candidateArtifactSha256": "6de31443403c728c5ff9b0135067a1cf88844e528e20f6ca25bf5a7ae0a60802",
+    "fullComparisonReplay": "not-run"
+  },
+  "results": {
+    "selected": 487,
+    "assessed": 487,
+    "failedOrUnassessed": 0,
+    "nativeRaw": 6,
+    "nativeSource": 6,
+    "historicalSwagger": 0,
+    "ambient": 0,
+    "equalCountProjects": 486,
+    "nativeOnlyProjects": 1,
+    "allSixSearchFindingsInvestigated": true,
+    "clientCustomizationScopePolicyReview": "required",
+    "equivalence": "not-determined"
+  },
+  "scope": "Full frozen ARM source-scope regression using saved production Swagger, not identical-runtime/selected-version equivalence or release approval. The PR remains a draft. This audit references the previous evidence commit to avoid a circular self-hash."
+}
