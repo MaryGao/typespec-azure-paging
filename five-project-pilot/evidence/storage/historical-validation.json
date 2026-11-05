@@ -1,0 +1,89 @@
+{
+  "slug": "storage",
+  "historicalStatus": "assessed-from-verified-saved-production-logs",
+  "historicalCompileStatus": "success",
+  "historicalValidationStatus": "success",
+  "observedSwaggerFindings": 0,
+  "logFiles": [
+    {
+      "file": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/raw/stable/2026-09-01/openapi.jsonl",
+      "sha256": "7e16b64f9d862c6bf5fd14665ffdb49830ded4bb17959b7ec2956f40c1161a5c",
+      "bytes": 665573,
+      "selected": [
+        {
+          "line": 75,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 196,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 303,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 61,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 182,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1066,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/raw/stable/2026-09-01/openapi.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "authoredTypeSpecFiles": 32,
+  "retainedInputFiles": 1092,
+  "nativeStatus": "success",
+  "ambientDiagnostics": [],
+  "sourceDefaultCorroboration": [
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 3292,
+      "text": "expirationAction: ExpirationAction = ExpirationAction.Log;"
+    },
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 3344,
+      "text": "keySource?: KeySource = KeySource.`Microsoft.Storage`;"
+    },
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 3472,
+      "text": "bypass?: Bypass = Bypass.AzureServices;"
+    },
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 3500,
+      "text": "defaultAction: DefaultAction = DefaultAction.Allow;"
+    },
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 6508,
+      "text": "state?: StorageConnectorState = StorageConnectorState.Active;"
+    },
+    {
+      "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/models.tsp",
+      "line": 6562,
+      "text": "state?: StorageConnectorState = StorageConnectorState.Active;"
+    }
+  ],
+  "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+}

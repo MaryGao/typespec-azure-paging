@@ -1,0 +1,67 @@
+{
+  "status": "assessed-from-verified-saved-production-logs",
+  "freshSwaggerExecution": false,
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "projects": [
+    {
+      "slug": "advisor",
+      "historicalStatus": "assessed-from-verified-saved-production-logs",
+      "historicalCompileStatus": "success",
+      "historicalValidationStatus": "success",
+      "observedSwaggerFindings": 0,
+      "authoredTypeSpecFiles": 13,
+      "retainedInputFiles": 156,
+      "nativeStatus": "success",
+      "ambientDiagnostics": [],
+      "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+    },
+    {
+      "slug": "compute",
+      "historicalStatus": "assessed-from-verified-saved-production-logs",
+      "historicalCompileStatus": "success",
+      "historicalValidationStatus": "success",
+      "observedSwaggerFindings": 0,
+      "authoredTypeSpecFiles": 27,
+      "retainedInputFiles": 2224,
+      "nativeStatus": "success",
+      "ambientDiagnostics": [],
+      "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+    },
+    {
+      "slug": "keyvault",
+      "historicalStatus": "assessed-from-verified-saved-production-logs",
+      "historicalCompileStatus": "success",
+      "historicalValidationStatus": "success",
+      "observedSwaggerFindings": 0,
+      "authoredTypeSpecFiles": 14,
+      "retainedInputFiles": 220,
+      "nativeStatus": "success",
+      "ambientDiagnostics": [],
+      "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+    },
+    {
+      "slug": "network",
+      "historicalStatus": "assessed-from-verified-saved-production-logs",
+      "historicalCompileStatus": "success",
+      "historicalValidationStatus": "success",
+      "observedSwaggerFindings": 0,
+      "authoredTypeSpecFiles": 133,
+      "retainedInputFiles": 4773,
+      "nativeStatus": "success",
+      "ambientDiagnostics": [],
+      "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+    },
+    {
+      "slug": "storage",
+      "historicalStatus": "assessed-from-verified-saved-production-logs",
+      "historicalCompileStatus": "success",
+      "historicalValidationStatus": "success",
+      "observedSwaggerFindings": 0,
+      "authoredTypeSpecFiles": 32,
+      "retainedInputFiles": 1092,
+      "nativeStatus": "success",
+      "ambientDiagnostics": [],
+      "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "compute",
+  "historicalStatus": "assessed-from-verified-saved-production-logs",
+  "historicalCompileStatus": "success",
+  "historicalValidationStatus": "success",
+  "observedSwaggerFindings": 0,
+  "logFiles": [
+    {
+      "file": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/raw/stable/2026-04-01/ComputeRP.jsonl",
+      "sha256": "c4b329ff219516f846063e9937f8b208fb4ef5029fcac94fae4fa0f5787058b8",
+      "bytes": 1113224,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json'"
+        },
+        {
+          "line": 1597,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: false. Path: 'file:///$BASELINE_DATASET/projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/common-types/v1/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1608,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/raw/stable/2026-04-01/ComputeRP.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "authoredTypeSpecFiles": 27,
+  "retainedInputFiles": 2224,
+  "nativeStatus": "success",
+  "ambientDiagnostics": [],
+  "sourceDefaultCorroboration": [],
+  "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+}

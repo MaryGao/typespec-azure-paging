@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 C:/dev/worktrees/native-default-in-enum-5972/packages/typespec-azure-rulesets
+
+
+ Test Files  1 passed (1)
+      Tests  14 passed (14)
+   Start at  09:59:32
+   Duration  48.58s (transform 76%, import 23%)
+

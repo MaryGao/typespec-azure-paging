@@ -1,0 +1,69 @@
+{
+  "slug": "keyvault",
+  "historicalStatus": "assessed-from-verified-saved-production-logs",
+  "historicalCompileStatus": "success",
+  "historicalValidationStatus": "success",
+  "observedSwaggerFindings": 0,
+  "logFiles": [
+    {
+      "file": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/raw/preview/2026-06-01-preview/openapi.jsonl",
+      "sha256": "95a7d5925c983ffe095c57941636b042f1ee012f49c94592916e5bc6040d1b58",
+      "bytes": 299880,
+      "selected": [
+        {
+          "line": 75,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 196,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 303,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-06-01-preview/openapi.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 61,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 182,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 611,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/raw/preview/2026-06-01-preview/openapi.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "authoredTypeSpecFiles": 14,
+  "retainedInputFiles": 220,
+  "nativeStatus": "success",
+  "ambientDiagnostics": [],
+  "sourceDefaultCorroboration": [
+    {
+      "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/models.tsp",
+      "line": 1160,
+      "text": "publicNetworkAccess?: string = \"enabled\";"
+    },
+    {
+      "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/models.tsp",
+      "line": 1755,
+      "text": "publicNetworkAccess?: PublicNetworkAccess = PublicNetworkAccess.Enabled;"
+    }
+  ],
+  "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+}

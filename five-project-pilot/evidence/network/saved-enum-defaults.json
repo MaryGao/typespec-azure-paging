@@ -1,0 +1,258 @@
+[
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json",
+    "sha256": "366636bc267801cf2e28b61286a46819beba7e0487b3bfa169e85505671b4144",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/authenticationPolicy.json",
+    "sha256": "fd4bd9b865f05741e5cf9bf768f303c2a7c05120be93b0034239854ce146001c",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/azureWebCategory.json",
+    "sha256": "a21673f3abde036e34089f10162b1b6ca37f576d3f87a9e99a4bfc71cde0b879",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json",
+    "sha256": "26098763fc0039511d2714ab1449028edf527d66ccf170a5b0880c90b23bcfd7",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json",
+    "sha256": "b1f3d6d163bbc53caf6e1a347fc970db1888d4e0cfe07b3dd1adbfe21daae3f0",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firewall.json",
+    "sha256": "a91acd1e4531a278d126a2d7fdac6d4e53553ce3942b37e269589dd6f9dba255",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "FirewallPacketCaptureParameters",
+          "properties",
+          "operation"
+        ],
+        "type": "string",
+        "enum": [
+          "Start",
+          "Status",
+          "Stop"
+        ],
+        "default": "Start",
+        "violatesMembership": false
+      }
+    ]
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firewallPolicy.json",
+    "sha256": "cf1e6f6b3e0a42e83507c5a6f51def7c86cb72a05ad57f076f2a84add17837b0",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firstPartyServiceTag.json",
+    "sha256": "687417f6ab8b79f6786ed94f2ba6a4fd5e3bee9e503a98fefccdd9f5c80c01cc",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/interconnectGroup.json",
+    "sha256": "3165d380e9dbad5413df82f2b918ea585d0ab2a07445b14d4baf0e4fdf15702b",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json",
+    "sha256": "1de971db48db8192fe5634b8d2be6ce9a15fc0a9ff635ad9e51190683550f9cf",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json",
+    "sha256": "704a1f4ae297adf02086dd0a34e4bb365c9c0fa133395e99317d3089a9798dec",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkingOperations.json",
+    "sha256": "dfc82c570c3e51c23060fe596290bdb31c2901be58f807c4956f1a08131a7790",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+    "sha256": "dd29c5c8f9c2c6cbd263365a6030e33e3525d9df64340bacd395b89d04ec074e",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "ConnectivityConfigurationPropertiesConnectivityCapabilities",
+          "properties",
+          "connectedGroupPrivateEndpointsScale"
+        ],
+        "type": "string",
+        "enum": [
+          "Standard",
+          "HighScale"
+        ],
+        "default": "Standard",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "ConnectivityConfigurationPropertiesConnectivityCapabilities",
+          "properties",
+          "connectedGroupAddressOverlap"
+        ],
+        "type": "string",
+        "enum": [
+          "Allowed",
+          "Disallowed"
+        ],
+        "default": "Allowed",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "ConnectivityConfigurationPropertiesConnectivityCapabilities",
+          "properties",
+          "peeringEnforcement"
+        ],
+        "type": "string",
+        "enum": [
+          "Unenforced",
+          "Enforced"
+        ],
+        "default": "Unenforced",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "NetworkManagerRoutingConfigurationPropertiesFormat",
+          "properties",
+          "routeTableUsageMode"
+        ],
+        "type": "string",
+        "enum": [
+          "ManagedOnly",
+          "UseExisting"
+        ],
+        "default": "ManagedOnly",
+        "violatesMembership": false
+      }
+    ]
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+    "sha256": "b5176067342d193ee7b02ccc1580c254869534653e5dc4e9702806b1388121bf",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json",
+    "sha256": "4d75ea526083f63a2a8f9c57174dfb16cd94fd7f903f5229e0fc1ce298fcc370",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "PacketCaptureFilter",
+          "properties",
+          "protocol"
+        ],
+        "type": "string",
+        "enum": [
+          "TCP",
+          "UDP",
+          "Any"
+        ],
+        "default": "Any",
+        "violatesMembership": false
+      }
+    ]
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/serviceGateway.json",
+    "sha256": "165b00d8a06d398dd00a8c8cf11fd9dc7c977fa90ba8d56bc6bf9d47ef163c8b",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+    "sha256": "f28630fb2f34665e6664672f222cc27a6a95e4eb362574d1b00663a4eb03bc01",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "PrivateEndpointProperties",
+          "properties",
+          "ipVersionType"
+        ],
+        "type": "string",
+        "enum": [
+          "IPv4",
+          "IPv6",
+          "DualStack"
+        ],
+        "default": "IPv4",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "Sku",
+          "properties",
+          "name"
+        ],
+        "type": "string",
+        "enum": [
+          "Basic",
+          "Standard",
+          "Developer",
+          "Premium"
+        ],
+        "default": "Standard",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "SubnetPropertiesFormat",
+          "properties",
+          "privateEndpointNetworkPolicies"
+        ],
+        "type": "string",
+        "enum": [
+          "Enabled",
+          "Disabled",
+          "NetworkSecurityGroupEnabled",
+          "RouteTableEnabled"
+        ],
+        "default": "Disabled",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "SubnetPropertiesFormat",
+          "properties",
+          "privateLinkServiceNetworkPolicies"
+        ],
+        "type": "string",
+        "enum": [
+          "Enabled",
+          "Disabled"
+        ],
+        "default": "Enabled",
+        "violatesMembership": false
+      }
+    ]
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetworkAppliance.json",
+    "sha256": "f9fad459358a5348e9e9b84ea645057eee53c736196c71cb3c2d2b791d8a2399",
+    "enumDefaults": []
+  },
+  {
+    "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json",
+    "sha256": "042c986c5623748fa2badb570260ac2e674859893c7a7888e49e52c0f65c7695",
+    "enumDefaults": []
+  }
+]

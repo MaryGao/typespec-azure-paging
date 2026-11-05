@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "taskId": "default-in-enum-5972-five-project-pilot",
+  "pullRequest": "https://github.com/Azure/typespec-azure/pull/5973",
+  "candidateCommit": "2f052caee34c4ba271e56a3e9754524b6d9216e1",
+  "candidateCoreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "specs": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "candidate": "C:\\dev\\worktrees\\native-default-in-enum-5972",
+  "baselineDirectory": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselineMetadataCommit": "1c9d2b0e6a596754af1aa793b1906ff3c4ef2bd6",
+  "swaggerRule": "DefaultInEnum",
+  "typeSpecRule": "@azure-tools/typespec-azure-core/default-in-enum",
+  "scope": "source",
+  "nativeMode": "target-only",
+  "defaultActivation": "not-assessed",
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "selectionRationale": "Same five distinct ARM service families used by the local comp-reports and previous five-project pilot; exact paths and API versions verified in the frozen baseline. This is not a statistical sample.",
+  "baselineVerification": "Content identity and the selected project/index inputs are verified; this pilot does not ingest or revalidate the entire full-population baseline.",
+  "worker": {
+    "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\tooling-complete-52eeec48\\packages\\typespec-lintdiff\\test\\harness\\native-coverage-worker.mjs",
+    "sha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609"
+  },
+  "ruleSourceSha256": "0dac82142d67df77e08d6ded0c57a34372eef7de870d398938804ab6aa9c744c",
+  "projects": [
+    {
+      "name": "Advisor",
+      "slug": "advisor",
+      "sourcePath": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor",
+      "apiVersion": "2026-08-01-preview",
+      "sourceFiles": 156,
+      "swaggerFiles": 1,
+      "enumDefaults": 0,
+      "staticMembershipViolations": 0,
+      "savedRuleShardPresent": false
+    },
+    {
+      "name": "Compute",
+      "slug": "compute",
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+      "apiVersion": "2026-04-01",
+      "sourceFiles": 2224,
+      "swaggerFiles": 1,
+      "enumDefaults": 0,
+      "staticMembershipViolations": 0,
+      "savedRuleShardPresent": false
+    },
+    {
+      "name": "KeyVault",
+      "slug": "keyvault",
+      "sourcePath": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault",
+      "apiVersion": "2026-06-01-preview",
+      "sourceFiles": 220,
+      "swaggerFiles": 1,
+      "enumDefaults": 1,
+      "staticMembershipViolations": 0,
+      "savedRuleShardPresent": false
+    },
+    {
+      "name": "Network",
+      "slug": "network",
+      "sourcePath": "specification/network/resource-manager/Microsoft.Network/Network/Network",
+      "apiVersion": "2026-03-01",
+      "sourceFiles": 4773,
+      "swaggerFiles": 19,
+      "enumDefaults": 10,
+      "staticMembershipViolations": 0,
+      "savedRuleShardPresent": false
+    },
+    {
+      "name": "Storage",
+      "slug": "storage",
+      "sourcePath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "sourceFiles": 1092,
+      "swaggerFiles": 1,
+      "enumDefaults": 6,
+      "staticMembershipViolations": 0,
+      "savedRuleShardPresent": false
+    }
+  ]
+}

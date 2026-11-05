@@ -1,0 +1,17 @@
+[
+  {
+    "name": "invalid-string",
+    "expected": 1,
+    "passed": false,
+    "startedAt": "2026-11-05T02:03:32.273Z",
+    "finishedAt": "2026-11-05T02:03:38.228Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "success",
+    "rawCount": 1,
+    "diagnosticCount": 1,
+    "input": "C:\\Users\\marygao\\project\\coverage-reports\\default-in-enum\\evidence\\controls\\invalid-string\\input.json",
+    "output": "C:\\Users\\marygao\\project\\coverage-reports\\default-in-enum\\evidence\\controls\\invalid-string\\native.json",
+    "log": "C:\\Users\\marygao\\project\\coverage-reports\\default-in-enum\\evidence\\controls\\invalid-string\\worker.log"
+  }
+]

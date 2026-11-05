@@ -1,0 +1,217 @@
+mise by @jdx – installing 1 tool
+mise █████████████░░░ 0/1 · 3.0s
+  node@26.5.1  extracting  3.0s
+mise █████████████░░░ 0/1 · 6.0s
+  node@26.5.1  extracting  6.0s
+mise node@26.5.1 v26.5.1
+mise █████████████░░░ 0/1 · 9.0s
+  node@26.5.1  npm -v  9.0s
+mise node@26.5.1 11.17.0
+mise ✓ node@26.5.1  9.8s  node-v26.5.1-win-x64.zip
+mise ████████████████ 1/1 · installed 1 tool in 9.8s
+Scope: all 50 workspace projects
+? Verifying lockfile against supply-chain policies (1852 entries)...
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +1638
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1638, reused 445, downloaded 0, added 0
+Progress: resolved 1638, reused 975, downloaded 0, added 0
+Progress: resolved 1638, reused 1332, downloaded 0, added 0
+Progress: resolved 1638, reused 1600, downloaded 2, added 6
+Progress: resolved 1638, reused 1603, downloaded 10, added 21
+Progress: resolved 1638, reused 1603, downloaded 20, added 28
+Progress: resolved 1638, reused 1603, downloaded 23, added 35
+Progress: resolved 1638, reused 1603, downloaded 24, added 40
+Progress: resolved 1638, reused 1603, downloaded 25, added 53
+Progress: resolved 1638, reused 1603, downloaded 27, added 61
+[WARN] Request took 10866ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-http-compat
+Progress: resolved 1638, reused 1603, downloaded 28, added 73
+[WARN] Request took 11513ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-xml
+[WARN] Request took 11625ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-paging
+[WARN] Request took 11713ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-util
+[WARN] Request took 11739ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Flogger
+[WARN] Request took 11827ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-auth
+[WARN] Request took 11947ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-client
+Progress: resolved 1638, reused 1603, downloaded 28, added 84
+[WARN] Request took 12338ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-tracing
+[WARN] Request took 12414ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fabort-controller
+[WARN] Request took 12774ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-rest-pipeline
+[WARN] Request took 12869ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fcore-lro
+Progress: resolved 1638, reused 1603, downloaded 29, added 99
+Progress: resolved 1638, reused 1603, downloaded 29, added 103
+[WARN] Request took 14304ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fstorage-blob
+Progress: resolved 1638, reused 1603, downloaded 29, added 118
+Progress: resolved 1638, reused 1603, downloaded 29, added 132
+[WARN] Request took 17144ms: https://packagefeedproxy.microsoft.io/npm/@azure%2Fidentity
+Progress: resolved 1638, reused 1603, downloaded 29, added 152
+Progress: resolved 1638, reused 1603, downloaded 29, added 167
+Progress: resolved 1638, reused 1604, downloaded 31, added 214
+Progress: resolved 1638, reused 1604, downloaded 32, added 231
+Progress: resolved 1638, reused 1604, downloaded 32, added 264
+[WARN] Request took 10546ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-button
+[WARN] Request took 10704ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-avatar
+[WARN] Request took 10381ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-popover
+[WARN] Request took 10738ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-menu
+Progress: resolved 1638, reused 1604, downloaded 32, added 309
+Progress: resolved 1638, reused 1604, downloaded 32, added 382
+[WARN] Request took 12228ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-slider
+Progress: resolved 1638, reused 1604, downloaded 32, added 429
+[WARN] Request took 12615ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-table
+[WARN] Request took 13315ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-switch
+[WARN] Request took 11857ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-textarea
+Progress: resolved 1638, reused 1604, downloaded 32, added 450
+[WARN] Request took 11524ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-tree
+[WARN] Request took 13275ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-tabster
+Progress: resolved 1638, reused 1604, downloaded 32, added 476
+[WARN] Request took 11961ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-virtualizer
+[WARN] Request took 12729ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-toolbar
+[WARN] Request took 13277ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-text
+Progress: resolved 1638, reused 1604, downloaded 32, added 494
+[WARN] Request took 15321ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-tabs
+[WARN] Request took 13706ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-utilities
+Progress: resolved 1638, reused 1604, downloaded 32, added 512
+[WARN] Request took 10102ms: https://packagefeedproxy.microsoft.io/npm/@microsoft%2Fapplicationinsights-web-basic
+Progress: resolved 1638, reused 1604, downloaded 32, added 537
+[WARN] Request took 15663ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-tooltip
+Progress: resolved 1638, reused 1604, downloaded 32, added 542
+Progress: resolved 1638, reused 1604, downloaded 33, added 563
+Progress: resolved 1638, reused 1604, downloaded 33, added 591
+[WARN] Request took 22394ms: https://packagefeedproxy.microsoft.io/npm/@fluentui%2Freact-components
+Progress: resolved 1638, reused 1604, downloaded 33, added 605
+Progress: resolved 1638, reused 1604, downloaded 33, added 626
+[WARN] Request took 11372ms: https://packagefeedproxy.microsoft.io/npm/@playwright%2Fbrowser-chromium
+Progress: resolved 1638, reused 1604, downloaded 33, added 628
+Progress: resolved 1638, reused 1604, downloaded 33, added 631
+Progress: resolved 1638, reused 1604, downloaded 33, added 633
+Progress: resolved 1638, reused 1604, downloaded 33, added 661
+Progress: resolved 1638, reused 1604, downloaded 33, added 667
+Progress: resolved 1638, reused 1604, downloaded 33, added 675
+Progress: resolved 1638, reused 1604, downloaded 33, added 690
+Progress: resolved 1638, reused 1604, downloaded 33, added 719
+Progress: resolved 1638, reused 1604, downloaded 33, added 800
+Progress: resolved 1638, reused 1604, downloaded 33, added 871
+Progress: resolved 1638, reused 1604, downloaded 33, added 932
+Progress: resolved 1638, reused 1604, downloaded 33, added 961
+Progress: resolved 1638, reused 1604, downloaded 33, added 962
+[WARN] Request took 23291ms: https://packagefeedproxy.microsoft.io/npm/@storybook%2Freact-dom-shim
+Progress: resolved 1638, reused 1604, downloaded 33, added 963
+[WARN] Request took 12460ms: https://packagefeedproxy.microsoft.io/npm/electron-to-chromium
+[WARN] Request took 26394ms: https://packagefeedproxy.microsoft.io/npm/@playwright%2Ftest
+Progress: resolved 1638, reused 1604, downloaded 33, added 966
+Progress: resolved 1638, reused 1604, downloaded 33, added 971
+[WARN] GET https://packagefeedproxy.microsoft.io/npm/setimmediate error (502). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 1638, reused 1604, downloaded 33, added 979
+[WARN] Request took 10187ms: https://packagefeedproxy.microsoft.io/npm/keyborg
+Progress: resolved 1638, reused 1604, downloaded 33, added 982
+[WARN] Request took 28107ms: https://packagefeedproxy.microsoft.io/npm/@storybook%2Fbuilder-vite
+Progress: resolved 1638, reused 1604, downloaded 33, added 985
+[WARN] Request took 28848ms: https://packagefeedproxy.microsoft.io/npm/@storybook%2Freact-vite
+[WARN] Request took 25943ms: https://packagefeedproxy.microsoft.io/npm/@types%2Fnode
+Progress: resolved 1638, reused 1604, downloaded 33, added 990
+Progress: resolved 1638, reused 1604, downloaded 33, added 1001
+Progress: resolved 1638, reused 1604, downloaded 33, added 1016
+Progress: resolved 1638, reused 1604, downloaded 33, added 1025
+[WARN] Request took 11459ms: https://packagefeedproxy.microsoft.io/npm/monaco-editor
+Progress: resolved 1638, reused 1604, downloaded 33, added 1033
+Progress: resolved 1638, reused 1604, downloaded 33, added 1041
+[WARN] Request took 10009ms: https://packagefeedproxy.microsoft.io/npm/react-is
+[WARN] Request took 28566ms: https://packagefeedproxy.microsoft.io/npm/astro
+[WARN] Request took 10272ms: https://packagefeedproxy.microsoft.io/npm/react
+[WARN] Request took 35370ms: https://packagefeedproxy.microsoft.io/npm/@storybook%2Freact
+Progress: resolved 1638, reused 1604, downloaded 33, added 1053
+[WARN] Request took 11988ms: https://packagefeedproxy.microsoft.io/npm/react-dom
+[WARN] Request took 24818ms: https://packagefeedproxy.microsoft.io/npm/es-toolkit
+[WARN] Request took 13314ms: https://packagefeedproxy.microsoft.io/npm/playwright
+Progress: resolved 1638, reused 1604, downloaded 33, added 1059
+[WARN] Request took 10402ms: https://packagefeedproxy.microsoft.io/npm/setimmediate
+[WARN] Request took 14148ms: https://packagefeedproxy.microsoft.io/npm/playwright-core
+Progress: resolved 1638, reused 1604, downloaded 33, added 1065
+[WARN] Request took 10638ms: https://packagefeedproxy.microsoft.io/npm/storybook
+Progress: resolved 1638, reused 1604, downloaded 33, added 1088
+✓ Lockfile passes supply-chain policies (1852 entries in 1m 5.1s)
+Progress: resolved 1638, reused 1604, downloaded 33, added 1184
+Progress: resolved 1638, reused 1604, downloaded 33, added 1207
+Progress: resolved 1638, reused 1604, downloaded 33, added 1241
+Progress: resolved 1638, reused 1604, downloaded 33, added 1280
+Progress: resolved 1638, reused 1604, downloaded 33, added 1305
+Progress: resolved 1638, reused 1604, downloaded 33, added 1316
+Progress: resolved 1638, reused 1604, downloaded 33, added 1323
+Progress: resolved 1638, reused 1604, downloaded 33, added 1335
+Progress: resolved 1638, reused 1604, downloaded 33, added 1347
+Progress: resolved 1638, reused 1604, downloaded 33, added 1432
+Progress: resolved 1638, reused 1604, downloaded 33, added 1467
+Progress: resolved 1638, reused 1604, downloaded 33, added 1534
+Progress: resolved 1638, reused 1604, downloaded 33, added 1597
+Progress: resolved 1638, reused 1604, downloaded 33, added 1600
+Progress: resolved 1638, reused 1604, downloaded 33, added 1602
+Progress: resolved 1638, reused 1604, downloaded 33, added 1603
+Progress: resolved 1638, reused 1604, downloaded 33, added 1623
+Progress: resolved 1638, reused 1604, downloaded 33, added 1628
+Progress: resolved 1638, reused 1604, downloaded 33, added 1630
+Progress: resolved 1638, reused 1604, downloaded 33, added 1632
+Progress: resolved 1638, reused 1604, downloaded 33, added 1635
+Progress: resolved 1638, reused 1604, downloaded 33, added 1636
+Progress: resolved 1638, reused 1604, downloaded 34, added 1636
+Progress: resolved 1638, reused 1604, downloaded 34, added 1637
+Progress: resolved 1638, reused 1604, downloaded 34, added 1638
+Progress: resolved 1638, reused 1604, downloaded 34, added 1638, done
+
+devDependencies:
++ @chronus/chronus 1.5.1
++ @chronus/github 1.2.1
++ @chronus/github-pr-commenter 1.1.2
++ @microsoft/api-extractor 7.60.0
++ @octokit/core 7.0.8
++ @octokit/plugin-paginate-graphql 6.0.0
++ @octokit/plugin-rest-endpoint-methods 18.0.0
++ @types/micromatch 4.0.10
++ @types/node 26.6.5
++ @vitest/coverage-v8 5.0.5
++ c8 12.0.0
++ cspell 10.4.0
++ execa 10.2.1
++ micromatch 4.0.8
++ oxlint 1.90.0
++ oxlint-tsgolint 7.0.2005
++ picocolors 1.1.1
++ playwright 1.64.1
++ prettier 3.9.10
++ prettier-plugin-astro 1.1.2
++ prettier-plugin-organize-imports 4.3.0
++ prettier-plugin-sh 0.20.2
++ rimraf 6.1.3
++ turbo 2.11.10
++ typescript <- @typescript/typescript6 6.0.2
++ typescript-native <- typescript 7.0.2
++ vitest 5.0.5
++ yaml 2.9.1
+
+Done in 2m 56.4s using pnpm v11.10.0
+[33m-[39m [33m@typespec/compiler[39m packing
+[32m✓[39m [33m@typespec/compiler[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-compiler-1.17.0.tgz[39m ([35m897.25 kB[39m)
+
+[33m-[39m [33m@typespec/events[39m packing
+[32m✓[39m [33m@typespec/events[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-events-0.87.0.tgz[39m ([35m11.11 kB[39m)
+
+[33m-[39m [33m@typespec/http[39m packing
+[32m✓[39m [33m@typespec/http[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-http-1.17.0.tgz[39m ([35m121.03 kB[39m)
+
+[33m-[39m [33m@typespec/openapi[39m packing
+[32m✓[39m [33m@typespec/openapi[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-openapi-1.17.0.tgz[39m ([35m22.58 kB[39m)
+
+[33m-[39m [33m@typespec/rest[39m packing
+[32m✓[39m [33m@typespec/rest[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-rest-0.87.0.tgz[39m ([35m29.18 kB[39m)
+
+[33m-[39m [33m@typespec/sse[39m packing
+[32m✓[39m [33m@typespec/sse[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-sse-0.87.0.tgz[39m ([35m7.13 kB[39m)
+
+[33m-[39m [33m@typespec/streams[39m packing
+[32m✓[39m [33m@typespec/streams[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-streams-0.87.0.tgz[39m ([35m5.36 kB[39m)
+
+[33m-[39m [33m@typespec/versioning[39m packing
+[32m✓[39m [33m@typespec/versioning[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-versioning-0.87.0.tgz[39m ([35m46.52 kB[39m)
+
+[33m-[39m [33m@typespec/xml[39m packing
+[32m✓[39m [33m@typespec/xml[39m packed in [36mC:\dev\worktrees\evidence-default-in-enum-5972\.local\artifacts\typespec-xml-0.87.0.tgz[39m ([35m10.54 kB[39m)
+

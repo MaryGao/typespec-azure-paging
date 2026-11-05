@@ -1,0 +1,235 @@
+Scope: 23 of 69 workspace projects
+core/packages/internal-build-utils build$ tsc -p tsconfig.build.json
+core/packages/tmlanguage-generator build$ tsc -p tsconfig.build.json
+core/packages/tmlanguage-generator build: Done
+core/packages/internal-build-utils build: Done
+core/packages/compiler build$ pnpm gen-manifest && pnpm build:init-templates-index && pnpm compile && pnpm generate-tmlanguage
+core/packages/tsp-integration build$ tsc -p ./tsconfig.build.json
+core/packages/tsp-integration build: Done
+core/packages/compiler build: $ node scripts/generate-manifest.ts
+core/packages/compiler build: $ node ./.scripts/build-init-templates.ts
+core/packages/compiler build: $ tsc -p tsconfig.build.json
+core/packages/compiler build: $ node scripts/generate-tmlanguage.ts
+core/packages/compiler build: Done
+core/packages/library-linter build$ tsc -p tsconfig.build.json
+core/packages/asset-emitter build$ tsc -p tsconfig.build.json
+core/packages/prettier-plugin-typespec build$ pnpm compile && pnpm generate-third-party-notices
+core/packages/asset-emitter build: Done
+core/packages/library-linter build: Done
+core/packages/prettier-plugin-typespec build: $ node ./scripts/build.ts
+core/packages/prettier-plugin-typespec build: $ typespec-build-tool generate-third-party-notices
+core/packages/prettier-plugin-typespec build: Done
+core/packages/tspd build$ alloy build
+core/packages/tspd build: [32m✔[39m Build completed successfully in [35m1795ms[39m
+core/packages/tspd build: Done
+core/packages/streams build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+core/packages/versioning build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+core/packages/events build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+core/packages/xml build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library && pnpm api-extractor
+core/packages/streams build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/versioning build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/events build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/xml build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/streams build: TypeSpec Developer Tools
+core/packages/events build: TypeSpec Developer Tools
+core/packages/xml build: TypeSpec Developer Tools
+core/packages/versioning build: TypeSpec Developer Tools
+core/packages/streams build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/events build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/events build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/events build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/streams build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/streams build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/xml build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/xml build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/xml build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/versioning build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/versioning build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/versioning build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/streams build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/events build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/xml build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/versioning build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/streams build: TypeSpec compiler v1.17.0
+core/packages/xml build: TypeSpec compiler v1.17.0
+core/packages/versioning build: TypeSpec compiler v1.17.0
+core/packages/events build: TypeSpec compiler v1.17.0
+core/packages/streams build: - Compiling...
+core/packages/xml build: - Compiling...
+core/packages/events build: - Compiling...
+core/packages/versioning build: - Compiling...
+core/packages/xml build: [32m✔[39m Compiling
+core/packages/xml build: Compilation completed successfully.
+core/packages/streams build: [32m✔[39m Compiling
+core/packages/events build: [32m✔[39m Compiling
+core/packages/events build: Compilation completed successfully.
+core/packages/streams build: Compilation completed successfully.
+core/packages/versioning build: [32m✔[39m Compiling
+core/packages/versioning build: Compilation completed successfully.
+core/packages/streams build: Done
+core/packages/json-schema build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library && pnpm api-extractor
+core/packages/events build: Done
+core/packages/versioning build: Done
+core/packages/xml build: $ api-extractor run --local --verbose
+core/packages/json-schema build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/xml build: [1mapi-extractor 7.60.0 [36m - https://api-extractor.com/[39m
+core/packages/xml build: [22m
+core/packages/xml build: Using configuration from ./api-extractor.json
+core/packages/json-schema build: TypeSpec Developer Tools
+core/packages/json-schema build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/json-schema build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/json-schema build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/json-schema build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/json-schema build: TypeSpec compiler v1.17.0
+core/packages/json-schema build: - Compiling...
+core/packages/json-schema build: [32m✔[39m Compiling
+core/packages/json-schema build: Compilation completed successfully.
+core/packages/json-schema build: $ api-extractor run --local --verbose
+core/packages/json-schema build: [1mapi-extractor 7.60.0 [36m - https://api-extractor.com/[39m
+core/packages/json-schema build: [22m
+core/packages/json-schema build: Using configuration from ./api-extractor.json
+core/packages/json-schema build: Analysis will use the bundled TypeScript version 6.0.3
+core/packages/xml build: Analysis will use the bundled TypeScript version 6.0.3
+core/packages/xml build: [36mWriting: C:\dev\worktrees\native-default-in-enum-5972\core\packages\xml\temp\xml.api.json[39m
+core/packages/xml build: [36mGenerating complete API report: C:\dev\worktrees\native-default-in-enum-5972\core\packages\xml\temp\xml.api.md[39m
+core/packages/xml build: [36mThe API report is up to date: temp/xml.api.md[39m
+core/packages/json-schema build: [36mWriting: C:\dev\worktrees\native-default-in-enum-5972\core\packages\json-schema\temp\json-schema.api.json[39m
+core/packages/xml build: API Extractor completed successfully
+core/packages/json-schema build: [36mGenerating complete API report: C:\dev\worktrees\native-default-in-enum-5972\core\packages\json-schema\temp\json-schema.api.md[39m
+core/packages/json-schema build: [36mThe API report is up to date: temp/json-schema.api.md[39m
+core/packages/json-schema build: API Extractor completed successfully
+core/packages/xml build: Done
+core/packages/json-schema build: Done
+core/packages/http build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+packages/typespec-azure-examples build$ npm run regen-examples-yaml-schema && tsc -p tsconfig.build.json
+core/packages/http build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/http build: TypeSpec Developer Tools
+core/packages/http build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/http build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/http build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-examples build: > @azure-tools/typespec-azure-examples@0.2.2 regen-examples-yaml-schema
+packages/typespec-azure-examples build: > tsp compile ./schema/examples-yaml.tsp --warn-as-error
+packages/typespec-azure-examples build: TypeSpec compiler v1.17.0
+packages/typespec-azure-examples build: - Compiling...
+packages/typespec-azure-examples build: [32m✔[39m Compiling
+packages/typespec-azure-examples build: - Running @typespec/json-schema...
+packages/typespec-azure-examples build: [32m✔[39m @typespec/json-schema [32m10ms[39m [2mschema/dist/[22m
+packages/typespec-azure-examples build: Compilation completed successfully.
+core/packages/http build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-azure-examples build: Done
+core/packages/http build: TypeSpec compiler v1.17.0
+core/packages/http build: - Compiling...
+core/packages/http build: [32m✔[39m Compiling
+core/packages/http build: Compilation completed successfully.
+core/packages/http build: Done
+core/packages/rest build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+core/packages/sse build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+core/packages/rest build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/sse build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/sse build: TypeSpec Developer Tools
+core/packages/rest build: TypeSpec Developer Tools
+core/packages/sse build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/sse build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/sse build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/rest build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/rest build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/rest build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/sse build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/rest build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/sse build: TypeSpec compiler v1.17.0
+core/packages/sse build: - Compiling...
+core/packages/rest build: TypeSpec compiler v1.17.0
+core/packages/rest build: - Compiling...
+core/packages/sse build: [32m✔[39m Compiling
+core/packages/sse build: Compilation completed successfully.
+core/packages/sse build: Done
+core/packages/rest build: [32m✔[39m Compiling
+core/packages/rest build: Compilation completed successfully.
+core/packages/rest build: Done
+core/packages/openapi build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library && pnpm api-extractor
+core/packages/openapi build: $ tspd --enable-experimental gen-extern-signature .
+core/packages/openapi build: TypeSpec Developer Tools
+core/packages/openapi build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/openapi build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+core/packages/openapi build: [33m----------------------------------------------------------------------------------------------------[39m
+core/packages/openapi build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+core/packages/openapi build: TypeSpec compiler v1.17.0
+core/packages/openapi build: - Compiling...
+core/packages/openapi build: [32m✔[39m Compiling
+core/packages/openapi build: Compilation completed successfully.
+core/packages/openapi build: $ api-extractor run --local --verbose
+core/packages/openapi build: [1mapi-extractor 7.60.0 [36m - https://api-extractor.com/[39m
+core/packages/openapi build: [22m
+core/packages/openapi build: Using configuration from ./api-extractor.json
+core/packages/openapi build: Analysis will use the bundled TypeScript version 6.0.3
+core/packages/openapi build: [36mWriting: C:\dev\worktrees\native-default-in-enum-5972\core\packages\openapi\temp\openapi.api.json[39m
+core/packages/openapi build: [36mGenerating complete API report: C:\dev\worktrees\native-default-in-enum-5972\core\packages\openapi\temp\openapi.api.md[39m
+core/packages/openapi build: [36mThe API report is up to date: temp/openapi.api.md[39m
+core/packages/openapi build: API Extractor completed successfully
+core/packages/openapi build: Done
+packages/typespec-azure-core build$ pnpm run gen-extern-signature && tsc -p tsconfig.build.json && pnpm run lint-typespec-library
+packages/typespec-azure-core build: $ tspd --enable-experimental gen-extern-signature .
+packages/typespec-azure-core build: TypeSpec Developer Tools
+packages/typespec-azure-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-core build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+packages/typespec-azure-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-core build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-azure-core build: TypeSpec compiler v1.17.0
+packages/typespec-azure-core build: - Compiling...
+packages/typespec-azure-core build: [32m✔[39m Compiling
+packages/typespec-azure-core build: Compilation completed successfully.
+packages/typespec-azure-core build: Done
+packages/typespec-azure-resource-manager build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+packages/typespec-azure-resource-manager build: $ tspd --enable-experimental gen-extern-signature .
+packages/typespec-azure-resource-manager build: TypeSpec Developer Tools
+packages/typespec-azure-resource-manager build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-resource-manager build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+packages/typespec-azure-resource-manager build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-azure-resource-manager build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-azure-resource-manager build: TypeSpec compiler v1.17.0
+packages/typespec-azure-resource-manager build: - Compiling...
+packages/typespec-azure-resource-manager build: [32m✔[39m Compiling
+packages/typespec-azure-resource-manager build: Compilation completed successfully.
+packages/typespec-azure-resource-manager build: Done
+packages/typespec-client-generator-core build$ pnpm gen-extern-signature && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+packages/typespec-client-generator-core build: $ tspd --enable-experimental gen-extern-signature .
+packages/typespec-client-generator-core build: TypeSpec Developer Tools
+packages/typespec-client-generator-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-client-generator-core build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+packages/typespec-client-generator-core build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-client-generator-core build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-client-generator-core build: TypeSpec compiler v1.17.0
+packages/typespec-client-generator-core build: - Compiling...
+packages/typespec-client-generator-core build: [32m✔[39m Compiling
+packages/typespec-client-generator-core build: Compilation completed successfully.
+packages/typespec-client-generator-core build: Done
+packages/typespec-autorest build$ pnpm gen-extern-signature && pnpm regen-autorest-openapi-schema && pnpm regen-service-yaml-schema && tsc -p tsconfig.build.json && pnpm lint-typespec-library
+packages/typespec-azure-rulesets build$ tsc -p tsconfig.build.json
+packages/typespec-azure-rulesets build: Done
+packages/typespec-autorest build: $ tspd --enable-experimental gen-extern-signature .
+packages/typespec-autorest build: TypeSpec Developer Tools
+packages/typespec-autorest build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-autorest build: [33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+packages/typespec-autorest build: [33m----------------------------------------------------------------------------------------------------[39m
+packages/typespec-autorest build: $ tsp compile ./schema/autorest-openapi-schema.tsp --warn-as-error && node ./.scripts/schema-json-to-js.js
+packages/typespec-autorest build: TypeSpec compiler v1.17.0
+packages/typespec-autorest build: - Compiling...
+packages/typespec-autorest build: [32m✔[39m Compiling
+packages/typespec-autorest build: - Running @typespec/json-schema...
+packages/typespec-autorest build: [32m✔[39m @typespec/json-schema [32m31ms[39m [2mschema/dist/[22m
+packages/typespec-autorest build: Compilation completed successfully.
+packages/typespec-autorest build: Reading json schema at: C:\dev\worktrees\native-default-in-enum-5972\packages\typespec-autorest\schema\dist\AutorestOpenAPISchema.json
+packages/typespec-autorest build: Writing json schema in js file: C:\dev\worktrees\native-default-in-enum-5972\packages\typespec-autorest\schema\dist\AutorestOpenAPISchema.json
+packages/typespec-autorest build: $ tsp compile ./schema/service-yaml.tsp --warn-as-error
+packages/typespec-autorest build: TypeSpec compiler v1.17.0
+packages/typespec-autorest build: - Compiling...
+packages/typespec-autorest build: [32m✔[39m Compiling
+packages/typespec-autorest build: - Running @typespec/json-schema...
+packages/typespec-autorest build: [32m✔[39m @typespec/json-schema [32m10ms[39m [2mschema/dist/[22m
+packages/typespec-autorest build: Compilation completed successfully.
+packages/typespec-autorest build: $ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+packages/typespec-autorest build: TypeSpec compiler v1.17.0
+packages/typespec-autorest build: - Compiling...
+packages/typespec-autorest build: [32m✔[39m Compiling
+packages/typespec-autorest build: Compilation completed successfully.
+packages/typespec-autorest build: Done

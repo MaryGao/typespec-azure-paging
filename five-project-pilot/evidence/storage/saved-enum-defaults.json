@@ -1,0 +1,100 @@
+[
+  {
+    "file": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "sha256": "00fa7e48478baddaa67c5823516d9db5394001c152c5e8b68c321a0c87248386",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "Encryption",
+          "properties",
+          "keySource"
+        ],
+        "type": "string",
+        "enum": [
+          "Microsoft.Storage",
+          "Microsoft.Keyvault"
+        ],
+        "default": "Microsoft.Storage",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "NetworkRuleSet",
+          "properties",
+          "bypass"
+        ],
+        "type": "string",
+        "enum": [
+          "None",
+          "Logging",
+          "Metrics",
+          "AzureServices"
+        ],
+        "default": "AzureServices",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "NetworkRuleSet",
+          "properties",
+          "defaultAction"
+        ],
+        "type": "string",
+        "enum": [
+          "Allow",
+          "Deny"
+        ],
+        "default": "Allow",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "SasPolicy",
+          "properties",
+          "expirationAction"
+        ],
+        "type": "string",
+        "enum": [
+          "Log",
+          "Block"
+        ],
+        "default": "Log",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "StorageConnectorProperties",
+          "properties",
+          "state"
+        ],
+        "type": "string",
+        "enum": [
+          "Active",
+          "Inactive"
+        ],
+        "default": "Active",
+        "violatesMembership": false
+      },
+      {
+        "path": [
+          "definitions",
+          "StorageConnectorPropertiesUpdate",
+          "properties",
+          "state"
+        ],
+        "type": "string",
+        "enum": [
+          "Active",
+          "Inactive"
+        ],
+        "default": "Active",
+        "violatesMembership": false
+      }
+    ]
+  }
+]

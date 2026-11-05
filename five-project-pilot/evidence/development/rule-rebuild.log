@@ -1,0 +1,15 @@
+$ pnpm run gen-extern-signature && tsc -p tsconfig.build.json && pnpm run lint-typespec-library
+$ tspd --enable-experimental gen-extern-signature .
+TypeSpec Developer Tools
+
+[33m----------------------------------------------------------------------------------------------------[39m
+[33mtspd (TypeSpec Library Developer Cli) is experimental and might be [1mBREAKING[22m between versions.[39m
+[33m----------------------------------------------------------------------------------------------------[39m
+$ tsp compile . --warn-as-error --import @typespec/library-linter --no-emit
+TypeSpec compiler v1.17.0
+
+- Compiling...
+✔ Compiling
+
+Compilation completed successfully.
+

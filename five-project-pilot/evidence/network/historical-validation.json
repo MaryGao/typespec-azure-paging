@@ -1,0 +1,1256 @@
+{
+  "slug": "network",
+  "historicalStatus": "assessed-from-verified-saved-production-logs",
+  "historicalCompileStatus": "success",
+  "historicalValidationStatus": "success",
+  "observedSwaggerFindings": 0,
+  "logFiles": [
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/applicationGateway.jsonl",
+      "sha256": "446e9a5ab55e3b66c1ad0e0492b09403fc655a9dfb7ca1373d5ff29d6eb7985d",
+      "bytes": 3449223,
+      "selected": [
+        {
+          "line": 84,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 205,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 312,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 2209,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2222,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 2464,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3199,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3347,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 3720,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3868,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 4110,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4661,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 70,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 191,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 5896,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/applicationGateway.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/authenticationPolicy.jsonl",
+      "sha256": "93375b4e2e8f727997feaa1cc9159a788bd3c17cb28b7e53abc7e9c93a615eee",
+      "bytes": 576402,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/authenticationPolicy.json'"
+        },
+        {
+          "line": 1230,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1243,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/authenticationPolicy.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/azureWebCategory.jsonl",
+      "sha256": "4e23a0868e40834b78f5b5d731ce53c6abce92af788e0bf0f28d0e19470e2de5",
+      "bytes": 561853,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/azureWebCategory.json'"
+        },
+        {
+          "line": 1212,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1225,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/azureWebCategory.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/common.jsonl",
+      "sha256": "ad4d385fbd8b77b9e34ecf16531ad5f04d6bb394216ec559a83c032fa38b7ff1",
+      "bytes": 735137,
+      "selected": [
+        {
+          "line": 75,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 196,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 303,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 61,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 182,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1215,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/common.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/expressRoute.jsonl",
+      "sha256": "60335c43b41cebc9a389ed14e7a05deed25a1fb8e3ef8990ba1e58f81e169df0",
+      "bytes": 6319478,
+      "selected": [
+        {
+          "line": 87,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 208,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 315,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 3450,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 3463,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3631,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3779,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 5014,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 5256,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 6491,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 6639,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 7012,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 7254,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 8489,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 9224,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 73,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 194,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 10459,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/expressRoute.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firewall.jsonl",
+      "sha256": "58ae39074f772a5fa246c90aa8ee4a417d4ff1020565ef90638c6a8fcf1df987",
+      "bytes": 607390,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firewall.json'"
+        },
+        {
+          "line": 1270,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1283,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firewall.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firewallPolicy.jsonl",
+      "sha256": "85cefc3ecea8f9e0ec6d1ca224b53bb64b77fb083a99d362d6494df76c45c158",
+      "bytes": 700524,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firewallPolicy.json'"
+        },
+        {
+          "line": 1381,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1394,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firewallPolicy.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firstPartyServiceTag.jsonl",
+      "sha256": "fe003942120e41dfe3c069ce5c15f3669657316551185112a96eec0823007f3a",
+      "bytes": 578566,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/firstPartyServiceTag.json'"
+        },
+        {
+          "line": 1232,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1245,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/firstPartyServiceTag.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/interconnectGroup.jsonl",
+      "sha256": "72888577a2e4bede3aa2522bc24517eb49ac57fd3943319e028db854498afd43",
+      "bytes": 588251,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/interconnectGroup.json'"
+        },
+        {
+          "line": 1245,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1258,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/interconnectGroup.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/loadBalancer.jsonl",
+      "sha256": "20b97d7bebaa1b60103554d53b6d15f862ec05ecbf15f4ca927c0cbef82164d6",
+      "bytes": 3330301,
+      "selected": [
+        {
+          "line": 83,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 204,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 311,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 2159,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2172,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 2414,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3149,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 3522,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3690,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 3932,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4483,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 69,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 190,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 5718,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/loadBalancer.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkGateway.jsonl",
+      "sha256": "fd5b47e4ee581d4119adbe7feece1e16105281f67cbeda9690b113d3ac8ecc98",
+      "bytes": 4777140,
+      "selected": [
+        {
+          "line": 85,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 206,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 313,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 2788,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2801,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 2969,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3117,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3852,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4403,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 5638,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 5880,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 6615,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 7850,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 71,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 192,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 7998,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkGateway.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkingOperations.jsonl",
+      "sha256": "8ab859ab28fa3dc6e9405368257579bb1875809abe3cd2c2b0be4113db4cea3a",
+      "bytes": 563969,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkingOperations.json'"
+        },
+        {
+          "line": 1215,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1228,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkingOperations.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkManager.jsonl",
+      "sha256": "97d3416bb6190dc137cea560a08b9c94540d2f1a28ded2970965f4f7d07c3846",
+      "bytes": 853266,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json'"
+        },
+        {
+          "line": 1558,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1571,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkManager.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkSecurityPerimeter.jsonl",
+      "sha256": "0c2828bccfdf10ab70368a82490972b2c6d0f4dd79468a0816f88c365d0117ef",
+      "bytes": 675056,
+      "selected": [
+        {
+          "line": 76,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 197,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 304,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json'"
+        },
+        {
+          "line": 1347,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 62,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 183,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 1360,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkSecurityPerimeter.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkWatcher.jsonl",
+      "sha256": "3683814694d7457b7607c042213d6280f4d80c0192f1e3717c720c7896397ff9",
+      "bytes": 3281620,
+      "selected": [
+        {
+          "line": 83,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 204,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 311,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 2226,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2239,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 2974,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3122,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 3495,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3663,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3811,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4362,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 69,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 190,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 5597,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/networkWatcher.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/serviceGateway.jsonl",
+      "sha256": "0bcc4f5997f80d9fecac16159e59365ee1405d2c70aa78a3909f209785d0098a",
+      "bytes": 3542006,
+      "selected": [
+        {
+          "line": 86,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 207,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 314,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/serviceGateway.json'"
+        },
+        {
+          "line": 2115,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2128,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 2370,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3105,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3253,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 3626,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3794,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3942,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 4184,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4735,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 5970,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 72,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 193,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 6118,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/serviceGateway.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualNetwork.jsonl",
+      "sha256": "72994f6c1762f227e786e5113f94de300f9035d8b308c782dd2354722b1a124e",
+      "bytes": 3713083,
+      "selected": [
+        {
+          "line": 84,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 205,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 312,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 3276,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 3289,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 3531,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 4266,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 4414,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 4787,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 4955,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 5103,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 5345,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 70,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 191,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 5896,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualNetwork.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualNetworkAppliance.jsonl",
+      "sha256": "b108b43b980d65871262d72b0d72b8b6092621b06f0d83a1cc2b64bbdee6863e",
+      "bytes": 3440778,
+      "selected": [
+        {
+          "line": 85,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 206,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 313,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetworkAppliance.json'"
+        },
+        {
+          "line": 2090,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 2103,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 2345,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3080,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3228,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 3601,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3769,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3917,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 4159,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4710,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 71,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 192,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 5945,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualNetworkAppliance.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualWan.jsonl",
+      "sha256": "1f87c9432e3d26ba3432775d05e7bf1ca04c908f3be35dacb78c860ef710a31e",
+      "bytes": 5434785,
+      "selected": [
+        {
+          "line": 86,
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        },
+        {
+          "line": 207,
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DefaultInEnum'"
+        }
+      ],
+      "validating": [
+        {
+          "line": 314,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualWan.json'"
+        },
+        {
+          "line": 3348,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/common.json'"
+        },
+        {
+          "line": 3361,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/applicationGateway.json'"
+        },
+        {
+          "line": 3529,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 3677,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/expressRoute.json'"
+        },
+        {
+          "line": 4228,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 5463,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 5705,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        },
+        {
+          "line": 6940,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/loadBalancer.json'"
+        },
+        {
+          "line": 7088,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkGateway.json'"
+        },
+        {
+          "line": 7461,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkWatcher.json'"
+        },
+        {
+          "line": 7703,
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json'"
+        }
+      ],
+      "production": [
+        {
+          "line": 72,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "line": 193,
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "completed": [
+        {
+          "line": 8938,
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "targetFindings": []
+    },
+    {
+      "file": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/raw/stable/2026-03-01/virtualWan.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "authoredTypeSpecFiles": 133,
+  "retainedInputFiles": 4773,
+  "nativeStatus": "success",
+  "ambientDiagnostics": [],
+  "sourceDefaultCorroboration": [
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 10449,
+      "text": "operation?: AzureFirewallPacketCaptureOperationType = AzureFirewallPacketCaptureOperationType.Start;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 10739,
+      "text": "name?: BastionHostSkuName = BastionHostSkuName.Standard;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 15713,
+      "text": "connectedGroupPrivateEndpointsScale: ConnectedGroupPrivateEndpointsScale = ConnectedGroupPrivateEndpointsScale.Standard;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 15718,
+      "text": "connectedGroupAddressOverlap: ConnectedGroupAddressOverlap = ConnectedGroupAddressOverlap.Allowed;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 15723,
+      "text": "peeringEnforcement: PeeringEnforcement = PeeringEnforcement.Unenforced;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 16211,
+      "text": "routeTableUsageMode?: RouteTableUsageMode = RouteTableUsageMode.ManagedOnly;"
+    },
+    {
+      "file": "specification/network/resource-manager/Microsoft.Network/Network/Network/models.tsp",
+      "line": 18734,
+      "text": "protocol?: PcProtocol = PcProtocol.Any;"
+    }
+  ],
+  "sourceDefaultCorroborationLimit": "Textual property-name matches, not a proven one-to-one emitted schema or API-version mapping."
+}

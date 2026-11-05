@@ -1,0 +1,22 @@
+{
+  "file": "specification/network/resource-manager/Microsoft.Network/Network/Common/main.tsp",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "installedBytesSha256": "7b597e7607b442c2926330d7399c10935d73155856b0669cd435565c9bce9334",
+  "gitBlobSha256": "7b597e7607b442c2926330d7399c10935d73155856b0669cd435565c9bce9334",
+  "normalizedBytesMatchGitBlob": true,
+  "outsideSelectedProjectRoot": true,
+  "declarations": [
+    {
+      "line": 1234,
+      "text": "  privateEndpointNetworkPolicies?: VirtualNetworkPrivateEndpointNetworkPolicies = VirtualNetworkPrivateEndpointNetworkPolicies.Disabled;"
+    },
+    {
+      "line": 1239,
+      "text": "  privateLinkServiceNetworkPolicies?: VirtualNetworkPrivateLinkServiceNetworkPolicies = VirtualNetworkPrivateLinkServiceNetworkPolicies.Enabled;"
+    },
+    {
+      "line": 2935,
+      "text": "  ipVersionType?: PrivateEndpointIPVersionType = PrivateEndpointIPVersionType.IPv4;"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-06-01-preview/openapi.json",
+    "sha256": "a033bf33135c29cdd183e999b8c9af73c4d21c902b9bef946a32469b69ed2258",
+    "enumDefaults": [
+      {
+        "path": [
+          "definitions",
+          "ManagedHsmProperties",
+          "properties",
+          "publicNetworkAccess"
+        ],
+        "type": "string",
+        "enum": [
+          "Enabled",
+          "Disabled"
+        ],
+        "default": "Enabled",
+        "violatesMembership": false
+      }
+    ]
+  }
+]

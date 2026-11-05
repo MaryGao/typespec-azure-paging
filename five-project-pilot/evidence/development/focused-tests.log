@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 C:/dev/worktrees/native-default-in-enum-5972/packages/typespec-azure-core
+
+
+ Test Files  1 passed (1)
+      Tests  17 passed (17)
+   Start at  09:52:12
+   Duration  54.28s (transform 39%, import 33%, tests 28%)
+

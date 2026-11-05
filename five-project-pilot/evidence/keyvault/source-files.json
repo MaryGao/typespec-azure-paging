@@ -1,0 +1,882 @@
+[
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/DeletedManagedHsm.tsp",
+    "sha256": "61bd01171a81b8b8ef8c733df88244099d037e41c9b6cdb09e2d72e0071a4bcf"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/DeletedVault.tsp",
+    "sha256": "5e087670a4319a9f7ddf35525a6655f7e917785f75307f2a0e5300ffb27bd8d7"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/Key.tsp",
+    "sha256": "e131c93a59d6eb31cc8decd6ddd27fffbb5a98ab4fc691e9c4547cfc835f4c7b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/ManagedHsm.tsp",
+    "sha256": "f20970d2c3b5115441465949c22b5d729004ae52f9a8cdd53e08715a36f2a2fe"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/ManagedHsmKey.tsp",
+    "sha256": "1b5eef4a9565b29da00eda438de2955e9edb6d67ea9f932ddecde632927b42aa"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/MhsmPrivateEndpointConnection.tsp",
+    "sha256": "a6eaca42748d03462e719ffd271070e194f698e96c3de0d641a1796d55b452d0"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/PrivateEndpointConnection.tsp",
+    "sha256": "7d951acb8214bebbbb6c2cee97ae7ad3d7b6884cc6110328c4f79fb14dc79951"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/Secret.tsp",
+    "sha256": "de42ce479677aee9988d852b8c5a029e0c29da33fa8bffb03fc5f6b453267914"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/Vault.tsp",
+    "sha256": "6f272876096a7e74908db3c77b769cff5e13aa2090b8d44bf9eb7e541b96d24f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/back-compatible.tsp",
+    "sha256": "ab7e7210c19b34c59bb78c4cc4dfe36287346ab826bf04d9a3837189a31f860a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/client.tsp",
+    "sha256": "50e370ed43c1c20281247a5e5a71be35916d079a7f0d57b7bf578a376e150e36"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/DeletedManagedHsm_Get.json",
+    "sha256": "58807541c1c0d3c4d3d8a62b3d315697acaf16ebeb50eab619a04b2b5a603efa"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/DeletedManagedHsm_List.json",
+    "sha256": "c4194a22a2b5ca6d9baf1c913297c61e1119ad5956e49d8e176e376ec7ec2620"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/DeletedManagedHsm_Purge.json",
+    "sha256": "0bd28c922d4ad5f9f2af9b3331b76f60af566c347db68324e7ae52758b699f25"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_CreateOrUpdate.json",
+    "sha256": "66179ce93025c704baee54c628a6a7c9cd423366c64a468b764950004e38890a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_Delete.json",
+    "sha256": "416bdb5c49716369cdc3f113aacea5cb642ddfd823600887c9fe4fa0e6286d7b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_Get.json",
+    "sha256": "77a3a8e8325a9f4a13242c66801be37ace8c53ded8491eb9d943efd7dd253e99"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_ListByResourceGroup.json",
+    "sha256": "0ae28cbf84be0bb1b7633ae33f73fefaeabefd573bf110386d708275e216e42e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_ListBySubscription.json",
+    "sha256": "147a29a52863c61185e0c133d7f92cc15622983e1f8015cf9f849aae3fad5263"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_ListPrivateEndpointConnectionsByResource.json",
+    "sha256": "032f056a808f4ce51af9ea7d52deec062c95279190b7b6f51c2e4ffeb80c4d00"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_ListRegionsByResource.json",
+    "sha256": "abba5b4c7bfc535061c225cb33e1d58e3fea4801949884b58b57e5d1c961f751"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_Update.json",
+    "sha256": "e6b0e88e2a899b975d974aa2161e7acdac1b5c99e05544896140032e7545f9f5"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_checkMhsmNameAvailability.json",
+    "sha256": "da4e7ddc681e4f57d630d1ff7391d6b4b85c91d2f46baad925ed7f4b08c57675"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_deletePrivateEndpointConnection.json",
+    "sha256": "75a56620b6fd29b9237a11bb631422b11d57cb6e1a8e7798aed436512c6acc7a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_getPrivateEndpointConnection.json",
+    "sha256": "3247ac0a6e6a59663db9d2a102405c81b58e48068db96d45389e4487334a0efe"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_listPrivateLinkResources.json",
+    "sha256": "eaff6054e2942668cae422314e03c3cc75838fb2b0d34b05e84ffad4fae3a0d8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/ManagedHsm_putPrivateEndpointConnection.json",
+    "sha256": "55794b1db7106b95d8e00742d8f36b075e61accec48c279b278fc84673ab0cda"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/checkVaultNameAvailability.json",
+    "sha256": "e611324328370d5152b6584c4296d13e2e491ba3297de151a57a805c81b61d72"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/createKey.json",
+    "sha256": "173b7fab64fcd6cee134f2469019099649f16c8524aaa42e8eb3297b440caead"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/createSecret.json",
+    "sha256": "47ca1ebb389773646cad46c453c5d66c2e2bc5a5a25882beb167055b98acf723"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/createVault.json",
+    "sha256": "7d50f873ed4fe135c94a4c8711b426c37c9a626b5345cf3a1f7bc665d366eac8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/createVaultWithNetworkAcls.json",
+    "sha256": "16a512ab28c9bb5dc96902fa81ead8404b16fec246ba7ffc5f52304f8c9507e3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/deletePrivateEndpointConnection.json",
+    "sha256": "4c1a6a5374b03c87398dff617a568c332e3fd5c62f6a16ea40d9c8aa03a0ea2b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/deleteVault.json",
+    "sha256": "95ee793c1212ac5ed49db4bd0e4880de76941053861bc5dd3cad903be0a820ff"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getDeletedVault.json",
+    "sha256": "565cfb76011be810e16dbd231394dcfca6312b8d01fa7f1c84789dc76a2aaaec"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getKey.json",
+    "sha256": "051a424afdd16d1fee58087d61cc08419a86b7970051c29ce61c55247c6a2dba"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getKeyVersion.json",
+    "sha256": "4fe7996685bd4abf09953d2c3b4e34eafb6f10a4fa0496a40bc5667a858d672c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getPrivateEndpointConnection.json",
+    "sha256": "37cf65c8239831c96b2ed94c2c4abecb352eca4b04ac2f79783ca25bff3779f1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getSecret.json",
+    "sha256": "ef812f13d8fe11c7ffa865534689abea5ac92d6d945ee0c73423f24df9648d94"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/getVault.json",
+    "sha256": "44ccd82990be0d1983cf6585a685e3fa1b41f1fa3c56772d7add007b0aafc90d"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listDeletedVaults.json",
+    "sha256": "3b7b4a9a8206cb3e7d8dd08ede70f651bc2ca33fa4346af7056b93e3d151feec"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listKeyVersions.json",
+    "sha256": "cc1157c85cd090fd46344614afc0cbc062de5dc985aae551c2607cd671c7fe40"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listKeys.json",
+    "sha256": "d84b817bc026aa0008adb5eda798b03fe3dc059af67eff0f19ff97337621721a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listOperations.json",
+    "sha256": "f7903ad1229118bddfb5a85b1b44b992bac5f7d6b00d7100cbd081f39b41e258"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listPrivateEndpointConnection.json",
+    "sha256": "ce85a83bd1224a8f0d3e3524317ff4994e979b5a0431c977ac835f3f499ec924"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listPrivateLinkResources.json",
+    "sha256": "3db6af22bada969dd6b4cb7aa48ff5159bc96b1bb05f66b43fe024f0ebbe713f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listSecrets.json",
+    "sha256": "e58bfa0cc38719dcb4d5ade577d97691f18c78342856cda59ae3e90f53ef15d1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listVault.json",
+    "sha256": "65a4c653cf0a3860a6b84f7cbb4722ebea6519387ddb7a02643c363b48b07b76"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listVaultByResourceGroup.json",
+    "sha256": "e087212fe8140cb141a56c8b4058d38783dfda6b327af1acf3440f6b357104aa"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/listVaultBySubscription.json",
+    "sha256": "379c45bde2d5c2b1eba91217e5b1c8f3377b12b40ae690e48e974e3cce5ddf76"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/managedHsmCreateKey.json",
+    "sha256": "aa946c2d532fc9e419dfc97054cc897691da623d038b2bb24eb94f6e520d88f2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/managedHsmGetKey.json",
+    "sha256": "8f0c8302b35c1fddfabb852cf7a8b2b7c4c9868214bdfbd33a53e226675532b1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/managedHsmGetKeyVersion.json",
+    "sha256": "d4beafea45a49ce2194976d1ea1e30a26525c2d14c69afd00d2f534b028a9c7f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/managedHsmListKeyVersions.json",
+    "sha256": "4d75784bf38727e9ab4bafa53955b911875393420c7f4a0c521e5922e4cdc619"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/managedHsmListKeys.json",
+    "sha256": "8cee940865dd6daf27a06bcf384eedae45829ddefa08c870fe80c3f00ca985f0"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/purgeDeletedVault.json",
+    "sha256": "1446587a46e26b4dbbd6f8f91f4ede7e7a4052e06c0c3bce8f5d586f3f94e9a2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/putPrivateEndpointConnection.json",
+    "sha256": "c0dc71c9badd4edeaa81e5594e50652d8eb0a62bec584054a72de8e9ed78db03"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/updateAccessPoliciesAdd.json",
+    "sha256": "6438c8c224d0e27b3c69f3bb777ffb3c341c8cb653e732385a9aa274f25cffbe"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/updateSecret.json",
+    "sha256": "c58dae3aab2c859f014b22399c504b65b496c1b68a0774de7acbd4259592e3f3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2025-05-01/updateVault.json",
+    "sha256": "95141e74b6c0a2e1019f1a297cf2ff0aec91b9712658ecd3addb11b5ec420cc1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/DeletedManagedHsm_Get.json",
+    "sha256": "f355e73b8e6cdd569fdd1af5d329cbdcdf9eb123593dfb0efe15d9d770025049"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/DeletedManagedHsm_List.json",
+    "sha256": "386a6b34b0218120756da2ca3ca40ffb12ff30b8c0a8db57b12fbbd8543e66fd"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/DeletedManagedHsm_Purge.json",
+    "sha256": "7b4860e64a09ca209bc77efcb716215a12c684bf8cf2f0e96eb3f6b5812e28ee"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_CreateOrUpdate.json",
+    "sha256": "943d2a3682c8c5b509e0df7780e812ccd65816a973cb15a71e6262287c212c9c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_Delete.json",
+    "sha256": "a2000b021dfe19b9c99df7e136b81c674fab58bd20ec8e0344700127ff646050"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_Get.json",
+    "sha256": "7cf9abd02732d5c65ec691ee13a115b8421eaa8f80a271e4541b4775b674b00a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_ListByResourceGroup.json",
+    "sha256": "6cf12a892a07364d212c5e4541cfea3f89e2cbb6edf814a5f029b39f628ce88d"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_ListBySubscription.json",
+    "sha256": "c9fc627aef81b66aa9e3a442779d496596cc08b8f0fcd6f8d9012532ac59730d"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_ListPrivateEndpointConnectionsByResource.json",
+    "sha256": "bac2709fa825080521e09b3b01ca194c014ea463d8e814ce0209f495d898e7a1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_ListRegionsByResource.json",
+    "sha256": "b27c5a9736e5935235829fc3c1d1c014b5a90b777fddcadc0c26c75102f094ba"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_Update.json",
+    "sha256": "ce91254f11fcc787ea39e33ea806fc8e1cd8b0cddbd4574e08ffb33c5ae8d41c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_checkMhsmNameAvailability.json",
+    "sha256": "f2f8ec909d5a2fc1ba7ee2dc0c250174da3298c194fb079cd20a77a7c9c53f1b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_deletePrivateEndpointConnection.json",
+    "sha256": "d6dd130f2c3dcfe8ce8941cc5761a99ebea6d92f7ecd33227ae9830f8eac1c57"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_getPrivateEndpointConnection.json",
+    "sha256": "163bfaaa6bb88c6528219cee19428e0b403dd996998d56f22a53dddb41a0d519"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_listPrivateLinkResources.json",
+    "sha256": "a934b564cd5fa92aa6a0732b5b7772be9b7d396cde6e6b9a7fa6244add68ad8f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/ManagedHsm_putPrivateEndpointConnection.json",
+    "sha256": "4efc65d8d055e2b3f69708f2fda4f4c834504e7cbb819e1f72073b0cd6371d78"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/checkVaultNameAvailability.json",
+    "sha256": "c016cca4a4f6e405b7d130bfa25de44da4803176406cd5d3231ad99738d7590a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/createKey.json",
+    "sha256": "27e2c72daadb5fe5c02b2b900b721aff81b50ff70d44045ee23c04670a9c4c89"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/createSecret.json",
+    "sha256": "2e23438de365ae8ad7031e245638d3e47b2506ddc4668cc87c5af29f89054995"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/createVault.json",
+    "sha256": "675c7e3a84160765bcb0bc866ef1ced87b994edada24333527a74268393d39d6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/createVaultWithNetworkAcls.json",
+    "sha256": "b553dde2b077f770b58d9feb8086e6e85fff72d71258993a12da11f37481d577"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/deletePrivateEndpointConnection.json",
+    "sha256": "65a794146ead8f768bab6c645b4ab327e22ee04d2f3fa96cdbe9ec506826dacc"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/deleteVault.json",
+    "sha256": "cf22b21032140959f9eeb79bb24cf67a210a53e9eda0483edb185ec29eaa0c33"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getDeletedVault.json",
+    "sha256": "8a20550efe7e4d29c89d8cdab1b341cde9aa2ae11c9107fc410a78bfadd5e8ab"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getKey.json",
+    "sha256": "3fa32d414a373da2ea4f39ed46be4a9d3f2f007905d7e627972ae13e0a28f237"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getKeyVersion.json",
+    "sha256": "107389c15beac46473e1aef208067ca1fb64ce4268895af21f9c0cbead6b69e3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getPrivateEndpointConnection.json",
+    "sha256": "885f72acd8769f7d8457104b6cf3c067ccd53b2dde77aa6d76823622f9ecb730"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getSecret.json",
+    "sha256": "6b5b4df9d6de46d6d73af3c8ba16b2c3a959c9accc2b53c9fef44ce47015ee5a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/getVault.json",
+    "sha256": "e2da2bb0e48793be2c7bd8775a5760060237a58b3f6c9c63f1a7fcdfabb2c3e8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listDeletedVaults.json",
+    "sha256": "784b4149b42df74684987273c6aa4411a10311eb0bca32eda30d6d0c5b68f1a4"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listKeyVersions.json",
+    "sha256": "ee4b8970778c76f1c1f8568809079e689103064209f97a9e5f089d05270ada29"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listKeys.json",
+    "sha256": "e075d382fc10cc6515bdedf6929ef982cd16c0c0d5b87c739dae96dc0e264818"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listOperations.json",
+    "sha256": "a136f37583a8c14f2bbb12d632a6f965380ec0733d39ebdcaead8c1e2f36d4de"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listPrivateEndpointConnection.json",
+    "sha256": "b066c701624b016e512f06ca59092eb7a7ef4cd9eba42644db7ce3a3cdc2efb1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listPrivateLinkResources.json",
+    "sha256": "9a1b20b18d8193df4338949fdf39d5b3e1a079dfefce57e9cf2b7167d8f5c25c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listSecrets.json",
+    "sha256": "44dc67b83c1b7d9f967e53bdb75b917a751447f0cd8a68116514b089577bb7cd"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listVault.json",
+    "sha256": "65a4c653cf0a3860a6b84f7cbb4722ebea6519387ddb7a02643c363b48b07b76"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listVaultByResourceGroup.json",
+    "sha256": "b250fce659b44692b0db0685a0a6284b4c4224707d2da30c03503b43ce846b37"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/listVaultBySubscription.json",
+    "sha256": "4ecacc56f19748f2190012f43b979d42fa1bcf42db6e1bc57b082dc55bc4799b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/managedHsmCreateKey.json",
+    "sha256": "7baf9471268a556edf97e430abdce5f62bab10cb7a335410f509d63a04196ad5"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/managedHsmGetKey.json",
+    "sha256": "40911af6e7a897c6dfc5c73004b1179b3db33d39dce544f3b5a37b048ea5b34b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/managedHsmGetKeyVersion.json",
+    "sha256": "5dbdcdf214a8ecbd89108b811048fc073a6a58abb576ecff52719c68562d1d84"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/managedHsmListKeyVersions.json",
+    "sha256": "479d06337fa6fd41a90063d426fdbd3c2f3093bf8fd8a238b6b6980ae7310bc6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/managedHsmListKeys.json",
+    "sha256": "d8b48bfd24ac81536d30dd13e01bcbb737f1b1bc9393c168f9808ebf2a738391"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/purgeDeletedVault.json",
+    "sha256": "a02df3314d247cadea2a274633d142139219cac4ee3552f5bf207403f28b93b0"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/putPrivateEndpointConnection.json",
+    "sha256": "7f14d24c577ffb15f322f4f5e51df3bf247033ec757812d75dcd0604eb602e07"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/updateAccessPoliciesAdd.json",
+    "sha256": "b4bced6f33f130123db82c9bad0a0e5bffad6f3c9b8a9215f43aec4992260aca"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/updateSecret.json",
+    "sha256": "6e29c9f32a1e87f3338499bb8b92b4dc8543cb97a6aa6e75ffbd7464beeeee2a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-02-01/updateVault.json",
+    "sha256": "ea99000e6208c5a66552927c77adbaab38eeddf3ac5537422355bfecfb370fa3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/DeletedManagedHsm_Get.json",
+    "sha256": "10a75d7c743f18c065cda4c60314b52dfe891bf62ddf7a940f6843cb51ae1b11"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/DeletedManagedHsm_List.json",
+    "sha256": "25d363cbfcdcf0b4c453e3754263d795836fc0e12f3b64083e766ddc05ba0c3d"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/DeletedManagedHsm_Purge.json",
+    "sha256": "a8a95ad1742928fd7092311a2d267b17202bd07e87a6e227592dc90ff1d13107"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_CreateOrUpdate.json",
+    "sha256": "bdd3bbddaa6a75ce3ddfa9329f2d154ff11ee6ef6284e77b36a9e4b383dfaad3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_Delete.json",
+    "sha256": "668f1ae67907835cb21c957fd931fc66d3e6352ebc347637394b238921886735"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_Get.json",
+    "sha256": "e4c7c6579bb969701a1ee6059bae85c7689ed99b66fbe7d1c4eb37ebc628c061"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_ListByResourceGroup.json",
+    "sha256": "dc8795a5a1892d4859ad263794f6d99e0f243ef01958cfa317837b3ed3f3a3a8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_ListBySubscription.json",
+    "sha256": "358e6e7f7eb69e3d32f398897384f985ead537caf1118d806474bd2c5f31451f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_ListPrivateEndpointConnectionsByResource.json",
+    "sha256": "aa1aa3914df602ba5cdb630f35ab81f761a6f2832cab192e4bebe6615bc8a76e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_ListRegionsByResource.json",
+    "sha256": "fdcb8bf0642227a2a3aef2213fd74826d3f78f7626a2593f3ec236d3bec62f15"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_Update.json",
+    "sha256": "2cb780a6cd301ab332c98ded8616e68b5be9cb8adefe9690428820917a0f281f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_checkMhsmNameAvailability.json",
+    "sha256": "b24cbda3c874a243b48215fae995f265e1d54edbf544ec185eb9a8a3544b5609"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_deletePrivateEndpointConnection.json",
+    "sha256": "7ed319a1ba07561529a91d188b5308fec7098b503a3a7d6eae374b9b0746953a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_getPrivateEndpointConnection.json",
+    "sha256": "05a0d4f0b0ca70be12445e6b9950a6f5d961d7452f67a072fe14795ee8ad3f85"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_listPrivateLinkResources.json",
+    "sha256": "f8c7038f95e905065d6d11d347f893f74c06570b2b52c6f4d1cd8a065b79d16b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/ManagedHsm_putPrivateEndpointConnection.json",
+    "sha256": "92fdc6034ee4d7a33f1b20be8e27090a7777e66f76d0e588b4ebdae8edb9a9ec"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/checkVaultNameAvailability.json",
+    "sha256": "e01cd2f541dda3d3bfe895153912d72e8fbd5d8c5ee829bab3eb5997cf4126db"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/createKey.json",
+    "sha256": "b1695bdb23f4d29ad592f1008c1fde3c37bce4357dae7bf9a5f504e3ce5f716a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/createSecret.json",
+    "sha256": "d6207a604a5dfd4dfcc1d16ecaf7352e0d665ad0681e978356936fcc03edd01e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/createVault.json",
+    "sha256": "b5609969388dc84a8306f6a5382314f92c5b0897b582d69cdd3373333a6becab"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/createVaultWithNetworkAcls.json",
+    "sha256": "525510bc8cadfb281f161758b4b27b48e4641bcb08e1d631fc45274f80fff1a8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/deletePrivateEndpointConnection.json",
+    "sha256": "a5843536b1d2282cb47db19c382eabdbd9cef382636afcbe61a1c35e2e4663da"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/deleteVault.json",
+    "sha256": "d7a6182adc50da406ef0accac7a442b9748c6e134c9404279b3a254c89b317f6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getDeletedVault.json",
+    "sha256": "7983b487ba5633ebfef54cb1c48b94fb5f76769f79f496dea93e5b0478ea037d"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getKey.json",
+    "sha256": "96bcf668c72b9de1509d731e6b285d1a9edc69298d2b065847f9b149337e069b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getKeyVersion.json",
+    "sha256": "4d2f032d74c057fffa7331430eab3cf26ba657176fde77739a315364ddc25f19"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getPrivateEndpointConnection.json",
+    "sha256": "3f02a81fa9ad08aeede37c53ce38e39c957b6ac787dd9b852020681b87763667"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getSecret.json",
+    "sha256": "2bab0be764a3f0808da0e3486bd5fa8bca2951cefa6a023c7fdf2e80200a28a4"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/getVault.json",
+    "sha256": "a25d0f7d809ca00c18404d3f7136b459f8bccd18797ea64d0686bf92e7692029"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listDeletedVaults.json",
+    "sha256": "e7ea28537917284cb8b4d216857b4aa08c7095b0ab0716eb6f771bd1eb943027"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listKeyVersions.json",
+    "sha256": "1a729e4036bd753285633cea9d31c9264e9e983300a7810c1bede86d6842d55c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listKeys.json",
+    "sha256": "7f435238fa4fb3a48bf0c364d61d024a220d2b4a9112b5b905c12882850f5db2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listOperations.json",
+    "sha256": "15fa5684b99dc9f9bfe01b8637eccfd5d01794821a9508c7fc7af22711dd5642"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listPrivateEndpointConnection.json",
+    "sha256": "d0b5c2504989321239877d7da8dab3425857654a6c6cef06d8c096eedddff23c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listPrivateLinkResources.json",
+    "sha256": "b5a5d326dea82a70fb2ed36be56764dc3fc3b6462c33821c8bdbf60ce3a20a9b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listSecrets.json",
+    "sha256": "e4ad82b820d49cc329f781a82e0fd2060b2e66a838292576827e6ad41bcfa8c8"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listVault.json",
+    "sha256": "65a4c653cf0a3860a6b84f7cbb4722ebea6519387ddb7a02643c363b48b07b76"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listVaultByResourceGroup.json",
+    "sha256": "449d07f933d5ac50937953ace78ec7bd635adbb1579b65206b4a5fc6a5680d6e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/listVaultBySubscription.json",
+    "sha256": "75a91db2bd6f8e2577820a1ab6d709fafd1e6fcb362aec033a7cfd47b9fb858f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/managedHsmCreateKey.json",
+    "sha256": "4d3712c85591a18a22c2a80cdcf31e0d7960b3629e4e33ccac647844d14637f3"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/managedHsmGetKey.json",
+    "sha256": "9d202206351c8bc58974e8b511701d1c80465ef31c1a5ae91f507957f72b7b30"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/managedHsmGetKeyVersion.json",
+    "sha256": "9abf42d6734376214c9cf0d4ca70531e88180f65360da8a736389a08f3893601"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/managedHsmListKeyVersions.json",
+    "sha256": "d6ba58bfdecd1cf917edcf0fecd980768052db3774f0d10eb77141f2fdd01e71"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/managedHsmListKeys.json",
+    "sha256": "549c171740bf2d45bacb1dd70f56b26c9dfee7d8636cd82189f3ae1d2ef58bf6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/purgeDeletedVault.json",
+    "sha256": "10b2f39b896676d04c45590e67fd928f71f94adfd60a31945a3017cc6d3f9147"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/putPrivateEndpointConnection.json",
+    "sha256": "f22a9e7845308f0a80b0516b43637a3a90cd19167e9f50ecc237a8262496b248"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/updateAccessPoliciesAdd.json",
+    "sha256": "1e280b338b686d43256cc56eb0fe8a640a81ff3391eb4c7d107264670db20e8c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/updateSecret.json",
+    "sha256": "9d2607aea093700a319e8d5f2e6a6071f42f6349f7114268ca07ef25dbf87bd1"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-05-15/updateVault.json",
+    "sha256": "c675d9a7ccd22865cc820fc447efb9be7f4830a09040233979628b4c56dd3b2a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/DeletedManagedHsm_Get.json",
+    "sha256": "a6454c6b03e20ab1b5c324405ed8d15ffd523dd5fce738b290d117b6dad0443b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/DeletedManagedHsm_List.json",
+    "sha256": "29319d2b6c884d1090135b3a34146519fb632dc6afe86847100623683d221ff4"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/DeletedManagedHsm_Purge.json",
+    "sha256": "78e1204cdf27889a76fca33c08b66bab8e0a08c583e5fb415b84028230cb7e1b"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_CreateOrUpdate.json",
+    "sha256": "a3b8fea220835d6eb000a21e46786d9e3cd4f50afccd74effe475cf9011e4c75"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_Delete.json",
+    "sha256": "fe0cc7ac5a43b5afa4964e247c48a15dbb839796e32c2ed8f34936bf982e86cf"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_Get.json",
+    "sha256": "e9176c07fcfc10ada49cdea583226c3946262bbcd4dc31117fe54e59f6bcb901"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_ListByResourceGroup.json",
+    "sha256": "c541339198d355e6fa1f4eb938f6b650b1f999279446c316ed5e8d2bd6bb1b91"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_ListBySubscription.json",
+    "sha256": "661aadb8925e8ddbb0774f32c9b8e8de17ae85f2865ce7f22ebe2d043188ddf2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_ListPrivateEndpointConnectionsByResource.json",
+    "sha256": "fad9647231f93eecd95cc6fcd9ad116455469a94d7cdfd1de9753417958e44b7"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_ListRegionsByResource.json",
+    "sha256": "4e17b24371783fe62559a6830b70c1572294f59055259c4f8759c281997ec7af"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_Update.json",
+    "sha256": "ae82f4a6142c027498fbe89659962c1c2b583b03084c284db4e7a25287e74397"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_checkMhsmNameAvailability.json",
+    "sha256": "a393c7d156d7b024c92d99ca7344bb42944ccb1474c2df450e6d9cc1c06dfdae"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_deletePrivateEndpointConnection.json",
+    "sha256": "46427ec604efa5eab9984e1778e9744228954d8457265e25a3b3521a9a8460a2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_getPrivateEndpointConnection.json",
+    "sha256": "50b70712ed5e71a333af3388f532a4820d55f20b9e353b8afef592df402b237c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_listPrivateLinkResources.json",
+    "sha256": "f7a0a82559e7ef959958ed1a9a748b838f4e0891aa4c08e835cd22de17f9da8c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/ManagedHsm_putPrivateEndpointConnection.json",
+    "sha256": "2e23c78852f648cdeb491e8e4e7c0a1cbd6dc2a237dfa5584f4823a1d1c44c34"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/checkVaultNameAvailability.json",
+    "sha256": "c4010065521181eddf354edfb73a489c74497f5f96a7d0b836e4bf50fd42c6fd"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/createKey.json",
+    "sha256": "4a5419957721f6a114e0066c572b9cfaeff2a174e7112358e16677e0952c2272"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/createSecret.json",
+    "sha256": "df28bd77d892fa215167ba33138b143d58a78ba04c34c99197776d1765dce0af"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/createVault.json",
+    "sha256": "acbd0138b769fef929d4b6dd857a8dae9703f04618e6bf4940b5279d579d11a6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/createVaultWithNetworkAcls.json",
+    "sha256": "e137e9f94d2c58d1005c5464fa0b3a8c65da6b011b71b92f58fa4a40f903c394"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/deletePrivateEndpointConnection.json",
+    "sha256": "cd8b72454e18715d3caba86e44afd1ab6491773379f4ce9bcfd1ddbfb589a724"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/deleteVault.json",
+    "sha256": "8ad38b3dd3975c7584263e0263ff3b1050064626ff62926b36a26e1989cdce0a"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getDeletedVault.json",
+    "sha256": "0403b281a7a0910321fab2d7913ba4b18fc8083430b274d040f3740a644f9b81"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getKey.json",
+    "sha256": "db45a115d9e45c4e71407942fe2b47b01dafa5a669654c6f3d861e62e222e8f6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getKeyVersion.json",
+    "sha256": "98a238dc4f8fbfc23c768994fcf78fd59c751f61d82aae47558d3fa9972e0a4e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getPrivateEndpointConnection.json",
+    "sha256": "4e945af420a3534c04ed2c706073f75f4eab778c3312ac3a6cfef7812b8b3615"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getSecret.json",
+    "sha256": "ac1f707e7483e3e2469e00fc799b61dab23226cbdd9a56a303d359fc9e12baa2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/getVault.json",
+    "sha256": "fb03f8b38c6ab96cf80d79d9f5a9a83b578e374e5018dd0eabf5bfce116ac540"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listDeletedVaults.json",
+    "sha256": "620dd3e6b0eecf81d54d3735cd59d4388d0aeb8a9a57c90adad9524f8c239327"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listKeyVersions.json",
+    "sha256": "e24b5ae35f3a42cd56ffe57b8789d970405de65065a1d78d14b6b263ed9f89d6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listKeys.json",
+    "sha256": "4aedecc1759ec5dc11ac1099639401c78e76debc2ee0d5c1db1ca2a1b94c560c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listOperations.json",
+    "sha256": "fc738ddf227672d95dbc433c8f03f839136fbb90ed1b84999ad0442871abae07"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listPrivateEndpointConnection.json",
+    "sha256": "9cc6ab0eb1d954decd3cffb5d8a3188551311bb569034902ffb12d85c8838dc2"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listPrivateLinkResources.json",
+    "sha256": "961a4c0c2d583639d48675747e0b776f489205e7e3df49088b16e2810e65bdab"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listSecrets.json",
+    "sha256": "2e5d1324add369690fe4e39752d0c4e7a9f10901e65973b8cc4f85f45a4b5779"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listVault.json",
+    "sha256": "65a4c653cf0a3860a6b84f7cbb4722ebea6519387ddb7a02643c363b48b07b76"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listVaultByResourceGroup.json",
+    "sha256": "bb4b2311b439291bede15bf84baf94ead6ace86ea0a5abcc5758927a7b82bf52"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/listVaultBySubscription.json",
+    "sha256": "e6bc9040b1e7e9e8adbcab834fa55e9f4619e7a7e2f8d8b8b03cd516170d97c0"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/managedHsmCreateKey.json",
+    "sha256": "4e6b8f9bbfe304dc43ece4b9f0244c3b520348ddf785150d50ed8a527fd3b6c6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/managedHsmGetKey.json",
+    "sha256": "31cc5b1f1008fd09446a080148a01ddbcfc7d259a5430e038240301e538cd303"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/managedHsmGetKeyVersion.json",
+    "sha256": "70e01a8a8c9c055ea17217a5a50a6a8aa0fe5c98f7610ca7ec3629ddc94c1678"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/managedHsmListKeyVersions.json",
+    "sha256": "fb310c9f8600cc2fc378a5e61ab3db0fe56cbb281bdcd5d82e642d36f58e5732"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/managedHsmListKeys.json",
+    "sha256": "552c71ce288e557cf651920b6294b59c15ca6f04581de3b2b67458c0490d007e"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/purgeDeletedVault.json",
+    "sha256": "61f07b34502016ea23b374c109db687747df0627b9bf715e50927e5fbcb9c3fb"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/putPrivateEndpointConnection.json",
+    "sha256": "07fe83a6befb993deb591540c265968905fabc2ab42287b116f615cf075815ae"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/updateAccessPoliciesAdd.json",
+    "sha256": "d83852c04e399f9697b53dbd5859b67f98e230c1121bdaa84f1e43061f712bc5"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/updateSecret.json",
+    "sha256": "600612c50dba79c0746935f4e42bf5e7366b5529d8ac6031e8a9b85dac82421f"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/examples/2026-06-01-preview/updateVault.json",
+    "sha256": "470d3b28889dccf4eae1e337f4f84db543fa4d053e7ff10148d758ddc51e595c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/main.tsp",
+    "sha256": "18044648f65d1436457eb843506505939cc4efec6bfcbc4a2da0c209c1b7f181"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/models.tsp",
+    "sha256": "b9626d0fc171b2c7efeb39b1c9103ad3a333dcb2ab23e117bd847fc69c224863"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.cli.md",
+    "sha256": "0189d215acb151d4107b5ae9c22267b8c4a0c0ffda6a5344e656c3598bcabd58"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.java.md",
+    "sha256": "c754fe2792209ecad478e18f05fefd189c09f644d9ddb3eb023f67d1871c9c08"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.md",
+    "sha256": "bd1d0f65a3dd00e99a323587c9e03f60fb1bc89bed8d8c7cc5ba43c762654633"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.nodejs.md",
+    "sha256": "bf738f2c25facbe538b4492f1f9be8fb21b647fe99baf9c526919d2f7a444e97"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.python.md",
+    "sha256": "f631c9f934fdaa82d1c907ab21291bc5a45066fac516efe61925bcdeece4b038"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.ruby.md",
+    "sha256": "abfbaaed5a1a9d87a4e2047d1d514ed98d9612df3986ceecaf1a089905ec42c6"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/readme.typescript.md",
+    "sha256": "705c89f0199f40a9ee13ffacc0c5328e3696fcb82f00dd05e616f4b4233a6da4"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/routes.tsp",
+    "sha256": "1374b9f61c8f9fd42310ad0e6efd37f4851f98457380e4e50bc07278ce6d134c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/service.yaml",
+    "sha256": "e23e277a27fde9d00dce821225ac6d3caf3a0d411b8602b3eb2601d07208f94c"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/suppressions.yaml",
+    "sha256": "9415dad7ce0637de8e2494878869f4d4e54dc775874b9cc8f06c03a45c42f410"
+  },
+  {
+    "file": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/tspconfig.yaml",
+    "sha256": "c500d8eeab3bc6182ad6f712beba35ecb6694075f7ecf57e378e822a999c5e0b"
+  }
+]

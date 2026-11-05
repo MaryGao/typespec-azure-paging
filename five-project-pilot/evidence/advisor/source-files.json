@@ -1,0 +1,626 @@
+[
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/AdvisorScoreEntity.tsp",
+    "sha256": "74fa2d37c39169dfa674e5100ae63396b3548d3d7acf00ef540dfb281cb8cb34"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/AssessmentResult.tsp",
+    "sha256": "4611d59731eca004674bffe06e3f4bd3be7a537f5c48cb81bdc222cacea6b5d4"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/MetadataEntity.tsp",
+    "sha256": "ea69df7023ab4e0f7a7b48ef8c388d224e2d79ac7b3916b1726deec1ae99d732"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/ResiliencyReview.tsp",
+    "sha256": "d0d8755cd23c7169ecbb708f4a5692ceb79a2a45369790eaf0c9cafb4f601613"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/ResourceRecommendationBase.tsp",
+    "sha256": "0bcbc986710021f43cbe92a65d57af1a23edd39cd9fafa6c24977157fe0d8f93"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/SuppressionContract.tsp",
+    "sha256": "43abff6a1210ce28d7c2b05df3a1f1f197361de9624d6c254426a8c7e91e3bde"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/TriageRecommendation.tsp",
+    "sha256": "5cd2edc3eb3c8f7b0f5a464a9659ee12787827f5d71b1fc36d9b17d660808a75"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/TriageResource.tsp",
+    "sha256": "18586d8f524ef8919bf175e3beeb41b52298e6ee5e376ac01760af4d7270bc6a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/back-compatible.tsp",
+    "sha256": "c6b914992d602fccde612d47439244c6f63f3576f0ac532e0bd2d68eadde400e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/client.tsp",
+    "sha256": "263689c0ad49dd27835140bc5a2aceddb928fd0377801de5a38ec9ed5efc3bfb"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/CreateConfiguration.json",
+    "sha256": "ecd241ffc139b9bf4bd3be25db149be42f2598f4e21e254f41c648ce9d8144d8"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/CreateConfiguration_CreateInSubscription.json",
+    "sha256": "8dbc1db9996fba05ac66d49288908dcc1a488751f56fdb5c16af4b40b7c48fbe"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/CreateSuppression.json",
+    "sha256": "0c78d33034870c3af6a54c2edaced7370668ae53f36df363daa80904539aee42"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/DeleteAssessment.json",
+    "sha256": "c9e07733d52389119a30d99c2e8560065c4aa478c548d1cc7860edf4c86f695f"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/DeleteSuppression.json",
+    "sha256": "921dbacaa8c88a8c0cf5f73d2b40b6bbb2d06e75b434cf95279353923fc2138e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/EmptyResponse.json",
+    "sha256": "f238b0d59cc7023df9c8c6200b2b5ec0a3a3acbdf9df1af2ee4bc3e6630bf302"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GenerateRecommendations.json",
+    "sha256": "508eaee128ce86a9628227b3241c0b88cc3cb71430cbdb86319ef4ed84a71ac8"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetAdvisorScoreDetail.json",
+    "sha256": "a0bb0ad1223ebdd983a147309bfc042fc01663e4b7c49be79f6bf2c158afbb01"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetAssessment.json",
+    "sha256": "241731e7f3d2af3e99e2f6503c7c79904bd7d778c500fa13b90d649bdedc2e95"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetRecommendationDetailServiceGroupResourceUri.json",
+    "sha256": "b247233837e8040dc592221b0ff1d8357b3fc4195d08415e60b80f1c48d52b0d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetRecommendationDetailSubscriptionResourceUri.json",
+    "sha256": "d68c716548cf1306e2fdc676e7a8844b7249e66e11e3ec97f63027de86f4eb73"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetRecommendationMetadataEntity.json",
+    "sha256": "d3d07acef14baada0b396b4b850b592bdd36a744cc142e4d3c102cb0a4eb5b2e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/GetSuppressionDetail.json",
+    "sha256": "57b00834915f999b34ee5073516f7552680af2a1c6f1a7e07572783eb5eec6a7"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListAdvisorScore.json",
+    "sha256": "491f91ddb6bc4dc7a1216e160bdde35db3e2b27744afc9d67590e07db12d09bf"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListAssessmentTypes.json",
+    "sha256": "13debdca90aa3ccee9de5259256ee1bd3f7dc28693a74871c2da47c736fa32bb"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListAssessments.json",
+    "sha256": "778df196f862c295cf72731fe975a84641938e8969f45808666d99fa0b4ecab4"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListConfigurations.json",
+    "sha256": "720db73d0a31807ecb7d2d436497390e13e381ebdc1978aacffa5cc3aa8a98df"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListConfigurations_ListBySubscription.json",
+    "sha256": "bf35cdf49058beddfc44bd3359f11ed6492aaa1911cfb0bdbf662260c60b509a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListRecommendationMetadata.json",
+    "sha256": "bd28e7e381d30e7320fafe9adea2b980c3c6583712e31d49dde1104902fa0210"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListRecommendationsServiceGroupResourceUri.json",
+    "sha256": "2a68715f5b48ef516eb96312b7780abf2e1160b8e59a48b0fc2a9d271d0d505c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListRecommendationsSubscriptionResourceUri.json",
+    "sha256": "ea6910501e40f1659925b5fb3d8f057109e7b280379e0e29066a519a79ac831d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListSuppressions.json",
+    "sha256": "a83a95ff6b622243ad62689a0b4c8252e4204557977ec17e2183ed867e6a7ebd"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ListWorkloads.json",
+    "sha256": "3c1cc84fc32f63347f103df04093866f7ddecd0c0724bc64bfc18141a401b85c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/OperationsList.json",
+    "sha256": "8d58363859579e610a21fe0ed94e004ac2db608a5576441490c9c5f752565cba"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/Predict.json",
+    "sha256": "f6a5218a56cad72549b8e521937f005e74e1fd0444002a737da01d0e6d2191ff"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/PutAssessment.json",
+    "sha256": "dbae040b629194cb40a022af6dd1834290d256210c9f0d1331d9b1ca4024ac3b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ResiliencyReviewsGet.json",
+    "sha256": "e6c8911766df2647400f9c95c9ae66ddaa2902005938ec8c202ec0bf904ceb5c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/ResiliencyReviewsList.json",
+    "sha256": "a3725a3e8509862afbc82fc583570608089c6f31e827fa1cbd1773427f3743f8"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageRecommendationsApprove.json",
+    "sha256": "b18f1f5e7ecb859b4c4d58c48ad2f7264fd2e60a3478b73cc1f16923127cb08e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageRecommendationsGet.json",
+    "sha256": "b97c86dcf8962a49f08c1b6212a59de8d8a22ce1d85c3571a586e78b1af05c69"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageRecommendationsList.json",
+    "sha256": "1b12fea7b5f0bfdb037900b0b13d064923216c130eb295c1078a23fa02ce16d2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageRecommendationsReject.json",
+    "sha256": "254d39c82fe7a2efcaad534c20a0cd3b9a8be7e434a9561677c4e02d9fbead33"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageRecommendationsReset.json",
+    "sha256": "1952abf454550946436745d5907421730e25ba301738901138eaa03640d20691"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageResourcesGet.json",
+    "sha256": "5c350db63e3deaa2be69780005be94e83f51af4cfe6a1dd723232d4b7dbd3e22"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/TriageResourcesList.json",
+    "sha256": "f37abcb89e38a933f34999bab26e70a8ac36b3ee972c6848ef264191e6dade31"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2025-05-01-preview/UpdateTrackedRecommendation.json",
+    "sha256": "e72723cb5fa25e30b354ebcb1d0e7da444e74aa325cbb276ebabdc1a69d5453b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/CreateConfiguration.json",
+    "sha256": "17da95540d2df2d5f954a23f1c6a10b7648c5ea4ff30bb4736eb55c61bcdcfb2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/CreateConfiguration_CreateInSubscription.json",
+    "sha256": "75a0e629c93be636c1f0e177e59ada86b9741ce246b102d8d8c043b740373327"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/CreateSuppression.json",
+    "sha256": "56b367263a1fe02624bc06605971c1fd331171b410315e63eacdf91cbf5c2561"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/DeleteAssessment.json",
+    "sha256": "10ea483415c45b51d68496922c939490ffee734aec6418fc9318fd0ebcf7e4ee"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/DeleteSuppression.json",
+    "sha256": "a0ac795a4688e6071b74b202b810e716737147abc43d468b14c56f65b6b776f0"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/EmptyResponse.json",
+    "sha256": "d8e65eeb96de2ef2662c9b5c7ac44e4196db9250540570b15e2a915be72b9938"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GenerateRecommendations.json",
+    "sha256": "f4d6194178a1387ea7b795f268569bbf7cdcd2eefcc1107785d9e2136500e11f"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetAdvisorScoreDetail.json",
+    "sha256": "e7509e8b2531eba51c9b8a2e83e5c65fd3127f2cee996d79de6100d41eecf74b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetAssessment.json",
+    "sha256": "00ac17aa9e2d1931656445c34c12cfd6996470b271b5ee2caa523362f683663b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetRecommendationDetailServiceGroupResourceUri.json",
+    "sha256": "d21fd7689b691f036b9ee0c1292913e77e63c494ab27bd5bd704c096531d48e4"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetRecommendationDetailSubscriptionResourceUri.json",
+    "sha256": "c8e0950d923188cb8e80dd70612516f36187b39b3e58dbad51b0ee5f6425ec7e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetRecommendationMetadataEntity.json",
+    "sha256": "b8fef5bfcdc483a9c23a82b2660ec05a75387b8ae01e638e6cf4f55cb556d43d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/GetSuppressionDetail.json",
+    "sha256": "8a975de4673d2e1171d2e745c74b1364abff243edb5e78f6deacbbdadc54ba50"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListAdvisorScore.json",
+    "sha256": "fadf2cdfa2597f9ddc16f24fd99416cf54654b2150a8ef99f771c11b631ecd23"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListAssessmentTypes.json",
+    "sha256": "1d85ba2ad0dc7ca094c0ac48b4dedb5167bdab67dd56aa66316deed4c3cbb100"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListAssessments.json",
+    "sha256": "103097dcbdaa72ec141e97aaa291e04a80bbd9e25226324b4e6f5bd0956bc912"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListConfigurations.json",
+    "sha256": "4897747032edf7ab887c0c71e110922acfc2ea2903bbec83037520be29c7eebd"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListConfigurations_ListBySubscription.json",
+    "sha256": "51b19aa889d396ad8c84fc95f2ad151386594576d2971ac68c2fadab9c12c22f"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListRecommendationMetadata.json",
+    "sha256": "1e3d651753580cf5006dfcf487d970f75e1f162b69c695893adc6a4c8908ea3d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListRecommendationsServiceGroupResourceUri.json",
+    "sha256": "0f4ebdf7c0e6adf07f29eb2884200022eb96578d2ebd8654763426d518f6e3a6"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListRecommendationsSubscriptionResourceUri.json",
+    "sha256": "d50feeb5fb66198d4301a02839cf883b5f07a1a0e2b76edac9abfc4960a8cfb0"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListSuppressions.json",
+    "sha256": "548d8822434ff96ca9d0b525b2550f7764860c8440317b7d0bc022b26968589d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ListWorkloads.json",
+    "sha256": "99d1b47c931d6e1dd5ca653950240afc2f722df7eb6b22adb5ea1072f5fa37ce"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/OperationsList.json",
+    "sha256": "9eb9808471a3b86225681ecee576f165dc6d2612542752878e1230368a7794b5"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/PatchRecommendationStateProperties.json",
+    "sha256": "3d71b03ac2b9789782f2f0ef25e4b580814a15231a1d537460c3d41c5d7c89e2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/Predict.json",
+    "sha256": "05151dfe6ed20060f7d00888809b919d11590b4b0f316e21b3912b74d7f33410"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/PutAssessment.json",
+    "sha256": "7580651397655dd66bc8e0de07f9bbd3ee533391376df7b1c72b810f92224f57"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ResiliencyReviewsGet.json",
+    "sha256": "4ecc83d65aaebaa2d2776859c95baccd606ff3c289f5475610fb6c4085011317"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/ResiliencyReviewsList.json",
+    "sha256": "aa55379356cae401747d3a86521589cf87f1a3e09fff02cefb821fe7d52ac619"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageRecommendationsApprove.json",
+    "sha256": "d0930dc4c29df81e0ca0372b57bf2093e2f660e30fae15c2df06c11898e91e42"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageRecommendationsGet.json",
+    "sha256": "95934dc349bb7491a37ca2f4231ba4968392e76b8efe3ecff164462fa262ba82"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageRecommendationsList.json",
+    "sha256": "24ab3d10a8ecd2bc6bfc656ef866b34c2daee8c7d17e56639dd887bc53822804"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageRecommendationsReject.json",
+    "sha256": "831235cb8b8f02b2cb9e4963957b85d34fe4c88594212fa6a9071d092182d920"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageRecommendationsReset.json",
+    "sha256": "2d3df1c65305a12821373098838fa696718ea801fe1ae0e11f98c6e81d039c73"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageResourcesGet.json",
+    "sha256": "dbea1e8f399e9bcfe2c01cb9a3347def1da9c40836de39556528582365e9a0ea"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-02-01-preview/TriageResourcesList.json",
+    "sha256": "5aa1c9f22a72160e177916832069591743bdb61037678fc00fe61af4c2a91758"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/CreateConfiguration.json",
+    "sha256": "3ef047ee6642f9ea6f404637f4f346b0e0c411bac0ffacaa430f37730918229a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/CreateConfiguration_CreateInSubscription.json",
+    "sha256": "0fb2d2abdf9085c9a9f7664542ee71d62f12a263fe27d60538917a145a210f64"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/CreateSuppression.json",
+    "sha256": "ee11813ba6a06200492e67f357d08758cae6325b99e4a01be607aaa423fe6c5a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/DeleteAssessment.json",
+    "sha256": "f56117d2fbf2df7610cfb2841c0ab74f4d673498b361a76277d7f6a0950749dd"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/DeleteSuppression.json",
+    "sha256": "3fa5b07b6aa6b3b366ff4023d0a076f9d2cf6d4980f8dd52e713270f18c62f1f"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/EmptyResponse.json",
+    "sha256": "2590da5e830029dc07e4832ad7c30e4494b3a1d3f392ae1cc12303d68880759b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GenerateRecommendations.json",
+    "sha256": "bf19eb11b718312a2be1db3043f738875fe7cef917ea9456c1a0a529b5d37fc2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetAdvisorScoreDetail.json",
+    "sha256": "dd68880273d921cc79e57a7db10833fdfe17149dadf767870511d3539328a057"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetAssessment.json",
+    "sha256": "855efcea961d653a73ec6455ccfdca984ce4673fd06a7ae30c7adacb9efffc43"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetRecommendationDetailServiceGroupResourceUri.json",
+    "sha256": "5503d22e6867fe92fd6e55ff4e9e2b80dfd2d3804bdda4366542c7d4097c4e89"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetRecommendationDetailSubscriptionResourceUri.json",
+    "sha256": "6bae789627ad663bfa1ef297119178695935a3911d19f61d06ce7f8aee707e6e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetRecommendationMetadataEntity.json",
+    "sha256": "f59a4e40ac78d5bebc38665fe4e16c671010672f52dcab8bc08ad3557639b8c2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/GetSuppressionDetail.json",
+    "sha256": "7ff3e11780186be80a14d18dcfd91ee39ab92e1ab47b093ca5906a9f4b6e3de5"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListAdvisorScore.json",
+    "sha256": "d61aa026f9c1f3cca4010e39c52c2e005abfec593136e6188725cba87386ef48"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListAssessmentTypes.json",
+    "sha256": "756fe3f86781f653d56914e42b8cdb669471a7db0d0d2d01759f2f070db7baa6"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListAssessments.json",
+    "sha256": "e7d7d1ee6d8d99a28e1d2f32e33ad43ae21e8a771606a97af625fc55211e7e0d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListConfigurations.json",
+    "sha256": "405cac553e01434543547c084a98127ff5fa98b0084f3efeb25ece29655137a5"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListConfigurations_ListBySubscription.json",
+    "sha256": "b8289323490cc74277dc76f84b5e4afa31afdb5db356c4fdca27a58cc37d2aa5"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListRecommendationMetadata.json",
+    "sha256": "980ad1f6734a2aae7e8ad9bb319d8d5a5b0b46b441bc29e54041aab6c1d57dff"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListRecommendationsServiceGroupResourceUri.json",
+    "sha256": "042e2d43d2789fd6dcef12acb2bce985d719aa18e009bf728a0fe2d6838c3182"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListRecommendationsSubscriptionResourceUri.json",
+    "sha256": "04be225a51b01722b02a891214ead1148895c2324f871de39f8470fec63dfadc"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListSuppressions.json",
+    "sha256": "ec630582d2fc4c3af70362c2c89d2efd507e86a51236bedf496176788c36a4b7"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ListWorkloads.json",
+    "sha256": "19167ac7afb2359c34743af140f76dc222cd3849e3b99f2c9e94ec3ad3dcd896"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/OperationsList.json",
+    "sha256": "84b1debd83e21288900fed73a9b1c65b4704814016531400863364d2d93afe24"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/PatchRecommendationStateProperties.json",
+    "sha256": "8c2b15793a691af241eb1845a628ead01e53afabbde509e5b635fc1ef66f95b1"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/Predict.json",
+    "sha256": "f887c12795434945767b002111a12c487a91ef86faeeb4033a0b2691008107ac"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/PutAssessment.json",
+    "sha256": "31b964d37d506ec7ee9d5889ebe668d12d91bbf742d5afd58e19721a3433f0f9"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ResiliencyReviewsGet.json",
+    "sha256": "ef1c7f9d72b67f52faf9c60517af850fe87cd436caf23a7b100c89f0f73bb005"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-03-01-preview/ResiliencyReviewsList.json",
+    "sha256": "e124a9059009bef5658dcba5ddf890bbc362be7afe889447c5c0c908fed26165"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/CreateConfiguration.json",
+    "sha256": "f356c477e758908f9efc1a8b3b37413dec3bd22f03641b30118466f72b96e101"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/CreateConfiguration_CreateInSubscription.json",
+    "sha256": "241527c3fbcddb74d85c7fc30c2b3ea3471e847fb5d8f4b5dc223107b80f9052"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/CreateSuppression.json",
+    "sha256": "35e20aa6033d0de0776a6ea8327394672d6cd6d31abe992b1f782ddf1e42cf85"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/DeleteAssessment.json",
+    "sha256": "693da0e8739686e92b978cc6527f3bc0cdcd6366e6f80daeb5c6053c84a7540a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/DeleteSuppression.json",
+    "sha256": "b4930a121542e4efcf49f9499e5afd238910e71e1af800aef775ad3788304a1c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/EmptyResponse.json",
+    "sha256": "d311429fbe6e5a200501fa9f94eb2a173b54187703bc2a45fe5fba46d510481d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GenerateRecommendations.json",
+    "sha256": "54b6d0d4062e8ee39a6057e85c1ee5a650eec2a2b53201022e3e3930a5a5188a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetAdvisorScoreDetail.json",
+    "sha256": "5c41ef39a83dffd83437bbede477002c1f17250293fbc56e52181d92c0f4ba96"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetAssessment.json",
+    "sha256": "c0d334d492053d4330136f7eb0fd44ff9a7f779097386b452667fabb892e4111"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetRecommendationDetailByServiceGroup.json",
+    "sha256": "a62ddd7754a9f17cf8860df056ff9426634b1c7e2886215714f6b16dc0b3a93c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetRecommendationDetailServiceGroupResourceUri.json",
+    "sha256": "da80c9c0ec4c61ee93f874a4326467d304b0154fcac3341aef967412f917ee2b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetRecommendationDetailSubscriptionResourceUri.json",
+    "sha256": "0b1125314b93d4d6bf2cc1d7822b6808489866548e66d06809173430e8f22fd5"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetRecommendationMetadataEntity.json",
+    "sha256": "38c0b9e9eec62e5cc9f1caa97d0c8e9c3251f5eeb8f670b46c9675044264dae8"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/GetSuppressionDetail.json",
+    "sha256": "25b0529d251ca969e814e48fd5cfd725d9721250fa98600c9b041f113072cf77"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListAdvisorScore.json",
+    "sha256": "f28a00221936d163f63bed80fde70942ed7be1c38d8b76593723386fc9d7ecb6"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListAssessmentTypes.json",
+    "sha256": "81b26aa9a2b4e5a7ef85d681c961297ac01914d88b67ecca21d76a9f90839c5d"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListAssessments.json",
+    "sha256": "2d85453cfc1d51aa23ae893ead0537caaa5292548dbedfbd4551d36e76d821e2"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListConfigurations.json",
+    "sha256": "7b0e0cd7e4de55e969ed1b6b9205d2bc04689bf35051b75914e03b2154644a6a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListConfigurations_ListBySubscription.json",
+    "sha256": "ad823b5e0b9285d952fcf012f3fb7d58eb150e0c7ebdfc7d60bfd7049a144836"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListRecommendationMetadata.json",
+    "sha256": "f2088a9fc619b1232f16b5fa3f86a1775d53b51156a4263cd299f3b571b8f2a0"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListRecommendationsByServiceGroup.json",
+    "sha256": "794e224548eb6a3d18060bfa62cdf92f8265c18752e9b46816446102fec81267"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListRecommendationsServiceGroupResourceUri.json",
+    "sha256": "1a3875c1c714666dd7b717a3d302d51e99bfdf79278d9d37f2bc3e1c4d03f767"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListRecommendationsSubscriptionResourceUri.json",
+    "sha256": "0348b6ebbc22067909d2ffc3df2b5474648e5b4f80dac799ad90b194732e42cc"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListSuppressions.json",
+    "sha256": "b68afb43a93402e9bdc9596bdd580aac190d5417667b1c0b528beaee604383cc"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ListWorkloads.json",
+    "sha256": "e017e9b6d1daccebdb1d62261457d52b8f10041a003ca20dab4c63a3ebf5edff"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/OperationsList.json",
+    "sha256": "54505f5f930ce1ac5145ea9b532cc14885fc4fdcb307ae6c8dc87b91f8d14f1e"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/PatchRecommendationStateProperties.json",
+    "sha256": "da1bff6614bfdd00d861db81670d035b58f023ee4691c70cd49047fb3cab5b07"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/PatchRecommendationStatePropertiesByServiceGroup.json",
+    "sha256": "42cc95f38ee893a6025caaac287ecd405a9d92d863366f5362a3a05854ee6bee"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/Predict.json",
+    "sha256": "c4367f81ffe3f000e436dd26373f3d121cd176ef58d693d4bbc238a0c8e0c53c"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/PutAssessment.json",
+    "sha256": "9abeff544070c2640831e1f311a1e1a7f769d5c42e8b9fd4a9a2919c26f555a1"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ResiliencyReviewsGet.json",
+    "sha256": "f0ba2d220cf66f1492038fc8d31d20967cc81f9954120f72adc532f187414629"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/examples/2026-08-01-preview/ResiliencyReviewsList.json",
+    "sha256": "caff09358bec47c92995477ecb674989f7aa472143f06768f6dcba1999cac49b"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/main.tsp",
+    "sha256": "3699ce8f590bb431e83955c511a10ee382561107b99bf3ee5e0f7f6dd23b08a1"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/models.tsp",
+    "sha256": "0c41831495f2d40143ed64c88c1c57c049b3b57cf4c69a408eb3f123b84aafce"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.go.md",
+    "sha256": "c8c55584d359740fe23f31ecc271b0ede38c83e95a24274b609c19e8252300e6"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.java.md",
+    "sha256": "db9fd08e83b331604b709dceebc30c574f4fdc20e3d7d21d7f1faf711eef1416"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.md",
+    "sha256": "0fda756c152a8c582d72115d4c82dd55a29d30b30b067cbd5635da5c72815a91"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.nodejs.md",
+    "sha256": "f301a6741ee8764eaf79361883509d11f1628a3319d0e0db7101fa5cacd5a18a"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.python.md",
+    "sha256": "a992c55714885f8338fe78eb54d24ec90d24b10db133039f3c3638c7172a0335"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/readme.typescript.md",
+    "sha256": "da2c69986f5d9e9fa9397336cefb4f360c0de73cdf9efcd9e2a46cfdfbf7e7fb"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/routes.tsp",
+    "sha256": "e1b4a3ad8c3542cefb3b6aea1f972faf47efcdf7b59e3002a2fddb5fa220e2ec"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/sdk-suppressions.yaml",
+    "sha256": "f6f82e0b0c4d859cee4decff9a58b8fe5663550ebbb3f5e4ef2f9bb4d368a9fd"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/service.yaml",
+    "sha256": "e79d905a0c4384acdf1b341bd53b0314c153797cd9a81070731bc6da108ab993"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/suppressions.yaml",
+    "sha256": "f5521056441ed7e2afa73b5cf61bc6791f54829292b4a638032166f397cfaf08"
+  },
+  {
+    "file": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor/tspconfig.yaml",
+    "sha256": "41a2933bb4d7eb680feb825fc3e5fd5eb6a59ba8dbb0cacb2850eb77fdf8057a"
+  }
+]
