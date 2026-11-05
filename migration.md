@@ -78,10 +78,10 @@ Source analysis identifies boundaries that must be retained during later compari
 - Initial canonical base: `Azure/typespec-azure:main`, frozen at `f578e3ad757c9e4ea827e7d20212e7c53c303f43`.
 - Native head: `Azure/typespec-azure:feat/default-in-enum-5972`; the PR targets `main`.
 - Implementation PR: [Azure/typespec-azure#5973](https://github.com/Azure/typespec-azure/pull/5973). Initial review head was `5d8b20e69bf9e37d49bd3ff50db6a09125992be1`; pilot candidate was `2f052caee34c4ba271e56a3e9754524b6d9216e1`; full-population candidate is `dd233ce884c25ed54074ad6feaa770ee567c4f5e`.
-- Post-validation main sync: PR head `b3593dfdb8fc2147a7183bf42dea12c9a24381ae` merges `main` at `3e96b05ca`, preserving both DefaultInEnum and incoming private-endpoint opt-in regressions in the shared rulesets test. Focused DefaultInEnum tests passed 21/21, rulesets tests passed 15/15, ARM/rulesets builds passed, and affected formatting/lint passed. The sealed 487-project corpus run remains pinned to `dd233ce884c25ed54074ad6feaa770ee567c4f5e`; it was not rerun on this merge.
+- Post-validation main sync: merge commit `b3593dfdb8fc2147a7183bf42dea12c9a24381ae` merges `main` at `3e96b05ca`, preserving both DefaultInEnum and incoming private-endpoint opt-in regressions in the shared rulesets test. Focused DefaultInEnum tests passed 21/21, rulesets tests passed 15/15, ARM/rulesets builds passed, and affected formatting/lint passed. The sealed 487-project corpus run remains pinned to `dd233ce884c25ed54074ad6feaa770ee567c4f5e`; it was not rerun on this merge.
 - Evidence head: `MaryGao/typespec-azure-paging:migration-evidence/default-in-enum-5972`. This is a separate verified personal fork of the canonical repository.
 - Status: all full-population native workers and final analyzer integrity verification completed successfully. Independent local source review accepted the corrected implementation and reviewed the qualified evidence claims. No GitHub development/release review loops or integration labels were run/added; no release acceptance is claimed.
-- Commit messages include `[skip ci]` to request that GitHub Actions defer push/PR validation during this initial review. Required checks remain outstanding.
+- Initial implementation and main-sync commits used `[skip ci]` during early review. Subsequent CI-only commit `7bff59d96fa8aadf64f67117b9c18ad36dc2f966` has no skip directive and started the normal GitHub Actions workflows; their results are being monitored. Required CI acceptance is not inferred from local results.
 
 ### Source-of-truth intake
 
