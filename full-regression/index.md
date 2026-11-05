@@ -4,7 +4,7 @@ This published subset omits the large copied baseline dataset and its complete f
 
 **487/487 projects assessed; 0 unassessed.** Native raw/source findings: **0/0**. Verified saved Swagger findings: **0**.
 
-Analyzer integrity seal: **running**. Project workers have finished, but final input/artifact/dataset integrity verification has not yet sealed this run.
+Analyzer integrity seal: **complete**. Final input/artifact/dataset integrity checks completed.
 
 Tested candidate: `dd233ce884c25ed54074ad6feaa770ee567c4f5e`; frozen specs: `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`. This full run supersedes neither the historical five-project pilot nor its original candidate identity; it freshly evaluates all487 projects with the corrected candidate.
 

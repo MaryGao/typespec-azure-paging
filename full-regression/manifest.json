@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "startedAt": "2026-11-05T02:42:02.404Z",
-  "status": "running",
+  "status": "complete",
   "config": {
     "candidateRepo": "C:\\dev\\worktrees\\native-default-in-enum-5972",
     "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
@@ -4361,6 +4361,9 @@
   },
   "nativeExecution": {
     "startedAt": "2026-11-05T03:22:35.061Z",
-    "budgetSeconds": 5400
-  }
+    "budgetSeconds": 5400,
+    "finishedAt": "2026-11-05T03:37:59.246Z",
+    "budgetExceeded": false
+  },
+  "finishedAt": "2026-11-05T03:59:05.170Z"
 }
