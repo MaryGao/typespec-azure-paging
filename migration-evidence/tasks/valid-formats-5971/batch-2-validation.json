@@ -1,0 +1,1775 @@
+{
+  "status": "complete",
+  "assessment": "Second five-project raw source / retained Swagger comparison; not migration acceptance.",
+  "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "finishedAt": "2026-11-05T04:46:47.743Z",
+  "node": "v24.20.0",
+  "policy": "Disable all authored-source #suppress directives in memory; keep compared rules explicitly enabled. Fresh production Swagger rule replay applies no README/AutoRest suppression filtering. Same five projects only.",
+  "workerSha256": "647a5d3cfbd31605f32c9d6bc2f9b1d924823d0836fa373448d37390517980f4",
+  "sourceHostSha256": "c3b47a9311a34d9cc1e4591b4d2ff823877e1e82a28037fcc6cbb7b2631c077f",
+  "swaggerScriptSha256": "2388ee69e007eb60984e8c7a8dc07650311862a4776a8e5baca59bd9c12a301a",
+  "artifactVerification": {
+    "status": "passed",
+    "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
+    "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+    "packages": [
+      {
+        "name": "@azure-tools/typespec-autorest",
+        "version": "0.73.2",
+        "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+        "sha256": "12f007e3b2b042111a188cbc0225d4e05a45e9798d1790de433db9ac49d4f763",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-autor_712613c19441f12753f3346139bee01e\\node_modules\\@azure-tools\\typespec-autorest"
+        ],
+        "matchedPackedFiles": 71
+      },
+      {
+        "name": "@azure-tools/typespec-azure-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+        "sha256": "b7d4146e420ed5472ab3b06537e5ebbea19e4c93a763c6cb5341f7bb80211035",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_3034ba089fc349fa5d45c7adbf01bc30\\node_modules\\@azure-tools\\typespec-azure-core"
+        ],
+        "matchedPackedFiles": 417
+      },
+      {
+        "name": "@azure-tools/typespec-azure-examples",
+        "version": "0.2.2",
+        "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+        "sha256": "021413bd38ef0b96614b0c74ccc58d6d77e5aa5e41e90b2c05673f31050fd6b6",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e111ac4e57c9b50d0757dc2699776610\\node_modules\\@azure-tools\\typespec-azure-examples",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9a856ada4bed203a3fd919a264fabb24\\node_modules\\@azure-tools\\typespec-azure-examples"
+        ],
+        "matchedPackedFiles": 169
+      },
+      {
+        "name": "@azure-tools/typespec-azure-resource-manager",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+        "sha256": "030e847fb8a8caf3c7245e18ad9d77dfd40d058c099ab1eba9878b9c0c638eb0",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_1a2c7dc1ac97d8e16792f43a5ba698d8\\node_modules\\@azure-tools\\typespec-azure-resource-manager"
+        ],
+        "matchedPackedFiles": 423
+      },
+      {
+        "name": "@azure-tools/typespec-azure-rulesets",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+        "sha256": "0148b1a75897a166b5e6b2bc622c4ec4dd6521c9e95ca00ef6a5369ea42a945c",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-azure_6c24974f1586710a06eb9df44eaa7045\\node_modules\\@azure-tools\\typespec-azure-rulesets"
+        ],
+        "matchedPackedFiles": 19
+      },
+      {
+        "name": "@azure-tools/typespec-client-generator-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+        "sha256": "72a087a6cd663b0909d89dde15774f43d9c2dfc4cff324912bacf6ca87be5eca",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@azure-tools+typespec-clien_e430b3a77917d7fc4f32e756a62b69fa\\node_modules\\@azure-tools\\typespec-client-generator-core"
+        ],
+        "matchedPackedFiles": 180
+      },
+      {
+        "name": "@typespec/asset-emitter",
+        "version": "0.79.3",
+        "archive": "typespec-asset-emitter-0.79.3.tgz",
+        "sha256": "50d45bfbd92ad05972e0abc9038e8d8c31be7f6a32f2e036c669b892051b6896",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_0c8f551ffd308883512b66eec68804af\\node_modules\\@typespec\\asset-emitter",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_4368db1df63d3f35dbe2baf1d54ed712\\node_modules\\@typespec\\asset-emitter",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_0c8f551ffd308883512b66eec68804af\\node_modules\\@typespec\\asset-emitter",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+asset-emitter@fil_4368db1df63d3f35dbe2baf1d54ed712\\node_modules\\@typespec\\asset-emitter"
+        ],
+        "matchedPackedFiles": 47
+      },
+      {
+        "name": "@typespec/compiler",
+        "version": "1.17.0",
+        "archive": "typespec-compiler-1.17.0.tgz",
+        "sha256": "05305a9ba831f7d11c70b928eb2ac0cac360c062910d8f2377768c980bff787b",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_1abffd81352632918c514b7a3f32fe2d\\node_modules\\@typespec\\compiler"
+        ],
+        "matchedPackedFiles": 1082
+      },
+      {
+        "name": "@typespec/events",
+        "version": "0.87.0",
+        "archive": "typespec-events-0.87.0.tgz",
+        "sha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+events@file+..+.._7a1119b0a9cf5d0d5a28370fc67ce8d8\\node_modules\\@typespec\\events"
+        ],
+        "matchedPackedFiles": 45
+      },
+      {
+        "name": "@typespec/http",
+        "version": "1.17.0",
+        "archive": "typespec-http-1.17.0.tgz",
+        "sha256": "300dc392c0a0637ea5821ea6a372677709e9690a762deadd1be06862783fddae",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+http@file+..+..+._abc69809b573d2245ff63732dfb0ba6c\\node_modules\\@typespec\\http"
+        ],
+        "matchedPackedFiles": 181
+      },
+      {
+        "name": "@typespec/openapi",
+        "version": "1.17.0",
+        "archive": "typespec-openapi-1.17.0.tgz",
+        "sha256": "5c6fd79753f4f837a5b77a6e02bd6bbcc40de8740bde743e482e43a1e7c806a9",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi@file+..+._fed933bf948b085eeef8b915da06685f\\node_modules\\@typespec\\openapi"
+        ],
+        "matchedPackedFiles": 42
+      },
+      {
+        "name": "@typespec/openapi3",
+        "version": "1.17.0",
+        "archive": "typespec-openapi3-1.17.0.tgz",
+        "sha256": "53fd6128fd32e5cd28b267f9f6a83b6db41462cec1ec21e6765f19e4378eec10",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+openapi3@file+..+_3ca7ace573a3526ef8f263a60261d211\\node_modules\\@typespec\\openapi3"
+        ],
+        "matchedPackedFiles": 278
+      },
+      {
+        "name": "@typespec/rest",
+        "version": "0.87.0",
+        "archive": "typespec-rest-0.87.0.tgz",
+        "sha256": "c9038ca1a0795082ae0b02fe5b2436a03d358c405931c10f8f723ed2b0526ba9",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+rest@file+..+..+._8d190c8ac999163f47f6c3dae3d2de0c\\node_modules\\@typespec\\rest"
+        ],
+        "matchedPackedFiles": 58
+      },
+      {
+        "name": "@typespec/sse",
+        "version": "0.87.0",
+        "archive": "typespec-sse-0.87.0.tgz",
+        "sha256": "7750c52b8f58dfbc617140078e57fb9de7dc3292e9fa9b56630f4ed6ffe16725",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+sse@file+..+..+.._4c5f551e9faa7904d7d5e7e83465117d\\node_modules\\@typespec\\sse"
+        ],
+        "matchedPackedFiles": 38
+      },
+      {
+        "name": "@typespec/streams",
+        "version": "0.87.0",
+        "archive": "typespec-streams-0.87.0.tgz",
+        "sha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+streams@file+..+._094cca3e7806323f335128bf853dfe44\\node_modules\\@typespec\\streams"
+        ],
+        "matchedPackedFiles": 34
+      },
+      {
+        "name": "@typespec/versioning",
+        "version": "0.87.0",
+        "archive": "typespec-versioning-0.87.0.tgz",
+        "sha256": "d71421f381f7abef857964aa995088ea7e3d5c1feed7614494c289fbaa5a10cf",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+versioning@file+._940f88ad3cb964d8940462600b5567f4\\node_modules\\@typespec\\versioning"
+        ],
+        "matchedPackedFiles": 61
+      },
+      {
+        "name": "@typespec/xml",
+        "version": "0.87.0",
+        "archive": "typespec-xml-0.87.0.tgz",
+        "sha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
+        "installedDirectories": [
+          "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+xml@file+..+..+.._1ec4312d68757b8313ebd020b57bf267\\node_modules\\@typespec\\xml"
+        ],
+        "matchedPackedFiles": 43
+      }
+    ],
+    "unusedArchives": [
+      {
+        "name": "@typespec/json-schema",
+        "archive": "typespec-json-schema-1.17.0.tgz",
+        "sha256": "ab150ff7b2ca26e07bc1abbc0429259a307f7eb698cf3c12d209fb0cd7f4615f",
+        "reason": "Packed build dependency; not installed in the selected specs dependency closure."
+      }
+    ],
+    "matchedPackedFiles": 3188
+  },
+  "nativeControls": {
+    "status": "success",
+    "compiler": "C:\\dev\\worktrees\\specs-valid-formats-5971\\node_modules\\.pnpm\\@typespec+compiler@file+..+_1abffd81352632918c514b7a3f32fe2d\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+    "controls": [
+      {
+        "name": "violating",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 2,
+          "@azure-tools/typespec-azure-core/known-encoding": 1,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 2,
+          "@azure-tools/typespec-azure-core/known-encoding": 1,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+        },
+        "diagnostics": [
+          {
+            "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+            "severity": "warning",
+            "message": "Don't use generic type 'integer'. Use a more specific type that specifies the bit size, such as 'int32' instead."
+          },
+          {
+            "code": "@azure-tools/typespec-azure-core/no-format",
+            "severity": "warning",
+            "message": "Azure services should not use the `@format` decorator."
+          },
+          {
+            "code": "@azure-tools/typespec-azure-core/no-format",
+            "severity": "warning",
+            "message": "Azure services should not use the `@format` decorator."
+          },
+          {
+            "code": "@azure-tools/typespec-azure-core/known-encoding",
+            "severity": "warning",
+            "message": "Encoding \"custom-rfc\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "name": "compliant",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "diagnostics": [],
+        "passed": true
+      },
+      {
+        "name": "numeric-boundaries",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 2
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 2
+        },
+        "diagnostics": [
+          {
+            "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+            "severity": "warning",
+            "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead."
+          },
+          {
+            "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+            "severity": "warning",
+            "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead."
+          }
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "suppressionControls": [
+    {
+      "disabledSuppressions": false,
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "passed": true
+    },
+    {
+      "disabledSuppressions": true,
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "passed": true
+    }
+  ],
+  "dictionaryControl": {
+    "source": "import \"@azure-tools/typespec-azure-core\";\r\n\r\nmodel DictionaryControl {\r\n  discounts: Record<decimal>;\r\n}\r\n",
+    "actual": {
+      "@azure-tools/typespec-azure-core/no-format": 0,
+      "@azure-tools/typespec-azure-core/known-encoding": 0,
+      "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+    },
+    "interpretation": "Zero warnings confirms the uncovered Record<decimal> value shape; not an approved acceptance result."
+  },
+  "totals": {
+    "swagger": 12,
+    "native": {
+      "@azure-tools/typespec-azure-core/no-format": 0,
+      "@azure-tools/typespec-azure-core/known-encoding": 10,
+      "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+    },
+    "related": 11,
+    "swaggerOnly": 1,
+    "typeSpecOnly": 0
+  },
+  "reportVerification": {
+    "status": "passed",
+    "swaggerOccurrences": 12,
+    "nativeWarnings": 11,
+    "exactAuthoredExcerpts": 24
+  },
+  "projects": [
+    {
+      "name": "Commerce",
+      "sourcePath": "specification/commerce/resource-manager/Microsoft.Commerce/Commerce",
+      "apiVersion": "2015-06-01-preview",
+      "reason": "Generic decimal credit alongside allowed float32 quantities; remaining Swagger-positive pricing service.",
+      "swagger": 2,
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "disabledSuppressions": 50,
+      "disabledTargetSuppressions": 1,
+      "relatedSourceWarningOccurrences": 1,
+      "swaggerOnlyOccurrences": 1,
+      "typeSpecOnlyOccurrences": 0,
+      "sourceWitnesses": [
+        {
+          "file": "models.tsp",
+          "line": 332,
+          "text": "Credit?: decimal;",
+          "sourceSha256": "fd1460c04cbb8dbfa06c256f4c9a9a2ee6f759763587afdbca6d3674d612bc0d"
+        },
+        {
+          "file": "models.tsp",
+          "line": 101,
+          "text": "quantity?: float32;",
+          "sourceSha256": "fd1460c04cbb8dbfa06c256f4c9a9a2ee6f759763587afdbca6d3674d612bc0d"
+        }
+      ],
+      "observations": [
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/commerce/resource-manager/Microsoft.Commerce/Commerce",
+          "swaggerFile": "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json",
+          "validatorInputFile": "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json",
+          "sourceDocuments": [
+            "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'decimal' is not a known format.",
+          "path": [
+            "definitions",
+            "MonetaryCommitment",
+            "properties",
+            "TieredDiscount",
+            "additionalProperties",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "MonetaryCommitment",
+              "properties",
+              "TieredDiscount",
+              "additionalProperties",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 325,
+                "column": 22
+              },
+              "end": {
+                "line": 325,
+                "column": 31
+              }
+            }
+          },
+          "pointer": "/definitions/MonetaryCommitment/properties/TieredDiscount/additionalProperties/format",
+          "format": "decimal",
+          "model": "MonetaryCommitment",
+          "property": "TieredDiscount",
+          "schema": {
+            "format": "decimal",
+            "type": "number"
+          },
+          "propertySchema": {
+            "type": "object",
+            "description": "The list of key/value pairs for the tiered meter rates, in the format 'key':'value' where key = price, and value = the corresponding discount percentage. This field is used only by offer terms of type 'Monetary Commitment'.",
+            "additionalProperties": {
+              "format": "decimal",
+              "type": "number"
+            }
+          },
+          "snapshot": "swagger/commerce.json",
+          "swaggerSha256": "b40738ae95ab7f28697f52e374de3bf055af21c7eb2aeee1d91437c7ff6f68da",
+          "sourceCandidates": [
+            {
+              "model": "MonetaryCommitment",
+              "namespace": "Microsoft.Commerce",
+              "property": "TieredDiscount",
+              "type": "Model",
+              "elementType": "decimal",
+              "scalarChain": [
+                "decimal",
+                "numeric"
+              ],
+              "authoredFormat": false,
+              "sourceFile": "models.tsp",
+              "line": 356,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n",
+                "#suppress \"@azure-tools/typespec-azure-resource-manager/arm-no-record\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "models.tsp",
+                "line": 356,
+                "sourceSha256": "fd1460c04cbb8dbfa06c256f4c9a9a2ee6f759763587afdbca6d3674d612bc0d",
+                "start": 352,
+                "end": 359,
+                "text": "   * The list of key/value pairs for the tiered meter rates, in the format 'key':'value' where key = price, and value = the corresponding discount percentage. This field is used only by offer terms of type 'Monetary Commitment'.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-no-record\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  TieredDiscount?: Record<decimal>;\n\n  /**\n   * An array of meter ids that are excluded from the given offer terms.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/models.tsp#L356"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "nativeDiagnostics": [],
+          "disposition": "swagger-only"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/commerce/resource-manager/Microsoft.Commerce/Commerce",
+          "swaggerFile": "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json",
+          "validatorInputFile": "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json",
+          "sourceDocuments": [
+            "projects/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/swagger/preview/2015-06-01-preview/commerce.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'decimal' is not a known format.",
+          "path": [
+            "definitions",
+            "MonetaryCredit",
+            "properties",
+            "Credit",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "MonetaryCredit",
+              "properties",
+              "Credit",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 350,
+                "column": 20
+              },
+              "end": {
+                "line": 350,
+                "column": 29
+              }
+            }
+          },
+          "pointer": "/definitions/MonetaryCredit/properties/Credit/format",
+          "format": "decimal",
+          "model": "MonetaryCredit",
+          "property": "Credit",
+          "schema": {
+            "type": "number",
+            "format": "decimal",
+            "description": "The amount of credit provided under the terms of the given offer level."
+          },
+          "propertySchema": {
+            "type": "number",
+            "format": "decimal",
+            "description": "The amount of credit provided under the terms of the given offer level."
+          },
+          "snapshot": "swagger/commerce.json",
+          "swaggerSha256": "b40738ae95ab7f28697f52e374de3bf055af21c7eb2aeee1d91437c7ff6f68da",
+          "sourceCandidates": [
+            {
+              "model": "MonetaryCredit",
+              "namespace": "Microsoft.Commerce",
+              "property": "Credit",
+              "type": "decimal",
+              "scalarChain": [
+                "decimal",
+                "numeric"
+              ],
+              "authoredFormat": false,
+              "sourceFile": "models.tsp",
+              "line": 332,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n",
+                "#suppress \"@azure-tools/typespec-azure-core/no-generic-numeric\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "models.tsp",
+                "line": 332,
+                "sourceSha256": "fd1460c04cbb8dbfa06c256f4c9a9a2ee6f759763587afdbca6d3674d612bc0d",
+                "start": 328,
+                "end": 335,
+                "text": "   * The amount of credit provided under the terms of the given offer level.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  #suppress \"@azure-tools/typespec-azure-core/no-generic-numeric\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  Credit?: decimal;\n\n  /**\n   * An array of meter ids that are excluded from the given offer terms.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/commerce/resource-manager/Microsoft.Commerce/Commerce/models.tsp#L332"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+              "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead.",
+              "sourceFile": "models.tsp",
+              "line": 332,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        }
+      ],
+      "nativeDiagnostics": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead.",
+          "sourceFile": "models.tsp",
+          "line": 332,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "name": "Service Fabric",
+      "sourcePath": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+      "apiVersion": "2026-03-01-preview",
+      "reason": "Unsupported duration-constant encoding across application and cluster upgrade models; distinct from previously tested Managed Clusters.",
+      "swagger": 10,
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 10,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "disabledSuppressions": 107,
+      "disabledTargetSuppressions": 10,
+      "relatedSourceWarningOccurrences": 10,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
+      "sourceWitnesses": [
+        {
+          "file": "ApplicationResource.tsp",
+          "line": 246,
+          "text": "@encode(\"duration-constant\")",
+          "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26"
+        },
+        {
+          "file": "Cluster.tsp",
+          "line": 984,
+          "text": "@encode(\"duration-constant\")",
+          "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d"
+        },
+        {
+          "file": "ServiceResource.tsp",
+          "line": 440,
+          "text": "minInstancePercentage?: bytes;",
+          "sourceSha256": "9f635ada2ef92474756fc436258bf33ed4590a700ccdb68ac0e71e87089cb729"
+        }
+      ],
+      "observations": [
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ArmRollingUpgradeMonitoringPolicy",
+            "properties",
+            "healthCheckWaitDuration",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ArmRollingUpgradeMonitoringPolicy",
+              "properties",
+              "healthCheckWaitDuration",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 2556,
+                "column": 20
+              },
+              "end": {
+                "line": 2556,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ArmRollingUpgradeMonitoringPolicy/properties/healthCheckWaitDuration/format",
+          "format": "duration-constant",
+          "model": "ArmRollingUpgradeMonitoringPolicy",
+          "property": "healthCheckWaitDuration",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to wait after completing an upgrade domain before applying health policies. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to wait after completing an upgrade domain before applying health policies. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ArmRollingUpgradeMonitoringPolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckWaitDuration",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 247,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "ApplicationResource.tsp",
+                "line": 247,
+                "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26",
+                "start": 243,
+                "end": 250,
+                "text": "   * The amount of time to wait after completing an upgrade domain before applying health policies. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckWaitDuration?: duration;\n\n  /**\n   * The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/ApplicationResource.tsp#L247"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 247,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ArmRollingUpgradeMonitoringPolicy",
+            "properties",
+            "healthCheckStableDuration",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ArmRollingUpgradeMonitoringPolicy",
+              "properties",
+              "healthCheckStableDuration",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 2561,
+                "column": 20
+              },
+              "end": {
+                "line": 2561,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ArmRollingUpgradeMonitoringPolicy/properties/healthCheckStableDuration/format",
+          "format": "duration-constant",
+          "model": "ArmRollingUpgradeMonitoringPolicy",
+          "property": "healthCheckStableDuration",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ArmRollingUpgradeMonitoringPolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckStableDuration",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 254,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "ApplicationResource.tsp",
+                "line": 254,
+                "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26",
+                "start": 250,
+                "end": 257,
+                "text": "   * The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckStableDuration?: duration;\n\n  /**\n   * The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/ApplicationResource.tsp#L254"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 254,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ArmRollingUpgradeMonitoringPolicy",
+            "properties",
+            "healthCheckRetryTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ArmRollingUpgradeMonitoringPolicy",
+              "properties",
+              "healthCheckRetryTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 2566,
+                "column": 20
+              },
+              "end": {
+                "line": 2566,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ArmRollingUpgradeMonitoringPolicy/properties/healthCheckRetryTimeout/format",
+          "format": "duration-constant",
+          "model": "ArmRollingUpgradeMonitoringPolicy",
+          "property": "healthCheckRetryTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ArmRollingUpgradeMonitoringPolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckRetryTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 261,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "ApplicationResource.tsp",
+                "line": 261,
+                "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26",
+                "start": 257,
+                "end": 264,
+                "text": "   * The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckRetryTimeout?: duration;\n\n  /**\n   * The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/ApplicationResource.tsp#L261"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 261,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ArmRollingUpgradeMonitoringPolicy",
+            "properties",
+            "upgradeTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ArmRollingUpgradeMonitoringPolicy",
+              "properties",
+              "upgradeTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 2571,
+                "column": 20
+              },
+              "end": {
+                "line": 2571,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ArmRollingUpgradeMonitoringPolicy/properties/upgradeTimeout/format",
+          "format": "duration-constant",
+          "model": "ArmRollingUpgradeMonitoringPolicy",
+          "property": "upgradeTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ArmRollingUpgradeMonitoringPolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "upgradeTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 268,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "ApplicationResource.tsp",
+                "line": 268,
+                "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26",
+                "start": 264,
+                "end": 271,
+                "text": "   * The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  upgradeTimeout?: duration;\n\n  /**\n   * The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/ApplicationResource.tsp#L268"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 268,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ArmRollingUpgradeMonitoringPolicy",
+            "properties",
+            "upgradeDomainTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ArmRollingUpgradeMonitoringPolicy",
+              "properties",
+              "upgradeDomainTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 2576,
+                "column": 20
+              },
+              "end": {
+                "line": 2576,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ArmRollingUpgradeMonitoringPolicy/properties/upgradeDomainTimeout/format",
+          "format": "duration-constant",
+          "model": "ArmRollingUpgradeMonitoringPolicy",
+          "property": "upgradeDomainTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ArmRollingUpgradeMonitoringPolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "upgradeDomainTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 275,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "ApplicationResource.tsp",
+                "line": 275,
+                "sourceSha256": "8546f5bcad102365b12fa4c53c61fc116417075b06b5a65e7b5b91a0eb962e26",
+                "start": 271,
+                "end": 278,
+                "text": "   * The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\".\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  upgradeDomainTimeout?: duration;\n}\n\n/**",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/ApplicationResource.tsp#L275"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "ApplicationResource.tsp",
+              "line": 275,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ClusterUpgradePolicy",
+            "properties",
+            "healthCheckWaitDuration",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ClusterUpgradePolicy",
+              "properties",
+              "healthCheckWaitDuration",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 3425,
+                "column": 20
+              },
+              "end": {
+                "line": 3425,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ClusterUpgradePolicy/properties/healthCheckWaitDuration/format",
+          "format": "duration-constant",
+          "model": "ClusterUpgradePolicy",
+          "property": "healthCheckWaitDuration",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The length of time to wait after completing an upgrade domain before performing health checks. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The length of time to wait after completing an upgrade domain before performing health checks. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ClusterUpgradePolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckWaitDuration",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "Cluster.tsp",
+              "line": 985,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "Cluster.tsp",
+                "line": 985,
+                "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d",
+                "start": 981,
+                "end": 988,
+                "text": "   * The length of time to wait after completing an upgrade domain before performing health checks. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckWaitDuration: duration;\n\n  /**\n   * The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/Cluster.tsp#L985"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "Cluster.tsp",
+              "line": 985,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ClusterUpgradePolicy",
+            "properties",
+            "healthCheckStableDuration",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ClusterUpgradePolicy",
+              "properties",
+              "healthCheckStableDuration",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 3430,
+                "column": 20
+              },
+              "end": {
+                "line": 3430,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ClusterUpgradePolicy/properties/healthCheckStableDuration/format",
+          "format": "duration-constant",
+          "model": "ClusterUpgradePolicy",
+          "property": "healthCheckStableDuration",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ClusterUpgradePolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckStableDuration",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "Cluster.tsp",
+              "line": 992,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "Cluster.tsp",
+                "line": 992,
+                "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d",
+                "start": 988,
+                "end": 995,
+                "text": "   * The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. The duration can be in either hh:mm:ss or in d.hh:mm:ss.ms format.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckStableDuration: duration;\n\n  /**\n   * The amount of time to retry health evaluation when the application or cluster is unhealthy before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/Cluster.tsp#L992"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "Cluster.tsp",
+              "line": 992,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ClusterUpgradePolicy",
+            "properties",
+            "healthCheckRetryTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ClusterUpgradePolicy",
+              "properties",
+              "healthCheckRetryTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 3435,
+                "column": 20
+              },
+              "end": {
+                "line": 3435,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ClusterUpgradePolicy/properties/healthCheckRetryTimeout/format",
+          "format": "duration-constant",
+          "model": "ClusterUpgradePolicy",
+          "property": "healthCheckRetryTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to retry health evaluation when the application or cluster is unhealthy before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time to retry health evaluation when the application or cluster is unhealthy before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ClusterUpgradePolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "healthCheckRetryTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "Cluster.tsp",
+              "line": 999,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "Cluster.tsp",
+                "line": 999,
+                "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d",
+                "start": 995,
+                "end": 1002,
+                "text": "   * The amount of time to retry health evaluation when the application or cluster is unhealthy before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  healthCheckRetryTimeout: duration;\n\n  /**\n   * The amount of time the overall upgrade has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/Cluster.tsp#L999"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "Cluster.tsp",
+              "line": 999,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ClusterUpgradePolicy",
+            "properties",
+            "upgradeTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ClusterUpgradePolicy",
+              "properties",
+              "upgradeTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 3440,
+                "column": 20
+              },
+              "end": {
+                "line": 3440,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ClusterUpgradePolicy/properties/upgradeTimeout/format",
+          "format": "duration-constant",
+          "model": "ClusterUpgradePolicy",
+          "property": "upgradeTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time the overall upgrade has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time the overall upgrade has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ClusterUpgradePolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "upgradeTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "Cluster.tsp",
+              "line": 1006,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "Cluster.tsp",
+                "line": 1006,
+                "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d",
+                "start": 1002,
+                "end": 1009,
+                "text": "   * The amount of time the overall upgrade has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  upgradeTimeout: duration;\n\n  /**\n   * The amount of time each upgrade domain has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/Cluster.tsp#L1006"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "Cluster.tsp",
+              "line": 1006,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        },
+        {
+          "rule": "ValidFormats",
+          "level": "error",
+          "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+          "swaggerFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "validatorInputFile": "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json",
+          "sourceDocuments": [
+            "projects/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/swagger/preview/2026-03-01-preview/servicefabric.json"
+          ],
+          "sourceAttribution": "reported",
+          "message": "'duration-constant' is not a known format.",
+          "path": [
+            "definitions",
+            "ClusterUpgradePolicy",
+            "properties",
+            "upgradeDomainTimeout",
+            "format"
+          ],
+          "details": {
+            "jsonpath": [
+              "definitions",
+              "ClusterUpgradePolicy",
+              "properties",
+              "upgradeDomainTimeout",
+              "format"
+            ],
+            "validationCategory": "",
+            "providerNamespace": false,
+            "resourceType": false,
+            "rpcGuidelineCode": "",
+            "range": {
+              "start": {
+                "line": 3445,
+                "column": 20
+              },
+              "end": {
+                "line": 3445,
+                "column": 39
+              }
+            }
+          },
+          "pointer": "/definitions/ClusterUpgradePolicy/properties/upgradeDomainTimeout/format",
+          "format": "duration-constant",
+          "model": "ClusterUpgradePolicy",
+          "property": "upgradeDomainTimeout",
+          "schema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time each upgrade domain has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "propertySchema": {
+            "type": "string",
+            "format": "duration-constant",
+            "description": "The amount of time each upgrade domain has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format."
+          },
+          "snapshot": "swagger/servicefabric.json",
+          "swaggerSha256": "f01ef2ac9301feb1491a7c5378e23f667dd2973d1ff27397f43759b4ba902311",
+          "sourceCandidates": [
+            {
+              "model": "ClusterUpgradePolicy",
+              "namespace": "Microsoft.ServiceFabric",
+              "property": "upgradeDomainTimeout",
+              "type": "duration",
+              "scalarChain": [
+                "duration"
+              ],
+              "authoredFormat": false,
+              "encoding": "duration-constant",
+              "sourceFile": "Cluster.tsp",
+              "line": 1013,
+              "column": 3,
+              "suppressionDirectives": [
+                "#suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n"
+              ],
+              "excerpt": {
+                "sourceFile": "Cluster.tsp",
+                "line": 1013,
+                "sourceSha256": "f9e989c78c449c9d212fa6f87e8e31cfb9171ff6abb6734a808c58b12ade632d",
+                "start": 1009,
+                "end": 1016,
+                "text": "   * The amount of time each upgrade domain has to complete before the upgrade rolls back. The timeout can be in either hh:mm:ss or in d.hh:mm:ss.ms format.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Backwards compatibility with non-standard duration encoding in c#\"\n  @encode(\"duration-constant\")\n  upgradeDomainTimeout: duration;\n\n  /**\n   * The cluster health policy used when upgrading the cluster.",
+                "url": "https://github.com/Azure/azure-rest-api-specs/blob/2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9/specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/Cluster.tsp#L1013"
+              }
+            }
+          ],
+          "relatedRule": "@azure-tools/typespec-azure-core/known-encoding",
+          "nativeDiagnostics": [
+            {
+              "rule": "@azure-tools/typespec-azure-core/known-encoding",
+              "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+              "sourceFile": "Cluster.tsp",
+              "line": 1013,
+              "column": 3
+            }
+          ],
+          "disposition": "related-source-warning"
+        }
+      ],
+      "nativeDiagnostics": [
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "Cluster.tsp",
+          "line": 985,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "Cluster.tsp",
+          "line": 992,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "Cluster.tsp",
+          "line": 999,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "Cluster.tsp",
+          "line": 1006,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "Cluster.tsp",
+          "line": 1013,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "ApplicationResource.tsp",
+          "line": 247,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "ApplicationResource.tsp",
+          "line": 254,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "ApplicationResource.tsp",
+          "line": 261,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "ApplicationResource.tsp",
+          "line": 268,
+          "column": 3
+        },
+        {
+          "rule": "@azure-tools/typespec-azure-core/known-encoding",
+          "message": "Encoding \"duration-constant\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url",
+          "sourceFile": "ApplicationResource.tsp",
+          "line": 275,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "name": "Compute",
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+      "apiVersion": "2026-04-01",
+      "reason": "Large VM/VMSS model graph, typed operation parameters, allowed float64 prices and standard duration types.",
+      "swagger": 0,
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "disabledSuppressions": 786,
+      "disabledTargetSuppressions": 0,
+      "relatedSourceWarningOccurrences": 0,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
+      "sourceWitnesses": [
+        {
+          "file": "models.tsp",
+          "line": 3476,
+          "text": "maxPrice?: float64;",
+          "sourceSha256": "87e084e0e5bca7f42cb0c1518f06f1280adc107fff381d08ad4668e94d99ca84"
+        },
+        {
+          "file": "models.tsp",
+          "line": 1210,
+          "text": "waitDuration?: duration;",
+          "sourceSha256": "87e084e0e5bca7f42cb0c1518f06f1280adc107fff381d08ad4668e94d99ca84"
+        }
+      ],
+      "observations": [],
+      "nativeDiagnostics": []
+    },
+    {
+      "name": "Storage",
+      "sourcePath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "reason": "Supported RFC7231 datetime encoding and fixed-precision float32/float64 lifecycle and platform metric thresholds.",
+      "swagger": 0,
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "disabledSuppressions": 452,
+      "disabledTargetSuppressions": 0,
+      "relatedSourceWarningOccurrences": 0,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
+      "sourceWitnesses": [
+        {
+          "file": "models.tsp",
+          "line": 2367,
+          "text": "@encode(DateTimeKnownEncoding.rfc7231)",
+          "sourceSha256": "a02925233c568c8678ab3c95af5c4c23ee3440f2e92965a748329dbe44442274"
+        },
+        {
+          "file": "models.tsp",
+          "line": 5105,
+          "text": "daysAfterModificationGreaterThan?: float32;",
+          "sourceSha256": "a02925233c568c8678ab3c95af5c4c23ee3440f2e92965a748329dbe44442274"
+        },
+        {
+          "file": "models.tsp",
+          "line": 2189,
+          "text": "guardrailIOScalar?: float64;",
+          "sourceSha256": "a02925233c568c8678ab3c95af5c4c23ee3440f2e92965a748329dbe44442274"
+        }
+      ],
+      "observations": [],
+      "nativeDiagnostics": []
+    },
+    {
+      "name": "Key Vault",
+      "sourcePath": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault",
+      "apiVersion": "2026-06-01-preview",
+      "reason": "Supported base64url-encoded bytes in vault/HSM key material plus enum and model arrays.",
+      "swagger": 0,
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "disabledSuppressions": 291,
+      "disabledTargetSuppressions": 0,
+      "relatedSourceWarningOccurrences": 0,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
+      "sourceWitnesses": [
+        {
+          "file": "models.tsp",
+          "line": 837,
+          "text": "@encode(\"base64url\")",
+          "sourceSha256": "b9626d0fc171b2c7efeb39b1c9103ad3a333dcb2ab23e117bd847fc69c224863"
+        },
+        {
+          "file": "models.tsp",
+          "line": 838,
+          "text": "data?: bytes;",
+          "sourceSha256": "b9626d0fc171b2c7efeb39b1c9103ad3a333dcb2ab23e117bd847fc69c224863"
+        },
+        {
+          "file": "models.tsp",
+          "line": 680,
+          "text": "keyOps?: JsonWebKeyOperation[];",
+          "sourceSha256": "b9626d0fc171b2c7efeb39b1c9103ad3a333dcb2ab23e117bd847fc69c224863"
+        }
+      ],
+      "observations": [],
+      "nativeDiagnostics": []
+    }
+  ]
+}
