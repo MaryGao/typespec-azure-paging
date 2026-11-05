@@ -1,10 +1,12 @@
 {
   "assessment": "Five-project purposive native-source / retained-Swagger-rule pilot; not migration acceptance.",
+  "mode": "without-suppressions",
+  "correction": "Supersedes the original comparison that mistakenly honored source suppressions.",
   "candidateCommit": "1592d198b388e8612001bc4fa3e4f0b57b1663d7",
   "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
   "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
   "node": "v24.20.0",
-  "finishedAt": "2026-11-05T02:32:52.455Z",
+  "finishedAt": "2026-11-05T03:45:28.686Z",
   "baseline": {
     "status": "passed",
     "exitCode": 0,
@@ -15,7 +17,49 @@
     "helperSha256": "4a516fe89e6b93bd7cc519647492b6c9d4083aa0ebe2df8e56a2cc378a114e4a",
     "swaggerGeneration": "not-run"
   },
-  "nativeWorkerSha256": "a2eac66bcfdd1b7f133634a6359f8bd6790ea48b4e0e56aad41f9782d58344d1",
+  "nativeWorkerSha256": "647a5d3cfbd31605f32c9d6bc2f9b1d924823d0836fa373448d37390517980f4",
+  "sourceHostSha256": "c3b47a9311a34d9cc1e4591b4d2ff823877e1e82a28037fcc6cbb7b2631c077f",
+  "suppressionDisableControls": [
+    {
+      "disabledSuppressions": false,
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "passed": true
+    },
+    {
+      "disabledSuppressions": true,
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "passed": true
+    }
+  ],
+  "suppressionControlSource": "import \"@azure-tools/typespec-azure-core\";\r\n\r\nmodel Control {\r\n  #suppress \"@azure-tools/typespec-azure-core/no-format\" \"Control\"\r\n  @format(\"fake\")\r\n  unknownFormat: string;\r\n\r\n  #suppress \"@azure-tools/typespec-azure-core/no-format\" \"Control\"\r\n  @format(\"uuid\")\r\n  recognizedFormat: string;\r\n\r\n  #suppress \"@azure-tools/typespec-azure-core/known-encoding\" \"Control\"\r\n  @encode(\"custom-rfc\")\r\n  timestamp: utcDateTime;\r\n\r\n  #suppress \"@azure-tools/typespec-azure-core/no-generic-numeric\" \"Control\"\r\n  genericNumber: integer;\r\n}\r\n",
+  "suppressionPolicies": {
+    "native": "All authored-source #suppress directives disabled in memory, retaining exact locations and checking unchanged on-disk hashes.",
+    "swagger": {
+      "readmeSuppressionsApplied": false,
+      "autorestSuppressionPipelineUsed": false,
+      "diagnosticFiltering": "None; every ValidFormats result from the production rule is retained.",
+      "swaggerInput": "Unmodified retained JSON; production function has no suppression predicate."
+    }
+  },
+  "schemaFormatFunctionSha256": "57e849d101580ab3b3939a07cc138611a89014616333eec722e72720e57d8423",
   "nativeControls": {
     "status": "success",
     "controls": [
@@ -316,7 +360,7 @@
     "changedDocumentationFormatting": "passed"
   },
   "limits": [
-    "Source suppressions preserved; saved README suppressions not applied.",
+    "All authored-source suppressions disabled; package libraries remain outside authored service scope. No Swagger README/AutoRest suppression filtering.",
     "Source not projected to each saved API version; source-name candidates are not proven correspondence.",
     "No fresh Swagger emission or emitter unknown-format assessment.",
     "Rule-only Spectral replay, not full AutoRest validation or full-corpus migration acceptance."

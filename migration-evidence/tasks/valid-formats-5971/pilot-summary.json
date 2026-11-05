@@ -1,6 +1,7 @@
 {
   "status": "complete",
-  "interpretation": "Five-project purposive pilot; separate related policies, preserved suppressions, no asserted one-to-one coverage.",
+  "mode": "without-suppressions",
+  "interpretation": "Exactly five projects; all authored source suppressions disabled; no Swagger suppression filtering; separate related policies.",
   "projects": [
     {
       "name": "Consumption",
@@ -11,10 +12,13 @@
       "savedReplayAgreement": true,
       "nativeStatus": "success",
       "nativeCounts": {
-        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/no-format": 11,
         "@azure-tools/typespec-azure-core/known-encoding": 0,
-        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 75
       },
+      "relatedSourceWarningOccurrences": 75,
+      "swaggerOnlyOccurrences": 1,
+      "typeSpecOnlyOccurrences": 11,
       "relevantSourceDeclarations": 87,
       "declarationsWithRelatedSuppressions": {
         "no-format": 11,
@@ -33,8 +37,11 @@
       "nativeCounts": {
         "@azure-tools/typespec-azure-core/no-format": 0,
         "@azure-tools/typespec-azure-core/known-encoding": 0,
-        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 18
       },
+      "relatedSourceWarningOccurrences": 18,
+      "swaggerOnlyOccurrences": 1,
+      "typeSpecOnlyOccurrences": 0,
       "relevantSourceDeclarations": 19,
       "declarationsWithRelatedSuppressions": {
         "no-format": 0,
@@ -52,9 +59,12 @@
       "nativeStatus": "success",
       "nativeCounts": {
         "@azure-tools/typespec-azure-core/no-format": 0,
-        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 14,
         "@azure-tools/typespec-azure-core/no-generic-numeric": 0
       },
+      "relatedSourceWarningOccurrences": 14,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
       "relevantSourceDeclarations": 14,
       "declarationsWithRelatedSuppressions": {
         "no-format": 0,
@@ -72,9 +82,12 @@
       "nativeStatus": "success",
       "nativeCounts": {
         "@azure-tools/typespec-azure-core/no-format": 0,
-        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 2,
         "@azure-tools/typespec-azure-core/no-generic-numeric": 0
       },
+      "relatedSourceWarningOccurrences": 2,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 0,
       "relevantSourceDeclarations": 2,
       "declarationsWithRelatedSuppressions": {
         "no-format": 0,
@@ -91,10 +104,13 @@
       "savedReplayAgreement": true,
       "nativeStatus": "success",
       "nativeCounts": {
-        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/no-format": 2,
         "@azure-tools/typespec-azure-core/known-encoding": 0,
         "@azure-tools/typespec-azure-core/no-generic-numeric": 0
       },
+      "relatedSourceWarningOccurrences": 0,
+      "swaggerOnlyOccurrences": 0,
+      "typeSpecOnlyOccurrences": 2,
       "relevantSourceDeclarations": 2,
       "declarationsWithRelatedSuppressions": {
         "no-format": 2,
