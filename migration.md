@@ -48,6 +48,7 @@ Source analysis identifies boundaries that must be retained during later compari
 - Flow: `native-first`, following the requested skill from `feature/lintdiff-migration-new`, with the user's explicit early-review override.
 - Canonical base: `Azure/typespec-azure:main`, frozen at `f578e3ad757c9e4ea827e7d20212e7c53c303f43`.
 - Native head: `Azure/typespec-azure:feat/default-in-enum-5972`; the PR targets `main`.
+- Implementation PR: [Azure/typespec-azure#5973](https://github.com/Azure/typespec-azure/pull/5973), draft at `5d8b20e69bf9e37d49bd3ff50db6a09125992be1`.
 - Evidence head: `MaryGao/typespec-azure-paging:migration-evidence/default-in-enum-5972`. This is a separate verified personal fork of the canonical repository.
 - Status: draft for initial human review, not development-accepted or release-ready. No validation, automated review loops, integration labels, or full-population analysis were requested or executed.
 - Commit messages include `[skip ci]` to request that GitHub Actions defer push/PR validation during this initial review. Required checks remain outstanding.
