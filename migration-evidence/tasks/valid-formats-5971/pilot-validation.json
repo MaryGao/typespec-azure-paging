@@ -1,0 +1,324 @@
+{
+  "assessment": "Five-project purposive native-source / retained-Swagger-rule pilot; not migration acceptance.",
+  "candidateCommit": "1592d198b388e8612001bc4fa3e4f0b57b1663d7",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "node": "v24.20.0",
+  "finishedAt": "2026-11-05T02:32:52.455Z",
+  "baseline": {
+    "status": "passed",
+    "exitCode": 0,
+    "baselineId": "swagger-arm-20261026-2cd3c5dd",
+    "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+    "sourceCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "verification": "Full archive checksum, sealed identity, dataset inventory and references verified by shared_baseline.py fetch",
+    "helperSha256": "4a516fe89e6b93bd7cc519647492b6c9d4083aa0ebe2df8e56a2cc378a114e4a",
+    "swaggerGeneration": "not-run"
+  },
+  "nativeWorkerSha256": "a2eac66bcfdd1b7f133634a6359f8bd6790ea48b4e0e56aad41f9782d58344d1",
+  "nativeControls": {
+    "status": "success",
+    "controls": [
+      {
+        "name": "violating",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 2,
+          "@azure-tools/typespec-azure-core/known-encoding": 1,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 2,
+          "@azure-tools/typespec-azure-core/known-encoding": 1,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+        },
+        "passed": true
+      },
+      {
+        "name": "compliant",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "passed": true
+      },
+      {
+        "name": "numeric-boundaries",
+        "expected": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "actual": {
+          "@azure-tools/typespec-azure-core/no-format": 0,
+          "@azure-tools/typespec-azure-core/known-encoding": 0,
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+        },
+        "passed": true
+      }
+    ],
+    "fixtures": {
+      "violating": "import \"@azure-tools/typespec-azure-core\";\r\n\r\nmodel Control {\r\n  @format(\"fake\")\r\n  unknownFormat: string;\r\n\r\n  @format(\"uuid\")\r\n  recognizedFormat: string;\r\n\r\n  @encode(\"custom-rfc\")\r\n  timestamp: utcDateTime;\r\n\r\n  genericNumber: integer;\r\n}\r\n",
+      "compliant": "import \"@azure-tools/typespec-azure-core\";\r\n\r\nmodel Control {\r\n  id: Azure.Core.uuid;\r\n\r\n  @encode(\"rfc3339\")\r\n  timestamp: utcDateTime;\r\n\r\n  specificNumber: int32;\r\n  smallNumber: int8;\r\n  unsignedNumber: uint32;\r\n  preciseDecimal: decimal128;\r\n}\r\n",
+      "numeric-boundaries": "import \"@azure-tools/typespec-azure-core\";\r\nimport \"@typespec/http\";\r\n\r\nusing TypeSpec.Http;\r\n\r\nmodel Control {\r\n  genericArray: decimal[];\r\n}\r\n\r\n@route(\"/control\")\r\n@get\r\nop read(@query previewMarkupPercentage: decimal): string;\r\n"
+    }
+  },
+  "swaggerControls": [
+    {
+      "name": "unknown-string-format",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "recognized-uuid",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "missing-number-format",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "decimal-format",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "int8-format",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "uint32-format",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "case-sensitive-format",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "empty-format",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "shared-allowlist-not-type-compatibility",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ],
+  "loadedPackages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypointSha256": "8b62234f6206d445c5d51cf1b28e4724213d5dcf82100f3dc247467af917eebe"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "entrypointSha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypointSha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypointSha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypointSha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypointSha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypointSha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypointSha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    }
+  ],
+  "artifactVerification": {
+    "status": "passed",
+    "matchedPackedFiles": 3188,
+    "packages": [
+      {
+        "name": "@azure-tools/typespec-autorest",
+        "version": "0.73.2",
+        "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+        "sha256": "12f007e3b2b042111a188cbc0225d4e05a45e9798d1790de433db9ac49d4f763",
+        "matchedPackedFiles": 71
+      },
+      {
+        "name": "@azure-tools/typespec-azure-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+        "sha256": "79535c8b79267bf0459e6645a3c866c0c3a77f8b934bdec76813221f35a69830",
+        "matchedPackedFiles": 417
+      },
+      {
+        "name": "@azure-tools/typespec-azure-examples",
+        "version": "0.2.2",
+        "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+        "sha256": "021413bd38ef0b96614b0c74ccc58d6d77e5aa5e41e90b2c05673f31050fd6b6",
+        "matchedPackedFiles": 169
+      },
+      {
+        "name": "@azure-tools/typespec-azure-resource-manager",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+        "sha256": "030e847fb8a8caf3c7245e18ad9d77dfd40d058c099ab1eba9878b9c0c638eb0",
+        "matchedPackedFiles": 423
+      },
+      {
+        "name": "@azure-tools/typespec-azure-rulesets",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+        "sha256": "0148b1a75897a166b5e6b2bc622c4ec4dd6521c9e95ca00ef6a5369ea42a945c",
+        "matchedPackedFiles": 19
+      },
+      {
+        "name": "@azure-tools/typespec-client-generator-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+        "sha256": "72a087a6cd663b0909d89dde15774f43d9c2dfc4cff324912bacf6ca87be5eca",
+        "matchedPackedFiles": 180
+      },
+      {
+        "name": "@typespec/asset-emitter",
+        "version": "0.79.3",
+        "archive": "typespec-asset-emitter-0.79.3.tgz",
+        "sha256": "50d45bfbd92ad05972e0abc9038e8d8c31be7f6a32f2e036c669b892051b6896",
+        "matchedPackedFiles": 47
+      },
+      {
+        "name": "@typespec/compiler",
+        "version": "1.17.0",
+        "archive": "typespec-compiler-1.17.0.tgz",
+        "sha256": "05305a9ba831f7d11c70b928eb2ac0cac360c062910d8f2377768c980bff787b",
+        "matchedPackedFiles": 1082
+      },
+      {
+        "name": "@typespec/events",
+        "version": "0.87.0",
+        "archive": "typespec-events-0.87.0.tgz",
+        "sha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+        "matchedPackedFiles": 45
+      },
+      {
+        "name": "@typespec/http",
+        "version": "1.17.0",
+        "archive": "typespec-http-1.17.0.tgz",
+        "sha256": "300dc392c0a0637ea5821ea6a372677709e9690a762deadd1be06862783fddae",
+        "matchedPackedFiles": 181
+      },
+      {
+        "name": "@typespec/openapi",
+        "version": "1.17.0",
+        "archive": "typespec-openapi-1.17.0.tgz",
+        "sha256": "5c6fd79753f4f837a5b77a6e02bd6bbcc40de8740bde743e482e43a1e7c806a9",
+        "matchedPackedFiles": 42
+      },
+      {
+        "name": "@typespec/openapi3",
+        "version": "1.17.0",
+        "archive": "typespec-openapi3-1.17.0.tgz",
+        "sha256": "53fd6128fd32e5cd28b267f9f6a83b6db41462cec1ec21e6765f19e4378eec10",
+        "matchedPackedFiles": 278
+      },
+      {
+        "name": "@typespec/rest",
+        "version": "0.87.0",
+        "archive": "typespec-rest-0.87.0.tgz",
+        "sha256": "c9038ca1a0795082ae0b02fe5b2436a03d358c405931c10f8f723ed2b0526ba9",
+        "matchedPackedFiles": 58
+      },
+      {
+        "name": "@typespec/sse",
+        "version": "0.87.0",
+        "archive": "typespec-sse-0.87.0.tgz",
+        "sha256": "7750c52b8f58dfbc617140078e57fb9de7dc3292e9fa9b56630f4ed6ffe16725",
+        "matchedPackedFiles": 38
+      },
+      {
+        "name": "@typespec/streams",
+        "version": "0.87.0",
+        "archive": "typespec-streams-0.87.0.tgz",
+        "sha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+        "matchedPackedFiles": 34
+      },
+      {
+        "name": "@typespec/versioning",
+        "version": "0.87.0",
+        "archive": "typespec-versioning-0.87.0.tgz",
+        "sha256": "d71421f381f7abef857964aa995088ea7e3d5c1feed7614494c289fbaa5a10cf",
+        "matchedPackedFiles": 61
+      },
+      {
+        "name": "@typespec/xml",
+        "version": "0.87.0",
+        "archive": "typespec-xml-0.87.0.tgz",
+        "sha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
+        "matchedPackedFiles": 43
+      }
+    ],
+    "unusedArchives": [
+      {
+        "name": "@typespec/json-schema",
+        "archive": "typespec-json-schema-1.17.0.tgz",
+        "sha256": "ab150ff7b2ca26e07bc1abbc0429259a307f7eb698cf3c12d209fb0cd7f4615f",
+        "reason": "Packed build dependency; not installed in the selected specs dependency closure."
+      }
+    ]
+  },
+  "candidateChecks": {
+    "build": {
+      "passedPackages": 24
+    },
+    "focusedTests": {
+      "passed": 8,
+      "initialParallelHookTimeouts": 3,
+      "retry": "Serial; 60000 ms hook timeout."
+    },
+    "changedDocumentationFormatting": "passed"
+  },
+  "limits": [
+    "Source suppressions preserved; saved README suppressions not applied.",
+    "Source not projected to each saved API version; source-name candidates are not proven correspondence.",
+    "No fresh Swagger emission or emitter unknown-format assessment.",
+    "Rule-only Spectral replay, not full AutoRest validation or full-corpus migration acceptance."
+  ]
+}

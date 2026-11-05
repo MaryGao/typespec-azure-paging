@@ -1,0 +1,106 @@
+{
+  "status": "complete",
+  "interpretation": "Five-project purposive pilot; separate related policies, preserved suppressions, no asserted one-to-one coverage.",
+  "projects": [
+    {
+      "name": "Consumption",
+      "slug": "consumption",
+      "apiVersion": "2026-06-01",
+      "savedSwagger": 76,
+      "replaySwagger": 76,
+      "savedReplayAgreement": true,
+      "nativeStatus": "success",
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "relevantSourceDeclarations": 87,
+      "declarationsWithRelatedSuppressions": {
+        "no-format": 11,
+        "known-encoding": 0,
+        "no-generic-numeric": 75
+      }
+    },
+    {
+      "name": "Cost Management",
+      "slug": "cost-management",
+      "apiVersion": "2026-06-01",
+      "savedSwagger": 19,
+      "replaySwagger": 19,
+      "savedReplayAgreement": true,
+      "nativeStatus": "success",
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "relevantSourceDeclarations": 19,
+      "declarationsWithRelatedSuppressions": {
+        "no-format": 0,
+        "known-encoding": 0,
+        "no-generic-numeric": 18
+      }
+    },
+    {
+      "name": "Service Fabric Managed Clusters",
+      "slug": "service-fabric-managed-clusters",
+      "apiVersion": "2026-05-01-preview",
+      "savedSwagger": 14,
+      "replaySwagger": 14,
+      "savedReplayAgreement": true,
+      "nativeStatus": "success",
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "relevantSourceDeclarations": 14,
+      "declarationsWithRelatedSuppressions": {
+        "no-format": 0,
+        "known-encoding": 14,
+        "no-generic-numeric": 0
+      }
+    },
+    {
+      "name": "Cosmos DB",
+      "slug": "cosmos-db",
+      "apiVersion": "2026-04-01-preview",
+      "savedSwagger": 2,
+      "replaySwagger": 2,
+      "savedReplayAgreement": true,
+      "nativeStatus": "success",
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "relevantSourceDeclarations": 2,
+      "declarationsWithRelatedSuppressions": {
+        "no-format": 0,
+        "known-encoding": 2,
+        "no-generic-numeric": 0
+      }
+    },
+    {
+      "name": "API Management",
+      "slug": "api-management",
+      "apiVersion": "2025-09-01-preview",
+      "savedSwagger": 0,
+      "replaySwagger": 0,
+      "savedReplayAgreement": true,
+      "nativeStatus": "success",
+      "nativeCounts": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "relevantSourceDeclarations": 2,
+      "declarationsWithRelatedSuppressions": {
+        "no-format": 2,
+        "known-encoding": 0,
+        "no-generic-numeric": 0
+      }
+    }
+  ]
+}
