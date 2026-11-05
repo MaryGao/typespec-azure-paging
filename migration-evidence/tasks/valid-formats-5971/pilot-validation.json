@@ -1,12 +1,12 @@
 {
   "assessment": "Five-project purposive native-source / retained-Swagger-rule pilot; not migration acceptance.",
   "mode": "without-suppressions",
-  "correction": "Supersedes the original comparison that mistakenly honored source suppressions.",
-  "candidateCommit": "1592d198b388e8612001bc4fa3e4f0b57b1663d7",
+  "correction": "Post-fix rerun of the same five projects without suppressions. Both previously unmatched numeric reporting shapes are now covered; earlier raw results and the initial mistaken suppression-preserving run are archived locally.",
+  "candidateCommit": "952472b51b488486c0a41855cc8f3a22208613fe",
   "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
   "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
   "node": "v24.20.0",
-  "finishedAt": "2026-11-05T03:45:28.686Z",
+  "finishedAt": "2026-11-05T04:20:53.254Z",
   "baseline": {
     "status": "passed",
     "exitCode": 0,
@@ -96,12 +96,12 @@
         "expected": {
           "@azure-tools/typespec-azure-core/no-format": 0,
           "@azure-tools/typespec-azure-core/known-encoding": 0,
-          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 2
         },
         "actual": {
           "@azure-tools/typespec-azure-core/no-format": 0,
           "@azure-tools/typespec-azure-core/known-encoding": 0,
-          "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+          "@azure-tools/typespec-azure-core/no-generic-numeric": 2
         },
         "passed": true
       }
@@ -230,7 +230,7 @@
         "name": "@azure-tools/typespec-azure-core",
         "version": "0.73.0",
         "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
-        "sha256": "79535c8b79267bf0459e6645a3c866c0c3a77f8b934bdec76813221f35a69830",
+        "sha256": "b7d4146e420ed5472ab3b06537e5ebbea19e4c93a763c6cb5341f7bb80211035",
         "matchedPackedFiles": 417
       },
       {
@@ -350,14 +350,24 @@
   },
   "candidateChecks": {
     "build": {
-      "passedPackages": 24
+      "package": "@azure-tools/typespec-azure-core",
+      "status": "passed"
     },
     "focusedTests": {
-      "passed": 8,
-      "initialParallelHookTimeouts": 3,
-      "retry": "Serial; 60000 ms hook timeout."
+      "passed": 13,
+      "files": 3,
+      "execution": "Serial; 60000 ms hook timeout."
     },
-    "changedDocumentationFormatting": "passed"
+    "repositoryFormatting": "passed",
+    "repositoryLint": "passed"
+  },
+  "beforeFix": {
+    "candidateCommit": "1592d198b388e8612001bc4fa3e4f0b57b1663d7",
+    "numericWarnings": 93,
+    "swaggerOnlyOccurrences": 2,
+    "afterNumericWarnings": 95,
+    "afterSwaggerOnlyOccurrences": 0,
+    "localReports": "before-fix; without-suppressions"
   },
   "limits": [
     "All authored-source suppressions disabled; package libraries remain outside authored service scope. No Swagger README/AutoRest suppression filtering.",
