@@ -1,0 +1,21 @@
+[
+  {
+    "project": "specification/search/resource-manager/Microsoft.Search/Search",
+    "apiVersion": "2026-09-01-preview",
+    "status": "assessed",
+    "report": "reports/specification-search-resource-manager-Microsoft.Search-Search--7c6a037d.md",
+    "nativeReceipt": "native-417.json",
+    "swagger": 0,
+    "nativeRaw": 6,
+    "nativeSource": 6,
+    "ambient": 0,
+    "savedGetOperations": 13,
+    "savedGetBodyParameters": 0,
+    "rawDifference": -6,
+    "absoluteDifference": 6,
+    "relativeDifferenceVsSwagger": null,
+    "investigationStatus": "explained-source-only-client-customization",
+    "evidence": "../full-preflight/search-gap-investigation.json",
+    "policyReviewRequired": true
+  }
+]

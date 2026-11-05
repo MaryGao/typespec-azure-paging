@@ -1,0 +1,16 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery",
+    "apiVersion": "2026-08-31-preview"
+  },
+  "validatorRule": "GetMustNotHaveRequestBody",
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

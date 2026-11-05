@@ -1,0 +1,14 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": ".validation-controls\\get-must-not-have-request-body-5983\\suppressed"
+  },
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

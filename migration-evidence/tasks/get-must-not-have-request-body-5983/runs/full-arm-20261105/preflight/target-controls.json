@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "slug": "invalid-disabled-config",
+      "expected": 4,
+      "actual": 4,
+      "status": "passed",
+      "execution": {
+        "startedAt": "2026-11-05T09:49:53.780Z",
+        "completedAt": "2026-11-05T09:50:16.200Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null,
+        "status": "assessed",
+        "workerStatus": "success"
+      }
+    },
+    {
+      "slug": "compliant",
+      "expected": 0,
+      "actual": 0,
+      "status": "passed",
+      "execution": {
+        "startedAt": "2026-11-05T09:50:16.207Z",
+        "completedAt": "2026-11-05T09:50:21.080Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null,
+        "status": "assessed",
+        "workerStatus": "success"
+      }
+    },
+    {
+      "slug": "suppressed",
+      "expected": 0,
+      "actual": 0,
+      "status": "passed",
+      "execution": {
+        "startedAt": "2026-11-05T09:50:21.088Z",
+        "completedAt": "2026-11-05T09:50:25.934Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null,
+        "status": "assessed",
+        "workerStatus": "success"
+      }
+    }
+  ],
+  "limitation": "Synthetic controls exercise candidate execution only, not real-project positive coverage or default preset activation."
+}

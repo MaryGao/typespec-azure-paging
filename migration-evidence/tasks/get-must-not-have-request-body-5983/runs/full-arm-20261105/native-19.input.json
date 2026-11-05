@@ -1,0 +1,16 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components",
+    "apiVersion": "2025-01-23-preview"
+  },
+  "validatorRule": "GetMustNotHaveRequestBody",
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

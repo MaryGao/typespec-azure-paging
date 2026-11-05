@@ -1,0 +1,16 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "specification/dell/resource-manager/Dell.Storage/DellStorage",
+    "apiVersion": "2025-03-21-preview"
+  },
+  "validatorRule": "GetMustNotHaveRequestBody",
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,16 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi",
+    "apiVersion": "2021-10-14"
+  },
+  "validatorRule": "GetMustNotHaveRequestBody",
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

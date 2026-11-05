@@ -1,0 +1,16 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticBeanstalkEnvironment.Management",
+    "apiVersion": "2024-12-01"
+  },
+  "validatorRule": "GetMustNotHaveRequestBody",
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

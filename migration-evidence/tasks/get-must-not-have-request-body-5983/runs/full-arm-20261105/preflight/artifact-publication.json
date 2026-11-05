@@ -1,0 +1,43 @@
+{
+  "status": "uploaded-and-download-hash-verified",
+  "repository": "MaryGao/typespec-azure-paging",
+  "tag": "get-must-not-have-request-body-5983-full-arm-20261105",
+  "sha256": "6de31443403c728c5ff9b0135067a1cf88844e528e20f6ca25bf5a7ae0a60802",
+  "bytes": 1983858,
+  "verifiedAt": "2026-11-05T12:21:37.6604154Z",
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/MaryGao/typespec-azure-paging/releases/assets/713319769",
+        "contentType": "application/x-gtar",
+        "createdAt": "2026-11-05T12:21:34Z",
+        "digest": "sha256:6de31443403c728c5ff9b0135067a1cf88844e528e20f6ca25bf5a7ae0a60802",
+        "downloadCount": 0,
+        "id": "RA_kwDOVY5og84qhGVZ",
+        "label": "",
+        "name": "get-must-not-have-request-body-5983-candidate-artifacts-20261105.tar.gz",
+        "size": 1983858,
+        "state": "uploaded",
+        "updatedAt": "2026-11-05T12:21:35Z",
+        "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/get-must-not-have-request-body-5983-full-arm-20261105/get-must-not-have-request-body-5983-candidate-artifacts-20261105.tar.gz"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/MaryGao/typespec-azure-paging/releases/assets/713319771",
+        "contentType": "application/octet-stream",
+        "createdAt": "2026-11-05T12:21:34Z",
+        "digest": "sha256:178a4deb261257da0a79cae9f53d9d0688d68f240ec89da3081a96695103c67f",
+        "downloadCount": 0,
+        "id": "RA_kwDOVY5og84qhGVb",
+        "label": "",
+        "name": "get-must-not-have-request-body-5983-candidate-artifacts-20261105.tar.gz.sha256",
+        "size": 139,
+        "state": "uploaded",
+        "updatedAt": "2026-11-05T12:21:34Z",
+        "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/get-must-not-have-request-body-5983-full-arm-20261105/get-must-not-have-request-body-5983-candidate-artifacts-20261105.tar.gz.sha256"
+      }
+    ],
+    "tagName": "get-must-not-have-request-body-5983-full-arm-20261105",
+    "targetCommitish": "7f3aceccb9109f79ecb49a4768040aba5d5ef828",
+    "url": "https://github.com/MaryGao/typespec-azure-paging/releases/tag/get-must-not-have-request-body-5983-full-arm-20261105"
+  }
+}

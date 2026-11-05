@@ -1,0 +1,3 @@
+linter:
+  disable:
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body": "Intentionally disabled to verify explicit worker activation"

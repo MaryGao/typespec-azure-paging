@@ -1,0 +1,50 @@
+{
+  "manifestStatus": "complete",
+  "candidateCommit": "5e7a4849d2c0ed0a0e990bf3e0cf48436e6d218b",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "selected": 487,
+  "assessed": 487,
+  "unassessed": [],
+  "savedSwagger": 0,
+  "rawNative": 6,
+  "sourceNative": 6,
+  "ambient": 0,
+  "equalCountProjects": 486,
+  "swaggerExcess": 0,
+  "nativeExcess": 6,
+  "absoluteDifference": 6,
+  "relativeDifference": 1,
+  "relativeDifferenceDefinition": "Absolute per-project raw difference divided by max(total saved Swagger,total aligned native). Not an equivalence or recall score.",
+  "relativeDifferenceVsSwagger": null,
+  "observedProjectCoveragePercent": null,
+  "overlapProjects": 0,
+  "swaggerOnlyProjects": 0,
+  "nativeOnlyProjects": 1,
+  "savedSwaggerFiles": 649,
+  "savedProductionLogFiles": 1298,
+  "savedGetOperations": 7147,
+  "savedGetBodyParameters": 0,
+  "portableControls": {
+    "passed": 37,
+    "nonApplicable": 6,
+    "failed": 0
+  },
+  "activationControls": {
+    "passed": 2
+  },
+  "artifactPackages": 15,
+  "verifiedInstalledFiles": 2871,
+  "equivalence": "not-determined",
+  "differingProjects": 1,
+  "investigationsRequired": 0,
+  "explainedNativeOnlyProjects": 1,
+  "scopePolicyReviewRequired": true,
+  "elapsedSeconds": {
+    "total": 4485.562,
+    "preNative": 2659.415,
+    "native": 835.754,
+    "finalIntegrity": 990.393
+  }
+}

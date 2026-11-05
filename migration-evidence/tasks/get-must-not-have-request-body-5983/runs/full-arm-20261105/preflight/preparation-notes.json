@@ -1,0 +1,10 @@
+{
+  "productionChanges": false,
+  "notes": [
+    "The archived tooling directory has no Git metadata. The analyzer uses the existing clean full-tooling worktree at 52eeec48b136f97addc10d90dcba4457a04f83a7; its analyzer, worker and dataset source hashes match the archive. Its existing external tsx loader is selected explicitly; no tooling source or dependencies were changed.",
+    "The source/payload verifier initially attempted CommonJS require.resolve on the import-only rulesets package and failed with ERR_PACKAGE_PATH_NOT_EXPORTED. It now resolves the declared import entrypoint from the already located installed package manifest. No artifact or runtime package was changed.",
+    "Git sparse-checkout add does not accept --cone in this installed Git version. The corrected add --stdin retained all 957 authored TypeSpec directories as imported-source closure, in addition to the 487 selected project directories and workspace/common inputs.",
+    "The 37 portable controls passed; six unrelated resource-group-path-parameter fixtures were excluded before execution because their rule is absent from this main-based candidate.",
+    "Original candidate build stdout is retained in the session transcript, not a standalone log. Artifact hashes, installed bytes, source/build payload checks and commands provide separately retained provenance."
+  ]
+}

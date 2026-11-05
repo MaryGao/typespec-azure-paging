@@ -1,0 +1,33 @@
+{
+  "task": "GetMustNotHaveRequestBody full frozen ARM regression",
+  "authorization": "User: pls go with full regression and update migration.md",
+  "candidateCommit": "5e7a4849d2c0ed0a0e990bf3e0cf48436e6d218b",
+  "compilerCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "population": 487,
+  "filter": null,
+  "limit": null,
+  "scope": "source",
+  "nativeMode": "target-only",
+  "baselinePolicy": "frozen-reference",
+  "concurrency": 4,
+  "nativeBudgetSeconds": 5400,
+  "estimatedNativeMinutes": "20-40, plus full baseline verification/copy and source checkout expansion",
+  "question": "Does the PR candidate compile with the target rule across every frozen ARM project, and are there unexplained differences from verified historical Swagger observations?",
+  "swaggerRegeneration": false,
+  "artifacts": "Reuse the pilot's 15 freshly packed current-candidate/core archives, unchanged; verify their identities and installed payloads again after analyzer injection.",
+  "preflight": {
+    "targetControls": "Pilot explicit/optional/empty/implicit positives, compliant GET/POST/void, source suppression and configuration-disable override passed for these same artifacts.",
+    "portableControls": "Execute all applicable official-package harness fixtures; preregister exclusion only for six evaluates injected resource-group rule cases.",
+    "nonApplicability": "Those six fixtures require the unrelated resource-group-path-parameter migration rule absent from this main-based candidate. They are not passes.",
+    "source": "Expand only the task-owned isolated frozen specs runtime. Preserve original pilot reports and immutable shared baseline."
+  },
+  "output": "<coverage>\\full-regression",
+  "publication": "Update and push migration-evidence/get-must-not-have-request-body-5983 in MaryGao/typespec-azure-paging; keep the existing PR report URL and draft status.",
+  "remainingLimits": [
+    "Historical-reference/source scope is not identical-runtime or exact selected-version equivalence.",
+    "Full coverage does not itself establish real-project positive cases, default activation or independent semantic/release acceptance."
+  ]
+}

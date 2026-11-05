@@ -1,0 +1,552 @@
+{
+  "status": "all-six-native-only-findings-explained",
+  "candidateCommit": "5e7a4849d2c0ed0a0e990bf3e0cf48436e6d218b",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "project": "specification/search/resource-manager/Microsoft.Search/Search",
+  "nativeRaw": 6,
+  "savedSwagger": 0,
+  "sourceSha256": "3cd320be3ef41300bac76ebe2f6540fd2a8c38e506b38317f5895446b5228a5a",
+  "correspondence": "Exact diagnostic locations to semantic operations; SDK override object identity for go/csharp/javascript; original declared-service HTTP operation identity; exact verb/path to selected saved Swagger. Not operation-name or count-only matching.",
+  "services": [
+    {
+      "namespace": "Microsoft.Search",
+      "operations": 30,
+      "getOperations": 14
+    }
+  ],
+  "findings": [
+    {
+      "sourceFile": "client.tsp",
+      "line": 167,
+      "column": 4,
+      "operation": "Customizations.searchGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchGetCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "operationId": "Services_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "operationId": "Services_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "operationId": "Services_Get",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 533,
+      "column": 4,
+      "operation": "Customizations.privateLinkResourcesListSupportedCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResourcesCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "body",
+            "optional": false,
+            "typeKind": "Intrinsic",
+            "typeName": "void"
+          },
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 429,
+      "column": 4,
+      "operation": "Customizations.privateEndpointConnectionsGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "operationId": "PrivateEndpointConnections_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "operationId": "PrivateEndpointConnections_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "operationId": "PrivateEndpointConnections_Get",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 404,
+      "column": 4,
+      "operation": "Customizations.privateEndpointConnectionsListByServiceCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnectionsListByService",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 620,
+      "column": 4,
+      "operation": "Customizations.SharedPrivateLinkResourcesGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 594,
+      "column": 4,
+      "operation": "Customizations.SharedPrivateLinkResourcesListByServiceCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResourcesCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+              "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "bodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "classification": "Source-only SDK customization outside the declared HTTP service; implicit request-options wrapper is interpreted as an HTTP body. Original service operation has no non-void payload and matching saved Swagger GET has no body parameter."
+    }
+  ],
+  "disposition": "Preserve all six raw/source findings and the native-only project. This is an explained source-versus-emission/client-customization scope difference, not six demonstrated on-wire GET bodies. Whether the rule should exclude such helpers requires an explicit policy/review decision; no production fix or suppression is applied by this validation task.",
+  "limits": "Focused current-candidate source inspection is not a fresh historical emitter/validator execution or an all-version proof. Full source-scope comparison remains not-determined for semantic equivalence."
+}

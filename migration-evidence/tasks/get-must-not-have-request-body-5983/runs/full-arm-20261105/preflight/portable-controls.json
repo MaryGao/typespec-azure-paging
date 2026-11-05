@@ -1,0 +1,550 @@
+{
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 43,
+  "numPassedTests": 37,
+  "numFailedTests": 0,
+  "numPendingTests": 6,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1793880543064,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages loads the official package and explicitly activates a disabled target",
+          "status": "passed",
+          "title": "loads the official package and explicitly activates a disabled target",
+          "duration": 51055.361,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages does not report compliant nonboolean properties",
+          "status": "passed",
+          "title": "does not report compliant nonboolean properties",
+          "duration": 7400.409800000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages loads an explicit native package without claiming lint findings in configured mode",
+          "status": "passed",
+          "title": "loads an explicit native package without claiming lint findings in configured mode",
+          "duration": 7124.514200000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages loads an explicit native package without claiming lint findings in target-only mode",
+          "status": "passed",
+          "title": "loads an explicit native package without claiming lint findings in target-only mode",
+          "duration": 5220.486499999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages rejects an implicit empty target rather than manufacturing native compliance",
+          "status": "passed",
+          "title": "rejects an implicit empty target rather than manufacturing native compliance",
+          "duration": 89.33629999999539,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages runs only the target and leaves default activation explicitly unassessed",
+          "status": "passed",
+          "title": "runs only the target and leaves default activation explicitly unassessed",
+          "duration": 5222.49990000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains unassessed default activation after http-reachable alignment",
+          "status": "passed",
+          "title": "retains unassessed default activation after http-reachable alignment",
+          "duration": 5349.048400000014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains unassessed default activation after boolean-http alignment",
+          "status": "passed",
+          "title": "retains unassessed default activation after boolean-http alignment",
+          "duration": 4861.186799999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains unassessed default activation when a target-only worker throws",
+          "status": "passed",
+          "title": "retains unassessed default activation when a target-only worker throws",
+          "duration": 1174.3190000000031,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages preserves inherited short-name options and source suppression in configured mode",
+          "status": "passed",
+          "title": "preserves inherited short-name options and source suppression in configured mode",
+          "duration": 6253.952400000009,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages preserves inherited short-name options and source suppression in target-only mode",
+          "status": "passed",
+          "title": "preserves inherited short-name options and source suppression in target-only mode",
+          "duration": 4798.350200000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=configured verb=get segment=fixedGroup suppressed=false",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=configured verb=get segment=fixedGroup suppressed=false",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=configured verb=get segment={resourceGroupName} suppressed=false",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=configured verb=get segment={resourceGroupName} suppressed=false",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=target-only verb=get segment=fixedGroup suppressed=false",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=target-only verb=get segment=fixedGroup suppressed=false",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=target-only verb=get segment={resourceGroupName} suppressed=false",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=target-only verb=get segment={resourceGroupName} suppressed=false",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=target-only verb=post segment=fixedGroup suppressed=false",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=target-only verb=post segment=fixedGroup suppressed=false",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages evaluates injected resource-group rule: mode=target-only verb=get segment=fixedGroup suppressed=true",
+          "status": "skipped",
+          "title": "evaluates injected resource-group rule: mode=target-only verb=get segment=fixedGroup suppressed=true",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages resolves the import-only official Resource Manager rulesets package",
+          "status": "passed",
+          "title": "resolves the import-only official Resource Manager rulesets package",
+          "duration": 6435.4723000000085,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages preserves directly configured options instead of replacing them with defaults",
+          "status": "passed",
+          "title": "preserves directly configured options instead of replacing them with defaults",
+          "duration": 6329.303,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages preserves inherited options when explicitly activating a disabled target",
+          "status": "passed",
+          "title": "preserves inherited options when explicitly activating a disabled target",
+          "duration": 6215.965899999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains authored source suppressions",
+          "status": "passed",
+          "title": "retains authored source suppressions",
+          "duration": 6222.447100000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages fails explicitly when the injected library does not register the target",
+          "status": "passed",
+          "title": "fails explicitly when the injected library does not register the target",
+          "duration": 1150.6797000000079,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages rejects an unknown upstream rule instead of interpreting it as zero findings",
+          "status": "passed",
+          "title": "rejects an unknown upstream rule instead of interpreting it as zero findings",
+          "duration": 3210.610799999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages aligns boolean targets to the selected version 2025-01-01 and retains raw findings",
+          "status": "passed",
+          "title": "aligns boolean targets to the selected version 2025-01-01 and retains raw findings",
+          "duration": 6413.425400000007,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages aligns boolean targets to the selected version 2026-01-01 and retains raw findings",
+          "status": "passed",
+          "title": "aligns boolean targets to the selected version 2026-01-01 and retains raw findings",
+          "duration": 6445.442600000009,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages respects omit-unreachable-types=false for service namespace schemas",
+          "status": "passed",
+          "title": "respects omit-unreachable-types=false for service namespace schemas",
+          "duration": 6826.635300000024,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages respects omit-unreachable-types=true for service namespace schemas",
+          "status": "passed",
+          "title": "respects omit-unreachable-types=true for service namespace schemas",
+          "duration": 6507.169400000013,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages includes emitted derived models reachable only through their base model",
+          "status": "passed",
+          "title": "includes emitted derived models reachable only through their base model",
+          "duration": 6352.007199999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains default-emitted local children of reference-only bases",
+          "status": "passed",
+          "title": "retains default-emitted local children of reference-only bases",
+          "duration": 7133.748900000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains default-emitted named unions with inline boolean properties",
+          "status": "passed",
+          "title": "retains default-emitted named unions with inline boolean properties",
+          "duration": 7012.708199999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages excludes reference-only derived graphs when unreachable schemas are omitted",
+          "status": "passed",
+          "title": "excludes reference-only derived graphs when unreachable schemas are omitted",
+          "duration": 6789.709799999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages excludes direct reference-only model contents",
+          "status": "passed",
+          "title": "excludes direct reference-only model contents",
+          "duration": 6700.524799999985,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains locally emitted visibility transformations of referenced models",
+          "status": "passed",
+          "title": "retains locally emitted visibility transformations of referenced models",
+          "duration": 6757.805699999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages excludes nonpayload properties from boolean-http while retaining raw findings",
+          "status": "passed",
+          "title": "excludes nonpayload properties from boolean-http while retaining raw findings",
+          "duration": 7456.308799999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages excludes nonpayload properties from http-reachable while retaining raw findings",
+          "status": "passed",
+          "title": "excludes nonpayload properties from http-reachable while retaining raw findings",
+          "duration": 6919.756800000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages aligns referenced query parameters with omit-unreachable-types=false",
+          "status": "passed",
+          "title": "aligns referenced query parameters with omit-unreachable-types=false",
+          "duration": 6775.386499999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages aligns referenced query parameters with omit-unreachable-types=true",
+          "status": "passed",
+          "title": "aligns referenced query parameters with omit-unreachable-types=true",
+          "duration": 6366.033200000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains ordinary parameters, response headers and shared read schemas",
+          "status": "passed",
+          "title": "retains ordinary parameters, response headers and shared read schemas",
+          "duration": 6481.368600000016,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains metadata-annotated properties inside an explicit inline body",
+          "status": "passed",
+          "title": "retains metadata-annotated properties inside an explicit inline body",
+          "duration": 6342.782100000011,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains reachable union-variant diagnostic targets",
+          "status": "passed",
+          "title": "retains reachable union-variant diagnostic targets",
+          "duration": 6252.550199999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains a reachable operation's owning interface target",
+          "status": "passed",
+          "title": "retains a reachable operation's owning interface target",
+          "duration": 6260.022899999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains reachable enum-member diagnostic targets",
+          "status": "passed",
+          "title": "retains reachable enum-member diagnostic targets",
+          "duration": 6332.255000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "native coverage against injected official packages"
+          ],
+          "fullName": "native coverage against injected official packages retains the selected service namespace diagnostic target",
+          "status": "passed",
+          "title": "retains the selected service namespace diagnostic target",
+          "duration": 6087.74549999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        }
+      ],
+      "startTime": 1793880547175,
+      "endTime": 1793880807509.7456,
+      "status": "passed",
+      "message": "",
+      "name": "<tooling-archive>/packages/typespec-lintdiff/test/harness/native-coverage-worker.test.ts"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "file": "<coverage>\\full-preflight\\get-must-not-have-request-body-5983-candidate-artifacts-20261105.tar.gz",
+  "bytes": 1983858,
+  "sha256": "6de31443403c728c5ff9b0135067a1cf88844e528e20f6ca25bf5a7ae0a60802",
+  "candidateCommit": "5e7a4849d2c0ed0a0e990bf3e0cf48436e6d218b",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "packages": 15
+}

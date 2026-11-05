@@ -1,0 +1,14 @@
+{
+  "specsRepo": "<specs>",
+  "project": {
+    "sourcePath": "<coverage>\\full-preflight\\activation-controls\\library-all"
+  },
+  "validatorRules": [
+    "GetMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/no-get-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "configured"
+}

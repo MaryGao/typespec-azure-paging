@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "slug": "library-all",
+      "ruleset": "@azure-tools/typespec-azure-resource-manager/all",
+      "expectedDefault": 1,
+      "actualDefault": 1,
+      "explicitComparisonFindings": 1,
+      "status": "passed"
+    },
+    {
+      "slug": "central-preset",
+      "ruleset": "@azure-tools/typespec-azure-rulesets/resource-manager",
+      "expectedDefault": 0,
+      "actualDefault": 0,
+      "explicitComparisonFindings": 1,
+      "status": "passed"
+    }
+  ],
+  "scope": "Actual injected library-all and central-preset behavior on a violating control; not default activation for each real project."
+}
