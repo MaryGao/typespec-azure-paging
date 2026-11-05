@@ -5,8 +5,8 @@
   "validatorRules": ["PageableRequires200Response"],
   "nativeRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
   "issue": "https://github.com/Azure/typespec-azure/issues/5957",
-  "status": "validation-complete-acceptance-blocked",
-  "phase": "validation-report-publication",
+  "status": "validation-complete-ci-followup",
+  "phase": "pr-ci-remediation",
   "validationAuthorized": true,
   "validationScope": "Full frozen 487-project ARM corpus for the target rule, plus affected native package checks; retain the completed five-project pilot and its detailed reports",
   "localReports": "C:\\Users\\marygao\\project\\coverage-reports\\paging-require-200",
@@ -24,12 +24,34 @@
   "instructionBranch": "feature/lintdiff-migration-new",
   "instructionPath": ".github/skills/do-linter-development-task-one-by-one",
   "priorImplementation": "https://github.com/Azure/typespec-azure/pull/5846",
-  "approvalBoundary": "After completing the five-project pilot, the author explicitly authorized full regression and requested migration.md and PR updates after validation. Keep the PR draft and report unresolved failures accurately; do not claim readiness without the required validation and review gates.",
+  "approvalBoundary": "After the pilot, the author authorized full regression and report publication, then requested a ready-for-review PR and CI/conflict monitoring. The PR is no longer draft. Report unresolved failures accurately; review readiness is not a claim that all CI passed or that release acceptance is complete.",
   "pending": [
-    "Original full Core suite: six unchanged 5000ms test timeouts; one timeout remains in the reduced-concurrency six-file diagnosis.",
-    "Three task files fail the authoritative scoped Prettier check.",
-    "Required generated documentation updates and standalone authored example compilation remain outstanding.",
+    "Current main was merged cleanly in 29beee42b8b66fd9b6245f6afcf8a8eca7208712; fresh CI is being monitored. Format and Website passed on preceding repair 7524d7c.",
+    "The preceding merged head had 845 unrelated ARM common-types v6 errors in External Integration, also observed on another PR.",
+    "Standalone authored example compilation remains outstanding.",
     "Independent development and release-readiness reviews remain outstanding."
   ],
-  "validationCandidateCommit": "62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1"
+  "validationCandidateCommit": "62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1",
+  "ciFollowup": {
+    "mergedMainHead": "7d733f8c937295194073e711e2a39a0c7e1b0896",
+    "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+    "repairHead": "7524d7cde74bc7237190a7d328e2fb78153583da",
+    "currentHead": "29beee42b8b66fd9b6245f6afcf8a8eca7208712",
+    "mainMerge": {
+      "mainCommit": "3e96b05ca76910c3412fa0c1ba85d4281a48d44a",
+      "manualConflictResolutionRequired": false,
+      "armAndRulesetsBuilds": "passed",
+      "pagingTestsPassed": 12,
+      "rulesetDefinitionTestsPassed": 14
+    },
+    "behaviorChangedByRepair": false,
+    "freshRuleTests": { "passed": 12, "failed": 0 },
+    "buildMatrixAt7d733f8": { "passed": 6, "failed": 0 },
+    "formatAndGeneratedDocs": "passed-github-ci-at-7524d7c",
+    "unrelatedExternalIntegrationErrors": 845,
+    "comparisonRun": "https://github.com/Azure/typespec-azure/actions/runs/41958140410",
+    "repairBuildRun": "https://github.com/Azure/typespec-azure/actions/runs/41964038436",
+    "repairConsistencyRun": "https://github.com/Azure/typespec-azure/actions/runs/41964038354",
+    "currentChecks": "https://github.com/Azure/typespec-azure/pull/5959/checks"
+  }
 }
