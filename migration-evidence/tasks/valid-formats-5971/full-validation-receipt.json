@@ -1,0 +1,430 @@
+{
+  "status": "passed",
+  "candidateCommit": "21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc",
+  "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselineManifestSha256": "3a50fd0a84e1f87ea163918369c1aebf3cc39f74492381ca27df818475156478",
+  "baselineJsonSha256": "e5716f46feb5e2098137aa6f561f9513e059651b93c23d7d0fabeec06e1c85c2",
+  "baselineMetaSha256": "674658ac545c3130938512c9ef65cbea2fa20102110806b644b5838806852899",
+  "startedAt": "2026-11-05T06:27:31.441Z",
+  "finishedAt": "2026-11-05T07:09:40.854Z",
+  "node": "v24.20.0",
+  "initialFinishedAt": "2026-11-05T06:56:07.047Z",
+  "recoveries": [
+    {
+      "project": "specification/network/resource-manager/Microsoft.Network/Network/Network",
+      "reason": "Production Spectral replay exhausted its 4 GiB V8 heap; retry only this project, serially, with a 12 GiB heap and unchanged input/rule.",
+      "originalCommand": {
+        "command": [
+          "C:\\Users\\marygao\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.20.0-win-x64\\node.exe",
+          "--max-old-space-size=4096",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\scripts\\swagger-unsuppressed-replay.mjs",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger.input.json",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger-replay.json"
+        ],
+        "startedAt": "2026-11-05T06:48:00.964Z",
+        "finishedAt": "2026-11-05T06:51:40.432Z",
+        "exitCode": 134,
+        "signal": null,
+        "timedOut": false
+      },
+      "status": "failed",
+      "command": [
+        "C:\\Users\\marygao\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.20.0-win-x64\\node.exe",
+        "--max-old-space-size=12288",
+        "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\scripts\\swagger-unsuppressed-replay.mjs",
+        "C:\\dev\\worktrees\\specs-valid-formats-5971",
+        "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger.input.json",
+        "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger-replay.json"
+      ],
+      "startedAt": "2026-11-05T06:57:31.597Z",
+      "receipt": {
+        "command": [
+          "C:\\Users\\marygao\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.20.0-win-x64\\node.exe",
+          "--max-old-space-size=12288",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\scripts\\swagger-unsuppressed-replay.mjs",
+          "C:\\dev\\worktrees\\specs-valid-formats-5971",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger.input.json",
+          "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger-replay.json"
+        ],
+        "startedAt": "2026-11-05T06:57:31.597Z",
+        "finishedAt": "2026-11-05T07:06:44.638Z",
+        "exitCode": 134,
+        "signal": null,
+        "timedOut": false
+      }
+    },
+    {
+      "project": "specification/network/resource-manager/Microsoft.Network/Network/Network",
+      "status": "passed",
+      "reason": "Default Spectral eagerly expands references even when the sole production rule declares resolved:false. Network exhausted both 4 GiB and 12 GiB. Use supported resolver options to disable irrelevant inline/remote dereferencing, keep the production rule unchanged, and require exact finding equivalence on all 630 previously successful files before accepting Network.",
+      "workerSha256": "b90b4e21286e30e4ea41870b0f8c670138536f30bc129bfe05a9c0b44eb0834a",
+      "startedAt": "2026-11-05T07:09:20.572Z",
+      "commands": [
+        {
+          "command": [
+            "C:\\Users\\marygao\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.20.0-win-x64\\node.exe",
+            "--max-old-space-size=4096",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\scripts\\swagger-unresolved-replay.mjs",
+            "C:\\dev\\worktrees\\specs-valid-formats-5971",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\resolution-recovery\\previously-successful.input.json",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\resolution-recovery\\previously-successful.json"
+          ],
+          "startedAt": "2026-11-05T07:09:20.581Z",
+          "finishedAt": "2026-11-05T07:09:36.880Z",
+          "exitCode": 0,
+          "signal": null,
+          "timedOut": false
+        },
+        {
+          "command": [
+            "C:\\Users\\marygao\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.20.0-win-x64\\node.exe",
+            "--max-old-space-size=4096",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\scripts\\swagger-unresolved-replay.mjs",
+            "C:\\dev\\worktrees\\specs-valid-formats-5971",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger.input.json",
+            "C:\\Users\\marygao\\project\\coverage-reports\\valid-formats\\full-validation\\projects\\355-network-199707c8\\swagger-replay.json"
+          ],
+          "startedAt": "2026-11-05T07:09:37.449Z",
+          "finishedAt": "2026-11-05T07:09:40.487Z",
+          "exitCode": 0,
+          "signal": null,
+          "timedOut": false
+        }
+      ],
+      "equivalence": {
+        "status": "passed",
+        "files": 630,
+        "findings": 123,
+        "comparison": "Exact complete serialized ValidFormats diagnostics, including source, paths, messages, severity and ranges.",
+        "inputSha256": "42c455ab25e3307296c25753665fba723581032e40abd4e8e97962768117f8e0",
+        "outputSha256": "df43a2a9c0297180d3b160dc00b4efee16ae0bb82561d6dd47713e90d3870ee8"
+      },
+      "swaggerFiles": 19,
+      "replayFindings": 0,
+      "finishedAt": "2026-11-05T07:09:40.854Z"
+    }
+  ],
+  "population": {
+    "projects": 487,
+    "swaggerFiles": 649,
+    "savedValidFormats": 123
+  },
+  "policy": "All authored-source #suppress directives disabled in memory; compared rules explicitly enabled. Production Swagger replay uses no README/AutoRest suppression filtering. Package libraries remain outside authored scope.",
+  "concurrency": 4,
+  "workerSha256": "647a5d3cfbd31605f32c9d6bc2f9b1d924823d0836fa373448d37390517980f4",
+  "sourceHostSha256": "fba115d9c056f63f14d7f7b9f698838df2f5755b1776b0f4992d4f796b67c5a1",
+  "replayScriptSha256": "2388ee69e007eb60984e8c7a8dc07650311862a4776a8e5baca59bd9c12a301a",
+  "metadataScriptSha256": "476eab4ec37d522255b777dac2c144bd87b8bfe8842e3459c7580d73f42aa592",
+  "artifactVerification": {
+    "verifiedAtStartAndEnd": true,
+    "packages": [
+      {
+        "name": "@azure-tools/typespec-autorest",
+        "version": "0.73.2",
+        "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+        "sha256": "12f007e3b2b042111a188cbc0225d4e05a45e9798d1790de433db9ac49d4f763",
+        "matchedPackedFiles": 71
+      },
+      {
+        "name": "@azure-tools/typespec-azure-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+        "sha256": "eaa6896488ca486a8258f4f4449d1f705a71e34cbd905d1ee726e6111a2cbc12",
+        "matchedPackedFiles": 417
+      },
+      {
+        "name": "@azure-tools/typespec-azure-examples",
+        "version": "0.2.2",
+        "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+        "sha256": "021413bd38ef0b96614b0c74ccc58d6d77e5aa5e41e90b2c05673f31050fd6b6",
+        "matchedPackedFiles": 169
+      },
+      {
+        "name": "@azure-tools/typespec-azure-resource-manager",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+        "sha256": "030e847fb8a8caf3c7245e18ad9d77dfd40d058c099ab1eba9878b9c0c638eb0",
+        "matchedPackedFiles": 423
+      },
+      {
+        "name": "@azure-tools/typespec-azure-rulesets",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+        "sha256": "0148b1a75897a166b5e6b2bc622c4ec4dd6521c9e95ca00ef6a5369ea42a945c",
+        "matchedPackedFiles": 19
+      },
+      {
+        "name": "@azure-tools/typespec-client-generator-core",
+        "version": "0.73.0",
+        "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+        "sha256": "72a087a6cd663b0909d89dde15774f43d9c2dfc4cff324912bacf6ca87be5eca",
+        "matchedPackedFiles": 180
+      },
+      {
+        "name": "@typespec/asset-emitter",
+        "version": "0.79.3",
+        "archive": "typespec-asset-emitter-0.79.3.tgz",
+        "sha256": "50d45bfbd92ad05972e0abc9038e8d8c31be7f6a32f2e036c669b892051b6896",
+        "matchedPackedFiles": 47
+      },
+      {
+        "name": "@typespec/compiler",
+        "version": "1.17.0",
+        "archive": "typespec-compiler-1.17.0.tgz",
+        "sha256": "05305a9ba831f7d11c70b928eb2ac0cac360c062910d8f2377768c980bff787b",
+        "matchedPackedFiles": 1082
+      },
+      {
+        "name": "@typespec/events",
+        "version": "0.87.0",
+        "archive": "typespec-events-0.87.0.tgz",
+        "sha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+        "matchedPackedFiles": 45
+      },
+      {
+        "name": "@typespec/http",
+        "version": "1.17.0",
+        "archive": "typespec-http-1.17.0.tgz",
+        "sha256": "300dc392c0a0637ea5821ea6a372677709e9690a762deadd1be06862783fddae",
+        "matchedPackedFiles": 181
+      },
+      {
+        "name": "@typespec/openapi",
+        "version": "1.17.0",
+        "archive": "typespec-openapi-1.17.0.tgz",
+        "sha256": "5c6fd79753f4f837a5b77a6e02bd6bbcc40de8740bde743e482e43a1e7c806a9",
+        "matchedPackedFiles": 42
+      },
+      {
+        "name": "@typespec/openapi3",
+        "version": "1.17.0",
+        "archive": "typespec-openapi3-1.17.0.tgz",
+        "sha256": "53fd6128fd32e5cd28b267f9f6a83b6db41462cec1ec21e6765f19e4378eec10",
+        "matchedPackedFiles": 278
+      },
+      {
+        "name": "@typespec/rest",
+        "version": "0.87.0",
+        "archive": "typespec-rest-0.87.0.tgz",
+        "sha256": "c9038ca1a0795082ae0b02fe5b2436a03d358c405931c10f8f723ed2b0526ba9",
+        "matchedPackedFiles": 58
+      },
+      {
+        "name": "@typespec/sse",
+        "version": "0.87.0",
+        "archive": "typespec-sse-0.87.0.tgz",
+        "sha256": "7750c52b8f58dfbc617140078e57fb9de7dc3292e9fa9b56630f4ed6ffe16725",
+        "matchedPackedFiles": 38
+      },
+      {
+        "name": "@typespec/streams",
+        "version": "0.87.0",
+        "archive": "typespec-streams-0.87.0.tgz",
+        "sha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+        "matchedPackedFiles": 34
+      },
+      {
+        "name": "@typespec/versioning",
+        "version": "0.87.0",
+        "archive": "typespec-versioning-0.87.0.tgz",
+        "sha256": "d71421f381f7abef857964aa995088ea7e3d5c1feed7614494c289fbaa5a10cf",
+        "matchedPackedFiles": 61
+      },
+      {
+        "name": "@typespec/xml",
+        "version": "0.87.0",
+        "archive": "typespec-xml-0.87.0.tgz",
+        "sha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
+        "matchedPackedFiles": 43
+      }
+    ],
+    "unusedArchives": [
+      {
+        "name": "@typespec/json-schema",
+        "archive": "typespec-json-schema-1.17.0.tgz",
+        "sha256": "ab150ff7b2ca26e07bc1abbc0429259a307f7eb698cf3c12d209fb0cd7f4615f",
+        "reason": "Packed build dependency; not installed in the selected specs dependency closure."
+      }
+    ],
+    "matchedPackedFiles": 3188
+  },
+  "controls": [
+    {
+      "name": "suppressed-preserved",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "passed": true
+    },
+    {
+      "name": "suppressed-disabled",
+      "expected": [
+        2,
+        1,
+        1
+      ],
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "dictionary",
+      "expected": [
+        0,
+        0,
+        1
+      ],
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "bom-suppressed-disabled",
+      "expected": [
+        2,
+        1,
+        1
+      ],
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "passed": true
+    }
+  ],
+  "nativeControls": [
+    {
+      "name": "violating",
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 2,
+        "@azure-tools/typespec-azure-core/known-encoding": 1,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 1
+      },
+      "diagnostics": [
+        {
+          "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "severity": "warning",
+          "message": "Don't use generic type 'integer'. Use a more specific type that specifies the bit size, such as 'int32' instead."
+        },
+        {
+          "code": "@azure-tools/typespec-azure-core/no-format",
+          "severity": "warning",
+          "message": "Azure services should not use the `@format` decorator."
+        },
+        {
+          "code": "@azure-tools/typespec-azure-core/no-format",
+          "severity": "warning",
+          "message": "Azure services should not use the `@format` decorator."
+        },
+        {
+          "code": "@azure-tools/typespec-azure-core/known-encoding",
+          "severity": "warning",
+          "message": "Encoding \"custom-rfc\" is not supported for Azure Services. Known encodings are: rfc3339,rfc7231,unixTimestamp,ISO8601,seconds,base64,base64url"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "compliant",
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 0
+      },
+      "diagnostics": [],
+      "passed": true
+    },
+    {
+      "name": "numeric-boundaries",
+      "expected": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 2
+      },
+      "actual": {
+        "@azure-tools/typespec-azure-core/no-format": 0,
+        "@azure-tools/typespec-azure-core/known-encoding": 0,
+        "@azure-tools/typespec-azure-core/no-generic-numeric": 2
+      },
+      "diagnostics": [
+        {
+          "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "severity": "warning",
+          "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead."
+        },
+        {
+          "code": "@azure-tools/typespec-azure-core/no-generic-numeric",
+          "severity": "warning",
+          "message": "Don't use generic type 'decimal'. Use a more specific type that specifies the bit size, such as 'float32' instead."
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "sourceFormatVocabularyControls": [
+    {
+      "format": "uuid",
+      "findings": 0,
+      "accepted": true
+    },
+    {
+      "format": "duration",
+      "findings": 0,
+      "accepted": true
+    },
+    {
+      "format": "password",
+      "findings": 0,
+      "accepted": true
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "generatedAt": "2026-11-05T07:10:20.942Z",
+    "candidateCommit": "21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc",
+    "projects": 487,
+    "swaggerOccurrences": 123,
+    "nativeWarnings": 327,
+    "exactAuthoredExcerpts": 235,
+    "verifiedAt": "2026-11-05T07:12:25.854Z",
+    "swaggerFiles": 649,
+    "relatedSourceWarningOccurrences": 123,
+    "swaggerOnlyOccurrences": 0,
+    "typeSpecOnlyWarnings": 204,
+    "sourceFilesByteVerified": 3071
+  },
+  "setupRecovery": "The first attempt was stopped on a BOM-normalization integrity-check bug. Source files were unchanged. The original attempt/tooling was archived; a byte-exact host plus BOM control preceded a fresh full rerun. No native rule or candidate change.",
+  "limits": [
+    "All retained ARM projects, not data-plane coverage.",
+    "Source authoring policies compared with retained Swagger; no globally API-version-projected diagnostic equivalence.",
+    "Fresh production ValidFormats-only replay, not fresh Swagger generation or full AutoRest validation.",
+    "Emitter unknown-format and independent release-readiness review remain unassessed; this is not migration acceptance."
+  ]
+}
