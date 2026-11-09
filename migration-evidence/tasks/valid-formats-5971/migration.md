@@ -6,7 +6,7 @@ The existing TypeSpec rules `no-format`, `known-encoding`, and `no-generic-numer
 
 **The additional dictionary-value gap is now fixed:** after the [second five-project batch](batch-2.md) identified unreported `Record<decimal>` values in Commerce, the user authorized the fix and rerun. Commerce numeric warnings change **1 → 2**, and all **12** Swagger occurrences in that batch now have related native warnings.
 
-**Full retained ARM validation is complete on the latest candidate:** all **487 projects / 649 Swagger files** were assessed without suppressions. All **123** saved Swagger findings were reproduced and have related native source-warning witnesses; **zero Swagger-only occurrences** remain. The **204 additional native warnings** are explained policy differences, not missed numeric reporting shapes. See [the full validation report](full-validation.md).
+**Review-fix revalidation is complete at `e8a187968`:** all **487 TypeSpec projects** were compiled without suppressions and compared with verified results for **649 unchanged Swagger files**. Warning occurrences are identical to the previous run: **zero additions/removals and no new gaps**. All **123** Swagger findings still have native source-warning witnesses; **zero Swagger-only occurrences** remain. The **204 additional native warnings** remain explained policy differences. See [the review-fix report](review-revalidation-e8a187968/full-validation.md).
 
 ## 2. Actual coverage
 
@@ -94,12 +94,22 @@ The [full report](full-validation.md), [487-project scorecard](full-validation-s
 
 This closes the observed source-shape gaps in the retained ARM population, not every possible compatibility-policy difference. Specific numeric formats remain a separate decision. There was no fresh Swagger emission, data-plane corpus assessment, full AutoRest validation, emitter unknown-format assessment, or independent migration/release-readiness acceptance.
 
+## 7. Review-fix revalidation
+
+All **487/487** fresh, unsuppressed native compilations succeeded at `e8a18796811285284ae50cb3a40e7be230368e3b`, using core `f87a4e2d51c5cc0b3d995d4c7542578d55799804` and the same frozen specs. Exact warning multisets, including duplicate occurrences, messages and source locations, match the previous candidate `21f7aefe9`: **0 added, 0 removed**. Counts remain **202 no-format / 28 known-encoding / 97 no-generic-numeric**. All **123** Swagger occurrences have source-warning witnesses, **0** are Swagger-only, and the same **204** native-only warnings retain their previous dispositions.
+
+The user requested reusing unchanged Swagger results rather than replaying the corpus again. The first **34** projects had already been replayed; the remaining **453** reused complete, hash-verified reference receipts without new replay commands. All **649** Swagger files, authored source bytes, **235** exact excerpts, and **17 packages / 3,188 installed files** were verified. Previous reports remain unchanged.
+
+See [the full review-fix report](review-revalidation-e8a187968/full-validation.md), [exact previous-run comparison](review-revalidation-e8a187968/previous-run-comparison.json), and [verification receipt](review-revalidation-e8a187968/full-validation-receipt.json).
+
+The PR subsequently merged `main` at `270a88f67106ad0b0601c1489c6ac30ed76346f1`. The three compared rule implementations are unchanged, but its core gitlink is now `837b5a769414f853fd22eeed0a123c953425b1d8`. These results remain pinned to `e8a187968` and do not claim validation of that newer compiler/runtime.
+
 ## NOTES
 
 - Related issue: [Azure/typespec-azure#5971](https://github.com/Azure/typespec-azure/issues/5971). The [issue analysis](https://github.com/Azure/typespec-azure/issues/5971#issuecomment-6647252945) links the Swagger documentation, implementation, and existing TypeSpec checks.
 - Flow: `native-first`; singleton task `valid-formats-5971`. Disposition: existing-rule numeric coverage fixes plus documentation; both five-project fix/rerun cycles and the authorized full 487-project ARM comparison completed.
 - Native base: canonical `Azure/typespec-azure:main` at `f578e3ad757c9e4ea827e7d20212e7c53c303f43`. Head branch: `feat/valid-formats-5971`; PR target: canonical `main`.
-- Latest candidate: `21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc`; first-batch and pre-dictionary candidate: `952472b51b488486c0a41855cc8f3a22208613fe`; original documentation candidate: `1592d198b388e8612001bc4fa3e4f0b57b1663d7`; core: `f87a4e2d51c5cc0b3d995d4c7542578d55799804`; frozen specs: `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`; pilot runtime: Node `v24.20.0`.
+- Latest assessed candidate: `e8a18796811285284ae50cb3a40e7be230368e3b`; original full-corpus candidate: `21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc`; first-batch and pre-dictionary candidate: `952472b51b488486c0a41855cc8f3a22208613fe`; original documentation candidate: `1592d198b388e8612001bc4fa3e4f0b57b1663d7`; assessed core: `f87a4e2d51c5cc0b3d995d4c7542578d55799804`; frozen specs: `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`; pilot runtime: Node `v24.20.0`.
 - Shared baseline: `swagger-arm-20261026-2cd3c5dd`, identity `aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995`. Full archive checksum, sealed identity, inventory and references were verified. Native injection was independently checked against 17 candidate package archives: 3,188 packed files matched installed bytes; the separately packed unused JSON-schema package was not installed or claimed as injected.
 - Production Swagger ruleset: `@microsoft.azure/openapi-validator-rulesets@2.2.6`. Replay used the registered production rule and passed nine schema controls in each project. No new Swagger was generated.
 - The suppression-disable control verifies the same explicitly suppressed fixture produces 0/0/0 normally and 2/1/1 after directives are disabled. The in-memory host disables all authored-source suppressions, preserves character offsets and line breaks, and checks unchanged on-disk hashes. Package libraries in `node_modules` remain outside the authored-service transformation. The production Swagger function has no suppression predicate; its hash and explicit no-filtering policy are retained in the receipts.

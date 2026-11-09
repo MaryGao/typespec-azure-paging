@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "verifiedAt": "2026-11-09T06:58:57.424Z",
+  "candidateCommit": "e8a18796811285284ae50cb3a40e7be230368e3b",
+  "referenceCandidateCommit": "21f7aefe9c4399e4f51b28349ef02d4c64b1c5fc",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "projectsCompared": 487,
+  "swaggerFilesCompared": 649,
+  "comparison": "Full warning multisets, not only counts; messages, rules, source locations, duplicates and complete Swagger diagnostic objects are retained. Authored source bytes and suppression directives are identical.",
+  "changedPackages": [
+    "@azure-tools/typespec-azure-core"
+  ],
+  "nativeWarningsAdded": 0,
+  "nativeWarningsRemoved": 0,
+  "swaggerFindingsAdded": 0,
+  "swaggerFindingsRemoved": 0,
+  "swaggerOnlyAdded": 0,
+  "swaggerOnlyRemoved": 0,
+  "nativeOnlyAdded": 0,
+  "nativeOnlyRemoved": 0,
+  "sourceSchemaObservationsAdded": 0,
+  "sourceSchemaObservationsRemoved": 0,
+  "changes": [],
+  "swaggerOnly": {
+    "added": [],
+    "removed": []
+  },
+  "nativeOnly": {
+    "added": [],
+    "removed": []
+  },
+  "observations": {
+    "added": [],
+    "removed": []
+  },
+  "measuredInputs": {
+    "referenceManifestSha256": "8816ace09a433a9e766f4b164884464b29107c73121827f372fdf8d8caf00ef4",
+    "currentManifestSha256": "53ed8a6c9b2c85853f9e7bbfe2d453cef911719ee5eb6b09bacb5601e74f4b67",
+    "referenceFindingsSha256": "359e94d34c2cf0aa25f2f8fa76cafe9cea08ade63e16297315ab09b253ac9092",
+    "currentFindingsSha256": "359e94d34c2cf0aa25f2f8fa76cafe9cea08ade63e16297315ab09b253ac9092",
+    "comparisonScriptSha256": "c52d706f0c2edcb8d346467fb4e4aa558b08b96adab70ba6085b702b1d8d5bbf"
+  }
+}
