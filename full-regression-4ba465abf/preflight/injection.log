@@ -1,0 +1,108 @@
+Running [33mpatch[39m, [33minstall[39m stages [36mazure-specs[39m {
+  repo: 'https://github.com/Azure/azure-rest-api-specs',
+  branch: 'typespec-next',
+  pattern: 'specification/**/tspconfig.yaml',
+  exclude: [ 'specification/ai-foundry/data-plane/Foundry/**' ],
+  entrypoints: [ { name: 'client.tsp', options: [Array] }, { name: 'main.tsp' } ]
+}
+- Resolving local package versions
+- Resolving local package versions
+Found packages:
+  [32m@azure-tools/typespec-autorest[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-autorest-0.73.2.tgz[39m
+  [32m@azure-tools/typespec-azure-resource-manager[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-resource-manager-0.73.0.tgz[39m
+  [32m@azure-tools/typespec-azure-core[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-core-0.73.0.tgz[39m
+  [32m@azure-tools/typespec-azure-examples[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-examples-0.2.2.tgz[39m
+  [32m@typespec/events[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-events-0.87.0.tgz[39m
+  [32m@azure-tools/typespec-azure-rulesets[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-rulesets-0.73.0.tgz[39m
+  [32m@typespec/compiler[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-compiler-1.17.0.tgz[39m
+  [32m@azure-tools/typespec-client-generator-core[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-client-generator-core-0.73.0.tgz[39m
+  [32m@typespec/openapi[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-openapi-1.17.0.tgz[39m
+  [32m@typespec/http[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-http-1.17.0.tgz[39m
+  [32m@typespec/rest[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-rest-0.87.0.tgz[39m
+  [32m@typespec/sse[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-sse-0.87.0.tgz[39m
+  [32m@typespec/versioning[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-versioning-0.87.0.tgz[39m
+  [32m@typespec/streams[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-streams-0.87.0.tgz[39m
+  [32m@typespec/xml[39m: [36m../evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-xml-0.87.0.tgz[39m
+[31m[32m✔[31m[39m Resolving local package versions
+- Patching dependency configuration
+- Patching dependency configuration
+Using pnpm in C:\dev\worktrees\specs-default-in-enum-5972
+Updated pnpm override: @azure-tools/typespec-autorest -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-autorest-0.73.2.tgz
+Updated pnpm override: @azure-tools/typespec-azure-resource-manager -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-resource-manager-0.73.0.tgz
+Updated pnpm override: @azure-tools/typespec-azure-core -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-core-0.73.0.tgz
+Updated pnpm override: @azure-tools/typespec-azure-examples -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-examples-0.2.2.tgz
+Updated pnpm override: @typespec/events -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-events-0.87.0.tgz
+Updated pnpm override: @azure-tools/typespec-azure-rulesets -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-azure-rulesets-0.73.0.tgz
+Updated pnpm override: @typespec/compiler -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-compiler-1.17.0.tgz
+Updated pnpm override: @azure-tools/typespec-client-generator-core -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/azure-tools-typespec-client-generator-core-0.73.0.tgz
+Updated pnpm override: @typespec/openapi -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-openapi-1.17.0.tgz
+Updated pnpm override: @typespec/http -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-http-1.17.0.tgz
+Updated pnpm override: @typespec/rest -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-rest-0.87.0.tgz
+Updated pnpm override: @typespec/sse -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-sse-0.87.0.tgz
+Updated pnpm override: @typespec/versioning -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-versioning-0.87.0.tgz
+Updated pnpm override: @typespec/streams -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-streams-0.87.0.tgz
+Updated pnpm override: @typespec/xml -> file:C:/dev/worktrees/evidence-default-in-enum-5972/.local/flattened-members-4ba465abf/artifacts/typespec-xml-0.87.0.tgz
+[31m[32m✔[31m[39m Patching dependency configuration
+- Installing dependencies
+- Installing dependencies
+Using pnpm in C:\dev\worktrees\specs-default-in-enum-5972
+Scope: all 20 workspace projects
+
+Update available! 12.6.0 → 12.17.0.
+Changelog: https://pnpm.io/v/12.17.0
+To update, run: Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
+
+Progress: resolved 0, reused 501, downloaded 1, added 0
+
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\marygao\AppData\Local\pnpm\store\v11
+  Virtual store is at:             node_modules/.pnpm
+
+Progress: resolved 0, reused 619, downloaded 5, added 0
+
+Progress: resolved 72, reused 631, downloaded 6, added 57
+
+Progress: resolved 254, reused 631, downloaded 6, added 242
+
+Progress: resolved 573, reused 631, downloaded 6, added 558
+
+Progress: resolved 638, reused 631, downloaded 6, added 632
+
+Progress: resolved 657, reused 631, downloaded 8, added 641
+
+Progress: resolved 657, reused 631, downloaded 22, added 650
+
+Packages: +657
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Progress: resolved 657, reused 631, downloaded 22, added 657, done
+
+
+devDependencies:
++ @azure-tools/openai-typespec 1.28.0
++ @azure-tools/spec-gen-sdk 0.9.11
++ @azure-tools/typespec-apiview 0.7.2
++ @azure-tools/typespec-autorest 0.73.2
++ @azure-tools/typespec-azure-core 0.73.0
++ @azure-tools/typespec-azure-portal-core 0.74.0-dev.0
++ @azure-tools/typespec-azure-resource-manager 0.73.0
++ @azure-tools/typespec-azure-rulesets 0.73.0
++ @azure-tools/typespec-client-generator-cli 0.33.1
++ @azure-tools/typespec-client-generator-core 0.73.0
++ @azure-tools/typespec-metadata 0.4.0
++ @azure/avocado 0.12.1
++ @typespec/compiler 1.17.0
++ @typespec/events 0.87.0
++ @typespec/http 1.17.0
++ @typespec/openapi 1.17.0
++ @typespec/openapi3 1.18.0-dev.7
++ @typespec/rest 0.87.0
++ @typespec/sse 0.87.0
++ @typespec/streams 0.87.0
++ @typespec/versioning 0.87.0
++ @typespec/xml 0.87.0
+
+
+Done in 17.3s using pnpm v12.6.0
+
+[31m[32m✔[31m[39m Installing dependencies

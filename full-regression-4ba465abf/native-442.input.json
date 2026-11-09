@@ -1,0 +1,47 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/SecurityOperator.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/examples/2023-01-01-preview/SecurityOperators/DeleteSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/examples/2023-01-01-preview/SecurityOperators/GetSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/examples/2023-01-01-preview/SecurityOperators/ListSecurityOperators_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/examples/2023-01-01-preview/SecurityOperators/PutSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5737,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/securityOperators.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/examples/SecurityOperators/DeleteSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/examples/SecurityOperators/GetSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/examples/SecurityOperators/ListSecurityOperators_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/examples/SecurityOperators/PutSecurityOperatorByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/swagger/preview/2023-01-01-preview/securityOperators.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6462,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/raw/preview/2023-01-01-preview/securityOperators.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI/raw/preview/2023-01-01-preview/securityOperators.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

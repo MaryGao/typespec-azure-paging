@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/TenantActivityLogAlertResource.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_CreateOrUpdate.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_DeleteRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_GetRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_ListByManagementGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_ListByTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/examples/2023-04-01-preview/TenantActivityLogAlertRule_UpdateRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-04-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5579,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/TenantActivityLogAlerts.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/TenantActivityLogAlerts.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_CreateOrUpdate.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_DeleteRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_GetRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_ListByManagementGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_ListByTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/swagger/preview/2023-04-01-preview/examples/TenantActivityLogAlertRule_UpdateRule.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5541,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/raw/preview/2023-04-01-preview/TenantActivityLogAlerts.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts/raw/preview/2023-04-01-preview/TenantActivityLogAlerts.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

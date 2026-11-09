@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases",
+    "typespecPath": "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec",
+    "typespecFiles": [
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/.gitignore",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/client.tsp",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/examples/2024-09-18/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/main.tsp",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/readme.md",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/service.yaml",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-09-18-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6208,
+    "swaggerFiles": [
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/swagger/preview/2024-09-18-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6706,
+    "rawFiles": [
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/raw/preview/2024-09-18-preview/openapi.jsonl",
+      "projects/specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases/raw/preview/2024-09-18-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

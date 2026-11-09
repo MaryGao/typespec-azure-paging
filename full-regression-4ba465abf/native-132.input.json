@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RedshiftCluster.Management",
+    "typespecPath": "projects/specification/awsconnector/RedshiftCluster.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_Delete.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_Get.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/examples/2024-12-01/RedshiftClusters_Update.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RedshiftCluster.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6325,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/redshiftCluster.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_Delete.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_Get.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RedshiftClusters_Update.json",
+      "projects/specification/awsconnector/RedshiftCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/redshiftCluster.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5945,
+    "rawFiles": [
+      "projects/specification/awsconnector/RedshiftCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/redshiftCluster.jsonl",
+      "projects/specification/awsconnector/RedshiftCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/redshiftCluster.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

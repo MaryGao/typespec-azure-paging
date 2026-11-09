@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ApiGatewayStage.Management",
+    "typespecPath": "projects/specification/awsconnector/ApiGatewayStage.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_CreateOrReplace.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_Delete.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_Get.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_ListBySubscription.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/examples/2024-12-01/ApiGatewayStages_Update.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5536,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayStage.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayStage.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_CreateOrReplace.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_Delete.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_Get.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_ListBySubscription.json",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ApiGatewayStages_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5978,
+    "rawFiles": [
+      "projects/specification/awsconnector/ApiGatewayStage.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayStage.jsonl",
+      "projects/specification/awsconnector/ApiGatewayStage.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/apiGatewayStage.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

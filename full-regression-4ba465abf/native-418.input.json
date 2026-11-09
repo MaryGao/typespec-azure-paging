@@ -1,0 +1,70 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/Alert.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertsResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/GetAlertsSubscriptionsLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/SimulateAlerts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertResourceGroupLocation_activate_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertResourceGroupLocation_dismiss_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertResourceGroupLocation_inProgress_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertResourceGroupLocation_resolve_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertSubscriptionLocation_activate_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertSubscriptionLocation_dismiss_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertSubscriptionLocation_inProgress_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/examples/2022-01-01/Alerts/UpdateAlertSubscriptionLocation_resolve_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/routes.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6245,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/alerts.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/alerts.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertsResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/GetAlertsSubscriptionsLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/SimulateAlerts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertResourceGroupLocation_activate_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertResourceGroupLocation_dismiss_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertResourceGroupLocation_inProgress_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertResourceGroupLocation_resolve_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertSubscriptionLocation_activate_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertSubscriptionLocation_dismiss_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertSubscriptionLocation_inProgress_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/swagger/stable/2022-01-01/examples/Alerts/UpdateAlertSubscriptionLocation_resolve_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6204,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/raw/stable/2022-01-01/alerts.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI/raw/stable/2022-01-01/alerts.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

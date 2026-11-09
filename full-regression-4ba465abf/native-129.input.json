@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsDBSnapshotAttributesResult.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_Delete.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_Get.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/examples/2024-12-01/RdsDbSnapshotAttributesResults_Update.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5875,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshotAttributesResult.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_Delete.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_Get.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshotAttributesResults_Update.json",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshotAttributesResult.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6004,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshotAttributesResult.jsonl",
+      "projects/specification/awsconnector/RdsDBSnapshotAttributesResult.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshotAttributesResult.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

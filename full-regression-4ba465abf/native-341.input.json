@@ -1,0 +1,83 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/AzureMonitorPrivateLinkScope.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/PrivateLinkResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/ScopedResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateEndpointConnectionDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateEndpointConnectionGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateEndpointConnectionList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopePrivateLinkResourceGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopePrivateLinkResourceListGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceListKindFilter.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopedResourceUpdatePlatformMetrics.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/PrivateLinkScopesUpdateTagsOnly.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/examples/2023-06-01-preview/privateLinkScopeOperationStatuses.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/routes.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6725,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/privateLinkScopes.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateEndpointConnectionDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateEndpointConnectionGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateEndpointConnectionList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateEndpointConnectionUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopePrivateLinkResourceGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopePrivateLinkResourceListGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceListKindFilter.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopedResourceUpdatePlatformMetrics.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesCreate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesDelete.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesGet.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesList.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesListByResourceGroup.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesUpdate.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/PrivateLinkScopesUpdateTagsOnly.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/examples/privateLinkScopeOperationStatuses.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/swagger/preview/2023-06-01-preview/privateLinkScopes.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6865,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/raw/preview/2023-06-01-preview/privateLinkScopes.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi/raw/preview/2023-06-01-preview/privateLinkScopes.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

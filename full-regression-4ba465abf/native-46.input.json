@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/AutoScalingAutoScalingGroup.Management",
+    "typespecPath": "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_Delete.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_Get.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/examples/2024-12-01/AutoScalingAutoScalingGroups_Update.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5494,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/autoScalingAutoScalingGroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/autoScalingAutoScalingGroup.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_Delete.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_Get.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AutoScalingAutoScalingGroups_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6420,
+    "rawFiles": [
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/autoScalingAutoScalingGroup.jsonl",
+      "projects/specification/awsconnector/AutoScalingAutoScalingGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/autoScalingAutoScalingGroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsEventSubscription.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsEventSubscription.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_Delete.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_Get.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/examples/2024-12-01/RdsEventSubscriptions_Update.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6763,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsEventSubscription.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_Delete.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_Get.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsEventSubscriptions_Update.json",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsEventSubscription.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6038,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsEventSubscription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsEventSubscription.jsonl",
+      "projects/specification/awsconnector/RdsEventSubscription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsEventSubscription.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

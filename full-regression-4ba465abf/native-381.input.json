@@ -1,0 +1,89 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/programmableconnectivity/ProgrammableConnectivity.Management",
+    "typespecPath": "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/Gateway.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/OperatorApiConnection.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/OperatorApiPlan.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/back-compatible.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/client.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_Delete_MinimumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Gateways_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_Create_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_Delete_MinimumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiConnections_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiPlans_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2024-01-15-preview/OperatorApiPlans_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_Delete_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Gateways_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_Create_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_Delete_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiConnections_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiPlans_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/examples/2025-03-30-preview/OperatorApiPlans_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/main.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/models.tsp",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/service.yaml",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-03-30-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 7016,
+    "swaggerFiles": [
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_Delete_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Gateways_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_Create_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_Delete_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiConnections_Update_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiPlans_Get_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/examples/OperatorApiPlans_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/swagger/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6197,
+    "rawFiles": [
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/raw/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/openapi.jsonl",
+      "projects/specification/programmableconnectivity/ProgrammableConnectivity.Management/raw/resource-manager/Microsoft.ProgrammableConnectivity/preview/2025-03-30-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

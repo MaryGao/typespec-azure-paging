@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LightsailBucket.Management",
+    "typespecPath": "projects/specification/awsconnector/LightsailBucket.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_CreateOrReplace.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_Delete.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_Get.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_ListBySubscription.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/examples/2024-12-01/LightsailBuckets_Update.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LightsailBucket.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6351,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailBucket.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_CreateOrReplace.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_Delete.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_Get.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_ListBySubscription.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailBuckets_Update.json",
+      "projects/specification/awsconnector/LightsailBucket.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailBucket.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5892,
+    "rawFiles": [
+      "projects/specification/awsconnector/LightsailBucket.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailBucket.jsonl",
+      "projects/specification/awsconnector/LightsailBucket.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailBucket.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

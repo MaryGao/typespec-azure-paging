@@ -1,0 +1,72 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/ApplicationInsightsComponent.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsCreate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsListByResourceGroup.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsPurge.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsPurgeStatus.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2020-02-02/ComponentsUpdateTagsOnly.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsCreate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsCreateWithManagedWorkspaces.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsCreateWithoutOtlp.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsGetWithoutOtlp.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsListByResourceGroup.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsPurge.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsPurgeStatus.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/examples/2025-01-23-preview/ComponentsUpdateTagsOnly.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-01-23-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6724,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/components_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/components_API.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsCreate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsCreateWithManagedWorkspaces.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsCreateWithoutOtlp.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsGetWithoutOtlp.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsListByResourceGroup.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsPurge.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsPurgeStatus.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/swagger/preview/2025-01-23-preview/examples/ComponentsUpdateTagsOnly.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6083,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/raw/preview/2025-01-23-preview/components_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components/raw/preview/2025-01-23-preview/components_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,59 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones",
+    "typespecPath": "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec",
+    "typespecFiles": [
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/back-compatible.tsp",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/client.tsp",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2024-04-01-preview/ExtendedZones_Get.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2024-04-01-preview/ExtendedZones_ListBySubscription.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2024-04-01-preview/ExtendedZones_Register.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2024-04-01-preview/ExtendedZones_Unregister.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2024-04-01-preview/Operations_List.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2026-10-01/ExtendedZones_Get.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2026-10-01/ExtendedZones_ListBySubscription.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2026-10-01/ExtendedZones_Register.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2026-10-01/ExtendedZones_Unregister.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/examples/2026-10-01/Operations_List.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/main.tsp",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.az.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.cli.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.csharp.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.java.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/readme.python.md",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/service.yaml",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-10-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5823,
+    "swaggerFiles": [
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/edgezones.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/edgezones.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/examples/ExtendedZones_Get.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/examples/ExtendedZones_ListBySubscription.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/examples/ExtendedZones_Register.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/examples/ExtendedZones_Unregister.json",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/swagger/stable/2026-10-01/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6666,
+    "rawFiles": [
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/raw/stable/2026-10-01/edgezones.jsonl",
+      "projects/specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones/raw/stable/2026-10-01/edgezones.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

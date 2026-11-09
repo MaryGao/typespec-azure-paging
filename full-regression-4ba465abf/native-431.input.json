@@ -1,0 +1,81 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/DeviceSecurityGroup.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/IoTSecurityAggregatedAlert.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/IoTSecurityAggregatedRecommendation.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/IoTSecuritySolutionAnalyticsModel.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/IoTSecuritySolutionModel.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/DeviceSecurityGroups/DeleteDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/DeviceSecurityGroups/GetDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/DeviceSecurityGroups/ListDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/DeviceSecurityGroups/PutDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/CreateIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/DeleteIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/GetIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/GetIoTSecuritySolutionsList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/GetIoTSecuritySolutionsListByIotHub.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/GetIoTSecuritySolutionsListByIotHubAndRg.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/GetIoTSecuritySolutionsListByRg.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutions/UpdateIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAggregatedAlert.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAggregatedAlertList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAnalytics.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAnalyticsList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityRecommendation.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityRecommendationList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/examples/2019-08-01/IoTSecuritySolutionsAnalytics/PostIoTSecuritySolutionsSecurityAggregatedAlertDismiss.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-08-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6569,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/security-IoTSecurity.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/DeviceSecurityGroups/DeleteDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/DeviceSecurityGroups/GetDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/DeviceSecurityGroups/ListDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/DeviceSecurityGroups/PutDeviceSecurityGroups_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/CreateIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/DeleteIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/GetIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/GetIoTSecuritySolutionsList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/GetIoTSecuritySolutionsListByIotHub.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/GetIoTSecuritySolutionsListByIotHubAndRg.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/GetIoTSecuritySolutionsListByRg.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutions/UpdateIoTSecuritySolution.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAggregatedAlert.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAggregatedAlertList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAnalytics.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityAnalyticsList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityRecommendation.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/GetIoTSecuritySolutionsSecurityRecommendationList.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/examples/IoTSecuritySolutionsAnalytics/PostIoTSecuritySolutionsSecurityAggregatedAlertDismiss.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/swagger/stable/2019-08-01/security-IoTSecurity.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7132,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/raw/stable/2019-08-01/security-IoTSecurity.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI/raw/stable/2019-08-01/security-IoTSecurity.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

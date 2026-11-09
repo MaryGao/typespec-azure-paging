@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/examples/2027-01-01/StorageBuckets_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5652,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/storageBucket.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_ListByResourceGroup.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_ListBySubscription.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/examples/StorageBuckets_Update.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/swagger/stable/2027-01-01/storageBucket.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6704,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/raw/stable/2027-01-01/storageBucket.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket/raw/stable/2027-01-01/storageBucket.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

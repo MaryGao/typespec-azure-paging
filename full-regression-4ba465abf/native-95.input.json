@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management",
+    "typespecPath": "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/examples/2024-12-01/ElasticLoadBalancingv2TargetHealthDescriptions_Update.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5825,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2TargetHealthDescription.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2TargetHealthDescription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingv2TargetHealthDescriptions_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6422,
+    "rawFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2TargetHealthDescription.jsonl",
+      "projects/specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2TargetHealthDescription.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

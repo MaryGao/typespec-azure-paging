@@ -1,0 +1,50 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus",
+    "typespecPath": "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec",
+    "typespecFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/examples/2025-05-01/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/examples/2025-05-01/Skus_GetByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/examples/2025-05-01/Skus_GetByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/examples/2025-05-01/Skus_ListByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/examples/2025-05-01/Skus_ListByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/main.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/parameters.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/readme.md",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/service.yaml",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/sku.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/suppressions.yaml",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5728,
+    "swaggerFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/examples/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/examples/Skus_GetByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/examples/Skus_GetByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/examples/Skus_ListByBillingAccount.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/examples/Skus_ListByBillingProfile.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/swagger/stable/2025-05-01/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6475,
+    "rawFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/raw/stable/2025-05-01/openapi.jsonl",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus/raw/stable/2025-05-01/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

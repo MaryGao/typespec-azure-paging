@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController",
+    "typespecPath": "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec",
+    "typespecFiles": [
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/CONTRIBUTE.md",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/azurekeyvaultsecretproviderclass.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/back-compatible.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/client.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/common.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/AzureKeyVaultSecretProviderClasses_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2024-08-21-preview/SecretSyncs_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/AzureKeyVaultSecretProviderClasses_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/examples/2026-09-25-preview/SecretSyncs_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/main.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/readme.md",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/secretsync.tsp",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/service.yaml",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-09-25-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6767,
+    "swaggerFiles": [
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/secretsynccontroller.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/AzureKeyVaultSecretProviderClasses_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_Delete_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_Get_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/examples/SecretSyncs_Update_MaximumSet_Gen.json",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/swagger/preview/2026-09-25-preview/secretsynccontroller.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6979,
+    "rawFiles": [
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/raw/preview/2026-09-25-preview/secretsynccontroller.jsonl",
+      "projects/specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/raw/preview/2026-09-25-preview/secretsynccontroller.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

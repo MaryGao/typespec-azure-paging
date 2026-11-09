@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CloudWatchAlarm.Management",
+    "typespecPath": "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_Delete.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_Get.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/examples/2024-12-01/CloudWatchAlarms_Update.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5435,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudWatchAlarm.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudWatchAlarm.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_Delete.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_Get.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudWatchAlarms_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5964,
+    "rawFiles": [
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudWatchAlarm.jsonl",
+      "projects/specification/awsconnector/CloudWatchAlarm.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudWatchAlarm.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

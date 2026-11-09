@@ -1,0 +1,65 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations",
+    "typespecPath": "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec",
+    "typespecFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/FluxConfiguration.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/back-compatible.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/client.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/CreateFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/CreateFluxConfigurationWithBucket.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/CreateFluxConfigurationWithOCIRepository.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/CreateFluxConfigurationWithProvider.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/DeleteFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/GetFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/GetFluxConfigurationAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/ListFluxConfigurations.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/examples/2025-04-01/PatchFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/main.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/models.tsp",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.csharp.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.go.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.java.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.python.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.ruby.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/readme.typescript.md",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/service.yaml",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5820,
+    "swaggerFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/fluxconfiguration.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/CreateFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/CreateFluxConfigurationWithBucket.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/CreateFluxConfigurationWithOCIRepository.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/CreateFluxConfigurationWithProvider.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/DeleteFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/GetFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/GetFluxConfigurationAsyncOperationStatus.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/ListFluxConfigurations.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/examples/PatchFluxConfiguration.json",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/swagger/stable/2025-04-01/fluxconfiguration.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7135,
+    "rawFiles": [
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/raw/stable/2025-04-01/fluxconfiguration.jsonl",
+      "projects/specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/raw/stable/2025-04-01/fluxconfiguration.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/ProviderOperationsMetadata.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/examples/2022-04-01/GetAllProviderOperations.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/examples/2022-04-01/GetProviderOperationsRP.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5223,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/swagger/stable/2022-04-01/authorization-ProviderOperationsCalls.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/swagger/stable/2022-04-01/authorization-ProviderOperationsCalls.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/swagger/stable/2022-04-01/examples/GetAllProviderOperations.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/swagger/stable/2022-04-01/examples/GetProviderOperationsRP.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5755,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/raw/stable/2022-04-01/authorization-ProviderOperationsCalls.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations/raw/stable/2022-04-01/authorization-ProviderOperationsCalls.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

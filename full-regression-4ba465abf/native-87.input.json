@@ -1,0 +1,44 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EksCluster.Management",
+    "typespecPath": "projects/specification/awsconnector/EksCluster.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EksCluster.Management/typespec/examples/2024-12-01/EksClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/examples/2024-12-01/EksClusters_Delete.json",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/examples/2024-12-01/EksClusters_Get.json",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/examples/2024-12-01/EksClusters_List.json",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EksCluster.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5322,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksCluster.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksCluster.json",
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksClusters_Delete.json",
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksClusters_Get.json",
+      "projects/specification/awsconnector/EksCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EksClusters_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6422,
+    "rawFiles": [
+      "projects/specification/awsconnector/EksCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksCluster.jsonl",
+      "projects/specification/awsconnector/EksCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/eksCluster.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

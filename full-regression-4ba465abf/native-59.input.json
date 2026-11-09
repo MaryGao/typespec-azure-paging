@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/DaxCluster.Management",
+    "typespecPath": "projects/specification/awsconnector/DaxCluster.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_Delete.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_Get.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/examples/2024-12-01/DaxClusters_Update.json",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/DaxCluster.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5538,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/daxCluster.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/daxCluster.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_Delete.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_Get.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/DaxCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DaxClusters_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5983,
+    "rawFiles": [
+      "projects/specification/awsconnector/DaxCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/daxCluster.jsonl",
+      "projects/specification/awsconnector/DaxCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/daxCluster.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

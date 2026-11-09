@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2Ipam.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2Ipam.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_Delete.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_Get.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/examples/2024-12-01/Ec2Ipams_Update.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2Ipam.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5455,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Ipam.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Ipam.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_Delete.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_Get.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Ipam.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Ipams_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5995,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2Ipam.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Ipam.jsonl",
+      "projects/specification/awsconnector/Ec2Ipam.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Ipam.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

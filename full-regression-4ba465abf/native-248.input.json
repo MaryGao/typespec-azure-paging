@@ -1,0 +1,75 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations",
+    "typespecPath": "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec",
+    "typespecFiles": [
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/CustomLocation.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/ResourceSyncRule.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/back-compatible.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/client.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsCreate_Update.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsDelete.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsFindTargetResourceGroup.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsGet.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsListByResourceGroup.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsListBySubscription.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsListEnabledResourceTypes.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsListOperations.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/CustomLocationsPatch.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/ResourceSyncRulesCreate_Update.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/ResourceSyncRulesDelete.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/ResourceSyncRulesGet.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/ResourceSyncRulesListByCustomLocationID.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/examples/2021-08-31-preview/ResourceSyncRulesPatch.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/main.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/models.tsp",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/readme.go.md",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/readme.md",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/readme.python.md",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/readme.ruby.md",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/readme.typescript.md",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/service.yaml",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/suppressions.yaml",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-08-31-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6398,
+    "swaggerFiles": [
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/customlocations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/customlocations.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsCreate_Update.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsDelete.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsFindTargetResourceGroup.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsGet.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsListByResourceGroup.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsListBySubscription.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsListEnabledResourceTypes.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsListOperations.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/CustomLocationsPatch.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/ResourceSyncRulesCreate_Update.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/ResourceSyncRulesDelete.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/ResourceSyncRulesGet.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/ResourceSyncRulesListByCustomLocationID.json",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/swagger/preview/2021-08-31-preview/examples/ResourceSyncRulesPatch.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6788,
+    "rawFiles": [
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/raw/preview/2021-08-31-preview/customlocations.jsonl",
+      "projects/specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations/raw/preview/2021-08-31-preview/customlocations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

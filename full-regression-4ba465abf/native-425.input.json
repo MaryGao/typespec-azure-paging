@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/BatchPricings.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/examples/2026-07-01/BatchPricings/GetBatchPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/examples/2026-07-01/BatchPricings/ListBatchPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/examples/2026-07-01/BatchPricings/PutBatchPricings_PartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/examples/2026-07-01/BatchPricings/PutBatchPricings_Success_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5891,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/batchPricings.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/pricings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/batchPricings.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/BatchPricings/GetBatchPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/BatchPricings/ListBatchPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/BatchPricings/PutBatchPricings_PartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/BatchPricings/PutBatchPricings_Success_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/DeleteResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/DeleteResourcePricing_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameCloudPosture_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameDns_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameExternallyUpdated_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameStorageAccounts_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetPricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/GetResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListPricingsWithPlanFilter_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListPricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/ListResourcePricings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingByNamePartialSuccess_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutPricingVMsByName_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutResourcePricingByNameContainers_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/examples/Pricings/PutResourcePricingByNameVirtualMachines_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/swagger/stable/2026-07-01/pricings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 57509,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/raw/stable/2026-07-01/batchPricings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/raw/stable/2026-07-01/batchPricings.stderr.txt",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/raw/stable/2026-07-01/pricings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI/raw/stable/2026-07-01/pricings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

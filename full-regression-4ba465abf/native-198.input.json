@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards",
+    "typespecPath": "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec",
+    "typespecFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/back-compatible.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/client.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/deploymentsafeguards.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-01/DeploymentSafeguards_Create.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-01/DeploymentSafeguards_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-01/DeploymentSafeguards_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-01/DeploymentSafeguards_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-01/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-02-preview/DeploymentSafeguards_Create.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-02-preview/DeploymentSafeguards_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-02-preview/DeploymentSafeguards_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-02-preview/DeploymentSafeguards_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-04-02-preview/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-05-02-preview/DeploymentSafeguards_Create.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-05-02-preview/DeploymentSafeguards_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-05-02-preview/DeploymentSafeguards_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-05-02-preview/DeploymentSafeguards_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-05-02-preview/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-07-01/DeploymentSafeguards_Create.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-07-01/DeploymentSafeguards_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-07-01/DeploymentSafeguards_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-07-01/DeploymentSafeguards_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/examples/2025-07-01/Operations_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/main.tsp",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/readme.go.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/readme.java.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/readme.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/readme.nodejs.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/readme.python.md",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/service.yaml",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6327,
+    "swaggerFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/deploymentsafeguards.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/deploymentsafeguards.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/examples/DeploymentSafeguards_Create.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/examples/DeploymentSafeguards_Delete.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/examples/DeploymentSafeguards_Get.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/examples/DeploymentSafeguards_List.json",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/swagger/stable/2025-07-01/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6297,
+    "rawFiles": [
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/raw/stable/2025-07-01/deploymentsafeguards.jsonl",
+      "projects/specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards/raw/stable/2025-07-01/deploymentsafeguards.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

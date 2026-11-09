@@ -1,0 +1,64 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi",
+    "typespecPath": "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec",
+    "typespecFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/back-compatible.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/OperationsList.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesComplexQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesFacetQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesFilterQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesFirstPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesMgBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesNextPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesPropertiesQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesRandomPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesSummarizeQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/examples/2024-04-01/ResourcesTenantBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/main.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/models.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/query.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/routes.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/service.yaml",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5626,
+    "swaggerFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/resourcegraph.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/OperationsList.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesComplexQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesFacetQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesFilterQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesFirstPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesMgBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesNextPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesPropertiesQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesRandomPageQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesSummarizeQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/examples/ResourcesTenantBasicQuery.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/swagger/stable/2024-04-01/resourcegraph.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5937,
+    "rawFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/raw/stable/2024-04-01/resourcegraph.jsonl",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi/raw/stable/2024-04-01/resourcegraph.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

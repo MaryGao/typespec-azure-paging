@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LightsailInstance.Management",
+    "typespecPath": "projects/specification/awsconnector/LightsailInstance.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_Delete.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_Get.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/examples/2024-12-01/LightsailInstances_Update.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LightsailInstance.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6303,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailInstance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_Delete.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_Get.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LightsailInstances_Update.json",
+      "projects/specification/awsconnector/LightsailInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailInstance.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6888,
+    "rawFiles": [
+      "projects/specification/awsconnector/LightsailInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailInstance.jsonl",
+      "projects/specification/awsconnector/LightsailInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lightsailInstance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

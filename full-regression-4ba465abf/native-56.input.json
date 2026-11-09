@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management",
+    "typespecPath": "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_Get.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorderStatuses_Update.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5421,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorderStatus.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorderStatus.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_Get.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorderStatuses_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6399,
+    "rawFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorderStatus.jsonl",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorderStatus.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

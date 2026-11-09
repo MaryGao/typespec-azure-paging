@@ -1,0 +1,85 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites",
+    "typespecPath": "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec",
+    "typespecFiles": [
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/SAPDiscoverySite.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/SAPInstance.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/ServerInstance.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/back-compatible.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/client.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/Operations_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_ImportEntities.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_ListByResourceGroup.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_ListBySubscription.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPDiscoverySites_Update.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPInstances_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPInstances_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPInstances_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPInstances_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/SAPInstances_Update.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/ServerInstances_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/ServerInstances_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/ServerInstances_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/ServerInstances_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/examples/2023-10-01-preview/ServerInstances_Update.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/main.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/models.tsp",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.az.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.cli.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.csharp.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.go.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.java.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/readme.python.md",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/service.yaml",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6849,
+    "swaggerFiles": [
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/SAPDiscoverySites.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/SAPDiscoverySites.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/Operations_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_ImportEntities.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_ListByResourceGroup.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_ListBySubscription.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPDiscoverySites_Update.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPInstances_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPInstances_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPInstances_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPInstances_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/SAPInstances_Update.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/ServerInstances_Create.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/ServerInstances_Delete.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/ServerInstances_Get.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/ServerInstances_List.json",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/swagger/preview/2023-10-01-preview/examples/ServerInstances_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6510,
+    "rawFiles": [
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/raw/preview/2023-10-01-preview/SAPDiscoverySites.jsonl",
+      "projects/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/raw/preview/2023-10-01-preview/SAPDiscoverySites.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2KeyPair.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2KeyPair.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_Delete.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_Get.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/examples/2024-12-01/Ec2KeyPairs_Update.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5389,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2KeyPair.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2KeyPair.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_Delete.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_Get.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2KeyPairs_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6063,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2KeyPair.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2KeyPair.jsonl",
+      "projects/specification/awsconnector/Ec2KeyPair.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2KeyPair.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

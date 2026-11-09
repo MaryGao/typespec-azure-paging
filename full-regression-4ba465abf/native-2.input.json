@@ -1,0 +1,68 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/AlertProcessingRule.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_add_action_group_all_alerts_in_subscription.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_add_two_action_groups_all_Sev0_Sev1_two_resource_groups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_remove_all_action_groups_from_specific_alert_rule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_remove_all_action_groups_outside_business_hours.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_remove_all_action_groups_recurring_maintenance_window.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Create_or_update_remove_all_action_groups_specific_VM_one-off_maintenance_window.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Delete.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_GetById.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_List_ResourceGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_List_Subscription.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/examples/2021-08-08/AlertProcessingRules_Patch.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/suppressions.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-08-08",
+    "compileStatus": "success",
+    "compileDurationMs": 5759,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/AlertProcessingRules.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/AlertProcessingRules.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_add_action_group_all_alerts_in_subscription.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_add_two_action_groups_all_Sev0_Sev1_two_resource_groups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_remove_all_action_groups_from_specific_alert_rule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_remove_all_action_groups_outside_business_hours.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_remove_all_action_groups_recurring_maintenance_window.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Create_or_update_remove_all_action_groups_specific_VM_one-off_maintenance_window.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Delete.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_GetById.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_List_ResourceGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_List_Subscription.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/swagger/stable/2021-08-08/examples/AlertProcessingRules_Patch.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6831,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/raw/stable/2021-08-08/AlertProcessingRules.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules/raw/stable/2021-08-08/AlertProcessingRules.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

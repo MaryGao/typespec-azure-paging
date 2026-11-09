@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/LogProfileResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/examples/2016-03-01/createOrUpdateLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/examples/2016-03-01/deleteLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/examples/2016-03-01/getLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/examples/2016-03-01/listLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/examples/2016-03-01/patchLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2016-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5548,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/logProfiles.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/examples/createOrUpdateLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/examples/deleteLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/examples/getLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/examples/listLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/examples/patchLogProfile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/swagger/stable/2016-03-01/logProfiles.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6148,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/raw/stable/2016-03-01/logProfiles.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi/raw/stable/2016-03-01/logProfiles.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

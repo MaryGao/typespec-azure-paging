@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/OrganizationsAccount.Management",
+    "typespecPath": "projects/specification/awsconnector/OrganizationsAccount.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_CreateOrReplace.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_Delete.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_Get.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_ListByResourceGroup.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_ListBySubscription.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/examples/2024-12-01/OrganizationsAccounts_Update.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5905,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/organizationsAccount.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_CreateOrReplace.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_Delete.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_Get.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_ListByResourceGroup.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_ListBySubscription.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/OrganizationsAccounts_Update.json",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/organizationsAccount.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7196,
+    "rawFiles": [
+      "projects/specification/awsconnector/OrganizationsAccount.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/organizationsAccount.jsonl",
+      "projects/specification/awsconnector/OrganizationsAccount.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/organizationsAccount.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,63 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents",
+    "typespecPath": "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec",
+    "typespecFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/client.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_CreateOrUpdate.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_CreateOrUpdate_MinimumSet.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_Delete.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_Get.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_ListByResourceGroup.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_ListBySubscription.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_Update.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/ObservabilityAgents_Update_MinimumSet.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/examples/2026-05-01-preview/Operations_List.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/main.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/readme.go.md",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/readme.java.md",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/readme.md",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/readme.python.md",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/service.yaml",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/suppressions.yaml",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/tspconfig.yaml",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/typespec/agents/agents.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/typespec/models.tsp",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/typespec/typespec/service.tsp"
+    ],
+    "apiVersion": "2026-05-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5788,
+    "swaggerFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/agents.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/agents.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_CreateOrUpdate.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_CreateOrUpdate_MinimumSet.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_Delete.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_Get.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_ListByResourceGroup.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_ListBySubscription.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_Update.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/ObservabilityAgents_Update_MinimumSet.json",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/swagger/preview/2026-05-01-preview/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6145,
+    "rawFiles": [
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/raw/preview/2026-05-01-preview/agents.jsonl",
+      "projects/specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents/raw/preview/2026-05-01-preview/agents.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

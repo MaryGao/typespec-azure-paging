@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamRole.Management",
+    "typespecPath": "projects/specification/awsconnector/IamRole.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_Delete.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_Get.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_ListBySubscription.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/examples/2024-12-01/IamRoles_Update.json",
+      "projects/specification/awsconnector/IamRole.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamRole.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamRole.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5468,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamRole.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_Delete.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_Get.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_ListBySubscription.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamRoles_Update.json",
+      "projects/specification/awsconnector/IamRole.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamRole.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6028,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamRole.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamRole.jsonl",
+      "projects/specification/awsconnector/IamRole.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamRole.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

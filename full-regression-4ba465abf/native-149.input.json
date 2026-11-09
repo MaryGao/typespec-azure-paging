@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SsmInstanceInformation.Management",
+    "typespecPath": "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_Delete.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_Get.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/examples/2024-12-01/SsmInstanceInformations_Update.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5805,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmInstanceInformation.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_Delete.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_Get.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmInstanceInformations_Update.json",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmInstanceInformation.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6135,
+    "rawFiles": [
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmInstanceInformation.jsonl",
+      "projects/specification/awsconnector/SsmInstanceInformation.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmInstanceInformation.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

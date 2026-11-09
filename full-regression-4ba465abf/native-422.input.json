@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/SecurityAssessmentMetadataResponse.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/SecurityAssessmentResponse.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/Assessments/DeleteAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/Assessments/GetAssessmentWithExpand_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/Assessments/GetAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/Assessments/ListAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/Assessments/PutAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/CreateAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/DeleteAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/GetAssessmentsMetadata_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/GetAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/ListAssessmentsMetadata_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/examples/2025-05-04/AssessmentsMetadata/ListAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-05-04",
+    "compileStatus": "success",
+    "compileDurationMs": 6109,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/security-Assessment.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/Assessments/DeleteAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/Assessments/GetAssessmentWithExpand_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/Assessments/GetAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/Assessments/ListAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/Assessments/PutAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/CreateAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/DeleteAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/GetAssessmentsMetadata_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/GetAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/ListAssessmentsMetadata_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/examples/AssessmentsMetadata/ListAssessmentsMetadata_subscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/swagger/stable/2025-05-04/security-Assessment.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6896,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/raw/stable/2025-05-04/security-Assessment.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI/raw/stable/2025-05-04/security-Assessment.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

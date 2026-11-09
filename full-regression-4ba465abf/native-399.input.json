@@ -1,0 +1,87 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations",
+    "typespecPath": "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec",
+    "typespecFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/ReservationOrderResponse.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/ReservationResponse.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/back-compatible.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/Archive.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/CalculateExchange.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/CalculateRefund.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/CalculateReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/ChangeDirectoryReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/Exchange.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetAppliedReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetAvailableScope.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetCatalog.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetOperations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationDetails.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationOrderDetails.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationOrderDetailsWithExpandPlanInformation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationOrders.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationRevisions.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/GetReservationsFromOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/MergeReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/PurchaseReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/Return.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/SplitReservation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/Unarchive.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/examples/2022-11-01/UpdateReservation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/main.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/models.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/routes.tsp",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/service.yaml",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6665,
+    "swaggerFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/reservations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/Archive.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/CalculateExchange.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/CalculateRefund.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/CalculateReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/ChangeDirectoryReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/Exchange.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetAppliedReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetAvailableScope.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetCatalog.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetOperations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationDetails.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationOrderDetails.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationOrderDetailsWithExpandPlanInformation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationOrders.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationRevisions.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/GetReservationsFromOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/MergeReservations.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/PurchaseReservationOrder.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/Return.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/SplitReservation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/Unarchive.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/examples/UpdateReservation.json",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/swagger/stable/2022-11-01/reservations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6614,
+    "rawFiles": [
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/raw/stable/2022-11-01/reservations.jsonl",
+      "projects/specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations/raw/stable/2022-11-01/reservations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

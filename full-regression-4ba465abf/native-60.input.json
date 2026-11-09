@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/DynamoDBContinuousBackupsDescription.Management",
+    "typespecPath": "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_Delete.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_Get.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/examples/2024-12-01/DynamoDbContinuousBackupsDescriptions_Update.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5540,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBContinuousBackupsDescription.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBContinuousBackupsDescription.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_Delete.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_Get.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DynamoDbContinuousBackupsDescriptions_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5914,
+    "rawFiles": [
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBContinuousBackupsDescription.jsonl",
+      "projects/specification/awsconnector/DynamoDBContinuousBackupsDescription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/dynamoDBContinuousBackupsDescription.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

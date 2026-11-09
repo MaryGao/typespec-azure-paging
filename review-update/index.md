@@ -1,6 +1,6 @@
 # DefaultInEnum review update
 
-Current candidate: `4ba465abf8e5c577197f6c3f930b1ece40d34305`.
+Validated candidate: `4ba465abf8e5c577197f6c3f930b1ece40d34305`.
 
 The proposed rule is `@azure-tools/typespec-azure-core/use-known-enum-default`. The rule now checks `getUnionAsEnum().flattenedMembers` directly, matching the enum values used by AutoRest. The local traversal is removed; the shared helper and its tests remain unchanged. The naming and documentation improvements remain.
 
@@ -14,6 +14,6 @@ The historical rollback at `59641e2e` passed 48 focused cases while still using 
 
 The earlier `a477b4ce` packet remains historical: its focused recovery run passed 139 tests; an initial full Core attempt had one unrelated 5-second casing-test timeout (514 passed, 2 skipped), followed by a passing recovery without relaxing timeouts. Five affected builds, documentation generation, root formatting/lint/engineering type-check, and Chronus verification passed for that earlier candidate. Its shared-helper API approach has since been removed.
 
-The 487-project corpus results remain tied to the original `dd233ce` candidate and its old rule ID. They were not rerun on subsequent review commits, including this update. Earlier live CI results likewise do not describe the current candidate; its normal CI rerun is separate.
+The original 487-project corpus results remain tied to `dd233ce` and its old rule ID. [Separate full revalidation at `4ba465abf`](../full-regression-4ba465abf/index.md) is now complete: 487/487 succeeded with zero target findings and ambient diagnostics, and final integrity verification passed. No new observed diagnostic gap was found; Swagger results were reused. The PR advanced to `a379ac336e9e5da104005d73c822a681ce02e284` through a main merge during this run, changing compiler/library inputs; that newer runtime is not covered. Earlier live CI results likewise do not describe these candidates.
 
 All three review threads are left unresolved for Timo.

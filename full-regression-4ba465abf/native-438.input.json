@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/RegulatoryComplianceAssessment.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/RegulatoryComplianceControl.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/RegulatoryComplianceStandard.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceAssessmentList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceControlList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceControl_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceStandardList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/examples/2019-01-01-preview/RegulatoryCompliance/getRegulatoryComplianceStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6245,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/regulatoryCompliance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceAssessmentList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceControlList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceControl_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceStandardList_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/examples/RegulatoryCompliance/getRegulatoryComplianceStandard_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/swagger/preview/2019-01-01-preview/regulatoryCompliance.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6328,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/raw/preview/2019-01-01-preview/regulatoryCompliance.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI/raw/preview/2019-01-01-preview/regulatoryCompliance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

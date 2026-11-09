@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/manufacturingplatform/Manufacturingplatform.Management",
+    "typespecPath": "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/client.tsp",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_Delete_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_Get_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_ListAvailableVersions_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/ManufacturingDataServices_Update_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/examples/2025-03-01/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/main.tsp",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/service.yaml",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5561,
+    "swaggerFiles": [
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/manufacturingplatform.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_Delete_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_Get_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_ListAvailableVersions_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/ManufacturingDataServices_Update_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/swagger/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/manufacturingplatform.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6749,
+    "rawFiles": [
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/raw/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/manufacturingplatform.jsonl",
+      "projects/specification/manufacturingplatform/Manufacturingplatform.Management/raw/resource-manager/Microsoft.ManufacturingPlatform/stable/2025-03-01/manufacturingplatform.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

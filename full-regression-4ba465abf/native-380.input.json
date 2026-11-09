@@ -1,0 +1,52 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment",
+    "typespecPath": "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec",
+    "typespecFiles": [
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/client.tsp",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_CreateOrUpdate.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_Delete.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_Get.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_ListByResourceGroup.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_ListBySubscription.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/EduEnrollments_Update.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/examples/2026-03-01-preview/Operations_List.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/main.tsp",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/readme.md",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/service.yaml",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-03-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5525,
+    "swaggerFiles": [
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_CreateOrUpdate.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_Delete.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_Get.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_ListByResourceGroup.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_ListBySubscription.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/EduEnrollments_Update.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/examples/Operations_List.json",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/swagger/preview/2026-03-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6843,
+    "rawFiles": [
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/raw/preview/2026-03-01-preview/openapi.jsonl",
+      "projects/specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment/raw/preview/2026-03-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

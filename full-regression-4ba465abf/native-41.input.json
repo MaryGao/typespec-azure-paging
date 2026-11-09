@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/AccessAnalyzerAnalyzer.Management",
+    "typespecPath": "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_CreateOrReplace.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_Delete.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_Get.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_ListBySubscription.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/examples/2024-12-01/AccessAnalyzerAnalyzers_Update.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5582,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/accessAnalyzerAnalyzer.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/accessAnalyzerAnalyzer.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_CreateOrReplace.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_Delete.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_Get.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_ListBySubscription.json",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AccessAnalyzerAnalyzers_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 11106,
+    "rawFiles": [
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/accessAnalyzerAnalyzer.jsonl",
+      "projects/specification/awsconnector/AccessAnalyzerAnalyzer.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/accessAnalyzerAnalyzer.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

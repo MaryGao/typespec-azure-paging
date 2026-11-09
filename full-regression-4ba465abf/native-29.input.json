@@ -1,0 +1,79 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation",
+    "typespecPath": "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec",
+    "typespecFiles": [
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/AttestationProvider.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/PrivateEndpointConnection.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/back-compatible.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/client.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/AttestationProviderDeletePrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/AttestationProviderGetPrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/AttestationProviderListPrivateEndpointConnections.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/AttestationProviderListPrivateLinkResources.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/AttestationProviderPutPrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Create_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Delete_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Get_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Get_AttestationProvidersList.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Get_AttestationProvidersListByResourceGroup.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Get_DefaultProviderByLocation.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Get_DefaultProviders.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Operations_List.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/examples/2021-06-01/Update_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/main.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/models.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.az.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.cli.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.go.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.java.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.python.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.terraform.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/readme.typescript.md",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/routes.tsp",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/service.yaml",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/suppressions.yaml",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-06-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6256,
+    "swaggerFiles": [
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/attestation.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/attestation.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/AttestationProviderDeletePrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/AttestationProviderGetPrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/AttestationProviderListPrivateEndpointConnections.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/AttestationProviderListPrivateLinkResources.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/AttestationProviderPutPrivateEndpointConnection.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Create_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Delete_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Get_AttestationProvider.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Get_AttestationProvidersList.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Get_AttestationProvidersListByResourceGroup.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Get_DefaultProviderByLocation.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Get_DefaultProviders.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Operations_List.json",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/swagger/stable/2021-06-01/examples/Update_AttestationProvider.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6094,
+    "rawFiles": [
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/raw/stable/2021-06-01/attestation.jsonl",
+      "projects/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/raw/stable/2021-06-01/attestation.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

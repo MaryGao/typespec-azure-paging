@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/MdeOnboardingData.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/examples/2021-10-01-preview/MdeOnboardings/GetMdeOnboardings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/examples/2021-10-01-preview/MdeOnboardings/ListMdeOnboardings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5380,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/swagger/preview/2021-10-01-preview/mdeOnboardings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/swagger/preview/2021-10-01-preview/examples/MdeOnboardings/GetMdeOnboardings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/swagger/preview/2021-10-01-preview/examples/MdeOnboardings/ListMdeOnboardings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/swagger/preview/2021-10-01-preview/mdeOnboardings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5703,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/raw/preview/2021-10-01-preview/mdeOnboardings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI/raw/preview/2021-10-01-preview/mdeOnboardings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

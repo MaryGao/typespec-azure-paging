@@ -1,0 +1,60 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/PrometheusRuleGroupResource.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/createOrUpdateClusterCentricRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/createOrUpdatePrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/deletePrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/getPrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/listPrometheusRuleGroups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/listSubscriptionPrometheusRuleGroups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/examples/2023-03-01/patchPrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/suppressions.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5881,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/PrometheusRuleGroups.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/PrometheusRuleGroups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/createOrUpdateClusterCentricRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/createOrUpdatePrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/deletePrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/getPrometheusRuleGroup.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/listPrometheusRuleGroups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/listSubscriptionPrometheusRuleGroups.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/swagger/stable/2023-03-01/examples/patchPrometheusRuleGroup.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5791,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/raw/stable/2023-03-01/PrometheusRuleGroups.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/raw/stable/2023-03-01/PrometheusRuleGroups.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

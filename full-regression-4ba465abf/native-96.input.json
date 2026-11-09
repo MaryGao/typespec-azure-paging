@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EmrCluster.Management",
+    "typespecPath": "projects/specification/awsconnector/EmrCluster.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_Delete.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_Get.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/examples/2024-12-01/EmrClusters_Update.json",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EmrCluster.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5444,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/emrCluster.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/emrCluster.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_Delete.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_Get.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/EmrCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EmrClusters_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6438,
+    "rawFiles": [
+      "projects/specification/awsconnector/EmrCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/emrCluster.jsonl",
+      "projects/specification/awsconnector/EmrCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/emrCluster.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

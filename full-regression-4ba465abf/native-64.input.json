@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2FlowLog.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2FlowLog.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_Delete.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_Get.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/examples/2024-12-01/Ec2FlowLogs_Update.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5422,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2FlowLog.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2FlowLog.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_Delete.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_Get.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2FlowLogs_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6063,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2FlowLog.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2FlowLog.jsonl",
+      "projects/specification/awsconnector/Ec2FlowLog.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2FlowLog.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

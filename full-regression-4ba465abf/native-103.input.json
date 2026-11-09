@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamPasswordPolicy.Management",
+    "typespecPath": "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_Delete.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_Get.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/examples/2024-12-01/IamPasswordPolicies_Update.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5654,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPasswordPolicy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_Delete.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_Get.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPasswordPolicies_Update.json",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPasswordPolicy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5968,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPasswordPolicy.jsonl",
+      "projects/specification/awsconnector/IamPasswordPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPasswordPolicy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

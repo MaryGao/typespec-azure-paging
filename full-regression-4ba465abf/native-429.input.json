@@ -1,0 +1,84 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/GovernanceAssignment.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/GovernanceRule.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceAssignments/DeleteGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceAssignments/GetGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceAssignments/ListGovernanceAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceAssignments/PutGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/DeleteGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/DeleteManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/DeleteSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetManagementGroupGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetSecurityConnectorGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/GetSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/ListByManagementGroupGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/ListBySecurityConnectorGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/ListBySubscriptionGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PostGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PostManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PostSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PutGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PutManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/examples/2022-01-01-preview/GovernanceRules/PutSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6236,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/security-Governance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceAssignments/DeleteGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceAssignments/GetGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceAssignments/ListGovernanceAssignments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceAssignments/PutGovernanceAssignment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/DeleteGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/DeleteManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/DeleteSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetManagementGroupGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetSecurityConnectorGovernanceRuleExecuteStatus_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/GetSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/ListByManagementGroupGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/ListBySecurityConnectorGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/ListBySubscriptionGovernanceRules_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PostGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PostManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PostSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PutGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PutManagementGroupGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/examples/GovernanceRules/PutSecurityConnectorGovernanceRule_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/swagger/preview/2022-01-01-preview/security-Governance.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5859,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/raw/preview/2022-01-01-preview/security-Governance.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI/raw/preview/2022-01-01-preview/security-Governance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,87 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applink/AppLink.Management",
+    "typespecPath": "projects/specification/applink/AppLink.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/applink/AppLink.Management/typespec/applink.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/applinkavailableversion.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/applinkmember.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/applinkmemberupgradehistory.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/client.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/commontypes.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinkMembers_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinkMembers_Delete.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinkMembers_Get.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinkMembers_ListByAppLink.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinkMembers_Update.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_Delete.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_Get.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_ListByResourceGroup.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_ListBySubscription.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AppLinks_Update.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AvailableVersions_ListByLocation.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/AvailableVersions_ListByLocationWithFilter.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/Operations_List.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2025-08-01-preview/UpgradeHistories_ListByAppLinkMember.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinkMembers_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinkMembers_Delete.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinkMembers_Get.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinkMembers_ListByAppLink.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinkMembers_Update.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_Delete.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_Get.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_ListByResourceGroup.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_ListBySubscription.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AppLinks_Update.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AvailableVersions_ListByLocation.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/AvailableVersions_ListByLocationWithFilter.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/Operations_List.json",
+      "projects/specification/applink/AppLink.Management/typespec/examples/2026-08-01-preview/UpgradeHistories_ListByAppLinkMember.json",
+      "projects/specification/applink/AppLink.Management/typespec/main.tsp",
+      "projects/specification/applink/AppLink.Management/typespec/service.yaml",
+      "projects/specification/applink/AppLink.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-08-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6629,
+    "swaggerFiles": [
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinkMembers_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinkMembers_Delete.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinkMembers_Get.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinkMembers_ListByAppLink.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinkMembers_Update.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_CreateOrUpdate.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_Delete.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_Get.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_ListByResourceGroup.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_ListBySubscription.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AppLinks_Update.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AvailableVersions_ListByLocation.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/AvailableVersions_ListByLocationWithFilter.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/Operations_List.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/examples/UpgradeHistories_ListByAppLinkMember.json",
+      "projects/specification/applink/AppLink.Management/swagger/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7200,
+    "rawFiles": [
+      "projects/specification/applink/AppLink.Management/raw/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/openapi.jsonl",
+      "projects/specification/applink/AppLink.Management/raw/resource-manager/Microsoft.AppLink/preview/2026-08-01-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,63 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/management/resource-manager/Microsoft.Management/ServiceGroups",
+    "typespecPath": "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec",
+    "typespecFiles": [
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/ServiceGroup.tsp",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/back-compatible.tsp",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/client.tsp",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2024-02-01-preview/ServiceGroup_Delete.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2024-02-01-preview/ServiceGroup_Get.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2024-02-01-preview/ServiceGroup_ListAncestors.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2024-02-01-preview/ServiceGroup_Patch.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2024-02-01-preview/ServiceGroup_Put.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2026-08-01/Operations_List.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2026-08-01/ServiceGroup_Delete.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2026-08-01/ServiceGroup_Get.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2026-08-01/ServiceGroup_Patch.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/examples/2026-08-01/ServiceGroup_Put.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/main.tsp",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/models.tsp",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.az.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.cli.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.go.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.java.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.python.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/readme.typescript.md",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/service.yaml",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/suppressions.yaml",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-08-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5820,
+    "swaggerFiles": [
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/serviceGroups.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/examples/Operations_List.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/examples/ServiceGroup_Delete.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/examples/ServiceGroup_Get.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/examples/ServiceGroup_Patch.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/examples/ServiceGroup_Put.json",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/swagger/stable/2026-08-01/serviceGroups.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6762,
+    "rawFiles": [
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/raw/stable/2026-08-01/serviceGroups.jsonl",
+      "projects/specification/management/resource-manager/Microsoft.Management/ServiceGroups/raw/stable/2026-08-01/serviceGroups.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb",
+    "typespecPath": "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec",
+    "typespecFiles": [
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/.gitignore",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/client.tsp",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/examples/2024-10-22-preview/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/main.tsp",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/readme.md",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/service.yaml",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-10-22-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5775,
+    "swaggerFiles": [
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_Delete_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_Get_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/examples/Organizations_Update_MaximumSet_Gen.json",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/swagger/preview/2024-10-22-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6378,
+    "rawFiles": [
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/raw/preview/2024-10-22-preview/openapi.jsonl",
+      "projects/specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb/raw/preview/2024-10-22-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

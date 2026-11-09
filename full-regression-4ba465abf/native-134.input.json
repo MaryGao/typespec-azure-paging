@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Route53DomainsDomainSummary.Management",
+    "typespecPath": "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_Delete.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_Get.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/examples/2024-12-01/Route53DomainsDomainSummaries_Update.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6523,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53DomainsDomainSummary.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_Delete.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_Get.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53DomainsDomainSummaries_Update.json",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53DomainsDomainSummary.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5824,
+    "rawFiles": [
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53DomainsDomainSummary.jsonl",
+      "projects/specification/awsconnector/Route53DomainsDomainSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53DomainsDomainSummary.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

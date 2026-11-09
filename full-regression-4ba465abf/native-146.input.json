@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SnsSubscription.Management",
+    "typespecPath": "projects/specification/awsconnector/SnsSubscription.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_Delete.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_Get.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/examples/2024-12-01/SnsSubscriptions_Update.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SnsSubscription.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5710,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsSubscription.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_CreateOrReplace.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_Delete.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_Get.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_ListBySubscription.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsSubscriptions_Update.json",
+      "projects/specification/awsconnector/SnsSubscription.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsSubscription.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6989,
+    "rawFiles": [
+      "projects/specification/awsconnector/SnsSubscription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsSubscription.jsonl",
+      "projects/specification/awsconnector/SnsSubscription.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsSubscription.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

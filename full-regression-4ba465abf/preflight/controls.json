@@ -1,0 +1,139 @@
+{
+  "candidateCommit": "4ba465abf8e5c577197f6c3f930b1ece40d34305",
+  "target": "@azure-tools/typespec-azure-core/use-known-enum-default",
+  "node": "v24.20.0",
+  "fixtures": [
+    {
+      "name": "invalid-string",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "invalid-number",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "compliant",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "suppressed",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "overwritten-union-default",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "retained-union-default",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "documentation-1",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "documentation-2",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "documentation-3",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "documentation-4",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "documentation-5",
+      "expected": 0,
+      "actual": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "library-all-activation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 1,
+      "defaultCount": 1,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "arm-preset-nonactivation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 0,
+      "defaultCount": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    },
+    {
+      "name": "data-plane-preset-nonactivation",
+      "expected": 1,
+      "actual": 1,
+      "expectedDefault": 0,
+      "defaultCount": 0,
+      "passed": true,
+      "workerStatus": "success",
+      "exitCode": 0,
+      "compilerErrors": []
+    }
+  ]
+}

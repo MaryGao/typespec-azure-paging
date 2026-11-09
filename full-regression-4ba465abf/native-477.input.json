@@ -1,0 +1,51 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform",
+    "typespecPath": "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec",
+    "typespecFiles": [
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/client.tsp",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2023-07-01-preview/ExportTerraform.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2023-07-01-preview/ListOperations.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2025-06-01-preview/ExportTerraform.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2025-06-01-preview/ListOperations.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2025-09-01-preview/ExportTerraform.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2025-09-01-preview/ListOperations.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2026-09-01-preview/ExportTerraform.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/examples/2026-09-01-preview/ListOperations.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/main.tsp",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/models.tsp",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/readme.md",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/routes.tsp",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/service.yaml",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/suppressions.yaml",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-09-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6041,
+    "swaggerFiles": [
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/swagger/preview/2026-09-01-preview/export.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/swagger/preview/2026-09-01-preview/examples/ExportTerraform.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/swagger/preview/2026-09-01-preview/examples/ListOperations.json",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/swagger/preview/2026-09-01-preview/export.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 8472,
+    "rawFiles": [
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/raw/preview/2026-09-01-preview/export.jsonl",
+      "projects/specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform/raw/preview/2026-09-01-preview/export.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

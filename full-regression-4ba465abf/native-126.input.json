@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsDBCluster.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsDBCluster.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_Delete.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_Get.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/examples/2024-12-01/RdsDbClusters_Update.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsDBCluster.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5831,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBCluster.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_Delete.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_Get.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbClusters_Update.json",
+      "projects/specification/awsconnector/RdsDBCluster.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBCluster.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6146,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsDBCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBCluster.jsonl",
+      "projects/specification/awsconnector/RdsDBCluster.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBCluster.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

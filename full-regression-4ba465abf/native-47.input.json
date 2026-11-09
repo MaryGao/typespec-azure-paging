@@ -1,0 +1,38 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Awsconnector.Management",
+    "typespecPath": "projects/specification/awsconnector/Awsconnector.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Awsconnector.Management/typespec/examples/2024-12-01/Operations_List.json",
+      "projects/specification/awsconnector/Awsconnector.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Awsconnector.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Awsconnector.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5085,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Awsconnector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/operations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Awsconnector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Operations_List.json",
+      "projects/specification/awsconnector/Awsconnector.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/operations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5945,
+    "rawFiles": [
+      "projects/specification/awsconnector/Awsconnector.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/operations.jsonl",
+      "projects/specification/awsconnector/Awsconnector.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/operations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

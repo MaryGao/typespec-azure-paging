@@ -1,0 +1,72 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/Alert.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/AlertsMetaData_MonitorService.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_ChangeState.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_ChangeStateTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_GetById.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_GetByIdTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_GetEnrichments.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_GetHistoryTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_History.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_List.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_List_GetAllTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Alerts_Summary.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/examples/2025-05-25-preview/Operations_List.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/readme.terraform.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/routes.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/suppressions.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-05-25-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6045,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/AlertsManagement.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/AlertsManagement.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/AlertsMetaData_MonitorService.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_ChangeState.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_ChangeStateTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_GetById.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_GetByIdTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_GetEnrichments.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_GetHistoryTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_History.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_List.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_List_GetAllTenant.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Alerts_Summary.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/swagger/preview/2025-05-25-preview/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6127,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/raw/preview/2025-05-25-preview/AlertsManagement.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement/raw/preview/2025-05-25-preview/AlertsManagement.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

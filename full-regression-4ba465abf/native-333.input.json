@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/AutoscaleSettingResource.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/GetPredictiveMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/createOrUpdateAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/deleteAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/getAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/listAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/listAutoscaleSettingBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/examples/2022-10-01/patchAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-10-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5808,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/autoScale.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/autoScale.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/GetPredictiveMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/createOrUpdateAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/deleteAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/getAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/listAutoscaleSetting.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/listAutoscaleSettingBySubscription.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/swagger/stable/2022-10-01/examples/patchAutoscaleSetting.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7427,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/raw/stable/2022-10-01/autoScale.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi/raw/stable/2022-10-01/autoScale.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,82 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/dell/resource-manager/Dell.Storage/DellStorage",
+    "typespecPath": "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec",
+    "typespecFiles": [
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/LiftrBase.Storage/main.tsp",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/LiftrBase/main.tsp",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/client.tsp",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_CreateOrUpdate_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Delete_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Delete_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Get_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Get_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Update_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/FileSystems_Update_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_CreateOrUpdate_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Delete_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Delete_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Get_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Get_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Update_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/FileSystems_Update_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/examples/2025-03-21/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/main.tsp",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/readme.md",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/service.yaml",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-03-21-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6996,
+    "swaggerFiles": [
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/Dell.Storage.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/Dell.Storage.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_CreateOrUpdate_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Delete_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Delete_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Get_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Get_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_ListByResourceGroup_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_ListBySubscription_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Update_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/FileSystems_Update_MinimumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/swagger/preview/2025-03-21-preview/examples/Operations_List_MinimumSet_Gen.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6307,
+    "rawFiles": [
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/raw/preview/2025-03-21-preview/Dell.Storage.jsonl",
+      "projects/specification/dell/resource-manager/Dell.Storage/DellStorage/raw/preview/2025-03-21-preview/Dell.Storage.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

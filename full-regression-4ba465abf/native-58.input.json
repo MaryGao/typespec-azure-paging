@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management",
+    "typespecPath": "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_Delete.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_Get.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/examples/2024-12-01/DatabaseMigrationServiceReplicationInstances_Update.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5628,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/databaseMigrationServiceReplicationInstance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/databaseMigrationServiceReplicationInstance.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_CreateOrReplace.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_Delete.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_Get.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_ListByResourceGroup.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_ListBySubscription.json",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/DatabaseMigrationServiceReplicationInstances_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6089,
+    "rawFiles": [
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/databaseMigrationServiceReplicationInstance.jsonl",
+      "projects/specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/databaseMigrationServiceReplicationInstance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

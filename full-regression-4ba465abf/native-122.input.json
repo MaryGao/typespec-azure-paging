@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/NetworkFirewallRuleGroup.Management",
+    "typespecPath": "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/examples/2024-12-01/NetworkFirewallRuleGroups_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5663,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallRuleGroup.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallRuleGroups_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallRuleGroup.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6249,
+    "rawFiles": [
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallRuleGroup.jsonl",
+      "projects/specification/awsconnector/NetworkFirewallRuleGroup.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallRuleGroup.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

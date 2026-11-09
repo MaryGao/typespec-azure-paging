@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EcrImageDetail.Management",
+    "typespecPath": "projects/specification/awsconnector/EcrImageDetail.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_Delete.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_Get.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_ListBySubscription.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/examples/2024-12-01/EcrImageDetails_Update.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EcrImageDetail.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5557,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrImageDetail.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrImageDetail.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_Delete.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_Get.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_ListBySubscription.json",
+      "projects/specification/awsconnector/EcrImageDetail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrImageDetails_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6144,
+    "rawFiles": [
+      "projects/specification/awsconnector/EcrImageDetail.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrImageDetail.jsonl",
+      "projects/specification/awsconnector/EcrImageDetail.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrImageDetail.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

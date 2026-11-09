@@ -1,0 +1,61 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/orbitalplanetarycomputer/Orbital.Management",
+    "typespecPath": "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/client.tsp",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_Create.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_Delete.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_Get.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_ListByResourceGroup.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_ListBySubscription.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2024-01-31-preview/GeoCatalogs_Update.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_Create.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_Delete.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_Get.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_ListByResourceGroup.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_ListBySubscription.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2025-02-11-preview/GeoCatalogs_Update.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_Create.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_Delete.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_Get.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_ListByResourceGroup.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_ListBySubscription.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/examples/2026-04-15/GeoCatalogs_Update.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/main.tsp",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/service.yaml",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-04-15",
+    "compileStatus": "success",
+    "compileDurationMs": 6344,
+    "swaggerFiles": [
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/planetarycomputer.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_Create.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_Delete.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_Get.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_ListByResourceGroup.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_ListBySubscription.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/examples/GeoCatalogs_Update.json",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/swagger/resource-manager/Microsoft.Orbital/stable/2026-04-15/planetarycomputer.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5929,
+    "rawFiles": [
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/raw/resource-manager/Microsoft.Orbital/stable/2026-04-15/planetarycomputer.jsonl",
+      "projects/specification/orbitalplanetarycomputer/Orbital.Management/raw/resource-manager/Microsoft.Orbital/stable/2026-04-15/planetarycomputer.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

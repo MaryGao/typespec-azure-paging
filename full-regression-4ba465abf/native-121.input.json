@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/NetworkFirewallFirewallPolicy.Management",
+    "typespecPath": "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/examples/2024-12-01/NetworkFirewallFirewallPolicies_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5560,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewallPolicy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewallPolicies_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewallPolicy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6114,
+    "rawFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewallPolicy.jsonl",
+      "projects/specification/awsconnector/NetworkFirewallFirewallPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewallPolicy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

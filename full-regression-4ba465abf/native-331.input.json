@@ -1,0 +1,53 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetActivityLogsFiltered.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetActivityLogsFilteredAndSelected.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetEventCategories.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetTenantActivityLogsFiltered.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetTenantActivityLogsFilteredAndSelected.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetTenantActivityLogsNoParams.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/examples/2015-04-01/GetTenantActivityLogsSelected.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/routes.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5660,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/activityLogs.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/activityLogs.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetActivityLogsFiltered.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetActivityLogsFilteredAndSelected.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetEventCategories.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetTenantActivityLogsFiltered.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetTenantActivityLogsFilteredAndSelected.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetTenantActivityLogsNoParams.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/swagger/stable/2015-04-01/examples/GetTenantActivityLogsSelected.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6317,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/raw/stable/2015-04-01/activityLogs.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi/raw/stable/2015-04-01/activityLogs.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SageMakerNotebookInstanceSummary.Management",
+    "typespecPath": "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_Delete.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_Get.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/examples/2024-12-01/SageMakerNotebookInstanceSummaries_Update.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5639,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerNotebookInstanceSummary.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_Delete.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_Get.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SageMakerNotebookInstanceSummaries_Update.json",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerNotebookInstanceSummary.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6020,
+    "rawFiles": [
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerNotebookInstanceSummary.jsonl",
+      "projects/specification/awsconnector/SageMakerNotebookInstanceSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/sageMakerNotebookInstanceSummary.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,72 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector",
+    "typespecPath": "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec",
+    "typespecFiles": [
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/AzureTrafficCollector.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/CollectorPolicy.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/back-compatible.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/client.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorCreate.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorDelete.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorGet.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorUpdateTags.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorsByResourceGroupList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/AzureTrafficCollectorsBySubscriptionList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/CollectorPoliciesList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/CollectorPolicyCreate.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/CollectorPolicyDelete.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/CollectorPolicyGet.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/CollectorPolicyUpdateTags.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/examples/2022-11-01/OperationsList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/main.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/models.tsp",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.csharp.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.go.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.python.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.ruby.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/readme.typescript.md",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/service.yaml",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/suppressions.yaml",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6347,
+    "swaggerFiles": [
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/AzureTrafficCollector.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/AzureTrafficCollector.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorCreate.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorDelete.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorGet.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorUpdateTags.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorsByResourceGroupList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/AzureTrafficCollectorsBySubscriptionList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/CollectorPoliciesList.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/CollectorPolicyCreate.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/CollectorPolicyDelete.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/CollectorPolicyGet.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/CollectorPolicyUpdateTags.json",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/swagger/stable/2022-11-01/examples/OperationsList.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7047,
+    "rawFiles": [
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/raw/stable/2022-11-01/AzureTrafficCollector.jsonl",
+      "projects/specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector/raw/stable/2022-11-01/AzureTrafficCollector.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule",
+    "typespecPath": "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec",
+    "typespecFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/back-compatible.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/client.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/examples/2025-07-01-preview/previewDynamicThresholdLogSearchAlertRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/main.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/models.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/readme.cli.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/readme.go.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/readme.java.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/readme.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/readme.python.md",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/routes.tsp",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/service.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/suppressions.yaml",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5685,
+    "swaggerFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/swagger/preview/2025-07-01-preview/PreviewAlertRule.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/swagger/preview/2025-07-01-preview/PreviewAlertRule.json",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/swagger/preview/2025-07-01-preview/examples/previewDynamicThresholdLogSearchAlertRule.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5781,
+    "rawFiles": [
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/raw/preview/2025-07-01-preview/PreviewAlertRule.jsonl",
+      "projects/specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule/raw/preview/2025-07-01-preview/PreviewAlertRule.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

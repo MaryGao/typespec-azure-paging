@@ -1,0 +1,58 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+    "typespecPath": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/WebTest.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/back-compatible.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestCreate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestCreateStandard.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestListByComponent.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestListByResourceGroup.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/examples/2022-06-15/WebTestUpdateTagsOnly.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/main.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/models.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/routes.tsp",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/service.yaml",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-06-15",
+    "compileStatus": "success",
+    "compileDurationMs": 6010,
+    "swaggerFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestCreate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestCreateStandard.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestDelete.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestGet.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestList.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestListByComponent.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestListByResourceGroup.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestUpdate.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/examples/WebTestUpdateTagsOnly.json",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6739,
+    "rawFiles": [
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/raw/stable/2022-06-15/webTests_API.jsonl",
+      "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/raw/stable/2022-06-15/webTests_API.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,49 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/RdsDBSnapshot.Management",
+    "typespecPath": "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/back-compatible.tsp",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_Delete.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_Get.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/examples/2024-12-01/RdsDbSnapshots_Update.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5830,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshot.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_CreateOrReplace.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_Delete.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_Get.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_ListByResourceGroup.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_ListBySubscription.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/RdsDbSnapshots_Update.json",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshot.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5914,
+    "rawFiles": [
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshot.jsonl",
+      "projects/specification/awsconnector/RdsDBSnapshot.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/rdsDBSnapshot.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

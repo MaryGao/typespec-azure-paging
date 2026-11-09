@@ -1,0 +1,92 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments",
+    "typespecPath": "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Common/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Common/SqlEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/ArmModels/AssessmentProjectV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/ArmModels/AzureResourceProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/ArmModels/PrivateEndpointConnection.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/DataModels/DownloadUrl.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/Enums/Enums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/AssessedWorkloadProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/AssessmentProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/CommonAssessmentPropertiesEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/CommonEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/CostComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/ProductSupportStatus.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/SavingComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/Scope.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/Normalized Contract/StandardizedContracts/SummaryProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/SqlApiVersions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/AssessedSqlDatabaseV3.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/AssessedSqlInstanceV3.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/AssessedSqlMachineV3.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/SqlAssessmentV3.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/SqlAssessmentV3Summary.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/WebModels/SqlGraphAssessmentOptions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlDatabaseV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlDatabaseV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlInstanceV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlInstanceV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlMachinesV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/AssessedSqlMachinesV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlAssessmentV3SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/examples/2024-03-03-preview/SqlGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/main.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/readme.md",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/service.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/sqlasmroutes.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-03-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6720,
+    "swaggerFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/sqlAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlDatabaseV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlDatabaseV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlInstanceV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlInstanceV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlMachinesV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/AssessedSqlMachinesV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlAssessmentV3SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/examples/SqlGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/swagger/preview/2024-03-03-preview/sqlAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7704,
+    "rawFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/raw/preview/2024-03-03-preview/sqlAssessments.jsonl",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments/raw/preview/2024-03-03-preview/sqlAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

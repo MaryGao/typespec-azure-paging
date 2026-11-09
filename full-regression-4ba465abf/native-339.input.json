@@ -1,0 +1,65 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricDefinitions.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricDefinitionsApplicationInsights.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricDefinitionsMetricClass.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricError.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMetricNamespaces.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMultiResourceMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMultiResourceMetricDefinitions.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/GetMultiResourceMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/PostMultiResourceMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/PostMultiResourceMetricBody.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/examples/2024-02-01/PostMultiResourceMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/routes.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-02-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6086,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/metrics.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricDefinitions.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricDefinitionsApplicationInsights.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricDefinitionsMetricClass.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricError.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMetricNamespaces.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMultiResourceMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMultiResourceMetricDefinitions.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/GetMultiResourceMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/PostMultiResourceMetric.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/PostMultiResourceMetricBody.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/examples/PostMultiResourceMetricMetadata.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/swagger/stable/2024-02-01/metrics.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6553,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/raw/stable/2024-02-01/metrics.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi/raw/stable/2024-02-01/metrics.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

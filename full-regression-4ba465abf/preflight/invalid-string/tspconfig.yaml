@@ -1,0 +1,4 @@
+emit: []
+linter:
+  enable:
+    "@azure-tools/typespec-azure-core/use-known-enum-default": false

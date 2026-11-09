@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SnsTopic.Management",
+    "typespecPath": "projects/specification/awsconnector/SnsTopic.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_CreateOrReplace.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_Delete.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_Get.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_ListBySubscription.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/examples/2024-12-01/SnsTopics_Update.json",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SnsTopic.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5711,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsTopic.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_CreateOrReplace.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_Delete.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_Get.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_ListBySubscription.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SnsTopics_Update.json",
+      "projects/specification/awsconnector/SnsTopic.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsTopic.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6502,
+    "rawFiles": [
+      "projects/specification/awsconnector/SnsTopic.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsTopic.jsonl",
+      "projects/specification/awsconnector/SnsTopic.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/snsTopic.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

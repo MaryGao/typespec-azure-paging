@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamAccessKeyLastUsed.Management",
+    "typespecPath": "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_Delete.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_Get.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_ListBySubscription.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/examples/2024-12-01/IamAccessKeyLastUseds_Update.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5649,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyLastUsed.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_Delete.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_Get.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_ListBySubscription.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamAccessKeyLastUseds_Update.json",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyLastUsed.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6116,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyLastUsed.jsonl",
+      "projects/specification/awsconnector/IamAccessKeyLastUsed.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamAccessKeyLastUsed.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

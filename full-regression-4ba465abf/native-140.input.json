@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/S3BucketPolicy.Management",
+    "typespecPath": "projects/specification/awsconnector/S3BucketPolicy.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_Delete.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_Get.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/examples/2024-12-01/S3BucketPolicies_Update.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5844,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3BucketPolicy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_CreateOrReplace.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_Delete.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_Get.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_ListByResourceGroup.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_ListBySubscription.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/S3BucketPolicies_Update.json",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3BucketPolicy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5972,
+    "rawFiles": [
+      "projects/specification/awsconnector/S3BucketPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3BucketPolicy.jsonl",
+      "projects/specification/awsconnector/S3BucketPolicy.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/s3BucketPolicy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

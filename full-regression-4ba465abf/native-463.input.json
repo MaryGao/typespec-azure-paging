@@ -1,0 +1,88 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign",
+    "typespecPath": "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec",
+    "typespecFiles": [
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/common.tsp",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_ListByResourceGroup.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_ListBySubscription.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneAccountOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_CreateCopy.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_GenerateLandingZone.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneConfigurationOperations_UpdateAuthoringStatus.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneRegistrationOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneRegistrationOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneRegistrationOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneRegistrationOperations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/LandingZoneRegistrationOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/examples/2025-02-27-preview/Operations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/landingZoneAccountResourceProperties.tsp",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/landingZoneConfigurationResourceProperties.tsp",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/landingZoneRegistrationResourceProperties.tsp",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/main.tsp",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.az.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.cli.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.csharp.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.go.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.python.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/readme.typescript.md",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/service.yaml",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/suppressions.yaml",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-02-27-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6331,
+    "swaggerFiles": [
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/sovereign.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_ListByResourceGroup.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_ListBySubscription.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneAccountOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_CreateCopy.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_GenerateLandingZone.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneConfigurationOperations_UpdateAuthoringStatus.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneRegistrationOperations_Create.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneRegistrationOperations_Delete.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneRegistrationOperations_Get.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneRegistrationOperations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/LandingZoneRegistrationOperations_Update.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/examples/Operations_List.json",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/swagger/preview/2025-02-27-preview/sovereign.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6634,
+    "rawFiles": [
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/raw/preview/2025-02-27-preview/sovereign.jsonl",
+      "projects/specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign/raw/preview/2025-02-27-preview/sovereign.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

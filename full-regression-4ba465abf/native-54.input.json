@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CodeBuildSourceCredentialsInfo.Management",
+    "typespecPath": "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_CreateOrReplace.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_Delete.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_Get.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_ListBySubscription.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/examples/2024-12-01/CodeBuildSourceCredentialsInfos_Update.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5603,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildSourceCredentialsInfo.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildSourceCredentialsInfo.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_CreateOrReplace.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_Delete.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_Get.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_ListBySubscription.json",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildSourceCredentialsInfos_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6185,
+    "rawFiles": [
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildSourceCredentialsInfo.jsonl",
+      "projects/specification/awsconnector/CodeBuildSourceCredentialsInfo.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildSourceCredentialsInfo.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

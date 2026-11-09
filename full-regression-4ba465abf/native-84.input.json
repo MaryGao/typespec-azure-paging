@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EcsTaskDefinition.Management",
+    "typespecPath": "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_Delete.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_Get.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_ListBySubscription.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/examples/2024-12-01/EcsTaskDefinitions_Update.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5575,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecsTaskDefinition.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecsTaskDefinition.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_Delete.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_Get.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_ListBySubscription.json",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcsTaskDefinitions_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6473,
+    "rawFiles": [
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecsTaskDefinition.jsonl",
+      "projects/specification/awsconnector/EcsTaskDefinition.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecsTaskDefinition.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

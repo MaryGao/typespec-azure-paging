@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticLoadBalancingV2Listener.Management",
+    "typespecPath": "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2Listeners_Update.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5452,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2Listener.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2Listener.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2Listeners_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6782,
+    "rawFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2Listener.jsonl",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2Listener.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2Listener.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,51 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edge/resource-manager/Microsoft.Edge/edge",
+    "typespecPath": "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec",
+    "typespecFiles": [
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2024-02-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2024-02-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2025-03-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2025-03-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2025-06-01/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/examples/2025-06-01/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/main.tsp",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/models.tsp",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.az.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.cli.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.csharp.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.java.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/readme.python.md",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/service.yaml",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-06-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5545,
+    "swaggerFiles": [
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/swagger/stable/2025-06-01/operations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/swagger/stable/2025-06-01/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/swagger/stable/2025-06-01/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/swagger/stable/2025-06-01/operations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6491,
+    "rawFiles": [
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/raw/stable/2025-06-01/operations.jsonl",
+      "projects/specification/edge/resource-manager/Microsoft.Edge/edge/raw/stable/2025-06-01/operations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

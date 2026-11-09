@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CodeBuildProject.Management",
+    "typespecPath": "projects/specification/awsconnector/CodeBuildProject.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_CreateOrReplace.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_Delete.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_Get.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_ListBySubscription.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/examples/2024-12-01/CodeBuildProjects_Update.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CodeBuildProject.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5453,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildProject.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildProject.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_CreateOrReplace.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_Delete.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_Get.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_ListBySubscription.json",
+      "projects/specification/awsconnector/CodeBuildProject.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CodeBuildProjects_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6354,
+    "rawFiles": [
+      "projects/specification/awsconnector/CodeBuildProject.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildProject.jsonl",
+      "projects/specification/awsconnector/CodeBuildProject.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/codeBuildProject.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

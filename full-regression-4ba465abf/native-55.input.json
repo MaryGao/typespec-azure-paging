@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ConfigServiceConfigurationRecorder.Management",
+    "typespecPath": "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_Get.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/examples/2024-12-01/ConfigServiceConfigurationRecorders_Update.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5598,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorder.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorder.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_CreateOrReplace.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_Delete.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_Get.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_ListBySubscription.json",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ConfigServiceConfigurationRecorders_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6862,
+    "rawFiles": [
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorder.jsonl",
+      "projects/specification/awsconnector/ConfigServiceConfigurationRecorder.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/configServiceConfigurationRecorder.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

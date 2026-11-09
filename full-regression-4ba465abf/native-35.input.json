@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/PrivilegedResourceFavorite.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResourceFavorites_CreateOrUpdate.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResourceFavorites_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResourceFavorites_Get.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResourceFavorites_List.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResources_List.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResources_ListRelatedResources.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResources_List_FilteredWithCount.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/examples/2026-06-01-preview/PrivilegedResources_List_LastPage.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/routes.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5805,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/authorization-PrivilegedAccess.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/authorization-PrivilegedAccess.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResourceFavorites_CreateOrUpdate.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResourceFavorites_Delete.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResourceFavorites_Get.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResourceFavorites_List.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResources_List.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResources_ListRelatedResources.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResources_List_FilteredWithCount.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/swagger/preview/2026-06-01-preview/examples/PrivilegedResources_List_LastPage.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 42706,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/raw/preview/2026-06-01-preview/authorization-PrivilegedAccess.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess/raw/preview/2026-06-01-preview/authorization-PrivilegedAccess.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

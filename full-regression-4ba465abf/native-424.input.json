@@ -1,0 +1,66 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/Automation.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/SecurityContact.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/DeleteAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/GetAutomationResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/GetAutomationsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/GetAutomationsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/PatchAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/PutAutomationAllAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/PutAutomationHighSeverityAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/PutDisableAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/Automations/ValidateAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/SecurityContacts/CreateSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/SecurityContacts/DeleteSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/SecurityContacts/GetSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/examples/2023-12-01-preview/SecurityContacts/GetSecurityContactsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-12-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6362,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/security-Automations.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/DeleteAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/GetAutomationResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/GetAutomationsResourceGroup_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/GetAutomationsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/PatchAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/PutAutomationAllAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/PutAutomationHighSeverityAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/PutDisableAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/Automations/ValidateAutomation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/SecurityContacts/CreateSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/SecurityContacts/DeleteSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/SecurityContacts/GetSecurityContact_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/examples/SecurityContacts/GetSecurityContactsSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/swagger/preview/2023-12-01-preview/security-Automations.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5952,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/raw/preview/2023-12-01-preview/security-Automations.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI/raw/preview/2023-12-01-preview/security-Automations.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

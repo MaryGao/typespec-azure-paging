@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2InstanceStatus.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_Delete.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_Get.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/examples/2024-12-01/Ec2InstanceStatuses_Update.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5419,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2InstanceStatus.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2InstanceStatus.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_Delete.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_Get.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2InstanceStatuses_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6104,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2InstanceStatus.jsonl",
+      "projects/specification/awsconnector/Ec2InstanceStatus.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2InstanceStatus.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,46 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/SecuritySubAssessment.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/examples/2019-01-01-preview/SubAssessments/GetSubAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/examples/2019-01-01-preview/SubAssessments/ListSubAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/examples/2019-01-01-preview/SubAssessments/ListSubscriptionSubAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/routes.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2019-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5872,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/swagger/preview/2019-01-01-preview/subAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/swagger/preview/2019-01-01-preview/examples/SubAssessments/GetSubAssessment_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/swagger/preview/2019-01-01-preview/examples/SubAssessments/ListSubAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/swagger/preview/2019-01-01-preview/examples/SubAssessments/ListSubscriptionSubAssessments_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/swagger/preview/2019-01-01-preview/subAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7927,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/raw/preview/2019-01-01-preview/subAssessments.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI/raw/preview/2019-01-01-preview/subAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

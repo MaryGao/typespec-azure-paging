@@ -1,0 +1,91 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity",
+    "typespecPath": "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec",
+    "typespecFiles": [
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/FederatedIdentityCredential.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/Identity.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/SystemAssignedIdentity.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/back-compatible.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/client.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/FederatedIdentityCredentialCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/FederatedIdentityCredentialDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/FederatedIdentityCredentialGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/FederatedIdentityCredentialList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityListByResourceGroup.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityListBySubscription.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/IdentityUpdate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/MsiOperationsList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2024-11-30/SystemAssignedIdentityGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FederatedIdentityCredentialCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FederatedIdentityCredentialDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FederatedIdentityCredentialGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FederatedIdentityCredentialList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FlexibleFederatedIdentityCredentialCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/FlexibleFederatedIdentityCredentialGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityListByResourceGroup.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityListBySubscription.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/IdentityUpdate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/MsiOperationsList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/examples/2025-05-31-preview/SystemAssignedIdentityGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/main.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/models.tsp",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.cli.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.go.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.java.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.nodejs.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.python.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.ruby.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/readme.typescript.md",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/service.yaml",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/suppressions.yaml",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-05-31-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6949,
+    "swaggerFiles": [
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/ManagedIdentity.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/ManagedIdentity.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FederatedIdentityCredentialCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FederatedIdentityCredentialDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FederatedIdentityCredentialGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FederatedIdentityCredentialList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FlexibleFederatedIdentityCredentialCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/FlexibleFederatedIdentityCredentialGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityCreate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityDelete.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityGet.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityListByResourceGroup.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityListBySubscription.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/IdentityUpdate.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/MsiOperationsList.json",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/swagger/preview/2025-05-31-preview/examples/SystemAssignedIdentityGet.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6292,
+    "rawFiles": [
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/raw/preview/2025-05-31-preview/ManagedIdentity.jsonl",
+      "projects/specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity/raw/preview/2025-05-31-preview/ManagedIdentity.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

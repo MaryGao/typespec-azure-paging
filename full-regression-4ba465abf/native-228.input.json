@@ -1,0 +1,90 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration",
+    "typespecPath": "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec",
+    "typespecFiles": [
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/Domain.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/DomainOwnershipIdentifier.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/TopLevelDomain.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/back-compatible.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/client.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/CheckDomainAvailability.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/CreateAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/CreateAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/DeleteAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/DeleteAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/GetDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/GetDomainControlCenterSsoRequest.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/GetDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/GetTopLevelDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListDomainOwnershipIdentifiers.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListDomainRecommendations.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListDomainsByResourceGroup.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListDomainsBySubscription.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListOperations.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListTopLevelDomainAgreements.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/ListTopLevelDomains.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/RenewDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/TransferOutDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/UpdateAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/examples/2024-11-01/UpdateAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/main.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/models.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.cli.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.go.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.java.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.python.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/readme.typescript.md",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/routes.tsp",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/service.yaml",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/suppressions.yaml",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-11-01",
+    "compileStatus": "success",
+    "compileDurationMs": 7472,
+    "swaggerFiles": [
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/CheckDomainAvailability.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/CreateAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/CreateAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/DeleteAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/DeleteAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/GetDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/GetDomainControlCenterSsoRequest.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/GetDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/GetTopLevelDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListDomainOwnershipIdentifiers.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListDomainRecommendations.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListDomainsByResourceGroup.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListDomainsBySubscription.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListOperations.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListTopLevelDomainAgreements.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/ListTopLevelDomains.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/RenewDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/TransferOutDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/UpdateAppServiceDomain.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/examples/UpdateAppServiceDomainOwnershipIdentifier.json",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/swagger/stable/2024-11-01/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7578,
+    "rawFiles": [
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/raw/stable/2024-11-01/openapi.jsonl",
+      "projects/specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/raw/stable/2024-11-01/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

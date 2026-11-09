@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/SsmParameter.Management",
+    "typespecPath": "projects/specification/awsconnector/SsmParameter.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_Delete.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_Get.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/examples/2024-12-01/SsmParameters_Update.json",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/SsmParameter.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5697,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmParameter.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_CreateOrReplace.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_Delete.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_Get.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_ListByResourceGroup.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_ListBySubscription.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/SsmParameters_Update.json",
+      "projects/specification/awsconnector/SsmParameter.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmParameter.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6175,
+    "rawFiles": [
+      "projects/specification/awsconnector/SsmParameter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmParameter.jsonl",
+      "projects/specification/awsconnector/SsmParameter.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ssmParameter.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

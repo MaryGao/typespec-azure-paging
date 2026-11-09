@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy",
+    "typespecPath": "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec",
+    "typespecFiles": [
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/backcompat.tsp",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/examples/2023-06-01-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/examples/2023-06-01-preview/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/examples/2023-06-01-preview/PurviewPolicies_List_MaximumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/main.tsp",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/policy.tsp",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/readme.md",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/service.yaml",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5461,
+    "swaggerFiles": [
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/swagger/preview/2023-06-01-preview/policy.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/swagger/preview/2023-06-01-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/swagger/preview/2023-06-01-preview/examples/Operations_List_MinimumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/swagger/preview/2023-06-01-preview/examples/PurviewPolicies_List_MaximumSet_Gen.json",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/swagger/preview/2023-06-01-preview/policy.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6867,
+    "rawFiles": [
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/raw/preview/2023-06-01-preview/policy.jsonl",
+      "projects/specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy/raw/preview/2023-06-01-preview/policy.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

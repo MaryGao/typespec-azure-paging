@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Ec2Snapshot.Management",
+    "typespecPath": "projects/specification/awsconnector/Ec2Snapshot.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_Delete.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_Get.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/examples/2024-12-01/Ec2Snapshots_Update.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5373,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Snapshot.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Snapshot.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_CreateOrReplace.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_Delete.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_Get.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_ListBySubscription.json",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Ec2Snapshots_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5882,
+    "rawFiles": [
+      "projects/specification/awsconnector/Ec2Snapshot.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Snapshot.jsonl",
+      "projects/specification/awsconnector/Ec2Snapshot.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ec2Snapshot.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

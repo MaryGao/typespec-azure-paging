@@ -1,0 +1,81 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions",
+    "typespecPath": "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec",
+    "typespecFiles": [
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/StorageTask.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/back-compatible.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/client.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/misc/OperationsList.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/misc/PerformStorageTaskActionsPreview.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksCrud/DeleteStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksCrud/GetStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksCrud/PatchStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksCrud/PutStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksList/ListStorageTaskAssignmentIds.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksList/ListStorageTasksByResourceGroup.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksList/ListStorageTasksBySubscription.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2023-01-01/storageTasksList/ListStorageTasksRunReportSummary.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/misc/OperationsList.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/misc/PerformStorageTaskActionsPreview.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksCrud/DeleteStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksCrud/GetStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksCrud/PatchStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksCrud/PutStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksCrud/StopAllAssignments.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksList/ListStorageTaskAssignmentIds.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksList/ListStorageTasksByResourceGroup.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksList/ListStorageTasksBySubscription.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/examples/2026-03-01/storageTasksList/ListStorageTasksRunReportSummary.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/main.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/models.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.az.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.cli.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.go.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.java.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.python.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/readme.typescript.md",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/routes.tsp",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/sdk-suppressions.yaml",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/service.yaml",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-03-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6836,
+    "swaggerFiles": [
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/storageactions.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/misc/OperationsList.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/misc/PerformStorageTaskActionsPreview.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksCrud/DeleteStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksCrud/GetStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksCrud/PatchStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksCrud/PutStorageTask.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksCrud/StopAllAssignments.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksList/ListStorageTaskAssignmentIds.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksList/ListStorageTasksByResourceGroup.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksList/ListStorageTasksBySubscription.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/examples/storageTasksList/ListStorageTasksRunReportSummary.json",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/swagger/stable/2026-03-01/storageactions.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6209,
+    "rawFiles": [
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/raw/stable/2026-03-01/storageactions.jsonl",
+      "projects/specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/raw/stable/2026-03-01/storageactions.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

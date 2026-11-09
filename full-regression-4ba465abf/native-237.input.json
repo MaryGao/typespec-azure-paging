@@ -1,0 +1,88 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace",
+    "typespecPath": "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec",
+    "typespecFiles": [
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/client.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/GenerateAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/GetAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/GetOffer.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/GetPublisher.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/ListOffers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/ListOffersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/ListOperations.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/ListPublishers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-01-01/ListPublishersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/GenerateAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/GetAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/GetOffer.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/GetPublisher.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/ListOffers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/ListOffersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/ListOperations.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/ListPublishers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2024-10-01/ListPublishersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/GenerateAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/GetAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/GetOffer.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/GetPublisher.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/ListOffers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/ListOffersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/ListOperations.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/ListPublishers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/examples/2025-10-01-preview/ListPublishersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/main.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/models.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/offer.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/operations.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/publisher.tsp",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.az.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.azureresourceschema.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.cli.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.csharp.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.go.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.java.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.python.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.ruby.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/readme.typescript.md",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/service.yaml",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/suppressions.yaml",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-10-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6757,
+    "swaggerFiles": [
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/edgemarketplace.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/edgemarketplace.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/GenerateAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/GetAccessToken.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/GetOffer.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/GetPublisher.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/ListOffers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/ListOffersBySubscription.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/ListOperations.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/ListPublishers.json",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/swagger/preview/2025-10-01-preview/examples/ListPublishersBySubscription.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6586,
+    "rawFiles": [
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/raw/preview/2025-10-01-preview/edgemarketplace.jsonl",
+      "projects/specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace/raw/preview/2025-10-01-preview/edgemarketplace.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

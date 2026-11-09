@@ -1,0 +1,56 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/managedoperations/ManagedOps.Management",
+    "typespecPath": "projects/specification/managedoperations/ManagedOps.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/client.tsp",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/ManagedOps_CreateOrUpdate.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/ManagedOps_Delete.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/ManagedOps_Get.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/ManagedOps_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/ManagedOps_Update.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2025-07-28-preview/Operations_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/ManagedOps_CreateOrUpdate.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/ManagedOps_Delete.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/ManagedOps_Get.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/ManagedOps_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/ManagedOps_Update.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/examples/2026-01-06-preview/Operations_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/main.tsp",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/managedOps.tsp",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/service.yaml",
+      "projects/specification/managedoperations/ManagedOps.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-01-06-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6407,
+    "swaggerFiles": [
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/managedops.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/ManagedOps_CreateOrUpdate.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/ManagedOps_Delete.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/ManagedOps_Get.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/ManagedOps_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/ManagedOps_Update.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/examples/Operations_List.json",
+      "projects/specification/managedoperations/ManagedOps.Management/swagger/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/managedops.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7414,
+    "rawFiles": [
+      "projects/specification/managedoperations/ManagedOps.Management/raw/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/managedops.jsonl",
+      "projects/specification/managedoperations/ManagedOps.Management/raw/resource-manager/Microsoft.ManagedOps/preview/2026-01-06-preview/managedops.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

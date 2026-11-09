@@ -1,0 +1,52 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/DataScanner.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/CreateOrUpdateDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/CreateOrUpdateDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/DeleteDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/DeleteDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/GetDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/GetDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/examples/2026-08-01/DataScanners/ListDataScanners.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-08-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5683,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/datascanners.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/datascanners.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/CreateOrUpdateDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/CreateOrUpdateDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/DeleteDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/DeleteDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/GetDataScanner.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/GetDataScannerResourceGroupScope.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/swagger/stable/2026-08-01/examples/DataScanners/ListDataScanners.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5859,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/raw/stable/2026-08-01/datascanners.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI/raw/stable/2026-08-01/datascanners.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

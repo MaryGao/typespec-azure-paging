@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management",
+    "typespecPath": "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/examples/2024-12-01/ElasticLoadBalancingV2LoadBalancers_Update.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5459,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2LoadBalancer.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2LoadBalancer.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_Delete.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_Get.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticLoadBalancingV2LoadBalancers_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6160,
+    "rawFiles": [
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2LoadBalancer.jsonl",
+      "projects/specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticLoadBalancingV2LoadBalancer.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

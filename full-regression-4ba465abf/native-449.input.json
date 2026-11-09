@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/Setting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/examples/2022-05-01/Settings/GetSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/examples/2022-05-01/Settings/GetSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/examples/2022-05-01/Settings/UpdateSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-05-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5807,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/swagger/stable/2022-05-01/settings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/swagger/stable/2022-05-01/examples/Settings/GetSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/swagger/stable/2022-05-01/examples/Settings/GetSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/swagger/stable/2022-05-01/examples/Settings/UpdateSetting_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/swagger/stable/2022-05-01/settings.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5923,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/raw/stable/2022-05-01/settings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI/raw/stable/2022-05-01/settings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi",
+    "typespecPath": "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec",
+    "typespecFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/NetworkSecurityPerimeterConfiguration.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/back-compatible.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForActionGroups_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForActionGroups_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForActionGroups_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForDataCollectionEndpoints_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForDataCollectionEndpoints_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForDataCollectionEndpoints_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForScheduledQueryRule_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForScheduledQueryRule_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/examples/2021-10-01/NSPForScheduledQueryRule_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/main.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/models.tsp",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/service.yaml",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-10-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5805,
+    "swaggerFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/networkSecurityPerimeter.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForActionGroups_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForActionGroups_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForActionGroups_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForDataCollectionEndpoints_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForDataCollectionEndpoints_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForDataCollectionEndpoints_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForScheduledQueryRule_Get.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForScheduledQueryRule_List.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/examples/NSPForScheduledQueryRule_Reconcile.json",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/swagger/stable/2021-10-01/networkSecurityPerimeter.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6513,
+    "rawFiles": [
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/raw/stable/2021-10-01/networkSecurityPerimeter.jsonl",
+      "projects/specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi/raw/stable/2021-10-01/networkSecurityPerimeter.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

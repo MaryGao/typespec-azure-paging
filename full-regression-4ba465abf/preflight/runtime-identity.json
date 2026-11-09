@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "node": "v24.20.0",
+  "specs": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+      "archiveSha256": "79c5c917c9924c7f863db04e6ec8f55ba037a70d91f9d72d5f650f64195cc95f",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-autor_78fc609363f94fb3d9a522125b4cf80e\\node_modules\\@azure-tools\\typespec-autorest",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-autor_78fc609363f94fb3d9a522125b4cf80e\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "entrypointSha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a",
+      "verifiedFiles": 71,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+      "archiveSha256": "379e268857e77c57a817fcf612201bcd8a4ba2d4077dbf2a9cb942fb4b46ea6a",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_541816019b5cf2f8006613196c8fbaa5\\node_modules\\@azure-tools\\typespec-azure-core",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_541816019b5cf2f8006613196c8fbaa5\\node_modules\\@azure-tools\\typespec-azure-core\\dist\\src\\index.js",
+      "entrypointSha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1",
+      "verifiedFiles": 421,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "version": "0.2.2",
+      "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+      "archiveSha256": "7c384944c8e31fd83d8f8ae7fb205878b0e6bc02e48d34f2a31d51656d95efa2",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e63d127b7a9bcf05b42fd910a4d59888\\node_modules\\@azure-tools\\typespec-azure-examples",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e63d127b7a9bcf05b42fd910a4d59888\\node_modules\\@azure-tools\\typespec-azure-examples\\dist\\src\\node.js",
+      "entrypointSha256": "bf55bb9187276b2eb80f2b7cff4005fc5ccc6943344f31e13f8063ba2d422f09",
+      "verifiedFiles": 169,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+      "archiveSha256": "2d1331c1a8ad0bd419f67e4f742fbf9060504351ad22a1cb7613123cf42d8633",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_f4e9d172c4ae9bcc1f0406858e1e7fd3\\node_modules\\@azure-tools\\typespec-azure-resource-manager",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_f4e9d172c4ae9bcc1f0406858e1e7fd3\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "entrypointSha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea",
+      "verifiedFiles": 427,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+      "archiveSha256": "1144bea147a3fa71bdddaeabb3426ae63f616ddd71f5e28f547367404a6d485c",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_c68bd4b0c87d60d7f9ec0d7580ce1599\\node_modules\\@azure-tools\\typespec-azure-rulesets",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_c68bd4b0c87d60d7f9ec0d7580ce1599\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "entrypointSha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea",
+      "verifiedFiles": 19,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+      "archiveSha256": "f71315aef2d11c114f2f2283926ce64cfa40a2adcedeec85a18f754752de1973",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-clien_7bd3be41fbd2374f432e54ae76c56b06\\node_modules\\@azure-tools\\typespec-client-generator-core",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-clien_7bd3be41fbd2374f432e54ae76c56b06\\node_modules\\@azure-tools\\typespec-client-generator-core\\dist\\src\\index.js",
+      "entrypointSha256": "34362d7ff20ea39c8394d3164d7b44b7417179e41f8f37c28a585d82a5c57475",
+      "verifiedFiles": 180,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "archive": "typespec-compiler-1.17.0.tgz",
+      "archiveSha256": "45b7b61bb6215651f3c392d6ffae4e03cd97f020aa5e16d587ccf8705f1d1aed",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+compiler@file+..+_778ae12f3d39a2338a17f3388996af1c\\node_modules\\@typespec\\compiler",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+compiler@file+..+_778ae12f3d39a2338a17f3388996af1c\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "entrypointSha256": "8b62234f6206d445c5d51cf1b28e4724213d5dcf82100f3dc247467af917eebe",
+      "verifiedFiles": 1082,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "version": "0.87.0",
+      "archive": "typespec-events-0.87.0.tgz",
+      "archiveSha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+events@file+..+ev_66dafec32b1a177eb97fb66606a7c76b\\node_modules\\@typespec\\events",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+events@file+..+ev_66dafec32b1a177eb97fb66606a7c76b\\node_modules\\@typespec\\events\\dist\\src\\index.js",
+      "entrypointSha256": "05512eaa4f8d6e1c0bc3d51ea38a44851df6d3da0577dcadde998ea608f53fdf",
+      "verifiedFiles": 45,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "archive": "typespec-http-1.17.0.tgz",
+      "archiveSha256": "e8d2b477e1150ac27a1b8589e7efa77d0fdff4bee178b2e294a04269d747d3ff",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+http@file+..+evid_188cededde06f1421695bb3e05c4c8b4\\node_modules\\@typespec\\http",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+http@file+..+evid_188cededde06f1421695bb3e05c4c8b4\\node_modules\\@typespec\\http\\dist\\src\\index.js",
+      "entrypointSha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50",
+      "verifiedFiles": 181,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "version": "1.17.0",
+      "archive": "typespec-openapi-1.17.0.tgz",
+      "archiveSha256": "81bd539135d9f42c3f2386c5004c510b0530b7e1b7faf48d8bc47c050e67f401",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+openapi@file+..+e_1d9597e966e89b9b619897526d31454e\\node_modules\\@typespec\\openapi",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+openapi@file+..+e_1d9597e966e89b9b619897526d31454e\\node_modules\\@typespec\\openapi\\dist\\src\\index.js",
+      "entrypointSha256": "0b42fcde4f11c1a3d5f8339c4795f1e1d30b646a342ae62490f5a3f652c21b83",
+      "verifiedFiles": 42,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/rest",
+      "version": "0.87.0",
+      "archive": "typespec-rest-0.87.0.tgz",
+      "archiveSha256": "4f768ffd88ce4077d0edd13d36ca0733b3d922a3c35bc924027a12d90fc92afb",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+rest@file+..+evid_e7184f038b375a3c5fc26077d93637ea\\node_modules\\@typespec\\rest",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+rest@file+..+evid_e7184f038b375a3c5fc26077d93637ea\\node_modules\\@typespec\\rest\\dist\\src\\index.js",
+      "entrypointSha256": "e6391ca3be79ceb37533f8a33c5370343ff0847f5d7a0a2c0ffb03cc973a641c",
+      "verifiedFiles": 58,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "version": "0.87.0",
+      "archive": "typespec-sse-0.87.0.tgz",
+      "archiveSha256": "5c719e2f1c1221f3a1fbf2fd71653f9351e609069730887fddf6c3ea1804c788",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+sse@file+..+evide_664a35037c21b58c900fa7b0dd8a52ec\\node_modules\\@typespec\\sse",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+sse@file+..+evide_664a35037c21b58c900fa7b0dd8a52ec\\node_modules\\@typespec\\sse\\dist\\src\\index.js",
+      "entrypointSha256": "cfb3a9a8b1a5d19f8556736de26106d4a05ac5d6171660f954ba4e5d0ead289d",
+      "verifiedFiles": 38,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/streams",
+      "version": "0.87.0",
+      "archive": "typespec-streams-0.87.0.tgz",
+      "archiveSha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+streams@file+..+e_2377320440d52d8688910983083d0aa1\\node_modules\\@typespec\\streams",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+streams@file+..+e_2377320440d52d8688910983083d0aa1\\node_modules\\@typespec\\streams\\dist\\src\\index.js",
+      "entrypointSha256": "6b5c4e4c7dc170aee7084ffc5f241452885bfe5e9b7bc36ea95f09327b0037f1",
+      "verifiedFiles": 34,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "archive": "typespec-versioning-0.87.0.tgz",
+      "archiveSha256": "a726a9150b541771ba0c5f3f0ad5234cf5779481073d61c83bf40c102c236ba7",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+versioning@file+._53b74cb76cc0432b16ba1cf1e8621583\\node_modules\\@typespec\\versioning",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+versioning@file+._53b74cb76cc0432b16ba1cf1e8621583\\node_modules\\@typespec\\versioning\\dist\\src\\index.js",
+      "entrypointSha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7",
+      "verifiedFiles": 61,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "version": "0.87.0",
+      "archive": "typespec-xml-0.87.0.tgz",
+      "archiveSha256": "b2724c24a396d5ca215051151e38fced853e97665cacdb5ecdc57e296d2eac99",
+      "installedRoot": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+xml@file+..+evide_a75f39ff5eea06f2070922831f9557a7\\node_modules\\@typespec\\xml",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+xml@file+..+evide_a75f39ff5eea06f2070922831f9557a7\\node_modules\\@typespec\\xml\\dist\\src\\index.js",
+      "entrypointSha256": "6ef76fe78c8c870dd4a539cf47467e5b5a95726dd9c00c3941ffa8f91c153ccd",
+      "verifiedFiles": 43,
+      "mismatches": []
+    }
+  ]
+}

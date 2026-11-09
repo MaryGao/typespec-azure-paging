@@ -1,0 +1,61 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/splitio/SplitIO.Experimentation.Management",
+    "typespecPath": "projects/specification/splitio/SplitIO.Experimentation.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/back-compatible.tsp",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/DataPlaneApplicationsExchangeToken.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesCreate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesDelete.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesGet.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesListByResourceGroup.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesListBySubscription.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/ExperimentationWorkspacesUpdate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-03-01-preview/OperationsList.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/DataPlaneApplicationsExchangeToken.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesCreate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesDelete.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesGet.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesListByResourceGroup.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesListBySubscription.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/ExperimentationWorkspacesUpdate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/examples/2024-07-01-preview/OperationsList.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/main.tsp",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/service.yaml",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 16017,
+    "swaggerFiles": [
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/splitio.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/DataPlaneApplicationsExchangeToken.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesCreate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesDelete.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesGet.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesListByResourceGroup.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesListBySubscription.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/ExperimentationWorkspacesUpdate.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/examples/OperationsList.json",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/swagger/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/splitio.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6929,
+    "rawFiles": [
+      "projects/specification/splitio/SplitIO.Experimentation.Management/raw/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/splitio.jsonl",
+      "projects/specification/splitio/SplitIO.Experimentation.Management/raw/resource-manager/SplitIO.Experimentation/preview/2024-07-01-preview/splitio.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

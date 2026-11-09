@@ -1,0 +1,69 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure",
+    "typespecPath": "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec",
+    "typespecFiles": [
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/ProviderInstance.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/SapMonitor.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/back-compatible.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/client.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/HanaOperations_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/ProviderInstances_Create.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/ProviderInstances_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/ProviderInstances_Get.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/ProviderInstances_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_Create.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_Get.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_PatchTags.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/examples/2020-02-07-preview/SapMonitors_PatchTags_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/main.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/models.tsp",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/readme.go.md",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/readme.md",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/readme.nodejs.md",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/readme.python.md",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/readme.typescript.md",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/service.yaml",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/suppressions.yaml",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2020-02-07-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6335,
+    "swaggerFiles": [
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/hanaonazure.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/HanaOperations_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/ProviderInstances_Create.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/ProviderInstances_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/ProviderInstances_Get.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/ProviderInstances_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_Create.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_Get.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_List.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_PatchTags.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/examples/SapMonitors_PatchTags_Delete.json",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/swagger/preview/2020-02-07-preview/hanaonazure.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6219,
+    "rawFiles": [
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/raw/preview/2020-02-07-preview/hanaonazure.jsonl",
+      "projects/specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure/raw/preview/2020-02-07-preview/hanaonazure.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

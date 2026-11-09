@@ -1,0 +1,45 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku",
+    "typespecPath": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec",
+    "typespecFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/client.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/examples/2021-07-01/skus/ListAvailableResourceSkus.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/examples/2021-07-01/skus/ListAvailableResourceSkusForARegion.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/examples/2021-07-01/skus/ListAvailableResourceSkusWithExtendedLocations.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/main.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/models.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/routes.tsp",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/service.yaml",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2021-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5284,
+    "swaggerFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/swagger/stable/2021-07-01/skus.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/swagger/stable/2021-07-01/examples/skus/ListAvailableResourceSkus.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/swagger/stable/2021-07-01/examples/skus/ListAvailableResourceSkusForARegion.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/swagger/stable/2021-07-01/examples/skus/ListAvailableResourceSkusWithExtendedLocations.json",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/swagger/stable/2021-07-01/skus.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6018,
+    "rawFiles": [
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/raw/stable/2021-07-01/skus.jsonl",
+      "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku/raw/stable/2021-07-01/skus.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

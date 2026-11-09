@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi",
+    "typespecPath": "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec",
+    "typespecFiles": [
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/back-compatible.tsp",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryManagementGroupScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryManagementGroupScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryResourceGroupScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryResourceGroupScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryResourceScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QueryResourceScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QuerySubscriptionScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/examples/2018-07-01-preview/PolicyTrackedResources_QuerySubscriptionScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/main.tsp",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/models.tsp",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/routes.tsp",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/service.yaml",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2018-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6079,
+    "swaggerFiles": [
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/policyTrackedResources.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryManagementGroupScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryManagementGroupScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryResourceGroupScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryResourceGroupScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryResourceScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QueryResourceScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QuerySubscriptionScope.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/examples/PolicyTrackedResources_QuerySubscriptionScopeWithFilterAndTop.json",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/swagger/preview/2018-07-01-preview/policyTrackedResources.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5858,
+    "rawFiles": [
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/raw/preview/2018-07-01-preview/policyTrackedResources.jsonl",
+      "projects/specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi/raw/preview/2018-07-01-preview/policyTrackedResources.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

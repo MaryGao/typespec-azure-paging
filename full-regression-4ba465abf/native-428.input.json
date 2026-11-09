@@ -1,0 +1,57 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/DefenderForStorageSetting.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/CancelMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/GetDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/GetMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/ListDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/PutDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2025-09-01-preview/DefenderForStorage/StartMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/CancelMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/GetDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/GetMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/ListDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/PutDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/examples/2026-01-01-preview/DefenderForStorage/StartMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5966,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/defenderForStorageSettings.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/defenderForStorageSettings.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/CancelMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/GetDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/GetMalwareScan_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/ListDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/PutDefenderForStorageSettings_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/swagger/preview/2026-01-01-preview/examples/DefenderForStorage/StartMalwareScan_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5984,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/raw/preview/2026-01-01-preview/defenderForStorageSettings.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI/raw/preview/2026-01-01-preview/defenderForStorageSettings.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

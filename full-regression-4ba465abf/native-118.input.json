@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Macie2JobSummary.Management",
+    "typespecPath": "projects/specification/awsconnector/Macie2JobSummary.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_Delete.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_Get.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/examples/2024-12-01/Macie2JobSummaries_Update.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6119,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macie2JobSummary.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_CreateOrReplace.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_Delete.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_Get.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_ListBySubscription.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Macie2JobSummaries_Update.json",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macie2JobSummary.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6056,
+    "rawFiles": [
+      "projects/specification/awsconnector/Macie2JobSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macie2JobSummary.jsonl",
+      "projects/specification/awsconnector/Macie2JobSummary.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/macie2JobSummary.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,70 @@
+{
+  "project": "specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement",
+  "status": "success",
+  "rawDiagnostics": [],
+  "diagnostics": [],
+  "ambientDiagnostics": [],
+  "packages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@typespec+compiler@file+..+_778ae12f3d39a2338a17f3388996af1c\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "sha256": "8b62234f6206d445c5d51cf1b28e4724213d5dcf82100f3dc247467af917eebe"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_541816019b5cf2f8006613196c8fbaa5\\node_modules\\@azure-tools\\typespec-azure-core\\dist\\src\\index.js",
+      "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-autor_78fc609363f94fb3d9a522125b4cf80e\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_f4e9d172c4ae9bcc1f0406858e1e7fd3\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\autorest@3.8.0\\node_modules\\autorest\\dist\\exports.js",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-core@1.0.7\\node_modules\\@microsoft.azure\\openapi-validator-core\\dist\\index.js",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_c68bd4b0c87d60d7f9ec0d7580ce1599\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-default-in-enum-5972\\node_modules\\.pnpm\\@azure-tools+typespec-azure_c68bd4b0c87d60d7f9ec0d7580ce1599\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    }
+  ],
+  "defaultActivation": "not-assessed"
+}

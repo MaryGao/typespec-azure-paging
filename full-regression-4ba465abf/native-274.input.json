@@ -1,0 +1,86 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder",
+    "typespecPath": "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec",
+    "typespecFiles": [
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/ImageTemplate.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/RunOutput.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/Trigger.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/back-compatible.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/client.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/CancelImageBuild.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/CreateImageTemplateLinux.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/CreateImageTemplateWindows.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/CreateSourceImageTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/DeleteImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/DeleteTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/GetImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/GetRunOutput.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/GetTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/ListImageTemplates.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/ListImageTemplatesByRg.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/ListRunOutputs.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/ListTriggers.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/OperationsList.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/RunImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/UpdateImageTemplateTags.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/UpdateImageTemplateToRemoveIdentities.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/examples/2025-10-01/UpdateImageTemplateVmProfile.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/main.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/models.tsp",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.cli.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.go.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.java.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.nodejs.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.python.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/readme.typescript.md",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/service.yaml",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/suppressions.yaml",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-10-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6351,
+    "swaggerFiles": [
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/imagebuilder.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/CancelImageBuild.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/CreateImageTemplateLinux.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/CreateImageTemplateWindows.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/CreateSourceImageTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/DeleteImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/DeleteTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/GetImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/GetRunOutput.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/GetTrigger.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/ListImageTemplates.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/ListImageTemplatesByRg.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/ListRunOutputs.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/ListTriggers.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/OperationsList.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/RunImageTemplate.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/UpdateImageTemplateTags.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/UpdateImageTemplateToRemoveIdentities.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/examples/UpdateImageTemplateVmProfile.json",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/swagger/stable/2025-10-01/imagebuilder.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6973,
+    "rawFiles": [
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/raw/stable/2025-10-01/imagebuilder.jsonl",
+      "projects/specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder/raw/stable/2025-10-01/imagebuilder.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

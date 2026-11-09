@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/RoleDefinition.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/DeleteRoleDefinition.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/GetPermissions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/GetResourcePermissions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/GetRoleDefinitionAtScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/GetRoleDefinitionById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/GetRoleDefinitionByRoleId.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/examples/2022-05-01-preview/PutRoleDefinition.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/routes.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-05-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5777,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/authorization-RoleDefinitionsCalls.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/authorization-RoleDefinitionsCalls.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/DeleteRoleDefinition.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/GetPermissions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/GetResourcePermissions.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/GetRoleDefinitionAtScope.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/GetRoleDefinitionById.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/GetRoleDefinitionByRoleId.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/swagger/preview/2022-05-01-preview/examples/PutRoleDefinition.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6463,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/raw/preview/2022-05-01-preview/authorization-RoleDefinitionsCalls.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions/raw/preview/2022-05-01-preview/authorization-RoleDefinitionsCalls.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

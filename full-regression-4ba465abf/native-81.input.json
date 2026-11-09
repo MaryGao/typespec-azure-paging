@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/EcrRepository.Management",
+    "typespecPath": "projects/specification/awsconnector/EcrRepository.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_Delete.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_Get.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_ListBySubscription.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/examples/2024-12-01/EcrRepositories_Update.json",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/EcrRepository.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5480,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrRepository.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrRepository.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_CreateOrReplace.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_Delete.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_Get.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_ListByResourceGroup.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_ListBySubscription.json",
+      "projects/specification/awsconnector/EcrRepository.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/EcrRepositories_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7048,
+    "rawFiles": [
+      "projects/specification/awsconnector/EcrRepository.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrRepository.jsonl",
+      "projects/specification/awsconnector/EcrRepository.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/ecrRepository.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

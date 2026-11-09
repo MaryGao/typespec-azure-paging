@@ -1,0 +1,54 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/TasksAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/SecurityTask.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/GetTaskResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/GetTaskSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/GetTasksResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/GetTasksSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/GetTasksSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/UpdateTaskResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/examples/2015-06-01-preview/Tasks/UpdateTaskSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/routes.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-06-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 8013,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/tasks.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/GetTaskResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/GetTaskSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/GetTasksResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/GetTasksSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/GetTasksSubscription_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/UpdateTaskResourceGroupLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/examples/Tasks/UpdateTaskSubscriptionLocation_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/swagger/preview/2015-06-01-preview/tasks.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5978,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/raw/preview/2015-06-01-preview/tasks.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/TasksAPI/raw/preview/2015-06-01-preview/tasks.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

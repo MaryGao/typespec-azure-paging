@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin",
+    "typespecPath": "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec",
+    "typespecFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/back-compatible.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/examples/2015-07-01/ElevateAccess.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/examples/2015-07-01/GetClassicAdministrators.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/main.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/models.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/routes.tsp",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/service.yaml",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2015-07-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5613,
+    "swaggerFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/swagger/stable/2015-07-01/ClassicAdmin.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/swagger/stable/2015-07-01/ClassicAdmin.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/swagger/stable/2015-07-01/examples/ElevateAccess.json",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/swagger/stable/2015-07-01/examples/GetClassicAdministrators.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 11517,
+    "rawFiles": [
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/raw/stable/2015-07-01/ClassicAdmin.jsonl",
+      "projects/specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin/raw/stable/2015-07-01/ClassicAdmin.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

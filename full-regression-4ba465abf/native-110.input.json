@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/LambdaFunction.Management",
+    "typespecPath": "projects/specification/awsconnector/LambdaFunction.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_CreateOrReplace.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_Delete.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_Get.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_ListBySubscription.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/examples/2024-12-01/LambdaFunctions_Update.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/LambdaFunction.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5665,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunction.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_CreateOrReplace.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_Delete.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_Get.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_ListBySubscription.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/LambdaFunctions_Update.json",
+      "projects/specification/awsconnector/LambdaFunction.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunction.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6038,
+    "rawFiles": [
+      "projects/specification/awsconnector/LambdaFunction.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunction.jsonl",
+      "projects/specification/awsconnector/LambdaFunction.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/lambdaFunction.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

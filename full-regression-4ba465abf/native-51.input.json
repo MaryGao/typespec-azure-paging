@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/CloudTrailTrail.Management",
+    "typespecPath": "projects/specification/awsconnector/CloudTrailTrail.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_Delete.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_Get.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/examples/2024-12-01/CloudTrailTrails_Update.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5686,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudTrailTrail.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudTrailTrail.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_CreateOrReplace.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_Delete.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_Get.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_ListByResourceGroup.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_ListBySubscription.json",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/CloudTrailTrails_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6972,
+    "rawFiles": [
+      "projects/specification/awsconnector/CloudTrailTrail.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudTrailTrail.jsonl",
+      "projects/specification/awsconnector/CloudTrailTrail.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/cloudTrailTrail.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

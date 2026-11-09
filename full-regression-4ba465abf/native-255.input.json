@@ -1,0 +1,46 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance",
+    "typespecPath": "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec",
+    "typespecFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/examples/2027-01-01/ComputeInstances_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/examples/2027-01-01/ComputeInstances_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/examples/2027-01-01/ComputeInstances_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/examples/2027-01-01/ComputeInstances_List.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/main.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/readme.md",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/service.yaml",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/shared.tsp",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2027-01-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5673,
+    "swaggerFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/computeInstance.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/computeInstance.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/examples/ComputeInstances_CreateOrReplace.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/examples/ComputeInstances_Delete.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/examples/ComputeInstances_Get.json",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/swagger/stable/2027-01-01/examples/ComputeInstances_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6815,
+    "rawFiles": [
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/raw/stable/2027-01-01/computeInstance.jsonl",
+      "projects/specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance/raw/stable/2027-01-01/computeInstance.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

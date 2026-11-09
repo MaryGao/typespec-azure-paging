@@ -1,0 +1,89 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/resources",
+    "typespecPath": "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec",
+    "typespecFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/GenericResource.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/ResourceGroup.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/TagsResource.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/back-compatible.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/client.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/CreateResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/DeleteTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/DeleteTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/ExportResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/ExportResourceGroupAsBicep.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/ExportResourceGroupWithFiltering.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/ForceDeleteVMsAndVMSSInResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/ForceDeleteVMsInResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetNamedProviderAtTenant.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetProvider.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetProviderPermissions.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetProviderResourceTypes.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetProviders.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/GetTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/PatchTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/PatchTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/PutTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/examples/2025-04-01/PutTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/main.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/models.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.go.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.nodejs.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.python.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.ruby.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/readme.typescript.md",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/routes.tsp",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/sdk-suppressions.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/service.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/suppressions.yaml",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2025-04-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6700,
+    "swaggerFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/resources.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/CreateResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/DeleteTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/DeleteTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/ExportResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/ExportResourceGroupAsBicep.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/ExportResourceGroupWithFiltering.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/ForceDeleteVMsAndVMSSInResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/ForceDeleteVMsInResourceGroup.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetNamedProviderAtTenant.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetProvider.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetProviderPermissions.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetProviderResourceTypes.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetProviders.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/GetTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/PatchTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/PatchTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/PutTagsResource.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/examples/PutTagsSubscription.json",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/swagger/stable/2025-04-01/resources.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6290,
+    "rawFiles": [
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/raw/stable/2025-04-01/resources.jsonl",
+      "projects/specification/resources/resource-manager/Microsoft.Resources/resources/raw/stable/2025-04-01/resources.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,81 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments",
+    "typespecPath": "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Common/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/MachineApiVersions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/ArmModels/AssessmentProjectV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/ArmModels/AzureResourceProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/ArmModels/PrivateEndpointConnection.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/DataModels/DownloadUrl.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/Enums/Enums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/AssessedWorkloadProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/AssessmentProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/CommonAssessmentPropertiesEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/CommonEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/CostComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/ProductSupportStatus.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/SavingComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/Scope.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/Normalized Contract/StandardizedContracts/SummaryProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/WebModels/AssessedMachineV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/WebModels/MachineAssessmentV2Summary.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/WebModels/MachineAssessmentsV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/WebModels/MachineGraphAssessmentOptions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/AssessedMachinesV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/AssessedMachinesV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentV2SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentV2SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentsV2Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentsV2Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentsV2Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentsV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineAssessmentsV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/examples/2024-03-03-preview/MachineGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/machineasmroutes.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/main.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/readme.md",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/service.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-03-03-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6416,
+    "swaggerFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/machineAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/AssessedMachinesV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/AssessedMachinesV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentV2SummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentV2SummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentsV2Operations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentsV2Operations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentsV2Operations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentsV2Operations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineAssessmentsV2Operations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineGraphAssessmentOptionsOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/examples/MachineGraphAssessmentOptionsOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/swagger/preview/2024-03-03-preview/machineAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7199,
+    "rawFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/raw/preview/2024-03-03-preview/machineAssessments.jsonl",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments/raw/preview/2024-03-03-preview/machineAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

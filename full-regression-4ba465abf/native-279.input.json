@@ -1,0 +1,78 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor",
+    "typespecPath": "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec",
+    "typespecFiles": [
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/back-compatible.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/common.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/dataset.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Datasets_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Datasets_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Datasets_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Datasets_ListByInstance_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Datasets_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Pipelines_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Pipelines_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Pipelines_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Pipelines_ListByInstance_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/examples/2023-10-04-preview/Pipelines_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/instance.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/main.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/pipeline.tsp",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/readme.java.md",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/readme.md",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/service.yaml",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/suppressions.yaml",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-10-04-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6266,
+    "swaggerFiles": [
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Datasets_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Datasets_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Datasets_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Datasets_ListByInstance_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Datasets_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_ListByResourceGroup_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_ListBySubscription_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Instances_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Operations_List_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Pipelines_CreateOrUpdate_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Pipelines_Delete_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Pipelines_Get_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Pipelines_ListByInstance_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/examples/Pipelines_Update_MaximumSet_Gen.json",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/swagger/preview/2023-10-04-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7375,
+    "rawFiles": [
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/raw/preview/2023-10-04-preview/openapi.jsonl",
+      "projects/specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor/raw/preview/2023-10-04-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

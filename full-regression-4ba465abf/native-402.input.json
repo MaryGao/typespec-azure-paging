@@ -1,0 +1,92 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi",
+    "typespecPath": "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec",
+    "typespecFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardingActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardingActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardingLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardingLocations_ListByDataOnboarding.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardings_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/DataOnboardings_ListByOffering.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Offerings_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Offerings_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Offerings_ListBySubscription.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Ontologies_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Ontologies_CreateOrUpdate_NodeOnlyDefaults.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Ontologies_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Ontologies_ListByOffering.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/OntologyActivations_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/OntologyActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/OntologyActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/OntologyLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/OntologyLocations_ListByOntology.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/Operations_List.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpointActivations_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpointActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpointActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpointLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpointLocations_ListByQueryEndpoint.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpoints_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpoints_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/examples/2026-05-01-preview/QueryEndpoints_ListByOffering.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/main.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/models.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/routes.tsp",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/service.yaml",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-05-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6428,
+    "swaggerFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/OnboardingApi-aggregate.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/OnboardingApi-aggregate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardingActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardingActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardingLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardingLocations_ListByDataOnboarding.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardings_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/DataOnboardings_ListByOffering.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Offerings_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Offerings_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Offerings_ListBySubscription.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Ontologies_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Ontologies_CreateOrUpdate_NodeOnlyDefaults.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Ontologies_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Ontologies_ListByOffering.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/OntologyActivations_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/OntologyActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/OntologyActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/OntologyLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/OntologyLocations_ListByOntology.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/Operations_List.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpointActivations_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpointActivations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpointActivations_ListByLocation.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpointLocations_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpointLocations_ListByQueryEndpoint.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpoints_CreateOrUpdate.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpoints_Get.json",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/swagger/preview/2026-05-01-preview/examples/QueryEndpoints_ListByOffering.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 7413,
+    "rawFiles": [
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/raw/preview/2026-05-01-preview/OnboardingApi-aggregate.jsonl",
+      "projects/specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi/raw/preview/2026-05-01-preview/OnboardingApi-aggregate.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

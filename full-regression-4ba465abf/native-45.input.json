@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/AppSyncGraphqlApi.Management",
+    "typespecPath": "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_CreateOrReplace.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_Delete.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_Get.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_ListBySubscription.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/examples/2024-12-01/AppSyncGraphqlApis_Update.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5615,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/appSyncGraphqlApi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/appSyncGraphqlApi.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_CreateOrReplace.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_Delete.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_Get.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_ListByResourceGroup.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_ListBySubscription.json",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/AppSyncGraphqlApis_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6180,
+    "rawFiles": [
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/appSyncGraphqlApi.jsonl",
+      "projects/specification/awsconnector/AppSyncGraphqlApi.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/appSyncGraphqlApi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

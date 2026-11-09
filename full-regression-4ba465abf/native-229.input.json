@@ -1,0 +1,72 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/domainservices/resource-manager/Microsoft.AAD/DomainServices",
+    "typespecPath": "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec",
+    "typespecFiles": [
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/DomainService.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/OuContainer.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/back-compatible.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/client.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/CreateDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/CreateOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/DeleteDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/DeleteOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/GetDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/GetOperations.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/GetOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/ListDomainServicesByResourceGroup.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/ListDomainServicesBySubscription.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/ListOuContainers.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/UnsuspendDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/UpdateDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/examples/2026-08-31-preview/UpdateOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/main.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/models.tsp",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/readme.go.md",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/readme.md",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/readme.nodejs.md",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/readme.typescript.md",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/service.yaml",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/suppressions.yaml",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2026-08-31-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6073,
+    "swaggerFiles": [
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/openapi.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/CreateDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/CreateOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/DeleteDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/DeleteOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/GetDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/GetOperations.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/GetOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/ListDomainServicesByResourceGroup.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/ListDomainServicesBySubscription.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/ListOuContainers.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/UnsuspendDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/UpdateDomainService.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/examples/UpdateOuContainer.json",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/swagger/preview/2026-08-31-preview/openapi.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6790,
+    "rawFiles": [
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/raw/preview/2026-08-31-preview/openapi.jsonl",
+      "projects/specification/domainservices/resource-manager/Microsoft.AAD/DomainServices/raw/preview/2026-08-31-preview/openapi.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

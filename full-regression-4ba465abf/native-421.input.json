@@ -1,0 +1,55 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/Application.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/DeleteApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/DeleteSecurityConnectorApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/GetApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/GetSecurityConnectorApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/ListBySecurityConnectorApplications_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/ListBySubscriptionApplications_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/PutApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/examples/2022-07-01-preview/Applications/PutSecurityConnectorApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2022-07-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5800,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/applications.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/applications.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/DeleteApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/DeleteSecurityConnectorApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/GetApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/GetSecurityConnectorApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/ListBySecurityConnectorApplications_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/ListBySubscriptionApplications_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/PutApplication_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/swagger/preview/2022-07-01-preview/examples/Applications/PutSecurityConnectorApplication_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5629,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/raw/preview/2022-07-01-preview/applications.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI/raw/preview/2022-07-01-preview/applications.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

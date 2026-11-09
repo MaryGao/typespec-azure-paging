@@ -1,0 +1,62 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/playwrighttesting/PlaywrightTesting.Management",
+    "typespecPath": "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/back-compatible.tsp",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/client.tsp",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/AccountQuotas_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/AccountQuotas_ListByAccount.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_CheckNameAvailability.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_CreateOrUpdate.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_Delete.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_ListByResourceGroup.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_ListBySubscription.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Accounts_Update.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Operations_List.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Quotas_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/examples/2024-12-01/Quotas_ListBySubscription.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/main.tsp",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/service.yaml",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5950,
+    "swaggerFiles": [
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/playwrighttesting.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/AccountQuotas_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/AccountQuotas_ListByAccount.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_CheckNameAvailability.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_CreateOrUpdate.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_Delete.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_ListByResourceGroup.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_ListBySubscription.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Accounts_Update.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Operations_List.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Quotas_Get.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/examples/Quotas_ListBySubscription.json",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/swagger/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/playwrighttesting.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6075,
+    "rawFiles": [
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/raw/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/playwrighttesting.jsonl",
+      "projects/specification/playwrighttesting/PlaywrightTesting.Management/raw/resource-manager/Microsoft.AzurePlaywrightService/stable/2024-12-01/playwrighttesting.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

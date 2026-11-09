@@ -1,0 +1,70 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments",
+    "typespecPath": "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec",
+    "typespecFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/ArmModels/AssessmentProjectV2.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/ArmModels/AzureResourceProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/ArmModels/PrivateEndpointConnection.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/DataModels/DownloadUrl.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/Enums/Enums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/AssessedWorkloadProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/AssessmentProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/CommonAssessmentPropertiesEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/CommonEnums.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/CommonModels.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/CostComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/ProductSupportStatus.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/SavingComponent.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/Scope.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/Common/StandardizedContracts/SummaryProperties.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/WACAApiVersions.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/WebModels/WacaSummary.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/WebModels/WebAppCompoundAssessments.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentOperations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentOperations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentOperations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentSummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/examples/2024-03-03-preview/CompoundAssessmentSummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/main.tsp",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/readme.md",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/service.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/tspconfig.yaml",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/typespec/wacasmroutes.tsp"
+    ],
+    "apiVersion": "2024-03-03-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 6278,
+    "swaggerFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/webAppCompoundAssessments.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentOperations_Create_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentOperations_Delete_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentOperations_DownloadUrl_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentSummaryOperations_Get_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/examples/CompoundAssessmentSummaryOperations_ListByParent_MaximumSet_Gen.json",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/swagger/preview/2024-03-03-preview/webAppCompoundAssessments.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6727,
+    "rawFiles": [
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/raw/preview/2024-03-03-preview/webAppCompoundAssessments.jsonl",
+      "projects/specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments/raw/preview/2024-03-03-preview/webAppCompoundAssessments.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

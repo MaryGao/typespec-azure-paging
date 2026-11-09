@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management",
+    "typespecPath": "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_Delete.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_Get.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/examples/2024-12-01/ElasticBeanstalkConfigurationTemplates_Update.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5829,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkConfigurationTemplate.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkConfigurationTemplate.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_Delete.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_Get.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkConfigurationTemplates_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5847,
+    "rawFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkConfigurationTemplate.jsonl",
+      "projects/specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkConfigurationTemplate.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

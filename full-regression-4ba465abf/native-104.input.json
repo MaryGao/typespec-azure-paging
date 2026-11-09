@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/IamPolicyVersion.Management",
+    "typespecPath": "projects/specification/awsconnector/IamPolicyVersion.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_Delete.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_Get.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_ListBySubscription.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/examples/2024-12-01/IamPolicyVersions_Update.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5497,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPolicyVersion.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_CreateOrReplace.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_Delete.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_Get.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_ListByResourceGroup.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_ListBySubscription.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/IamPolicyVersions_Update.json",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPolicyVersion.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5948,
+    "rawFiles": [
+      "projects/specification/awsconnector/IamPolicyVersion.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPolicyVersion.jsonl",
+      "projects/specification/awsconnector/IamPolicyVersion.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/iamPolicyVersion.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

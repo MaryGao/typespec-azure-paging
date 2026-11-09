@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/Route53HostedZone.Management",
+    "typespecPath": "projects/specification/awsconnector/Route53HostedZone.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_Delete.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_Get.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/examples/2024-12-01/Route53HostedZones_Update.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/Route53HostedZone.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 6541,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53HostedZone.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_CreateOrReplace.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_Delete.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_Get.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_ListByResourceGroup.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_ListBySubscription.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/Route53HostedZones_Update.json",
+      "projects/specification/awsconnector/Route53HostedZone.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53HostedZone.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 10891,
+    "rawFiles": [
+      "projects/specification/awsconnector/Route53HostedZone.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53HostedZone.jsonl",
+      "projects/specification/awsconnector/Route53HostedZone.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/route53HostedZone.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

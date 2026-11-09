@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/ElasticBeanstalkApplication.Management",
+    "typespecPath": "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_Delete.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_Get.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/examples/2024-12-01/ElasticBeanstalkApplications_Update.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5340,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkApplication.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkApplication.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_CreateOrReplace.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_Delete.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_Get.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_ListByResourceGroup.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_ListBySubscription.json",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/ElasticBeanstalkApplications_Update.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5869,
+    "rawFiles": [
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkApplication.jsonl",
+      "projects/specification/awsconnector/ElasticBeanstalkApplication.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/elasticBeanstalkApplication.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

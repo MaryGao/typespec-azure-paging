@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews",
+    "typespecPath": "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec",
+    "typespecFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/client.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/examples/2023-01-01-preview/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/examples/2023-01-01-preview/RatingAndReviews_CheckUserHasReview.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/main.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/readme.md",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/reviews.models.tsp",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/service.yaml",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2023-01-01-preview",
+    "compileStatus": "success",
+    "compileDurationMs": 5586,
+    "swaggerFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/swagger/preview/2023-01-01-preview/reviews.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/swagger/preview/2023-01-01-preview/examples/Operations_List.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/swagger/preview/2023-01-01-preview/examples/RatingAndReviews_CheckUserHasReview.json",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/swagger/preview/2023-01-01-preview/reviews.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6146,
+    "rawFiles": [
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/raw/preview/2023-01-01-preview/reviews.jsonl",
+      "projects/specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews/raw/preview/2023-01-01-preview/reviews.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

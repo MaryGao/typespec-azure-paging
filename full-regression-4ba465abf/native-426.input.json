@@ -1,0 +1,43 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI",
+    "typespecPath": "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec",
+    "typespecFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/ComplianceResult.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/back-compatible.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/examples/2017-08-01/ComplianceResults/GetComplianceResults_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/examples/2017-08-01/ComplianceResults/ListComplianceResults_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/main.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/models.tsp",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/service.yaml",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2017-08-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5553,
+    "swaggerFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/swagger/stable/2017-08-01/complianceResults.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/swagger/stable/2017-08-01/complianceResults.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/swagger/stable/2017-08-01/examples/ComplianceResults/GetComplianceResults_example.json",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/swagger/stable/2017-08-01/examples/ComplianceResults/ListComplianceResults_example.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5864,
+    "rawFiles": [
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/raw/stable/2017-08-01/complianceResults.jsonl",
+      "projects/specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI/raw/stable/2017-08-01/complianceResults.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

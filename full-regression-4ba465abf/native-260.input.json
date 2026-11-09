@@ -1,0 +1,72 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/github-network/resource-manager/GitHub.Network/GitHubNetwork",
+    "typespecPath": "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec",
+    "typespecFiles": [
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/NetworkSettingsResource.tsp",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_Create.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_Delete.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_Get.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_ListByResourceGroup.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_ListBySubscription.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/NetworkSettings_Update.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01-preview/Operations_List.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_Create.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_Delete.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_Get.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_ListByResourceGroup.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_ListBySubscription.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/NetworkSettings_Update.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-01/Operations_List.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_Create.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_Delete.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_Get.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_ListByResourceGroup.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_ListBySubscription.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/NetworkSettings_Update.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/examples/2024-04-02/Operations_List.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/main.tsp",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/models.tsp",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/readme.csharp.md",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/readme.md",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/readme.python.md",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/readme.ruby.md",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/readme.typescript.md",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/service.yaml",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/suppressions.yaml",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-04-02",
+    "compileStatus": "success",
+    "compileDurationMs": 6318,
+    "swaggerFiles": [
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/GitHub.Network.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/GitHub.Network.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_Create.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_Delete.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_Get.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_ListByResourceGroup.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_ListBySubscription.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/NetworkSettings_Update.json",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/swagger/stable/2024-04-02/examples/Operations_List.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 6195,
+    "rawFiles": [
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/raw/stable/2024-04-02/GitHub.Network.jsonl",
+      "projects/specification/github-network/resource-manager/GitHub.Network/GitHubNetwork/raw/stable/2024-04-02/GitHub.Network.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

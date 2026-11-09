@@ -1,0 +1,48 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-default-in-enum-5972",
+  "project": {
+    "sourcePath": "specification/awsconnector/NetworkFirewallFirewall.Management",
+    "typespecPath": "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec",
+    "typespecFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/examples/2024-12-01/NetworkFirewallFirewalls_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/main.tsp",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/service.yaml",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/typespec/tspconfig.yaml"
+    ],
+    "apiVersion": "2024-12-01",
+    "compileStatus": "success",
+    "compileDurationMs": 5526,
+    "swaggerFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewall.json"
+    ],
+    "swaggerAssets": [
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_CreateOrReplace.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_Delete.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_Get.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_ListByResourceGroup.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_ListBySubscription.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/examples/NetworkFirewallFirewalls_Update.json",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/swagger/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewall.json"
+    ],
+    "validationStatus": "success",
+    "validationDurationMs": 5771,
+    "rawFiles": [
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewall.jsonl",
+      "projects/specification/awsconnector/NetworkFirewallFirewall.Management/raw/resource-manager/Microsoft.AwsConnector/stable/2024-12-01/networkFirewallFirewall.stderr.txt"
+    ]
+  },
+  "validatorRule": "DefaultInEnum",
+  "validatorRules": [
+    "DefaultInEnum"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/use-known-enum-default"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

@@ -1,0 +1,15 @@
+@azure-tools/typespec-autorest: 71 packed files matched; 0 mismatches
+@azure-tools/typespec-azure-core: 421 packed files matched; 0 mismatches
+@azure-tools/typespec-azure-examples: 169 packed files matched; 0 mismatches
+@azure-tools/typespec-azure-resource-manager: 427 packed files matched; 0 mismatches
+@azure-tools/typespec-azure-rulesets: 19 packed files matched; 0 mismatches
+@azure-tools/typespec-client-generator-core: 180 packed files matched; 0 mismatches
+@typespec/compiler: 1082 packed files matched; 0 mismatches
+@typespec/events: 45 packed files matched; 0 mismatches
+@typespec/http: 181 packed files matched; 0 mismatches
+@typespec/openapi: 42 packed files matched; 0 mismatches
+@typespec/rest: 58 packed files matched; 0 mismatches
+@typespec/sse: 38 packed files matched; 0 mismatches
+@typespec/streams: 34 packed files matched; 0 mismatches
+@typespec/versioning: 61 packed files matched; 0 mismatches
+@typespec/xml: 43 packed files matched; 0 mismatches
