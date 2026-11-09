@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "document": "packages/typespec-azure-resource-manager/src/rules/missing-error-decorator.md",
+      "documentSha256": "c92ccde8de3d5e8bd45fa026a5f6dc1c911f4e77cdcc6ef716d5ad042410a4e0",
+      "section": "Incorrect",
+      "snippetSha256": "3263fddc593777c73132fbabb73dc6b0a7555ff720a3faaa1dbc41e8597f95b2",
+      "diagnostics": [
+        {
+          "code": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+          "severity": "warning",
+          "message": "Response status '400' must use a response model marked with @error."
+        }
+      ]
+    },
+    {
+      "document": "packages/typespec-azure-resource-manager/src/rules/missing-error-decorator.md",
+      "documentSha256": "c92ccde8de3d5e8bd45fa026a5f6dc1c911f4e77cdcc6ef716d5ad042410a4e0",
+      "section": "Correct",
+      "snippetSha256": "4c43219fde9a90b6a051b144a16391b4c5542ed16f8e181c9ab3c4240c2e82da",
+      "diagnostics": []
+    },
+    {
+      "document": "website/src/content/docs/docs/libraries/azure-resource-manager/rules/missing-error-decorator.md",
+      "documentSha256": "b24fbe7dc2dc6352cf132192f743bea1d4197f31e0c372e5b578f15f6a5d17f2",
+      "section": "Incorrect",
+      "snippetSha256": "3263fddc593777c73132fbabb73dc6b0a7555ff720a3faaa1dbc41e8597f95b2",
+      "diagnostics": [
+        {
+          "code": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+          "severity": "warning",
+          "message": "Response status '400' must use a response model marked with @error."
+        }
+      ]
+    },
+    {
+      "document": "website/src/content/docs/docs/libraries/azure-resource-manager/rules/missing-error-decorator.md",
+      "documentSha256": "b24fbe7dc2dc6352cf132192f743bea1d4197f31e0c372e5b578f15f6a5d17f2",
+      "section": "Correct",
+      "snippetSha256": "4c43219fde9a90b6a051b144a16391b4c5542ed16f8e181c9ab3c4240c2e82da",
+      "diagnostics": []
+    }
+  ]
+}

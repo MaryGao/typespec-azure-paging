@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "task": "MissingXmsErrorResponse",
+  "issue": 6014,
+  "baseCommit": "c220d8e432d3183aeccfc254c3e217594b112aa2",
+  "coreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "nativeRule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+  "nativeBranch": "feat/missing-xms-error-response-6014",
+  "nativeCommit": "74e56a0f144190769180d5dbb27179db8b448c9c",
+  "phase": "draft-pr-preparation",
+  "toolchain": { "node": "26.5.0", "pnpm": "11.10.0" },
+  "commands": [
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm exec turbo run build --filter=@azure-tools/typespec-azure-resource-manager --filter=@azure-tools/typespec-autorest --filter=@azure-tools/typespec-azure-rulesets --output-logs=errors-only",
+      "result": "passed",
+      "tasks": 22
+    },
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm exec vitest run --config vitest.config.fast.ts packages\\typespec-azure-resource-manager packages\\typespec-azure-rulesets packages\\typespec-autorest\\test\\return-types.test.ts --reporter=dot",
+      "result": "893 ARM/ruleset tests passed; 32 of 33 AutoRest response tests passed; first AutoRest case timed out during cold parallel execution",
+      "passed": 925,
+      "failed": 1,
+      "retry": "Isolated AutoRest response-file rerun passed all 33 tests, without timeout changes."
+    },
+    {
+      "cwd": "packages/typespec-autorest",
+      "command": "mise exec -- pnpm exec vitest run test\\return-types.test.ts --reporter=dot",
+      "result": "passed",
+      "tests": 33
+    },
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm exec vitest run --config vitest.config.fast.ts packages\\typespec-azure-resource-manager\\test\\rules\\missing-error-decorator.test.ts packages\\typespec-azure-resource-manager\\test\\package-isolation.test.ts packages\\typespec-azure-rulesets\\test\\validate-rules-defined.test.ts --reporter=dot",
+      "result": "passed",
+      "tests": 45,
+      "newRuleTests": 28,
+      "note": "Final rerun after aligning the shared-status unit fixtures with the supported same-body emission controls."
+    },
+    {
+      "cwd": "packages/typespec-azure-resource-manager",
+      "command": "mise exec -- pnpm regen-docs",
+      "result": "passed",
+      "note": "Existing unrelated diagnostic-documentation warnings retained; no website build or specs validation run."
+    },
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm format",
+      "result": "passed"
+    },
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm lint",
+      "result": "passed",
+      "note": "Original missing vite/client types failure was resolved by frozen scripts-disabled installation of the declared playground package; lint scope and rules were not weakened."
+    },
+    {
+      "cwd": ".",
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "cwd": ".",
+      "command": "mise exec -- pnpm change verify --since origin/main",
+      "result": "passed",
+      "note": "Both changed packages have change descriptions."
+    }
+  ],
+  "controls": [
+    {
+      "kind": "actual-published-documentation",
+      "receipt": "documentation-examples.json",
+      "runner": "validate-missing-error-examples.mjs",
+      "setup": "Existing ARM Tester supplies its declared imports/usings; registered native rule explicitly enabled. Actual authored and generated snippets selected by Incorrect/Correct semantic headings through Prettier's Markdown AST.",
+      "assertions": "Both incorrect snippets emit exactly one 400 marker warning; both correct snippets emit no diagnostics."
+    },
+    {
+      "kind": "synthetic-autorest-emission",
+      "receipt": "shared-status-emission.json",
+      "runner": "validate-missing-error-emission.mjs",
+      "setup": "Existing AutoRest Tester, service namespace, same response status and body type, both marked/unmarked union orders.",
+      "assertions": "No compile/emitter diagnostics. x-ms-error-response is emitted exactly when the representative first response type is marked."
+    }
+  ],
+  "review": {
+    "kind": "independent-local-source-review",
+    "result": "No significant issues found in the reviewed changes.",
+    "followup": "The subsequent source-tree change only aligns the shared-status test payloads; production semantics are unchanged."
+  },
+  "realSpecValidation": {
+    "status": "not-run",
+    "reason": "Explicit user gate: manual PR review and approval must precede five-project validation; another approval is required before validating all specs."
+  }
+}

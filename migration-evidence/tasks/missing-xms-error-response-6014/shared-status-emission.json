@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "responses": "Unmarked | Marked",
+      "response": {
+        "description": "The server could not understand the request due to invalid syntax.",
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "responses": "Marked | Unmarked",
+      "response": {
+        "description": "The server could not understand the request due to invalid syntax.",
+        "schema": {
+          "type": "string"
+        },
+        "x-ms-error-response": true
+      }
+    }
+  ]
+}
