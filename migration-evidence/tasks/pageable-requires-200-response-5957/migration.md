@@ -2,11 +2,11 @@
 
 ## 1. Conclusion and scope
 
-The proposed Azure Core linter `@azure-tools/typespec-azure-core/pageable-requires-200-response` migrates Swagger [`PageableRequires200Response`](https://github.com/Azure/azure-openapi-validator/blob/main/docs/pageable-requires200-response.md).
+The proposed Azure Core linter `@azure-tools/typespec-azure-core/list-operation-missing-200-response` migrates Swagger [`PageableRequires200Response`](https://github.com/Azure/azure-openapi-validator/blob/main/docs/pageable-requires200-response.md). It was renamed from `pageable-requires-200-response` during review; the response-checking predicate is unchanged.
 
 **Full frozen ARM corpus execution completed: 487/487 projects assessed, zero unassessed, and zero target-rule findings on either side. No coverage gap was observed in this population. The PR is ready for review; current CI and the subsequent formatting/documentation repair are tracked separately below.**
 
-The corpus receipts certify candidate `62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1`, not subsequent main merges. They have not been rewritten or extended to a newer compiler/source snapshot.
+The corpus receipts certify candidate `62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1` under its original rule name, not subsequent main merges or review commits. They have not been rewritten or extended to a newer compiler/source snapshot.
 
 Matching zero counts do not prove functional equivalence. Swagger requires a truthy `responses[200]` on an operation with `x-ms-pageable`; the native rule requires a numeric HTTP 200 response on concrete `@list` operations. Native scope intentionally includes continuation-token lists without next links. The policy applies to ARM and data-plane operations, but the real-project corpus assessed here is ARM only.
 
@@ -50,7 +50,7 @@ No source changes, commits to the native branch, or fixes were made during the o
 
 ## 3. Function-level coverage
 
-The canonical behavior suite passed all 12 cases:
+The original canonical behavior suite passed all 12 cases. Review subsequently reduced the current suite to three essential cases: a list missing 200 warns, a list with 200 passes, and an operation without `@list` is excluded. The historical results below remain unchanged:
 
 | Behavior                                                                          | Evidence / result                                                                                        |
 | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -105,5 +105,6 @@ The README follow-up searched **2,497 README Markdown files** in the frozen repo
 - GitHub CI confirmed **Format and Website passed** on `7524d7c` in this [Build run](https://github.com/Azure/typespec-azure/actions/runs/41964038436) and [Consistency run](https://github.com/Azure/typespec-azure/actions/runs/41964038354). Superseded, cancelled integration checks are not new test failures.
 - At the author's request, current main `3e96b05ca76910c3412fa0c1ba85d4281a48d44a` was merged in [`29beee4`](https://github.com/Azure/typespec-azure/commit/29beee42b8b66fd9b6245f6afcf8a8eca7208712). Git merged cleanly without manual conflict resolution; the rule predicate and core gitlink did not change. ARM and Rulesets builds passed, along with 12 paging cases and 14 ruleset-definition cases. The PR description now links the closing issue #5957.
 - CI completed on `29beee4`: all six build-matrix jobs, Format, Website, Lint, and language integrations passed. The sole failed check is [Azure REST API Specs](https://github.com/Azure/typespec-azure/actions/runs/41965738429): **all 845 diagnostic errors are `arm-common-types-version`**, again requiring v6 (211 projects passed, 394 failed). The other checks completed without failures; CodeQL was neutral. [The PR](https://github.com/Azure/typespec-azure/pull/5959/checks) has no merge conflicts. This shared integration failure remains unresolved; no all-green or merge-ready claim is made.
+- Review follow-up [`e0ab6e3`](https://github.com/Azure/typespec-azure/commit/e0ab6e3fa9f2cabd88c30114754689e9d7b641e7): renamed the rule and dependent references, removed OpenAPI-only test coverage and the paging-kind matrix, and consolidated both reviewed guides into one Incorrect/Correct pair with scenario subtitles. All six comments were addressed and answered; the threads remain open for the reviewer, as requested by the author. Core and Rulesets builds/lint passed, as did the three current rule cases, 14 ruleset-definition cases, and 12 adjacent extension-rule cases; formatting and documentation regeneration passed. Fresh CI is running for this review head. The original corpus receipts and their old diagnostic key remain immutable.
 - Remaining acceptance evidence: standalone authored example compilation and independent development/readiness reviews. Any semantic repair requires validation of the repaired candidate; the full corpus run certifies only its pinned inputs above. No global equivalence, Swagger-rule retirement, or release-ready claim is made.
 - Task state: [task.json](task.json).

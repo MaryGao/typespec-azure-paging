@@ -3,10 +3,11 @@
   "flowVersion": "native-first",
   "taskId": "pageable-requires-200-response-5957",
   "validatorRules": ["PageableRequires200Response"],
-  "nativeRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
+  "nativeRule": "@azure-tools/typespec-azure-core/list-operation-missing-200-response",
+  "validatedNativeRule": "@azure-tools/typespec-azure-core/pageable-requires-200-response",
   "issue": "https://github.com/Azure/typespec-azure/issues/5957",
-  "status": "validation-complete-shared-ci-blocked",
-  "phase": "pr-ci-monitoring-complete",
+  "status": "review-feedback-addressed-ci-pending",
+  "phase": "review-followup",
   "validationAuthorized": true,
   "validationScope": "Full frozen 487-project ARM corpus for the target rule, plus affected native package checks; retain the completed five-project pilot and its detailed reports",
   "localReports": "C:\\Users\\marygao\\project\\coverage-reports\\paging-require-200",
@@ -26,12 +27,12 @@
   "priorImplementation": "https://github.com/Azure/typespec-azure/pull/5846",
   "approvalBoundary": "After the pilot, the author authorized full regression and report publication, then requested a ready-for-review PR and CI/conflict monitoring. The PR is no longer draft. Report unresolved failures accurately; review readiness is not a claim that all CI passed or that release acceptance is complete.",
   "pending": [
-    "The sole failed current-head check is External Integration41965738429:845 unrelated ARM common-types v6 errors, also observed on another PR. All other checks completed without failures; CodeQL neutral. No merge conflicts.",
+    "Fresh CI for review head e0ab6e3fa9f2cabd88c30114754689e9d7b641e7 is running. Historical CI at29beee42b8 had845 unrelated ARM common-types v6 errors, also observed on another PR; all other checks completed without failures.",
     "Standalone authored example compilation remains outstanding.",
     "Independent development and release-readiness reviews remain outstanding."
   ],
   "validationCandidateCommit": "62a4dea5a6f3765218e167f33ff0d1b3abfcc6c1",
-  "ciFollowup": {
+  "historicalCiFollowup": {
     "mergedMainHead": "7d733f8c937295194073e711e2a39a0c7e1b0896",
     "coreCommit": "f87a4e2d51c5cc0b3d995d4c7542578d55799804",
     "repairHead": "7524d7cde74bc7237190a7d328e2fb78153583da",
@@ -67,5 +68,20 @@
     "repairBuildRun": "https://github.com/Azure/typespec-azure/actions/runs/41964038436",
     "repairConsistencyRun": "https://github.com/Azure/typespec-azure/actions/runs/41964038354",
     "currentChecks": "https://github.com/Azure/typespec-azure/pull/5959/checks"
+  },
+  "reviewFollowup": {
+    "head": "e0ab6e3fa9f2cabd88c30114754689e9d7b641e7",
+    "ruleName": "list-operation-missing-200-response",
+    "predicateChanged": false,
+    "coreAndRulesetsBuilds": "passed",
+    "coreAndRulesetsLint": "passed",
+    "focusedRuleTestsPassed": 3,
+    "rulesetDefinitionTestsPassed": 14,
+    "adjacentExtensionRuleTestsPassed": 12,
+    "formatting": "passed",
+    "documentationGeneration": "passed-with-existing-warnings",
+    "reviewCommentsAddressed": 6,
+    "reviewThreadsOpen": 6,
+    "ci": "running"
   }
 }
