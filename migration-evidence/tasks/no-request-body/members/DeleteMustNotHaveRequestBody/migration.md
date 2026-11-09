@@ -10,7 +10,7 @@ The documentation labels applicability as ARM and data plane, but actual caller 
 
 ## 2. Actual coverage
 
-**Assessed coverage:** local DELETE violating/compliant cases, RPC operations, and synchronous/asynchronous ARM delete-template customization pass. Current Swagger/TypeSpec real-spec project and finding counts are unassessed.
+**Assessed coverage:** local DELETE violating/compliant cases, RPC operations, and synchronous/asynchronous ARM delete-template customization pass. The [current three-project ARM pilot](../../validation/20261109-a9c4d8a/index.md) has zero saved production Swagger DELETE observations and four native DELETE warnings, all Search client-only customizations. Every warning maps to a bodyless original service operation and saved Swagger route. Advisor and Compute have no target findings. Fresh selected-rule Spectral execution corroborates the saved zero counts; this is not full-population or version-aligned equivalence.
 
 ## 3. Function-level coverage
 
@@ -18,8 +18,8 @@ Explicit, implicit, optional, empty-model, body-root, primitive, and multipart D
 
 ## 4. Why diagnostic counts differ
 
-Swagger emits an error per selected body parameter and does not select `x-ms-paths` or path-item-level parameters. TypeSpec emits one warning per resolved body-bearing DELETE operation, without reproducing JSON-selector blind spots. No current numerical comparison has been performed.
+Swagger emits an error per selected body parameter and does not select `x-ms-paths` or path-item-level parameters. TypeSpec emits one warning per resolved body-bearing DELETE operation, without reproducing JSON-selector blind spots. The current four-warning difference consists of Search SDK customizations with implicit options-wrapper bodies; all actual service operations are bodyless. These are not four demonstrated wire violations, and no findings are suppressed or normalized away.
 
 ## NOTES
 
-One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. User manual PR review and approval are required before five-project validation; full specs require another approval.
+One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user authorized full validation only if representative comparison has no gaps; that condition is not met, so no full run was started.

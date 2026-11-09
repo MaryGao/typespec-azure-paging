@@ -1,0 +1,1165 @@
+{
+  "status": "all-ten-native-only-findings-explained",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "project": "specification/search/resource-manager/Microsoft.Search/Search",
+  "nativeRaw": 10,
+  "swagger": {
+    "GetMustNotHaveRequestBody": 0,
+    "DeleteMustNotHaveRequestBody": 0
+  },
+  "sourceSha256": "3cd320be3ef41300bac76ebe2f6540fd2a8c38e506b38317f5895446b5228a5a",
+  "correspondence": "Exact diagnostic location -> semantic operation -> actual SDK override object identity for Go/C#/JavaScript -> original declared-service HTTP metadata -> exact verb/path in selected saved Swagger. Not name/count-only matching.",
+  "referencedParameterInputs": [
+    {
+      "file": "common-types\\resource-management\\v6\\types.json",
+      "sha256": "5bdcf9b5ed1ea563367452e265e7ad60b411b1fbbbc20b8ba3ab7854d1ca624f"
+    }
+  ],
+  "findings": [
+    {
+      "sourceFile": "client.tsp",
+      "line": 167,
+      "column": 4,
+      "operation": "Customizations.searchGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchGetCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "get",
+              "operationId": "Services_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "get",
+              "operationId": "Services_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.get",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 136,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "get",
+              "operationId": "Services_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\n@action(\"searchGetCustomization\")\nop searchGetCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 259,
+      "column": 4,
+      "operation": "Customizations.searchDeleteCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchDeleteCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.delete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 201,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "delete",
+              "operationId": "Services_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.delete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 201,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "delete",
+              "operationId": "Services_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.delete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 201,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+              "verb": "delete",
+              "operationId": "Services_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/arm-resource-invalid-action-verb\" \"Client-only override: retains existing action verb.\"\n@autoRoute\n@delete\n@action(\"searchDeleteCustomization\")\nop searchDeleteCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 316,
+      "column": 4,
+      "operation": "Customizations.queryKeysDeleteCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/searchServices/{searchServiceName}/{key}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "body",
+            "optional": false,
+            "typeKind": "Intrinsic",
+            "typeName": "void"
+          },
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.queryKeysDelete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 361,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+              "verb": "delete",
+              "operationId": "QueryKeys_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.queryKeysDelete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 361,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+              "verb": "delete",
+              "operationId": "QueryKeys_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.queryKeysDelete",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 361,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+              "verb": "delete",
+              "operationId": "QueryKeys_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@delete\nop queryKeysDeleteCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path\n  @segment(\"searchServices\")",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 533,
+      "column": 4,
+      "operation": "Customizations.privateLinkResourcesListSupportedCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResourcesCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "body",
+            "optional": false,
+            "typeKind": "Intrinsic",
+            "typeName": "void"
+          },
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "verb": "get",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "verb": "get",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SearchServices.listSupported",
+          "originalLocation": {
+            "sourceFile": "SearchService.tsp",
+            "line": 398,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "originalBody": {
+            "typeKind": "Intrinsic",
+            "typeName": "void",
+            "explicitProperty": "body",
+            "properties": []
+          },
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+              "verb": "get",
+              "operationId": "PrivateLinkResources_ListSupported",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\n@action(\"privateLinkResourcesCustomization\")\nop privateLinkResourcesListSupportedCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 429,
+      "column": 4,
+      "operation": "Customizations.privateEndpointConnectionsGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.get",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\nop privateEndpointConnectionsGetCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 498,
+      "column": 4,
+      "operation": "Customizations.privateEndpointConnectionsDeleteCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.delete",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 78,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "delete",
+              "operationId": "PrivateEndpointConnections_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.delete",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 78,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "delete",
+              "operationId": "PrivateEndpointConnections_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.delete",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 78,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+              "verb": "delete",
+              "operationId": "PrivateEndpointConnections_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@delete\nop privateEndpointConnectionsDeleteCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 404,
+      "column": 4,
+      "operation": "Customizations.privateEndpointConnectionsListByServiceCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnectionsListByService",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.PrivateEndpointConnections.listByService",
+          "originalLocation": {
+            "sourceFile": "PrivateEndpointConnection.tsp",
+            "line": 98,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+              "verb": "get",
+              "operationId": "PrivateEndpointConnections_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\n@action(\"privateEndpointConnectionsListByService\")\nop privateEndpointConnectionsListByServiceCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 620,
+      "column": 4,
+      "operation": "Customizations.SharedPrivateLinkResourcesGetCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.get",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 35,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_Get",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\nop SharedPrivateLinkResourcesGetCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 702,
+      "column": 4,
+      "operation": "Customizations.SharedPrivateLinkResourcesDeleteCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.delete",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 83,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "delete",
+              "operationId": "SharedPrivateLinkResources_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.delete",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 83,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "delete",
+              "operationId": "SharedPrivateLinkResources_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.delete",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 83,
+            "column": 3
+          },
+          "verb": "delete",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+              "verb": "delete",
+              "operationId": "SharedPrivateLinkResources_Delete",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/lro-location-header\" \"Client-only override: retains async operation headers.\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"Client-only override: retains response contract.\"\n@autoRoute\n@delete\nop SharedPrivateLinkResourcesDeleteCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 594,
+      "column": 4,
+      "operation": "Customizations.SharedPrivateLinkResourcesListByServiceCustomization",
+      "namespace": "Customizations",
+      "inDeclaredHttpService": false,
+      "verb": "get",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResourcesCustomization",
+      "body": {
+        "typeKind": "Model",
+        "typeName": "",
+        "properties": [
+          {
+            "name": "params",
+            "optional": true,
+            "typeKind": "Model",
+            "typeName": "search-management-request-options"
+          }
+        ]
+      },
+      "mappings": [
+        {
+          "scope": "go",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "csharp",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        },
+        {
+          "scope": "javascript",
+          "originalOperation": "Microsoft.Search.SharedPrivateLinkResources.listByService",
+          "originalLocation": {
+            "sourceFile": "SharedPrivateLinkResource.tsp",
+            "line": 107,
+            "column": 3
+          },
+          "verb": "get",
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "originalBody": null,
+          "savedMatches": [
+            {
+              "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+              "section": "paths",
+              "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+              "verb": "get",
+              "operationId": "SharedPrivateLinkResources_ListByService",
+              "directBodyParameters": 0,
+              "parameterReferences": [
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+                "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+              ],
+              "resolvedBodyParameters": 0
+            }
+          ]
+        }
+      ],
+      "sourceExcerpt": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"Client-only override, not an ARM resource operation.\"\n@autoRoute\n@get\n@action(\"sharedPrivateLinkResourcesCustomization\")\nop SharedPrivateLinkResourcesListByServiceCustomization(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /** The name of the Azure AI Search service associated with the specified resource group. */\n  @path",
+      "classification": "Native-only SDK customization outside declared HTTP services. Implicit request-options wrapper appears as a request body to getHttpOperation; original service operation and matching saved Swagger are bodyless."
+    }
+  ],
+  "disposition": "Keep all ten raw findings (six GET, four DELETE). No production changes, suppressions or count normalization. This is a source-versus-wire scope gap, not ten demonstrated on-wire bodies; #5993 policy remains unresolved.",
+  "fullValidation": "Not started: the user's no-gap condition is not met."
+}

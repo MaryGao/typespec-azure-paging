@@ -1,0 +1,3 @@
+linter:
+  disable:
+    "@azure-tools/typespec-azure-core/no-request-body": "Verify explicit comparison activation"

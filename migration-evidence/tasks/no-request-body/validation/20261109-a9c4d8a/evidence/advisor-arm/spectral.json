@@ -1,0 +1,273 @@
+{
+  "project": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor",
+  "audience": "arm",
+  "status": "assessed",
+  "counts": {
+    "GetMustNotHaveRequestBody": 0,
+    "DeleteMustNotHaveRequestBody": 0
+  },
+  "files": [
+    {
+      "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\advisor\\resource-manager\\Microsoft.Advisor\\Advisor\\swagger\\preview\\2026-08-01-preview\\openapi.json",
+      "sha256": "b050c48999bce28f74a9f1ddf321898a03baff37f96ad93caf656a88fc3515b5",
+      "apiVersion": "2026-08-01-preview",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "section": "paths",
+          "route": "/{resourceUri}/providers/Microsoft.Advisor/recommendations",
+          "verb": "get",
+          "operationId": "Recommendations_ListByTenant",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "#/parameters/Azure.ResourceManager.ResourceUriParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}",
+          "verb": "get",
+          "operationId": "Recommendations_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "#/parameters/Azure.ResourceManager.ResourceUriParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}/suppressions/{name}",
+          "verb": "get",
+          "operationId": "Suppressions_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "#/parameters/Azure.ResourceManager.ResourceUriParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/{resourceUri}/providers/Microsoft.Advisor/recommendations/{recommendationId}/suppressions/{name}",
+          "verb": "delete",
+          "operationId": "Suppressions_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "#/parameters/Azure.ResourceManager.ResourceUriParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Advisor/metadata",
+          "verb": "get",
+          "operationId": "RecommendationMetadata_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Advisor/metadata/{name}",
+          "verb": "get",
+          "operationId": "RecommendationMetadata_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Advisor/operations",
+          "verb": "get",
+          "operationId": "Operations_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/serviceGroups/{serviceGroupName}/providers/Microsoft.Advisor/recommendations",
+          "verb": "get",
+          "operationId": "Recommendations_ListByServiceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/serviceGroups/{serviceGroupName}/providers/Microsoft.Advisor/recommendations/{recommendationId}",
+          "verb": "get",
+          "operationId": "Recommendations_GetByServiceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/advisorScore",
+          "verb": "get",
+          "operationId": "AdvisorScores_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/advisorScore/{name}",
+          "verb": "get",
+          "operationId": "AdvisorScores_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessmentTypes",
+          "verb": "get",
+          "operationId": "AssessmentTypes_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments",
+          "verb": "get",
+          "operationId": "Assessments_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments/{assessmentName}",
+          "verb": "get",
+          "operationId": "Assessments_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/assessments/{assessmentName}",
+          "verb": "delete",
+          "operationId": "Assessments_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/configurations",
+          "verb": "get",
+          "operationId": "Configurations_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/generateRecommendations/{operationId}",
+          "verb": "get",
+          "operationId": "Recommendations_GetGenerateStatus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/recommendations",
+          "verb": "get",
+          "operationId": "Recommendations_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews",
+          "verb": "get",
+          "operationId": "resiliencyReviews_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews/{reviewId}",
+          "verb": "get",
+          "operationId": "resiliencyReviews_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/suppressions",
+          "verb": "get",
+          "operationId": "Suppressions_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/workloads",
+          "verb": "get",
+          "operationId": "Workloads_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Advisor/configurations",
+          "verb": "get",
+          "operationId": "Configurations_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v4/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        }
+      ],
+      "counts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      }
+    }
+  ],
+  "source": "Hash-verified shared baseline Swagger; historical production findings remain the primary ARM comparison."
+}

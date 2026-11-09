@@ -1,0 +1,45 @@
+{
+  "node": "v26.5.0",
+  "validatorEntrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+  "rulesetEntrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+  "rulesetEntrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+  "rulesetsVersion": "2.2.6",
+  "registration": {
+    "arm": {
+      "GetMustNotHaveRequestBody": {
+        "given": "$[paths,'x-ms-paths'].*.get.parameters[?(@.in === 'body')]",
+        "severity": "error",
+        "resolved": true,
+        "then": {
+          "function": "falsy"
+        }
+      },
+      "DeleteMustNotHaveRequestBody": {
+        "given": "$.paths.*.delete.parameters[?(@.in === 'body')]",
+        "severity": "error",
+        "resolved": true,
+        "then": {
+          "function": "falsy"
+        }
+      }
+    },
+    "data-plane": {
+      "RequestBodyNotAllowed": {
+        "given": [
+          "$.paths[*][get,delete].parameters[*]"
+        ],
+        "severity": "warn",
+        "resolved": true,
+        "then": {
+          "field": "in",
+          "function": "pattern",
+          "functionOptions": {
+            "notMatch": "/^body$/"
+          }
+        }
+      }
+    }
+  },
+  "defaultSeveritiesPreserved": true,
+  "profile": "Explicit selected production Spectral rule definitions with the default reference resolver; not a full AutoRest production pipeline, baseline refresh, or official ARM analyzer run."
+}

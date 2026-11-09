@@ -1,0 +1,11 @@
+$ cross-env PNPM_CONFIG_VERIFY_DEPS_BEFORE_RUN=false turbo --filter=!@typespec/monorepo "--filter=@azure-tools/typespec-autorest" "--filter=@azure-tools/typespec-azure-rulesets" "--filter=@typespec/integration-tester" "build" "--output-logs=errors-only"
+
+   • turbo 2.11.10
+   • Packages in scope: @azure-tools/typespec-autorest, @azure-tools/typespec-azure-rulesets, @typespec/integration-tester
+   • Running build in 3 packages
+   • Remote caching disabled, using shared worktree cache
+
+
+ Tasks:    23 successful, 23 total
+Cached:    18 cached, 23 total
+  Time:    1m32.812s

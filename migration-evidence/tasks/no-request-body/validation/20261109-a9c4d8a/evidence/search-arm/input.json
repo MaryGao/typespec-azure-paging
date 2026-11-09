@@ -1,0 +1,16 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "project": {
+    "sourcePath": "specification/search/resource-manager/Microsoft.Search/Search",
+    "apiVersion": "2026-09-01-preview"
+  },
+  "validatorRules": [
+    "GetMustNotHaveRequestBody",
+    "DeleteMustNotHaveRequestBody"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

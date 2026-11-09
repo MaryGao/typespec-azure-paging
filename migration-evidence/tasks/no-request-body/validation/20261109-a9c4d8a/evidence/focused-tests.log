@@ -1,0 +1,29 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "../../core/vitest.config" without a file extension (packages/typespec-azure-examples/vitest.config.ts:2:45). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.0.5 C:/dev/worktrees/native-get-must-not-have-request-body-5983
+
+ ❯ |@azure-tools/typespec-azure-resource-manager| test/rules/no-request-body.test.ts (4 tests | 1 failed) 25262ms
+   × reports body parameters on ArmResourceRead 10037ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |@azure-tools/typespec-azure-resource-manager| test/rules/no-request-body.test.ts > reports body parameters on ArmResourceRead
+Error: Test timed out in 10000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ test/rules/no-request-body.test.ts:14:3
+     12|   ["ArmResourceDeleteSync", "DELETE"],
+     13|   ["ArmResourceDeleteWithoutOkAsync", "DELETE"],
+     14| ])("reports body parameters on %s", async (template, verb) => {
+       |   ^
+     15|   const runner = await Tester.createInstance();
+     16|   const tester = createLinterRuleTester(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 3 passed (4)
+      Tests  1 failed | 61 passed (62)
+   Start at  20:25:31
+   Duration  54.51s (tests 52%, transform 42%, import 6%)

@@ -1,0 +1,29 @@
+{
+  "candidateCwd": "C:\\dev\\worktrees\\native-get-must-not-have-request-body-5983",
+  "coreCwd": "C:\\dev\\worktrees\\native-get-must-not-have-request-body-5983\\core",
+  "specsCwd": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "build": "mise exec -- pnpm run-all --filter=@azure-tools/typespec-autorest --filter=@azure-tools/typespec-azure-rulesets --filter=@typespec/integration-tester build --output-logs=errors-only",
+  "azurePack": "mise exec -- pnpm exec chronus pack --pack-destination <run>\\evidence\\artifacts --only=@azure-tools/typespec-autorest --only=@azure-tools/typespec-azure-core --only=@azure-tools/typespec-azure-examples --only=@azure-tools/typespec-azure-resource-manager --only=@azure-tools/typespec-azure-rulesets --only=@azure-tools/typespec-client-generator-core",
+  "corePack": "mise exec -- pnpm exec chronus pack --pack-destination <run>\\evidence\\artifacts --only=@typespec/compiler --only=@typespec/events --only=@typespec/http --only=@typespec/openapi --only=@typespec/rest --only=@typespec/sse --only=@typespec/streams --only=@typespec/versioning --only=@typespec/xml",
+  "injection": "mise exec pnpm@12.6.0 -- node core\\packages\\tsp-integration\\cmd\\tsp-integration.js azure-specs --repo C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983 --tgz-dir <run>\\evidence\\artifacts --stage patch --stage install",
+  "injectionEnvironment": {
+    "PNPM_CONFIG_REGISTRY": "https://packagefeedproxy.microsoft.io/npm/",
+    "PNPM_CONFIG_VERIFY_DEPS_BEFORE_RUN": "false"
+  },
+  "packEnvironment": {
+    "PNPM_CONFIG_VERIFY_DEPS_BEFORE_RUN": "false"
+  },
+  "pilotPhases": [
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\pilot.mjs prepare",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\pilot.mjs verify-runtime",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\pilot.mjs controls",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\pilot.mjs run",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\spectral-profile.mjs",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\investigate-search.mjs",
+    "mise exec pnpm@12.6.0 -- node <run>\\evidence\\tooling\\reports.mjs"
+  ],
+  "focusedTests": "mise exec -- pnpm exec vitest run --config vitest.config.fast.ts packages\\typespec-azure-core\\test\\rules\\no-request-body.test.ts packages\\typespec-azure-core\\test\\rules\\rpc-operation-request-body.test.ts packages\\typespec-azure-resource-manager\\test\\rules\\no-request-body.test.ts packages\\typespec-azure-rulesets\\test\\validate-rules-defined.test.ts",
+  "isolatedRetry": "mise exec -- pnpm exec vitest run --config vitest.config.fast.ts packages\\typespec-azure-resource-manager\\test\\rules\\no-request-body.test.ts",
+  "scope": "Exactly five explicitly selected projects. No integration checkout/validate stages and no full-corpus analyzer run.",
+  "replay": "Replace <run> and absolute checkout locations for the target environment. Restore all 15 archives from the checksummed release asset; use the retained native worker matching selection.json's SHA256."
+}

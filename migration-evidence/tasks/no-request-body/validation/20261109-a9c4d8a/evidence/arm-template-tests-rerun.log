@@ -1,0 +1,11 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "../../core/vitest.config" without a file extension (packages/typespec-azure-examples/vitest.config.ts:2:45). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.0.5 C:/dev/worktrees/native-get-must-not-have-request-body-5983
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  20:26:51
+   Duration  44.83s (transform 49%, import 29%, tests 22%)

@@ -1,0 +1,1273 @@
+{
+  "project": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+  "audience": "arm",
+  "status": "assessed",
+  "counts": {
+    "GetMustNotHaveRequestBody": 0,
+    "DeleteMustNotHaveRequestBody": 0
+  },
+  "files": [
+    {
+      "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\compute\\resource-manager\\Microsoft.Compute\\Compute\\Compute\\swagger\\stable\\2026-04-01\\ComputeRP.json",
+      "sha256": "a9aba8fece0443aefc4c2b2b16dc3592f41a0a833c38ac54cf573c13340800ce",
+      "apiVersion": "2026-04-01",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Compute/operations",
+          "verb": "get",
+          "operationId": "Operations_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/availabilitySets",
+          "verb": "get",
+          "operationId": "AvailabilitySets_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/capacityReservationGroups",
+          "verb": "get",
+          "operationId": "CapacityReservationGroups_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/hostGroups",
+          "verb": "get",
+          "operationId": "DedicatedHostGroups_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/images",
+          "verb": "get",
+          "operationId": "Images_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/interconnectBlocks",
+          "verb": "get",
+          "operationId": "InterconnectBlocks_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers",
+          "verb": "get",
+          "operationId": "VirtualMachineImagesEdgeZone_ListPublishers",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers",
+          "verb": "get",
+          "operationId": "VirtualMachineImagesEdgeZone_ListOffers",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus",
+          "verb": "get",
+          "operationId": "VirtualMachineImagesEdgeZone_ListSkus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+          "verb": "get",
+          "operationId": "VirtualMachineImagesEdgeZone_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions/{version}",
+          "verb": "get",
+          "operationId": "VirtualMachineImagesEdgeZone_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/vmimages",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_ListByEdgeZone",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_ListPublishers",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types",
+          "verb": "get",
+          "operationId": "VirtualMachineExtensionImages_ListTypes",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types/{type}/versions",
+          "verb": "get",
+          "operationId": "VirtualMachineExtensionImages_ListVersions",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types/{type}/versions/{version}",
+          "verb": "get",
+          "operationId": "VirtualMachineExtensionImages_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_ListOffers",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_ListSkus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions/{version}",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/runCommands",
+          "verb": "get",
+          "operationId": "VirtualMachineRunCommands_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/runCommands/{commandId}",
+          "verb": "get",
+          "operationId": "VirtualMachineRunCommands_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/usages",
+          "verb": "get",
+          "operationId": "Usage_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/virtualMachineScaleSets",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_ListByLocation",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/virtualMachines",
+          "verb": "get",
+          "operationId": "VirtualMachines_ListByLocation",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/vmSizes",
+          "verb": "get",
+          "operationId": "VirtualMachineSizes_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/proximityPlacementGroups",
+          "verb": "get",
+          "operationId": "ProximityPlacementGroups_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/restorePointCollections",
+          "verb": "get",
+          "operationId": "RestorePointCollections_ListAll",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/sshPublicKeys",
+          "verb": "get",
+          "operationId": "SshPublicKeys_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachineScaleSets",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_ListAll",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachines",
+          "verb": "get",
+          "operationId": "VirtualMachines_ListAll",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets",
+          "verb": "get",
+          "operationId": "AvailabilitySets_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}",
+          "verb": "get",
+          "operationId": "AvailabilitySets_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}",
+          "verb": "delete",
+          "operationId": "AvailabilitySets_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}/vmSizes",
+          "verb": "get",
+          "operationId": "AvailabilitySets_ListAvailableSizes",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups",
+          "verb": "get",
+          "operationId": "CapacityReservationGroups_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}",
+          "verb": "get",
+          "operationId": "CapacityReservationGroups_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}",
+          "verb": "delete",
+          "operationId": "CapacityReservationGroups_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}/capacityReservations",
+          "verb": "get",
+          "operationId": "CapacityReservations_ListByCapacityReservationGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}/capacityReservations/{capacityReservationName}",
+          "verb": "get",
+          "operationId": "CapacityReservations_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}/capacityReservations/{capacityReservationName}",
+          "verb": "delete",
+          "operationId": "CapacityReservations_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups",
+          "verb": "get",
+          "operationId": "DedicatedHostGroups_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}",
+          "verb": "get",
+          "operationId": "DedicatedHostGroups_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}",
+          "verb": "delete",
+          "operationId": "DedicatedHostGroups_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}/hosts",
+          "verb": "get",
+          "operationId": "DedicatedHosts_ListByHostGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}/hosts/{hostName}",
+          "verb": "get",
+          "operationId": "DedicatedHosts_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}/hosts/{hostName}",
+          "verb": "delete",
+          "operationId": "DedicatedHosts_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}/hosts/{hostName}/hostSizes",
+          "verb": "get",
+          "operationId": "DedicatedHosts_ListAvailableSizes",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images",
+          "verb": "get",
+          "operationId": "Images_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}",
+          "verb": "get",
+          "operationId": "Images_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}",
+          "verb": "delete",
+          "operationId": "Images_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/interconnectBlocks",
+          "verb": "get",
+          "operationId": "InterconnectBlocks_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/interconnectBlocks/{interconnectBlockName}",
+          "verb": "get",
+          "operationId": "InterconnectBlocks_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/interconnectBlocks/{interconnectBlockName}",
+          "verb": "delete",
+          "operationId": "InterconnectBlocks_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/proximityPlacementGroups",
+          "verb": "get",
+          "operationId": "ProximityPlacementGroups_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/proximityPlacementGroups/{proximityPlacementGroupName}",
+          "verb": "get",
+          "operationId": "ProximityPlacementGroups_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/proximityPlacementGroups/{proximityPlacementGroupName}",
+          "verb": "delete",
+          "operationId": "ProximityPlacementGroups_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/restorePointCollections",
+          "verb": "get",
+          "operationId": "RestorePointCollections_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/restorePointCollections/{restorePointCollectionName}",
+          "verb": "get",
+          "operationId": "RestorePointCollections_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/restorePointCollections/{restorePointCollectionName}",
+          "verb": "delete",
+          "operationId": "RestorePointCollections_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/restorePointCollections/{restorePointCollectionName}/restorePoints/{restorePointName}",
+          "verb": "get",
+          "operationId": "RestorePoints_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/restorePointCollections/{restorePointCollectionName}/restorePoints/{restorePointName}",
+          "verb": "delete",
+          "operationId": "RestorePoints_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/sshPublicKeys",
+          "verb": "get",
+          "operationId": "SshPublicKeys_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/sshPublicKeys/{sshPublicKeyName}",
+          "verb": "get",
+          "operationId": "SshPublicKeys_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/sshPublicKeys/{sshPublicKeyName}",
+          "verb": "delete",
+          "operationId": "SshPublicKeys_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSets_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/extensions",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetExtensions_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/extensions/{vmssExtensionName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetExtensions_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/extensions/{vmssExtensionName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSetExtensions_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/instanceView",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_GetInstanceView",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/lifecycleHookEvents",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetLifeCycleHookEvents_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/lifecycleHookEvents/{lifecycleHookEventName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetLifeCycleHookEvents_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/osUpgradeHistory",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_GetOSUpgradeHistory",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/rollingUpgrades/latest",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetRollingUpgrades_GetLatest",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/skus",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSets_ListSkus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMs_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMs_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSetVMs_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/diagnosticRunCommands",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMDiagnosticRunCommands_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/diagnosticRunCommands/{runCommandName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMDiagnosticRunCommands_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/diagnosticRunCommands/{runCommandName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSetVMDiagnosticRunCommands_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/extensions",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMExtensions_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/extensions/{vmExtensionName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMExtensions_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/extensions/{vmExtensionName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSetVMExtensions_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/instanceView",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMs_GetInstanceView",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/runCommands",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMRunCommands_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/runCommands/{runCommandName}",
+          "verb": "get",
+          "operationId": "VirtualMachineScaleSetVMRunCommands_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/runCommands/{runCommandName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineScaleSetVMRunCommands_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines",
+          "verb": "get",
+          "operationId": "VirtualMachines_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}",
+          "verb": "get",
+          "operationId": "VirtualMachines_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}",
+          "verb": "delete",
+          "operationId": "VirtualMachines_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands",
+          "verb": "get",
+          "operationId": "VirtualMachineDiagnosticRunCommands_DiagnosticListByVirtualMachine",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}",
+          "verb": "get",
+          "operationId": "VirtualMachineDiagnosticRunCommands_GetByVirtualMachine",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineDiagnosticRunCommands_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions",
+          "verb": "get",
+          "operationId": "VirtualMachineExtensions_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}",
+          "verb": "get",
+          "operationId": "VirtualMachineExtensions_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineExtensions_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/instanceView",
+          "verb": "get",
+          "operationId": "VirtualMachines_InstanceView",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands",
+          "verb": "get",
+          "operationId": "VirtualMachineRunCommands_ListByVirtualMachine",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}",
+          "verb": "get",
+          "operationId": "VirtualMachineRunCommands_GetByVirtualMachine",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}",
+          "verb": "delete",
+          "operationId": "VirtualMachineRunCommands_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/vmSizes",
+          "verb": "get",
+          "operationId": "VirtualMachines_ListAvailableSizes",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "x-ms-paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions?$expand=Properties",
+          "verb": "get",
+          "operationId": "VirtualMachineImages_ListWithProperties",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../../common-types/resource-management/v3/types.json#/parameters/LocationParameter"
+          ]
+        }
+      ],
+      "counts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      }
+    }
+  ],
+  "source": "Hash-verified shared baseline Swagger; historical production findings remain the primary ARM comparison."
+}

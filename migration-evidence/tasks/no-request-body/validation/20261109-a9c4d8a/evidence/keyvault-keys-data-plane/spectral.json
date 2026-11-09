@@ -1,0 +1,113 @@
+{
+  "project": "specification/keyvault/data-plane/Keys",
+  "audience": "data-plane",
+  "status": "assessed",
+  "counts": {
+    "RequestBodyNotAllowed": 0
+  },
+  "files": [
+    {
+      "file": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\specification\\keyvault\\data-plane\\Keys\\preview\\2026-07-01-preview\\keys.json",
+      "sha256": "f07672d530769afe3d770483aff74cfa925aea1ee11e7938f413c50ccc3f0231",
+      "apiVersion": "2026-07-01-preview",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "section": "paths",
+          "route": "/deletedkeys",
+          "verb": "get",
+          "operationId": "GetDeletedKeys",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/deletedkeys/{key-name}",
+          "verb": "get",
+          "operationId": "GetDeletedKey",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/deletedkeys/{key-name}",
+          "verb": "delete",
+          "operationId": "PurgeDeletedKey",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys",
+          "verb": "get",
+          "operationId": "GetKeys",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys/{key-name}",
+          "verb": "delete",
+          "operationId": "DeleteKey",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys/{key-name}/{key-version}",
+          "verb": "get",
+          "operationId": "GetKey",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys/{key-name}/{key-version}/attestation",
+          "verb": "get",
+          "operationId": "GetKeyAttestation",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys/{key-name}/rotationpolicy",
+          "verb": "get",
+          "operationId": "GetKeyRotationPolicy",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/keys/{key-name}/versions",
+          "verb": "get",
+          "operationId": "GetKeyVersions",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
+          ]
+        }
+      ],
+      "counts": {
+        "RequestBodyNotAllowed": 0
+      }
+    }
+  ],
+  "source": "Checked-in Swagger at frozen specs revision; separate selected-rule Spectral profile."
+}

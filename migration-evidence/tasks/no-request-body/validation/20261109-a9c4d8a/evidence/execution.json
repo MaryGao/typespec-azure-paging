@@ -1,0 +1,56 @@
+{
+  "concurrency": 2,
+  "timeoutMs": 240000,
+  "results": [
+    {
+      "slug": "advisor-arm",
+      "startedAt": "2026-11-09T12:23:17.620Z",
+      "completedAt": "2026-11-09T12:23:24.581Z",
+      "timedOut": false,
+      "code": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success"
+    },
+    {
+      "slug": "compute-arm",
+      "startedAt": "2026-11-09T12:23:17.635Z",
+      "completedAt": "2026-11-09T12:23:26.492Z",
+      "timedOut": false,
+      "code": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success"
+    },
+    {
+      "slug": "search-arm",
+      "startedAt": "2026-11-09T12:23:24.587Z",
+      "completedAt": "2026-11-09T12:23:30.710Z",
+      "timedOut": false,
+      "code": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success"
+    },
+    {
+      "slug": "keyvault-keys-data-plane",
+      "startedAt": "2026-11-09T12:23:26.496Z",
+      "completedAt": "2026-11-09T12:23:31.248Z",
+      "timedOut": false,
+      "code": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success"
+    },
+    {
+      "slug": "search-data-plane",
+      "startedAt": "2026-11-09T12:23:30.714Z",
+      "completedAt": "2026-11-09T12:23:37.230Z",
+      "timedOut": false,
+      "code": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success"
+    }
+  ]
+}

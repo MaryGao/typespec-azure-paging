@@ -1,0 +1,35 @@
+{
+  "normalization": "Terminal-log views only: LF line endings, no trailing horizontal whitespace or extra blank lines at EOF. Original bytes in the runtime release asset under raw-terminal-logs.",
+  "logs": [
+    {
+      "file": "arm-template-tests-rerun.log",
+      "rawSha256": "614f1976951741269716af4995c4d70734bd8a1704384a826851328a209fa9a4",
+      "viewSha256": "9662ccc1ffcc9ac6877869f7e7f3d52cb9f083d0fa58094a9e50ed150c1480ca"
+    },
+    {
+      "file": "candidate-build.log",
+      "rawSha256": "362c660f957946445ba7471a52407b2f4300cd73c39d205450f2f7775b725c8a",
+      "viewSha256": "eb8413230e9e8147f07803e89b12f930b429c6aecfa04aa640dfdb00bdc8b3cb"
+    },
+    {
+      "file": "focused-tests.log",
+      "rawSha256": "67d15be09f41f13683678329c1a7a7a5b48a0b185a7473e8776b38aa90be7878",
+      "viewSha256": "2f86276498f3a9c778c70fdfdb1069846f7e4af7d418055eb307742d81e9e1a7"
+    },
+    {
+      "file": "inject-runtime.log",
+      "rawSha256": "b170cadca74bafc37c1f7b3d5d520d87b7f3e66cfc9192e0bb5b4cccde9349f4",
+      "viewSha256": "c9b7bd48f7a7a6e38e09ee9fa7b7961c5fcbabec52a848c63bf0267ccb9cc99d"
+    },
+    {
+      "file": "pack-azure.log",
+      "rawSha256": "2d179d5ff54c5993c7a98dde5c3037b601d18526d08106426df1bfff5f95b44b",
+      "viewSha256": "daef7492704d12c3b7a7bcb12e22690ddbef6c912b4b77a460414eee469e8a34"
+    },
+    {
+      "file": "pack-core.log",
+      "rawSha256": "f77555a9eca7e22a0317229260ca30ea206ccde5a4235a29e35f510db5b295b0",
+      "viewSha256": "b69209e4f862fdf0645a2b8a38f8459bf9e77eff1bf9d6ed4f34f20ec210eaa0"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "completedAt": "2026-11-09T12:30:11.235Z",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "pilotOnly": true,
+  "officialAnalyzerRun": false,
+  "projectCount": 5,
+  "assessed": 5,
+  "unassessed": [],
+  "rows": [
+    {
+      "name": "Advisor ARM",
+      "slug": "advisor-arm",
+      "sourcePath": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor",
+      "audience": "arm",
+      "apiVersion": "2026-08-01-preview",
+      "status": "assessed",
+      "nativeCounts": {
+        "get": 0,
+        "delete": 0
+      },
+      "swaggerCounts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      },
+      "nativeRaw": 0,
+      "swaggerRaw": 0,
+      "rawSignedGapNativeMinusSwagger": 0,
+      "rawAbsoluteGap": 0,
+      "rawRelativeGap": null,
+      "relativeGapLimit": "Undefined: Swagger observation count is zero.",
+      "nativeExcess": 0,
+      "swaggerExcess": 0,
+      "normalizedActionableCounts": "not-determined",
+      "swaggerOperations": {
+        "get": 21,
+        "delete": 2
+      },
+      "ambientDiagnostics": 0
+    },
+    {
+      "name": "Compute ARM",
+      "slug": "compute-arm",
+      "sourcePath": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+      "audience": "arm",
+      "apiVersion": "2026-04-01",
+      "status": "assessed",
+      "nativeCounts": {
+        "get": 0,
+        "delete": 0
+      },
+      "swaggerCounts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      },
+      "nativeRaw": 0,
+      "swaggerRaw": 0,
+      "rawSignedGapNativeMinusSwagger": 0,
+      "rawAbsoluteGap": 0,
+      "rawRelativeGap": null,
+      "relativeGapLimit": "Undefined: Swagger observation count is zero.",
+      "nativeExcess": 0,
+      "swaggerExcess": 0,
+      "normalizedActionableCounts": "not-determined",
+      "swaggerOperations": {
+        "get": 84,
+        "delete": 21
+      },
+      "ambientDiagnostics": 0
+    },
+    {
+      "name": "Search ARM",
+      "slug": "search-arm",
+      "sourcePath": "specification/search/resource-manager/Microsoft.Search/Search",
+      "audience": "arm",
+      "apiVersion": "2026-09-01-preview",
+      "status": "assessed",
+      "nativeCounts": {
+        "get": 6,
+        "delete": 4
+      },
+      "swaggerCounts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      },
+      "nativeRaw": 10,
+      "swaggerRaw": 0,
+      "rawSignedGapNativeMinusSwagger": 10,
+      "rawAbsoluteGap": 10,
+      "rawRelativeGap": null,
+      "relativeGapLimit": "Undefined: Swagger observation count is zero.",
+      "nativeExcess": 10,
+      "swaggerExcess": 0,
+      "normalizedActionableCounts": "not-determined",
+      "swaggerOperations": {
+        "get": 13,
+        "delete": 4
+      },
+      "ambientDiagnostics": 0
+    },
+    {
+      "name": "Key Vault Keys data plane",
+      "slug": "keyvault-keys-data-plane",
+      "sourcePath": "specification/keyvault/data-plane/Keys",
+      "audience": "data-plane",
+      "apiVersion": "2026-07-01-preview",
+      "status": "assessed",
+      "nativeCounts": {
+        "get": 0,
+        "delete": 0
+      },
+      "swaggerCounts": {
+        "RequestBodyNotAllowed": 0
+      },
+      "nativeRaw": 0,
+      "swaggerRaw": 0,
+      "rawSignedGapNativeMinusSwagger": 0,
+      "rawAbsoluteGap": 0,
+      "rawRelativeGap": null,
+      "relativeGapLimit": "Undefined: Swagger observation count is zero.",
+      "nativeExcess": 0,
+      "swaggerExcess": 0,
+      "normalizedActionableCounts": "not-determined",
+      "swaggerOperations": {
+        "get": 7,
+        "delete": 2
+      },
+      "ambientDiagnostics": 0
+    },
+    {
+      "name": "Search data plane",
+      "slug": "search-data-plane",
+      "sourcePath": "specification/search/data-plane/Search",
+      "audience": "data-plane",
+      "apiVersion": "2026-08-01-preview",
+      "status": "assessed",
+      "nativeCounts": {
+        "get": 0,
+        "delete": 0
+      },
+      "swaggerCounts": {
+        "RequestBodyNotAllowed": 0
+      },
+      "nativeRaw": 0,
+      "swaggerRaw": 0,
+      "rawSignedGapNativeMinusSwagger": 0,
+      "rawAbsoluteGap": 0,
+      "rawRelativeGap": null,
+      "relativeGapLimit": "Undefined: Swagger observation count is zero.",
+      "nativeExcess": 0,
+      "swaggerExcess": 0,
+      "normalizedActionableCounts": "not-determined",
+      "swaggerOperations": {
+        "get": 28,
+        "delete": 9
+      },
+      "ambientDiagnostics": 0
+    }
+  ],
+  "nativeRaw": 10,
+  "swaggerRaw": 0,
+  "nativeExcess": 10,
+  "swaggerExcess": 0,
+  "normalizedActionableCompleteness": "not-determined",
+  "fullValidation": {
+    "authorizedCondition": "No comparison gaps",
+    "conditionMet": false,
+    "started": false,
+    "reason": "Ten native-only client-customization observations in Search ARM; scope policy #5993 remains unresolved."
+  },
+  "developmentRerun": {
+    "initial": "61 passed, one 10-second timeout in the ARM no-request-body integration file; see focused-tests.log.",
+    "isolatedRetry": "All four tests in the timed-out ARM integration file passed with the unchanged timeout; see arm-template-tests-rerun.log.",
+    "fullyGreenCombinedRunClaimed": false
+  }
+}

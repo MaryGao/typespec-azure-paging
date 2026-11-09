@@ -1,0 +1,226 @@
+{
+  "project": "specification/search/resource-manager/Microsoft.Search/Search",
+  "audience": "arm",
+  "status": "assessed",
+  "counts": {
+    "GetMustNotHaveRequestBody": 0,
+    "DeleteMustNotHaveRequestBody": 0
+  },
+  "files": [
+    {
+      "file": "C:\\dev\\worktrees\\xms-pageable-validation-5844\\shared-swagger-arm-20261026-2cd3c5dd\\dataset\\projects\\specification\\search\\resource-manager\\Microsoft.Search\\Search\\swagger\\preview\\2026-09-01-preview\\search.json",
+      "sha256": "dbdf663fe170d3cfe28966d99d3fb3740b486f53203e69c53afaacd6ddea0dfe",
+      "apiVersion": "2026-09-01-preview",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "section": "paths",
+          "route": "/providers/Microsoft.Search/operations",
+          "verb": "get",
+          "operationId": "Operations_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages",
+          "verb": "get",
+          "operationId": "Usages_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/LocationParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}",
+          "verb": "get",
+          "operationId": "UsageBySubscriptionSku",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/LocationParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Search/searchServices",
+          "verb": "get",
+          "operationId": "Services_ListBySubscription",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices",
+          "verb": "get",
+          "operationId": "Services_ListByResourceGroup",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "verb": "get",
+          "operationId": "Services_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}",
+          "verb": "delete",
+          "operationId": "Services_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+          "verb": "delete",
+          "operationId": "QueryKeys_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/networkSecurityPerimeterConfigurations",
+          "verb": "get",
+          "operationId": "NetworkSecurityPerimeterConfigurations_ListByService",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/networkSecurityPerimeterConfigurations/{nspConfigName}",
+          "verb": "get",
+          "operationId": "NetworkSecurityPerimeterConfigurations_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections",
+          "verb": "get",
+          "operationId": "PrivateEndpointConnections_ListByService",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "verb": "get",
+          "operationId": "PrivateEndpointConnections_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "verb": "delete",
+          "operationId": "PrivateEndpointConnections_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources",
+          "verb": "get",
+          "operationId": "PrivateLinkResources_ListSupported",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources",
+          "verb": "get",
+          "operationId": "SharedPrivateLinkResources_ListByService",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "verb": "get",
+          "operationId": "SharedPrivateLinkResources_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+          "verb": "delete",
+          "operationId": "SharedPrivateLinkResources_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ApiVersionParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/SubscriptionIdParameter",
+            "../../../../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
+          ]
+        }
+      ],
+      "counts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      }
+    }
+  ],
+  "source": "Hash-verified shared baseline Swagger; historical production findings remain the primary ARM comparison."
+}

@@ -1,0 +1,78 @@
+{
+  "status": "assessed-from-saved-production-execution",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "counts": {
+    "GetMustNotHaveRequestBody": 0,
+    "DeleteMustNotHaveRequestBody": 0
+  },
+  "logs": [
+    {
+      "file": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/raw/preview/2026-08-01-preview/openapi.jsonl",
+      "sha256": "f0992fa267b806efa6ed9a042100fe6f87131546974f15a5642bf13243ff56b3",
+      "selected": [
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'DeleteMustNotHaveRequestBody'"
+        },
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Spectral rule for manually written OpenAPI specs, severity 'Error': 'GetMustNotHaveRequestBody'"
+        },
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'DeleteMustNotHaveRequestBody'"
+        },
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'GetMustNotHaveRequestBody'"
+        }
+      ],
+      "validating": [
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "spectralPluginFunc: Validating OpenAPI spec. TypeSpec-generated: true. Path: 'file:///$BASELINE_DATASET/projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/preview/2026-08-01-preview/openapi.json'"
+        }
+      ],
+      "completed": [
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "spectralPluginFunc: Return"
+        }
+      ],
+      "production": [
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        },
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "information",
+          "message": "Detected production run. As a result, disabling all Spectral rules that are denoted to run only in staging. Names of rules being disabled: PropertiesTypeObjectNoDefinition, QueryParametersInCollectionGet, PatchPropertiesCorrespondToPutProperties, RequestBodyMustExistForPutPatch, ConsistentResponseSchemaForPut, TagsAreNotAllowedForProxyResources, ValidQueryParametersForPointOperations."
+        }
+      ],
+      "counts": {
+        "GetMustNotHaveRequestBody": 0,
+        "DeleteMustNotHaveRequestBody": 0
+      }
+    }
+  ],
+  "targetShards": {
+    "GetMustNotHaveRequestBody": null,
+    "DeleteMustNotHaveRequestBody": null
+  }
+}

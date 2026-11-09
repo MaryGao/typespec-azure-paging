@@ -1,0 +1,352 @@
+{
+  "status": "passed",
+  "fixture": {
+    "swagger": "2.0",
+    "info": {
+      "title": "Request body selector control",
+      "version": "1.0"
+    },
+    "paths": {
+      "/body": {
+        "get": {
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "type": "object"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "delete": {
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "type": "object"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "post": {
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "type": "object"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/bodyless": {
+        "get": {
+          "parameters": [],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "delete": {
+          "parameters": [],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/path-level-only": {
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "get": {
+          "parameters": [],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "delete": {
+          "parameters": [],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/local-ref": {
+        "get": {
+          "parameters": [
+            {
+              "$ref": "#/parameters/RequestBody"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    },
+    "x-ms-paths": {
+      "/extra?mode=a": {
+        "get": {
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "type": "object"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        },
+        "delete": {
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "schema": {
+                "type": "object"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    },
+    "parameters": {
+      "RequestBody": {
+        "name": "body",
+        "in": "body",
+        "schema": {
+          "type": "object"
+        }
+      }
+    }
+  },
+  "controls": [
+    {
+      "audience": "arm",
+      "status": "passed",
+      "expected": {
+        "GetMustNotHaveRequestBody": 3,
+        "DeleteMustNotHaveRequestBody": 1
+      },
+      "counts": {
+        "GetMustNotHaveRequestBody": 3,
+        "DeleteMustNotHaveRequestBody": 1
+      },
+      "findings": [
+        {
+          "code": "GetMustNotHaveRequestBody",
+          "message": "The Get operation must not have a request body.",
+          "path": [
+            "paths",
+            "/body",
+            "get",
+            "parameters",
+            "0"
+          ],
+          "severity": 0,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 121
+            },
+            "end": {
+              "line": 0,
+              "character": 175
+            }
+          }
+        },
+        {
+          "code": "DeleteMustNotHaveRequestBody",
+          "message": "The delete operation must not have a request body.",
+          "path": [
+            "paths",
+            "/body",
+            "delete",
+            "parameters",
+            "0"
+          ],
+          "severity": 0,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 243
+            },
+            "end": {
+              "line": 0,
+              "character": 297
+            }
+          }
+        },
+        {
+          "code": "GetMustNotHaveRequestBody",
+          "message": "The Get operation must not have a request body.",
+          "path": [
+            "paths",
+            "/local-ref",
+            "get",
+            "parameters",
+            "0"
+          ],
+          "severity": 0,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 868
+            },
+            "end": {
+              "line": 0,
+              "character": 903
+            }
+          }
+        },
+        {
+          "code": "GetMustNotHaveRequestBody",
+          "message": "The Get operation must not have a request body.",
+          "path": [
+            "x-ms-paths",
+            "/extra?mode=a",
+            "get",
+            "parameters",
+            "0"
+          ],
+          "severity": 0,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 1001
+            },
+            "end": {
+              "line": 0,
+              "character": 1055
+            }
+          }
+        }
+      ]
+    },
+    {
+      "audience": "data-plane",
+      "status": "passed",
+      "expected": {
+        "RequestBodyNotAllowed": 3
+      },
+      "counts": {
+        "RequestBodyNotAllowed": 3
+      },
+      "findings": [
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/body",
+            "get",
+            "parameters",
+            "0",
+            "in"
+          ],
+          "severity": 1,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 141
+            },
+            "end": {
+              "line": 0,
+              "character": 147
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/body",
+            "delete",
+            "parameters",
+            "0",
+            "in"
+          ],
+          "severity": 1,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 263
+            },
+            "end": {
+              "line": 0,
+              "character": 269
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/local-ref",
+            "get",
+            "parameters",
+            "0",
+            "in"
+          ],
+          "severity": 1,
+          "range": {
+            "start": {
+              "line": 0,
+              "character": 868
+            },
+            "end": {
+              "line": 0,
+              "character": 903
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coverage": "GET/DELETE positives, POST/bodyless negatives, local parameter reference, path-item-level selector omission, and different x-ms-paths scopes."
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "MaryGao/typespec-azure-paging",
+  "release": "no-request-body-validation-20261109-a9c4d8a",
+  "asset": "no-request-body-runtime-a9c4d8a.tar.gz",
+  "bytes": 1995951,
+  "sha256": "0005cdc15dd379b77917d832502d8450ee646970c1de130715b9364c7cc9c70a",
+  "url": "https://github.com/MaryGao/typespec-azure-paging/releases/download/no-request-body-validation-20261109-a9c4d8a/no-request-body-runtime-a9c4d8a.tar.gz",
+  "contents": "15 current-candidate package archives in artifacts, plus original byte-exact terminal output in raw-terminal-logs; extract both under evidence after SHA256 verification.",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746"
+}

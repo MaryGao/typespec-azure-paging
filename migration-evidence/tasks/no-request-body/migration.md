@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-**The shared Azure Core implementation is ready for manual PR review. Real-spec coverage for this revision has not been assessed.**
+**Five-project validation found ten native-only Search ARM client-customization warnings: six GET and four DELETE. All map to bodyless wire operations. Full validation has not started because the user's no-gap condition is not met.**
 
 The TypeSpec linter rule is `@azure-tools/typespec-azure-core/no-request-body`. At the user's request, it replaces the unmerged ARM-only GET implementation in [PR #5986](https://github.com/Azure/typespec-azure/pull/5986), rather than introducing a second PR or dependent branch. The PR continues to target canonical `main`.
 
@@ -22,37 +22,41 @@ The Core library's compiler-provided `all` set includes the new rule. Both centr
 
 ## 2. Actual coverage
 
-| Measurement for this revision | Swagger linter                                            | TypeSpec linter                       |
-| ----------------------------- | --------------------------------------------------------- | ------------------------------------- |
-| Assessed real-spec projects   | Not run                                                   | Not run                               |
-| Real-spec findings            | Not assessed                                              | Not assessed                          |
-| Full-population equivalence   | Not assessed                                              | Not assessed                          |
-| Focused development checks    | Source implementation inspected; no new Swagger execution | 62 tests passed in four focused files |
+| Measurement for this revision | Swagger linter                                                                | TypeSpec linter                               |
+| ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------- |
+| Assessed real-spec projects   | Three saved ARM production runs; two data-plane selected-rule Spectral checks | Five fresh source-program runs                |
+| Real-spec findings            | Zero selected target observations in all five projects                        | Ten Search ARM warnings: six GET, four DELETE |
+| Full-population equivalence   | Not assessed                                                                  | Not assessed                                  |
+| Focused development checks    | Source implementation inspected; no new Swagger execution                     | 62 tests passed in four focused files         |
 
 **Assessed coverage:** focused TypeSpec evidence establishes the shared GET/DELETE predicate across explicit, implicit, optional, empty-model, primitive, body-root, and multipart request bodies, including RPC-derived and standard ARM operations. Bodyless and non-target-verb controls pass. The four shortened documentation excerpts compile with test-only imports and `Widget` declarations, producing exactly `2 / 2 / 0 / 0` target warnings and no ambient diagnostics. The two incorrect categories precede the two correct categories. This is local behavior and activation evidence, not measured Swagger/TypeSpec real-spec parity.
 
-Real-spec validation was deliberately deferred by the user. Prior [ARM-only GET coverage](../get-must-not-have-request-body-5983/migration.md) applies to an older implementation and runtime; its project counts and conclusions do not certify this new Core rule, DELETE behavior, or data-plane coverage.
+The user subsequently authorized representative validation, followed by full validation without another approval **only if there are no gaps**. The [current five-project reports](validation/20261109-a9c4d8a/index.md) use candidate `a9c4d8a1db1bad607cd21d856421c6b1b712d746` and frozen specs `2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9`. Advisor ARM, Compute ARM, Key Vault Keys data plane, and Search data plane have zero target findings. Search ARM has ten native-only warnings. All five compile without ambient diagnostics.
+
+ARM comparisons reuse the immutable shared Swagger baseline with verified selected source/Swagger/production-log inputs; fresh selected-rule Spectral execution corroborates the saved zero observations. Data-plane comparisons use a separately documented selected-rule Spectral profile over frozen checked-in OAS2, not the ARM-only official analyzer, a saved data-plane baseline, or full production AutoRest execution. This pilot is not a filtered full-population analyzer run or a version-aligned equivalence claim.
+
+All 15 candidate artifacts match their source/build and installed runtime. Injected native activation/GET/DELETE/compliance/suppression controls and production Spectral selector controls pass. [Runtime archives and checksums](validation/20261109-a9c4d8a/evidence/runtime-asset.json) are retained for replay. Prior [ARM-only GET coverage](../get-must-not-have-request-body-5983/migration.md) remains historical and is not substituted for this run.
 
 ### Gap analysis and decision
 
 Existing TypeSpec `rpc-operation-request-body` covers only operations derived from `Azure.Core.RpcOperation`; ordinary GET/DELETE operations and ARM templates require the broader rule. Keeping separate unmerged ARM GET/DELETE implementations would duplicate that cross-service policy. The chosen Core rule closes the native predicate gap without changing the released RPC rule's behavior.
 
-Source-only client customizations remain included, as in the original PR. The known source-versus-emitted-service boundary is tracked in [#5993](https://github.com/Azure/typespec-azure/issues/5993), not silently resolved by this consolidation. No real-spec equivalence or release-readiness conclusion is supported yet.
+Source-only client customizations remain included, as in the original PR. The known source-versus-emitted-service boundary is tracked in [#5993](https://github.com/Azure/typespec-azure/issues/5993), not silently resolved by this consolidation. The [current semantic investigation](validation/20261109-a9c4d8a/evidence/search-arm/gap-investigation.json) maps every native warning through actual Go/C#/JavaScript SDK override identities to an original service operation and exact saved Swagger verb/path. Original service metadata and reference-resolved Swagger parameters are bodyless in all ten cases. These are explained scope differences, not ten demonstrated on-wire bodies; raw findings are preserved. No production change, suppression, count normalization, real-spec equivalence, or release-readiness conclusion is claimed.
 
 ## 3. Function-level coverage
 
-| Behavior                                                                                       | Result           | Evidence and limits                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Select GET and DELETE by HTTP verb                                                             | Verified locally | Both verbs exercise the same canonical suite; inferred-verb and other-verb controls pass.                                                                             |
-| Reject explicit, optional, empty-model, primitive, body-root, implicit, and multipart payloads | Verified locally | Both GET and DELETE cases report one warning at the authored operation.                                                                                               |
-| Allow no payload, `void`, metadata-only, ignored, and non-request-visible parameters           | Verified locally | Canonical compliant controls pass for both verbs.                                                                                                                     |
-| Handle generic template customization without duplicate reports                                | Verified locally | Concrete operations derived from a generic template report once.                                                                                                      |
-| Cover RPC-derived operations                                                                   | Verified locally | New rule reports both verbs; the unchanged existing RPC suite also passes.                                                                                            |
-| Cover ARM templates                                                                            | Verified locally | `ArmResourceRead`, `ArmResourceDeleteSync`, and `ArmResourceDeleteWithoutOkAsync` with additional body parameters report; bodyless read/delete templates pass.        |
-| Register through the published package surface                                                 | Verified locally | ARM integration obtains the rule from Core's public `$linter`; actual compiler library-all activation produces two target warnings.                                   |
-| Preserve central preset defaults                                                               | Verified locally | Both central presets produce zero new-rule warnings; existing RPC enablement is preserved. Preset controls have 12 unrelated warnings each, not a clean-preset claim. |
-| Exclude client-only helpers or evaluate selected-version emission                              | Not implemented  | Preserves prior source-operation policy; #5993 remains open.                                                                                                          |
-| Correspond to real Swagger findings                                                            | Not assessed     | Five-project and full-spec validations require separate user approvals.                                                                                               |
+| Behavior                                                                                       | Result                    | Evidence and limits                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Select GET and DELETE by HTTP verb                                                             | Verified locally          | Both verbs exercise the same canonical suite; inferred-verb and other-verb controls pass.                                                                                                          |
+| Reject explicit, optional, empty-model, primitive, body-root, implicit, and multipart payloads | Verified locally          | Both GET and DELETE cases report one warning at the authored operation.                                                                                                                            |
+| Allow no payload, `void`, metadata-only, ignored, and non-request-visible parameters           | Verified locally          | Canonical compliant controls pass for both verbs.                                                                                                                                                  |
+| Handle generic template customization without duplicate reports                                | Verified locally          | Concrete operations derived from a generic template report once.                                                                                                                                   |
+| Cover RPC-derived operations                                                                   | Verified locally          | New rule reports both verbs; the unchanged existing RPC suite also passes.                                                                                                                         |
+| Cover ARM templates                                                                            | Verified locally          | `ArmResourceRead`, `ArmResourceDeleteSync`, and `ArmResourceDeleteWithoutOkAsync` with additional body parameters report; bodyless read/delete templates pass.                                     |
+| Register through the published package surface                                                 | Verified locally          | ARM integration obtains the rule from Core's public `$linter`; actual compiler library-all activation produces two target warnings.                                                                |
+| Preserve central preset defaults                                                               | Verified locally          | Both central presets produce zero new-rule warnings; existing RPC enablement is preserved. Preset controls have 12 unrelated warnings each, not a clean-preset claim.                              |
+| Exclude client-only helpers or evaluate selected-version emission                              | Not implemented           | Preserves prior source-operation policy; #5993 remains open.                                                                                                                                       |
+| Correspond to real Swagger findings                                                            | Pilot assessed; gap found | Three ARM and two data-plane projects: zero Swagger target observations; ten native-only Search SDK customizations, all mapped to bodyless wire operations. Full equivalence remains undetermined. |
 
 Canonical behavior suite: [`no-request-body.test.ts`](https://github.com/Azure/typespec-azure/blob/6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999/packages/typespec-azure-core/test/rules/no-request-body.test.ts). ARM template integration remains in the ARM package to avoid a Core-to-ARM dependency.
 
@@ -60,7 +64,9 @@ The documentation now uses one standard Incorrect/Correct heading pair with data
 
 ## 4. Why diagnostic counts differ
 
-There is no current-project comparison population, so no current count difference can be calculated.
+The current five-project population has zero Swagger target observations and ten native warnings, all in Search ARM: six GET and four DELETE. Raw per-project native excess totals ten; Swagger excess is zero. No opposing gaps are cancelled, no ARM/data-plane policies are double-counted, and no actionable-defect normalization is asserted. Relative differences against the zero Swagger count are undefined.
+
+The Search warnings arise because HTTP metadata interprets SDK customization request-options wrappers as implicit bodies outside the declared service. Every corresponding real service operation is bodyless. The six GET cases preserve the prior scope difference; consolidation additionally exposes four DELETE cases. The native source scope and selected-version Swagger population remain different.
 
 The documentation follow-up only reorders and shortens excerpts. Their local warning sequence changes from `2 / 0 / 2 / 0` to `2 / 2 / 0 / 0` because examples are grouped by incorrect/correct outcome, not because diagnostic behavior changed.
 
@@ -96,8 +102,8 @@ mise exec -- pnpm format:check
 
 ### Required remaining gates
 
-1. User manually reviews the updated PR and approves representative validation.
-2. Validate Swagger and TypeSpec on five representative projects covering ARM and data-plane authoring. Follow the existing `comp-reports` format, save a new rule-specific folder under the user's `coverage-reports`, and summarize gaps and behavioral differences.
-3. Stop for user review. Run all specs only after separate approval.
+1. Representative validation is complete: [five project reports and structured evidence](validation/20261109-a9c4d8a/index.md), also saved under `C:\Users\marygao\project\coverage-reports\no-request-body\20261109-a9c4d8a`.
+2. Resolve or explicitly accept the client-customization scope difference tracked in #5993. The user's conditional authorization for full validation does not activate while these differences remain.
+3. Full validation was not started. No full ARM/data-plane coverage or equivalence claim is made.
 
-No new real-spec Swagger or TypeSpec execution, specs checkout preparation, full-corpus run, artifact replay, or real-spec parity claim was made during this PR update.
+The latest focused rerun had **61 passed and one existing 10-second ARM integration timeout**. An isolated retry of that file passed all four cases without increasing its timeout. The original combined run is not described as entirely green. The current build closure succeeded in all 23 tasks. These current logs are retained with the pilot; the earlier development evidence above remains historical.

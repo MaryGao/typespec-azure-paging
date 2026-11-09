@@ -8,7 +8,7 @@ Swagger sources: [implementation](https://github.com/Azure/azure-openapi-validat
 
 ## 2. Actual coverage
 
-**Assessed coverage:** local GET violating/compliant cases, RPC operations, and ARM read-template customization pass. Current Swagger/TypeSpec real-spec project and finding counts are unassessed; earlier ARM-only results do not validate changed source.
+**Assessed coverage:** local GET violating/compliant cases, RPC operations, and ARM read-template customization pass. The [current three-project ARM pilot](../../validation/20261109-a9c4d8a/index.md) has zero saved production Swagger GET observations and six native GET warnings, all Search client-only customizations. Every warning maps to a bodyless original service operation and saved Swagger route. Advisor and Compute have no target findings. Fresh selected-rule Spectral execution corroborates the saved zero counts; this is not full-population or version-aligned equivalence.
 
 ## 3. Function-level coverage
 
@@ -16,8 +16,8 @@ Explicit, implicit, optional, empty-model, body-root, primitive, and multipart G
 
 ## 4. Why diagnostic counts differ
 
-Swagger selects body parameters and emits errors; TypeSpec resolves the payload and reports one warning per operation. Whole-source operations and client-only helpers can differ from emitted service routes. No current numerical comparison has been performed.
+Swagger selects body parameters and emits errors; TypeSpec resolves the payload and reports one warning per operation. Current GET counts differ by six source-only SDK customizations, whose implicit options wrappers are interpreted as request bodies. These are not six demonstrated on-wire bodies. Raw findings remain visible; #5993 is unresolved.
 
 ## NOTES
 
-One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. User manual PR review and approval are required before five-project validation; full specs require another approval.
+One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user authorized full validation only if representative comparison has no gaps; that condition is not met, so no full run was started.

@@ -1,0 +1,4 @@
+* text eol=lf
+*.tar.gz -text -diff
+*.tgz -text -diff
+evidence/raw-terminal-logs/** -text -diff

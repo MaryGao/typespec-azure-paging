@@ -1,0 +1,468 @@
+{
+  "project": "specification/search/data-plane/Search",
+  "audience": "data-plane",
+  "status": "assessed",
+  "counts": {
+    "RequestBodyNotAllowed": 0
+  },
+  "files": [
+    {
+      "file": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\specification\\search\\data-plane\\Search\\preview\\2026-08-01-preview\\search.json",
+      "sha256": "c69d8afce9b436fede234042a7f4a47c3ba1372178fa846a24d6d08fd1cdb580",
+      "apiVersion": "2026-08-01-preview",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "section": "paths",
+          "route": "/aliases",
+          "verb": "get",
+          "operationId": "Aliases_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/aliases('{aliasName}')",
+          "verb": "get",
+          "operationId": "Aliases_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/aliases('{aliasName}')",
+          "verb": "delete",
+          "operationId": "Aliases_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/datasources",
+          "verb": "get",
+          "operationId": "DataSources_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/datasources('{dataSourceName}')",
+          "verb": "get",
+          "operationId": "DataSources_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/datasources('{dataSourceName}')",
+          "verb": "delete",
+          "operationId": "DataSources_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexers",
+          "verb": "get",
+          "operationId": "Indexers_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexers('{indexerName}')",
+          "verb": "get",
+          "operationId": "Indexers_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexers('{indexerName}')",
+          "verb": "delete",
+          "operationId": "Indexers_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexers('{indexerName}')/search.status",
+          "verb": "get",
+          "operationId": "Indexers_GetStatus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes",
+          "verb": "get",
+          "operationId": "Indexes_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')",
+          "verb": "get",
+          "operationId": "Indexes_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')",
+          "verb": "delete",
+          "operationId": "Indexes_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/docs",
+          "verb": "get",
+          "operationId": "Documents_SearchGet",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/SearchOptions.includeTotalResultCount",
+            "#/parameters/SearchOptions.facets",
+            "#/parameters/SearchOptions.filter",
+            "#/parameters/SearchOptions.highlightFields",
+            "#/parameters/SearchOptions.highlightPostTag",
+            "#/parameters/SearchOptions.highlightPreTag",
+            "#/parameters/SearchOptions.minimumCoverage",
+            "#/parameters/SearchOptions.orderBy",
+            "#/parameters/SearchOptions.queryType",
+            "#/parameters/SearchOptions.scoringParameters",
+            "#/parameters/SearchOptions.scoringProfile",
+            "#/parameters/SearchOptions.searchFields",
+            "#/parameters/SearchOptions.searchMode",
+            "#/parameters/SearchOptions.scoringStatistics",
+            "#/parameters/SearchOptions.sessionId",
+            "#/parameters/SearchOptions.select",
+            "#/parameters/SearchOptions.skip",
+            "#/parameters/SearchOptions.top",
+            "#/parameters/SearchOptions.semanticConfiguration",
+            "#/parameters/SearchOptions.semanticErrorHandling",
+            "#/parameters/SearchOptions.semanticMaxWaitInMilliseconds",
+            "#/parameters/SearchOptions.answers",
+            "#/parameters/SearchOptions.captions",
+            "#/parameters/SearchOptions.semanticQuery",
+            "#/parameters/SearchOptions.queryRewrites",
+            "#/parameters/SearchOptions.debug",
+            "#/parameters/SearchOptions.queryLanguage",
+            "#/parameters/SearchOptions.speller",
+            "#/parameters/SearchOptions.semanticFields",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/docs/$count",
+          "verb": "get",
+          "operationId": "Documents_Count",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/docs/search.autocomplete",
+          "verb": "get",
+          "operationId": "Documents_AutocompleteGet",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/docs/search.suggest",
+          "verb": "get",
+          "operationId": "Documents_SuggestGet",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/SuggestOptions.filter",
+            "#/parameters/SuggestOptions.useFuzzyMatching",
+            "#/parameters/SuggestOptions.highlightPostTag",
+            "#/parameters/SuggestOptions.highlightPreTag",
+            "#/parameters/SuggestOptions.minimumCoverage",
+            "#/parameters/SuggestOptions.orderBy",
+            "#/parameters/SuggestOptions.searchFields",
+            "#/parameters/SuggestOptions.select",
+            "#/parameters/SuggestOptions.top",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/docs('{key}')",
+          "verb": "get",
+          "operationId": "Documents_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexes('{indexName}')/search.stats",
+          "verb": "get",
+          "operationId": "Indexes_GetStatistics",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/indexstats",
+          "verb": "get",
+          "operationId": "GetIndexStatsSummary",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgebases",
+          "verb": "get",
+          "operationId": "KnowledgeBases_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgebases('{knowledgeBaseName}')",
+          "verb": "get",
+          "operationId": "KnowledgeBases_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgebases('{knowledgeBaseName}')",
+          "verb": "delete",
+          "operationId": "KnowledgeBases_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources",
+          "verb": "get",
+          "operationId": "KnowledgeSources_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources('{sourceName}')",
+          "verb": "get",
+          "operationId": "KnowledgeSources_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources('{sourceName}')",
+          "verb": "delete",
+          "operationId": "KnowledgeSources_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources('{sourceName}')/files",
+          "verb": "get",
+          "operationId": "KnowledgeSources_ListFiles",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources('{sourceName}')/files('{fileId}')",
+          "verb": "delete",
+          "operationId": "KnowledgeSources_DeleteFile",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/knowledgesources('{sourceName}')/status",
+          "verb": "get",
+          "operationId": "KnowledgeSources_GetStatus",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/servicestats",
+          "verb": "get",
+          "operationId": "GetServiceStatistics",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/skillsets",
+          "verb": "get",
+          "operationId": "Skillsets_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/skillsets('{skillsetName}')",
+          "verb": "get",
+          "operationId": "Skillsets_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/skillsets('{skillsetName}')",
+          "verb": "delete",
+          "operationId": "Skillsets_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/synonymmaps",
+          "verb": "get",
+          "operationId": "SynonymMaps_List",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/synonymmaps('{synonymMapName}')",
+          "verb": "get",
+          "operationId": "SynonymMaps_Get",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "paths",
+          "route": "/synonymmaps('{synonymMapName}')",
+          "verb": "delete",
+          "operationId": "SynonymMaps_Delete",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        },
+        {
+          "section": "x-ms-paths",
+          "route": "/indexes?_overload=listWithSelectedProperties",
+          "verb": "get",
+          "operationId": "Indexes_ListWithSelectedProperties",
+          "directBodyParameters": 0,
+          "parameterReferences": [
+            "#/parameters/Azure.Core.Foundations.ApiVersionParameter",
+            "#/parameters/Azure.Core.ClientRequestIdHeader"
+          ]
+        }
+      ],
+      "counts": {
+        "RequestBodyNotAllowed": 0
+      }
+    }
+  ],
+  "source": "Checked-in Swagger at frozen specs revision; separate selected-rule Spectral profile."
+}

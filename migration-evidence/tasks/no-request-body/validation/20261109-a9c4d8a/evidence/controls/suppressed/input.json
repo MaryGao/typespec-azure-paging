@@ -1,0 +1,12 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "project": {
+    "sourcePath": ".validation-controls\\no-request-body-a9c4d8a\\suppressed"
+  },
+  "validatorRules": [],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}
