@@ -10,18 +10,18 @@
   },
   {
     "name": "documentation example 2",
-    "targetCount": 0,
-    "ambientCount": 0,
-    "messages": []
-  },
-  {
-    "name": "documentation example 3",
     "targetCount": 2,
     "ambientCount": 0,
     "messages": [
       "GET operations must not have a request body. Remove the request body.",
       "DELETE operations must not have a request body. Remove the request body."
     ]
+  },
+  {
+    "name": "documentation example 3",
+    "targetCount": 0,
+    "ambientCount": 0,
+    "messages": []
   },
   {
     "name": "documentation example 4",

@@ -58,11 +58,31 @@ const doc = await readFile(
 const snippets = [...doc.matchAll(/```tsp\r?\n([\s\S]*?)```/g)].map((match) => match[1]);
 assert.equal(snippets.length, 4);
 for (let index = 0; index < snippets.length; index++) {
+  const setup =
+    index % 2 === 0
+      ? `
+        import "@typespec/http";
+        import "@azure-tools/typespec-azure-core";
+        using TypeSpec.Http;
+        using Azure.Core;
+        model Widget { name: string; }
+      `
+      : `
+        import "@typespec/http";
+        import "@typespec/rest";
+        import "@azure-tools/typespec-azure-resource-manager";
+        using TypeSpec.Http;
+        using Azure.ResourceManager;
+        @armProviderNamespace namespace Microsoft.Contoso;
+        model Widget is TrackedResource<{}> {
+          ...ResourceNameParameter<Widget>;
+        }
+      `;
   await check(
     `documentation example ${index + 1}`,
-    snippets[index],
+    setup + snippets[index],
     { enable: { [rule]: true } },
-    index % 2 === 0 ? 2 : 0,
+    index < 2 ? 2 : 0,
   );
 }
 

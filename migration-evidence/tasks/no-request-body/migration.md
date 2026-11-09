@@ -14,7 +14,7 @@ The grouped Swagger linter policies are:
 
 These policies have one coherent native responsibility: GET and DELETE operations must not carry a request body. They share one enablement and suppression control, with no verb-specific configuration. The user explicitly approved this consolidation and updating the existing PR on November 9, 2026.
 
-Source: [`6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999`](https://github.com/Azure/typespec-azure/commit/6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999). The existing PR head before consolidation was `8e7e450110e02da67c61609ac130f586d2a12846`; its prior commits and merge from canonical `main` are retained. The compiler gitlink remains `837b5a769414f853fd22eeed0a123c953425b1d8`.
+Implementation source: [`6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999`](https://github.com/Azure/typespec-azure/commit/6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999). The documentation-only follow-up applies [review feedback](https://github.com/Azure/typespec-azure/pull/5986#discussion_r4481070153) without changing rule logic or activation. The existing PR head before consolidation was `8e7e450110e02da67c61609ac130f586d2a12846`; its prior commits and merge from canonical `main` are retained. The compiler gitlink remains `837b5a769414f853fd22eeed0a123c953425b1d8`.
 
 The implementation uses resolved HTTP metadata, emits one warning per offending concrete operation, and does not depend on an emitter or SDK metadata. Absent and `void` bodies are allowed. Other HTTP verbs are unchanged. The existing released `rpc-operation-request-body` implementation and preset enablement remain unchanged; enabling both rules can produce overlapping warnings.
 
@@ -29,7 +29,7 @@ The Core library's compiler-provided `all` set includes the new rule. Both centr
 | Full-population equivalence   | Not assessed                                              | Not assessed                          |
 | Focused development checks    | Source implementation inspected; no new Swagger execution | 62 tests passed in four focused files |
 
-**Assessed coverage:** focused TypeSpec evidence establishes the shared GET/DELETE predicate across explicit, implicit, optional, empty-model, primitive, body-root, and multipart request bodies, including RPC-derived and standard ARM operations. Bodyless and non-target-verb controls pass. Four complete authored documentation examples compile with exactly `2 / 0 / 2 / 0` target warnings and no ambient diagnostics. This is local behavior and activation evidence, not measured Swagger/TypeSpec real-spec parity.
+**Assessed coverage:** focused TypeSpec evidence establishes the shared GET/DELETE predicate across explicit, implicit, optional, empty-model, primitive, body-root, and multipart request bodies, including RPC-derived and standard ARM operations. Bodyless and non-target-verb controls pass. The four shortened documentation excerpts compile with test-only imports and `Widget` declarations, producing exactly `2 / 2 / 0 / 0` target warnings and no ambient diagnostics. The two incorrect categories precede the two correct categories. This is local behavior and activation evidence, not measured Swagger/TypeSpec real-spec parity.
 
 Real-spec validation was deliberately deferred by the user. Prior [ARM-only GET coverage](../get-must-not-have-request-body-5983/migration.md) applies to an older implementation and runtime; its project counts and conclusions do not certify this new Core rule, DELETE behavior, or data-plane coverage.
 
@@ -56,9 +56,13 @@ Source-only client customizations remain included, as in the original PR. The kn
 
 Canonical behavior suite: [`no-request-body.test.ts`](https://github.com/Azure/typespec-azure/blob/6c6b3fd4d70dc70fd5c3693e45d9c84e3eeb4999/packages/typespec-azure-core/test/rules/no-request-body.test.ts). ARM template integration remains in the ARM package to avoid a Core-to-ARM dependency.
 
+The documentation now uses one standard Incorrect/Correct heading pair with data-plane and ARM subcategories. Excerpts omit imports, provider declarations, and resource scaffolding; ARM examples retain `ReadParameters`, `DeleteParameters`, their body members, and the template customization that creates the violation. This presentation-only change does not invalidate the unchanged rule's behavior checks.
+
 ## 4. Why diagnostic counts differ
 
 There is no current-project comparison population, so no current count difference can be calculated.
+
+The documentation follow-up only reorders and shortens excerpts. Their local warning sequence changes from `2 / 0 / 2 / 0` to `2 / 2 / 0 / 0` because examples are grouped by incorrect/correct outcome, not because diagnostic behavior changed.
 
 The Swagger linter ARM rules report errors per selected body parameter; data-plane `RequestBodyNotAllowed` reports warnings. The TypeSpec linter reports one warning per operation with a resolved non-void request body. Severity, diagnostic identity, suppression syntax, and target locations therefore differ even when the underlying policy agrees.
 
@@ -76,7 +80,7 @@ Source-only customization operations and both new/legacy RPC warnings must remai
 - Affected-package type-aware lint passed. Repository `pnpm lint` passed after restoring the missing playground dependencies with the existing frozen lockfile. Neither the lockfile nor compiler gitlink changed.
 - Repository `pnpm format` and `pnpm format:check` passed.
 - Core and ARM documentation regeneration completed, with pre-existing missing-documentation warnings for unrelated APIs/diagnostics.
-- [Example/activation results](checks/examples-and-activation.json) and [reproduction script](checks/check-examples.mjs) retain the eight local compilation checks. Invoke the script with the worktree root and an output JSON path using the repository's mise-managed Node.
+- [Example/activation results](checks/examples-and-activation.json) and [reproduction script](checks/check-examples.mjs) retain the eight local compilation checks, refreshed for the shortened excerpts. Imports and the assumed `Widget` definitions exist only in the verification script, not a shared setup block in the documentation. Invoke the script with the worktree root and an output JSON path using the repository's mise-managed Node.
 - Independent read-only semantic review of the complete consolidation found no significant issues.
 
 Representative commands:
