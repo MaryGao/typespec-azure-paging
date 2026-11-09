@@ -1,0 +1,29 @@
+{
+  "candidateCommit": "4ba465abf8e5c577197f6c3f930b1ece40d34305",
+  "nativeRule": "@azure-tools/typespec-azure-core/use-known-enum-default",
+  "changes": "Use getUnionAsEnum().flattenedMembers directly; remove local traversal; update collision expectations and document flattened membership.",
+  "helperBaseline": "7bff59d96fa8aadf64f67117b9c18ad36dc2f966",
+  "helperAndTestsMatchBaseline": true,
+  "focusedTests": {
+    "filesPassed": 3,
+    "passed": 47,
+    "rule": 20,
+    "helper": 12,
+    "rulesets": 15
+  },
+  "focusedTestCommand": "mise exec pnpm@11.10.0 -- pnpm exec vitest run packages/typespec-azure-core/test/rules/use-known-enum-default.test.ts packages/typespec-azure-core/test/helpers/union-enums.test.ts packages/typespec-azure-rulesets/test/validate-rules-defined.test.ts",
+  "checksPassed": [
+    "Core build, including TypeScript and TypeSpec library lint",
+    "Affected-file Prettier check",
+    "Root lint, including type-aware lint",
+    "Chronus verify",
+    "git diff --check"
+  ],
+  "observedImpact": "Three synthetic collision cases now warn for overwritten default values; the retained flattened values remain valid. Other focused cases pass, including numeric precision, nested enums and unions, nullable defaults, and preset activation.",
+  "removedSyntheticCaseCommit": "d1bbf5e9e46ed0c382d87d119e47ce105e97f014",
+  "realSpecCollisionExampleConfirmed": false,
+  "fullCorpusRerun": false,
+  "documentationControlsRerun": false,
+  "historicalCorpusCandidate": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "reviewThreads": "Left unresolved for Timo."
+}
