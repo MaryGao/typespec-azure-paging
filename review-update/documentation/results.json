@@ -1,0 +1,51 @@
+[
+  {
+    "example": 1,
+    "expected": 1,
+    "actual": 1,
+    "passed": true,
+    "diagnostics": [
+      {
+        "code": "@azure-tools/typespec-azure-core/use-known-enum-default",
+        "severity": "warning",
+        "message": "Default value should be one of the declared enum values.",
+        "formatted": "C:/dev/worktrees/native-default-in-enum-5972/packages/typespec-client-generator-core/temp/tim-review-documentation/example-1/main.tsp:18:3 - warning @azure-tools/typespec-azure-core/use-known-enum-default: Default value should be one of the declared enum values."
+      }
+    ]
+  },
+  {
+    "example": 2,
+    "expected": 1,
+    "actual": 1,
+    "passed": true,
+    "diagnostics": [
+      {
+        "code": "@azure-tools/typespec-azure-core/use-known-enum-default",
+        "severity": "warning",
+        "message": "Default value should be one of the declared enum values.",
+        "formatted": "C:/dev/worktrees/native-default-in-enum-5972/packages/typespec-client-generator-core/temp/tim-review-documentation/example-2/main.tsp:12:3 - warning @azure-tools/typespec-azure-core/use-known-enum-default: Default value should be one of the declared enum values."
+      }
+    ]
+  },
+  {
+    "example": 3,
+    "expected": 0,
+    "actual": 0,
+    "passed": true,
+    "diagnostics": []
+  },
+  {
+    "example": 4,
+    "expected": 0,
+    "actual": 0,
+    "passed": true,
+    "diagnostics": []
+  },
+  {
+    "example": 5,
+    "expected": 0,
+    "actual": 0,
+    "passed": true,
+    "diagnostics": []
+  }
+]

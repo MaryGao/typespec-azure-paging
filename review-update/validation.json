@@ -1,0 +1,45 @@
+{
+  "candidateCommit": "a477b4ce4c4cf066374bdcabe83e3a6f62b7c02f",
+  "nativeRule": "@azure-tools/typespec-azure-core/use-known-enum-default",
+  "priorNativeRule": "@azure-tools/typespec-azure-core/default-in-enum",
+  "changes": [
+    "Renamed rule, registration, rulesets, suppression guidance, tests and generated references.",
+    "Collect complete allMembers metadata during getUnionAsEnum's existing traversal; preserve the existing name-keyed flattenedMembers behavior.",
+    "Remove the rule-local recursive traversal and retain all four collision regressions.",
+    "Group documentation under one Incorrect and one Correct section and trim duplicated ARM scaffolding."
+  ],
+  "focusedTests": {
+    "filesPassed": 4,
+    "passed": 139,
+    "rule": 21,
+    "helper": 14,
+    "rulesets": 15,
+    "casingStyle": 89,
+    "command": "pnpm exec vitest run --config vitest.config.fast.ts packages\\typespec-azure-core\\test\\rules\\use-known-enum-default.test.ts packages\\typespec-azure-core\\test\\helpers\\union-enums.test.ts packages\\typespec-azure-core\\test\\rules\\casing-style.test.ts packages\\typespec-azure-rulesets\\test\\validate-rules-defined.test.ts --maxWorkers=2"
+  },
+  "initialCoreSuite": {
+    "passed": 514,
+    "skipped": 2,
+    "failed": 1,
+    "failure": "Unrelated casing-style 'model name must be PascalCase > is valid' exceeded its existing 5000ms timeout. The complete casing-style file passed in the focused recovery run without changing test timeouts."
+  },
+  "buildsPassed": ["typespec-azure-core", "typespec-azure-rulesets", "typespec-autorest", "typespec-client-generator-core", "typespec-azure-resource-manager"],
+  "documentationGenerationPassed": ["typespec-azure-core", "typespec-azure-rulesets"],
+  "rootChecksPassed": ["pnpm format", "pnpm lint", "pnpm check:eng", "pnpm exec chronus verify --since origin/main"],
+  "documentationExamples": {
+    "passed": 5,
+    "expectedTargetCounts": [1, 1, 0, 0, 0],
+    "evidence": "documentation/results.json",
+    "context": "The trimmed ARM property snippets were compiled with the unchanged tracked-resource and ArmResourceRead scaffolding supplied by the control wrapper."
+  },
+  "harnessRecovery": "Use explicit pnpm run clean rather than the built-in clean command. Documentation fixtures were relocated under TCGC, whose existing devDependencies provide all four libraries; no dependency installation or manifest change was needed.",
+  "stdoutEvidence": "Command results and recovery outputs are retained in the session transcript; full suite raw stdout was not separately saved.",
+  "fullCorpus": {
+    "candidateCommit": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+    "ruleAtExecution": "@azure-tools/typespec-azure-core/default-in-enum",
+    "assessed": 487,
+    "status": "complete",
+    "rerunOnReviewCommit": false
+  },
+  "reviewThreads": "Replies only; left unresolved for the reviewer."
+}
