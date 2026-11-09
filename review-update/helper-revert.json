@@ -1,0 +1,13 @@
+{
+  "candidateCommit": "59641e2ef3f3fc8966dde0f07f5d0d70ed460703",
+  "nativeRule": "@azure-tools/typespec-azure-core/use-known-enum-default",
+  "changes": "Revert all shared union helper and helper-test changes; restore rule-local member traversal. Keep the reviewed rule name and trimmed documentation.",
+  "helperBaseline": "7bff59d96fa8aadf64f67117b9c18ad36dc2f966",
+  "helperAndTestsMatchBaseline": true,
+  "focusedTests": { "filesPassed": 3, "passed": 48, "rule": 21, "helper": 12, "rulesets": 15 },
+  "checksPassed": ["Core build", "pnpm format", "pnpm lint", "Chronus verify"],
+  "failureRecovery": "Initial generator restoration placed the function inside a switch branch, causing19 ReferenceError failures. Moved it to module scope before committing; all48 focused cases passed.",
+  "fullCorpusRerun": false,
+  "historicalCorpusCandidate": "dd233ce884c25ed54074ad6feaa770ee567c4f5e",
+  "reviewThreads": "Left unresolved for Timo."
+}
