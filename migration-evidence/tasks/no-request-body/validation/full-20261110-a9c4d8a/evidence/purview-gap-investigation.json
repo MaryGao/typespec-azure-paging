@@ -1,0 +1,963 @@
+{
+  "status": "all-positive-native-findings-and-Swagger-observations-exactly-corresponded",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "project": "specification/purview/data-plane/datamap",
+  "nativeRaw": 12,
+  "swaggerRaw": 6,
+  "rawDiagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 658,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 706,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 785,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 859,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 1350,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes.tsp",
+      "line": 2085,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 59,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 61,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 69,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 96,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "client.tsp",
+      "line": 155,
+      "column": 3
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "main.tsp",
+      "sha256": "15c0461907e3b8e11d889f3fcc0ddb0cc55a3e9563a0f4a4e2d2bec2b33d2b6f"
+    },
+    {
+      "file": "routes.tsp",
+      "sha256": "5a092f35cf8ffc10f7cefae852c33f1446a6e02f6c3ed0a93664c66112403a5d"
+    },
+    {
+      "file": "client.tsp",
+      "sha256": "7f2a27e7f10611274ee3d9b329237a039336c4a64fa56fa9fbb7b239f0b3832a"
+    }
+  ],
+  "demonstratedWireOperations": 6,
+  "serviceNativeWarnings": 6,
+  "clientAliasNativeWarnings": 6,
+  "correspondence": "Actual diagnostic Operation objects; compiler sourceOperation alias identities; declared HTTP service membership; exact HTTP verb/path; unique production Spectral body-parameter findings in hash-verified frozen Swagger.",
+  "findings": [
+    {
+      "sourceFile": "routes.tsp",
+      "line": 658,
+      "column": 3,
+      "operation": "PurviewDataMap.Entity.removeBusinessMetadata",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/businessmetadata",
+      "body": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Entity.removeBusinessMetadata",
+          "sourceFile": "routes.tsp",
+          "line": 658,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeBusinessMetadata",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 658,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/businessmetadata",
+        "verb": "delete",
+        "operationId": "Entity_RemoveBusinessMetadata",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/businessmetadata",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "additionalProperties": {
+              "additionalProperties": {},
+              "type": "object"
+            }
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes.tsp",
+      "line": 706,
+      "column": 3,
+      "operation": "PurviewDataMap.Entity.removeBusinessMetadataAttributes",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+      "body": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Entity.removeBusinessMetadataAttributes",
+          "sourceFile": "routes.tsp",
+          "line": 706,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeBusinessMetadataAttributes",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 706,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+        "verb": "delete",
+        "operationId": "Entity_RemoveBusinessMetadataAttributes",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+          "delete",
+          "parameters",
+          "2",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "additionalProperties": {}
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes.tsp",
+      "line": 785,
+      "column": 3,
+      "operation": "PurviewDataMap.Entity.removeLabels",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/labels",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Entity.removeLabels",
+          "sourceFile": "routes.tsp",
+          "line": 785,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeLabels",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 785,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/labels",
+        "verb": "delete",
+        "operationId": "Entity_RemoveLabels",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/labels",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes.tsp",
+      "line": 859,
+      "column": 3,
+      "operation": "PurviewDataMap.Entity.removeLabelsByUniqueAttribute",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Entity.removeLabelsByUniqueAttribute",
+          "sourceFile": "routes.tsp",
+          "line": 859,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeLabelsByUniqueAttribute",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 859,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+        "verb": "delete",
+        "operationId": "Entity_RemoveLabelsByUniqueAttribute",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+          "delete",
+          "parameters",
+          "2",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes.tsp",
+      "line": 1350,
+      "column": 3,
+      "operation": "PurviewDataMap.Glossary.deleteTermAssignmentFromEntities",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Glossary.deleteTermAssignmentFromEntities",
+          "sourceFile": "routes.tsp",
+          "line": 1350,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Glossary.deleteTermAssignmentFromEntities",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 1350,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+        "verb": "delete",
+        "operationId": "Glossary_DeleteTermAssignmentFromEntities",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/AtlasRelatedObjectId"
+            },
+            "x-ms-identifiers": []
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes.tsp",
+      "line": 2085,
+      "column": 3,
+      "operation": "PurviewDataMap.Type.bulkDelete",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/atlas/v2/types/typedefs",
+      "body": {
+        "kind": "Model",
+        "name": "AtlasTypesDef",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "PurviewDataMap.Type.bulkDelete",
+          "sourceFile": "routes.tsp",
+          "line": 2085,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Type.bulkDelete",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 2085,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "AtlasTypesDef",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/types/typedefs",
+        "verb": "delete",
+        "operationId": "Type_BulkDelete",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/types/typedefs",
+          "delete",
+          "parameters",
+          "0",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/AtlasTypesDef"
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 59,
+      "column": 3,
+      "operation": "Customizations.Entity.removeBusinessMetadata",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/businessmetadata",
+      "body": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.Entity.removeBusinessMetadata",
+          "sourceFile": "client.tsp",
+          "line": 59,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Entity.removeBusinessMetadata",
+          "sourceFile": "routes.tsp",
+          "line": 658,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeBusinessMetadata",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 658,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/businessmetadata",
+        "verb": "delete",
+        "operationId": "Entity_RemoveBusinessMetadata",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/businessmetadata",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "additionalProperties": {
+              "additionalProperties": {},
+              "type": "object"
+            }
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 61,
+      "column": 3,
+      "operation": "Customizations.Entity.removeBusinessMetadataAttributes",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+      "body": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.Entity.removeBusinessMetadataAttributes",
+          "sourceFile": "client.tsp",
+          "line": 61,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Entity.removeBusinessMetadataAttributes",
+          "sourceFile": "routes.tsp",
+          "line": 706,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeBusinessMetadataAttributes",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 706,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Record",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+        "verb": "delete",
+        "operationId": "Entity_RemoveBusinessMetadataAttributes",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+          "delete",
+          "parameters",
+          "2",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "additionalProperties": {}
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 66,
+      "column": 3,
+      "operation": "Customizations.Entity.removeLabels",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/guid/{guid}/labels",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.Entity.removeLabels",
+          "sourceFile": "client.tsp",
+          "line": 66,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Entity.removeLabels",
+          "sourceFile": "routes.tsp",
+          "line": 785,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeLabels",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 785,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/guid/{guid}/labels",
+        "verb": "delete",
+        "operationId": "Entity_RemoveLabels",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/guid/{guid}/labels",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 69,
+      "column": 3,
+      "operation": "Customizations.Entity.removeLabelsByUniqueAttribute",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.Entity.removeLabelsByUniqueAttribute",
+          "sourceFile": "client.tsp",
+          "line": 69,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Entity.removeLabelsByUniqueAttribute",
+          "sourceFile": "routes.tsp",
+          "line": 859,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Entity.removeLabelsByUniqueAttribute",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 859,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": true
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+        "verb": "delete",
+        "operationId": "Entity_RemoveLabelsByUniqueAttribute",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+          "delete",
+          "parameters",
+          "2",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 96,
+      "column": 3,
+      "operation": "Customizations.Glossary.deleteTermAssignmentFromEntities",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+      "body": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.Glossary.deleteTermAssignmentFromEntities",
+          "sourceFile": "client.tsp",
+          "line": 96,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Glossary.deleteTermAssignmentFromEntities",
+          "sourceFile": "routes.tsp",
+          "line": 1350,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Glossary.deleteTermAssignmentFromEntities",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 1350,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "Array",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+        "verb": "delete",
+        "operationId": "Glossary_DeleteTermAssignmentFromEntities",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+          "delete",
+          "parameters",
+          "1",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/AtlasRelatedObjectId"
+            },
+            "x-ms-identifiers": []
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    },
+    {
+      "sourceFile": "client.tsp",
+      "line": 155,
+      "column": 3,
+      "operation": "Customizations.TypeDefinition.batchDelete",
+      "inDeclaredHttpService": false,
+      "verb": "delete",
+      "path": "/atlas/v2/types/typedefs",
+      "body": {
+        "kind": "Model",
+        "name": "AtlasTypesDef",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Customizations.TypeDefinition.batchDelete",
+          "sourceFile": "client.tsp",
+          "line": 155,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.Type.bulkDelete",
+          "sourceFile": "routes.tsp",
+          "line": 2085,
+          "column": 3
+        },
+        {
+          "operation": "PurviewDataMap.AtlasOperation<TParams, TResponse, Traits>",
+          "sourceFile": "routes.tsp",
+          "line": 28,
+          "column": 4
+        }
+      ],
+      "originalOperation": "PurviewDataMap.Type.bulkDelete",
+      "originalLocation": {
+        "sourceFile": "routes.tsp",
+        "line": 2085,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "AtlasTypesDef",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+        "apiVersion": "2024-03-01-preview",
+        "path": "/atlas/v2/types/typedefs",
+        "verb": "delete",
+        "operationId": "Type_BulkDelete",
+        "diagnosticPath": [
+          "paths",
+          "/atlas/v2/types/typedefs",
+          "delete",
+          "parameters",
+          "0",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/AtlasTypesDef"
+          }
+        }
+      },
+      "classification": "Client alias of that same body-bearing service operation, established by compiler sourceOperation object identity."
+    }
+  ],
+  "countInterpretation": "Six real body-bearing DELETE wire operations are observed on both sides. TypeSpec additionally reports their six client aliases. Raw 12-versus-6 counts and the six-warning excess remain unchanged; this explanatory correspondence is not a global count normalization or whole-rule equivalence proof.",
+  "policy": "Existing source suppressions concern other rules and do not suppress the new no-request-body rule. Existing service behavior is retained; no specification, rule or suppression changes made.",
+  "limits": "Source and selected checked-in Swagger versions are not generally aligned. Exact concrete correspondences do not establish completeness for unobserved positive cases or full production AutoRest parity."
+}

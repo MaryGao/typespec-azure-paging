@@ -1,0 +1,70 @@
+{
+  "index": 25,
+  "slug": "025-cognitiveservices-languageanalyzetextauthoring",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/preview/2023-11-15-preview/analyzetext-authoring.json",
+      "apiVersion": "2023-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "1e1539d6cf3eaea24475c937e0a91367a7d3f71fb6784a1b26d77867396626d4"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/preview/2024-11-15-preview/analyzetext-authoring.json",
+      "apiVersion": "2024-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "3bd1bcd1e4c439dbef7fa86bf379b93d77a14562e0ef51fdd63321523f9e8672"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/preview/2025-05-15-preview/analyzetext-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "86ade86b91df681abb6d1d0b7c2a269d785205b0c37d8fd989bfec111cb8a16e"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/stable/2022-05-01/analyzetext-authoring.json",
+      "apiVersion": "2022-05-01",
+      "format": "swagger-2.0",
+      "sha256": "488d2ca7353c1eb80b2d71da2f0f9ba66ef8a62232743a7ece6a8acb360d218a"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/stable/2023-04-01/analyzetext-authoring.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "50cfef19bc2cfde4aa5b359d49e5a98b1fb4fbb6d9dab9956455379dc86d9976"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/main.tsp",
+      "sha256": "d00de6ccb866d094b031a17cf1bdcc6645709be6babb7c36de00bf626482116d"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/models.tsp",
+      "sha256": "1e00a807e7a109441b45e20d1e86da269fa48b2eeb354d78460fb9244f64efe2"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/routes.tsp",
+      "sha256": "662f258175d3e76dd87829b0a23f9da0a06b228573076c3051c5964d0481fa7b"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/tspconfig.yaml",
+      "sha256": "12d7f15ae5c508d00e7aeaf44946c320183a340e3479f5a11db5dc94ca224add"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring",
+  "swaggerOutputPattern": "{version-status}/{version}/analyzetext-authoring.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-05-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/preview/2025-05-15-preview/analyzetext-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "86ade86b91df681abb6d1d0b7c2a269d785205b0c37d8fd989bfec111cb8a16e"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

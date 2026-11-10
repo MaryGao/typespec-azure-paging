@@ -1,0 +1,25 @@
+{
+  "project": "specification/apicenter/data-plane/ApiCenter",
+  "slug": "010-apicenter-apicenter",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:26:45.591Z",
+    "finishedAt": "2026-11-10T01:26:50.064Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:26:50.066Z",
+    "finishedAt": "2026-11-10T01:26:51.945Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

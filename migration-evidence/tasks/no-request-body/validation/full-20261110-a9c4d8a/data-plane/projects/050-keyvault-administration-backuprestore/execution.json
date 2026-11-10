@@ -1,0 +1,26 @@
+{
+  "project": "specification/keyvault/data-plane/Administration/BackupRestore",
+  "slug": "050-keyvault-administration-backuprestore",
+  "status": "unassessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": false,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:31:01.247Z",
+    "finishedAt": "2026-11-10T01:31:05.282Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:31:05.287Z",
+    "finishedAt": "2026-11-10T01:31:07.078Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": null,
+  "swaggerError": "unassessed-no-local-oas2",
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

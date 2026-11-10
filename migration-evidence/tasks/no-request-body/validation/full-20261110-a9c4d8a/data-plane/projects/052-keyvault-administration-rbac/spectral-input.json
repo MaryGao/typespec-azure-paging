@@ -1,0 +1,34 @@
+{
+  "index": 52,
+  "slug": "052-keyvault-administration-rbac",
+  "sourcePath": "specification/keyvault/data-plane/Administration/RBAC",
+  "swaggerCandidates": [],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/client.tsp",
+      "sha256": "a17fcadb2b52959438d48d257e8ebb7bc36b6b6252d1217f9eb3ce424d66f92e"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/main.tsp",
+      "sha256": "30399337f2a516e66b433b1e309854ced5f3fdf0be1e4e1fb047692586a324ea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/models.tsp",
+      "sha256": "5787ad81f709d89f481e18061e8beb175bcca9e03691f09a70997ac7cda66b17"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/routes.tsp",
+      "sha256": "697f2493c09ea00b038cd36fdf4f543d2e1d42651d55efc900121149933e4a65"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/tspconfig.yaml",
+      "sha256": "ca8fb08435822dfeff67ec6fb8e60e596029ed828a5695733ed8827a9244098a"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Administration/RBAC",
+  "hasExplicitAutorestOptions": false,
+  "swaggerFiles": [],
+  "swaggerSelectionStatus": "unassessed-no-local-oas2"
+}

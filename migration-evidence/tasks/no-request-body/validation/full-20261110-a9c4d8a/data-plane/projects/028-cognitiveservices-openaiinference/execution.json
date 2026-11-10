@@ -1,0 +1,25 @@
+{
+  "project": "specification/cognitiveservices/data-plane/OpenAIInference",
+  "slug": "028-cognitiveservices-openaiinference",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:28:41.552Z",
+    "finishedAt": "2026-11-10T01:28:47.150Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:28:47.153Z",
+    "finishedAt": "2026-11-10T01:28:49.146Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

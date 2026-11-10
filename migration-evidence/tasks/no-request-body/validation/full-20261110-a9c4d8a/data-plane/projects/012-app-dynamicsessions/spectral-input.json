@@ -1,0 +1,78 @@
+{
+  "index": 12,
+  "slug": "012-app-dynamicsessions",
+  "sourcePath": "specification/app/data-plane/DynamicSessions",
+  "swaggerCandidates": [
+    {
+      "file": "specification/app/data-plane/DynamicSessions/preview/2024-10-02-preview/DynamicSessions.json",
+      "apiVersion": "2024-10-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "4c64cdd357c76f2c6bd36d892fa650a73033bdb321d89257936b221af807037d"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/preview/2025-02-02-preview/DynamicSessions.json",
+      "apiVersion": "2025-02-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "211cda7e572f5c4d1f8fe7581875d7e77925ce56fdd153f4b1d8e61a31080c47"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/preview/2025-10-02-preview/DynamicSessions.json",
+      "apiVersion": "2025-10-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "acc255eeaad5271bbad7ab0d5fd8f3c3e4b462b40f845ed7ee3cd4b5763e0d6f"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/app/data-plane/DynamicSessions/client.tsp",
+      "sha256": "8cfa05e45e6cd371e0d4641a7e27344d7b9cff34796f7b1c750c28248a5d0175"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/main.tsp",
+      "sha256": "3e3f7cbfb25961d8f7dc080ac60365b566fbcddfb870cb8156cfd6160c055689"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/models/code-execution-file.tsp",
+      "sha256": "a9106c0037479544e5c5e8987ac51a04107ae32e080603aea2518d1daf0d2f4e"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/models/code-execution.tsp",
+      "sha256": "308e792079799f6243409dd30cee26c2f69a8e22db5b8ce0dc5af1cebeff1129"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/models/common.tsp",
+      "sha256": "8e1578385efad4dcdf8fffc133827d83542baeb52b8eddd6924b785a2fbf18b2"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/models/session.tsp",
+      "sha256": "4e88ef3929003b72e9bad5f09012b2ed393245928bd906bf0f786d38417ab6cb"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/models/sessionpool-metadata.tsp",
+      "sha256": "b48a65f2153c9914093c16e5b95e62695a584670fb9af7d73c087b6f1c22a218"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/routes.tsp",
+      "sha256": "b28dd649650b3137f46e97f41d5baaad0ae0ee7c8184f4be5a5bfab5032f72bb"
+    },
+    {
+      "file": "specification/app/data-plane/DynamicSessions/tspconfig.yaml",
+      "sha256": "86bc2e92c26de0784f5ced5fe78f7a967592bec6d1d302a6f9932e0915cd5c95"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/app/data-plane/DynamicSessions",
+  "swaggerOutputPattern": "{version-status}/{version}/DynamicSessions.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-10-02-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/app/data-plane/DynamicSessions/preview/2025-10-02-preview/DynamicSessions.json",
+      "apiVersion": "2025-10-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "acc255eeaad5271bbad7ab0d5fd8f3c3e4b462b40f845ed7ee3cd4b5763e0d6f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

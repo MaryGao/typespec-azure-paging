@@ -1,0 +1,83 @@
+{
+  "project": "specification/confidentialledger/data-plane/CodeTransparency",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/stable/2026-03-26/cts.json",
+      "apiVersion": "2026-03-26",
+      "format": "swagger-2.0",
+      "sha256": "f432c3d7f09716fa6d49b816ab437e15155406319aebf8e2f5344be6492ba093",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/.well-known/scitt-keys",
+          "verb": "get",
+          "operationId": "ListScittKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/.well-known/scitt-keys/{kid}",
+          "verb": "get",
+          "operationId": "GetScittKey",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/.well-known/transparency-configuration",
+          "verb": "get",
+          "operationId": "GetTransparencyConfigCbor",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/entries/{entryId}",
+          "verb": "get",
+          "operationId": "GetEntry",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/entries/{entryId}/statement",
+          "verb": "get",
+          "operationId": "GetEntryStatement",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jwks",
+          "verb": "get",
+          "operationId": "GetPublicKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations/{operationId}",
+          "verb": "get",
+          "operationId": "GetOperation",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

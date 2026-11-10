@@ -1,0 +1,83 @@
+{
+  "project": "specification/webpubsub/data-plane/WebPubSub",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2024-12-01/webpubsub.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "3c12a9fc630545f424d1f70d872a2c59e405873270b0b5c196edbd52f76ca30f",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/api/hubs/{hub}/connections/{connectionId}",
+          "verb": "delete",
+          "operationId": "CloseConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/connections/{connectionId}/groups",
+          "verb": "delete",
+          "operationId": "RemoveConnectionFromAllGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/groups/{group}/connections",
+          "verb": "get",
+          "operationId": "ListConnectionsInGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/groups/{group}/connections/{connectionId}",
+          "verb": "delete",
+          "operationId": "RemoveConnectionFromGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/permissions/{permission}/connections/{connectionId}",
+          "verb": "delete",
+          "operationId": "RevokePermission",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/users/{userId}/groups",
+          "verb": "delete",
+          "operationId": "RemoveUserFromAllGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/users/{userId}/groups/{group}",
+          "verb": "delete",
+          "operationId": "RemoveUserFromGroup",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

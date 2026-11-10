@@ -1,0 +1,95 @@
+{
+  "project": "specification/app/data-plane/DynamicSessions",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/app/data-plane/DynamicSessions/preview/2025-10-02-preview/DynamicSessions.json",
+      "apiVersion": "2025-10-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "acc255eeaad5271bbad7ab0d5fd8f3c3e4b462b40f845ed7ee3cd4b5763e0d6f",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/executions/{executionId}",
+          "verb": "get",
+          "operationId": "CodeExecution_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files",
+          "verb": "get",
+          "operationId": "SessionResourceFiles_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{name}",
+          "verb": "get",
+          "operationId": "SessionResourceFiles_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{name}",
+          "verb": "delete",
+          "operationId": "SessionResourceFiles_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{name}/content",
+          "verb": "get",
+          "operationId": "SessionResourceFiles_GetContent",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/listSessions",
+          "verb": "get",
+          "operationId": "ListSessions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/metadata",
+          "verb": "get",
+          "operationId": "SessionPoolMetadata_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/session",
+          "verb": "get",
+          "operationId": "SessionManagement_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/session",
+          "verb": "delete",
+          "operationId": "SessionManagement_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,52 @@
+{
+  "index": 94,
+  "slug": "094-widget-widgetanalytics",
+  "sourcePath": "specification/widget/data-plane/WidgetAnalytics",
+  "swaggerCandidates": [
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/preview/2022-11-01-preview/widgetanalytics.json",
+      "apiVersion": "2022-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "6e5794fec3c50d4f65558c2137fe7de4656f6446dac209a9dffa5e41465655c1"
+    },
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/stable/2022-12-01/widgetanalytics.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "fdceb8967d786513f3a42566abd2368f4af17e5a4b398fa3d24dcf8ed33e474d"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/client.tsp",
+      "sha256": "1c9203031fd9beb41171ad6f58442be64986bc88be73ef12ae1bba9cdd569234"
+    },
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/main.tsp",
+      "sha256": "6058cedc2bf336b768eb65e6dca0e9ab587fb73d01a2e3fbb982b8d146d87037"
+    },
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/shared.tsp",
+      "sha256": "a48c2227a1efcc4e154396c126fa4b8dfdf1a87f975675ea3bdb3ceec3c2022f"
+    },
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/tspconfig.yaml",
+      "sha256": "536384915512ee50f2659c4f6f5aa2729bf4ab226a52b1c516028b11325e8146"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/widget/data-plane/WidgetAnalytics",
+  "swaggerOutputPattern": "{version-status}/{version}/widgetanalytics.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2022-12-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/stable/2022-12-01/widgetanalytics.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "fdceb8967d786513f3a42566abd2368f4af17e5a4b398fa3d24dcf8ed33e474d"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

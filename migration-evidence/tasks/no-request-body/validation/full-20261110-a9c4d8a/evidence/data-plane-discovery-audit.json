@@ -1,0 +1,37 @@
+{
+  "source": "Frozen Git tree preset discovery, independent of path-based scan.",
+  "dataPlanePresetConfigs": 114,
+  "configsOutsideDataPlaneDirectories": [
+    "specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml",
+    "specification/discovery/Discovery.Bookshelf/tspconfig.yaml",
+    "specification/discovery/Discovery.Combined/tspconfig.yaml",
+    "specification/discovery/Discovery.Workspace/tspconfig.yaml",
+    "specification/orbital/Microsoft.PlanetaryComputer/tspconfig.yaml",
+    "specification/playwrighttesting/PlaywrightTesting.AuthManager/tspconfig.yaml",
+    "specification/programmableconnectivity/Azure.ProgrammableConnectivity/tspconfig.yaml",
+    "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/tspconfig.yaml",
+    "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/tspconfig.yaml"
+  ],
+  "unselectedPresetConfigs": [
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-extensions-openai/tspconfig.yaml",
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-projects-agents/tspconfig.yaml",
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-projects/tspconfig.yaml",
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-agents/tspconfig.yaml",
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-projects/tspconfig.yaml",
+    "specification/ai-foundry/data-plane/Foundry/src/sdk-python-js-azure-ai-projects/tspconfig.yaml",
+    "specification/ai/data-plane/HealthInsights/RadiologyInsights/tspconfig.yaml",
+    "specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml",
+    "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/tspconfig.yaml",
+    "specification/discovery/Discovery.Bookshelf/tspconfig.yaml",
+    "specification/discovery/Discovery.Combined/tspconfig.yaml",
+    "specification/discovery/Discovery.Workspace/tspconfig.yaml",
+    "specification/orbital/Microsoft.PlanetaryComputer/tspconfig.yaml",
+    "specification/playwrighttesting/PlaywrightTesting.AuthManager/tspconfig.yaml",
+    "specification/programmableconnectivity/Azure.ProgrammableConnectivity/tspconfig.yaml",
+    "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/tspconfig.yaml",
+    "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/tspconfig.yaml",
+    "specification/storage/data-plane/BlobStorage/SdkBatchCsharp/tspconfig.yaml",
+    "specification/storage/data-plane/BlobStorage/SdkDatalakeGo/tspconfig.yaml"
+  ],
+  "limit": "Configuration-only SDK/aggregate directories without main.tsp are recorded separately and are not executable project entrypoints."
+}

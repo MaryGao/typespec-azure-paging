@@ -1,0 +1,72 @@
+{
+  "index": 67,
+  "slug": "067-maps-render",
+  "sourcePath": "specification/maps/data-plane/Render",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Render/stable/2.0/render.json",
+      "apiVersion": "2.0",
+      "format": "swagger-2.0",
+      "sha256": "741d052f7db3c9cbb90f29b8e9a2636ccecf627072c24a582ee8b44bb8428f58"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/stable/2.1/render.json",
+      "apiVersion": "2.1",
+      "format": "swagger-2.0",
+      "sha256": "b3adad1eff0fe8f6474bf292afe7f8e03f679c69f2b37924a13188037d0768e6"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/stable/2022-08-01/render.json",
+      "apiVersion": "2022-08-01",
+      "format": "swagger-2.0",
+      "sha256": "4299ecc0f4e68a838de0c8935691f31e821b2abebec1ce4c493ade9a370801af"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/stable/2024-04-01/render.json",
+      "apiVersion": "2024-04-01",
+      "format": "swagger-2.0",
+      "sha256": "f12f82546a6307b5e481357b61e5904b9a6d4fa5240dd29df8693558a0a80fde"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Render/client.tsp",
+      "sha256": "8f980a4158f677b014bc3b517f24072ce387df483cde396999b0066c87e171fb"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/common/common.tsp",
+      "sha256": "e5ce78ab2310a7bd465a3a512d0455aacf363d4920cabb6608cbea5313dd2862"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/main.tsp",
+      "sha256": "cda90078af37ad711e3fa36f7f96eb0601c5fb8624a8b9ea265f420dfd22bbd9"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/models.tsp",
+      "sha256": "de6fe1767948b249f6a53056d65765d9d8e02c3779efba432f3c7d7c1be14f50"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/routes.tsp",
+      "sha256": "bfa238586ae43dc26f9efa59bcd6e3178e1276d3a029fbe926418998c66e353a"
+    },
+    {
+      "file": "specification/maps/data-plane/Render/tspconfig.yaml",
+      "sha256": "c55b970e6ebac668f5a56264fcb9e207cc4f7ccf8912c5f69008bf59b31e5fd5"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Render",
+  "swaggerOutputPattern": "{version-status}/{version}/render.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-04-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Render/stable/2024-04-01/render.json",
+      "apiVersion": "2024-04-01",
+      "format": "swagger-2.0",
+      "sha256": "f12f82546a6307b5e481357b61e5904b9a6d4fa5240dd29df8693558a0a80fde"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

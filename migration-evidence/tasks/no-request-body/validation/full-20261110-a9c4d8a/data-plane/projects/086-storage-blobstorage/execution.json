@@ -1,0 +1,25 @@
+{
+  "project": "specification/storage/data-plane/BlobStorage",
+  "slug": "086-storage-blobstorage",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:34:59.548Z",
+    "finishedAt": "2026-11-10T01:35:04.285Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:35:04.294Z",
+    "finishedAt": "2026-11-10T01:35:06.346Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

@@ -1,0 +1,94 @@
+{
+  "index": 10,
+  "slug": "010-apicenter-apicenter",
+  "sourcePath": "specification/apicenter/data-plane/ApiCenter",
+  "swaggerCandidates": [
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/preview/2024-02-01-preview/azure.apicenter.dataapi.json",
+      "apiVersion": "2024-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4a714a4586b07a60563a802424d6be4e17ff4c621dc4f5f6f30610ef81fc9c38"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/main.tsp",
+      "sha256": "b3bd53752ce85bfd2e205e3dc9600f679f91011d571b4cea85c9304f81b2fe94"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/api.tsp",
+      "sha256": "0c51109076aa0ea2bda16ae7e4350776930e82415d8819738ec09bf8c3edade6"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/apiDefinition.tsp",
+      "sha256": "c3003f5113ee7dcd6db159a38c05338497be6ecc055ac8ae90ef6dff91464cbc"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/apiVersion.tsp",
+      "sha256": "3cbe3ba4a2297096362cc5a2f0195ab6599ae8b675f9167ce4e9e1537e7c7d85"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/deployment.tsp",
+      "sha256": "4481ba4e6d2b906ad6a65f6925f74163a681067880bb7b3739a2b2b54a337d0a"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/environment.tsp",
+      "sha256": "319cb9c3fcdc91a4979954e320f0f4998552d16b960e930b2a76ea4fc6e867c5"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/exportSpecification.tsp",
+      "sha256": "7309b9f8fed2aab777718bdc5edc152672455c833e124175ae3619aadcd15306"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/models.tsp",
+      "sha256": "d677638a01d7d2f344c3b597320e2677d0e1dee5ae6dcadd7931e0c41a385c53"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/models/workspace.tsp",
+      "sha256": "76143b49990b5c5932c9d932d6d3770f1faeafd0eb4ff81c4bd0142757ddf823"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/Api.tsp",
+      "sha256": "68d4e22f1b97f369c671e83dc5ff4c2dfe2159c666f582bf06feca3b94074054"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/ApiDefinition.tsp",
+      "sha256": "c8b51ad69444a3dd3886fe0de36c5ba06f3abae0a7f95b4eeec9a4ac0582184c"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/ApiVersion.tsp",
+      "sha256": "82e5b9dbd91872e7595c1d34037876e31df5f29f183292ece75d2d75ff93d57a"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/Deployment.tsp",
+      "sha256": "5b436b5755332d9a733d6307f4d6147a37b843b0b84752128a614a11e88de497"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/Environment.tsp",
+      "sha256": "baa51b66805b8f71cba263b8730ac7b866086983d4b7717b29d6943e75126b0d"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/resources/Workspace.tsp",
+      "sha256": "7d883d23f2d7e2ec49a4792ca32c10beec2fc83d18134c76749601b9b8324eaf"
+    },
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/tspconfig.yaml",
+      "sha256": "d9c6ce2ba2580928d7c1b0cd617accc0ec912d674f8928822c0adf1da2a7a6f8"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/apicenter/data-plane/ApiCenter",
+  "swaggerOutputPattern": "{version-status}/{version}/azure.apicenter.dataapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-02-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/preview/2024-02-01-preview/azure.apicenter.dataapi.json",
+      "apiVersion": "2024-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4a714a4586b07a60563a802424d6be4e17ff4c621dc4f5f6f30610ef81fc9c38"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

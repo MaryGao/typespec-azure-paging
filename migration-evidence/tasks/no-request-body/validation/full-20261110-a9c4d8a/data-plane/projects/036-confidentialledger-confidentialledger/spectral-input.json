@@ -1,0 +1,72 @@
+{
+  "index": 36,
+  "slug": "036-confidentialledger-confidentialledger",
+  "sourcePath": "specification/confidentialledger/data-plane/ConfidentialLedger",
+  "swaggerCandidates": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/preview/2024-12-09-preview/confidentialledger.json",
+      "apiVersion": "2024-12-09-preview",
+      "format": "swagger-2.0",
+      "sha256": "c58d8c52fc5a35d748105c7fa1d7b796de7fb646615d640507e2a4c6c12ebfa3"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/preview/2026-07-31-preview/confidentialledger.json",
+      "apiVersion": "2026-07-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "4de6ebd965aaebfcf7b9aa706f087d3be9d32787849e9a7d763c27677173dab8"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/stable/2022-05-13/confidentialledger.json",
+      "apiVersion": "2022-05-13",
+      "format": "swagger-2.0",
+      "sha256": "ef71453ece2181082b6a4778fded063be058541b78aaf617ad0fd36b9f25dc59"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/stable/2026-02-23/confidentialledger.json",
+      "apiVersion": "2026-02-23",
+      "format": "swagger-2.0",
+      "sha256": "e40c4d76caa42bd5f55fefbe63022d639b1639808b3de99233aaabf1621f1692"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/client.tsp",
+      "sha256": "5004e212ef2e99fee3326902c655d97ac606c4e962f08aa8e0e82cfdd77fd7f5"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/common.tsp",
+      "sha256": "3082b43cb4e6177d2faa5709b3f4913c075c5871f4ef97724f9732570e374897"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/main.tsp",
+      "sha256": "f2bd2e8b9e03bbfd1caee59f44b01e217492b7422fc2da02e9fdc5d32e9fa97c"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/models.tsp",
+      "sha256": "9c2eef1d4ee40c10362e6ebae7fb4bbad72780f0eaa04454f9fc33d9f75f1b48"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/routes.tsp",
+      "sha256": "07e598b018f73cf4cd805b91c4104914de055f5f2cfcaff467993812729808a6"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/tspconfig.yaml",
+      "sha256": "794519ccdedc75679c0aa1a13402a5bf7668bb38e00d023102712fd0f3460b27"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/confidentialledger/data-plane/ConfidentialLedger",
+  "swaggerOutputPattern": "{version-status}/{version}/confidentialledger.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-31-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/preview/2026-07-31-preview/confidentialledger.json",
+      "apiVersion": "2026-07-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "4de6ebd965aaebfcf7b9aa706f087d3be9d32787849e9a7d763c27677173dab8"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

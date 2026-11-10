@@ -1,0 +1,25 @@
+{
+  "project": "specification/cognitiveservices/data-plane/TextToSpeech",
+  "slug": "031-cognitiveservices-texttospeech",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:29:01.388Z",
+    "finishedAt": "2026-11-10T01:29:06.304Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:29:06.311Z",
+    "finishedAt": "2026-11-10T01:29:08.389Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

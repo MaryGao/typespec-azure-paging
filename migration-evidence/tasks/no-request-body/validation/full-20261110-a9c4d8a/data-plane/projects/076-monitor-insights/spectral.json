@@ -1,0 +1,40 @@
+{
+  "project": "specification/monitor/data-plane/Insights",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/monitor/data-plane/Insights/stable/2024-02-01/metricBatch.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "af342767e7a836813c9cc730d1ee6ef95603bdd9d363125c170e71b6697308b1",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": []
+    }
+  ],
+  "rawTargetCount": 0
+}

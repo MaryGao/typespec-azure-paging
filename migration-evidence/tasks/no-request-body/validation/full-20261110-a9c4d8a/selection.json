@@ -1,0 +1,137 @@
+{
+  "createdAt": "2026-11-10T01:26:41.016Z",
+  "authorization": "User: go full validation (2026-11-10), despite explained pilot gaps.",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "coreCommit": "837b5a769414f853fd22eeed0a123c953425b1d8",
+  "pr": "https://github.com/Azure/typespec-azure/pull/5986",
+  "prStateAtStart": "MERGED",
+  "mergeCommit": "b13279f628a267cc793af82a38ba4dbbafbc7d3e",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "specsSparseCheckout": true,
+  "baselineMetadataCommit": "1c9d2b0e6a596754af1aa793b1906ff3c4ef2bd6",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+  "generatorFiles": [
+    {
+      "file": "native-coverage.ts",
+      "sha256": "5dc6a4448451cac78c01980c1a807cbc1d0a580acba5594b77393db65c03f46c"
+    },
+    {
+      "file": "native-coverage-worker.mjs",
+      "sha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609"
+    },
+    {
+      "file": "spec-dataset.ts",
+      "sha256": "624f12d6ac1150db749ee12e941ce0fde7609ba5dd7ce296f7daa879e1d48bef"
+    },
+    {
+      "file": "candidate:tsp-integration",
+      "sha256": "10004a6810ccd94b53c6415e0def30cd99b959a96e7cd779e2436349b4811a83"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-autorest-0.73.2.tgz",
+      "sha256": "38e8e3638d46bcbba129f04b660ddae9fd098093036860021f7a4cbf4cb58715"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-azure-core-0.73.0.tgz",
+      "sha256": "512972eb365f5272598d2080f0f7b07eef412db1aa4b9da4aaa6bb4c4327b08f"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-azure-examples-0.2.2.tgz",
+      "sha256": "75609400e2a92ea186c97ffcfb2b867b76d84b2a6174235918685c8aee024721"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+      "sha256": "3455bfd72245c91364d9beeaffa3f70ac698bb65a8ebe7c0ecde49eaa973f822"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+      "sha256": "383db8881835be7a63066f14a121c8c85325adaeb62be6b9caadf34d4ce0495e"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\azure-tools-typespec-client-generator-core-0.73.0.tgz",
+      "sha256": "bb9ba512a7989588bc56b1843af236268085c2f224f21e91e5fbabd1eeb87e07"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-compiler-1.17.0.tgz",
+      "sha256": "85d7915ed9f897252e9919addfd8c161ad3e491dc7d98068e40377ec358310f1"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-events-0.87.0.tgz",
+      "sha256": "b3f4c22265e6d4c575ef660bb84cf4079034e78d79221f71a6e83acc91058a12"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-http-1.17.0.tgz",
+      "sha256": "0dad8363b1532783943b39e0be6676acb39a757224eb748a09ec1a13c72ccdd8"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-openapi-1.17.0.tgz",
+      "sha256": "5f33f284e0714eaf480f88b7e513d44207febeeb32d017f192912f638f2fd1a9"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-rest-0.87.0.tgz",
+      "sha256": "0a5468e3e3f6a091b47b233c1d6c0e994b5c83e0be31b39b35f404644fe76705"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-sse-0.87.0.tgz",
+      "sha256": "c830e45a648b6ef3683e95585a8d62442371ebab1f67ff68b61dab646f92ed9e"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-streams-0.87.0.tgz",
+      "sha256": "2087463770f1139cd626e4bcc2f88ea0df7ac35b4739a4547e9fe8677cf0c525"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-versioning-0.87.0.tgz",
+      "sha256": "a726a9150b541771ba0c5f3f0ad5234cf5779481073d61c83bf40c102c236ba7"
+    },
+    {
+      "file": "C:\\Users\\marygao\\project\\coverage-reports\\no-request-body\\full-20261110-a9c4d8a\\evidence\\artifacts\\typespec-xml-0.87.0.tgz",
+      "sha256": "d83b0f74b69230831d225b4b0f0ee8a83ff8c8e13f1ffe01f380743f8a9126fb"
+    }
+  ],
+  "audiences": {
+    "arm": {
+      "population": 487,
+      "profile": "Official full saved-population source comparison; frozen-reference; two Swagger ARM members -> one native Core rule; no filter or limit.",
+      "nativeConcurrency": 2,
+      "nativeBudgetSeconds": 5400
+    },
+    "dataPlane": {
+      "population": 103,
+      "selectedOas2Projects": 98,
+      "profile": "Fresh native source programs versus latest frozen Git OAS2 version selected using the official selectLatestApiVersion helper; all files at that version and their local reference closure. Swagger ownership follows resolved AutoRest emitter-output-dir/output-file; absent explicit output patterns use nearest-project local ownership. Source/version populations are not aligned.",
+      "limitation": "Separate explicit selected-rule Spectral profile, not a saved data-plane baseline or full AutoRest production execution. Missing OAS2, unsupported formats, invalid inputs and compilation failures are unassessed. Fragment-only and SDK config-only directories are inventoried, not silently counted as projects.",
+      "nativeConcurrency": 1,
+      "workerBudgetSeconds": 240,
+      "primaryPopulation": 95,
+      "supplementalPopulation": 8,
+      "discoveryAudit": "Independent frozen-tree preset audit adds all configured data-plane projects outside conventional data-plane paths; excluded config-only/fragment-only directories remain inventoried.",
+      "nonExecutableOutsidePathConfigs": [
+        "specification/discovery/Discovery.Combined"
+      ],
+      "batches": [
+        "data-plane",
+        "data-plane-supplement"
+      ]
+    }
+  },
+  "controls": {
+    "nativeRequestBody": "passed",
+    "portable": {
+      "passed": 37,
+      "failed": 0,
+      "nonApplicable": 6,
+      "reason": "Six resource-group-path-parameter fixtures require an unrelated ARM rule not registered in this candidate; all other 37 controls apply and passed."
+    }
+  },
+  "policies": {
+    "wholeSourceCustomizations": "Preserved; do not suppress or normalize known Search differences.",
+    "sourceSuppressions": "Retained",
+    "defaultActivation": "Not assessed by target-only project workers; separate activation controls retained.",
+    "equivalence": "Not determined by equal or zero counts.",
+    "failedOrUnsupported": "Unassessed, never counted as clean.",
+    "ruleEdits": "Not authorized as part of validation."
+  }
+}

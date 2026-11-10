@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "slug": "002-ai-contentunderstanding",
+  "sourcePath": "specification/ai/data-plane/ContentUnderstanding",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/preview/2026-06-01-preview/ContentUnderstanding.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c5bf28571c83d2afe3edb9afaf52d41305d458eeda691de62fbdcf50fb9c5e14"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/stable/2025-11-01/ContentUnderstanding.json",
+      "apiVersion": "2025-11-01",
+      "format": "swagger-2.0",
+      "sha256": "fe51278fcfb46849fb9924143ed66c1c77df48a16572265480d2b0e3ffc21614"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/audioVisualContent.tsp",
+      "sha256": "9a858d959678a1ee81a973242146a45b0c1b2dd8747ab4051c5b31074ca9ecc6"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/client.tsp",
+      "sha256": "86f34da8332a787eb7335571fecae07f97a3053534d947875643898eb1cb544f"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/documentContent.tsp",
+      "sha256": "c24d15802165f9a83d0f04269cfffa92ba14c19e808249c2219c0533e5ccd9c9"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/main.tsp",
+      "sha256": "319710587648416f6b5df38f58edfded7ce45634df53c84e8e56fdefe9bce9c4"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/models.tsp",
+      "sha256": "1f665e47746064b9605e04ca664f9ec932f7a3641ba1564add561fb76a57527c"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/personDirectoryModels.tsp",
+      "sha256": "f51a84083898b7f10c6124f382b3cbdecafc13754ad47c46b7ef7ad8d9500a0d"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/personDirectoryRoutes.tsp",
+      "sha256": "76f5d12e72cefe25265e74c2ff06dce0f4cf5e49c037d0fdb96875ef2a438ccc"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/routes.tsp",
+      "sha256": "16c71180f43e02f6bcde85ab5c1996de4e12ed368272bf194c7b55c2d2c3433f"
+    },
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/tspconfig.yaml",
+      "sha256": "865456902a50a6f4ad3cb97036cd180cb3e2662c15c669848b6bea7848fcea38"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/ContentUnderstanding",
+  "swaggerOutputPattern": "{version-status}/{version}/ContentUnderstanding.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/preview/2026-06-01-preview/ContentUnderstanding.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c5bf28571c83d2afe3edb9afaf52d41305d458eeda691de62fbdcf50fb9c5e14"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

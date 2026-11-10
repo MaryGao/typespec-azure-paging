@@ -1,0 +1,25 @@
+{
+  "project": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service",
+  "slug": "042-deviceprovisioningservices-deviceprovisioningservices-service",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:30:10.906Z",
+    "finishedAt": "2026-11-10T01:30:15.543Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:30:15.548Z",
+    "finishedAt": "2026-11-10T01:30:17.620Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

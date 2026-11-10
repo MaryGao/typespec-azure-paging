@@ -1,0 +1,25 @@
+{
+  "project": "specification/storage/data-plane/FileStorage",
+  "slug": "088-storage-filestorage",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:35:12.895Z",
+    "finishedAt": "2026-11-10T01:35:17.697Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:35:17.713Z",
+    "finishedAt": "2026-11-10T01:35:19.795Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

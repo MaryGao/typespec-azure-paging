@@ -1,0 +1,46 @@
+{
+  "index": 63,
+  "slug": "063-machinelearningservices-registrydiscovery",
+  "sourcePath": "specification/machinelearningservices/data-plane/RegistryDiscovery",
+  "swaggerCandidates": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/stable/v1.0/registry-discovery.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "6efa4836b10e032717bcd35793255696bf16cdf317a16e135682408221fbbdd8"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/main.tsp",
+      "sha256": "dd9abd45015815f3098d59d3fc6b7b204eb1c52494eb08e8be9dfff7da00aeb6"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/models.tsp",
+      "sha256": "27e0e1d227f2da67d1cd32bb9b5891cac2a61b35ade31947c5cfbff1dc709420"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/routes.tsp",
+      "sha256": "1e89b2ddc7470541c44b6906d059bce76bf38b4a87915fe07c493eb5498be2ba"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/tspconfig.yaml",
+      "sha256": "cfe387882f020a1090ac45947ef4863e734de7e5e7c03383a2569b2e5ea347d0"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/machinelearningservices/data-plane/RegistryDiscovery",
+  "swaggerOutputPattern": "{version-status}/{version}/registry-discovery.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "v1.0",
+  "swaggerFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/stable/v1.0/registry-discovery.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "6efa4836b10e032717bcd35793255696bf16cdf317a16e135682408221fbbdd8"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

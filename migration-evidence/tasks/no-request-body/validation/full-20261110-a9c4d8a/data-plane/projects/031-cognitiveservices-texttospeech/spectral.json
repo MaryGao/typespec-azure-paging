@@ -1,0 +1,167 @@
+{
+  "project": "specification/cognitiveservices/data-plane/TextToSpeech",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/stable/2026-01-01/texttospeech.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "5b2457baf70aa42f593ebf25373cfcaa488cfe299a750e9ea7c9cbe5051c2601",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/basemodels",
+          "verb": "get",
+          "operationId": "BaseModels_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/consents",
+          "verb": "get",
+          "operationId": "Consents_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/consents/{id}",
+          "verb": "get",
+          "operationId": "Consents_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/consents/{id}",
+          "verb": "delete",
+          "operationId": "Consents_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/endpoints",
+          "verb": "get",
+          "operationId": "Endpoints_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/endpoints/{id}",
+          "verb": "get",
+          "operationId": "Endpoints_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/endpoints/{id}",
+          "verb": "delete",
+          "operationId": "Endpoints_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelrecipes",
+          "verb": "get",
+          "operationId": "Models_ListRecipes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/models",
+          "verb": "get",
+          "operationId": "Models_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/models/{id}",
+          "verb": "get",
+          "operationId": "Models_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/models/{id}",
+          "verb": "delete",
+          "operationId": "Models_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations/{id}",
+          "verb": "get",
+          "operationId": "Operations_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/personalvoices",
+          "verb": "get",
+          "operationId": "PersonalVoices_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/personalvoices/{id}",
+          "verb": "get",
+          "operationId": "PersonalVoices_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/personalvoices/{id}",
+          "verb": "delete",
+          "operationId": "PersonalVoices_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects",
+          "verb": "get",
+          "operationId": "Projects_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{id}",
+          "verb": "get",
+          "operationId": "Projects_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{id}",
+          "verb": "delete",
+          "operationId": "Projects_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/trainingsets",
+          "verb": "get",
+          "operationId": "TrainingSets_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/trainingsets/{id}",
+          "verb": "get",
+          "operationId": "TrainingSets_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/trainingsets/{id}",
+          "verb": "delete",
+          "operationId": "TrainingSets_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

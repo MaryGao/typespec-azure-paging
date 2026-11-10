@@ -1,0 +1,245 @@
+{
+  "project": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+      "apiVersion": "2026-03-20-preview",
+      "format": "swagger-2.0",
+      "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/businessdomains",
+          "verb": "get",
+          "operationId": "BusinessDomain_Enumerate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/businessdomains/{domainId}",
+          "verb": "get",
+          "operationId": "BusinessDomain_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/businessdomains/{domainId}",
+          "verb": "delete",
+          "operationId": "BusinessDomain_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements",
+          "verb": "get",
+          "operationId": "CriticalDataElements_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements/{criticalDataElementId}",
+          "verb": "get",
+          "operationId": "CriticalDataElements_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements/{criticalDataElementId}",
+          "verb": "delete",
+          "operationId": "CriticalDataElements_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements/{criticalDataElementId}/relationships",
+          "verb": "get",
+          "operationId": "CriticalDataElements_ListRelationships",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements/{criticalDataElementId}/relationships",
+          "verb": "delete",
+          "operationId": "CriticalDataElements_DeleteRelationship",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataAssets",
+          "verb": "get",
+          "operationId": "DataAssets_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataAssets/{dataAssetId}",
+          "verb": "get",
+          "operationId": "DataAssets_GetById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataAssets/{dataAssetId}",
+          "verb": "delete",
+          "operationId": "DataAssets_DeleteById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataAssets/{dataAssetId}/relationships",
+          "verb": "get",
+          "operationId": "DataAssets_ListRelationships",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataAssets/{dataAssetId}/relationships",
+          "verb": "delete",
+          "operationId": "DataAssets_DeleteRelationship",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataColumns/{id}",
+          "verb": "get",
+          "operationId": "DataColumns_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataColumns/{dataColumnId}/relationships",
+          "verb": "get",
+          "operationId": "DataColumns_ListRelatedEntities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataColumns/{dataColumnId}/relationships",
+          "verb": "delete",
+          "operationId": "DataColumns_DeleteRelated",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts",
+          "verb": "get",
+          "operationId": "DataProducts_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}",
+          "verb": "get",
+          "operationId": "DataProducts_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}",
+          "verb": "delete",
+          "operationId": "DataProducts_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/relationships",
+          "verb": "get",
+          "operationId": "DataProducts_ListRelationships",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/relationships",
+          "verb": "delete",
+          "operationId": "DataProducts_DeleteRelationship",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives",
+          "verb": "get",
+          "operationId": "Okr_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives/{objectiveId}",
+          "verb": "get",
+          "operationId": "Okr_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives/{objectiveId}",
+          "verb": "delete",
+          "operationId": "Okr_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives/{objectiveId}/keyResults",
+          "verb": "get",
+          "operationId": "Okr_ListKeyResults",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives/{objectiveId}/keyResults/{keyResultId}",
+          "verb": "get",
+          "operationId": "Okr_GetKeyResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/objectives/{objectiveId}/keyResults/{keyResultId}",
+          "verb": "delete",
+          "operationId": "Okr_DeleteKeyResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/policies",
+          "verb": "get",
+          "operationId": "Policies_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms",
+          "verb": "get",
+          "operationId": "Terms_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}",
+          "verb": "get",
+          "operationId": "Terms_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}",
+          "verb": "delete",
+          "operationId": "Terms_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}/hierarchies",
+          "verb": "get",
+          "operationId": "Terms_ListHierarchy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}/relationships",
+          "verb": "get",
+          "operationId": "Terms_ListRelatedEntities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}/relationships",
+          "verb": "delete",
+          "operationId": "Terms_DeleteRelated",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,299 @@
+{
+  "project": "specification/deviceupdate/data-plane/duiothub",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/stable/2026-06-01/deviceupdate.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "ceb0ecac6c82adbc74730a59cc44944159bf7fce27235aff630dac03f65fcb65",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceClasses",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDeviceClasses",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceClasses/{deviceClassId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeviceClass",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceClasses/{deviceClassId}",
+          "verb": "delete",
+          "operationId": "DeviceManagement_DeleteDeviceClass",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceClasses/{deviceClassId}/installableUpdates",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListInstallableUpdatesForDeviceClass",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceDiagnostics/deviceHealth",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListHealthOfDevices",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceDiagnostics/logCollections",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListLogCollections",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceDiagnostics/logCollections/{operationId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetLogCollection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/deviceDiagnostics/logCollections/{operationId}/detailedStatus",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetLogCollectionDetailedStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/devices",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDevices",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/devices/{deviceId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDevice",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/devices/{deviceId}/modules/{moduleId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeviceModule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}",
+          "verb": "delete",
+          "operationId": "DeviceManagement_DeleteGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/bestUpdates",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListBestUpdatesForGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deployments",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDeploymentsForGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deployments/{deploymentId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deployments/{deploymentId}",
+          "verb": "delete",
+          "operationId": "DeviceManagement_DeleteDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deployments/{deploymentId}/status",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeploymentStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDeviceClassSubgroupsForGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}",
+          "verb": "delete",
+          "operationId": "DeviceManagement_DeleteDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/bestUpdates",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetBestUpdatesForDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/deployments",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDeploymentsForDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/deployments/{deploymentId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeploymentForDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/deployments/{deploymentId}",
+          "verb": "delete",
+          "operationId": "DeviceManagement_DeleteDeploymentForDeviceClassSubgroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/deployments/{deploymentId}/devicestates",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListDeviceStatesForDeviceClassSubgroupDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/deployments/{deploymentId}/status",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeviceClassSubgroupDeploymentStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/deviceClassSubgroups/{deviceClassId}/updateCompliance",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetDeviceClassSubgroupUpdateCompliance",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/groups/{groupId}/updateCompliance",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetUpdateComplianceForGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/operations",
+          "verb": "get",
+          "operationId": "DeviceManagement_ListOperationStatuses",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/management/updateCompliance",
+          "verb": "get",
+          "operationId": "DeviceManagement_GetUpdateCompliance",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListUpdates",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/operations",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListOperationStatuses",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeviceUpdate_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListProviders",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListNames",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names/{name}/versions",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "DeviceUpdate_GetUpdate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names/{name}/versions/{version}",
+          "verb": "delete",
+          "operationId": "DeviceUpdate_DeleteUpdate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names/{name}/versions/{version}/files",
+          "verb": "get",
+          "operationId": "DeviceUpdate_ListFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deviceUpdate/{instanceId}/updates/providers/{provider}/names/{name}/versions/{version}/files/{fileId}",
+          "verb": "get",
+          "operationId": "DeviceUpdate_GetFile",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

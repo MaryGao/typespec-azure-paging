@@ -1,0 +1,74 @@
+{
+  "index": 17,
+  "slug": "017-attestation-attestation",
+  "sourcePath": "specification/attestation/data-plane/Attestation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/attestation/data-plane/Attestation/preview/2022-09-01-preview/attestation.json",
+      "apiVersion": "2022-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f6d2d76e034acddf2366a44c3082ede020397ae4448c2b176a199d84dcd33249"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/stable/2018-09-01-preview/attestation.json",
+      "apiVersion": "2018-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "e2463a10f80d7920af8229f3cf722681f6a8dc59e56c04bc311dbf52df620d54"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/stable/2020-10-01/attestation.json",
+      "apiVersion": "2020-10-01",
+      "format": "swagger-2.0",
+      "sha256": "cb7cc16888f79bd487b0248d0c5a9c3dcee8425e3a7dc8084c0c7e115196b69a"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/stable/2022-08-01/attestation.json",
+      "apiVersion": "2022-08-01",
+      "format": "swagger-2.0",
+      "sha256": "1f2ecfa8c10137cae0fbfe329e8bb75624dacd6567e391607a3e512f09bce332"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/stable/2025-06-01/attestation.json",
+      "apiVersion": "2025-06-01",
+      "format": "swagger-2.0",
+      "sha256": "099ada4d5b2e10ae36c9a5af1792aae44d6c5d05c6a3332033a429832dd035db"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/attestation/data-plane/Attestation/client.tsp",
+      "sha256": "98f36889a9f91108ed1f7bc89458df5eec32f12339d34f49b7f22cf7b28e47a1"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/main.tsp",
+      "sha256": "240d402bff425086d55d75090f8b1744f66527438a6bb419207b39889c209215"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/models.tsp",
+      "sha256": "89c223d1ba94b602b7c99e30e29f86ec8be2fafe20a675c8f044741622ff9530"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/routes.tsp",
+      "sha256": "6e9bff11cc9547bf7f602cca44ae4f518d658eca0aa31613507688a1dbe890a0"
+    },
+    {
+      "file": "specification/attestation/data-plane/Attestation/tspconfig.yaml",
+      "sha256": "77d6e1f8076c27b344c6b9c69f74ff01df8e62a56d2f3a7393d96ef90b83d63e"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/attestation/data-plane/Attestation",
+  "swaggerOutputPattern": "{version-status}/{version}/attestation.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/attestation/data-plane/Attestation/stable/2025-06-01/attestation.json",
+      "apiVersion": "2025-06-01",
+      "format": "swagger-2.0",
+      "sha256": "099ada4d5b2e10ae36c9a5af1792aae44d6c5d05c6a3332033a429832dd035db"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

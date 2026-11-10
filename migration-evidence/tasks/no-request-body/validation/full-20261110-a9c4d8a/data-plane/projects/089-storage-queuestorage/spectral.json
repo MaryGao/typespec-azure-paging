@@ -1,0 +1,65 @@
+{
+  "project": "specification/storage/data-plane/QueueStorage",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/storage/data-plane/QueueStorage/stable/2026-04-06/generated_queue.json",
+      "apiVersion": "2026-04-06",
+      "format": "swagger-2.0",
+      "sha256": "e2d48d22444aa2603144bb86626035ace927fd7749883bcb2bba7b1b93200a11",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/",
+          "verb": "delete",
+          "operationId": "Queue_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages",
+          "verb": "get",
+          "operationId": "Queue_ReceiveMessages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages",
+          "verb": "delete",
+          "operationId": "Queue_Clear",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/{messageId}",
+          "verb": "delete",
+          "operationId": "Queue_DeleteMessage",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

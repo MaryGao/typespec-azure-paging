@@ -1,0 +1,65 @@
+{
+  "project": "specification/schemaregistry/data-plane/SchemaRegistry",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/stable/2023-07-01/schemaregistry.json",
+      "apiVersion": "2023-07-01",
+      "format": "swagger-2.0",
+      "sha256": "86c4aa7c776fee4ccc9e3903a018a4974557659067ea6da101d7966aafce4fb5",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/$schemaGroups",
+          "verb": "get",
+          "operationId": "ListSchemaGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/$schemaGroups/{groupName}/schemas/{schemaName}/versions",
+          "verb": "get",
+          "operationId": "ListSchemaVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/$schemaGroups/{groupName}/schemas/{schemaName}/versions/{schemaVersion}",
+          "verb": "get",
+          "operationId": "GetSchemaByVersion",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/$schemaGroups/$schemas/{id}",
+          "verb": "get",
+          "operationId": "GetSchemaById",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,62 @@
+{
+  "index": 88,
+  "slug": "088-storage-filestorage",
+  "sourcePath": "specification/storage/data-plane/FileStorage",
+  "swaggerCandidates": [
+    {
+      "file": "specification/storage/data-plane/FileStorage/stable/2026-06-06/generated_file.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "2bbd061a7bf09a504ca848fdb1ccc67f3c519a24379662fdac23443549aea5cc"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/stable/2026-10-06/generated_file.json",
+      "apiVersion": "2026-10-06",
+      "format": "swagger-2.0",
+      "sha256": "ad54bf8f9daa12010c1265f797032ab28a3eeb1c6c6e76bcef65e2935b116adc"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/stable/2026-12-06/generated_file.json",
+      "apiVersion": "2026-12-06",
+      "format": "swagger-2.0",
+      "sha256": "314cc7b11a0760e51e18bf67d205350a07e7c56c8429f176e3c3da83bdde5a67"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/storage/data-plane/FileStorage/client.tsp",
+      "sha256": "acec92120b8648a7aba559172c21f1477d1934f97ddb7883465c7ae536ed4107"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/main.tsp",
+      "sha256": "42f8e4896acd287a81739c37c9659664db5271fc36a542d3501e5b1bdcae6a19"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/models.tsp",
+      "sha256": "6e95a38ad31de614e50b355552a7c363210385496096565f4dfb3a98a3a48614"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/routes.tsp",
+      "sha256": "8d581c7786bf73492edc2d97dd3bf20bff0ae629545dec2042295bd9a99192bd"
+    },
+    {
+      "file": "specification/storage/data-plane/FileStorage/tspconfig.yaml",
+      "sha256": "658d7bb59ace0983e5c765770fc28e1cd76847daaf10592cbb1a8443335fb5c6"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/storage/data-plane/FileStorage",
+  "swaggerOutputPattern": "{version-status}/{version}/generated_file.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-12-06",
+  "swaggerFiles": [
+    {
+      "file": "specification/storage/data-plane/FileStorage/stable/2026-12-06/generated_file.json",
+      "apiVersion": "2026-12-06",
+      "format": "swagger-2.0",
+      "sha256": "314cc7b11a0760e51e18bf67d205350a07e7c56c8429f176e3c3da83bdde5a67"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

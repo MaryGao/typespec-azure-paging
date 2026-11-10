@@ -1,0 +1,25 @@
+{
+  "project": "specification/marketplacecatalog/data-plane/Products",
+  "slug": "073-marketplacecatalog-products",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:33:33.908Z",
+    "finishedAt": "2026-11-10T01:33:37.900Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:33:37.910Z",
+    "finishedAt": "2026-11-10T01:33:39.802Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

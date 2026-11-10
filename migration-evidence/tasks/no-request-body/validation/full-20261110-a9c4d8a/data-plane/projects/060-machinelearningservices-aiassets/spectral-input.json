@@ -1,0 +1,60 @@
+{
+  "index": 60,
+  "slug": "060-machinelearningservices-aiassets",
+  "sourcePath": "specification/machinelearningservices/data-plane/AIAssets",
+  "swaggerCandidates": [
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/preview/2024-04-01-preview/azure-ai-assets.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "adc783159053ce3f72506bb3666f4bc041fca5d0916716eb01366cbb7f909c01"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/preview/2024-05-01-preview/azure-ai-assets.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c247697f147aeefca96b5659797addd7a98e732ab3e0b6083c57c8431457277a"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/client.tsp",
+      "sha256": "552ff76f48700584ab06676f2aca772c017da33d979006b01fb267769626f71c"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/common.tsp",
+      "sha256": "fe83d46ed8579c7268da8b0b35365aafcb6c805f983ff19717a4823c267d0b0f"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/main.tsp",
+      "sha256": "5da5f018499fd115cc2149f43119bd4835805d83cfc19a09d2aeef57badbcb23"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/model.tsp",
+      "sha256": "73b358fd394a0c6b0ea5f29af7c009c9df8d91181003320923337c7e3a371806"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/routes.tsp",
+      "sha256": "ff30d458a57934506b9249ac0862af33c73b46fb35067e84496e47b30be7f985"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/tspconfig.yaml",
+      "sha256": "23650a63fdbaf8ca0f0fffd62c3980daf738ee418ebb70a91b02ae869ee62aa3"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/machinelearningservices/data-plane/AIAssets",
+  "swaggerOutputPattern": "{version-status}/{version}/azure-ai-assets.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-05-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/preview/2024-05-01-preview/azure-ai-assets.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c247697f147aeefca96b5659797addd7a98e732ab3e0b6083c57c8431457277a"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

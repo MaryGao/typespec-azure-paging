@@ -1,0 +1,56 @@
+{
+  "index": 14,
+  "slug": "014-applicationinsights-exporters",
+  "sourcePath": "specification/applicationinsights/data-plane/Exporters",
+  "swaggerCandidates": [
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/preview/2020-09-15_Preview/swagger.json",
+      "apiVersion": "2020-09-15_Preview",
+      "format": "swagger-2.0",
+      "sha256": "ebd593376c741c69e6b47db1f996acacd1f2bc8eac300eedf7557688bd15c90f"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/preview/v2.1/swagger.json",
+      "apiVersion": "v2.1",
+      "format": "swagger-2.0",
+      "sha256": "6d4abac56145439d9c9d1c9209c37eb47230d94537eaa2f7b6ac0df4a66c8159"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/client.tsp",
+      "sha256": "a15495381cda7b839c6b4fee32a0b3923115a860cda51bbf5199609813392d38"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/main.tsp",
+      "sha256": "df4d92a827d8043db4f5723e91c3e0d013ab65b3c398acb4f6e5d47335813b21"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/models.tsp",
+      "sha256": "2e826de6df50990b23f2a08fbb368f9c37448e9200d46d24907f230b1e8fb7b1"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/routes.tsp",
+      "sha256": "0bda57ae909db1418100c71d74830c2ae86078c903505f0ff8176d39ec26641f"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/tspconfig.yaml",
+      "sha256": "3b6b3de5b09a62f7ff40620771f10c851072057f5991ab4bdf4302f4f687110c"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/applicationinsights/data-plane/Exporters",
+  "swaggerOutputPattern": "preview/{version}/swagger.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2020-09-15_Preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/applicationinsights/data-plane/Exporters/preview/2020-09-15_Preview/swagger.json",
+      "apiVersion": "2020-09-15_Preview",
+      "format": "swagger-2.0",
+      "sha256": "ebd593376c741c69e6b47db1f996acacd1f2bc8eac300eedf7557688bd15c90f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

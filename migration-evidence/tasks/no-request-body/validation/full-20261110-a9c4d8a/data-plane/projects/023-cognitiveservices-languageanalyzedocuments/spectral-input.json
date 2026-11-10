@@ -1,0 +1,72 @@
+{
+  "index": 23,
+  "slug": "023-cognitiveservices-languageanalyzedocuments",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/preview/2023-11-15-preview/analyzedocuments.json",
+      "apiVersion": "2023-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "2737b4440aed5597d951c6bfd6416adaebbb6fafed1c16bd489bf8990f632f6f"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/preview/2024-11-15-preview/analyzedocuments.json",
+      "apiVersion": "2024-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "1057eecc5ed532becab074af070d33bb293930928666e6a74bdff7dba162f191"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/preview/2026-05-15-preview/analyzedocuments.json",
+      "apiVersion": "2026-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "09c340d2f923b17e2e3889c7c23f02148ab272ae28452db41aeceea74abb60de"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/stable/2026-05-01/analyzedocuments.json",
+      "apiVersion": "2026-05-01",
+      "format": "swagger-2.0",
+      "sha256": "41f9c06e9f607b327c3650562070809d9b2cb0464ef9a82212e5e7990625b758"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/client.tsp",
+      "sha256": "bc0c48093fdd5aa83e72bce74508f201ccdbc45ca6befb77ff3571aa78f26afa"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/main.tsp",
+      "sha256": "29c77978ff1211986c8fc97776c7aa60d4892c1eab55614e8117dfc9c0ef6f6a"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/models/common.models.tsp",
+      "sha256": "01b889ef0bc5ca18d4c572feef85fc4e14da5d723fb355f11b5a4b2bd88d6b42"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/models/pii.entity.recognition.tsp",
+      "sha256": "e06e4db4b3fbeb9cd05637852913710566abfaf5c879f46cf5ab1e48a7e6bd06"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/models/summarization.tsp",
+      "sha256": "e91003ef5581929aedddbe2dd4d7e3afb929b2c5c446553d400b6c6c6c90fbca"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/tspconfig.yaml",
+      "sha256": "f73bbdc7a77dcaec34823314bb499a7bc5632f3c663331fbf7d93a25b856c887"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments",
+  "swaggerOutputPattern": "{version-status}/{version}/analyzedocuments.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-05-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments/preview/2026-05-15-preview/analyzedocuments.json",
+      "apiVersion": "2026-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "09c340d2f923b17e2e3889c7c23f02148ab272ae28452db41aeceea74abb60de"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

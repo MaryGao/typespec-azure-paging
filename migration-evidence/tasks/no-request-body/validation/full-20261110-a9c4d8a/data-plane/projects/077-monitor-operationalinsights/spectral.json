@@ -1,0 +1,59 @@
+{
+  "project": "specification/monitor/data-plane/OperationalInsights",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/stable/v1/OperationalInsights.json",
+      "apiVersion": "v1",
+      "format": "swagger-2.0",
+      "sha256": "a204fb911757d795a636de7e47bc9285f672744bd0c037db8191272c95654235",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/{resourceId}/query",
+          "verb": "get",
+          "operationId": "Query_GetWithResourceId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceId}/metadata",
+          "verb": "get",
+          "operationId": "Metadata_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceId}/query",
+          "verb": "get",
+          "operationId": "Query_Get",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

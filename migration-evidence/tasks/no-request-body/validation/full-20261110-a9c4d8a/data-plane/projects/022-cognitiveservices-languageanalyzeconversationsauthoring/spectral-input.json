@@ -1,0 +1,78 @@
+{
+  "index": 22,
+  "slug": "022-cognitiveservices-languageanalyzeconversationsauthoring",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/preview/2025-05-15-preview/analyzeconversations-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "bd1e86d039adfc72eb4b0733a8fc609c1083fda910414d55b67f0c1cd7eee5c9"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/preview/2025-11-15-preview/analyzeconversations-authoring.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "c6a1fed58cf390875918eb9ad196ef41b3eb768cff63241665b621d26b7c6823"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/stable/2022-05-01/analyzeconversations-authoring.json",
+      "apiVersion": "2022-05-01",
+      "format": "swagger-2.0",
+      "sha256": "47fa481e7d3edac3d9c646484902f7231fd5392eec071ed805f6e23171a8f5e0"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/stable/2023-04-01/analyzeconversations-authoring.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "b308f43a7d25070a24d8cad802c04a47f46443dfa3a10f46a88b6814a237c08b"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/stable/2025-11-01/analyzeconversations-authoring.json",
+      "apiVersion": "2025-11-01",
+      "format": "swagger-2.0",
+      "sha256": "0b12a5c4681522212c2460ca6d83636894ee18a40f5a987a74efc665b06f09e2"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/client.tsp",
+      "sha256": "59242d85163c18bee2d40743b049520c3e3e90c2446f88de58bbad409a02a75c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/main.tsp",
+      "sha256": "f07bc48bfda878abc51a6919b9ea19526840f834bd00d0053273f010638394d7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/models/common.tsp",
+      "sha256": "3f496804cec7b4a558e844cacfe94b9e90ffc316d56b462ae6f63319e20fab2d"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/models/project.tsp",
+      "sha256": "0af2f4559f46b16e937c534272779e94163b3b1c3ab1641891a859c468147d4c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/routes.tsp",
+      "sha256": "3b593fe67b9e4b387f991ed441f5207b70f69e1a45bf50ca67d79de97a09e263"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/tspconfig.yaml",
+      "sha256": "afa0eaeb6d8087fe0b0d8c75f96f82a214fbbf41792214a005f7d7911c284535"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring",
+  "swaggerOutputPattern": "{version-status}/{version}/analyzeconversations-authoring.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-11-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/preview/2025-11-15-preview/analyzeconversations-authoring.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "c6a1fed58cf390875918eb9ad196ef41b3eb768cff63241665b621d26b7c6823"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

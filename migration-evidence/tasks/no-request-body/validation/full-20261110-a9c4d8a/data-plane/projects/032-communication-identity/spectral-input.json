@@ -1,0 +1,110 @@
+{
+  "index": 32,
+  "slug": "032-communication-identity",
+  "sourcePath": "specification/communication/data-plane/Identity",
+  "swaggerCandidates": [
+    {
+      "file": "specification/communication/data-plane/Identity/preview/2020-07-20-preview2/CommunicationIdentity.json",
+      "apiVersion": "2020-07-20-preview2",
+      "format": "swagger-2.0",
+      "sha256": "c0bb82e11b4c9b1c049b0ac51120b99d0204f28168445adb4769d38efaa49431"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/preview/2021-02-22-preview1/CommunicationIdentity.json",
+      "apiVersion": "2021-02-22-preview1",
+      "format": "swagger-2.0",
+      "sha256": "52bd93520067d0fc3610f0888256ecebadffe39cd5240aaa1e30097deb11ad90"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/preview/2021-03-31-preview1/CommunicationIdentity.json",
+      "apiVersion": "2021-03-31-preview1",
+      "format": "swagger-2.0",
+      "sha256": "d090b2de0052a83bdf9f5e718ecf3fab0de207667a728dce4cf0e7d8da350f86"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/preview/2021-10-31-preview/CommunicationIdentity.json",
+      "apiVersion": "2021-10-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "9823440bdadcec6784569429499f0a02b7bf66cf688ebca12b7a5c122383f5b8"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/preview/2025-03-02-preview/CommunicationIdentity.json",
+      "apiVersion": "2025-03-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "04b250b803d8df5cb26b427cc1fcbb405ee42281eb82e7d5263b559b3bd055c7"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2021-03-07/CommunicationIdentity.json",
+      "apiVersion": "2021-03-07",
+      "format": "swagger-2.0",
+      "sha256": "65a61a9769e82f1bd0ee34396274fa9f370e2d4d092c6c541c4dfd962fe689d6"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2022-06-01/CommunicationIdentity.json",
+      "apiVersion": "2022-06-01",
+      "format": "swagger-2.0",
+      "sha256": "54106fba85eecaebc22ac1a81ff3e7805a23b470455784838044da55356b2f80"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2022-10-01/CommunicationIdentity.json",
+      "apiVersion": "2022-10-01",
+      "format": "swagger-2.0",
+      "sha256": "7f85dc880062ad481aca51912fc83cd19a4acfab5448c26ac3dc6aaea56c3a1f"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2023-10-01/CommunicationIdentity.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "e0c76778c3e55707e96b4cd99692c7d3408357d2cfa61af924b9df64c8393241"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2025-06-30/CommunicationIdentity.json",
+      "apiVersion": "2025-06-30",
+      "format": "swagger-2.0",
+      "sha256": "6f165034a0c48a5cb35e0bc024352dfd5c3d43c2cdcd64b4fe15d4ebaeba2151"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2026-09-23/CommunicationIdentity.json",
+      "apiVersion": "2026-09-23",
+      "format": "swagger-2.0",
+      "sha256": "d9d9dc66eef4094ceeda7f73e0169ebbfd324983acd98239577097f2ae7224ec"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/communication/data-plane/Identity/client.tsp",
+      "sha256": "dd35c5b122384418f668a3f6d3fd1a632ee831c9aadc81fa12ed9b87e561f59c"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/main.tsp",
+      "sha256": "d77b99a1527eea671db8e4ac3f089e2241cdedd7ddb30f72f67d84abdd9d2116"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/models.tsp",
+      "sha256": "dc27d0043499fe2e797d52a10f7093740a5ae056576083b9f6e764cb1e867348"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/routes.tsp",
+      "sha256": "cd95549013493226e950cc1b75b68621346d27d2068a59c7b79ceef7a7c42180"
+    },
+    {
+      "file": "specification/communication/data-plane/Identity/tspconfig.yaml",
+      "sha256": "cefca10e655a74b17401c6344f8fd9d529689ae43777c1f8d819cdd2108604c7"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/communication/data-plane/Identity",
+  "swaggerOutputPattern": "{version-status}/{version}/CommunicationIdentity.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-09-23",
+  "swaggerFiles": [
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2026-09-23/CommunicationIdentity.json",
+      "apiVersion": "2026-09-23",
+      "format": "swagger-2.0",
+      "sha256": "d9d9dc66eef4094ceeda7f73e0169ebbfd324983acd98239577097f2ae7224ec"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

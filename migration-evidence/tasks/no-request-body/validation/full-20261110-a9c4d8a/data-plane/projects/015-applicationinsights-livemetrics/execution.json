@@ -1,0 +1,25 @@
+{
+  "project": "specification/applicationinsights/data-plane/LiveMetrics",
+  "slug": "015-applicationinsights-livemetrics",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:27:19.262Z",
+    "finishedAt": "2026-11-10T01:27:23.751Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:27:23.753Z",
+    "finishedAt": "2026-11-10T01:27:25.638Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

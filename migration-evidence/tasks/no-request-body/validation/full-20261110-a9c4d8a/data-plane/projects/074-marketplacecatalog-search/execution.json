@@ -1,0 +1,25 @@
+{
+  "project": "specification/marketplacecatalog/data-plane/Search",
+  "slug": "074-marketplacecatalog-search",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:33:39.811Z",
+    "finishedAt": "2026-11-10T01:33:43.797Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:33:43.810Z",
+    "finishedAt": "2026-11-10T01:33:45.646Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

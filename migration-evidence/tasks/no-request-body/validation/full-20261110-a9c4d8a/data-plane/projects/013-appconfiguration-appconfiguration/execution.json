@@ -1,0 +1,25 @@
+{
+  "project": "specification/appconfiguration/data-plane/AppConfiguration",
+  "slug": "013-appconfiguration-appconfiguration",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:27:06.812Z",
+    "finishedAt": "2026-11-10T01:27:11.116Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:27:11.118Z",
+    "finishedAt": "2026-11-10T01:27:13.096Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

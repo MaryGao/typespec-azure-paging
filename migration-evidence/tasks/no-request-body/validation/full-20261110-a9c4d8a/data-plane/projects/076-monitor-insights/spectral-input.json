@@ -1,0 +1,68 @@
+{
+  "index": 76,
+  "slug": "076-monitor-insights",
+  "sourcePath": "specification/monitor/data-plane/Insights",
+  "swaggerCandidates": [
+    {
+      "file": "specification/monitor/data-plane/Insights/preview/2023-03-01-preview/metricBatch.json",
+      "apiVersion": "2023-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a5bfe58e450cb2f1c794606e4ae5e115a630e4a10fef442b2f375478270a635b"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/preview/2023-05-01-preview/metricBatch.json",
+      "apiVersion": "2023-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "23b83fdbaa7b32a4758b7d4a7900fdce1d8171e05c59854eda89cbdda3fada0b"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/stable/2023-10-01/metricBatch.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "69964f0a31d40e2e99d621227cbaa458db41da263127a71c10582b6864a1fcf9"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/stable/2024-02-01/metricBatch.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "af342767e7a836813c9cc730d1ee6ef95603bdd9d363125c170e71b6697308b1"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/monitor/data-plane/Insights/client.tsp",
+      "sha256": "6b05223f516fe19d63837ac43ef176bb70560c13a30ddb90e97fa9c748cc6e2c"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/main.tsp",
+      "sha256": "619d816fc369d16845117d848c71018bdb2f3b7c8e1ddeb440e896a7b1f8e7cd"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/models.tsp",
+      "sha256": "289daa840525ead4368adf83b5dbba883adcaf59e1f188e2346f1e2fac9145a5"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/routes.tsp",
+      "sha256": "808390ce9f68457f73f52bd82d5204f002f19b736d0b745d1c930d4aabd11131"
+    },
+    {
+      "file": "specification/monitor/data-plane/Insights/tspconfig.yaml",
+      "sha256": "262f54768332bc7b2260f89ab7a7ee5556b1eab30a17d28d591ff3acb08848b2"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/monitor/data-plane/Insights",
+  "swaggerOutputPattern": "{version-status}/{version}/metricBatch.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-02-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/monitor/data-plane/Insights/stable/2024-02-01/metricBatch.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "af342767e7a836813c9cc730d1ee6ef95603bdd9d363125c170e71b6697308b1"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

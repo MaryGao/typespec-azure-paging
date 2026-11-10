@@ -1,0 +1,25 @@
+{
+  "project": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality",
+  "slug": "006-purviewdatagovernace-azure.analaytics.purview.dataquality",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:37:02.194Z",
+    "finishedAt": "2026-11-10T01:37:06.829Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:37:06.840Z",
+    "finishedAt": "2026-11-10T01:37:08.948Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

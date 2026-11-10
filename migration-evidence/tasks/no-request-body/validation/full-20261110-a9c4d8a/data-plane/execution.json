@@ -1,0 +1,2386 @@
+{
+  "completed": 95,
+  "total": 95,
+  "results": [
+    {
+      "project": "specification/ai-foundry/data-plane/Foundry",
+      "slug": "000-ai-foundry-foundry",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:25:32.009Z",
+        "finishedAt": "2026-11-10T01:25:42.741Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:25:42.744Z",
+        "finishedAt": "2026-11-10T01:25:44.627Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/AIAgents",
+      "slug": "001-ai-aiagents",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:25:44.635Z",
+        "finishedAt": "2026-11-10T01:25:50.761Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:25:50.764Z",
+        "finishedAt": "2026-11-10T01:25:52.937Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/ContentUnderstanding",
+      "slug": "002-ai-contentunderstanding",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:25:52.942Z",
+        "finishedAt": "2026-11-10T01:25:57.879Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:25:57.881Z",
+        "finishedAt": "2026-11-10T01:25:59.909Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/DocumentIntelligence",
+      "slug": "003-ai-documentintelligence",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:25:59.915Z",
+        "finishedAt": "2026-11-10T01:26:04.453Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:04.455Z",
+        "finishedAt": "2026-11-10T01:26:06.384Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/Face",
+      "slug": "004-ai-face",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:06.389Z",
+        "finishedAt": "2026-11-10T01:26:11.155Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:11.157Z",
+        "finishedAt": "2026-11-10T01:26:13.233Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/HealthInsights",
+      "slug": "005-ai-healthinsights",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:13.238Z",
+        "finishedAt": "2026-11-10T01:26:17.599Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:17.601Z",
+        "finishedAt": "2026-11-10T01:26:19.719Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/ImageAnalysis",
+      "slug": "006-ai-imageanalysis",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:19.724Z",
+        "finishedAt": "2026-11-10T01:26:23.970Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:23.974Z",
+        "finishedAt": "2026-11-10T01:26:25.825Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/ModelInference",
+      "slug": "007-ai-modelinference",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:25.829Z",
+        "finishedAt": "2026-11-10T01:26:29.928Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:29.930Z",
+        "finishedAt": "2026-11-10T01:26:31.787Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/OpenAIAssistants",
+      "slug": "008-ai-openaiassistants",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:31.792Z",
+        "finishedAt": "2026-11-10T01:26:36.884Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:36.888Z",
+        "finishedAt": "2026-11-10T01:26:38.988Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/ai/data-plane/VoiceLive",
+      "slug": "009-ai-voicelive",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:38.993Z",
+        "finishedAt": "2026-11-10T01:26:43.568Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:43.571Z",
+        "finishedAt": "2026-11-10T01:26:45.585Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/apicenter/data-plane/ApiCenter",
+      "slug": "010-apicenter-apicenter",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:45.591Z",
+        "finishedAt": "2026-11-10T01:26:50.064Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:50.066Z",
+        "finishedAt": "2026-11-10T01:26:51.945Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/app/data-plane/ContainerApps",
+      "slug": "011-app-containerapps",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:51.951Z",
+        "finishedAt": "2026-11-10T01:26:57.489Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:26:57.492Z",
+        "finishedAt": "2026-11-10T01:26:59.782Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/app/data-plane/DynamicSessions",
+      "slug": "012-app-dynamicsessions",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:26:59.786Z",
+        "finishedAt": "2026-11-10T01:27:04.945Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:04.947Z",
+        "finishedAt": "2026-11-10T01:27:06.808Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/appconfiguration/data-plane/AppConfiguration",
+      "slug": "013-appconfiguration-appconfiguration",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:06.812Z",
+        "finishedAt": "2026-11-10T01:27:11.116Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:11.118Z",
+        "finishedAt": "2026-11-10T01:27:13.096Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/applicationinsights/data-plane/Exporters",
+      "slug": "014-applicationinsights-exporters",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:13.101Z",
+        "finishedAt": "2026-11-10T01:27:17.275Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:17.278Z",
+        "finishedAt": "2026-11-10T01:27:19.258Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/applicationinsights/data-plane/LiveMetrics",
+      "slug": "015-applicationinsights-livemetrics",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:19.262Z",
+        "finishedAt": "2026-11-10T01:27:23.751Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:23.753Z",
+        "finishedAt": "2026-11-10T01:27:25.638Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/artifactsigning/data-plane/ArtifactSigning",
+      "slug": "016-artifactsigning-artifactsigning",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:25.643Z",
+        "finishedAt": "2026-11-10T01:27:29.722Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:29.725Z",
+        "finishedAt": "2026-11-10T01:27:31.744Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/attestation/data-plane/Attestation",
+      "slug": "017-attestation-attestation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:31.749Z",
+        "finishedAt": "2026-11-10T01:27:35.853Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:35.857Z",
+        "finishedAt": "2026-11-10T01:27:37.692Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/batch/data-plane/Batch",
+      "slug": "018-batch-batch",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:37.698Z",
+        "finishedAt": "2026-11-10T01:27:42.519Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:42.524Z",
+        "finishedAt": "2026-11-10T01:27:44.691Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/AnomalyDetector",
+      "slug": "019-cognitiveservices-anomalydetector",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:44.696Z",
+        "finishedAt": "2026-11-10T01:27:48.776Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:48.779Z",
+        "finishedAt": "2026-11-10T01:27:50.635Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/ContentSafety",
+      "slug": "020-cognitiveservices-contentsafety",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:50.643Z",
+        "finishedAt": "2026-11-10T01:27:54.839Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:27:54.842Z",
+        "finishedAt": "2026-11-10T01:27:56.707Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations",
+      "slug": "021-cognitiveservices-languageanalyzeconversations",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:27:56.713Z",
+        "finishedAt": "2026-11-10T01:28:01.183Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:01.186Z",
+        "finishedAt": "2026-11-10T01:28:03.121Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring",
+      "slug": "022-cognitiveservices-languageanalyzeconversationsauthoring",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:03.127Z",
+        "finishedAt": "2026-11-10T01:28:07.918Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:07.921Z",
+        "finishedAt": "2026-11-10T01:28:09.880Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeDocuments",
+      "slug": "023-cognitiveservices-languageanalyzedocuments",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:09.886Z",
+        "finishedAt": "2026-11-10T01:28:14.141Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:14.145Z",
+        "finishedAt": "2026-11-10T01:28:16.060Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeText",
+      "slug": "024-cognitiveservices-languageanalyzetext",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:16.066Z",
+        "finishedAt": "2026-11-10T01:28:20.554Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:20.565Z",
+        "finishedAt": "2026-11-10T01:28:22.592Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring",
+      "slug": "025-cognitiveservices-languageanalyzetextauthoring",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:22.601Z",
+        "finishedAt": "2026-11-10T01:28:27.236Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:27.240Z",
+        "finishedAt": "2026-11-10T01:28:29.265Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageQuestionAnswering",
+      "slug": "026-cognitiveservices-languagequestionanswering",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:29.271Z",
+        "finishedAt": "2026-11-10T01:28:33.412Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:33.416Z",
+        "finishedAt": "2026-11-10T01:28:35.259Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring",
+      "slug": "027-cognitiveservices-languagequestionansweringauthoring",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:35.265Z",
+        "finishedAt": "2026-11-10T01:28:39.605Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:39.608Z",
+        "finishedAt": "2026-11-10T01:28:41.546Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/OpenAIInference",
+      "slug": "028-cognitiveservices-openaiinference",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:41.552Z",
+        "finishedAt": "2026-11-10T01:28:47.150Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:47.153Z",
+        "finishedAt": "2026-11-10T01:28:49.146Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/SpeechTranscription",
+      "slug": "029-cognitiveservices-speechtranscription",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:49.154Z",
+        "finishedAt": "2026-11-10T01:28:53.571Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:53.576Z",
+        "finishedAt": "2026-11-10T01:28:55.405Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/SpeechVideoTranslation",
+      "slug": "030-cognitiveservices-speechvideotranslation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:28:55.411Z",
+        "finishedAt": "2026-11-10T01:28:59.526Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:28:59.537Z",
+        "finishedAt": "2026-11-10T01:29:01.382Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cognitiveservices/data-plane/TextToSpeech",
+      "slug": "031-cognitiveservices-texttospeech",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:01.388Z",
+        "finishedAt": "2026-11-10T01:29:06.304Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:06.311Z",
+        "finishedAt": "2026-11-10T01:29:08.389Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/communication/data-plane/Identity",
+      "slug": "032-communication-identity",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:08.397Z",
+        "finishedAt": "2026-11-10T01:29:12.770Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:12.778Z",
+        "finishedAt": "2026-11-10T01:29:14.697Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/communication/data-plane/JobRouter",
+      "slug": "033-communication-jobrouter",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:14.705Z",
+        "finishedAt": "2026-11-10T01:29:19.335Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:19.339Z",
+        "finishedAt": "2026-11-10T01:29:21.348Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/communication/data-plane/Messages",
+      "slug": "034-communication-messages",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:21.352Z",
+        "finishedAt": "2026-11-10T01:29:25.796Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:25.802Z",
+        "finishedAt": "2026-11-10T01:29:27.699Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/confidentialledger/data-plane/CodeTransparency",
+      "slug": "035-confidentialledger-codetransparency",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:27.706Z",
+        "finishedAt": "2026-11-10T01:29:31.806Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:31.810Z",
+        "finishedAt": "2026-11-10T01:29:33.759Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/confidentialledger/data-plane/ConfidentialLedger",
+      "slug": "036-confidentialledger-confidentialledger",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:33.771Z",
+        "finishedAt": "2026-11-10T01:29:37.900Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:37.905Z",
+        "finishedAt": "2026-11-10T01:29:39.771Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity",
+      "slug": "037-confidentialledger-confidentialledgeridentity",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:39.778Z",
+        "finishedAt": "2026-11-10T01:29:43.773Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:43.778Z",
+        "finishedAt": "2026-11-10T01:29:45.708Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/containerregistry/data-plane/Registry",
+      "slug": "038-containerregistry-registry",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:45.721Z",
+        "finishedAt": "2026-11-10T01:29:49.829Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:49.834Z",
+        "finishedAt": "2026-11-10T01:29:51.733Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/cosmos-db/data-plane/Tables",
+      "slug": "039-cosmos-db-tables",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:51.742Z",
+        "finishedAt": "2026-11-10T01:29:55.900Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:29:55.906Z",
+        "finishedAt": "2026-11-10T01:29:57.742Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/devcenter/data-plane/DevCenter",
+      "slug": "040-devcenter-devcenter",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:29:57.750Z",
+        "finishedAt": "2026-11-10T01:30:02.524Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:02.530Z",
+        "finishedAt": "2026-11-10T01:30:04.521Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device",
+      "slug": "041-deviceprovisioningservices-deviceprovisioningservices-device",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:04.531Z",
+        "finishedAt": "2026-11-10T01:30:08.715Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:08.721Z",
+        "finishedAt": "2026-11-10T01:30:10.897Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service",
+      "slug": "042-deviceprovisioningservices-deviceprovisioningservices-service",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:10.906Z",
+        "finishedAt": "2026-11-10T01:30:15.543Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:15.548Z",
+        "finishedAt": "2026-11-10T01:30:17.620Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/deviceupdate/data-plane/duiothub",
+      "slug": "043-deviceupdate-duiothub",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:17.628Z",
+        "finishedAt": "2026-11-10T01:30:22.111Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:22.117Z",
+        "finishedAt": "2026-11-10T01:30:24.027Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/deviceupdate/data-plane/sudeviceregistry",
+      "slug": "044-deviceupdate-sudeviceregistry",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:24.039Z",
+        "finishedAt": "2026-11-10T01:30:28.218Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:28.224Z",
+        "finishedAt": "2026-11-10T01:30:30.203Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/eventgrid/data-plane/EventGridNamespace",
+      "slug": "045-eventgrid-eventgridnamespace",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:30.215Z",
+        "finishedAt": "2026-11-10T01:30:34.489Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:34.495Z",
+        "finishedAt": "2026-11-10T01:30:36.369Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/eventgrid/data-plane/EventGridSystemEvents",
+      "slug": "046-eventgrid-eventgridsystemevents",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:36.376Z",
+        "finishedAt": "2026-11-10T01:30:41.059Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:41.066Z",
+        "finishedAt": "2026-11-10T01:30:43.050Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/healthdataaiservices/data-plane/HealthDataAIServices",
+      "slug": "047-healthdataaiservices-healthdataaiservices",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:43.059Z",
+        "finishedAt": "2026-11-10T01:30:47.339Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:47.345Z",
+        "finishedAt": "2026-11-10T01:30:49.176Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/inferenceservice/data-plane/InferenceService",
+      "slug": "048-inferenceservice-inferenceservice",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:49.184Z",
+        "finishedAt": "2026-11-10T01:30:53.189Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:53.194Z",
+        "finishedAt": "2026-11-10T01:30:54.989Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration",
+      "slug": "049-keyvault-administration",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:30:54.998Z",
+        "finishedAt": "2026-11-10T01:30:59.315Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:30:59.321Z",
+        "finishedAt": "2026-11-10T01:31:01.239Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/BackupRestore",
+      "slug": "050-keyvault-administration-backuprestore",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:01.247Z",
+        "finishedAt": "2026-11-10T01:31:05.282Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:05.287Z",
+        "finishedAt": "2026-11-10T01:31:07.078Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/EKM",
+      "slug": "051-keyvault-administration-ekm",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:07.087Z",
+        "finishedAt": "2026-11-10T01:31:11.121Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:11.128Z",
+        "finishedAt": "2026-11-10T01:31:12.925Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/RBAC",
+      "slug": "052-keyvault-administration-rbac",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:12.933Z",
+        "finishedAt": "2026-11-10T01:31:16.944Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:16.950Z",
+        "finishedAt": "2026-11-10T01:31:18.724Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/Settings",
+      "slug": "053-keyvault-administration-settings",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:18.733Z",
+        "finishedAt": "2026-11-10T01:31:22.740Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:22.748Z",
+        "finishedAt": "2026-11-10T01:31:24.517Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Certificates",
+      "slug": "054-keyvault-certificates",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:24.527Z",
+        "finishedAt": "2026-11-10T01:31:28.759Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:28.766Z",
+        "finishedAt": "2026-11-10T01:31:30.632Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Keys",
+      "slug": "055-keyvault-keys",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:30.641Z",
+        "finishedAt": "2026-11-10T01:31:35.038Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:35.044Z",
+        "finishedAt": "2026-11-10T01:31:37.031Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Secrets",
+      "slug": "056-keyvault-secrets",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:37.040Z",
+        "finishedAt": "2026-11-10T01:31:41.584Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:41.590Z",
+        "finishedAt": "2026-11-10T01:31:44.024Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/SecurityDomain",
+      "slug": "057-keyvault-securitydomain",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:44.036Z",
+        "finishedAt": "2026-11-10T01:31:49.664Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:49.672Z",
+        "finishedAt": "2026-11-10T01:31:51.795Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/loadtestservice/data-plane/loadtesting",
+      "slug": "058-loadtestservice-loadtesting",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:51.807Z",
+        "finishedAt": "2026-11-10T01:31:56.581Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:56.589Z",
+        "finishedAt": "2026-11-10T01:31:58.598Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/loadtestservice/data-plane/playwright",
+      "slug": "059-loadtestservice-playwright",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:58.607Z",
+        "finishedAt": "2026-11-10T01:32:02.927Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:02.935Z",
+        "finishedAt": "2026-11-10T01:32:04.776Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/AIAssets",
+      "slug": "060-machinelearningservices-aiassets",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:04.785Z",
+        "finishedAt": "2026-11-10T01:32:09.938Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:09.950Z",
+        "finishedAt": "2026-11-10T01:32:11.862Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/DatasetDataplane",
+      "slug": "061-machinelearningservices-datasetdataplane",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:11.875Z",
+        "finishedAt": "2026-11-10T01:32:16.515Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:16.522Z",
+        "finishedAt": "2026-11-10T01:32:18.474Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/ModelDataplane",
+      "slug": "062-machinelearningservices-modeldataplane",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:18.484Z",
+        "finishedAt": "2026-11-10T01:32:22.672Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:22.679Z",
+        "finishedAt": "2026-11-10T01:32:24.561Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/RegistryDiscovery",
+      "slug": "063-machinelearningservices-registrydiscovery",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:24.570Z",
+        "finishedAt": "2026-11-10T01:32:28.618Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:28.626Z",
+        "finishedAt": "2026-11-10T01:32:30.442Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/RunHistory",
+      "slug": "064-machinelearningservices-runhistory",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:30.453Z",
+        "finishedAt": "2026-11-10T01:32:35.075Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:35.082Z",
+        "finishedAt": "2026-11-10T01:32:37.113Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 3,
+      "swaggerRawCount": 3,
+      "nativeGet": 0,
+      "nativeDelete": 3
+    },
+    {
+      "project": "specification/machinelearningservices/data-plane/WorkspaceDataplane",
+      "slug": "065-machinelearningservices-workspacedataplane",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:37.124Z",
+        "finishedAt": "2026-11-10T01:32:41.296Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:41.303Z",
+        "finishedAt": "2026-11-10T01:32:43.283Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Geolocation",
+      "slug": "066-maps-geolocation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:43.292Z",
+        "finishedAt": "2026-11-10T01:32:48.457Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:48.465Z",
+        "finishedAt": "2026-11-10T01:32:50.410Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Render",
+      "slug": "067-maps-render",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:50.419Z",
+        "finishedAt": "2026-11-10T01:32:55.571Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:32:55.580Z",
+        "finishedAt": "2026-11-10T01:32:57.493Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Route",
+      "slug": "068-maps-route",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:32:57.504Z",
+        "finishedAt": "2026-11-10T01:33:02.848Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:02.856Z",
+        "finishedAt": "2026-11-10T01:33:04.857Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Search",
+      "slug": "069-maps-search",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:04.866Z",
+        "finishedAt": "2026-11-10T01:33:09.427Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:09.441Z",
+        "finishedAt": "2026-11-10T01:33:11.408Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Timezone",
+      "slug": "070-maps-timezone",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:11.417Z",
+        "finishedAt": "2026-11-10T01:33:16.579Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:16.588Z",
+        "finishedAt": "2026-11-10T01:33:18.779Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Traffic",
+      "slug": "071-maps-traffic",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:18.795Z",
+        "finishedAt": "2026-11-10T01:33:23.929Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:23.946Z",
+        "finishedAt": "2026-11-10T01:33:26.398Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/maps/data-plane/Weather",
+      "slug": "072-maps-weather",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:26.408Z",
+        "finishedAt": "2026-11-10T01:33:31.615Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:31.623Z",
+        "finishedAt": "2026-11-10T01:33:33.896Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/marketplacecatalog/data-plane/Products",
+      "slug": "073-marketplacecatalog-products",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:33.908Z",
+        "finishedAt": "2026-11-10T01:33:37.900Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:37.910Z",
+        "finishedAt": "2026-11-10T01:33:39.802Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/marketplacecatalog/data-plane/Search",
+      "slug": "074-marketplacecatalog-search",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:39.811Z",
+        "finishedAt": "2026-11-10T01:33:43.797Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:43.810Z",
+        "finishedAt": "2026-11-10T01:33:45.646Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/monitor/data-plane/Ingestion",
+      "slug": "075-monitor-ingestion",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:45.657Z",
+        "finishedAt": "2026-11-10T01:33:49.630Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:49.638Z",
+        "finishedAt": "2026-11-10T01:33:51.493Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/monitor/data-plane/Insights",
+      "slug": "076-monitor-insights",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:51.504Z",
+        "finishedAt": "2026-11-10T01:33:57.340Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:33:57.350Z",
+        "finishedAt": "2026-11-10T01:33:59.601Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/monitor/data-plane/OperationalInsights",
+      "slug": "077-monitor-operationalinsights",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:33:59.613Z",
+        "finishedAt": "2026-11-10T01:34:04.062Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:04.069Z",
+        "finishedAt": "2026-11-10T01:34:05.908Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/onlineexperimentation/data-plane/OnlineExperimentation",
+      "slug": "078-onlineexperimentation-onlineexperimentation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:05.918Z",
+        "finishedAt": "2026-11-10T01:34:09.947Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:09.956Z",
+        "finishedAt": "2026-11-10T01:34:11.815Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/purview/data-plane/datamap",
+      "slug": "079-purview-datamap",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:11.826Z",
+        "finishedAt": "2026-11-10T01:34:16.104Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:16.113Z",
+        "finishedAt": "2026-11-10T01:34:18.226Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 12,
+      "swaggerRawCount": 6,
+      "nativeGet": 0,
+      "nativeDelete": 12
+    },
+    {
+      "project": "specification/purviewdatagovernance/data-plane/DataAccess",
+      "slug": "080-purviewdatagovernance-dataaccess",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:18.238Z",
+        "finishedAt": "2026-11-10T01:34:22.759Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:22.766Z",
+        "finishedAt": "2026-11-10T01:34:24.802Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/purviewdatagovernance/data-plane/DataEstateHealth",
+      "slug": "081-purviewdatagovernance-dataestatehealth",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:24.813Z",
+        "finishedAt": "2026-11-10T01:34:28.988Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:28.997Z",
+        "finishedAt": "2026-11-10T01:34:30.912Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/quantum/data-plane/Quantum",
+      "slug": "082-quantum-quantum",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:30.929Z",
+        "finishedAt": "2026-11-10T01:34:35.777Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:35.791Z",
+        "finishedAt": "2026-11-10T01:34:37.704Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/riskiq/data-plane/Easm",
+      "slug": "083-riskiq-easm",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:37.715Z",
+        "finishedAt": "2026-11-10T01:34:42.379Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:42.388Z",
+        "finishedAt": "2026-11-10T01:34:44.455Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/schemaregistry/data-plane/SchemaRegistry",
+      "slug": "084-schemaregistry-schemaregistry",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:44.466Z",
+        "finishedAt": "2026-11-10T01:34:48.942Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:48.956Z",
+        "finishedAt": "2026-11-10T01:34:50.815Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/search/data-plane/Search",
+      "slug": "085-search-search",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:50.827Z",
+        "finishedAt": "2026-11-10T01:34:57.138Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:34:57.147Z",
+        "finishedAt": "2026-11-10T01:34:59.530Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/storage/data-plane/BlobStorage",
+      "slug": "086-storage-blobstorage",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:34:59.548Z",
+        "finishedAt": "2026-11-10T01:35:04.285Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:04.294Z",
+        "finishedAt": "2026-11-10T01:35:06.346Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/storage/data-plane/DataLakeStorage",
+      "slug": "087-storage-datalakestorage",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:06.358Z",
+        "finishedAt": "2026-11-10T01:35:10.923Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:10.933Z",
+        "finishedAt": "2026-11-10T01:35:12.883Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/storage/data-plane/FileStorage",
+      "slug": "088-storage-filestorage",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:12.895Z",
+        "finishedAt": "2026-11-10T01:35:17.697Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:17.713Z",
+        "finishedAt": "2026-11-10T01:35:19.795Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/storage/data-plane/QueueStorage",
+      "slug": "089-storage-queuestorage",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:19.809Z",
+        "finishedAt": "2026-11-10T01:35:24.171Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:24.186Z",
+        "finishedAt": "2026-11-10T01:35:26.121Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/translation/data-plane/DocumentTranslation",
+      "slug": "090-translation-documenttranslation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:26.134Z",
+        "finishedAt": "2026-11-10T01:35:30.439Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:30.448Z",
+        "finishedAt": "2026-11-10T01:35:32.379Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/translation/data-plane/TextTranslation",
+      "slug": "091-translation-texttranslation",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:32.396Z",
+        "finishedAt": "2026-11-10T01:35:36.786Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:36.796Z",
+        "finishedAt": "2026-11-10T01:35:38.713Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/webpubsub/data-plane/WebPubSub",
+      "slug": "092-webpubsub-webpubsub",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:38.725Z",
+        "finishedAt": "2026-11-10T01:35:42.983Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:42.993Z",
+        "finishedAt": "2026-11-10T01:35:44.940Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/webpubsub/data-plane/WebPubSubChat",
+      "slug": "093-webpubsub-webpubsubchat",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:44.953Z",
+        "finishedAt": "2026-11-10T01:35:49.143Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:49.152Z",
+        "finishedAt": "2026-11-10T01:35:51.058Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/widget/data-plane/WidgetAnalytics",
+      "slug": "094-widget-widgetanalytics",
+      "status": "assessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": true,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:35:51.071Z",
+        "finishedAt": "2026-11-10T01:35:55.126Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:35:55.136Z",
+        "finishedAt": "2026-11-10T01:35:56.985Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": 0,
+      "nativeGet": 0,
+      "nativeDelete": 0
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "project": "specification/containerregistry/data-plane/Registry",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/containerregistry/data-plane/Registry/stable/2021-07-01/containerregistry.json",
+      "apiVersion": "2021-07-01",
+      "format": "swagger-2.0",
+      "sha256": "be283057eb09a4aab50029474d045255127057aa3474c0b0d5c9a5ce122ee5ba",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/{nextBlobUuidLink}",
+          "verb": "get",
+          "operationId": "ContainerRegistryBlob_GetUploadStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{nextBlobUuidLink}",
+          "verb": "delete",
+          "operationId": "ContainerRegistryBlob_CancelUpload",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetProperties",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}",
+          "verb": "delete",
+          "operationId": "ContainerRegistry_DeleteRepository",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}/_manifests",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetManifests",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}/_manifests/{digest}",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetManifestProperties",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}/_tags",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetTags",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}/_tags/{reference}",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetTagProperties",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/{name}/_tags/{reference}",
+          "verb": "delete",
+          "operationId": "ContainerRegistry_DeleteTag",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/acr/v1/_catalog",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetRepositories",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/oauth2/token",
+          "verb": "get",
+          "operationId": "Authentication_GetAcrAccessTokenFromLogin",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/v2/{name}/blobs/{digest}",
+          "verb": "get",
+          "operationId": "ContainerRegistryBlob_GetBlob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/v2/{name}/blobs/{digest}",
+          "verb": "delete",
+          "operationId": "ContainerRegistryBlob_DeleteBlob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/v2/{name}/manifests/{reference}",
+          "verb": "get",
+          "operationId": "ContainerRegistry_GetManifest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/v2/{name}/manifests/{reference}",
+          "verb": "delete",
+          "operationId": "ContainerRegistry_DeleteManifest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/v2/",
+          "verb": "get",
+          "operationId": "ContainerRegistry_CheckDockerV2Support",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

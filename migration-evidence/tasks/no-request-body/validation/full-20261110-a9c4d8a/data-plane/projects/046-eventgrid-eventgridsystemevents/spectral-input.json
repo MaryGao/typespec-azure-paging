@@ -1,0 +1,356 @@
+{
+  "index": 46,
+  "slug": "046-eventgrid-eventgridsystemevents",
+  "sourcePath": "specification/eventgrid/data-plane/EventGridSystemEvents",
+  "swaggerCandidates": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/stable/2018-01-01/GeneratedSystemEvents.json",
+      "apiVersion": "2018-01-01",
+      "format": "swagger-2.0",
+      "sha256": "e823ee16d1eebd96083621ac16fdb72ad2b371c96354e8e894d22772f21e72eb"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/stable/2024-01-01/GeneratedSystemEvents.json",
+      "apiVersion": "2024-01-01",
+      "format": "swagger-2.0",
+      "sha256": "15ac309525665db15f178990d5062ade97f3f7850fd16529f28f6fe4b3f7b926"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AVS/AVS.tsp",
+      "sha256": "bd4162693abb3fdf7e34048a1a99494a7d48ad3f94f2af8510d5d243dafb301d"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AVS/AVSExample.tsp",
+      "sha256": "3267ebf23b0eb7d7725d0e9f81af2d7acffe475e4a9374705a022db6e4324825"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AVS/client.tsp",
+      "sha256": "11d9260be9e9b174758738a302e1f272c041cb1e767db387320413a158d278ea"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiCenter/ApiCenter.tsp",
+      "sha256": "8563c9596ef5407127de8cf513f1d8d4d82a73aa6a71fd893da68db7af235008"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiCenter/ApiCenterExample.tsp",
+      "sha256": "42b0a1ffc7d9cc4136dfc1757200382429869a9f7aa76f804ee9a594cb917780"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiCenter/client.tsp",
+      "sha256": "b28a72fc56f4cf9198ffec5afc78c64aa98cd4e5e2deea17f2cb525f45a5201f"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiManagement/ApiManagement.tsp",
+      "sha256": "fd7a254f4856998c618cab5209587bddbbccb1582b733bb525017b0e88061647"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiManagement/ApiManagementExample.tsp",
+      "sha256": "5c220f5faa64e163d03df66ee9541bef1be1ef16d589f236db9fd5d6c48b1c4e"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ApiManagement/client.tsp",
+      "sha256": "fca2b6d93c91dc02a6d5ee66807fbbefc911e1d7aa3ab41d9c7596157860318e"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AppConfiguration/AppConfiguration.tsp",
+      "sha256": "93bb75e53694c490df3be69020b7f49124793a36be4a4a50b2da207862d24623"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AppConfiguration/AppConfigurationExample.tsp",
+      "sha256": "40edf3ca79724c69c15a95f9650c002b064ac78ef55bd1e8c1ecea71389f4cf2"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.AppConfiguration/client.tsp",
+      "sha256": "d95a7bf33b74bc120622708f56a3769e936b73fd2317ab0023a32a3ea9b53360"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Cache/RedisCache.tsp",
+      "sha256": "0707115cc5f77759034a997c37cd6b00b0ad2591726cbed755c5f9ad7d5f42d7"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Cache/RedisCacheExample.tsp",
+      "sha256": "16d74c4689d30fff17fce358643bb9922e5f2f37574c8bc57e5beed22276969a"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Cache/client.tsp",
+      "sha256": "b12d83430e4ee2db2e2d148ae431f8e317f530c337d112ed906ec014929d97bb"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Communication/AzureCommunicationServices.tsp",
+      "sha256": "8464bb347133bb1f5847904dfba7f5fb95180c1d06f44757484998185722eb90"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Communication/AzureCommunicationServicesExample.tsp",
+      "sha256": "eb81a9b37c7f700f6f8fae10889ba5796e14fec50aed95cb0c4ad510b335d5eb"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Communication/client.tsp",
+      "sha256": "f7417ce56bc5ab08f06a453b781b37a5866c49d8896ea60039d61e94cc9389d0"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Compute/VirtualMachineScaleSets.tsp",
+      "sha256": "1d844efc1ac580b0700cd5c1499008bb2aa6683e21878214f21ac2c702a65a41"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Compute/VirtualMachineScaleSetsExamples.tsp",
+      "sha256": "851441c5a3c932d9a5e693a9ea88b545c4ba910f85e754e502ac4b5ce619a60d"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Compute/client.tsp",
+      "sha256": "bb82ecaf007611dfad9389a56179f092f07587e7eccda55a50c116fd221cc1c5"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerRegistry/ContainerRegistry.tsp",
+      "sha256": "fbd587ec2cd0e3ab4d3a5125995040a7ea5d84cc2ed1315c5f683a556132c76e"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerRegistry/ContainerRegistryExample.tsp",
+      "sha256": "362c1683cdda37de2bb8c2022a7252770ad272569ed7ab8bd445212409bf884a"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerRegistry/client.tsp",
+      "sha256": "34283d74e20cd7cc78f3cb8554a2371188f0585704bacd328614935baa08d6c5"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerService/ContainerService.tsp",
+      "sha256": "756e6448106c94b74b266686c3001137839840991181babdda0ba5edd09f992b"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerService/ContainerServiceExample.tsp",
+      "sha256": "cedfd2a55b74a302c96c1961a63426192440cc11b15c70ba4577aa53087394ff"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ContainerService/client.tsp",
+      "sha256": "fee57f9fc051ed566e8459d7c4f9d1465850ae1d7b40bea59e5e137f893d68a4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.DataBox/DataBox.tsp",
+      "sha256": "354c4d2515884617a9c9b7b9f1d10df3aaed64c088372a7ae23fc01ef6fbacdd"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.DataBox/DataBoxExample.tsp",
+      "sha256": "2fc1e8f654a79b14c42ab96f49619acd0bf218e13f380b4c9e046260b8208ff3"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.DataBox/client.tsp",
+      "sha256": "0020a5c0bd7e61f62a8f6ccb26a77a30a9cffe425719d578d70237870e035c43"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Devices/IotHub.tsp",
+      "sha256": "1254021eb10c245f496795a75a29cb77b271f3925acd19b362f127293967b672"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Devices/client.tsp",
+      "sha256": "8c681ce2f843e017ecc251d07c72e3f7ca6d74de82064eb9e489e0d6ced76a54"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Edge/Edge.tsp",
+      "sha256": "30202b03373234a0211b50bfc97df6acc860aa15db8f85f1857d89f4c9d65e0a"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Edge/client.tsp",
+      "sha256": "aa2a0ffe2efb0af8a730a286c0f903ef37be41ef31bcb2a166af9b872b7774a1"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.EventGrid/EventGrid.tsp",
+      "sha256": "0c7faedd5c2086b5299f0f72690e49b9361c36e477464f51918818859ed83f33"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.EventGrid/client.tsp",
+      "sha256": "8395ff860385eee45c4ab2e616bc2da94f0bed7dacd201bcd7c8fc8d7e47ded6"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.EventHub/EventHub.tsp",
+      "sha256": "3928dffed447a69050e9203525b522fad4da56ea242fadb3cdf3ca2b50da83ad"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.EventHub/EventHubExample.tsp",
+      "sha256": "8349fcd389c07d8e6410799b3ac76e4f4fa51f879881a924215d6e7ab4019aa6"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.EventHub/client.tsp",
+      "sha256": "59e1beaf770f0e1160684a0f7ecbb5d747520dd2fb47a0fddc3274e3f87971a4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.HealthcareApis/HealthcareApis.tsp",
+      "sha256": "2cfcb036df13e2a86563883dd6c396b4a07237c551308f0836a0078c98ab97da"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.HealthcareApis/HealthcareApisExample.tsp",
+      "sha256": "5eb6c769d17a11b9789cf660abf73f4e5c9cd2ed1ea91844459b775c7cffcd09"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.HealthcareApis/client.tsp",
+      "sha256": "6fc8c0d64d3f2d65ea8195ee53f265fe00f6b44c5d3d5b5b81fd8cbe59778971"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.KeyVault/KeyVault.tsp",
+      "sha256": "d3179f19ae6f4146eb308037f49d60376870da1ea32c94d5813c437e10117ef8"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.KeyVault/client.tsp",
+      "sha256": "3fddb54daaef41578a864add0b639a4ea8de257445350467c8a2c87b404902f2"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.MachineLearningServices/MachineLearningServices.tsp",
+      "sha256": "22034ff34f4896e1d92e5c86b1dfaa217bdaabb0ba8041cfce224b0d8037262d"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.MachineLearningServices/client.tsp",
+      "sha256": "62dc0707384c513ec7b9975f9c41a3ca48c400d9e054c0c04b2261da3ba85835"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Maps/Maps.tsp",
+      "sha256": "ae6d66646a3cc4f8b2baabb104718bab9f35342f5a05e3fe5d06fd596e4e3565"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Maps/MapsExample.tsp",
+      "sha256": "a937ef96b684ceea228bdf7e5a50fabbdd45ed674a4322f71cacbe7b2529b5c7"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Maps/client.tsp",
+      "sha256": "1c6ae02bf959361c932d1495549ecb3400e957a476d4b576a249c38d6ce63ebb"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.PolicyInsights/PolicyInsights.tsp",
+      "sha256": "8b4a1169c7a9698fe4b43470518e3e81a099602e52afd99dffbb21a5b043d035"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.PolicyInsights/PolicyInsightsExample.tsp",
+      "sha256": "1e4c016756dc96ebdfa0bdf5db8ff813431021d9e9b93c2446ff84eb43cf44f3"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.PolicyInsights/client.tsp",
+      "sha256": "560c77d26192cbaad2d190f1602db11489380bebf5fb23e6ef22c393cfb0d609"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/ContainerServiceEventResources.tsp",
+      "sha256": "6b8450c01e433de78acc3b2a0558d307f1db9e79903ed79fe0a7988d0f8c62b5"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/ContainerServiceEventResourcesExample.tsp",
+      "sha256": "ff0b2c6c1607af21f1c3945878d32322618741a9069b1dbeac16302d8aca1f57"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/HealthResources.tsp",
+      "sha256": "5ce0c5f97994427e367c58290b4dcfcdd4ffd8d1e90e2be059e998e418ca5a8e"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/HealthResourcesExample.tsp",
+      "sha256": "44d435ff51da4b636a2cd7e3b4fa22f62d3d0855bfbfa1c06ec8934228d3b4aa"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/Resources.tsp",
+      "sha256": "744307fcdd1a92e185007c01d1ca63f2a68e874bf59aaa7c40aed64d53946089"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/ResourcesExample.tsp",
+      "sha256": "8f47f7f7e51bbf7f5a33000b9f54937fa1eee227315e5a25058744cb478127c1"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/client.tsp",
+      "sha256": "829d98cc7e0cf85e41d2aa7a3604fbabeb6164a7bc17c99c9f09cbb4a6eca131"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ResourceNotifications/common.tsp",
+      "sha256": "8cbc1101ccbb945f940c622e4fbcc85398b43daab0a00729cbf2de6299c81b6b"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Resources/Resources.tsp",
+      "sha256": "4ca5e998c863d08abda3c2f054ea220fd24652687bf1c7eb7d360e0c922ce0a4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Resources/client.tsp",
+      "sha256": "6ae98be068f1686fba9e75ef6a287d789dfb572c068366faa55328a7472999da"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ServiceBus/ServiceBus.tsp",
+      "sha256": "b4d3956fa3cc35caf902f4757c8eb79c1b73a591f247aa4fda89d877f3980edc"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ServiceBus/ServiceBusExample.tsp",
+      "sha256": "6332bbe5d80804dcb6180af9401d1f2b4ac2694014571b199beee7681faef06f"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.ServiceBus/client.tsp",
+      "sha256": "4d51c7ae7f55e46ca7f950a4663d645483d21c8eb0bf63cecd67fae451a2958b"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.SignalRService/SignalRService.tsp",
+      "sha256": "00a4262d295fd6af5ba7b6b2aad5d92f09568360934a3ff5c3300985ea406f01"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.SignalRService/SignalRServiceExample.tsp",
+      "sha256": "6c7f0e858e8e8ea06cc7ce532ae5d1eaac06f3778bc64dc04dbb89e10e09e86c"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.SignalRService/client.tsp",
+      "sha256": "3a2cc57cfda413ee97607105c944d87c0886bcc47966fdce726b11a4f20b6b11"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Storage/Storage.tsp",
+      "sha256": "95a64579ac3166059140f48ab89653e7012b582822c18aef4f523f27c7b76bc7"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Storage/client.tsp",
+      "sha256": "2b48814bf085d1fa5df37cb9636e89360ca7b2c6182562c773f922b7eb2a380d"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Web/Web.tsp",
+      "sha256": "138a79ffa99a23d5bb5733f604752f0eef45193c83abfdf8af8f524336634bf4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/Microsoft.Web/client.tsp",
+      "sha256": "21a0feaef55cf1992bc36c034f16b8fc9ecda19bbb280c58dc98b808055f7ac6"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/client.tsp",
+      "sha256": "a25b0eea136468f0c0718a61ab8c876f8695df470c5c4f471fb09a25aa6571db"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/main.tsp",
+      "sha256": "cc00c93787647526b84db4f1357590036fd4c977e7f05765d22201767438e7a4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/propertyNameOverride.tsp",
+      "sha256": "1406c7733cc1d70d3bc67df8868e973b35fd9d84dddf7c8e62b681c93068c763"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/propertyNameOverrideCsharp.tsp",
+      "sha256": "7da2c2fcebc7ac9604bf7df170ae1e5f3f4b95a29b08b6b021282f87c038ca6f"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/propertyNameOverrideGo.tsp",
+      "sha256": "8274f346abe17215b3bc4e71f306ce6d57ca2a93f89fab1b5d0e1a3f49f6ac0b"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/propertyNameOverrideJava.tsp",
+      "sha256": "ec1e961bb7111bdec2ca47f025d19509716efb841b61cc99e7499c3538c73dd5"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/propertyNameOverrideJs.tsp",
+      "sha256": "fb23800ba8d6035b74af85465524e924a6568318ba9732b55b7eb1d737bc2a1d"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/tspconfig.yaml",
+      "sha256": "1a310e18813a5ed3741d8e0d760a1f739082f7a8ea781caf0c3c6dacdb47e159"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/eventgrid/data-plane/EventGridSystemEvents",
+  "swaggerOutputPattern": "{version-status}/{version}/GeneratedSystemEvents.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-01-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridSystemEvents/stable/2024-01-01/GeneratedSystemEvents.json",
+      "apiVersion": "2024-01-01",
+      "format": "swagger-2.0",
+      "sha256": "15ac309525665db15f178990d5062ade97f3f7850fd16529f28f6fe4b3f7b926"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

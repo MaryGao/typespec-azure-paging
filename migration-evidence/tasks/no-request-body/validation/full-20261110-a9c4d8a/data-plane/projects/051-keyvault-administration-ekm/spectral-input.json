@@ -1,0 +1,30 @@
+{
+  "index": 51,
+  "slug": "051-keyvault-administration-ekm",
+  "sourcePath": "specification/keyvault/data-plane/Administration/EKM",
+  "swaggerCandidates": [],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/main.tsp",
+      "sha256": "9acb200b292db74d5b55eb47f3987c302d9080637b415468777f11621fd7a99e"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/models.tsp",
+      "sha256": "2c23b07fc88029c09c2872c046db8e29ba8e5e1a107109894e4924daa7743baa"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/routes.tsp",
+      "sha256": "75f6ef7e6f4c583d5d679d0a1eebd38b6c8e18b58bc464e6d7726544f0190879"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/tspconfig.yaml",
+      "sha256": "07f7662e4561e899e4565e50d9a3fa10bdb2c213aa4070cfe023d7c7d5c80cde"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Administration/EKM",
+  "hasExplicitAutorestOptions": false,
+  "swaggerFiles": [],
+  "swaggerSelectionStatus": "unassessed-no-local-oas2"
+}

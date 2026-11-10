@@ -1,0 +1,348 @@
+{
+  "project": "specification/machinelearningservices/data-plane/RunHistory",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "b8cdbe5b8e5afd256d52e81536922ecdcc87ffbe5ee10b2844054b8e2ec8f0f3",
+      "findings": [
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/services",
+            "delete",
+            "parameters",
+            "6",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+          "range": {
+            "start": {
+              "line": 1672,
+              "character": 18
+            },
+            "end": {
+              "line": 1672,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/services",
+            "delete",
+            "parameters",
+            "6",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+          "range": {
+            "start": {
+              "line": 3109,
+              "character": 18
+            },
+            "end": {
+              "line": 3109,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/services",
+            "delete",
+            "parameters",
+            "5",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+          "range": {
+            "start": {
+              "line": 3963,
+              "character": 18
+            },
+            "end": {
+              "line": 3963,
+              "character": 24
+            }
+          }
+        }
+      ],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/history/v1.0/private/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/deleteConfiguration",
+          "verb": "get",
+          "operationId": "DeleteConfiguration_Operations_GetConfiguration",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/private/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/spans",
+          "verb": "get",
+          "operationId": "Spans_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/private/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/spans/active",
+          "verb": "get",
+          "operationId": "Spans_GetActive",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/runs",
+          "verb": "get",
+          "operationId": "Runs_ListByCompute",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}",
+          "verb": "get",
+          "operationId": "Experiments_GetById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}",
+          "verb": "delete",
+          "operationId": "Experiments_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/metrics/{metricId}",
+          "verb": "get",
+          "operationId": "Experiments_GetMetricDetailsByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}",
+          "verb": "get",
+          "operationId": "Runs_GetByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListInContainerByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts/artifacturi",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetSasUriByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts/contentinfo",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetContentInformationByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts/metadata",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetByIdByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts/path",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListInPathByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/artifacts/prefix/contentinfo",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListSasByPrefixByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/children",
+          "verb": "get",
+          "operationId": "Runs_GetChildByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/details",
+          "verb": "get",
+          "operationId": "Runs_GetDetailsByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/services",
+          "verb": "delete",
+          "operationId": "Runs_DeleteRunServicesByExperimentId",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/tags",
+          "verb": "delete",
+          "operationId": "Runs_DeleteTagsByExperimentId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}",
+          "verb": "get",
+          "operationId": "Experiments_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/metrics/{metricId}",
+          "verb": "get",
+          "operationId": "Experiments_GetMetricDetailsByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}",
+          "verb": "get",
+          "operationId": "Runs_GetByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListInContainerByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/artifacturi",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetSasUriByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/contentinfo",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetContentInformationByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/metadata",
+          "verb": "get",
+          "operationId": "RunArtifacts_GetByIdByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/path",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListInPathByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/prefix/contentinfo",
+          "verb": "get",
+          "operationId": "RunArtifacts_ListSasByPrefixByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/children",
+          "verb": "get",
+          "operationId": "Runs_GetChildByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/details",
+          "verb": "get",
+          "operationId": "Runs_GetDetailsByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/services",
+          "verb": "delete",
+          "operationId": "Runs_DeleteRunServicesByExperimentName",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/tags",
+          "verb": "delete",
+          "operationId": "Runs_DeleteTagsByExperimentName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}",
+          "verb": "get",
+          "operationId": "Runs_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/children",
+          "verb": "get",
+          "operationId": "Runs_GetChild",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/details",
+          "verb": "get",
+          "operationId": "Runs_GetDetails",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/serviceinstances/{nodeId}",
+          "verb": "get",
+          "operationId": "Runs_GetRunServiceInstances",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/services",
+          "verb": "delete",
+          "operationId": "Runs_DeleteRunServices",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/tags",
+          "verb": "delete",
+          "operationId": "Runs_DeleteTags",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/metric/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentId}/containers/{dataContainerId}/deleteMetrics",
+          "verb": "delete",
+          "operationId": "Metrics_DeleteMetricsByDataContainerId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/metric/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/deleteMetrics",
+          "verb": "delete",
+          "operationId": "Metrics_DeleteMetricsByRunId",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 3
+}

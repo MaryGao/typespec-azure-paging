@@ -1,0 +1,68 @@
+{
+  "index": 47,
+  "slug": "047-healthdataaiservices-healthdataaiservices",
+  "sourcePath": "specification/healthdataaiservices/data-plane/HealthDataAIServices",
+  "swaggerCandidates": [
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/preview/2025-07-15-preview/HealthDataAIServices.DeidServices.json",
+      "apiVersion": "2025-07-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "34f61cfe9d598fe58de458b16ae15d5fe7a0b9d9c0efd8e5be01452a6a6cef54"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/stable/2024-11-15/HealthDataAIServices.DeidServices.json",
+      "apiVersion": "2024-11-15",
+      "format": "swagger-2.0",
+      "sha256": "17ad9989a9516431a173f382dd0d1b2ff882e53ef5e342d1967f8ee9938f54de"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/client.tsp",
+      "sha256": "d1f6037e36bce57e67473674b3afd33d9e0ec7fea4d30b78ac61e8d6692ea82e"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/main.tsp",
+      "sha256": "f415c941825b66f71377d7db688dbc9374c9940b2abf8b57d7107edd6aba1984"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/models.tsp",
+      "sha256": "d9df50364362ebf28a94753cff30279a1bb25d08d3c9a6fca6abe11c571b2558"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/models_document_flow.tsp",
+      "sha256": "ea121a277b04d398354cb26d8d17602c10e0c057cb095cd423c408857a0e9e7a"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/models_tagger.tsp",
+      "sha256": "f45956c46a55950c685bb27e12c9892104bb86d6be31ec6dde4b8b353b06327e"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/models_text_flow.tsp",
+      "sha256": "e4c366ebdc6ab89bb4d79ef73151871cedd5b79c87d8e56577f876c6c021d9d8"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/routes.tsp",
+      "sha256": "77563fb3e8e2e73776b6a8d4e6c2f6705fa8a0c6c4834d91aa2ac5af2f065ba6"
+    },
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/tspconfig.yaml",
+      "sha256": "a32ea2512cb6d35e665f97164bd55071a7bae1424a18542d22638bea46b9c609"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/healthdataaiservices/data-plane/HealthDataAIServices",
+  "swaggerOutputPattern": "{version-status}/{version}/{service-name}.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-07-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/healthdataaiservices/data-plane/HealthDataAIServices/preview/2025-07-15-preview/HealthDataAIServices.DeidServices.json",
+      "apiVersion": "2025-07-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "34f61cfe9d598fe58de458b16ae15d5fe7a0b9d9c0efd8e5be01452a6a6cef54"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

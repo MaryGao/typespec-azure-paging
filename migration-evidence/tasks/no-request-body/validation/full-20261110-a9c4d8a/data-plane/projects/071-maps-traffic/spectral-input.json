@@ -1,0 +1,60 @@
+{
+  "index": 71,
+  "slug": "071-maps-traffic",
+  "sourcePath": "specification/maps/data-plane/Traffic",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Traffic/stable/1.0/traffic.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "208eb64dfbaea5717d7dd72d601516ca2c117f5cfd000a0bfb7e14a99b8790c2"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/stable/2025-01-01/traffic.json",
+      "apiVersion": "2025-01-01",
+      "format": "swagger-2.0",
+      "sha256": "6b1ffaa8c256bc0c91c8c4062da236f13223146faacbf669b9db62915f2f356f"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Traffic/client.tsp",
+      "sha256": "628b15b0290b1e7e3b219e3ef97aa85dd8e857fb46fae66277c349a3bde37d82"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/common/common.tsp",
+      "sha256": "56ce629db41a57740cb1bb561711e1d439c0ad9a1adc2bd44a0f768b508bc2c8"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/main.tsp",
+      "sha256": "9d1dddbdcc8c3219ff4d5483d8b1a0fa8d0df59d6006babd1c6684b80b206ff2"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/models.tsp",
+      "sha256": "c12bf3f1cd5a2d7be444c2ce6ead8303efc0dcbd044f9ed4b8589ecd18ace9f8"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/routes.tsp",
+      "sha256": "4d053dc57d3d40c8fe055e31f38f03e2df0b3a375b330ffde18da9481f170771"
+    },
+    {
+      "file": "specification/maps/data-plane/Traffic/tspconfig.yaml",
+      "sha256": "4c12f577ac1a03644cdcbef87ccb6116d1f53119edf8bebfc47637cd43f7b46d"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Traffic",
+  "swaggerOutputPattern": "{version-status}/{version}/traffic.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-01-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Traffic/stable/2025-01-01/traffic.json",
+      "apiVersion": "2025-01-01",
+      "format": "swagger-2.0",
+      "sha256": "6b1ffaa8c256bc0c91c8c4062da236f13223146faacbf669b9db62915f2f356f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

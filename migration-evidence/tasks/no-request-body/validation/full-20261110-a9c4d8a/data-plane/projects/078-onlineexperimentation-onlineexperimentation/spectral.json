@@ -1,0 +1,59 @@
+{
+  "project": "specification/onlineexperimentation/data-plane/OnlineExperimentation",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/preview/2025-05-31-preview/onlineexperimentation.json",
+      "apiVersion": "2025-05-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "993d5fa59d105ebbddaa6c3ac82f064d34fb7ef83504c8291aff467757bc1d50",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/experiment-metrics",
+          "verb": "get",
+          "operationId": "ListMetrics",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/experiment-metrics/{experimentMetricId}",
+          "verb": "get",
+          "operationId": "GetMetric",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/experiment-metrics/{experimentMetricId}",
+          "verb": "delete",
+          "operationId": "DeleteMetric",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

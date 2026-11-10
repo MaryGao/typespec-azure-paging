@@ -1,0 +1,47 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/preview/2025-11-15-preview/analyzeconversations.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "79233defacd8898dc47523e1003a0b3732db8b2bc4683a31d99c2600bb506296",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/analyze-conversations/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "AnalyzeConversationsJobStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

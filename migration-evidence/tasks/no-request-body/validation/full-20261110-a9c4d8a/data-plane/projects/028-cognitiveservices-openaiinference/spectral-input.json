@@ -1,0 +1,300 @@
+{
+  "index": 28,
+  "slug": "028-cognitiveservices-openaiinference",
+  "sourcePath": "specification/cognitiveservices/data-plane/OpenAIInference",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2023-06-01-preview/generated.json",
+      "apiVersion": "2023-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "59dc5bc8c52d9b27c9a1d4cfde2f62f0f396dc3632214558736e059817daa327"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2023-07-01-preview/generated.json",
+      "apiVersion": "2023-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "d37858ae896d7bf8bf9111a1fb979816cfd154bcb61c88ca5fd9f4fb91c52e38"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2023-08-01-preview/generated.json",
+      "apiVersion": "2023-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "0b1be93a193550b5260264d8c4aa39fca10270ea7d88ebd36711ad533ed44af8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2023-09-01-preview/generated.json",
+      "apiVersion": "2023-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "772268b3ea34a2be228c3fa1fd696a9a8d354d4e12939e2468fdacb7d434d901"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2023-12-01-preview/generated.json",
+      "apiVersion": "2023-12-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8d15c5d8f26315fd6d35a7de6b890db8366f0779adad4c46f5221fa960ee5bbe"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-02-15-preview/generated.json",
+      "apiVersion": "2024-02-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "591136ce37d1093b9aee5704f787c3ea66e5625b528e9ec115700b7a202ce21c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-03-01-preview/generated.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "cfee8cd6a471111d8dffa26024248ebb07aa9a0a09af4b35b8104996cab119a7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-04-01-preview/generated.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4e1a86a4c25af628145396c213b2af2e756f17df9e987aedac9c44ae13fc6e45"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-05-01-preview/generated.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4c575687a20b01bf746f583147f1fbde6b81d5b71221ecb5f18081f46e9e7cb7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-07-01-preview/generated.json",
+      "apiVersion": "2024-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "dd178fcf49309f2fa890dee09adbbd285f35c9e0206bd652a847ff3449cbeda5"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-08-01-preview/generated.json",
+      "apiVersion": "2024-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "6bf94cd312a78237d2149e17ca93e2c4aeeecfc80d4d994c40f1e8cb1f9d7635"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-09-01-preview/generated.json",
+      "apiVersion": "2024-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4c5742b894b423badc6cfc286c9bcc3289385c3e622d51a89eba7931a6e7c0c4"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2024-10-01-preview/generated.json",
+      "apiVersion": "2024-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "2393c43f7fc97ddd57baf5decc9ed8edb0c524fdc890ccdb5b4414904d7f7de7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2025-01-01-preview/generated.json",
+      "apiVersion": "2025-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8975db73182c6c75e2a9559c8cbfa52bd4a1026844f3e3727cb0c9afd4424dcd"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/stable/2022-12-01/generated.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "c8fdc99cfdbbb913d35b4497666317c9c2ff82479e4c664ee5ae9999b978ec26"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/stable/2023-05-15/generated.json",
+      "apiVersion": "2023-05-15",
+      "format": "swagger-2.0",
+      "sha256": "baf16eabcfa6748c4bea8d02fab1db7cb20522e4b60f75edab2c520a4fda3d91"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/stable/2024-02-01/generated.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "74c47d3d1ce15431bd2afba6e849b7e6bd38da032fa82a7b9e595a3a363da207"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/stable/2024-06-01/generated.json",
+      "apiVersion": "2024-06-01",
+      "format": "swagger-2.0",
+      "sha256": "b6b963bb2bbe2ab8e1053178e4182a5a4521e8fc5e9a4037df42b86914f7a65d"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/client.tsp",
+      "sha256": "a1c4fade9bbcde1dd214048a429395e014a48d2e3fc67e7d8b62ebef75bd6d55"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/client/custom_visibility.tsp",
+      "sha256": "9a874d9bc6ad9b1fcf2d5dc3c2c23cc37e6937583acdb17ba3f9ed90be399898"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/main.tsp",
+      "sha256": "0a4b9f26a0200af607e06e8147e0cc0fdb0f533560232ad6b0702f6dd6913307"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/audio/audio_speech.tsp",
+      "sha256": "f82ecc1b61f716715bdcac14759afbe983cc6079c2029e0d77f9a1cd6325775f"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/audio/audio_transcription.tsp",
+      "sha256": "73579da39223f07683c2b83f9238aa1295ba1e21633a66c2bf2f120ea13e490a"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/audio/audio_translation.tsp",
+      "sha256": "e67850520aa20d6234eeebe0380983ab46108171aa8d35ffa6763dc0b4601e29"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/audio/common.tsp",
+      "sha256": "327e9ac9952671675e12ba319669045fd7309ef12fcad9efe57b0d1ab7835c55"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/batch.tsp",
+      "sha256": "1cb6bf73cc5d2a262977468b92ff0443efec78471cb91dd3563010572a62dbe5"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/common.tsp",
+      "sha256": "04f9251923ded75b8e95049424a70ebaace76a4bfa9ad1e1f99187af20e92565"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/azure_chat_extensions.tsp",
+      "sha256": "100396d3ebded7d5f4262ce58928853b9b3a95164879edb3a7da6428badc74e9"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/azure_content_filtering.tsp",
+      "sha256": "8b5c11993e37df2864feef13bb30b94df42b588488b0b1c65abb7b19d5eadc85"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/chat_completions.tsp",
+      "sha256": "6112a3f152d0cc899e9deeae75b2101beb7cbd82718e701b41adffb3494dfea8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/chat_messages.tsp",
+      "sha256": "ce034d38c8cf8a8cfd2007ee2ae25673bb5d506e6fb202180da0364f0ee366b6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/common.tsp",
+      "sha256": "7e3a2d089806942439969347d955bdc40123728730441650141647baeebdd003"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/completions_create.tsp",
+      "sha256": "437a893bede1ad046d0ac2a88a14651569778e4a92f5eef07d7c0f05d9016535"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/authentication.tsp",
+      "sha256": "9b0688af08204638824528c68aa38e2a49604151661cbc244d12cb640225c6f8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/azure_cosmosdb_options.tsp",
+      "sha256": "2007eaf6419cb696d3e4e9c0714b26f512e07e2dd4bc1ad7046f098b0328c15d"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/azure_machinelearning_index_options.tsp",
+      "sha256": "9b131862edce51d37c59000240a19da59521271a3aad6a1b3dfb3096e60ce038"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/azure_search_options.tsp",
+      "sha256": "1899da5c8d2673e38e1f40e11989f04df9112661c2866a9ed12dae2e9a58a913"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/common_options.tsp",
+      "sha256": "d3778f3749326ffe0f1c8e3378e877707ba436fdd2e083fb08ca421d7d687a15"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/elasticsearch_options.tsp",
+      "sha256": "9b19376d586a5c1d37693070f673484e0931631f834e41349f63356c188bec08"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/mongodb_options.tsp",
+      "sha256": "5bc1d65d0bba2f2ccec3beeade7d94062331a7407492e4957dee792a6730d761"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/pinecone_options.tsp",
+      "sha256": "dd54b683d4c22c60b8b222902e9fa85e45dbf30dacc55538b009db36cf4a4568"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/extensions/oyd/vector_search.tsp",
+      "sha256": "dbdec1f25b0371faec8700d2697d47f7fdbec3abc9b37aebab6bd0713d9fe607"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/functions.tsp",
+      "sha256": "15fd2dd98a5616e040120f4d41090b2ad63f353e96ad8280552308133ae3f01c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/completions/tools.tsp",
+      "sha256": "2bc117210b20fb65ae5830556fc5155b78263c39a474ccff917a2fa4ee46b7e1"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/embeddings_create.tsp",
+      "sha256": "708c32251a635fa3eca7be22fd8297ca8758eebae0b4f092f6767f6f472eaea3"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/files.tsp",
+      "sha256": "b89117a1419a7a7f42cf355e4608f72dc9e3686386e648c10b29448bd6d7d7e2"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/images/common.tsp",
+      "sha256": "6a0cabc50ec3c2051c64560a067755d3711e97127650c5e041c10b0763fa3715"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/images/images.tsp",
+      "sha256": "8e222cbecfa785f34bedc4bb463ca2ae6e612ad93b042b9584fc9cfc314ae07b"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/models/uploads.tsp",
+      "sha256": "27ee4eb911b73d23bc0ce2d3779be92feb371b1d5c951f9f9876be6f7f9e49e2"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/audio_speech.tsp",
+      "sha256": "132b6414119c998498bca4f4df34c1a9a37110d426a2933bce7a374fb010808f"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/audio_transcription.tsp",
+      "sha256": "4cdce5bc8ff0162245ded4fbe3e9114772d43a2df20f8d41c9dc74543f3753c6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/audio_translation.tsp",
+      "sha256": "e4b9f50ee3c10b67cd7ca8655fb49ec6cfe9270b190c9ef83b4da864b3800bfb"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/batches.tsp",
+      "sha256": "3864b4f3eba6bfe93e61b7073d55ead5623d1f338e55de15454c8c25036f1667"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/common.tsp",
+      "sha256": "6efe4208e654263a6dcbd5b636a348b18d0a181faee161c9af6212513bf7e374"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/completions.tsp",
+      "sha256": "25610d0cea9d1742914dab13b7310e9ab6006d3c8099bef409e95a963ce2aa8d"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/embeddings.tsp",
+      "sha256": "ff4dd7f8a4c167c0c43fa80eec19676d896298710b5f5c907b603835ff2650f2"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/files.tsp",
+      "sha256": "a5234eae58b4011053c287a2b9f1b09316540fd6dd477253f125224dcffe1580"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/images.tsp",
+      "sha256": "045697996b4bc0698e568d62bc5f3b93f75bf4702ac853421b1059ab87ddb7f4"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/routes/uploads.tsp",
+      "sha256": "c58b4b5d6971c3aad08db3a49e35d3fee576de929559f01c09d2cf576601fb24"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/tspconfig.yaml",
+      "sha256": "9f5f3d602dea7b24c7e4475888382631b1370ee737d4d23c965660344121294d"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/OpenAIInference",
+  "swaggerOutputPattern": "{version-status}/{version}/generated.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-01-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2025-01-01-preview/generated.json",
+      "apiVersion": "2025-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8975db73182c6c75e2a9559c8cbfa52bd4a1026844f3e3727cb0c9afd4424dcd"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

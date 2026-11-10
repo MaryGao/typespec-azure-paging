@@ -1,0 +1,25 @@
+{
+  "project": "specification/webpubsub/data-plane/WebPubSub",
+  "slug": "092-webpubsub-webpubsub",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:35:38.725Z",
+    "finishedAt": "2026-11-10T01:35:42.983Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:35:42.993Z",
+    "finishedAt": "2026-11-10T01:35:44.940Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

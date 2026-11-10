@@ -1,0 +1,25 @@
+{
+  "project": "specification/storage/data-plane/QueueStorage",
+  "slug": "089-storage-queuestorage",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:35:19.809Z",
+    "finishedAt": "2026-11-10T01:35:24.171Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:35:24.186Z",
+    "finishedAt": "2026-11-10T01:35:26.121Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

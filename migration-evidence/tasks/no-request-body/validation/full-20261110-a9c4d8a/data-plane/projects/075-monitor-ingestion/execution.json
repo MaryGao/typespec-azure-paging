@@ -1,0 +1,25 @@
+{
+  "project": "specification/monitor/data-plane/Ingestion",
+  "slug": "075-monitor-ingestion",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:33:45.657Z",
+    "finishedAt": "2026-11-10T01:33:49.630Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:33:49.638Z",
+    "finishedAt": "2026-11-10T01:33:51.493Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

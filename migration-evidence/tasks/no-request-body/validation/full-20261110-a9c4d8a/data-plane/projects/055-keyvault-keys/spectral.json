@@ -1,0 +1,95 @@
+{
+  "project": "specification/keyvault/data-plane/Keys",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-07-01-preview/keys.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f07672d530769afe3d770483aff74cfa925aea1ee11e7938f413c50ccc3f0231",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/deletedkeys",
+          "verb": "get",
+          "operationId": "GetDeletedKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedkeys/{key-name}",
+          "verb": "get",
+          "operationId": "GetDeletedKey",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedkeys/{key-name}",
+          "verb": "delete",
+          "operationId": "PurgeDeletedKey",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys",
+          "verb": "get",
+          "operationId": "GetKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys/{key-name}",
+          "verb": "delete",
+          "operationId": "DeleteKey",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys/{key-name}/{key-version}",
+          "verb": "get",
+          "operationId": "GetKey",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys/{key-name}/{key-version}/attestation",
+          "verb": "get",
+          "operationId": "GetKeyAttestation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys/{key-name}/rotationpolicy",
+          "verb": "get",
+          "operationId": "GetKeyRotationPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys/{key-name}/versions",
+          "verb": "get",
+          "operationId": "GetKeyVersions",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

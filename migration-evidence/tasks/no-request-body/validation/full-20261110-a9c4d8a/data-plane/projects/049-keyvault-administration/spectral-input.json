@@ -1,0 +1,158 @@
+{
+  "index": 49,
+  "slug": "049-keyvault-administration",
+  "sourcePath": "specification/keyvault/data-plane/Administration",
+  "swaggerCandidates": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2025-06-01-preview/administration.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8336fe1b7d0fe2530ef59bb9318a82e502952d37d91ff6ae08a675432b9cc521"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-01-01-preview/administration.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c84f4fbee65a155584d1fbd0423c119e2c9c22ef0df34f1a9f56f70babd7b8f9"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-03-01-preview/administration.json",
+      "apiVersion": "2026-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5f3b86d5ac80658b7a6b3f97e22c1fe60aab0ff07ac9f56328f4cc15d1fb1353"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-05-01-preview/administration.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8be1d9801db00846149d6ff36120321c99942ed3511fc8dcbc8f468bf5aa408e"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-07-01-preview/administration.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "105b16ced58e7e1ff53bcba2553d2ed905fcd0703da57da906996a22ca71b556"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/7.6-preview.2/administration.json",
+      "apiVersion": "7.6-preview.2",
+      "format": "swagger-2.0",
+      "sha256": "207d840b933531302b9780d9ac988dc857d1413a513649e7ce8f80fe2a06817b"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/stable/2025-07-01/administration.json",
+      "apiVersion": "2025-07-01",
+      "format": "swagger-2.0",
+      "sha256": "4563856c1eb029de4dd96bfe1b84959bb035176959d194ea6bde56fe505ab337"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/stable/7.5/administration.json",
+      "apiVersion": "7.5",
+      "format": "swagger-2.0",
+      "sha256": "657f139f664a307e9ea0e1996c6c1040eb0c423786b87182ca234beda55f1fe0"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/stable/7.6/administration.json",
+      "apiVersion": "7.6",
+      "format": "swagger-2.0",
+      "sha256": "d5ce149a3c3073710ed15bbb03335c0981c7b98029cfd22f1c5a0b301d6a35e1"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/BackupRestore/client.tsp",
+      "sha256": "54c48fac1a1374ca1c9a93162cad7c684d8cadba3a9c7117ca30624e70382ea3"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/BackupRestore/main.tsp",
+      "sha256": "30399337f2a516e66b433b1e309854ced5f3fdf0be1e4e1fb047692586a324ea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/BackupRestore/models.tsp",
+      "sha256": "5087f951e4ce528f7e97acebc9bc6d1131f060a6c7e0385789e64d05bd301575"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/BackupRestore/routes.tsp",
+      "sha256": "fa8d99ee138f8b9b410f87bbef600321067cc6e56284bc96767266d2168d1427"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/main.tsp",
+      "sha256": "9acb200b292db74d5b55eb47f3987c302d9080637b415468777f11621fd7a99e"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/models.tsp",
+      "sha256": "2c23b07fc88029c09c2872c046db8e29ba8e5e1a107109894e4924daa7743baa"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/EKM/routes.tsp",
+      "sha256": "75f6ef7e6f4c583d5d679d0a1eebd38b6c8e18b58bc464e6d7726544f0190879"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/client.tsp",
+      "sha256": "a17fcadb2b52959438d48d257e8ebb7bc36b6b6252d1217f9eb3ce424d66f92e"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/main.tsp",
+      "sha256": "30399337f2a516e66b433b1e309854ced5f3fdf0be1e4e1fb047692586a324ea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/models.tsp",
+      "sha256": "5787ad81f709d89f481e18061e8beb175bcca9e03691f09a70997ac7cda66b17"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/RBAC/routes.tsp",
+      "sha256": "697f2493c09ea00b038cd36fdf4f543d2e1d42651d55efc900121149933e4a65"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/client.tsp",
+      "sha256": "791708eef494dbc4e2d1c8817a488469334a6e02ad97db5abc327b6428e1403d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/main.tsp",
+      "sha256": "30399337f2a516e66b433b1e309854ced5f3fdf0be1e4e1fb047692586a324ea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/models.tsp",
+      "sha256": "fc2b550fead77422371fe863a81f89ace7a6f10c98b028fc3ae9db4d6dacbb85"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/routes.tsp",
+      "sha256": "0b67706ae74dd9d04f798df42081bf3828bd5da7c6ba1e9375b09fb531c8c144"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/administration.tsp",
+      "sha256": "39ba0d4e22f68a425fd94f8940647c381c40bab7628f0aa2d23e8f33747e5b0f"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/client.tsp",
+      "sha256": "8e43ba10fa951ba0b85ff0eb922ab5f4a4b3f281eb1bf521e6d0b7a7c832c1c7"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/common/common.tsp",
+      "sha256": "00c3bbcdd823f837547d082cf728487c78ca85d0b632bf3a48ac6de43ffd5dea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/main.tsp",
+      "sha256": "97afa8ae59bd09582463c7fb2021151f644b8d7d4792c3bd6c0713c4d7ffd633"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/tspconfig.yaml",
+      "sha256": "a3af0770e9c2a9a8910c411ad16c7334e1d0565cc93f5da329c45801afa87107"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Administration",
+  "swaggerOutputPattern": "{version-status}/{version}/administration.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-07-01-preview/administration.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "105b16ced58e7e1ff53bcba2553d2ed905fcd0703da57da906996a22ca71b556"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

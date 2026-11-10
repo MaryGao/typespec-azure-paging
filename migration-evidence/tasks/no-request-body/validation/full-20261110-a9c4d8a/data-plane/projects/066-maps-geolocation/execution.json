@@ -1,0 +1,25 @@
+{
+  "project": "specification/maps/data-plane/Geolocation",
+  "slug": "066-maps-geolocation",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:32:43.292Z",
+    "finishedAt": "2026-11-10T01:32:48.457Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:32:48.465Z",
+    "finishedAt": "2026-11-10T01:32:50.410Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

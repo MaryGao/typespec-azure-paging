@@ -1,0 +1,92 @@
+{
+  "index": 2,
+  "slug": "002-discovery-discovery.workspace",
+  "sourcePath": "specification/discovery/Discovery.Workspace",
+  "swaggerCandidates": [
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/preview/2026-02-01-preview/discovery-workspace.json",
+      "apiVersion": "2026-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "00ea3de690634beda94eb6ee7a57dd6b1023e5a4b885fa0535db811849e159f6"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/discovery/Discovery.Workspace/_conversation.tsp",
+      "sha256": "96586718490db946647450109f189541c5af9ce78e64b41437fd34976f140f21"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_conversation_message.tsp",
+      "sha256": "47d268fefd30c682328796a0ed0a94d638cd4f6757c91fb26e5813503ec157f4"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_conversation_message_logs.tsp",
+      "sha256": "d6a44c1e22e269bf64e65cf0cfb96c4134f55f6fc729a7eaec194d98ed0e0931"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_conversation_suggestions.tsp",
+      "sha256": "71d84d43bc7031d018dd4bc3b0424a1e288ba0cedbfc9f175d4ca2c0c00bf81b"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_discovery_agent.tsp",
+      "sha256": "53efe2fe64c7c3adaa3acd30d67d1cd85c0a192aec70fa15567a3e1a0640af1f"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_investigation.tsp",
+      "sha256": "810f7397478b7a5dda959ff04073b8239366c8513ea2a743b85f577c86a2f332"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_project.tsp",
+      "sha256": "6c8e3f9f326d20ab8baaf61674d77b645149d73e45eaf8999e34ab3ab30c0bed"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_task.tsp",
+      "sha256": "2af6753a7d9526cbf6ffa251e99fb00c04f2ad0e5271e2a064b85385d3c2c845"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/_tool.tsp",
+      "sha256": "c6ba1f745b46e850e5023db9677885c872c7643b487441ff75d0e29852cc5cec"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/client.tsp",
+      "sha256": "6ae374d4ae451c89db1735e1f7120c600dba86b22c01d4b7c3b22422fdaa22b0"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/common.tsp",
+      "sha256": "64a38dc9346014a23782eb0939ae5118948172d25988a6df57469dd079368345"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/main.tsp",
+      "sha256": "c427302ae4b7936f8ae3371eeead33b6fa11c31173f148969e0fc054f82bab16"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/tspconfig.yaml",
+      "sha256": "336ec8997117d64bb604c93eb67050877b0f54925c36bdba2fe278c4bb7476e7"
+    },
+    {
+      "file": "specification/discovery/Discovery.Workspace/versions.tsp",
+      "sha256": "3604c70e9e1c61c3cbb6bdde8d6ab9864551e0166434e92ae4d48cc30808732c"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/discovery",
+  "swaggerOutputPattern": "data-plane/Microsoft.Discovery.Workspace/{version-status}/{version}/discovery-workspace.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

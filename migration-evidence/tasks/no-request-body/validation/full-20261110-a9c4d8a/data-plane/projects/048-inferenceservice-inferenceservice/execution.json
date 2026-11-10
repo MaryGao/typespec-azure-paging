@@ -1,0 +1,25 @@
+{
+  "project": "specification/inferenceservice/data-plane/InferenceService",
+  "slug": "048-inferenceservice-inferenceservice",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:30:49.184Z",
+    "finishedAt": "2026-11-10T01:30:53.189Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:30:53.194Z",
+    "finishedAt": "2026-11-10T01:30:54.989Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

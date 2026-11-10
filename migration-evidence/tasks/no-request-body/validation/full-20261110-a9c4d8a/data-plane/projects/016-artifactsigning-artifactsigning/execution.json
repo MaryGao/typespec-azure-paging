@@ -1,0 +1,25 @@
+{
+  "project": "specification/artifactsigning/data-plane/ArtifactSigning",
+  "slug": "016-artifactsigning-artifactsigning",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:27:25.643Z",
+    "finishedAt": "2026-11-10T01:27:29.722Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:27:29.725Z",
+    "finishedAt": "2026-11-10T01:27:31.744Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

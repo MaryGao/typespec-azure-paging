@@ -1,0 +1,184 @@
+{
+  "index": 18,
+  "slug": "018-batch-batch",
+  "sourcePath": "specification/batch/data-plane/Batch",
+  "swaggerCandidates": [
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2015-12-01.2.2/BatchService.json",
+      "apiVersion": "2015-12-01.2.2",
+      "format": "swagger-2.0",
+      "sha256": "d7960a570e924ca83050984e326d894a0c822a7205f83336a9af24024d77ef22"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2016-02-01.3.0/BatchService.json",
+      "apiVersion": "2016-02-01.3.0",
+      "format": "swagger-2.0",
+      "sha256": "bee2d837bf8fd419209ad9f19a50a5a80544e33dc7b53e5430cdc84bc7873e4c"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2016-07-01.3.1/BatchService.json",
+      "apiVersion": "2016-07-01.3.1",
+      "format": "swagger-2.0",
+      "sha256": "86eccfb1f072e6b07d5b4f9b9d20a6e909a6369a6b19f0da101945f498460d8c"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2017-01-01.4.0/BatchService.json",
+      "apiVersion": "2017-01-01.4.0",
+      "format": "swagger-2.0",
+      "sha256": "6029498afb631a3f017b3cfe58d8a7f609fa33bc654b572717450c89ea3ad756"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2017-05-01.5.0/BatchService.json",
+      "apiVersion": "2017-05-01.5.0",
+      "format": "swagger-2.0",
+      "sha256": "eb1e706d0c102d04f64b0b9d215c3555f8345ce4e2b38e18874483352a1ff304"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2017-06-01.5.1/BatchService.json",
+      "apiVersion": "2017-06-01.5.1",
+      "format": "swagger-2.0",
+      "sha256": "c132dc281e0770c083554e8f0d3f8af3d6bd201a9df45f38b24e59acd24c9e8c"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2017-09-01.6.0/BatchService.json",
+      "apiVersion": "2017-09-01.6.0",
+      "format": "swagger-2.0",
+      "sha256": "3570987211e3c7eae23fc8a0429c82d5958cdcce9a62b7b1dd2fb13f2f20e858"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2018-03-01.6.1/BatchService.json",
+      "apiVersion": "2018-03-01.6.1",
+      "format": "swagger-2.0",
+      "sha256": "1215915849ef82a3afed932470fcac5a970e68ee2cd87a242720355b7734bc04"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2018-08-01.7.0/BatchService.json",
+      "apiVersion": "2018-08-01.7.0",
+      "format": "swagger-2.0",
+      "sha256": "dff38446805d0c964ae982e9610beb01baf37f9fa2488ef928332927058011ae"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2018-12-01.8.0/BatchService.json",
+      "apiVersion": "2018-12-01.8.0",
+      "format": "swagger-2.0",
+      "sha256": "dabb86067da25cc59bd45eb04d0007972252e8125fb49a5704d20377b4ef82cb"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2019-06-01.9.0/BatchService.json",
+      "apiVersion": "2019-06-01.9.0",
+      "format": "swagger-2.0",
+      "sha256": "dddf0d52054aac1b843a15d6006592d7f657831b12daa9a93d23d383b32192f1"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2019-08-01.10.0/BatchService.json",
+      "apiVersion": "2019-08-01.10.0",
+      "format": "swagger-2.0",
+      "sha256": "4c9161203dbe4d06be462965e17814f72ed9c4e93f7743127a72da28b23b6d0b"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2020-03-01.11.0/BatchService.json",
+      "apiVersion": "2020-03-01.11.0",
+      "format": "swagger-2.0",
+      "sha256": "a4209a370b2c7a2db7aa9525671ad0ca15848bd9ba8acd3de011fb90b25688c0"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2020-09-01.12.0/BatchService.json",
+      "apiVersion": "2020-09-01.12.0",
+      "format": "swagger-2.0",
+      "sha256": "2d29ee3afc284240aef806aebf7bdf1ee6e8bc35aaf113931f2ce0f2341d5aa1"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2021-06-01.14.0/BatchService.json",
+      "apiVersion": "2021-06-01.14.0",
+      "format": "swagger-2.0",
+      "sha256": "1273ef3b971cb56eeffe742b63855ba54fd98a6f7a17cfa739c3c48d43a4ac9b"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2022-01-01.15.0/BatchService.json",
+      "apiVersion": "2022-01-01.15.0",
+      "format": "swagger-2.0",
+      "sha256": "459d93893570cfbb2c7dcf1e010bec3b00e5c78f3fbd2b65398e6f5515fb0e75"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2022-10-01.16.0/BatchService.json",
+      "apiVersion": "2022-10-01.16.0",
+      "format": "swagger-2.0",
+      "sha256": "b26cdd5997bf7876a27ea736a4d540dc23379cc6ca98cc20fa204c5d3d0b0d16"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2023-05-01.17.0/BatchService.json",
+      "apiVersion": "2023-05-01.17.0",
+      "format": "swagger-2.0",
+      "sha256": "9eab2e127cd6ba9cba19b751a6877085be7dc91b314b24e0fe78ef45ca94bccc"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2023-11-01.18.0/BatchService.json",
+      "apiVersion": "2023-11-01.18.0",
+      "format": "swagger-2.0",
+      "sha256": "81cdb87c6b7b9da876e76cb1f6faf06b83aef4438be450fc65ca3f0d9740ec16"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2024-02-01.19.0/BatchService.json",
+      "apiVersion": "2024-02-01.19.0",
+      "format": "swagger-2.0",
+      "sha256": "55e7b194b046292a7b8360b305dad5bb45fe64d9ca9c5984b0125d7720cb8498"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2024-07-01.20.0/BatchService.json",
+      "apiVersion": "2024-07-01.20.0",
+      "format": "swagger-2.0",
+      "sha256": "5ec02fdd559c307ddd6ba73023008cea00d4dcf4816f64452ce5d6621f8a48c7"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2025-06-01/BatchService.json",
+      "apiVersion": "2025-06-01",
+      "format": "swagger-2.0",
+      "sha256": "8427acd8fd774462806e3a48ae1c4e85ff186b62ff02b9e831f698838a852717"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/batch/data-plane/Batch/client.tsp",
+      "sha256": "56905623d2c55443c6deb962f3c3237298ce18d837dde41bc0e33ceb4ec81202"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/common.tsp",
+      "sha256": "298a439381eb5db0cbf7af3c565f9864bd392b3879fd12886cce29655220c2c2"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/java-client.tsp",
+      "sha256": "d9d7aeb2b0c57f3953ffd58d59ce76bd8d26be5bd828ffc2e511b0caa9488e1d"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/main.tsp",
+      "sha256": "25b0c631691bf94d82ae38339c5568879c43460645d5054144f8dd5759debccf"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/models.tsp",
+      "sha256": "1c5e0899f75d1730bd44194e9a2c6f6f26fd9ae2aee2567668ecd0954822ac98"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/routes.tsp",
+      "sha256": "eb03b8cb30b613bf53ae6d5a81f6f9caf5d10243907b8897cb04dea3db3b36ac"
+    },
+    {
+      "file": "specification/batch/data-plane/Batch/tspconfig.yaml",
+      "sha256": "999eda0e4243f1490a5d2c78df43e26cbb8608819d1b4be9d31529407a11ff13"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/batch/data-plane/Batch",
+  "swaggerOutputPattern": "{version-status}/{version}/BatchService.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2025-06-01/BatchService.json",
+      "apiVersion": "2025-06-01",
+      "format": "swagger-2.0",
+      "sha256": "8427acd8fd774462806e3a48ae1c4e85ff186b62ff02b9e831f698838a852717"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

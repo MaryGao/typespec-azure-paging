@@ -1,0 +1,25 @@
+{
+  "project": "specification/onlineexperimentation/data-plane/OnlineExperimentation",
+  "slug": "078-onlineexperimentation-onlineexperimentation",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:34:05.918Z",
+    "finishedAt": "2026-11-10T01:34:09.947Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:34:09.956Z",
+    "finishedAt": "2026-11-10T01:34:11.815Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

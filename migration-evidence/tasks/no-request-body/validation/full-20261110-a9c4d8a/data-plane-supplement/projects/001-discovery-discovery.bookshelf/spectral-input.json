@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "slug": "001-discovery-discovery.bookshelf",
+  "sourcePath": "specification/discovery/Discovery.Bookshelf",
+  "swaggerCandidates": [
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/preview/2026-02-01-preview/discovery-bookshelf.json",
+      "apiVersion": "2026-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9d25e811f353f2a1078e678325a88346189cf08f24af99ba9664f87fa315ef4b"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/discovery-bookshelf.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "c840108aff929884307906edcdc7adbb2343db7eab9773da56ea258be1cda6f4"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase.tsp",
+      "sha256": "fadcd835282a343a70325a7c6205f8ad8e7eca2c6ad5f1ac93de3b8e285a59eb"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase_operation.tsp",
+      "sha256": "19065511d795e9e20e57a78f75d35ab9a5609351da66b4dc15ceee90822209d9"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase_version.tsp",
+      "sha256": "e0ff029476017c881fcf31446705a3ea805584176820ffbdf5d2f531761e8c48"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/client.tsp",
+      "sha256": "9796316db92242b32c7906c2b10f3e6712ac508352fffa169cf6457478657b8d"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/main.tsp",
+      "sha256": "18c56fb565d96d9ab98f264399e30b05c4d99a68c50ad4fea68a6a9fede89b0c"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/tspconfig.yaml",
+      "sha256": "b1e7b2349f548e6cecc0b79ee2b6404ed53c73c0ab6f77996be14147cc65cafb"
+    },
+    {
+      "file": "specification/discovery/Discovery.Bookshelf/versions.tsp",
+      "sha256": "b68b116306c5597d40316c8779b050f9671ea868b88d6f81d52437d58bf2577f"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/discovery",
+  "swaggerOutputPattern": "data-plane/Microsoft.Discovery.Bookshelf/{version-status}/{version}/discovery-bookshelf.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/discovery-bookshelf.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "c840108aff929884307906edcdc7adbb2343db7eab9773da56ea258be1cda6f4"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 89,
+  "slug": "089-storage-queuestorage",
+  "sourcePath": "specification/storage/data-plane/QueueStorage",
+  "swaggerCandidates": [
+    {
+      "file": "specification/storage/data-plane/QueueStorage/stable/2026-04-06/generated_queue.json",
+      "apiVersion": "2026-04-06",
+      "format": "swagger-2.0",
+      "sha256": "e2d48d22444aa2603144bb86626035ace927fd7749883bcb2bba7b1b93200a11"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/storage/data-plane/QueueStorage/client.tsp",
+      "sha256": "d6a1641443d665be4072ee6327f1f06605f3b041b617f528c6dcb8526fe62b06"
+    },
+    {
+      "file": "specification/storage/data-plane/QueueStorage/main.tsp",
+      "sha256": "04ba681effe9a7b7a3a7b39b37c1731a78eb1dae5714413576c9897c1dce86dd"
+    },
+    {
+      "file": "specification/storage/data-plane/QueueStorage/models.tsp",
+      "sha256": "009c1616ec65b22690b6eb67bcbf22b5dc9ed503d84f8e22107d9e289e8d3e13"
+    },
+    {
+      "file": "specification/storage/data-plane/QueueStorage/routes.tsp",
+      "sha256": "d043df083d20f85799720f6739f9261f028d58ed3c0369d4721f6424a686f4be"
+    },
+    {
+      "file": "specification/storage/data-plane/QueueStorage/tspconfig.yaml",
+      "sha256": "027b1e404e552100d44db6d4e176fb8144893e9f662a9503d86cd53ea5e90bec"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/storage/data-plane/QueueStorage",
+  "swaggerOutputPattern": "{version-status}/{version}/generated_queue.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-04-06",
+  "swaggerFiles": [
+    {
+      "file": "specification/storage/data-plane/QueueStorage/stable/2026-04-06/generated_queue.json",
+      "apiVersion": "2026-04-06",
+      "format": "swagger-2.0",
+      "sha256": "e2d48d22444aa2603144bb86626035ace927fd7749883bcb2bba7b1b93200a11"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

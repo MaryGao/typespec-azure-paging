@@ -1,0 +1,311 @@
+{
+  "project": "specification/app/data-plane/ContainerApps",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/app/data-plane/ContainerApps/preview/2026-09-01-preview/containerappssandbox.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "7ef53b518e668f9f26545c816966519a13d7b729136f8361f21f067e28fc6966",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/connections",
+          "verb": "get",
+          "operationId": "ConnectionsOperations_ListConnections",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/connections/{id}",
+          "verb": "get",
+          "operationId": "ConnectionsOperations_GetConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/connections/{id}",
+          "verb": "delete",
+          "operationId": "ConnectionsOperations_DeleteConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/contentpackages",
+          "verb": "get",
+          "operationId": "ContentPackagesOperations_ListContentPackages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/contentpackages/{id}",
+          "verb": "get",
+          "operationId": "ContentPackagesOperations_GetContentPackage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/contentpackages/{id}",
+          "verb": "delete",
+          "operationId": "ContentPackagesOperations_DeleteContentPackage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/credentials",
+          "verb": "get",
+          "operationId": "CredentialsOperations_ListCredentials",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/credentials/{credentialName}",
+          "verb": "get",
+          "operationId": "CredentialsOperations_GetCredential",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/credentials/{credentialName}",
+          "verb": "delete",
+          "operationId": "CredentialsOperations_DeleteCredential",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/diskimages",
+          "verb": "get",
+          "operationId": "DiskImagesOperations_ListDiskImages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/diskimages/{id}",
+          "verb": "get",
+          "operationId": "DiskImagesOperations_GetDiskImage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/diskimages/{id}",
+          "verb": "delete",
+          "operationId": "DiskImagesOperations_DeleteDiskImage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/diskimages/public",
+          "verb": "get",
+          "operationId": "DiskImagesOperations_ListDiskImagesPublic",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/diskimages/public/{name}",
+          "verb": "get",
+          "operationId": "DiskImagesOperations_GetDiskImagePublic",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/egressPolicies",
+          "verb": "get",
+          "operationId": "EgressPoliciesOperations_ListEgressPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/egressPolicies/{policyId}",
+          "verb": "get",
+          "operationId": "EgressPoliciesOperations_GetEgressPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/egressPolicies/{policyId}",
+          "verb": "delete",
+          "operationId": "EgressPoliciesOperations_DeleteEgressPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes",
+          "verb": "get",
+          "operationId": "AzureSandboxes_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}",
+          "verb": "get",
+          "operationId": "AzureSandboxes_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}",
+          "verb": "delete",
+          "operationId": "AzureSandboxes_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/egressDecisions",
+          "verb": "get",
+          "operationId": "SandboxNetworkingOperations_GetSandboxEgressDecisions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/exec/stream",
+          "verb": "get",
+          "operationId": "SandboxStreamsOperations_GetSandboxExecStream",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/files",
+          "verb": "get",
+          "operationId": "SandboxFilesOperations_GetSandboxFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/files",
+          "verb": "delete",
+          "operationId": "SandboxFilesOperations_DeleteSandboxFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/files/list",
+          "verb": "get",
+          "operationId": "SandboxFilesOperations_GetSandboxFilesList",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/files/stat",
+          "verb": "get",
+          "operationId": "SandboxFilesOperations_GetSandboxFileStat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/logstream",
+          "verb": "get",
+          "operationId": "SandboxStreamsOperations_GetSandboxLogStream",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/ports",
+          "verb": "get",
+          "operationId": "SandboxNetworkingOperations_GetSandboxPorts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/processes/stream",
+          "verb": "get",
+          "operationId": "SandboxStreamsOperations_GetSandboxProcessesStream",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/{id}/stats",
+          "verb": "get",
+          "operationId": "SandboxLifecycleOperations_GetSandboxStats",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/sandboxes/count",
+          "verb": "get",
+          "operationId": "SandboxLifecycleOperations_GetSandboxesCount",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/secrets",
+          "verb": "get",
+          "operationId": "SecretsOperations_ListSecrets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/secrets/{secretId}",
+          "verb": "delete",
+          "operationId": "SecretsOperations_DeleteSecret",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/secrets/{secretId}/keys",
+          "verb": "get",
+          "operationId": "SecretsOperations_GetSecretKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/snapshots",
+          "verb": "get",
+          "operationId": "SnapshotsOperations_ListSnapshots",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/snapshots/{id}",
+          "verb": "get",
+          "operationId": "SnapshotsOperations_GetSnapshot",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/snapshots/{id}",
+          "verb": "delete",
+          "operationId": "SnapshotsOperations_DeleteSnapshot",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/snapshots/count",
+          "verb": "get",
+          "operationId": "SnapshotsOperations_GetSnapshotsCount",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes",
+          "verb": "get",
+          "operationId": "VolumesOperations_ListVolumes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/{volumeName}",
+          "verb": "get",
+          "operationId": "VolumesOperations_GetVolume",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/{volumeName}",
+          "verb": "delete",
+          "operationId": "VolumesOperations_DeleteVolume",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/{volumeName}/files",
+          "verb": "get",
+          "operationId": "VolumesOperations_GetVolumeFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/{volumeName}/files",
+          "verb": "delete",
+          "operationId": "VolumesOperations_DeleteVolumeFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/{volumeName}/files/download",
+          "verb": "get",
+          "operationId": "VolumesOperations_GetVolumeFileDownload",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/sandboxGroups/{sandboxGroupName}/volumes/count",
+          "verb": "get",
+          "operationId": "VolumesOperations_GetVolumesCount",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

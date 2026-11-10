@@ -1,0 +1,71 @@
+{
+  "project": "specification/playwrighttesting/PlaywrightTesting.AuthManager",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/accounts/{accountId}",
+          "verb": "get",
+          "operationId": "Accounts_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/accounts/{accountId}/access-tokens",
+          "verb": "get",
+          "operationId": "AccessTokens_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/accounts/{accountId}/access-tokens/{accessTokenId}",
+          "verb": "get",
+          "operationId": "AccessTokens_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/accounts/{accountId}/access-tokens/{accessTokenId}",
+          "verb": "delete",
+          "operationId": "AccessTokens_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/accounts/{accountId}/browsers",
+          "verb": "get",
+          "operationId": "Accounts_GetBrowsers",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

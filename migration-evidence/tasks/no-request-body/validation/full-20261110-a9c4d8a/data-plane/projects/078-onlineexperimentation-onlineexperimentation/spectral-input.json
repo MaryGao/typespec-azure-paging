@@ -1,0 +1,42 @@
+{
+  "index": 78,
+  "slug": "078-onlineexperimentation-onlineexperimentation",
+  "sourcePath": "specification/onlineexperimentation/data-plane/OnlineExperimentation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/preview/2025-05-31-preview/onlineexperimentation.json",
+      "apiVersion": "2025-05-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "993d5fa59d105ebbddaa6c3ac82f064d34fb7ef83504c8291aff467757bc1d50"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/client.tsp",
+      "sha256": "5444574780da18c0b19571c8dcaa1367a434efb220cd2c2e33b2ba7313448d00"
+    },
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/main.tsp",
+      "sha256": "b2867d221d1b0960bb51729382430a4ee7dafbfe3203dc2933eac5fe2c052d26"
+    },
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/tspconfig.yaml",
+      "sha256": "c6a910038b50bdfaf4b7cbd9290357876017e00605483a6bc05c7f4a9b6fa82b"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/onlineexperimentation/data-plane/OnlineExperimentation",
+  "swaggerOutputPattern": "{version-status}/{version}/onlineexperimentation.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-05-31-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/onlineexperimentation/data-plane/OnlineExperimentation/preview/2025-05-31-preview/onlineexperimentation.json",
+      "apiVersion": "2025-05-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "993d5fa59d105ebbddaa6c3ac82f064d34fb7ef83504c8291aff467757bc1d50"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

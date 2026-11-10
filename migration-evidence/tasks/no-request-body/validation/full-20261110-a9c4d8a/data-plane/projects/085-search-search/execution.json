@@ -1,0 +1,25 @@
+{
+  "project": "specification/search/data-plane/Search",
+  "slug": "085-search-search",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:34:50.827Z",
+    "finishedAt": "2026-11-10T01:34:57.138Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:34:57.147Z",
+    "finishedAt": "2026-11-10T01:34:59.530Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

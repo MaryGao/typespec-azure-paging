@@ -1,0 +1,65 @@
+{
+  "project": "specification/maps/data-plane/Search",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/maps/data-plane/Search/stable/2026-01-01/search.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "d68fb185e21d8a84e41490e21587ef9073b57a310b04212d7e7646fe940fea3f",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/geocode",
+          "verb": "get",
+          "operationId": "Search_GetGeocoding",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/geocode:autocomplete",
+          "verb": "get",
+          "operationId": "Search_GetGeocodeAutocomplete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/reverseGeocode",
+          "verb": "get",
+          "operationId": "Search_GetReverseGeocoding",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/search/polygon",
+          "verb": "get",
+          "operationId": "Search_GetPolygon",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

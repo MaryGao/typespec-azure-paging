@@ -1,0 +1,46 @@
+{
+  "index": 74,
+  "slug": "074-marketplacecatalog-search",
+  "sourcePath": "specification/marketplacecatalog/data-plane/Search",
+  "swaggerCandidates": [
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/stable/2025-05-01/openapi.json",
+      "apiVersion": "2025-05-01",
+      "format": "swagger-2.0",
+      "sha256": "56d04fbecb70374157dea101f5f8d530185c012c2fe755acafcdd5f6f7dbf0b2"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/main.tsp",
+      "sha256": "c5d509d3d09616ac526fc932f29be494d820f954ef42948f99deee47da9459b0"
+    },
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/models.tsp",
+      "sha256": "76fa150a85d4a0db341b841c73a4264084a4ec8e41da2ff6b76585b1210dd71f"
+    },
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/routes.tsp",
+      "sha256": "94b3509a84768f4cfa3249f96edcb13e2cc1294a0e27098a5d2d936737c80ce0"
+    },
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/tspconfig.yaml",
+      "sha256": "8f5a2247d884be1724406bc47f7227c64c1b1e7ab8f568c653444a1cb02f8a20"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/marketplacecatalog/data-plane/Search",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-05-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/marketplacecatalog/data-plane/Search/stable/2025-05-01/openapi.json",
+      "apiVersion": "2025-05-01",
+      "format": "swagger-2.0",
+      "sha256": "56d04fbecb70374157dea101f5f8d530185c012c2fe755acafcdd5f6f7dbf0b2"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

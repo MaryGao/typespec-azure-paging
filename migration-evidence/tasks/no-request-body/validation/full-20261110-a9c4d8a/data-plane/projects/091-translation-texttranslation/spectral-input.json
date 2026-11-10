@@ -1,0 +1,82 @@
+{
+  "index": 91,
+  "slug": "091-translation-texttranslation",
+  "sourcePath": "specification/translation/data-plane/TextTranslation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/translation/data-plane/TextTranslation/preview/2025-10-01-preview/openapi.json",
+      "apiVersion": "2025-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "79d7d247747c69fa59b89e0242e56367d0a56e0cce8721b57f776c328ba98982"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/stable/2026-06-06/openapi.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "f4c5e5ad9d98a9858fd0d82b9bdd710f08f5a8fd9203f11e0fd042294a8de769"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/stable/3.0/openapi.json",
+      "apiVersion": "3.0",
+      "format": "swagger-2.0",
+      "sha256": "6316202fc2bb8cd8e33dc6194b1b66f380a1b565f614bbe260d1e28822efad84"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/translation/data-plane/TextTranslation/client.tsp",
+      "sha256": "6adb34a2e721fe94ca9809fa23fe4f474ebcd18ba5edd1251548e39f21fc4b3e"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/main.tsp",
+      "sha256": "314d4891cf6ea00b148c57c0227236da02bee5e27cf2cb8757ba66a6917af08d"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-breaksentence.tsp",
+      "sha256": "d8885bd6b15c7754a47ddee752cc358de5d2aac408f0c4b0db30904b5161a434"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-dictionary.tsp",
+      "sha256": "80f670ea1425177600dd6b7b331bc5d0245c1e83d22d52c2fac0b1be534f78c1"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-languages.tsp",
+      "sha256": "4d0c939a7c9e004406d1259841671a8307de676f88bc9ab62340a8b1d3a2eaba"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-shared.tsp",
+      "sha256": "aca12191969820269fad4b6cf9c607d8450f22a3636e08c20327e605f8114d9b"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-translate.tsp",
+      "sha256": "43794dccd8fcabf5adf67c1682f5dc3540bc69b0cf448395d99fcd7abec7bc13"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/models-transliterate.tsp",
+      "sha256": "5ad427d7f1c668d8197298092a4d9e8d0839813762447755c94b2acc5bf87a8c"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/routes.tsp",
+      "sha256": "deeb78d9445d921fc0d36c7491f1aaee5ee4a0fce8023105c4680f689e783974"
+    },
+    {
+      "file": "specification/translation/data-plane/TextTranslation/tspconfig.yaml",
+      "sha256": "757e7b054fe1918183dcc59ff82baed5fcd82b21916ef391e8fab65768d96b50"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/translation/data-plane/TextTranslation",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-06",
+  "swaggerFiles": [
+    {
+      "file": "specification/translation/data-plane/TextTranslation/stable/2026-06-06/openapi.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "f4c5e5ad9d98a9858fd0d82b9bdd710f08f5a8fd9203f11e0fd042294a8de769"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

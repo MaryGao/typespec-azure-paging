@@ -1,0 +1,245 @@
+{
+  "status": "all-positive-native-findings-and-Swagger-observations-exactly-corresponded",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "project": "specification/machinelearningservices/data-plane/RunHistory",
+  "nativeRaw": 3,
+  "swaggerRaw": 3,
+  "rawDiagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes-runs.tsp",
+      "line": 131,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes-runs.tsp",
+      "line": 403,
+      "column": 3
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "routes-runs.tsp",
+      "line": 630,
+      "column": 3
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "main.tsp",
+      "sha256": "974a928f28c6ae2e23696f3d66fb96dd68849465bde1c8a25691fd6740bc8e31"
+    },
+    {
+      "file": "routes-runs.tsp",
+      "sha256": "7c9f5b76c5e4a8e62245aa6d7e61eaa7703def6b3edcd0d03852269103898592"
+    }
+  ],
+  "demonstratedWireOperations": 3,
+  "serviceNativeWarnings": 3,
+  "clientAliasNativeWarnings": 0,
+  "correspondence": "Actual diagnostic Operation objects; compiler sourceOperation alias identities; declared HTTP service membership; exact HTTP verb/path; unique production Spectral body-parameter findings in hash-verified frozen Swagger.",
+  "findings": [
+    {
+      "sourceFile": "routes-runs.tsp",
+      "line": 131,
+      "column": 3,
+      "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServices",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/services",
+      "body": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServices",
+          "sourceFile": "routes-runs.tsp",
+          "line": 131,
+          "column": 3
+        },
+        {
+          "operation": "Azure.Core.Foundations.Operation<Parameters, Response, Traits, ErrorResponse>",
+          "sourceFile": "../../../../node_modules/.pnpm/@azure-tools+typespec-azure_1f2cab33206dda54177b3d3d31d42c73/node_modules/@azure-tools/typespec-azure-core/lib/foundations.tsp",
+          "line": 287,
+          "column": 4
+        }
+      ],
+      "originalOperation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServices",
+      "originalLocation": {
+        "sourceFile": "routes-runs.tsp",
+        "line": 131,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+        "apiVersion": "v1.0",
+        "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/services",
+        "verb": "delete",
+        "operationId": "Runs_DeleteRunServices",
+        "diagnosticPath": [
+          "paths",
+          "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/services",
+          "delete",
+          "parameters",
+          "5",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/DeleteRunServices"
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes-runs.tsp",
+      "line": 403,
+      "column": 3,
+      "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentId",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/services",
+      "body": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentId",
+          "sourceFile": "routes-runs.tsp",
+          "line": 403,
+          "column": 3
+        },
+        {
+          "operation": "Azure.Core.Foundations.Operation<Parameters, Response, Traits, ErrorResponse>",
+          "sourceFile": "../../../../node_modules/.pnpm/@azure-tools+typespec-azure_1f2cab33206dda54177b3d3d31d42c73/node_modules/@azure-tools/typespec-azure-core/lib/foundations.tsp",
+          "line": 287,
+          "column": 4
+        }
+      ],
+      "originalOperation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentId",
+      "originalLocation": {
+        "sourceFile": "routes-runs.tsp",
+        "line": 403,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+        "apiVersion": "v1.0",
+        "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/services",
+        "verb": "delete",
+        "operationId": "Runs_DeleteRunServicesByExperimentId",
+        "diagnosticPath": [
+          "paths",
+          "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}/services",
+          "delete",
+          "parameters",
+          "6",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/DeleteRunServices"
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    },
+    {
+      "sourceFile": "routes-runs.tsp",
+      "line": 630,
+      "column": 3,
+      "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentName",
+      "inDeclaredHttpService": true,
+      "verb": "delete",
+      "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/services",
+      "body": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sourceOperationChain": [
+        {
+          "operation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentName",
+          "sourceFile": "routes-runs.tsp",
+          "line": 630,
+          "column": 3
+        },
+        {
+          "operation": "Azure.Core.Foundations.Operation<Parameters, Response, Traits, ErrorResponse>",
+          "sourceFile": "../../../../node_modules/.pnpm/@azure-tools+typespec-azure_1f2cab33206dda54177b3d3d31d42c73/node_modules/@azure-tools/typespec-azure-core/lib/foundations.tsp",
+          "line": 287,
+          "column": 4
+        }
+      ],
+      "originalOperation": "Microsoft.MachineLearningServices.RunHistory.Runs.deleteRunServicesByExperimentName",
+      "originalLocation": {
+        "sourceFile": "routes-runs.tsp",
+        "line": 630,
+        "column": 3
+      },
+      "originalBody": {
+        "kind": "Model",
+        "name": "DeleteRunServices",
+        "property": "body",
+        "optional": false
+      },
+      "sameBodyTypeIdentityAsOriginal": true,
+      "swagger": {
+        "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+        "apiVersion": "v1.0",
+        "path": "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/services",
+        "verb": "delete",
+        "operationId": "Runs_DeleteRunServicesByExperimentName",
+        "diagnosticPath": [
+          "paths",
+          "/history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/services",
+          "delete",
+          "parameters",
+          "6",
+          "in"
+        ],
+        "bodyParameter": {
+          "name": "body",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/DeleteRunServices"
+          }
+        }
+      },
+      "classification": "Actual service DELETE body also reported by Swagger."
+    }
+  ],
+  "countInterpretation": "Three actual service DELETE bodies map one-to-one to three real Swagger body findings. No source client-alias multiplicity occurs here. Exact source Operation identity and body-bearing verb/path correspondence, not equal counts alone, establish these three concrete matches.",
+  "policy": "Existing source suppressions concern other rules and do not suppress the new no-request-body rule. Existing service behavior is retained; no specification, rule or suppression changes made.",
+  "limits": "Source and selected checked-in Swagger versions are not generally aligned. Exact concrete correspondences do not establish completeness for unobserved positive cases or full production AutoRest parity."
+}

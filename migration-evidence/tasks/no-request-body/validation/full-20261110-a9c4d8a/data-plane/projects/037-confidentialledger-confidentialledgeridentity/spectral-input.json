@@ -1,0 +1,54 @@
+{
+  "index": 37,
+  "slug": "037-confidentialledger-confidentialledgeridentity",
+  "sourcePath": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity",
+  "swaggerCandidates": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/preview/2024-12-09-preview/identityservice.json",
+      "apiVersion": "2024-12-09-preview",
+      "format": "swagger-2.0",
+      "sha256": "e94581e60f882c70351b5d3785a82565ff36362e456cefce60606b61dbdfe70b"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/stable/2022-05-13/identityservice.json",
+      "apiVersion": "2022-05-13",
+      "format": "swagger-2.0",
+      "sha256": "da1e3b7cbf34a310bbc4e90d788c412e910687a264a6762e0eb05ffd0dcc6f70"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/stable/2026-02-23/identityservice.json",
+      "apiVersion": "2026-02-23",
+      "format": "swagger-2.0",
+      "sha256": "6cd76de78fd1249e68a46317e04c3ddb802d551d3ce7027a374bc7e7c76262b4"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/common.tsp",
+      "sha256": "3082b43cb4e6177d2faa5709b3f4913c075c5871f4ef97724f9732570e374897"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/main.tsp",
+      "sha256": "af3a5a0a8648398267e1a715fc0f02525c075fe312cf8689b5838d287d29e6f6"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/tspconfig.yaml",
+      "sha256": "9cb3a415316505be3ff90d3e42009466b1f43028f4dc4d7a14df8361710ebc67"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity",
+  "swaggerOutputPattern": "{version-status}/{version}/identityservice.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-02-23",
+  "swaggerFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedgerIdentity/stable/2026-02-23/identityservice.json",
+      "apiVersion": "2026-02-23",
+      "format": "swagger-2.0",
+      "sha256": "6cd76de78fd1249e68a46317e04c3ddb802d551d3ce7027a374bc7e7c76262b4"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

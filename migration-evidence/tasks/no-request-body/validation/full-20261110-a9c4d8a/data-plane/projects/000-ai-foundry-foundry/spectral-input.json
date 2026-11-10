@@ -1,0 +1,663 @@
+{
+  "index": 0,
+  "slug": "000-ai-foundry-foundry",
+  "sourcePath": "specification/ai-foundry/data-plane/Foundry",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/openapi3/v1/microsoft-foundry-openapi3.json",
+      "apiVersion": "v1",
+      "format": "openapi-3.2.0",
+      "sha256": "d1e2421fccac76389a2fee43a76a063ab40e0c678ac604951c976b43a1dfefb0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/openapi3/virtual-public-preview/microsoft-foundry-openapi3.json",
+      "apiVersion": "virtual-public-preview",
+      "format": "openapi-3.2.0",
+      "sha256": "2c1435adf06b591636af78215169ec258ba0f9631fe2aadc994f2bd655439861"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/main.tsp",
+      "sha256": "acd960f265dee6289fdf88d46c4073765031ea0c5548c1932a429dfc77d833f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agent-insights/models.tsp",
+      "sha256": "9bc903a12852d9e0b58d3ddd694623b632345e26dcc387cc2053b8186b2f4204"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agent-insights/routes.tsp",
+      "sha256": "7d4cb1be9eca8f82298f807c8781cbcadef1a579bf39a76848f037a273fe3fe3"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-containers/models.tsp",
+      "sha256": "e1b8eae4c4755122d77a27928a654eed5386949c49cc7fbe9ca40fff8c592933"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-containers/routes.tsp",
+      "sha256": "44417f192d8195e241e2488728e24f76696e91a555464c2b1c39f0688ff08232"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-invocations/routes.tsp",
+      "sha256": "a68970a7597f29b53145a2fe91e86b176af225806b26d47d45381b6b4d2688fc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-invocations_ws/routes.tsp",
+      "sha256": "029e818a39094abd4b55401792a123b1bff2070a1cb86ebb85cdcf716130ac12"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-microsoft365/models.tsp",
+      "sha256": "6abe74815871297f6148eb448c00758755cfb4ee6df0d8b38c7a41c82f2d9efc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-microsoft365/routes.tsp",
+      "sha256": "7d38a1717f635436e50d21734b5b68ef206a69cc6f7c4b785069ccf14241b7cf"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-optimization/candidates.tsp",
+      "sha256": "46fae6acecf532046ca3378bf374a910d48770e1976fa5dfafb390ba2fd1fadf"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-optimization/inputs.tsp",
+      "sha256": "58670a3ff145a48329bf4c3d965386d5e9b40dee852638cc0725325f24d9fdbf"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-optimization/jobs.tsp",
+      "sha256": "eacb5502a46ac3a1b74c410a3357cc9fae57be81c921f9e286a648a315f3fe62"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-optimization/models.tsp",
+      "sha256": "a8b6b0b8396279da067dd22c949794f04c9f985bce2039982e37d3653f09bcbd"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-optimization/routes.tsp",
+      "sha256": "f5ac4beb2288491b8fa84a126ea1b0e1f8019194505b33893cf603525d30b2a0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-session-files/models.tsp",
+      "sha256": "214766e18dafecdf8aaff3df0f28f18cf179f25c397a2d43f9945859895fdd96"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents-session-files/routes.tsp",
+      "sha256": "a0d9ba8e0669f8dc5b21ac2d70d071839dcb56ce6220b46f42788d78334360b6"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents/models.tsp",
+      "sha256": "1d99801c6937507def78a2b5813ecb0543dc7f5a2ab4b71361a1958dd42ce628"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agents/routes.tsp",
+      "sha256": "2ded8f903ccc0ad57a12b3211673ba59a2aee018c5ff2b97b4c792243f6ca15a"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agentserver-persistence/models.tsp",
+      "sha256": "280300e5e551f26b514130c075bfc0a50974d932f3371ec3eaf6877d916aedbb"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/agentserver-persistence/routes.tsp",
+      "sha256": "5d74fe18c117b1dc860e6fda385c4905c258bd8daea2237f1f3a9d859f504c4e"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/custom-types.tsp",
+      "sha256": "0a914c8ced80bac154af1a17b0586e28081675c513c53acdbe3c9fcc887bedb0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/error.range.tsp",
+      "sha256": "92bfbb4f6824915da226cefdc8a6e2909b95280bb09fe070505b60871f206db4"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/models.tsp",
+      "sha256": "137c9b0f1ad17d22a8ee65838222bdda748b7110046e768d4fac18798614828f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/openai-templates.tsp",
+      "sha256": "a626acf73c3d1069267aac9f6fc924e0a894b22a24fb36ff9e58fcf2b9ab417c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/service.tsp",
+      "sha256": "ead756086ba2bed20731cf8632ad8ada6b6f9e8df93728b3aa9c80acffd7dbc6"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/common/servicepatterns.tsp",
+      "sha256": "fb7238fdeee835c6d0e23484a26cb7f3fb9b27cfb8ade6cd19be5ba24807ffe3"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/connections/models.tsp",
+      "sha256": "4dc33200a86766551bf4fd268398f96a1c07e51df3cd897ad0ae6950481b892f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/connections/routes.tsp",
+      "sha256": "514a7a74526e40cde0f2c774b8dff9027eba16d3cf2dd2edda24fe604e0f7ad0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/data_generation_jobs/models.tsp",
+      "sha256": "adc6f32058409a49baba082faf4009a32e1317619190185659d3cf3c1c918bd1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/data_generation_jobs/routes.tsp",
+      "sha256": "935926e02d9772ce622d1c7cdec4f120c01e788ac3ee510cbe7a45b96485f0d8"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/datasets/models.tsp",
+      "sha256": "a358a4be819d233deb13bb15a9a2e5b7363a66ce35e7a1ad1d6c0a32763305cd"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/datasets/routes.tsp",
+      "sha256": "d45da99f6fe1e9be2bb6cff31e7fa18722fed826029519c6ef70fd18ec15029b"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/deployments/models.tsp",
+      "sha256": "f3b435782bd1b0c97ef12ebbed13413bf64c12255dc14e831d14a871eecd0467"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/deployments/routes.tsp",
+      "sha256": "b5c262659b626df7f1f331a1671904fdfbee2ecebff11bf111536df367a5e036"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-rules/models.tsp",
+      "sha256": "47ed19ce32975f0cf618518d7e768d5e35e2a43e1bb84baa4842b7817cbe12dc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-rules/routes.tsp",
+      "sha256": "b65f098c8723a8db04e7e305e60c0b6e0714fc611bf3bc703674bd2d8ee319d0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-suites/models.tsp",
+      "sha256": "44eabdbe85b1ebfc15ac90f6c47328ec8748912a4c20f60cf36d3569ccdc66db"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-suites/routes.tsp",
+      "sha256": "aed0f5c84648f444ccd3553ea0d595c30ae7e91ad7bd4ea044b24f734e5c5b6f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-taxonomies/models.tsp",
+      "sha256": "4d07f683f6b7e2d1b0e9ec355c5b5fa4ddbffba929ca9bee7f6625b0495fd8ed"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluation-taxonomies/routes.tsp",
+      "sha256": "e13f0370ce8e87a3b47ed7911acf70357802f273b623e302734405930dcb1dba"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluations/models.tsp",
+      "sha256": "3b0d7a5e39e1eff9655488f406259e13df755b1d6d0e18253e6962db58a18263"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluations/routes.tsp",
+      "sha256": "9fd9cd0c58835f3eb519b95e0e2c770c56629ef584526387a2e543ac6166421e"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluators/models.tsp",
+      "sha256": "c2a336b7b481b41d9d3dc8422739ab53d4985c669457c32fd0cee722fa5d1f89"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/evaluators/routes.tsp",
+      "sha256": "60f2dcdb0f26674cc0994d9847d0487f16966ef9ef774cde242fa7242f5b58cb"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/indexes/models.tsp",
+      "sha256": "e4d785469d2a1a71b978ae7bb6976d746d88040be7c75fe9c921cc7c6c032803"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/indexes/routes.tsp",
+      "sha256": "ebeec3e57d5e2cae53910ca42cc6d36a5a8e021854a0fded34e6cf54ac76c285"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/insights/models.tsp",
+      "sha256": "a3689b99e714f715b6832f9548348239a0b32d5162939fe0f9c0f7ba27e25f70"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/insights/routes.tsp",
+      "sha256": "2325a5ded5a86ddedebec0afe834fdcfb88f760a8a1494018e7148d45415508e"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/managed-blueprints/models.tsp",
+      "sha256": "f242495f42eb2086115a8dd6d688487cefdb82ade6c292474156f1b9d6486552"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/managed-blueprints/routes.tsp",
+      "sha256": "54a1c62ca9d7ffde912071e939262e33559544ac382f8546f3e22018a2c495c0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/memory-stores/models.tsp",
+      "sha256": "c2ce3a74fd0c1670c2a47fe18b864e914e5db6318090a017efd531ab57bbfad1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/memory-stores/routes.tsp",
+      "sha256": "593f570fd38a3ea45beb7b7657087dedb5806b75b48be06dc524fa9616b2ff14"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/models/models.tsp",
+      "sha256": "3ce60ecb9a5f2cc73ee73949b739f70236803a99ab47f959f2f48e92751140b5"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/models/routes.tsp",
+      "sha256": "78c9aaccf915f57eaf51e41b14bec5458c6b2e4b58de48a1783c79d0f7534883"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/assistants/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/assistants/routes.generated.tsp",
+      "sha256": "4a368622805c74dcf51819911a86ebef7f91c59b80c9d7f2a271a95a04b61618"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/assistants/routes.meta.tsp",
+      "sha256": "887152ea1c0ba6c46b6bd0836409b6d7f1986797b5a49c47b9b0ff0b0670cc29"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/audio/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/audio/routes.generated.tsp",
+      "sha256": "d890ab508cf568e5c3b29a3bf42cd7657090f782efa492d86cb77e91db1e260e"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/audio/routes.meta.tsp",
+      "sha256": "97d33f292cab274033c7462dd09612b3a27aa75d5963483754608a040a5c83e2"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/batch/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/batch/routes.generated.tsp",
+      "sha256": "b782be045a04239314aedd7d35b0b4cae2a8e32d5ff03bfa34e384b26b485adb"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/batch/routes.meta.tsp",
+      "sha256": "12635f5590adab1cd2c26b2c09408eae622a17110f658597eb4a977b7f593a7c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/chat/main.tsp",
+      "sha256": "7ea39ba47ea3d8357cb939d8be48bd4bdc28b7326b8fe86a8a5808f51a9e95dd"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/chat/models.tsp",
+      "sha256": "8a81b49a895ba1e3f3232b3508a90c3f4e78a7d41924b15e97eda73fbff2ceb1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/chat/routes.generated.tsp",
+      "sha256": "7ffe498253c0706e655c8b384939d727c62d3d6b97a3e7193b5dcf85a9f4078f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/chat/routes.meta.tsp",
+      "sha256": "f77c7084cde00256546ab9053fa704067e1c4ad26c210d4f65558c4c256c103a"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/chat/routes.tsp",
+      "sha256": "904d7ea12e9a665ddfa222bd2a9fa49dee3ab35bdae7178e26175443b94ea6ed"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/completions/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/completions/routes.generated.tsp",
+      "sha256": "6e78e4026a25b79a2a4ad8488913a85cf1035f8ec72f4b372477f258039fa81d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/completions/routes.meta.tsp",
+      "sha256": "2d29f3d211b15d5b97136020f720f07b75e0954678ab87725558ff63f38e68e1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/containers/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/containers/routes.generated.tsp",
+      "sha256": "7297addbdcbfa3885d2fc8279d17a20d067e3d2baa984e693a3d740224185f0b"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/containers/routes.meta.tsp",
+      "sha256": "01097f67907e8c2baaaed4f9caf53b761f31fd3e8d6a36c6a389d09acb2d2e2c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/conversations/main.tsp",
+      "sha256": "618a2d9e53127a609e907efaa532501a56e96504e29db7344352b5645391626d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/conversations/models.tsp",
+      "sha256": "ed9b2a18264a1e1838532f3a810e85a71367e63adc3f8cdd60f6ecf55f0fba22"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/conversations/routes.generated.tsp",
+      "sha256": "5bacd93691d844e44afcd900cdd2148d7cd62143046c77414471134e405e2576"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/conversations/routes.meta.tsp",
+      "sha256": "9c01aa6825617417f36456c5eb25cab3495ee3dd60d99f036a5ab980cd90d047"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/conversations/routes.tsp",
+      "sha256": "89892a9284cd1d43fa409485945d03508fc2805393585ebba9165c62be6c4fc8"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/embeddings/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/embeddings/routes.generated.tsp",
+      "sha256": "245e36c90f2881d219473507702b1cc56b3d03656a87e05a0bbd82289e30016c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/embeddings/routes.meta.tsp",
+      "sha256": "3b53a8fc9189062f4b11ab8e9a0bf2d46df7f828d6e62d1854e05486b029fc47"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/common.tsp",
+      "sha256": "5f3b61648f685d2a796f13d75acc95e66791c10d1512089e6b26db33c484c651"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/main.tsp",
+      "sha256": "618a2d9e53127a609e907efaa532501a56e96504e29db7344352b5645391626d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/models.tsp",
+      "sha256": "2031e6334450751ff8eb6e7277e78cfeca8af09bece4ac4342ee4c6393d1c7ad"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/routes.generated.tsp",
+      "sha256": "f7e30505410a3f7b2a078db61f5f1b4b8b4b4bb4db22f8ade1b83063a7e17db5"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/routes.meta.tsp",
+      "sha256": "5af952f0d93b05cb7633ae9beb5438050e144747fbc11a05b87cf0a6c665380f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/routes.tsp",
+      "sha256": "0a29dd83db614785b7743a25b6b51fd24604f53e7d18863982ae315d4c0463fd"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/evaluations/user_conversation_simulation.tsp",
+      "sha256": "5cb447b4b822d042320914439d422ec7bf272919e42c26e0eaec91a3a85888e4"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/files/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/files/routes.generated.tsp",
+      "sha256": "4d829fdb654a54d667986f0c6d44d6731a3eb4c2202404f1650e0ffdeb5593d6"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/files/routes.meta.tsp",
+      "sha256": "8fb4b761543bb5a1380df7c7670624e66b73613a0fbd2d685822fa06d3b9f841"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/finetuning/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/finetuning/routes.generated.tsp",
+      "sha256": "17e139cb9540d08a16ab8e6473416cdb036e52cd11105b2db6eceec11e4f77f3"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/finetuning/routes.meta.tsp",
+      "sha256": "5c104a50aeffc60cb1603e8d129167f18ec1849495a331e5da3339f0eada0128"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/graders/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/graders/routes.generated.tsp",
+      "sha256": "95f32eaac219cb2da2c8090f996d811edf5a0dd9e829352a87729aa7fa94d746"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/graders/routes.meta.tsp",
+      "sha256": "54292838ade029605245a81854b7438bd9bd62dd9fbf7f92d00ae14d8a8bce72"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/images/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/images/routes.generated.tsp",
+      "sha256": "2e43cfa14bae3e26a4bd7a83a15457f1a329d07750e9071bd060280b93bd2ce0"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/images/routes.meta.tsp",
+      "sha256": "1bb90ca85cba20bba90a3fbf0dc1dd437bf2781da04c92ce03c3e122add0437f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/models/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/models/routes.generated.tsp",
+      "sha256": "362c40283f6252768052c4fdf91e53150c8e006ba9cddd78157206d565f2447d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/models/routes.meta.tsp",
+      "sha256": "3f07d19072a67059213872a8393c094bdb708f44c577d51b18c246ed1c5d854a"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/moderations/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/moderations/routes.generated.tsp",
+      "sha256": "00e449c50ea8b124fc433b4445b03eb1ac50eba447dab29c3b54e6931b43d555"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/moderations/routes.meta.tsp",
+      "sha256": "c53b7679550e170b15050ecabed808d0a4dbc8b1efb1c8197f0e8e93e5d036cb"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/realtime/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/realtime/routes.generated.tsp",
+      "sha256": "6de0549895b472e073741db4dcfdde407c0ab737856d37f8f6b0918a0b1512ff"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/realtime/routes.meta.tsp",
+      "sha256": "c87d66c2e9c1db9ce823fcb42a93ea764f160b2c5c2d7823b693ab9c41bce13c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/responses/main.tsp",
+      "sha256": "618a2d9e53127a609e907efaa532501a56e96504e29db7344352b5645391626d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/responses/models.tsp",
+      "sha256": "db9ecd170a585fdbea44fbd250cc0f36a611a51e8996e03d534a684a6acdcf04"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/responses/routes.generated.tsp",
+      "sha256": "81320f78f71b39c2843476ff1ebdf93e760aac54a89d137dfbcb77c565989704"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/responses/routes.meta.tsp",
+      "sha256": "73c9e5bdfd56b3eb0232d534b7483f6bf7fc0e9243bbd002cb5ddded515ca7e5"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/responses/routes.tsp",
+      "sha256": "a7c6dd8a8f3965caaa78dce82f78f29d2a975877ff3f29abb422aaebccf8d478"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/threads/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/threads/routes.generated.tsp",
+      "sha256": "9a84fdf9dd37bc92d281b52024f8fff7a7543e80de3aaf8d414e48eca27e0fe9"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/threads/routes.meta.tsp",
+      "sha256": "0b58363bcb31b83d0b1c6cf25829dc72758ceaff77f705b80d7fdd257e5377de"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/uploads/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/uploads/routes.generated.tsp",
+      "sha256": "e5f40fe622f6a3ca5d5f750eca5382ceafb68cd0ffac8a2d0389fe5ef2af3c98"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/uploads/routes.meta.tsp",
+      "sha256": "611044b724ec0951c615b2b5a4cdeb309e05e9be65b572b3da021be7c6f6c249"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/vectorstores/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/vectorstores/routes.generated.tsp",
+      "sha256": "bf2a612efd91d4c0e58f66b98052724f09ce9aa8698df0b85dbb201f70f1c705"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/vectorstores/routes.meta.tsp",
+      "sha256": "ec3271ec2cddb103568f4ccdd2554685fc9c9312a8b3a17cc6a1b93387b4fc64"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/video/main.tsp",
+      "sha256": "e12770c4857a3ddc51c0a8b25e180f7092cbe28fa822411a75a160dc48e698f1"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/video/routes.generated.tsp",
+      "sha256": "f3190cf8d295cce125f6b42fdd48efaa694010dcbd227e05ab1c479363f7ee7d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/openai/video/routes.meta.tsp",
+      "sha256": "eb949e26581b28201fe95bcc94b8431d005f0b0da98e97a0b520cf8d5808ddd4"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/red-teams/models.tsp",
+      "sha256": "be00f43f3d06834b4f3ffc7d3a77353facd5ff8f1f08d0eae45a5a92f34b1786"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/red-teams/routes.tsp",
+      "sha256": "f61a43fdd17b38e31efabda23b84e2c18f1431503ad7f1eac4d9cdd8aa7bb88d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/routines/models.tsp",
+      "sha256": "50a0035773ddd578f0b112ebc2bf7d904272ce56656313bf092c3b1f291d2f1f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/routines/routes.tsp",
+      "sha256": "1e509346b26a9f288e029abe58302a661b7e527903aae987f5204fb78c38cc6e"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/schedules/models.tsp",
+      "sha256": "68a46ad9e18886ba2f096e6e5e729994bbbffea25ad6ef3cd149c58c2dea91b6"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/schedules/routes.tsp",
+      "sha256": "4a307d4fcb0d8cee40fdd5ffea9164d775edf68849f640206d62eabb17ce0cfc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/error.default.tsp",
+      "sha256": "949fb46b5d515c5de93840002839d541da640efb77ba4da295d5e1a21b4221fd"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-agent-insights.tsp",
+      "sha256": "21ea3840c78ab0948c0af9b126b70a4f6d7fdcc7496b54454fbccba6328b72ad"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-agents.tsp",
+      "sha256": "48ecc562cf8f6d97645e5a5626aef27ddfcaed6940cb37504aa2507c2003b949"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-datasets.tsp",
+      "sha256": "9963430c7309178fe23f543d79af1db773c22361a27f169d14620f5cb63e2111"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-evaluators.tsp",
+      "sha256": "8cf6ceb0f7882700117711c6825656ba0b76c8f9029fa12adec061392f0c91ae"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-projects.tsp",
+      "sha256": "d5ca1b5a153d77e424471fe930685dcda56a9691d928314591c32887e650c98f"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-common/ops-relocation-voice-agents.tsp",
+      "sha256": "1d709cb98563cf885db0fbe6ae17b0f057cdb30b7f4d2710bc40ddec2fa73605"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-agent-contracts/client.tsp",
+      "sha256": "c17a9cbbdce963e02520dd8a65f55b1d97ef4f9674d5a669635d8c982db42593"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-extensions-openai/client.tsp",
+      "sha256": "fe21e65cf881a70b6ca472098799d42cee957f5a8cd84b648edefc109d81fcdc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-projects-agents/client.tsp",
+      "sha256": "bc90d1d3aad8584b6dae6a6668654e006c8db48ee294f0d75acce546629c6323"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-csharp-azure-ai-projects/client.tsp",
+      "sha256": "dab13cec06a6b7b11265ac26f0761dec72326089d800ccfbe6ea22568b4983ad"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-agents/client.tsp",
+      "sha256": "66e20bc925b5da5237dd99825846a0b00934d75711c9c5cdfe161ec66c2b2e75"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-projects/client.tsp",
+      "sha256": "b5a3c0f9539ae0c7ed9228df476771d0e3cbc7fe8b076fc3f9590ae2f7d13552"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/sdk-python-js-azure-ai-projects/client.tsp",
+      "sha256": "d7a86cf62f79bb445e999de6e0fef94e92da0e29b70c16b129524ede801dfbee"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/skills/models.tsp",
+      "sha256": "15ddf95021dcc3fa194c7342d2d207087f52c7c0f2f78ff93e80aa579d00cfd8"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/skills/routes.tsp",
+      "sha256": "252a6b0e8d6241e2c59eb4605034867637eac4496531d8f60de580f6d3f17b46"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/toolboxes/models.tsp",
+      "sha256": "5cba4c59c4f5d6a0ec4b41b6894c0f7e7b0295e2f08ce857fafecfe4f4c96d28"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/toolboxes/routes.tsp",
+      "sha256": "dbbe1f8e3a23f31ba2ec41e39e97ef58d912a8d57ea7ca2454d66aab5f8b177c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/tools/models.tsp",
+      "sha256": "691b181dab82194fc05c46523f55746b8e93955f22afcc212d14f4a0086aa867"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/voice-agents/agents.tsp",
+      "sha256": "b9f5473df6f4a918ff9bdb70e5130d10dbe65829b5de4f0f1e5550d5401eef1c"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/voice-agents/models.tsp",
+      "sha256": "6932ed23c8413b481ff4678854e0b6961a9626b9d9eedc0a492b690360c227bc"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/voice-agents/openai-preview-models.tsp",
+      "sha256": "3df3e84aaaccedecb02ac8cb9d485572c647fa8e97e7c00b88d3b7c517460406"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/voice-agents/protocol.tsp",
+      "sha256": "0227590f9aac779f7d70009d4fce37510cebf0130c8839a506cd133c24ad1ad3"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/src/voice-agents/routes.tsp",
+      "sha256": "5d42fcf49615dd88b64ae05a6eb15e5c0a1952b972f38137c1b521e0fb9f1c5d"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/tag-definitions.tsp",
+      "sha256": "28ec7087f9e7b924007fd1ec6fd76031bf8abfac54feb98e3ac1694fb5292ff6"
+    },
+    {
+      "file": "specification/ai-foundry/data-plane/Foundry/tspconfig.yaml",
+      "sha256": "fade865e890928aa3b8d23bc14d2b2839b7c88e198bb7acd50776627febf24b2"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai-foundry/data-plane/Foundry",
+  "hasExplicitAutorestOptions": false,
+  "swaggerFiles": [],
+  "swaggerSelectionStatus": "unassessed-no-local-oas2"
+}

@@ -1,0 +1,131 @@
+{
+  "project": "specification/keyvault/data-plane/Certificates",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-07-01-preview/certificates.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5694b678d1231a8e9b64ebd62e9dd6e9d580ada3b559eac5096bed1e1526d591",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/certificates",
+          "verb": "get",
+          "operationId": "GetCertificates",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}",
+          "verb": "delete",
+          "operationId": "DeleteCertificate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}/{certificate-version}",
+          "verb": "get",
+          "operationId": "GetCertificate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}/pending",
+          "verb": "get",
+          "operationId": "GetCertificateOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}/pending",
+          "verb": "delete",
+          "operationId": "DeleteCertificateOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}/policy",
+          "verb": "get",
+          "operationId": "GetCertificatePolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/{certificate-name}/versions",
+          "verb": "get",
+          "operationId": "GetCertificateVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/contacts",
+          "verb": "get",
+          "operationId": "GetCertificateContacts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/contacts",
+          "verb": "delete",
+          "operationId": "DeleteCertificateContacts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/issuers",
+          "verb": "get",
+          "operationId": "GetCertificateIssuers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/issuers/{issuer-name}",
+          "verb": "get",
+          "operationId": "GetCertificateIssuer",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/certificates/issuers/{issuer-name}",
+          "verb": "delete",
+          "operationId": "DeleteCertificateIssuer",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedcertificates",
+          "verb": "get",
+          "operationId": "GetDeletedCertificates",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedcertificates/{certificate-name}",
+          "verb": "get",
+          "operationId": "GetDeletedCertificate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedcertificates/{certificate-name}",
+          "verb": "delete",
+          "operationId": "PurgeDeletedCertificate",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

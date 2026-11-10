@@ -1,0 +1,47 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeText",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/preview/2026-05-15-preview/analyzetext.json",
+      "apiVersion": "2026-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "87a54ae2fce6a249571c043bd1da49e212318408a3304ebe00031ee2e4effefa",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/analyze-text/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "AnalyzeTextJobStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

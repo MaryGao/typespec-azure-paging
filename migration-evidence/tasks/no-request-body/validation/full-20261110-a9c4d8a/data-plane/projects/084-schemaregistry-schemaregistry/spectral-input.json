@@ -1,0 +1,54 @@
+{
+  "index": 84,
+  "slug": "084-schemaregistry-schemaregistry",
+  "sourcePath": "specification/schemaregistry/data-plane/SchemaRegistry",
+  "swaggerCandidates": [
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/stable/2021-10/schemaregistry.json",
+      "apiVersion": "2021-10",
+      "format": "swagger-2.0",
+      "sha256": "3b09c279590db41459744e778998ad953ddf23bcf5df009216e7ca7b91d1d728"
+    },
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/stable/2022-10/schemaregistry.json",
+      "apiVersion": "2022-10",
+      "format": "swagger-2.0",
+      "sha256": "3de3a0f1340dc40ad5ecce68d19d5fbc8d7a6c4700139eec9ee9ff38d79b92b0"
+    },
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/stable/2023-07-01/schemaregistry.json",
+      "apiVersion": "2023-07-01",
+      "format": "swagger-2.0",
+      "sha256": "86c4aa7c776fee4ccc9e3903a018a4974557659067ea6da101d7966aafce4fb5"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/client.tsp",
+      "sha256": "4f13698a2ec124f631a4aed588d249c4672f80781111075fb871750374fdcb7a"
+    },
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/main.tsp",
+      "sha256": "b0e0d74cb412ee015ff572be67f5d4a1bb1414bed152212706c577187b3bb597"
+    },
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/tspconfig.yaml",
+      "sha256": "3f56a0ffc25ea8adbc010bfb9ac5b39d7bd0a152050f65a99f4f71d637224ba8"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/schemaregistry/data-plane/SchemaRegistry",
+  "swaggerOutputPattern": "{version-status}/{version}/schemaregistry.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2023-07-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/schemaregistry/data-plane/SchemaRegistry/stable/2023-07-01/schemaregistry.json",
+      "apiVersion": "2023-07-01",
+      "format": "swagger-2.0",
+      "sha256": "86c4aa7c776fee4ccc9e3903a018a4974557659067ea6da101d7966aafce4fb5"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

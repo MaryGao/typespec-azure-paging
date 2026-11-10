@@ -1,0 +1,66 @@
+{
+  "index": 64,
+  "slug": "064-machinelearningservices-runhistory",
+  "sourcePath": "specification/machinelearningservices/data-plane/RunHistory",
+  "swaggerCandidates": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "b8cdbe5b8e5afd256d52e81536922ecdcc87ffbe5ee10b2844054b8e2ec8f0f3"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/main.tsp",
+      "sha256": "974a928f28c6ae2e23696f3d66fb96dd68849465bde1c8a25691fd6740bc8e31"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/models.tsp",
+      "sha256": "8f903c410acd28ddb08f8fb01ab83b690fb2c90257bfbb15fd08aee7ff4de5dc"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-artifacts.tsp",
+      "sha256": "b57550794731a1115e5085cfc9ffe8abc219f0bd9df11887914e5a75a9da5bed"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-events.tsp",
+      "sha256": "0d1506edd0046bde763da6128a6a4f2e8a308eac8d11adb72772453f2740b745"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-experiments.tsp",
+      "sha256": "ecaa202757f09b3d35faf478c1b83733468ce0e6d713c3dd21c9915dfbaa8204"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-metrics.tsp",
+      "sha256": "03e4add5ecccb25a6f8d665e14dc8c7077029339521681e6e3a28dee36ca18a5"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-private.tsp",
+      "sha256": "bb290cec9c12c772bb37bede451ca029ccba3641a9017109a0743dbeba43ebbf"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/routes-runs.tsp",
+      "sha256": "7c9f5b76c5e4a8e62245aa6d7e61eaa7703def6b3edcd0d03852269103898592"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/tspconfig.yaml",
+      "sha256": "e49a1b535be46a77d7168bf21b316d0ec6a00cbcd565369f3d9ba61703f6c8c9"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/machinelearningservices/data-plane/RunHistory",
+  "swaggerOutputPattern": "{version-status}/{version}/run-history.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "v1.0",
+  "swaggerFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RunHistory/stable/v1.0/run-history.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "b8cdbe5b8e5afd256d52e81536922ecdcc87ffbe5ee10b2844054b8e2ec8f0f3"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

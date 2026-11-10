@@ -1,0 +1,25 @@
+{
+  "project": "specification/devcenter/data-plane/DevCenter",
+  "slug": "040-devcenter-devcenter",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:29:57.750Z",
+    "finishedAt": "2026-11-10T01:30:02.524Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:30:02.530Z",
+    "finishedAt": "2026-11-10T01:30:04.521Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

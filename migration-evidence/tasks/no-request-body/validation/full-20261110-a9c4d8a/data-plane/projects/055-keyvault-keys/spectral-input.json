@@ -1,0 +1,102 @@
+{
+  "index": 55,
+  "slug": "055-keyvault-keys",
+  "sourcePath": "specification/keyvault/data-plane/Keys",
+  "swaggerCandidates": [
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2025-06-01-preview/keys.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "24f47dbbecf2b472354cb4ee4f1c50d874b79d94ec224c0729e8760a6aec003d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-01-01-preview/keys.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "87bfd6ec75c60a4234a22368abb737247ac04032c55cee7803a9fe3c6ac749cc"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-03-01-preview/keys.json",
+      "apiVersion": "2026-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a414978fd4f907aaa2cc0b97c1e369378af5b9af71d400a49ce3afa4e08e6846"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-05-01-preview/keys.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f9997a64c547cb735f34f7b143671388a94d8d43403e4319586094f525e064f2"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-07-01-preview/keys.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f07672d530769afe3d770483aff74cfa925aea1ee11e7938f413c50ccc3f0231"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/7.6-preview.2/keys.json",
+      "apiVersion": "7.6-preview.2",
+      "format": "swagger-2.0",
+      "sha256": "7bedded21050eb7684894bde2ccfa4ca852f400fb60f0ab87f676f7e85146a92"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/stable/2025-07-01/keys.json",
+      "apiVersion": "2025-07-01",
+      "format": "swagger-2.0",
+      "sha256": "52aeac056fddeaa8c8b1df4735b39b849efcf1d7dc65d75f047528a37b7bef49"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/stable/7.5/keys.json",
+      "apiVersion": "7.5",
+      "format": "swagger-2.0",
+      "sha256": "e1826a3abe55ce4636b4990fa7cd52066675c715b839a46fb4f4c493bc6045d9"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/stable/7.6/keys.json",
+      "apiVersion": "7.6",
+      "format": "swagger-2.0",
+      "sha256": "16c2b5499019b2fd663bba2c014ea1ccde2bf58684188cecbfed0a776314a13e"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Keys/client.tsp",
+      "sha256": "ba7c7f8d027bac1f8ace0249b0c94551b2339641a3e00adf5f9abece49690ce1"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/common/common.tsp",
+      "sha256": "00c3bbcdd823f837547d082cf728487c78ca85d0b632bf3a48ac6de43ffd5dea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/main.tsp",
+      "sha256": "7376f60ac96756ed8d20d29c93296e3f47b725d736e5eb495b0d73840b1f8adc"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/models.tsp",
+      "sha256": "496ff0e982e2d31a6e10dd1b385705a6120a58431ed53fa9090812eefe1bb5b3"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/routes.tsp",
+      "sha256": "8ff4cfad7c31cd29051e3d36eac01079e734399866085d328cfb71165f3800b0"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Keys/tspconfig.yaml",
+      "sha256": "062b6cffd4f9d9fcff8e6fe3d087ec04065efc4107dbcb10f90560f310776f24"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Keys",
+  "swaggerOutputPattern": "{version-status}/{version}/keys.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Keys/preview/2026-07-01-preview/keys.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f07672d530769afe3d770483aff74cfa925aea1ee11e7938f413c50ccc3f0231"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

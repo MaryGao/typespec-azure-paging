@@ -1,0 +1,13 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "project": {
+    "sourcePath": "specification/monitor/data-plane/OperationalInsights",
+    "apiVersion": "v1"
+  },
+  "validatorRules": [],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

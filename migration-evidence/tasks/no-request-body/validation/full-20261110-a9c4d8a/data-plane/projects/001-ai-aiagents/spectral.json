@@ -1,0 +1,191 @@
+{
+  "project": "specification/ai/data-plane/AIAgents",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/ai/data-plane/AIAgents/preview/2025-05-15-preview/azure-ai-agents.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "9cca81a04592e45f49788646b8fdbc3af681ba93b72bd719e3070214e45b2330",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/assistants",
+          "verb": "get",
+          "operationId": "ListAgents",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/assistants/{assistantId}",
+          "verb": "get",
+          "operationId": "GetAgent",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/assistants/{assistantId}",
+          "verb": "delete",
+          "operationId": "DeleteAgent",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files",
+          "verb": "get",
+          "operationId": "Files_ListFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}",
+          "verb": "get",
+          "operationId": "Files_GetFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}",
+          "verb": "delete",
+          "operationId": "Files_DeleteFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}/content",
+          "verb": "get",
+          "operationId": "Files_GetFileContent",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads",
+          "verb": "get",
+          "operationId": "Threads_ListThreads",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}",
+          "verb": "get",
+          "operationId": "Threads_GetThread",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}",
+          "verb": "delete",
+          "operationId": "Threads_DeleteThread",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/messages",
+          "verb": "get",
+          "operationId": "Messages_ListMessages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/messages/{messageId}",
+          "verb": "get",
+          "operationId": "Messages_GetMessage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/messages/{messageId}",
+          "verb": "delete",
+          "operationId": "Messages_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/runs",
+          "verb": "get",
+          "operationId": "Runs_ListRuns",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/runs/{runId}",
+          "verb": "get",
+          "operationId": "Runs_GetRun",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/runs/{runId}/steps",
+          "verb": "get",
+          "operationId": "RunSteps_ListRunSteps",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/threads/{threadId}/runs/{runId}/steps/{stepId}",
+          "verb": "get",
+          "operationId": "RunSteps_GetRunStep",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores",
+          "verb": "get",
+          "operationId": "VectorStores_ListVectorStores",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}",
+          "verb": "get",
+          "operationId": "VectorStores_GetVectorStore",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}",
+          "verb": "delete",
+          "operationId": "VectorStores_DeleteVectorStore",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}/file_batches/{batchId}",
+          "verb": "get",
+          "operationId": "VectorStoreFileBatches_GetVectorStoreFileBatch",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}/file_batches/{batchId}/files",
+          "verb": "get",
+          "operationId": "VectorStoreFileBatches_ListVectorStoreFileBatchFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}/files",
+          "verb": "get",
+          "operationId": "VectorStoreFiles_ListVectorStoreFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}/files/{fileId}",
+          "verb": "get",
+          "operationId": "VectorStoreFiles_GetVectorStoreFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/vector_stores/{vectorStoreId}/files/{fileId}",
+          "verb": "delete",
+          "operationId": "VectorStoreFiles_DeleteVectorStoreFile",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

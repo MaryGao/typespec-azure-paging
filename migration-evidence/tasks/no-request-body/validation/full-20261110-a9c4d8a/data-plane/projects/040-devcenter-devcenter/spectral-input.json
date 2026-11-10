@@ -1,0 +1,184 @@
+{
+  "index": 40,
+  "slug": "040-devcenter-devcenter",
+  "sourcePath": "specification/devcenter/data-plane/DevCenter",
+  "swaggerCandidates": [
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2022-11-11-preview/devcenter.json",
+      "apiVersion": "2022-11-11-preview",
+      "format": "swagger-2.0",
+      "sha256": "9c4c38a5957a96ecb244b8bc6296f4a480033c531b502a39eb39fc6816011d37"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2023-01-01-preview/devcenter.json",
+      "apiVersion": "2023-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b581c85bcd2fcde760645a8f1bc8bce1561397effe7611e12710fc2dd38b7ac3"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2023-07-01-preview/devcenter.json",
+      "apiVersion": "2023-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5942342f2095fe3a0f2ccab5260530aa78574f8af6c82c6412a07103afbe3f9f"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2023-09-01-preview/devcenter.json",
+      "apiVersion": "2023-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5e945fa0a1a448c597770d8254c524c075665e040a89742a4918516fc2595e27"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2023-10-01-preview/devcenter.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "7b1c2d2635961ecd30b3d942687497e1b7a6ce40af5978df32478302d5c0a7d2"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2024-05-01-preview/devcenter.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "0dd2b3548f122f1d25bc6be56742d6ffcded278c0c0b7327a802ecb9c19b73c5"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2024-08-01-preview/devcenter.json",
+      "apiVersion": "2024-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "fac79540979b271db3f20e85c2469aaae6ba8d672a9eb36560e4067c176aa953"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2024-09-01-preview/devcenter.json",
+      "apiVersion": "2024-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "48bc293fe01a63ed896245eb9b826eac8cfdcc6da96d08ba6fe33c74bab8e444"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2024-10-01-preview/devcenter.json",
+      "apiVersion": "2024-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "626bfe8b7504b77ab3933a2dd7ba6aaa27f5a09607fab20b05d5c0495882ed82"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2025-04-01-preview/devcenter.json",
+      "apiVersion": "2025-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5e408e2082b7464faebd093540bc52be2c6f0dc7d4d6af0512b3302deed1bca3"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2025-07-01-preview/devcenter.json",
+      "apiVersion": "2025-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "3d9fa98431367c384b2541da198341f6a908e328a5b2fa16e2b157fc97b0e227"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2025-08-01-preview/devcenter.json",
+      "apiVersion": "2025-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b30c3b28e7a25b997a697fa4bf48f8d329ee6b0e196d0e3c8fa05327d1c07c75"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2026-01-01-preview/devcenter.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "bd87f45e30bebfe75349e6c2f428026a9a8cccc39476f8d1f3bf7e25cbda9ad4"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/stable/2023-04-01/devcenter.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "53bcce79775346f8dfd2cf545ad15b637a8d88e6096b86bf9226ce922c129d71"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/stable/2024-02-01/devcenter.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "d2e455e013ebf20e1e1fa79910b1c95e5ed4b4d708e16543d287747235e42aa6"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/stable/2025-02-01/devcenter.json",
+      "apiVersion": "2025-02-01",
+      "format": "swagger-2.0",
+      "sha256": "37f68a40c4ee78681759d54a1839fa14849f0fa8962ca93e95d907f866f67897"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/DevBox/models.tsp",
+      "sha256": "ac4a2738125e4005e744fd707d6972ed369e28efb7a60bd201b9947144efd88b"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/DevBox/parameters.tsp",
+      "sha256": "99da3f58b59e5dac7831b89dd4c0e7b7641e678b5443443615bd0192285ad5a7"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/DevBox/routes.tsp",
+      "sha256": "d9da4478f2e7125ac2f7c40b2c6eff9de37250f5263b35ea9ec29cbcdcd004e7"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/DevCenter/models.tsp",
+      "sha256": "be5749b482c6aee90355c07a36a164ae41b8ec9e069bb934f0df4d1fc436b351"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/DevCenter/routes.tsp",
+      "sha256": "95e7e860e583fe78d68d010361bdcab618b44e9654c25cc0b1d781ad4d9aa403"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/Environments/models.tsp",
+      "sha256": "a32ece537d86b713636121b09c4231245c0f9572784105e31aadebf522baa8f9"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/Environments/parameters.tsp",
+      "sha256": "1ef98ab45f7aaa6660fbd09298056e8a1de4294de2b921271ae59167f7bf757e"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/Environments/routes.tsp",
+      "sha256": "a8f7cda6757a987138d987fd6cec1f7214f758251ac5144a4a5b417c9a45d53f"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/client.tsp",
+      "sha256": "090f7e3db9571db08f49ae3b7c10a28415ba10f67763bd8ef39b3c854c60f9c3"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/main.tsp",
+      "sha256": "8d114aed817fbcc9cd6e871eac67478c1306a04aa273989148678c0b4b8ccafd"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/python-client.tsp",
+      "sha256": "293d78b0ed5a61092aecda83ffa09ce54db841792d965471c4db1e0bf4fb630e"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/shared/models.tsp",
+      "sha256": "5870a9f988253cb1b0fd6cb5a66262de73f5f14f83b16c81bc431cfd5411f812"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/shared/parameters.tsp",
+      "sha256": "c73e5cb616bbc35a3331320d1686a90eda24b0ea392b88b88a4d3e521e5a1b7c"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/shared/routes.tsp",
+      "sha256": "8b1619cae576af2b2e5f3f559731d276ec5c3367fb165b2e443413f8e1194260"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/shared/templates.tsp",
+      "sha256": "0067e4656ad77b9e528a7c9da4703a7b5190f6d380d5a0e406238ccb41dc84eb"
+    },
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/tspconfig.yaml",
+      "sha256": "a9e77d379ee2c653a53fecf0aa46fde58477d71c9137dbd33d7aa057ede74d07"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/devcenter/data-plane/DevCenter",
+  "swaggerOutputPattern": "{version-status}/{version}/devcenter.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-01-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2026-01-01-preview/devcenter.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "bd87f45e30bebfe75349e6c2f428026a9a8cccc39476f8d1f3bf7e25cbda9ad4"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

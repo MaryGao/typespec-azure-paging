@@ -1,0 +1,54 @@
+{
+  "index": 70,
+  "slug": "070-maps-timezone",
+  "sourcePath": "specification/maps/data-plane/Timezone",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Timezone/stable/1.0/timezone.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "111c5410d3c1343a9f1bf9d172c3d4a57e1d2ce17f67bc39e4fcad3cc1bab79a"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Timezone/client.tsp",
+      "sha256": "9aa23fb835d0b08e5e26db084d412c3a94c45bc5db2500e7eacd33dd75380b40"
+    },
+    {
+      "file": "specification/maps/data-plane/Timezone/common/common.tsp",
+      "sha256": "e5ce78ab2310a7bd465a3a512d0455aacf363d4920cabb6608cbea5313dd2862"
+    },
+    {
+      "file": "specification/maps/data-plane/Timezone/main.tsp",
+      "sha256": "e2a6bd8db80ab8b609a4985af0dc84f992a8939bd7c499bf160a551dc9156a3f"
+    },
+    {
+      "file": "specification/maps/data-plane/Timezone/models.tsp",
+      "sha256": "6714eae51db59b231f8496d47224a48e8833ba86e19c7ce1079825e6c479e9ce"
+    },
+    {
+      "file": "specification/maps/data-plane/Timezone/routes.tsp",
+      "sha256": "d9c69bb19dcb383c929307f462d7acfd76042d172ba9c2d968e8bd37979708b3"
+    },
+    {
+      "file": "specification/maps/data-plane/Timezone/tspconfig.yaml",
+      "sha256": "0ce5d51ae4b05703e55a9d4c58fb78ef4be41688d887d4de628d1683b7b496c9"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Timezone",
+  "swaggerOutputPattern": "{version-status}/{version}/timezone.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "1.0",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Timezone/stable/1.0/timezone.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "111c5410d3c1343a9f1bf9d172c3d4a57e1d2ce17f67bc39e4fcad3cc1bab79a"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

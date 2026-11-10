@@ -1,0 +1,102 @@
+{
+  "index": 56,
+  "slug": "056-keyvault-secrets",
+  "sourcePath": "specification/keyvault/data-plane/Secrets",
+  "swaggerCandidates": [
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2025-06-01-preview/secrets.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "3f5045070d1e9999988605e4aaa0560853e2094c8ebe7e0e8095cf7f56cc43cd"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-01-01-preview/secrets.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "df651912d4dfef7961485bbf25297b1c4b153f29bf62628bf9c0542966d48adf"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-03-01-preview/secrets.json",
+      "apiVersion": "2026-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "fd7e04d869d180dea8c4b0a1a1be276fef547e86f2273273b8cc6e37732e1132"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-05-01-preview/secrets.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "80e2bda5f27c147880ae8d38859c77dbbb3de4e3a26e5084e3e392cc4e5dcf50"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-07-01-preview/secrets.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b91ab5d119d69dfb5af9dd760331a8777b96ba46a5859d387235056f8d8b152b"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/7.6-preview.2/secrets.json",
+      "apiVersion": "7.6-preview.2",
+      "format": "swagger-2.0",
+      "sha256": "e4f78a39a766e55d075fe196356cb635d5eca04376a0244d37dc83bb4e62ae11"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/stable/2025-07-01/secrets.json",
+      "apiVersion": "2025-07-01",
+      "format": "swagger-2.0",
+      "sha256": "0aef65957f08a62989503806f8f3ecfddddf505fd2db9bcd72f82c95a51a6102"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/stable/7.5/secrets.json",
+      "apiVersion": "7.5",
+      "format": "swagger-2.0",
+      "sha256": "85b42e98e281ba0a9e64eb7167175812658827cacd69288767897f39383b32f8"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/stable/7.6/secrets.json",
+      "apiVersion": "7.6",
+      "format": "swagger-2.0",
+      "sha256": "e80da7a438eb98d0fcea74b301122cef321a58aae54037d0e0b872392d460cef"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Secrets/client.tsp",
+      "sha256": "5d770ee301c4e3b19bed6f2b52e9ee8c5555e6a95658157f9345e385cdb206e8"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/common/common.tsp",
+      "sha256": "00c3bbcdd823f837547d082cf728487c78ca85d0b632bf3a48ac6de43ffd5dea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/main.tsp",
+      "sha256": "7376f60ac96756ed8d20d29c93296e3f47b725d736e5eb495b0d73840b1f8adc"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/models.tsp",
+      "sha256": "14286d2f27e55bf08303acc485a0ce434bc65b71e320b12af14d2cde30f0e05f"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/routes.tsp",
+      "sha256": "81a8e8e8e50b863ae01cc5ac13a70b55c040e47de6e28845d225a02a68cd66e6"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Secrets/tspconfig.yaml",
+      "sha256": "d2494ee9ae1b2044ab2ae8b854662e3245b86c9776b33da94a022d0e59f48387"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Secrets",
+  "swaggerOutputPattern": "{version-status}/{version}/secrets.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-07-01-preview/secrets.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b91ab5d119d69dfb5af9dd760331a8777b96ba46a5859d387235056f8d8b152b"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

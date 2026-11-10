@@ -1,0 +1,82 @@
+{
+  "index": 59,
+  "slug": "059-loadtestservice-playwright",
+  "sourcePath": "specification/loadtestservice/data-plane/playwright",
+  "swaggerCandidates": [
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/preview/2025-07-01-preview/playwright.json",
+      "apiVersion": "2025-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "febf0c04699a3b8d017f2e4793078beb6d2cd82efe5e37ddef73e575d87cce5d"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/preview/2026-01-01-preview/playwright.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "828ce557acecd4d4597aef9f53fb7d9648b7a29ab5dca2b1eede53df3d399f20"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/preview/2026-04-01-preview/playwright.json",
+      "apiVersion": "2026-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ac5e9d7f3376576ccd357f49113a6ed04ff0dbbc758bde2c97c296d676a1657c"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/preview/2026-06-01-preview/playwright.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4f52cdf21cc6dae7fb715a0c8efcde904d05fb17562e7ac66666e732d0539357"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/stable/2025-09-01/playwright.json",
+      "apiVersion": "2025-09-01",
+      "format": "swagger-2.0",
+      "sha256": "18a7ad9b15fbf6b70192acc3c6198138360fc29c63de44f113800ab2b8a86610"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/main.tsp",
+      "sha256": "e2dfb7a8aae7a390f37d4f8c4ff1adde001a7466db39ac03c4ee1604546100fd"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/tspconfig.yaml",
+      "sha256": "d146d6cead94809910aa284e863817c8667152351d00d166dd6351d6bc66e452"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/typespec/accesstokens.tsp",
+      "sha256": "f50c124a07e26e184e9d7f352e3118681eee1692aa4f67c9f2dea749ea55f34f"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/typespec/browsersessions.tsp",
+      "sha256": "a898343a175472425372eae0b0a30b188baa66e2658fe498950f8a66566e952d"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/typespec/models.tsp",
+      "sha256": "c3bc43f698437b93ccee0f4db5f9d10661f5c8d02310c30af3adb743cbd8fdf3"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/typespec/routes.tsp",
+      "sha256": "105f9c729cdc78dd5fe37da46c46fca16ffab2f71694a6d92a124c8dd8febea0"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/typespec/testruns.tsp",
+      "sha256": "11c5deecac98363d40f678d28d2c5971b6cfb953c4cc53d2a2b52213f57c6cb8"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/loadtestservice/data-plane/playwright",
+  "swaggerOutputPattern": "{version-status}/{version}/playwright.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/loadtestservice/data-plane/playwright/preview/2026-06-01-preview/playwright.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4f52cdf21cc6dae7fb715a0c8efcde904d05fb17562e7ac66666e732d0539357"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

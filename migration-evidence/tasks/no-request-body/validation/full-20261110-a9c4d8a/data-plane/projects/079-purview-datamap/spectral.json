@@ -1,0 +1,540 @@
+{
+  "project": "specification/purview/data-plane/datamap",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "442226cb14a9ff3c93eabc70ea09467ebbd3ee9d10b3430dd08c3fbe7fa2208a",
+      "findings": [
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/entity/guid/{guid}/businessmetadata",
+            "delete",
+            "parameters",
+            "1",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 684,
+              "character": 18
+            },
+            "end": {
+              "line": 684,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+            "delete",
+            "parameters",
+            "2",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 781,
+              "character": 18
+            },
+            "end": {
+              "line": 781,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/entity/guid/{guid}/labels",
+            "delete",
+            "parameters",
+            "1",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 1133,
+              "character": 18
+            },
+            "end": {
+              "line": 1133,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+            "delete",
+            "parameters",
+            "2",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 1574,
+              "character": 18
+            },
+            "end": {
+              "line": 1574,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+            "delete",
+            "parameters",
+            "1",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 2895,
+              "character": 18
+            },
+            "end": {
+              "line": 2895,
+              "character": 24
+            }
+          }
+        },
+        {
+          "code": "RequestBodyNotAllowed",
+          "message": "A get or delete operation must not accept a body parameter.",
+          "path": [
+            "paths",
+            "/atlas/v2/types/typedefs",
+            "delete",
+            "parameters",
+            "0",
+            "in"
+          ],
+          "severity": 1,
+          "source": "c:/Users/marygao/project/coverage-reports/no-request-body/full-20261110-a9c4d8a/data-plane/dataset/specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+          "range": {
+            "start": {
+              "line": 3985,
+              "character": 18
+            },
+            "end": {
+              "line": 3985,
+              "character": 24
+            }
+          }
+        }
+      ],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/atlas/v2/entity/bulk",
+          "verb": "get",
+          "operationId": "Entity_ListByGuids",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/bulk",
+          "verb": "delete",
+          "operationId": "Entity_BulkDelete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/bulk/uniqueAttribute/type/{typeName}",
+          "verb": "get",
+          "operationId": "Entity_ListByUniqueAttributes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/businessmetadata/import/template",
+          "verb": "get",
+          "operationId": "Entity_GetSampleBusinessMetadataTemplate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}",
+          "verb": "get",
+          "operationId": "Entity_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}",
+          "verb": "delete",
+          "operationId": "Entity_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/businessmetadata",
+          "verb": "delete",
+          "operationId": "Entity_RemoveBusinessMetadata",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/businessmetadata/{businessMetadataName}",
+          "verb": "delete",
+          "operationId": "Entity_RemoveBusinessMetadataAttributes",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/classification/{classificationName}",
+          "verb": "get",
+          "operationId": "Entity_GetClassification",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/classification/{classificationName}",
+          "verb": "delete",
+          "operationId": "Entity_RemoveClassification",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/classifications",
+          "verb": "get",
+          "operationId": "Entity_GetClassifications",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/header",
+          "verb": "get",
+          "operationId": "Entity_GetHeader",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/guid/{guid}/labels",
+          "verb": "delete",
+          "operationId": "Entity_RemoveLabels",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/entity/uniqueAttribute/type/{typeName}",
+          "verb": "get",
+          "operationId": "Entity_GetByUniqueAttributes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/uniqueAttribute/type/{typeName}",
+          "verb": "delete",
+          "operationId": "Entity_DeleteByUniqueAttribute",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/classification/{classificationName}",
+          "verb": "delete",
+          "operationId": "Entity_RemoveClassificationByUniqueAttribute",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/entity/uniqueAttribute/type/{typeName}/labels",
+          "verb": "delete",
+          "operationId": "Entity_RemoveLabelsByUniqueAttribute",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/glossary",
+          "verb": "get",
+          "operationId": "Glossary_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}",
+          "verb": "get",
+          "operationId": "Glossary_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}",
+          "verb": "delete",
+          "operationId": "Glossary_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}/categories",
+          "verb": "get",
+          "operationId": "Glossary_ListCategories",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}/categories/headers",
+          "verb": "get",
+          "operationId": "Glossary_ListCategoriesHeaders",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}/detailed",
+          "verb": "get",
+          "operationId": "Glossary_GetDetailed",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}/terms",
+          "verb": "get",
+          "operationId": "Glossary_ListTerms",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/{glossaryId}/terms/headers",
+          "verb": "get",
+          "operationId": "Glossary_ListTermHeaders",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/category/{categoryId}",
+          "verb": "get",
+          "operationId": "Glossary_GetCategory",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/category/{categoryId}",
+          "verb": "delete",
+          "operationId": "Glossary_DeleteCategory",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/category/{categoryId}/related",
+          "verb": "get",
+          "operationId": "Glossary_ListRelatedCategories",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/category/{categoryId}/terms",
+          "verb": "get",
+          "operationId": "Glossary_ListCategoryTerms",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/term/{termId}",
+          "verb": "get",
+          "operationId": "Glossary_GetTerm",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/term/{termId}",
+          "verb": "delete",
+          "operationId": "Glossary_DeleteTerm",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+          "verb": "get",
+          "operationId": "Glossary_ListEntitiesAssignedWithTerm",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/glossary/terms/{termId}/assignedEntities",
+          "verb": "delete",
+          "operationId": "Glossary_DeleteTermAssignmentFromEntities",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/glossary/terms/{termId}/related",
+          "verb": "get",
+          "operationId": "Glossary_ListRelatedTerms",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/lineage/{guid}",
+          "verb": "get",
+          "operationId": "Lineage_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/lineage/uniqueAttribute/type/{typeName}",
+          "verb": "get",
+          "operationId": "Lineage_GetByUniqueAttribute",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/relationship/guid/{guid}",
+          "verb": "get",
+          "operationId": "Relationship_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/relationship/guid/{guid}",
+          "verb": "delete",
+          "operationId": "Relationship_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/businessmetadatadef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetBusinessMetadataDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/businessmetadatadef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetBusinessMetadataDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/classificationdef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetClassificationDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/classificationdef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetClassificationDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/entitydef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetEntityDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/entitydef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetEntityDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/enumdef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetEnumDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/enumdef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetEnumDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/relationshipdef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetRelationshipDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/relationshipdef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetRelationshipDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/structdef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetStructDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/structdef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetStructDefByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/typedef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/typedef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/typedef/name/{name}",
+          "verb": "delete",
+          "operationId": "Type_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/typedefs",
+          "verb": "get",
+          "operationId": "Type_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/atlas/v2/types/typedefs",
+          "verb": "delete",
+          "operationId": "Type_BulkDelete",
+          "directBodyParameters": 1
+        },
+        {
+          "route": "/atlas/v2/types/typedefs/headers",
+          "verb": "get",
+          "operationId": "Type_ListHeaders",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/lineage/{guid}/next",
+          "verb": "get",
+          "operationId": "Lineage_GetNextPage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/types/termtemplatedef/guid/{guid}",
+          "verb": "get",
+          "operationId": "Type_GetTermTemplateDefByGuid",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/types/termtemplatedef/name/{name}",
+          "verb": "get",
+          "operationId": "Type_GetTermTemplateDefByName",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 6
+}

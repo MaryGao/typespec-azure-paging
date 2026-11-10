@@ -1,0 +1,58 @@
+{
+  "index": 19,
+  "slug": "019-cognitiveservices-anomalydetector",
+  "sourcePath": "specification/cognitiveservices/data-plane/AnomalyDetector",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/stable/v1.1/openapi.json",
+      "apiVersion": "v1.1",
+      "format": "swagger-2.0",
+      "sha256": "3d72cecb974eadb0597f4f58059e02b5a4f0952f8818bbf3c07ae4fe280a84a0"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/client.tsp",
+      "sha256": "13c98f9333881e5434270cb3da092d1d84f7bb19fbd3261d1b16500a8938d06e"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/main.tsp",
+      "sha256": "e797c5e882b6d280d5a76804421e842301cd619bb752f03c4fb5783ad1b40dbb"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/multivariate/models.tsp",
+      "sha256": "9caf87460a88663ffb57fc361c69da3ee156db44269373a461b9f6b05f4b5258"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/multivariate/routes.tsp",
+      "sha256": "661e607b8ab8c24a53f3910cbf0a4e7c09e810e4f16747fedb70c258a1e99577"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/tspconfig.yaml",
+      "sha256": "9a865eb54d1c5497efbccaf4fc93db2a2e180863ab47c6d8dcc8d15e2aaf21fb"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/univariate/models.tsp",
+      "sha256": "80994a15fc3feaeb02ba7efc062ab59882b1decc28b0e0a27a42dc6b81a6e1b7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/univariate/routes.tsp",
+      "sha256": "487f7ac58bd7cd3a093defc7ab42db009925c074cea5e87870c57600c3717b84"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/AnomalyDetector",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "v1.1",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/AnomalyDetector/stable/v1.1/openapi.json",
+      "apiVersion": "v1.1",
+      "format": "swagger-2.0",
+      "sha256": "3d72cecb974eadb0597f4f58059e02b5a4f0952f8818bbf3c07ae4fe280a84a0"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

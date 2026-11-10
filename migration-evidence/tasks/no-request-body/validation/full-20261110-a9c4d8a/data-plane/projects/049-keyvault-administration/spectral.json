@@ -1,0 +1,143 @@
+{
+  "project": "specification/keyvault/data-plane/Administration",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/preview/2026-07-01-preview/administration.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "105b16ced58e7e1ff53bcba2553d2ed905fcd0703da57da906996a22ca71b556",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleAssignments",
+          "verb": "get",
+          "operationId": "RoleAssignments_ListForScope",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}",
+          "verb": "get",
+          "operationId": "RoleAssignments_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}",
+          "verb": "delete",
+          "operationId": "RoleAssignments_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleDefinitions",
+          "verb": "get",
+          "operationId": "RoleDefinitions_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionName}",
+          "verb": "get",
+          "operationId": "RoleDefinitions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionName}",
+          "verb": "delete",
+          "operationId": "RoleDefinitions_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/backup/{jobId}/pending",
+          "verb": "get",
+          "operationId": "FullBackupStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm",
+          "verb": "get",
+          "operationId": "GetEkmConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm",
+          "verb": "delete",
+          "operationId": "DeleteEkmConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm/certificate",
+          "verb": "get",
+          "operationId": "GetEkmCertificate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm/privateendpoint",
+          "verb": "get",
+          "operationId": "ListEkmPrivateEndpoints",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm/privateendpoint/{peName}",
+          "verb": "get",
+          "operationId": "GetEkmPrivateEndpoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm/privateendpoint/{peName}",
+          "verb": "delete",
+          "operationId": "DeleteEkmPrivateEndpoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ekm/privateendpoint/operations/{operationId}",
+          "verb": "get",
+          "operationId": "GetEkmPrivateEndpointOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/restore/{jobId}/pending",
+          "verb": "get",
+          "operationId": "RestoreStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/settings",
+          "verb": "get",
+          "operationId": "GetSettings",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/settings/{setting-name}",
+          "verb": "get",
+          "operationId": "GetSetting",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

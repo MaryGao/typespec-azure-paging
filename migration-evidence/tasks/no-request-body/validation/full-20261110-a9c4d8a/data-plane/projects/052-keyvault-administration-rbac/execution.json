@@ -1,0 +1,26 @@
+{
+  "project": "specification/keyvault/data-plane/Administration/RBAC",
+  "slug": "052-keyvault-administration-rbac",
+  "status": "unassessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": false,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:31:12.933Z",
+    "finishedAt": "2026-11-10T01:31:16.944Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:31:16.950Z",
+    "finishedAt": "2026-11-10T01:31:18.724Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": null,
+  "swaggerError": "unassessed-no-local-oas2",
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

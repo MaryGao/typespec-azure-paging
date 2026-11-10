@@ -1,0 +1,86 @@
+{
+  "index": 20,
+  "slug": "020-cognitiveservices-contentsafety",
+  "sourcePath": "specification/cognitiveservices/data-plane/ContentSafety",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2023-04-30-preview/contentsafety.json",
+      "apiVersion": "2023-04-30-preview",
+      "format": "swagger-2.0",
+      "sha256": "120760ad4fa5599b00a7fb49da79174390dce97c19c3cde68debc677e01481f8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2023-10-15-preview/contentsafety.json",
+      "apiVersion": "2023-10-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "5a0d4f8a7408718cb9ee782b640937063cdf4e9c72e9ee8900e172dbc593d0ab"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2024-02-15-preview/contentsafety.json",
+      "apiVersion": "2024-02-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "30a49a46251eb31cac9353999497cc29ebf45c9f516e714bb44217fbf83e56cc"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2026-07-01-preview/contentsafety.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5554eb2401541dabb3bea7191dafa7f43bde2ece634eba21682a72f435dd40bf"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2026-09-01-preview/contentsafety.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a444908a3ce589871b15ae9cb9edfe7e182ebb9a6bf080b6a988510818cd88d5"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/stable/2023-10-01/contentsafety.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "27ee804ec8735c211a2c9531c92a7d1d027fed7a2b44cb02bbac46f1e0a43180"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/stable/2024-09-01/contentsafety.json",
+      "apiVersion": "2024-09-01",
+      "format": "swagger-2.0",
+      "sha256": "d4969093cba07c859e659d75ab8fa6a92ef0c083c8035278b1c4d3db5bf4e81c"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/client.tsp",
+      "sha256": "d33f064c990191a691d46836db18b313036f72efc4efec9e3002b5b2f5b5def5"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/main.tsp",
+      "sha256": "198a278a5f9fce9ccfd4fca96f4dbdb3ffcadb15cb9e48ddc4b2e00e8a4de4d8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/models.tsp",
+      "sha256": "e391acd730c12d040d775c1a2e9a46f21fcf4e2f247d9b9eab4bbb467747df10"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/routes.tsp",
+      "sha256": "7769d8916664a43952c35a79675ace0d5c8081d885f66a2d5f4b519bbc3a7ba6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/tspconfig.yaml",
+      "sha256": "a10ed6d5c20dbbbf0af44f7f8867bb610c4148e38f45412142f877bed4001428"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/ContentSafety",
+  "swaggerOutputPattern": "{version-status}/{version}/contentsafety.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-09-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2026-09-01-preview/contentsafety.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a444908a3ce589871b15ae9cb9edfe7e182ebb9a6bf080b6a988510818cd88d5"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

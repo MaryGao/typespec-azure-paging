@@ -1,0 +1,25 @@
+{
+  "project": "specification/eventgrid/data-plane/EventGridSystemEvents",
+  "slug": "046-eventgrid-eventgridsystemevents",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:30:36.376Z",
+    "finishedAt": "2026-11-10T01:30:41.059Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:30:41.066Z",
+    "finishedAt": "2026-11-10T01:30:43.050Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

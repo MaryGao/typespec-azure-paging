@@ -1,0 +1,102 @@
+{
+  "project": ".validation-controls\\no-request-body-a9c4d8a\\invalid-disabled-config",
+  "status": "success",
+  "rawDiagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "GET operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 5,
+      "column": 24
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 6,
+      "column": 30
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "GET operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 7,
+      "column": 29
+    }
+  ],
+  "diagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "GET operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 5,
+      "column": 24
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "DELETE operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 6,
+      "column": 30
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-core/no-request-body",
+      "message": "GET operations must not have a request body. Remove the request body.",
+      "sourceFile": "main.tsp",
+      "line": 7,
+      "column": 29
+    }
+  ],
+  "ambientDiagnostics": [],
+  "packages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@typespec+compiler@file+..+_eb13f4ab1fbeb5c0ee0c6be3ceaf96ee\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "sha256": "8b62234f6206d445c5d51cf1b28e4724213d5dcf82100f3dc247467af917eebe"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@azure-tools+typespec-azure_0e4a81e0d64ed5cffc84925577abf6b1\\node_modules\\@azure-tools\\typespec-azure-core\\dist\\src\\index.js",
+      "sha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@azure-tools+typespec-autor_d63cf59425ed282b178d989a0f51abc0\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@azure-tools+typespec-azure_7d95ae4771270502bb1df0772ab106a8\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\autorest@3.8.0\\node_modules\\autorest\\dist\\exports.js",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-core@1.0.7\\node_modules\\@microsoft.azure\\openapi-validator-core\\dist\\index.js",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    }
+  ],
+  "defaultActivation": "not-assessed"
+}

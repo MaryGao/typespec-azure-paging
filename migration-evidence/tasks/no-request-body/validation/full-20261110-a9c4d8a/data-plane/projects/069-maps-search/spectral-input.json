@@ -1,0 +1,96 @@
+{
+  "index": 69,
+  "slug": "069-maps-search",
+  "sourcePath": "specification/maps/data-plane/Search",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Search/preview/2022-09-01-preview/search.json",
+      "apiVersion": "2022-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b9c8eccff00de5e7734e588075332307a5c3f8768b286d04bcece41331fe3978"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/preview/2022-12-01-preview/search.json",
+      "apiVersion": "2022-12-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4989537e51e68d64bee61737a25d6f82be12f218ada64ff04d8e942967f08df8"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/preview/2024-04-01-preview/search.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "44cfc62daac566522c1234445c13c894329bddc616ad48b3f9ae5813df38aed5"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/preview/2025-06-01-preview/search.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "e17e2162fc1b678712fc8d6a4592bf949da53c03fa4baf9a40a966bb5fe81579"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/stable/1.0/search.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "0e0c2063abbc860e3a1a2117d50830aca1668ffa271e5ae144118cb5f001c1cb"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/stable/2023-06-01/search.json",
+      "apiVersion": "2023-06-01",
+      "format": "swagger-2.0",
+      "sha256": "08121185829eb26cca25b07159d86739a2c8f24440df3e2d1fa0422ee952967d"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/stable/2025-01-01/search.json",
+      "apiVersion": "2025-01-01",
+      "format": "swagger-2.0",
+      "sha256": "062120fe158cb43a3df202a24d98e205476d3d82f051f64bcb89c765df25f2bb"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/stable/2026-01-01/search.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "d68fb185e21d8a84e41490e21587ef9073b57a310b04212d7e7646fe940fea3f"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Search/client.tsp",
+      "sha256": "613ba0f195897d9773e972b199efacaac6169ec1c7e3f7dc2765e7539d8f4bcb"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/common/common.tsp",
+      "sha256": "56ce629db41a57740cb1bb561711e1d439c0ad9a1adc2bd44a0f768b508bc2c8"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/main.tsp",
+      "sha256": "974d44ce103220513f43c32b4fa1852720bdac593151a4b450ad66860739c25d"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/models.tsp",
+      "sha256": "bd83303a80efe103ee5e00d745d492a1718f5e49521cb9deca0fd90629c6a0ea"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/routes.tsp",
+      "sha256": "0eec50381f912c6f6716726536b065b5978316501c7df655db07eb9369d1319b"
+    },
+    {
+      "file": "specification/maps/data-plane/Search/tspconfig.yaml",
+      "sha256": "b2cd69a7d65f186670e5937a9975e0e6f127556b5e8b741c6e8c318b133d878d"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Search",
+  "swaggerOutputPattern": "{version-status}/{version}/search.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-01-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Search/stable/2026-01-01/search.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "d68fb185e21d8a84e41490e21587ef9073b57a310b04212d7e7646fe940fea3f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

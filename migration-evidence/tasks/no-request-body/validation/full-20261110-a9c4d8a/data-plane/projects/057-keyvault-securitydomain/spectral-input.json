@@ -1,0 +1,102 @@
+{
+  "index": 57,
+  "slug": "057-keyvault-securitydomain",
+  "sourcePath": "specification/keyvault/data-plane/SecurityDomain",
+  "swaggerCandidates": [
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2025-06-01-preview/securitydomain.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "99c8d86053cf83a34791e50bc837d54ac38ff58f643c4e77547b56828d1daa2d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2026-01-01-preview/securitydomain.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "079ae8c5ea02639e30949d467ff6ea381e5c953bc6f206dfc4af6ae88e96680d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2026-03-01-preview/securitydomain.json",
+      "apiVersion": "2026-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "1060ac535393b322c36d075592f19e1962fa992a134646fb696b62b0138f200d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2026-05-01-preview/securitydomain.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "e66eb3c02839d1466aa471cdb9a16b0dfbe5a895fec40f27710058403b455d48"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2026-07-01-preview/securitydomain.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9b53dd4e2ad7ce3d807d4f0059ec48a798099d17bc9e753b22e74d7cfd42c914"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/7.6-preview.2/securitydomain.json",
+      "apiVersion": "7.6-preview.2",
+      "format": "swagger-2.0",
+      "sha256": "4b07aba05a08aac7d0b4540c15e5477ba2969a53906772c3507107e93419824a"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/stable/2025-07-01/securitydomain.json",
+      "apiVersion": "2025-07-01",
+      "format": "swagger-2.0",
+      "sha256": "f9e091044c7b739f489ba35db3e84a41f9d51b6a24562033da54810ec58bdb00"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/stable/7.5/securitydomain.json",
+      "apiVersion": "7.5",
+      "format": "swagger-2.0",
+      "sha256": "f394b4b70aebf7dd497b63c496d9485d8a4abbed8d20b005d05b46d79a01753c"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/stable/7.6/securitydomain.json",
+      "apiVersion": "7.6",
+      "format": "swagger-2.0",
+      "sha256": "c0c9545d0aa2aa5b5b27970f098f0b0ae7c8e9b6502495c493edaf6c0a84b6e0"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/client.tsp",
+      "sha256": "566d8006d8e6ea40779f4114952ec3106d22b894d6a6496668985f62f1bb1878"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/common/common.tsp",
+      "sha256": "00c3bbcdd823f837547d082cf728487c78ca85d0b632bf3a48ac6de43ffd5dea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/main.tsp",
+      "sha256": "3eddbcf9c4dd0fb38f84b7befbe98cb54b620f2af44f303703c284ce96e789b1"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/models.tsp",
+      "sha256": "e650f103baa63d90201e6b86406280a73d4db4e855dbc6e7131a7c3f5d2162c5"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/routes.tsp",
+      "sha256": "94602ea0667dd73e80602f4c045333fdf66721807ac67a10917527bfe7152fed"
+    },
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/tspconfig.yaml",
+      "sha256": "faabde3ce4e26711cc8f526c7424634837b833fbd2217758d69342b72ae69159"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/SecurityDomain",
+  "swaggerOutputPattern": "{version-status}/{version}/securitydomain.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/keyvault/data-plane/SecurityDomain/preview/2026-07-01-preview/securitydomain.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9b53dd4e2ad7ce3d807d4f0059ec48a798099d17bc9e753b22e74d7cfd42c914"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

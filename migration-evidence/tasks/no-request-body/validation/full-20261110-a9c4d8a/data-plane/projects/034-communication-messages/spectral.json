@@ -1,0 +1,77 @@
+{
+  "project": "specification/communication/data-plane/Messages",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/communication/data-plane/Messages/preview/2025-09-01-preview/communicationservicesmessages.json",
+      "apiVersion": "2025-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ec11c913a0e6540c51159749dd249a27ce377ed396cae4108041f4123a232f88",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/messages/channels/{channelId}/templates",
+          "verb": "get",
+          "operationId": "TemplateOperations_ListTemplates",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/conversations",
+          "verb": "get",
+          "operationId": "ConversationThreadOperations_ListConversations",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/conversations/{conversationId}",
+          "verb": "get",
+          "operationId": "ConversationAdministrationOperations_GetConversation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/conversations/{conversationId}",
+          "verb": "delete",
+          "operationId": "ConversationAdministrationOperations_DeleteConversation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/conversations/{conversationId}/messages",
+          "verb": "get",
+          "operationId": "ConversationThreadOperations_ListMessages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/messages/streams/{id}",
+          "verb": "get",
+          "operationId": "StreamOperations_GetMedia",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

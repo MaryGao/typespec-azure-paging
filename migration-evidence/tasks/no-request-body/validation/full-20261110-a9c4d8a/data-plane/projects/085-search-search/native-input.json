@@ -1,0 +1,13 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "project": {
+    "sourcePath": "specification/search/data-plane/Search",
+    "apiVersion": "2026-08-01-preview"
+  },
+  "validatorRules": [],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

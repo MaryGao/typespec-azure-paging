@@ -1,0 +1,50 @@
+{
+  "index": 29,
+  "slug": "029-cognitiveservices-speechtranscription",
+  "sourcePath": "specification/cognitiveservices/data-plane/SpeechTranscription",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/stable/2025-10-15/Transcription.json",
+      "apiVersion": "2025-10-15",
+      "format": "swagger-2.0",
+      "sha256": "1163f51d7ec3d0e1495d29a688a64963923be4ac0b03563fc2c5696f5c6e07bf"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/client.tsp",
+      "sha256": "6c37752d37b93589cb1d5b168153f3794c68b17b9fb80d34329a583c51d2431d"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/main.tsp",
+      "sha256": "40d583b6cf28dc16b52e1cfac79053139dd5909889b1c9ef618a90e74ff3d521"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/models.tsp",
+      "sha256": "f10b9adf8484ceac8d7b7927a8b0b10080f5b22141a3a77221586cb754094db3"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/routes.tsp",
+      "sha256": "ebd04b3622fc0a076cc847a47a2f21a6f8238552dc40a8520aae98ada7e604f1"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/tspconfig.yaml",
+      "sha256": "6df9e8fe6eaba522a5d0ada11bb23dc1be3e669c569facd7dfd8cb5529d8e47b"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/SpeechTranscription",
+  "swaggerOutputPattern": "{version-status}/{version}/Transcription.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-10-15",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechTranscription/stable/2025-10-15/Transcription.json",
+      "apiVersion": "2025-10-15",
+      "format": "swagger-2.0",
+      "sha256": "1163f51d7ec3d0e1495d29a688a64963923be4ac0b03563fc2c5696f5c6e07bf"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

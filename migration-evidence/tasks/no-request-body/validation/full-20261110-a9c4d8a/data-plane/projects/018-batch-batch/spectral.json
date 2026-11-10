@@ -1,0 +1,239 @@
+{
+  "project": "specification/batch/data-plane/Batch",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/batch/data-plane/Batch/stable/2025-06-01/BatchService.json",
+      "apiVersion": "2025-06-01",
+      "format": "swagger-2.0",
+      "sha256": "8427acd8fd774462806e3a48ae1c4e85ff186b62ff02b9e831f698838a852717",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/applications",
+          "verb": "get",
+          "operationId": "Applications_ListApplications",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/applications/{applicationId}",
+          "verb": "get",
+          "operationId": "Applications_GetApplication",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs",
+          "verb": "get",
+          "operationId": "Jobs_ListJobs",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "Jobs_GetJob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}",
+          "verb": "delete",
+          "operationId": "Jobs_DeleteJob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/jobpreparationandreleasetaskstatus",
+          "verb": "get",
+          "operationId": "Jobs_ListJobPreparationAndReleaseTaskStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/taskcounts",
+          "verb": "get",
+          "operationId": "Jobs_GetJobTaskCounts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks",
+          "verb": "get",
+          "operationId": "Tasks_ListTasks",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}",
+          "verb": "get",
+          "operationId": "Tasks_GetTask",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}",
+          "verb": "delete",
+          "operationId": "Tasks_DeleteTask",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}/files",
+          "verb": "get",
+          "operationId": "Tasks_ListTaskFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}/files/{filePath}",
+          "verb": "get",
+          "operationId": "Tasks_GetTaskFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}/files/{filePath}",
+          "verb": "delete",
+          "operationId": "Tasks_DeleteTaskFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobs/{jobId}/tasks/{taskId}/subtasksinfo",
+          "verb": "get",
+          "operationId": "Tasks_ListSubTasks",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobschedules",
+          "verb": "get",
+          "operationId": "JobSchedules_ListJobSchedules",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobschedules/{jobScheduleId}",
+          "verb": "get",
+          "operationId": "JobSchedules_GetJobSchedule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobschedules/{jobScheduleId}",
+          "verb": "delete",
+          "operationId": "JobSchedules_DeleteJobSchedule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/jobschedules/{jobScheduleId}/jobs",
+          "verb": "get",
+          "operationId": "Jobs_ListJobsFromSchedule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/nodecounts",
+          "verb": "get",
+          "operationId": "Pools_ListPoolNodeCounts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools",
+          "verb": "get",
+          "operationId": "Pools_ListPools",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}",
+          "verb": "get",
+          "operationId": "Pools_GetPool",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}",
+          "verb": "delete",
+          "operationId": "Pools_DeletePool",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes",
+          "verb": "get",
+          "operationId": "Nodes_ListNodes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}",
+          "verb": "get",
+          "operationId": "Nodes_GetNode",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/extensions",
+          "verb": "get",
+          "operationId": "Nodes_ListNodeExtensions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/extensions/{extensionName}",
+          "verb": "get",
+          "operationId": "Nodes_GetNodeExtension",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/files",
+          "verb": "get",
+          "operationId": "Nodes_ListNodeFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/files/{filePath}",
+          "verb": "get",
+          "operationId": "Nodes_GetNodeFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/files/{filePath}",
+          "verb": "delete",
+          "operationId": "Nodes_DeleteNodeFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/remoteloginsettings",
+          "verb": "get",
+          "operationId": "Nodes_GetNodeRemoteLoginSettings",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/pools/{poolId}/nodes/{nodeId}/users/{userName}",
+          "verb": "delete",
+          "operationId": "Nodes_DeleteNodeUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/poolusagemetrics",
+          "verb": "get",
+          "operationId": "Pools_ListPoolUsageMetrics",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/supportedimages",
+          "verb": "get",
+          "operationId": "Pools_ListSupportedImages",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

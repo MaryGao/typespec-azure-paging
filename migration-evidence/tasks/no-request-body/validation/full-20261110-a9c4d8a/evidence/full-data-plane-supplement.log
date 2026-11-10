@@ -1,0 +1,8 @@
+[1/8] assessed: specification/contosowidgetmanager/Contoso.WidgetManager; native=0 Swagger=0
+[2/8] assessed: specification/discovery/Discovery.Bookshelf; native=0 Swagger=0
+[3/8] assessed: specification/discovery/Discovery.Workspace; native=0 Swagger=0
+[4/8] assessed: specification/orbital/Microsoft.PlanetaryComputer; native=0 Swagger=0
+[5/8] assessed: specification/playwrighttesting/PlaywrightTesting.AuthManager; native=0 Swagger=0
+[6/8] assessed: specification/programmableconnectivity/Azure.ProgrammableConnectivity; native=0 Swagger=0
+[7/8] assessed: specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality; native=0 Swagger=0
+[8/8] assessed: specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog; native=0 Swagger=0

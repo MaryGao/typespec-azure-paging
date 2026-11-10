@@ -1,0 +1,25 @@
+{
+  "project": "specification/maps/data-plane/Traffic",
+  "slug": "071-maps-traffic",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:33:18.795Z",
+    "finishedAt": "2026-11-10T01:33:23.929Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:33:23.946Z",
+    "finishedAt": "2026-11-10T01:33:26.398Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

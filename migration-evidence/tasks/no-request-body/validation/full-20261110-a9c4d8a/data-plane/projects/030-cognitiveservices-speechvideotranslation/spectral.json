@@ -1,0 +1,89 @@
+{
+  "project": "specification/cognitiveservices/data-plane/SpeechVideoTranslation",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/stable/2026-03-01/VideoTranslation.json",
+      "apiVersion": "2026-03-01",
+      "format": "swagger-2.0",
+      "sha256": "2e781a63dbdcdfb5068b419dfebeaac677c9e2af52ba55672be36d6e1042aa1b",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/configurations/event-hub",
+          "verb": "get",
+          "operationId": "EventHubConfigurationOperations_GetEventHubConfiguration",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/configurations/event-hub",
+          "verb": "delete",
+          "operationId": "EventHubConfigurationOperations_DeleteEventHubConfiguration",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations/{operationId}",
+          "verb": "get",
+          "operationId": "OperationOperations_GetOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/translations",
+          "verb": "get",
+          "operationId": "TranslationOperations_ListTranslation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/translations/{translationId}",
+          "verb": "get",
+          "operationId": "TranslationOperations_GetTranslation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/translations/{translationId}",
+          "verb": "delete",
+          "operationId": "TranslationOperations_DeleteTranslation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/translations/{translationId}/iterations",
+          "verb": "get",
+          "operationId": "IterationOperations_ListIteration",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/translations/{translationId}/iterations/{iterationId}",
+          "verb": "get",
+          "operationId": "IterationOperations_GetIteration",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

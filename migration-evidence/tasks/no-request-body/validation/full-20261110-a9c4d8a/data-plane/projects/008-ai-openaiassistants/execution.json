@@ -1,0 +1,25 @@
+{
+  "project": "specification/ai/data-plane/OpenAIAssistants",
+  "slug": "008-ai-openaiassistants",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:26:31.792Z",
+    "finishedAt": "2026-11-10T01:26:36.884Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:26:36.888Z",
+    "finishedAt": "2026-11-10T01:26:38.988Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

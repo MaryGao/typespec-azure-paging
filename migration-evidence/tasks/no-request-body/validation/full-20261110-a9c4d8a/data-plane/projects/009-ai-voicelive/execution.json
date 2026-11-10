@@ -1,0 +1,25 @@
+{
+  "project": "specification/ai/data-plane/VoiceLive",
+  "slug": "009-ai-voicelive",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:26:38.993Z",
+    "finishedAt": "2026-11-10T01:26:43.568Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:26:43.571Z",
+    "finishedAt": "2026-11-10T01:26:45.585Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

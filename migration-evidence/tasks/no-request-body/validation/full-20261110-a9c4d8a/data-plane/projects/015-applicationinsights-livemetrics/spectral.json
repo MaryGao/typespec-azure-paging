@@ -1,0 +1,40 @@
+{
+  "project": "specification/applicationinsights/data-plane/LiveMetrics",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/preview/2024-04-01-preview/livemetrics.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f8d1cc274c0aed24fee9057e82175b80d6ae28cbb9493d70d1f8004b0bc26832",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": []
+    }
+  ],
+  "rawTargetCount": 0
+}

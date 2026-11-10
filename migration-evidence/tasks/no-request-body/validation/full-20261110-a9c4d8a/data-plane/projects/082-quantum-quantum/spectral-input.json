@@ -1,0 +1,134 @@
+{
+  "index": 82,
+  "slug": "082-quantum-quantum",
+  "sourcePath": "specification/quantum/data-plane/Quantum",
+  "swaggerCandidates": [
+    {
+      "file": "specification/quantum/data-plane/Quantum/preview/2026-01-15-preview/quantum.json",
+      "apiVersion": "2026-01-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "594e1b08c956293df11bd046b5bbf13351a981add4fbecafbdb1274867466960"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/quantum/data-plane/Quantum/client.tsp",
+      "sha256": "8a29f1d1ba4b0ed24bd6a8ad0d36056247357e375dac0042997fd97d298e1357"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/auth.tsp",
+      "sha256": "33428b9ff8e8e8772199fa15cec7127a411a709313aed5b8e78241bb7e4f3396"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/base-operations.tsp",
+      "sha256": "1805b7c2c59726e5be2189e226e9173173dd98446a099390bffd5f991deb0190"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/common-params.tsp",
+      "sha256": "306f3649cb81a13bcd4142c15cc1bb644073a3e3b3249fa659a8dd0df41fecab"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/common.tsp",
+      "sha256": "f7c25bdff1ad68b79b1ba671c0c0cdee715618438a721c54b62f08ea37bd2e60"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/cost-estimates.tsp",
+      "sha256": "4019c4a8702606e85b48ec93e55c49991e3d2daad8c69ed3b8b8a7e3a3ba550a"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/errors.tsp",
+      "sha256": "05b9896c86a75d81d7bbf481f26e77bb4bf2a2c43a7837d6c52f32af2b68c642"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-items.tsp",
+      "sha256": "6af9b661dcbe75f6bef043b57574f66d8825a3ec347de6d5b4f36947d36c0c26"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-jobs.tsp",
+      "sha256": "08889f84c1c24588841b59a6542cd386ec36a42abaaef7623df9e88c64b3490f"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-providers.tsp",
+      "sha256": "782df033897b2b52b2d05f2edbb35b9e17ae6546e51d3154c6c61f7b045fd4ae"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-quota.tsp",
+      "sha256": "8a3099c7f38066f8ae3f62622a04f2ac855529a453897641c886fb66da8f8a13"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-sessions.tsp",
+      "sha256": "8b85e3123452ca9bd95e36a166ebaaaf5c0162b593208ebc8e342bd2b0b13637"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-storage.tsp",
+      "sha256": "7be376d501d0ef9988df11abe85a0eef1c6c5b235af08346e50bf56127cf7d58"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models-suiteoffers.tsp",
+      "sha256": "7428d095adb9e7713f98e67752843476a9db4cee3277d3a688e8c457372bb4f8"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/models.tsp",
+      "sha256": "d284936552d79020829224c0863e8ad8bf88ab63841f1664d70f548e91da8e3e"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/common/versions.tsp",
+      "sha256": "9d98d25d7745a5a1a1747f15f66b5a6c6471b1d8ec5afdb3552fd952d605bfa2"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/main.tsp",
+      "sha256": "0d4ee88856f0c0376cbff8db9997f8a7e31316042791b77b1fa1d9dfa1c29079"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/items.tsp",
+      "sha256": "cb1b4ef479511323c2cafddbbb668d88150cb64fb54eb177d562792563da0286"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/jobs.tsp",
+      "sha256": "476992cc66008620430a18b23fd1a2bd44761274bc75a22b20c1a78f2de34a00"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/operations.tsp",
+      "sha256": "1c2d9e98eb00be5e3ca42c09bb8de7e50eb7556a6426fbb6548cb012c57e0026"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/providers.tsp",
+      "sha256": "ac7fad9f52809a6e9b666598cc8a022fabf77dfc540a4a0e220c3172a5986d25"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/quotas.tsp",
+      "sha256": "ceb0b805145dd8990ee7d4a30f461d6ce690df2673d46e55e43a3c9e0e4cf21b"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/sessions.tsp",
+      "sha256": "43e1008ac9e17f7499f6b77e6819e5199ab5a453911e12db8affc80f80c2fe71"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/storage.tsp",
+      "sha256": "f93c6c91f0355e93a37fff077487e151c1122641e50a222ed7a2268870b81a30"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/operations/suiteOffers.tsp",
+      "sha256": "1f1cf33ac110f00682b67109f9ec91630cde6b704d32298697c2a2bafb315f92"
+    },
+    {
+      "file": "specification/quantum/data-plane/Quantum/tspconfig.yaml",
+      "sha256": "52cd04c59cd6e2a2cbd850c467d822a92819a9b79538aae5be668755ca285c7e"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/quantum/data-plane/Quantum",
+  "swaggerOutputPattern": "{version-status}/{version}/quantum.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-01-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/quantum/data-plane/Quantum/preview/2026-01-15-preview/quantum.json",
+      "apiVersion": "2026-01-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "594e1b08c956293df11bd046b5bbf13351a981add4fbecafbdb1274867466960"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

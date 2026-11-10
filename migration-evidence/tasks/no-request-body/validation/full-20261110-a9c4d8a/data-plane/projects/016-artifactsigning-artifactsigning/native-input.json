@@ -1,0 +1,13 @@
+{
+  "specsRepo": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "project": {
+    "sourcePath": "specification/artifactsigning/data-plane/ArtifactSigning",
+    "apiVersion": "2024-06-15"
+  },
+  "validatorRules": [],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

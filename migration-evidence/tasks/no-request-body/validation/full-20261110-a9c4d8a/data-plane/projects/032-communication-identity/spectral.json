@@ -1,0 +1,59 @@
+{
+  "project": "specification/communication/data-plane/Identity",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/communication/data-plane/Identity/stable/2026-09-23/CommunicationIdentity.json",
+      "apiVersion": "2026-09-23",
+      "format": "swagger-2.0",
+      "sha256": "d9d9dc66eef4094ceeda7f73e0169ebbfd324983acd98239577097f2ae7224ec",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/access/teamsExtension/tenants/{tenantId}/assignments/{objectId}",
+          "verb": "get",
+          "operationId": "TeamsExtensionOperations_GetAssignment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/access/teamsExtension/tenants/{tenantId}/assignments/{objectId}",
+          "verb": "delete",
+          "operationId": "TeamsExtensionOperations_DeleteAssignment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/identities/{id}",
+          "verb": "delete",
+          "operationId": "IdentityOperations_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

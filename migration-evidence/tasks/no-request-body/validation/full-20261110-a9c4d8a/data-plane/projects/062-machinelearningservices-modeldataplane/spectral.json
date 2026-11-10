@@ -1,0 +1,83 @@
+{
+  "project": "specification/machinelearningservices/data-plane/ModelDataplane",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/machinelearningservices/data-plane/ModelDataplane/stable/1.0.0/model-dataplane.json",
+      "apiVersion": "1.0.0",
+      "format": "swagger-2.0",
+      "sha256": "e3accf050a33319f9e3bb555ed575bd251b6c3c5bf670b5bf4d4e68f367e51b6",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/assets",
+          "verb": "get",
+          "operationId": "Assets_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/assets/{id}",
+          "verb": "get",
+          "operationId": "Assets_QueryById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/assets/{id}",
+          "verb": "delete",
+          "operationId": "Assets_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/extensiveModels/{id}",
+          "verb": "get",
+          "operationId": "ExtensiveModels_QueryById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/models",
+          "verb": "get",
+          "operationId": "Models_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/models/{id}",
+          "verb": "get",
+          "operationId": "Models_QueryById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/modelregistry/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/models/{id}",
+          "verb": "delete",
+          "operationId": "Models_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,65 @@
+{
+  "project": "specification/widget/data-plane/WidgetAnalytics",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/widget/data-plane/WidgetAnalytics/stable/2022-12-01/widgetanalytics.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "fdceb8967d786513f3a42566abd2368f4af17e5a4b398fa3d24dcf8ed33e474d",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/widgets",
+          "verb": "get",
+          "operationId": "Widgets_ListWidgets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}",
+          "verb": "get",
+          "operationId": "Widgets_GetWidget",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}",
+          "verb": "delete",
+          "operationId": "Widgets_DeleteWidget",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "Widgets_GetWidgetOperationStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

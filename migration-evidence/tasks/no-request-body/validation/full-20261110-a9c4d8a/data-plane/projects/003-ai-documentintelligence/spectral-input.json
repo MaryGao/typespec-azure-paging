@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "slug": "003-ai-documentintelligence",
+  "sourcePath": "specification/ai/data-plane/DocumentIntelligence",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/preview/2023-10-31-preview/DocumentIntelligence.json",
+      "apiVersion": "2023-10-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "79004296a99ac6edcc5ba5c4c32bcb5e6edc4ad6df8253ab94bcaf42b5ff5ab4"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/preview/2024-02-29-preview/DocumentIntelligence.json",
+      "apiVersion": "2024-02-29-preview",
+      "format": "swagger-2.0",
+      "sha256": "0d0b003a80f4bef63ea1fc295f85b9a8822a89dbd1d151881a2d13f2f0a961f5"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/preview/2024-07-31-preview/DocumentIntelligence.json",
+      "apiVersion": "2024-07-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "5c827e8b978ecbd3fd9ad17573b29ba041a7c0bf86603cb2048f73733ee19bd7"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/stable/2024-11-30/DocumentIntelligence.json",
+      "apiVersion": "2024-11-30",
+      "format": "swagger-2.0",
+      "sha256": "3f750834da9e3acc162b781711bf0eda02ab2bd8a30c2b4c6a62c6910e7f1bd0"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/client.tsp",
+      "sha256": "4b091b75acb9c042710dfe6e792ee54a411f8451f5e8318ea92021478979b5cc"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/main.tsp",
+      "sha256": "c1b4260d9417944e02cb799321a9edad4082ae2f879a9779894279fcf23c10dc"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/models.tsp",
+      "sha256": "c5a4b3a05b3599a40bc6a5b1b831630a086a1e3201d1b54d48638e68824876f0"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/routes.tsp",
+      "sha256": "4170f6c1b249dc4e6bef0502e99b52077e8f5c05f1a53dfcefa0b47de82b5d87"
+    },
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/tspconfig.yaml",
+      "sha256": "3c16f748b65c674fbbccd957e8e34cd2dee40d57026a51ac742476f8c0bee677"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/DocumentIntelligence",
+  "swaggerOutputPattern": "{version-status}/{version}/DocumentIntelligence.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-11-30",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/stable/2024-11-30/DocumentIntelligence.json",
+      "apiVersion": "2024-11-30",
+      "format": "swagger-2.0",
+      "sha256": "3f750834da9e3acc162b781711bf0eda02ab2bd8a30c2b4c6a62c6910e7f1bd0"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

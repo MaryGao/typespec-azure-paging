@@ -1,0 +1,89 @@
+{
+  "project": "specification/ai/data-plane/ContentUnderstanding",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/ai/data-plane/ContentUnderstanding/preview/2026-06-01-preview/ContentUnderstanding.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c5bf28571c83d2afe3edb9afaf52d41305d458eeda691de62fbdcf50fb9c5e14",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/analyzerResults/{operationId}",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_GetResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzerResults/{operationId}",
+          "verb": "delete",
+          "operationId": "ContentAnalyzers_DeleteResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzerResults/{operationId}/files/{path}",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_GetResultFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzers",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzers/{analyzerId}",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzers/{analyzerId}",
+          "verb": "delete",
+          "operationId": "ContentAnalyzers_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/analyzers/{analyzerId}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/defaults",
+          "verb": "get",
+          "operationId": "ContentAnalyzers_GetDefaults",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

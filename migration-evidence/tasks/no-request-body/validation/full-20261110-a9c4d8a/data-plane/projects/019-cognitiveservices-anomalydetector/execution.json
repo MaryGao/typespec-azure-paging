@@ -1,0 +1,25 @@
+{
+  "project": "specification/cognitiveservices/data-plane/AnomalyDetector",
+  "slug": "019-cognitiveservices-anomalydetector",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:27:44.696Z",
+    "finishedAt": "2026-11-10T01:27:48.776Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:27:48.779Z",
+    "finishedAt": "2026-11-10T01:27:50.635Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

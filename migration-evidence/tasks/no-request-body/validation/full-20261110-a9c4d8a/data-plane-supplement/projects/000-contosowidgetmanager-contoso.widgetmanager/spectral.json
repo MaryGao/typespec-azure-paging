@@ -1,0 +1,65 @@
+{
+  "project": "specification/contosowidgetmanager/Contoso.WidgetManager",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/widgets",
+          "verb": "get",
+          "operationId": "Widgets_ListWidgets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}",
+          "verb": "get",
+          "operationId": "Widgets_GetWidget",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}",
+          "verb": "delete",
+          "operationId": "Widgets_DeleteWidget",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/widgets/{widgetName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "Widgets_GetWidgetOperationStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

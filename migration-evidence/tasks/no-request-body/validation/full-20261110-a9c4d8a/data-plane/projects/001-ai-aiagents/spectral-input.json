@@ -1,0 +1,154 @@
+{
+  "index": 1,
+  "slug": "001-ai-aiagents",
+  "sourcePath": "specification/ai/data-plane/AIAgents",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/AIAgents/preview/2025-05-15-preview/azure-ai-agents.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "9cca81a04592e45f49788646b8fdbc3af681ba93b72bd719e3070214e45b2330"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/stable/2025-05-01/azure-ai-agents.json",
+      "apiVersion": "2025-05-01",
+      "format": "swagger-2.0",
+      "sha256": "12ccf656f42abe37b4af5020d6bd7a7c1304ac492e6835f80e96f0d6c24484af"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/stable/v1/azure-ai-agents.json",
+      "apiVersion": "v1",
+      "format": "swagger-2.0",
+      "sha256": "de4a99f09829e66f089bf7c32d4fe7dadd4554ca93c417503fbf597867dddf44"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/AIAgents/client.tsp",
+      "sha256": "53c9bfae75f403bf5d84df7356d964b8016884d5d54f38410bf57976590fad5f"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/common/models.tsp",
+      "sha256": "912a9893d52e9f25a81c1fb5da93db18f1a38d30b9cc6e7c036d1b197853f2c5"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/files/models.tsp",
+      "sha256": "3598717e26fe0a0514c548ccfc01ab8c3b14926e917219f9eadd71f1e07f58e6"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/files/routes.tsp",
+      "sha256": "1d62e1c87961f1b75161d648014747c3d7cfc425405b0a2a2b2e23358f4dd893"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/main.tsp",
+      "sha256": "919336a8e9a67482d48db0c518bd974b41cca63a0aaa661ee97fed5e4dfb6d0e"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/messages/models.tsp",
+      "sha256": "879bedfe13e7322b057c2f2208a2274271c43769829c753221badd1191d837ec"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/messages/routes.tsp",
+      "sha256": "824349d59e47612baaebfa00ad5c201eca466294ced10e614980bfdcfb8ddc86"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/models.tsp",
+      "sha256": "1ba7b75e5e0ded947484eb88ac9f8a6a1800ff9a9c4f23f4a0fb12d5eff478f4"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/routes.tsp",
+      "sha256": "50737da0f6494c79413779de4df85aa892fd0db1ed0c974fdcd9d6f4de28836f"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/run_steps/models.tsp",
+      "sha256": "fb4294414c05fd48a2af599c3086bd83feda41a1f6ee03dfcb12e0fea5d81e17"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/run_steps/routes.tsp",
+      "sha256": "437f7a0f035c22b8e5fa26497ff3cfe0d2743735ea783c7a42c964ef6a758486"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/runs/models.tsp",
+      "sha256": "8a0fd395c2fe26fdfbe4f1fbbf6d2f6892f385bebf40274bf2ed2aa9881a8ac3"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/runs/routes.tsp",
+      "sha256": "2219fa617fb3f2a6a4e7e41b63197095e3403c7aacedf6ef787b5d13606c0886"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/servicepatterns.tsp",
+      "sha256": "f61f7d33a62477e7a3c33752f03b3fce0496c53db601e2880558c9a2b5f25520"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/streaming/events.tsp",
+      "sha256": "9958256a6020887d3b50e96bade8faa10c8955c4db67ebdef953c9a2514bea21"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/threads/models.tsp",
+      "sha256": "ef31c62c1c69b1f6fb254807311169a23da67537d00aa7fe32c1d7d313b3b45d"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/threads/routes.tsp",
+      "sha256": "9737ab28ab38a1fb54cd47d5cf86b9514991081b5e9f9acd0dfb892271779d10"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/tools/models.tsp",
+      "sha256": "8cf25fe45a9747e99bb796a7b2e39c41b54c5f51d064ca318ed6f63554f21ef6"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/tools/tool_resources.tsp",
+      "sha256": "d8df96c018ebc4c07e6604ed7ffe1af10fdfb53ed8c5ffdc35a3246e845a2f33"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/tspconfig.yaml",
+      "sha256": "08bf70e9227d950db387725603566ba39a050f7aa1804f0757d7c34a65a83ff8"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/common/main.tsp",
+      "sha256": "f0680f78643857a86b21f22497ffc3b1729693358ba3c9acad65f6060d8f8bd7"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/file_batches/models.tsp",
+      "sha256": "eb780f7c66501e9d218400d2d93038b4ff4cbab0b1135e2442776bdef784cc65"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/file_batches/routes.tsp",
+      "sha256": "b657473c2856a51c16c40a239f6538e3b85eb6cc5af97124246dc00416486462"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/files/models.tsp",
+      "sha256": "0d1407a5fcee877538cb27d71541c3f63875af6027766a079be812a9207d31db"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/files/routes.tsp",
+      "sha256": "80a41d4e77c6079961d18c15e6068460c5f11985b35b3425ecf11390a6883dbb"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/main.tsp",
+      "sha256": "c6ae0796568103522371a62dae09862d184df254465af254e65bd7ce4aa09722"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/models.tsp",
+      "sha256": "6599af3ca9a74ff3ed2931d65bd90f96e9c929ec9a7f99edbe03d9d3279f4d48"
+    },
+    {
+      "file": "specification/ai/data-plane/AIAgents/vector_stores/routes.tsp",
+      "sha256": "4fccbd04502b2ff36361fefcca17db7e1ca6b437f83afaf017f6a4a93f2daef1"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/AIAgents",
+  "swaggerOutputPattern": "{version-status}/{version}/azure-ai-agents.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-05-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/AIAgents/preview/2025-05-15-preview/azure-ai-agents.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "9cca81a04592e45f49788646b8fdbc3af681ba93b72bd719e3070214e45b2330"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

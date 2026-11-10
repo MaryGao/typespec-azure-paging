@@ -1,0 +1,25 @@
+{
+  "project": "specification/monitor/data-plane/OperationalInsights",
+  "slug": "077-monitor-operationalinsights",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:33:59.613Z",
+    "finishedAt": "2026-11-10T01:34:04.062Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:34:04.069Z",
+    "finishedAt": "2026-11-10T01:34:05.908Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

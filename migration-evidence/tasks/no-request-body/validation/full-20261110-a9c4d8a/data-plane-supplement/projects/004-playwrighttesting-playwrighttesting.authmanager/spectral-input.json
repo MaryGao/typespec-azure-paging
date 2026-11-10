@@ -1,0 +1,44 @@
+{
+  "index": 4,
+  "slug": "004-playwrighttesting-playwrighttesting.authmanager",
+  "sourcePath": "specification/playwrighttesting/PlaywrightTesting.AuthManager",
+  "swaggerCandidates": [
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/preview/2023-10-01-preview/playwrighttesting.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b2547a27244607139e5e46d56dfdf57be6531e0359702ca34290de88b117eac9"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/playwrighttesting/PlaywrightTesting.AuthManager/main.tsp",
+      "sha256": "71ca17d9a215dab480edbc0cca1ea929c335a13fd037a4c75dd5cec79fe2f6f6"
+    },
+    {
+      "file": "specification/playwrighttesting/PlaywrightTesting.AuthManager/tspconfig.yaml",
+      "sha256": "12aa097278f1bfd61d198415052853a0b7b73ecddeaa689b00649e654e54ffef"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/playwrighttesting",
+  "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/playwrighttesting.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-12-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

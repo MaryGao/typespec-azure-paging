@@ -1,0 +1,25 @@
+{
+  "project": "specification/attestation/data-plane/Attestation",
+  "slug": "017-attestation-attestation",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:27:31.749Z",
+    "finishedAt": "2026-11-10T01:27:35.853Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:27:35.857Z",
+    "finishedAt": "2026-11-10T01:27:37.692Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

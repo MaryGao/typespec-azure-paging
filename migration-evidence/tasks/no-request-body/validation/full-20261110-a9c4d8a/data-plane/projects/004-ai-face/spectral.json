@@ -1,0 +1,257 @@
+{
+  "project": "specification/ai/data-plane/Face",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/ai/data-plane/Face/preview/v1.3-preview.1/Face.json",
+      "apiVersion": "v1.3-preview.1",
+      "format": "swagger-2.0",
+      "sha256": "e9a68c525be684431f2c930ee52d9fd729dfc296448d9144a3e4da610db337e8",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/detectLiveness-sessions/{sessionId}",
+          "verb": "get",
+          "operationId": "LivenessSessionOperations_GetLivenessSessionResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/detectLiveness-sessions/{sessionId}",
+          "verb": "delete",
+          "operationId": "LivenessSessionOperations_DeleteLivenessSession",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/detectLivenessWithVerify-sessions/{sessionId}",
+          "verb": "get",
+          "operationId": "LivenessSessionOperations_GetLivenessWithVerifySessionResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/detectLivenessWithVerify-sessions/{sessionId}",
+          "verb": "delete",
+          "operationId": "LivenessSessionOperations_DeleteLivenessWithVerifySession",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/facelists",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetFaceLists",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/facelists/{faceListId}",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetFaceList",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/facelists/{faceListId}",
+          "verb": "delete",
+          "operationId": "FaceListOperations_DeleteFaceList",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/facelists/{faceListId}/persistedfaces/{persistedFaceId}",
+          "verb": "delete",
+          "operationId": "FaceListOperations_DeleteFaceListFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetLargeFaceLists",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetLargeFaceList",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}",
+          "verb": "delete",
+          "operationId": "FaceListOperations_DeleteLargeFaceList",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}/persistedfaces",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetLargeFaceListFaces",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}/persistedfaces/{persistedFaceId}",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetLargeFaceListFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}/persistedfaces/{persistedFaceId}",
+          "verb": "delete",
+          "operationId": "FaceListOperations_DeleteLargeFaceListFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largefacelists/{largeFaceListId}/training",
+          "verb": "get",
+          "operationId": "FaceListOperations_GetLargeFaceListTrainingStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeleteLargePersonGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/persons",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroupPersons",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/persons/{personId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroupPerson",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/persons/{personId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeleteLargePersonGroupPerson",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/persons/{personId}/persistedfaces/{persistedFaceId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroupPersonFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/persons/{personId}/persistedfaces/{persistedFaceId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeleteLargePersonGroupPersonFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/largepersongroups/{largePersonGroupId}/training",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetLargePersonGroupTrainingStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeletePersonGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/persons",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroupPersons",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/persons/{personId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroupPerson",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/persons/{personId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeletePersonGroupPerson",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/persons/{personId}/persistedfaces/{persistedFaceId}",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroupPersonFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/persons/{personId}/persistedfaces/{persistedFaceId}",
+          "verb": "delete",
+          "operationId": "PersonGroupOperations_DeletePersonGroupPersonFace",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/persongroups/{personGroupId}/training",
+          "verb": "get",
+          "operationId": "PersonGroupOperations_GetPersonGroupTrainingStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/sessionImages/{sessionImageId}",
+          "verb": "get",
+          "operationId": "LivenessSessionOperations_GetSessionImage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/settings",
+          "verb": "get",
+          "operationId": "LivenessSessionOperations_GetSettings",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/settings/getClientAssetsAccessToken",
+          "verb": "get",
+          "operationId": "LivenessSessionOperations_GetClientAssetsAccessToken",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,34 @@
+{
+  "index": 53,
+  "slug": "053-keyvault-administration-settings",
+  "sourcePath": "specification/keyvault/data-plane/Administration/Settings",
+  "swaggerCandidates": [],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/client.tsp",
+      "sha256": "791708eef494dbc4e2d1c8817a488469334a6e02ad97db5abc327b6428e1403d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/main.tsp",
+      "sha256": "30399337f2a516e66b433b1e309854ced5f3fdf0be1e4e1fb047692586a324ea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/models.tsp",
+      "sha256": "fc2b550fead77422371fe863a81f89ace7a6f10c98b028fc3ae9db4d6dacbb85"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/routes.tsp",
+      "sha256": "0b67706ae74dd9d04f798df42081bf3828bd5da7c6ba1e9375b09fb531c8c144"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Administration/Settings/tspconfig.yaml",
+      "sha256": "0153bcec115b77b00c07e1a618431e4720941a54ece652f9222f1d229c4742e9"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Administration/Settings",
+  "hasExplicitAutorestOptions": false,
+  "swaggerFiles": [],
+  "swaggerSelectionStatus": "unassessed-no-local-oas2"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 7,
+  "slug": "007-purviewdatagovernance-azure.analytics.purview.unifiedcatalog",
+  "sourcePath": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog",
+  "swaggerCandidates": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2025-09-15-preview/CatalogApiService.json",
+      "apiVersion": "2025-09-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "4928fc2e3948f8d52fae8e00c52b2fbe5a7f98dbb746364e5bbff9c6ccdfc71f"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+      "apiVersion": "2026-03-20-preview",
+      "format": "swagger-2.0",
+      "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/client.tsp",
+      "sha256": "a9bfb69e25afe3132fcc9a95728330840de008013acb0c27f35362412d6fa237"
+    },
+    {
+      "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/main.tsp",
+      "sha256": "2d2f447cc27a3ef94801bb41afe0b65261830c4b1c9a1efe32ff4fc5b7870f62"
+    },
+    {
+      "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/models.tsp",
+      "sha256": "0b90136ac0cec159f23e8bfd940e23d7afb79526c2beba2efb0aef08c90e72e6"
+    },
+    {
+      "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/routes.tsp",
+      "sha256": "8b5cb75fe328a7f89e00caf763622288ef910336690b0636719f9a47d0222fbb"
+    },
+    {
+      "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/tspconfig.yaml",
+      "sha256": "a9be432454e01ab955542df3e29890c76581550435306ec37ced6c6c9c94557d"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/purviewdatagovernance",
+  "swaggerOutputPattern": "data-plane/Azure.Analytics.Purview.UnifiedCatalog/{version-status}/{version}/CatalogApiService.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-03-20-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+      "apiVersion": "2026-03-20-preview",
+      "format": "swagger-2.0",
+      "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

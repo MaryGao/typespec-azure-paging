@@ -1,0 +1,60 @@
+{
+  "index": 72,
+  "slug": "072-maps-weather",
+  "sourcePath": "specification/maps/data-plane/Weather",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Weather/preview/1.0/weather.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "8d49074009f3ab2dfadfa6c2f6a2c5c4682ff5a6449d959c1201e37a0a27e239"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/stable/1.1/weather.json",
+      "apiVersion": "1.1",
+      "format": "swagger-2.0",
+      "sha256": "085d2875036479f47629fcef0a7c4c9f92ccbe7ce502c220e4d2325d00c52661"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Weather/client.tsp",
+      "sha256": "8799b7fcae41ae1a033dc65bac35f765032a19802135dcfe6275bc4c700222de"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/common/common.tsp",
+      "sha256": "e5ce78ab2310a7bd465a3a512d0455aacf363d4920cabb6608cbea5313dd2862"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/main.tsp",
+      "sha256": "d6548c2fc186b08d4cacc0d5fdefe6af1fb2265da497dd2d19304c263478d9ca"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/models.tsp",
+      "sha256": "7f485b37754be4818bfa20a14226ba92e35c091905609e4a256c6fab7d93cdd1"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/routes.tsp",
+      "sha256": "05aa0d4cf05a7f670d41c5682ffb4833fcb4664bd8f49b04692dc7f93900aa13"
+    },
+    {
+      "file": "specification/maps/data-plane/Weather/tspconfig.yaml",
+      "sha256": "607c0c6f69b5fc2f59bc8bfd14588ee7c642ff52546e8bbfe6881c018b02baeb"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Weather",
+  "swaggerOutputPattern": "{version-status}/{version}/weather.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "1.1",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Weather/stable/1.1/weather.json",
+      "apiVersion": "1.1",
+      "format": "swagger-2.0",
+      "sha256": "085d2875036479f47629fcef0a7c4c9f92ccbe7ce502c220e4d2325d00c52661"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

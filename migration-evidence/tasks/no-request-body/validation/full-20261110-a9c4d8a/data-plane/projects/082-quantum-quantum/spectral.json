@@ -1,0 +1,113 @@
+{
+  "project": "specification/quantum/data-plane/Quantum",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/quantum/data-plane/Quantum/preview/2026-01-15-preview/quantum.json",
+      "apiVersion": "2026-01-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "594e1b08c956293df11bd046b5bbf13351a981add4fbecafbdb1274867466960",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/suiteOffers/{providerId}/providerStatus",
+          "verb": "get",
+          "operationId": "SuiteOffers_GetProviderStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Quantum/suiteOffers/{providerId}/quotaUsages",
+          "verb": "get",
+          "operationId": "SuiteOffers_ListQuotaUsages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/jobs",
+          "verb": "get",
+          "operationId": "Jobs_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "Jobs_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/jobs/{jobId}",
+          "verb": "delete",
+          "operationId": "Jobs_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/providerStatus",
+          "verb": "get",
+          "operationId": "Providers_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/quotaUsages",
+          "verb": "get",
+          "operationId": "Quotas_ListWorkspaceUsages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/quotas",
+          "verb": "get",
+          "operationId": "Quotas_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/sessions",
+          "verb": "get",
+          "operationId": "Sessions_Listv2",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/sessions/{sessionId}",
+          "verb": "get",
+          "operationId": "Sessions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/sessions/{sessionId}/jobs",
+          "verb": "get",
+          "operationId": "SessionsJobs_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/topLevelItems",
+          "verb": "get",
+          "operationId": "TopLevelItems_Listv2",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

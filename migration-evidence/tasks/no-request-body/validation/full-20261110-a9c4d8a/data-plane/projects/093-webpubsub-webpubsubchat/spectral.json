@@ -1,0 +1,113 @@
+{
+  "project": "specification/webpubsub/data-plane/WebPubSubChat",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/preview/2026-02-01-preview/webpubsubchat.json",
+      "apiVersion": "2026-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a75342a01c87ee8d6b6ebe98e567016b33727a85db8668873cb0ea787c83c80e",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/api/hubs/{hub}/chat/conversations/{conversationId}",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_GetConversation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/conversations/{conversationId}/messages",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_ListMessages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/conversations/{conversationId}/messages/{messageId}",
+          "verb": "delete",
+          "operationId": "WebPubSubChatServiceClient_DeleteMessage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/roles",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_ListRoles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/roles/{roleName}",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_GetRole",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/roles/{roleName}",
+          "verb": "delete",
+          "operationId": "WebPubSubChatServiceClient_DeleteRole",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/rooms/{roomId}",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_GetRoom",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/rooms/{roomId}",
+          "verb": "delete",
+          "operationId": "WebPubSubChatServiceClient_DeleteRoom",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/rooms/{roomId}/members",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_ListRoomMembers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/rooms/{roomId}/members/{userId}",
+          "verb": "delete",
+          "operationId": "WebPubSubChatServiceClient_DeleteRoomMember",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/users/{userId}",
+          "verb": "get",
+          "operationId": "WebPubSubChatServiceClient_GetUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/api/hubs/{hub}/chat/users/{userId}",
+          "verb": "delete",
+          "operationId": "WebPubSubChatServiceClient_DeleteUser",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

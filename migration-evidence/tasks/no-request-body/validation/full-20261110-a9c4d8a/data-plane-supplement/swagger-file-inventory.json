@@ -1,0 +1,1363 @@
+{
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "source": "Exact frozen Git blobs, independent of the sparse runtime checkout. Selected Swagger plus transitive local reference/example closure.",
+  "files": [
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+      "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/discovery-bookshelf.json",
+      "sha256": "c840108aff929884307906edcdc7adbb2343db7eab9773da56ea258be1cda6f4"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+      "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+      "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+      "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/openapi.json",
+      "sha256": "c44637984eb536da89286c472a2043956315c6ce6829a84f271143702243fce8"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+      "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+      "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/examples/Widgets_ListWidgetsSample.json",
+      "sha256": "745e8363107fb9f3463a43ce5e7347ad94526af4747286fa1cb25c32b5c82369"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/examples/Widgets_GetWidgetSample.json",
+      "sha256": "363d30ab8dc0ab5531e3887df27cb42dbd83a1f9a477fc74e5e9c3ee802f92b1"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/examples/Widgets_CreateOrUpdateWidgetSample.json",
+      "sha256": "a289b1a156a008fc839e7170c13806142d3129fd2035712041bf1d9b9deea026"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/examples/Widgets_DeleteWidgetSample.json",
+      "sha256": "0deb219a6e834fb7d21fe1bce8471718a4be13fd110337e719cc878d6ccb34c2"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/examples/Widgets_GetWidgetOperationStatusSample.json",
+      "sha256": "805730a8df0889c88716acfac17a48a81c6d87a3946c7ea5e23b3aae555fd1ba"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_List_MaximumSet_Gen.json",
+      "sha256": "3f8cf19f2aa813588e7627b68c9214d3a3beb9398d7a9728505adaaaf4b05576"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_Get_MaximumSet_Gen.json",
+      "sha256": "4126c3931576d7290e47018a91912fe682b6b4df14520236b46797d8d1321def"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_CreateOrUpdate_MaximumSet_Gen.json",
+      "sha256": "306bcc11700200d810ab0d8e7737346fe2549dde7b3c590c351774ce5ae3fc31"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_Delete_MaximumSet_Gen.json",
+      "sha256": "dc34c6388b30495aebcce440c284d2bea1da08e0797d14291c179ae90d4be712"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_StartIndexing_MaximumSet_Gen.json",
+      "sha256": "608b5512c7f1630bb0f940b28ac42cd135add967893c30fb31c2bbade96ccf55"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_CancelIndexing_MaximumSet_Gen.json",
+      "sha256": "8d4ed193790390ec0444ac86552350e886c9c5009d80685daf3c2fa85cc22cf3"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_Search_MaximumSet_Gen.json",
+      "sha256": "d96d9741f90fb86c3fedd401a7ea32a0ed143cd366502e31b9628d743ee3bfd1"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/examples/KnowledgeBases_GetOperationStatus_MaximumSet_Gen.json",
+      "sha256": "37b41a76980ad7681e4b58f78abe8466e7b7a0ce1db663e2cbd748ee88c2c97f"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Conversations_List_MaximumSet_Gen.json",
+      "sha256": "62c6fa2558fe47a2260f0d268dea9a4736e588d78b24cd43c83b499040e2197d"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Conversations_Create_MaximumSet_Gen.json",
+      "sha256": "f8ab1e317e3bd60e2dea07b9e22bc9693715db3da42d1eefbb7215b414cf59de"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Conversations_Get_MaximumSet_Gen.json",
+      "sha256": "31fb5666912cd880d9329b5b4263f97aced4950c385b14ffbb8f693852447b03"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Conversations_Update_MaximumSet_Gen.json",
+      "sha256": "60b56e1eb1a9b85be4c84f9f4ca05608c4de4cf1264980f8ebecc09d4b017b22"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Conversations_Delete_MaximumSet_Gen.json",
+      "sha256": "daa1a1cc100bbf40f9505fde90a364cc7b0bb3ad5b7386d321c48c187dacf474"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_List_MaximumSet_Gen.json",
+      "sha256": "10ad4811379bbb506e52dd3f7195c99861f04a02ba0104ef55c41be01b8caa39"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_Get_MaximumSet_Gen.json",
+      "sha256": "72bead3feefbfe7ee6db5675548e996cd28b1675ca138d5e4597eaf0d9d45b0b"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_CreateOrReplace_MaximumSet_Gen.json",
+      "sha256": "1d665bea8ab20b11b740da73770a839015220b9b398c8570e7439871f6232177"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_Update_MaximumSet_Gen.json",
+      "sha256": "46ec1e644cc912c0019de5387e79220be2ffe37a0c928f0f960e36e511876b6c"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_Delete_MaximumSet_Gen.json",
+      "sha256": "8dfca19baa75297755e457745c70239afcfde4168f4c8a95215057f74e497a81"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_GetDiscoveryEngine_MaximumSet_Gen.json",
+      "sha256": "74545bcae10d32143dc09059330f1a3198b022644de6abc9e2d6311a2c478925"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_UpdateDiscoveryEngine_MaximumSet_Gen.json",
+      "sha256": "c9f5637580501571e2399e6c2796efe1d1907a6ad9b3d73c230d9309c653aeb8"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_GetDiscoveryEngineMemory_MaximumSet_Gen.json",
+      "sha256": "41202147622059324194f0580b1f09272a6acb10b94441367a5b7be46d027473"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_StartDiscoveryEngine_MaximumSet_Gen.json",
+      "sha256": "c6ba0a2f86242ff7b0b3e8d8231cddfc34842820906d565c24f4a0005acce7b1"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_StopDiscoveryEngine_MaximumSet_Gen.json",
+      "sha256": "c87ce6109985c1ab7647988362c617fffed69aa0ac81ec9119e7063173c8f54b"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Investigations_GetOperationStatus_MaximumSet_Gen.json",
+      "sha256": "527a79ede831c93c0857e0d28ec5480747dfca1088f951c7be3e92a36bacfba9"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_List_MaximumSet_Gen.json",
+      "sha256": "bc151b6c45b371a2e22c01b32bda4bd5708f6a073766b91c2a6948ccf14c3c62"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_Create_MaximumSet_Gen.json",
+      "sha256": "3c0dd953eae3e4d51453790a543498af4c898139e957a79ea8f873dea2a9b1dc"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_Get_MaximumSet_Gen.json",
+      "sha256": "61c7c07c0c49fe49b4f382faa117ad50692b70da839dae5c5c1b0b7b3cf96362"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_Update_MaximumSet_Gen.json",
+      "sha256": "59a19ff1befe52e3a638725147db8bf05bd7eeb2b7b204100904e9f70e420191"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_Delete_MaximumSet_Gen.json",
+      "sha256": "8f1aabb8933089ee7a72a435d47625016605ec5d45275b4bc14f855fc2f69ae8"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_Start_MaximumSet_Gen.json",
+      "sha256": "4cb3e3d05789b3f642512b673c046cf2ce324225a036f9497fc8628826443e07"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_AddComment_MaximumSet_Gen.json",
+      "sha256": "5c7a5301f47d5c1809e7e486f2babaef37c2b68ecb8499c688713711fe47fa52"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tasks_AddExecutionHistory_MaximumSet_Gen.json",
+      "sha256": "2ae0cd0290e5cb23cc3061bd1d0487fe9eb5cfd9babfa669c1254c053a7c50d4"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tools_Run_MaximumSet_Gen.json",
+      "sha256": "d0461d9726873eeb61d549a405f4698b9c7ae7ec1383e5a30e52b0470d0f4847"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tools_GetComputeUsage_MaximumSet_Gen.json",
+      "sha256": "942f4b4722e8251d4fd7819a075882bb4e38612355227840d902af2fa199fb77"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tools_GetOperations_MaximumSet_Gen.json",
+      "sha256": "6c17f48ca9dfdfe906859a4a979e4ed1ef6e3e84a87d5db1dbc112891570a0e9"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tools_GetRunStatus_MaximumSet_Gen.json",
+      "sha256": "b94c204487aa7e65ec3a35b026b964b548d9c1f3a13a2b9c3488ec9209fb4c42"
+    },
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/examples/Tools_CancelRunLro_MaximumSet_Gen.json",
+      "sha256": "c0acb74a28f79f65c18107cd59c09536594671f3ddfd69f6c8e1a296e607fd6b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MapsClassMapLegends_Get.json",
+      "sha256": "9bd7e3bced4ce6e43ff5f82923178b9f6bbc36fe9d731be3df186af1641dbfba"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MapsLegends_Get.json",
+      "sha256": "f6af9146e05bbc8e70fc755b1b2d2ab8e744e63ed0b269f938ac8df1823c91b7"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MapsIntervalLegends_GetByClassMapName.json",
+      "sha256": "0594f2955f2e3ec99d70d42bbc37a2664db425ce84f58f7884eb2e886bde5160"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsWmtsTileMatrixSets_GetCapabilitiesXml.json",
+      "sha256": "7e0cb0ce3a5d179e254670e2b1b0f268c7b3ab61b52f355c1aad08fd3eecad5f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileMatrixSetsTileJson_Get.json",
+      "sha256": "968a998a087a6005b7a0d38d8167f59b7f83618800f94d955116777b05190e1b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsWmts_GetCapabilitiesXml.json",
+      "sha256": "d173ae0e4524f14c16857acb5b0efe5e89422d3bd09dc8cd5170d25b97d67a64"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsBbox_GetCroppedToBoundingBox.json",
+      "sha256": "0615d4e4d07cc4b16a3698f2f7850bbcff2af5cc99b848fcf1c38cddaf7f78e0"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight.json",
+      "sha256": "6c3233fe4dcc54034db982b219356f90db1892b7c5e9a0ceeb96f4c8eb1dffba"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsAssetsForBbox_GetBboxAssets.json",
+      "sha256": "0800b889b549a95c19acd2ac9d5080da979770a5c962d938c418f707849dd204"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsFeatureGeoJson_Crop.json",
+      "sha256": "0e8bb5148cd1f57fc3d9a7aef6c73ec6c799107f2f6d934e48eb90c2ed670175"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsFeatureGeoJsonWidthByHeight_CropWidthByHeightFormat.json",
+      "sha256": "d460a2bb510a11ccf26f5ad33245668999c32f5e095df29900b1bf611b16c555"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsFeatureGeoJsonFormat_CropFormat.json",
+      "sha256": "6430add3751ebe08c136b1b223b12981572c4129abba9480ae6a97dcc034e76d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsInfo_Get.json",
+      "sha256": "a7567dd9143e87616b32f68ccac143973789f29dbbd343e40b2570b47d6d2247"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsWmtsTileMatrixSets_GetCapabilitiesXml.json",
+      "sha256": "d1421d4089da04c78f05768e4f45697973eb96b1011a0d3a78c5be2700215ce4"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileMatrixSetsTileJson_Get.json",
+      "sha256": "105212723ec55f4483e5a8405d4f50ff93215676d776ca9b1adce8e6a4b26405"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsWmts_GetCapabilitiesXml.json",
+      "sha256": "a1a2831986cd20e51e3d792ab0462fde286ec3a0886626add29a110ebf2c43dc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsAssetStatistics_GetAll.json",
+      "sha256": "6e4755f6c5583aa91f81c701ecd2baa8db57a1c5bc79735addb2aea23b86c78b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsAvailableAssets_GetAll.json",
+      "sha256": "7483faeac7439416b649174c2569252c9d8cf26f75dfaabfa42ffa1f25ecce87"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsBbox_GetCroppedToBoundingBox.json",
+      "sha256": "a3afcd31ea8e7e8554dd31c0e0773efcb74e33a715a5b974565bf5f79b79b548"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight.json",
+      "sha256": "7bbb76e591ecec2991cbec4aeccd7d8be7dc477826bdccaabcb9daa4334692ee"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsBounds_GetAll.json",
+      "sha256": "4668ce0834a619fd41df6b64dba565497e731484cef638515ddf1286f8887fbe"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsFeatureGeoJson_Crop.json",
+      "sha256": "40ebdb13314d6c449e94ac919d8cfbd6ad0bb24f2e08b9cc369560904dfc9f0a"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsFeatureGeoJsonWidthByHeight_CropWidthByHeightFormat.json",
+      "sha256": "1e2f66c545af1e56bf6a278cfcd36016be138a28a76038d762df85005a5fdd7d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsFeatureGeoJsonFormat_CropFormat.json",
+      "sha256": "1095c81083718177d385488320cd5e6f8698548a411c0d1f5cda677dafbb7bbc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsInfo_Get.json",
+      "sha256": "a12175b68ab54c93fb3584af774c67663e766201b5193e9c89fef9e9eab85808"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsInfoGeoJson_Get.json",
+      "sha256": "b05cbe5ca2ead63df0d3d4960964dbc439bcda453a6223a4e1f986d399e648e6"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsPoint_GetPoint.json",
+      "sha256": "fd6f3ff269d67e012692b3dc42a84f1ee4bd8dfee97803eb1e467be96c21f430"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsPreview_Get.json",
+      "sha256": "c21e65c4123dbc13525bf542f7aadea3702d94c654893f5a40e07a004a5b335a"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsPreviewFormat_GetFormat.json",
+      "sha256": "0306c1a63a8e4d89baf475c5398e034d300c25c77c7cfd0037609dbd2e1dcc66"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsStatistics_GetAll.json",
+      "sha256": "99720f59dab548240df4e076b137f35946f75319e87e6e6ef02b5d0d38bce896"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsGeoJsonStatistics_Get.json",
+      "sha256": "5ad365af938d441c581bb7e33e1769ef8c85ff195013a626a01973727f77a182"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileJson_Get.json",
+      "sha256": "38706c518db25e742e9bfa6a2f64372b8c75e77350f13b289ebc3d0f0e6a04c6"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileSetList_Get.json",
+      "sha256": "8c556f9cfda392e01adb610aa603173502ebf2799188c0fc28a2501f386e4920"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileSetMetadata_Get.json",
+      "sha256": "bb251ff0eb5d5b4480a0ed4a9414eea31ede8151c7f05e43c67903bdb8db60c8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTilesPlain_GetZxy.json",
+      "sha256": "0f1ec8cec28dfd93970fa3b5af19449a7871b2fd4189b208ad0b3895f166f32c"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTilesFormat_GetZxyByFormat.json",
+      "sha256": "34911dd695d96b5f2864d8cca690913dd5755cfd81ada2677ad9c9a770fc6b50"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTilesScaleByFormat_GetZxyScaleByFormat.json",
+      "sha256": "59088f8f77c628dbe0ab729079d87e0e0eccbc0f8400f74aa15e000fbb9e9f49"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTilesScale_GetZxyByScale.json",
+      "sha256": "ce9716f0021c40403b7201b3e094a160565916adf84f5ff996812de9c87876d2"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileMatrixSetsPlain_GetZxy.json",
+      "sha256": "9c39ffccb4cf9e9f610b42de0f7f85e410ff36d76dda9329ea8ab15420998c9d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileMatrixSetsFormat_GetZxyByFormat.json",
+      "sha256": "3527585dba140081ac6f84272a25e98121ae54e9df9501a356016c8707c17999"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileMatrixSetsScaleByFormat_GetZxyScaleByFormat.json",
+      "sha256": "53fde837e74bc02eb546503325e4c8561cfe3fdb9d83c75d72b37cf607414ec0"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicItemsTileMatrixSetsScale_GetZxyByScale.json",
+      "sha256": "a575867a11cb7bc78742495d8cac45b94d11f41b786b9768655cf85f98e88729"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsPoint_GetPoint.json",
+      "sha256": "7fb1b7cd2a6239f9455a8af3985c4c18a735d02b36ccb38d44eb12e63ed640cd"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsPointAssets_GetPointAssets.json",
+      "sha256": "04ab9093c912fb833cb578c07f450dbec1f7cdf71edf94552790dae29115dbc8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileJson_Get.json",
+      "sha256": "273a38ec1b16b32f6a724f53ec865ea186ccd9aed3de0c43feb83a9c872292d4"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileSetList_Get.json",
+      "sha256": "d6e3f330fa6339112861abfa7d0d3fc793c7bb2d79d680eded52f99d205021b8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileSetMetadata_Get.json",
+      "sha256": "d47480f4f1c9be44476d83a3f9793fb91f22ade2fa93ef0f608ca42d9167995e"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTiles_GetZxyScaleByFormat.json",
+      "sha256": "74ab4777246497075746304f011111c4c4dfd3d13725d329466c71c3319cdcf8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTilesPlain_GetZxy.json",
+      "sha256": "f5b331a6f1d837fd1583e0c3b67ce60d3e4ce643446ae4b319b2f86a33c2ff6c"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTilesFormat_GetZxyByFormat.json",
+      "sha256": "6ed60d98e0359c42df44792c071ae5fb73d97fc98e816e1e2edf9c2d20e56282"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTilesScale_GetZxyByScale.json",
+      "sha256": "203711feaf4787cc07f8fee3b677d7dc23675c70d00e8bf2c6c8c34f8002630b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileMatrixSets_GetZxyScaleByFormat.json",
+      "sha256": "34fb60f0e846a952e7d90b3198bd345fc8267bdd3bcffa8bddb8d41a0bb47aed"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileMatrixSetsPlain_GetZxy.json",
+      "sha256": "1fcad1231d0aa71bfcddf77ee45a99285ff14964284d994335e6500f712216c4"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileMatrixSetsFormat_GetZxyByFormat.json",
+      "sha256": "2b0d9aedaa2f1756d69812ee70c745674969999ae1c9ce6941e33762346660e3"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsTileMatrixSetsScale_GetZxyByScale.json",
+      "sha256": "9941af3bff7339222d36a94437524b8b8a537dd6afba0d646986f02e7b2f45fa"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsAssetsForTileMatrixSets_GetZxyAssets.json",
+      "sha256": "1b8eadbd993d1d1bcda42d1fd9bf64ea74db691ce68b87a838977e49d2c4146d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicCollectionsAssetsForTiles_GetZxyAssets.json",
+      "sha256": "a21f4b8bd8601b818f6379b4afa9433c50ded9b23295b2d6cbd3da6350156ecc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicsRegisterSearch_Register.json",
+      "sha256": "d0a6141bc2e3afd5847bbe629bb063fc6c91b5a24456a45d09c1684623511076"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesWmtsTileMatrixSets_GetCapabilitiesXml.json",
+      "sha256": "ba98d6c7ecdf997c3ec6abcf386623759d39c2c02207cad195ab8708f21ea136"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileMatrixSetsTileJson_Get.json",
+      "sha256": "0f643d214472e232af68bf8ef786a54ecaf4127855d269a3668f2703feb30d15"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesWmts_GetCapabilitiesXml.json",
+      "sha256": "c6032e3f50bde35799658e6d48962c2626bb060f8eea260f39ceafc720506cf9"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesBbox_GetCroppedToBoundingBox.json",
+      "sha256": "841cab43138f301cedef5c883e5ef3f65192254b01057e975e5ee987d35e0238"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight.json",
+      "sha256": "ff154868afd3597fc40ed148475e44c65d46db986d811d5a3a6d20b7b85eaa13"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesAssetsForBbox_GetBboxAssets.json",
+      "sha256": "d1f19ab3268af4792bc37b68610d9a599e152e2fef2d9503d445a54dc2a9779c"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesFeatureGeoJson_Crop.json",
+      "sha256": "880086a5b675a86681c69164fa93b43378739ef3b2f518bb312098cc2798311f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesFeatureGeoJsonWidthByHeight_CropWidthByHeightFormat.json",
+      "sha256": "67dcab5e9bd39c684a70ab2c48f0de6f1a72c6d26f2568a4ea895e00156af8c8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesFeatureGeoJsonFormat_CropFormat.json",
+      "sha256": "b54272a5f914699a04097f1123ec6ef1b42bc65a7dc239dfd18b3e61862c7f70"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesInfoSearch_Get.json",
+      "sha256": "81d8b1df8c5e560153eddccf58c6e77480876515809f9cb091a73cb5704abfdc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesPoint_GetPoint.json",
+      "sha256": "cbdfeebd35d38d5643b3561b4f1f638afa8f55df7979136c55505279321133ee"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesPointWithAssets_GetPointAssets.json",
+      "sha256": "e5b9ba93aaf53a37c9e431edb70f1cefd17f6e34ed11228c2ae7dafa18071d48"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileJson_Get.json",
+      "sha256": "c516018d643bf8b47c96dae0684d2b0ee72a6cd9f45e91ad659845d89f6282d4"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileSetList_Get.json",
+      "sha256": "97b98863afc95871c348621f321324ca739e33debfb8d792c3f9ec8e8f278362"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileSetMetadata_Get.json",
+      "sha256": "3516e81a3f5c2a5ea81320c7df60a470f0fe61e0bf0e250f661a151337e16d2f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTilesPlain_GetZxy.json",
+      "sha256": "0fbe895e44cf326ea30349423a2569b71b0d328af29e62fc9846f00803ec5ca8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTilesFormat_GetZxyByFormat.json",
+      "sha256": "d4e40ff9009f5a31a159fc11c5d2d940174b2d3478ddc0ffda71f696c67561d5"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTilesScale_GetZxyByScale.json",
+      "sha256": "19a8d9df7da9b0987c1288f83ef00fabe39958c9de43fe20721348b8aefcaa4f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTiles_GetZxyScaleByFormat.json",
+      "sha256": "9568c4823fce41eb611c10c2717d2975c784c051394ec8625872b9777ec7b0bf"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileMatrixSets_GetZxyScaleByFormat.json",
+      "sha256": "7036b5bcb8f6a8ada07bd36a60b35bf1c4e0b35c49f056c99f674a1bda8a9536"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileMatrixSetsPlain_GetZxy.json",
+      "sha256": "027a2ff6e83914c642d7cab715a1f1b50afbae2629fea8624b9e908fb15b68c5"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileMatrixSetsFormat_GetZxyByFormat.json",
+      "sha256": "2d2bab9c99311b528b44dc7020be6118dc6a093e85ac11898cc7ba9b4aedd803"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesTileMatrixSetsScale_GetZxyByScale.json",
+      "sha256": "b4d50bebda6caa1ce1027518a208e2218e8b8ff6ccba45004028ab592cdc590f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesAssetsForTileMatrixSets_GetZxyAssets.json",
+      "sha256": "8414359c5a5cf55278428ff964df58844975189d436af57a0b2badc0348e355f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/MosaicSearchesAssetsForTiles_GetZxyAssets.json",
+      "sha256": "2519193d330f878f54591891a58a386a966773d30ee46f3854fb8a885d23c066"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/TileMatrixList_Get.json",
+      "sha256": "d6071b8b6e0b42a9389b53414923d9a90642f4da8a4dfbcdaf8b99af5e382102"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/TileMatrixDefinitions_Get.json",
+      "sha256": "0863dff4a4524e55e1bae73c3ff5fc669dc4f5c46c3c67b91815b08d1fa78a91"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_List.json",
+      "sha256": "d89dfc08def0f8198e2c68bf8852111936f875024729ba3477f3bd4f404f80a5"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_Create.json",
+      "sha256": "ef8d4f8122fa9ff8ccf6adcc35fb8beb79a3e85936e396f165f3ce05cdc6ddbe"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_StacCreateGeoparquet.json",
+      "sha256": "e18441bbd0dba5869976402f7a3fcc2b798877f897ac283fb7b64e397bbae625"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_Get.json",
+      "sha256": "bbe92cb8ea5bb545b6baf8e0c00e83995415ac921fe61bff483d8f92640b95c8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_Update.json",
+      "sha256": "1eed9b6bce236d172a1b5436b9febdf75c0d2fd2e7357b8ddc04c3e167040130"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Ingestions_Delete.json",
+      "sha256": "5af873ecd12f8f7aa44d3dc5b8b71345914ba1096a6a76c79bf314534eae82ab"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionRuns_List.json",
+      "sha256": "1200a246e3bc04f9ab6f1854336ee9f66c54d77aca9d0d3918b61ffdea04db4d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionRuns_Create.json",
+      "sha256": "a67b8f7c04811c317a144cbee8f89a2e98dbb7c4d80d3b0b17eae8144155b027"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionRuns_Get.json",
+      "sha256": "6bca1725ad1b0498ce66c3ab50114bd67550b7b1b552b0b1ca0d0d08f42cbaa1"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_List.json",
+      "sha256": "9ef40f6503b7979030ffce6cdf326d25b965f80ea20ded0fd5e07e37ad00c54f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_Create.json",
+      "sha256": "36abf20c264016b202f1651442044dc1dacfd7f969818980334a043682546d1e"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_Get.json",
+      "sha256": "b3a0ca515c2c0eb33f1490c34c147691d3694d18647d10cbc487913bedc90732"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_Replace.json",
+      "sha256": "091af606a5e39f88821c8ded3f18e8155b9a2c8c0e03bfb389c9d88567ac8cb4"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_Delete.json",
+      "sha256": "b570d08f31b9b094d35712cff42d4e55b564501fd8f641e5a69c7a758094ff13"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionSources_ListManagedIdentities.json",
+      "sha256": "8e294c70bfdc6e5bf9ba930c8551104899da15d473f7736269235a4c493f6c20"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionOperations_List.json",
+      "sha256": "27ed09c00efd1a2be939c7dd45c0f479b11007e08063dc26df24c578e625ebdb"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionOperations_DeleteAll.json",
+      "sha256": "b622c36cddd5218ad85105551040ed1a6efb3884212d61948320d0570a60a899"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionOperations_Get.json",
+      "sha256": "3998bcd4d789fe5136a4b61b423278331efe40be3ef2acd94808473636c3067f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/IngestionOperations_Delete.json",
+      "sha256": "ae42ee34ba434bd56cfa75936df4309f4dbac6c402cf2077b6f630ed986929df"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Sas_GetSign.json",
+      "sha256": "5adb164ff9c89c71211522a968989a5ff16b57a940f15ebca642e8c8f34b1ed6"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Sas_GetToken.json",
+      "sha256": "0f16ab4394e7501e65304f17cbf5307ce6162614010b70960dec7b1a2232f866"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/Sas_RevokeToken.json",
+      "sha256": "cdf496d48ad70056b7b086e4f458cc63aa7c87bfb1680d0c4e6f1a59dc7c00ff"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacLandingPages_Get.json",
+      "sha256": "956c8275aced7ce9601a37585d0b7d802335b6030a100a840c14c048195d3bbd"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollections_GetAll.json",
+      "sha256": "9eefeb9e58e9fbc1ae5c8246494d5165846691171c977b14861436c1086a97cc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollections_Create.json",
+      "sha256": "3339d6bb9314152d362e0b3076ad4fd0a29205ce5a9d395d0671665c4d8cc107"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollections_Get.json",
+      "sha256": "ed5d4a7142d7d28a8535ada47f1fd2fca1a0f14197ce9f0a9714cf3ec1dc0150"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollections_Replace.json",
+      "sha256": "243725afc5436f0661eb5ec2e92530142701ad9ac852ef9ddf9734be8216113a"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollections_Delete.json",
+      "sha256": "87c56bdc1b94d398d9c989d4377ffbd40fb33c092d3ec1c2eaa788f626b97d26"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionAssets_Create.json",
+      "sha256": "9eaa41db60eb6c1b68773aa5a21c3131c07ce44967397d93c8e3a51a38bbb274"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionAssets_Replace.json",
+      "sha256": "5f8ed14b530558e3b6c8f584b386fb8bb2c8c3b712d3e01074ebff0380013042"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionAssets_Delete.json",
+      "sha256": "840adef86455e976bc06d793bab3913d515bd0fb5901891d5f362fe04f6965ca"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionConfig_Get.json",
+      "sha256": "89374ad298b8c1009d2a8d93ae18652b001a0157fc4488c210f13b62882c0ec0"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionMosaics_GetAll.json",
+      "sha256": "1894cae0684202e9a2397e8d5ce0f03485a24090d213c8a0417f2426e2f1757b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionMosaics_Add.json",
+      "sha256": "ba01a451b9cfe6b919272a1b8da1743abbbd4068b98922a289bc62de9e884c18"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionMosaics_Get.json",
+      "sha256": "33de453ba07b15e3ea5023b38e97e7d28636a8552498bed698e67160b6c7b4ce"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionMosaics_Replace.json",
+      "sha256": "8f0112ca48f296dc0bc25300edce24bb63a083ccba00f6e3fdd7dcb32ba2d560"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionMosaics_Delete.json",
+      "sha256": "67d12f03f5b7da6a98e6c5bf1c7309f443422f3126b9e9b604c78631046e8e8e"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionPartitionTypes_Get.json",
+      "sha256": "88ec1a435df3cbef75f5919603a017387959234aaa8a2c63a4a731f73786d15b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionPartitionTypes_Replace.json",
+      "sha256": "437448f7898deda1fdd6f16c228547aa15e19e01597dd2e0923aa72a861e26be"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionRenderOptions_GetAll.json",
+      "sha256": "cbe623877616713390ce6f71574a9d610cf514173ac4e52d1726018a462b1fb5"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionRenderOptions_Create.json",
+      "sha256": "425a3830ae330f4b8255d92a9f90674db847135e87eab794f9c91ff39a14588d"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionRenderOptions_Get.json",
+      "sha256": "d30d7048086bd0d676ddef3f220df27004764cf484e52d5e4457ce2aa798a847"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionRenderOptions_Replace.json",
+      "sha256": "8851db7ec9d16a8e36aef49c35edbb7d6f44ee35ac3eae6eeb695afe1b6149b9"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionRenderOptions_Delete.json",
+      "sha256": "d87176655e4606f2b57a445951f41c294240c38dff4631de5b69dc9403e9c14a"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionTileSettings_Get.json",
+      "sha256": "0f41cd0c216e6e2fe97516236954655aaf0c43a6f4092f59a78197afae66c85f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionTileSettings_Replace.json",
+      "sha256": "143e6e95dd2aba06f988d716a52043fbe39bb05ccb6ab176ad55d8d6fb57d468"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_GetFeatures.json",
+      "sha256": "5497eee802aafd5555ab4c3d941cfd003c978c57507310d284999fb808be79eb"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_Create.json",
+      "sha256": "595efe1bf933368004375e7c49c5f6d46e22fae21458f7b0f11b7935f902eddc"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_Get.json",
+      "sha256": "b78d51ba1265d46d14c6158a6bb6a0b7ca24a609fef17dc39f6c07988ca8521b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_Replace.json",
+      "sha256": "0441f1e908ec9a39d9c5ca146efc5d8671c2cd1adbe45c0108cbdf64efa5f2a8"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_Update.json",
+      "sha256": "6d094abed30ce4057b11e6bf22ddfbffe665ef54d49762fa1b2004557ae6c2de"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacItems_Delete.json",
+      "sha256": "b36820345dc9842dc6da49405ce99a1d808bb8fed0c06b4e0c63cfb86111bba1"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacQueryables_GetAllByCollection.json",
+      "sha256": "1237cbd1e0e8b68ed7a3b14dd82e1984ff073547a15cce4e3b4222852f267e4c"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacQueryables_Create.json",
+      "sha256": "21b199d49a6156d8f6db242cfa4b312bcc3f6ad75ba69f7b4b703a6f7b46887f"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacQueryables_Replace.json",
+      "sha256": "eeb056c4d59f9a3d03ccb06e8c482784b4befa66fbc9f74a298feae42e27cc10"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacQueryables_Delete.json",
+      "sha256": "ee909c984a1ca7acff1b424c91a939d2685980cf74e10127b9062989d686e6e0"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacCollectionThumbnails_Get.json",
+      "sha256": "f2d73cce0c57a3e25f4a240229933d00953eb9ba266fba7ac0a69bca78fc5d90"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacConformanceClass_Get.json",
+      "sha256": "6547c9c15f3bc97cde171b9a02ce38dc6f66b7d0485f36e99eeafc41f3f77896"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacQueryables_GetAll.json",
+      "sha256": "7d16ae1556aadc654b3e4053545784ea0725a5718cbb62ceadb639216e39d20a"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacSearch_Get.json",
+      "sha256": "eecb5fcd0c04812c0df66ccceeeb3772222061e9c247b7ae77c8d580f8b91910"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/examples/StacSearch_Create.json",
+      "sha256": "64b5df9ff1b217f6580baf1e0edc8e8ac6d017a786ce0c91e2d137f002ca32d5"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/Accounts_Get.json",
+      "sha256": "9bec44254ef820aa2e0fb5c05cddc561b6009c56afccbc4b03e3743f82d702e3"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/AccessTokens_List.json",
+      "sha256": "3ef639da0c722f8ed18593aab65c620f66a2f5c200b18df322a17d819dd2a399"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/AccessTokens_Get.json",
+      "sha256": "19496763746758999e1fe241e9adaf21582ca21d46e29bd5d1a418f684f4ff15"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/AccessTokens_CreateOrReplace.json",
+      "sha256": "ec463ad3ded48f30284362c8a60ea33c32e99d317536d024a1c0244657cc08f8"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/AccessTokens_Delete.json",
+      "sha256": "c87e45d4269950b237e27304d53875fd417156436b033c56ff7fd85aeb4a1939"
+    },
+    {
+      "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/examples/Accounts_GetBrowsers.json",
+      "sha256": "0f6173a3ee3c588ffccb65c8b95511335a61416958baeb24795b1d094f914c0a"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/DeviceLocation_Verify_MaximumSet_Gen.json",
+      "sha256": "c5941cb8824d4dde73fcec98b4467ddb0c069de06d11525b84448d6111d36d59"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/DeviceNetwork_Retrieve_MaximumSet_Gen.json",
+      "sha256": "1d42219d91a81d9dc0ee60a31f1f5bc000f77b4b1026fc42f63a33077cdbc962"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/NumberVerification_VerifyWithoutCode_MaximumSet_Gen.json",
+      "sha256": "bda88f10425d16e5c1f8c37854adbb7730cf63cd8fe627d67eb436974da1994a"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/SimSwap_Retrieve_MaximumSet_Gen.json",
+      "sha256": "82ce720c37b638877f6385045a43b9bdf84571304ab58e7685c9316632e7c02a"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/SimSwap_Verify_MaximumSet_Gen.json",
+      "sha256": "316c5d174247297250f9e525b853773da5efc429e3065ca8805e0bf14a03fed5"
+    },
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/examples/NumberVerification_VerifyWithCode_MaximumSet_Gen.json",
+      "sha256": "7325be25480e3000e9d8902ff1cbaa2a1323fcb6e27bf38b49051cea70baa604"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/BulkAssetMetadata_Get.json",
+      "sha256": "b109e5dc640666e5e2e3acbfd7c148b86d498de8a3c49f4c409c395c5dbcf3ea"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/BulkAssetMetadata_Create.json",
+      "sha256": "4427270e72b05cfc7302b910cbad7f443b52e4bcd68fa3c0f8af20a45aa6c6f3"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Alert_GetAlerts.json",
+      "sha256": "7dd6231fe0609c2a7d6e4d34ba881db893122fac468f52d52a64e70dcaccb898"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Alert_GetAlert.json",
+      "sha256": "4337ab8dd46162803d429cead8789200d492b4e4d00bd945f9d7a1180fff0919"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Alert_Update.json",
+      "sha256": "69cb0da7eb04e7ee0ffc070e30e39a55de14a2010e22e1798c160e0a6ec34dca"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Alert_UpdateStatus.json",
+      "sha256": "7a243ce9bf1c440032ba8aa7149b4d5987a20507dd7d7c2bcdc83180c3adfec2"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Alert_Delete.json",
+      "sha256": "818798a56490d3d3a01619c23184356d4a710beef520beec3a0c5899f0aae017"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetScores_Get_AssetDQ.json",
+      "sha256": "491b58c076baf1c6d51ab26ecc0b0695943e304ee634e7ef1396175efb13f28d"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetLevelDQ_List.json",
+      "sha256": "bc77119d6e9296ff4535ebae8100578f9ad73937df9a3f56cc3075b7f672f517"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetLevelDQ_Create.json",
+      "sha256": "53ff78a2aba9efa589ac5e54c6d240d2478a3f122305f65de44334a776a028ed"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetLevelDQ_Get.json",
+      "sha256": "7f3d8f6bccd95d467c45a19335c27f15f7f40a2a9f9c270adb81e3f2186725ee"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetLevelDQ_Delete.json",
+      "sha256": "121813ce8ed81337e9ddd650d2136dea5250e5472956445ad878c90f30ed0530"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Observation_Create_AssetDQ.json",
+      "sha256": "e5e699727c169d8c41496995f737feeff4a140fef7b934be208011bc3ba91102"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Profile_Create_AssetDQ.json",
+      "sha256": "8338062dc5ad51d1fa039b86b0581a6b5031f926fa689d4ff2dff0b71f5b03b4"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetLevelDQ_Clone.json",
+      "sha256": "4604dd7fcf430c4c4ca6c806eb5b32d2e51e98b6dd99cacfb99d278a286d46ee"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Observation_Delete_AssetDQ.json",
+      "sha256": "1a18168b66303903c714394dc5216acd9d895c28d2421104d5ae638cd8bdd08b"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Profile_Delete_AssetDQ.json",
+      "sha256": "ae4ef10a1fd7c6cc23874e8fa5eac8cf788d72c0f7b7b4d72c7e954b5dd5b7f8"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Get_AssetDQ.json",
+      "sha256": "ba256ba772d9ded2411ae7d62186133548ff8227a7490e0cc9d1884740acc908"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rule_Get_AssetDQ.json",
+      "sha256": "d1dab4558be6adf17d2a326a304f459583c17e7da2cfb99074c93ccadb78dfc1"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Update_AssetDQ.json",
+      "sha256": "cf456e7f48f401deb4f13d0de4598cc6d187ba8180938aec37eeab25554b96ef"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_UpdatePatch_AssetDQ.json",
+      "sha256": "3716f45fff0c3ce17091c1e01ee01d38a1c7dd1e71d732936461a91ec47448e7"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Delete_AssetDQ.json",
+      "sha256": "99890820f9ecfe1b4bcda6fe08a488f67a55271216befbd5470793dd8aeae0b6"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Runs_Get_AssetDQ.json",
+      "sha256": "b89f83dfc44fdf9f942cfa76c0e2074c1a50613138ccab7842f48f092c981836"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopedAssetMetaData_Get_AssetDQ.json",
+      "sha256": "5161dbf23bb01565659a0cda72137bf81e788fda008723ba838e704073b687a4"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopedAssetMetaData_Update_AssetDQ.json",
+      "sha256": "4529649720a86e9eb9ceb08b4a4b6662df492e936809c11a2e52d4668f44986c"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopedAssetMetaData_Delete_AssetDQ.json",
+      "sha256": "7f46c337824fd08f86e1832ded27438f57be138cd6c0907a767e262336a2bf19"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/LatestSnapshot_Get_AssetDQ.json",
+      "sha256": "ab0f24dd11e0fd9a8cd73a7931d2dd88e16ec9c9050d59f35ee8d36b7887ef6b"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Observation_Create.json",
+      "sha256": "9498b8cbd639967ae7871de01032c77eea4b2bce6728b9d6a894b213af77b692"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Profile_Create.json",
+      "sha256": "acfd63fc55e02befc3621120988b3f8914cd7648f66fed2eb2dcefc35f15390b"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Observation_Delete.json",
+      "sha256": "a9ba43d8db107f72cd61f65ea8494a76b48d22f97400fff2423383b42c7d7eb1"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Profile_Delete.json",
+      "sha256": "874fcddcf3a73dde44a486d7de55fc235e7c642d8db7409450883ae82c76e78e"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/RuleOpinions_Get.json",
+      "sha256": "089c96126f31f8608d42fa8535e74206ca8d4d5505fade3b1800d02ccadf936c"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Get.json",
+      "sha256": "94b6ae59931da924b37ce8a62218c7573fa042ebcb56a98af65741c334518123"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rule_Get.json",
+      "sha256": "5efdb6a4701ebdedf6c934810a962b13e4865b9a580c092f1a71b0e2f44ec990"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Create.json",
+      "sha256": "7c1b1e4b3a882da8f8bc0875e6daf0ca2f1cd973133b77a645a4ee98e9161c17"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Update.json",
+      "sha256": "36ecc613127b7a7d497c3fd1ca6b11ed45d5b8faa8146cf11377a61c54b85c08"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Rules_Delete.json",
+      "sha256": "9e890162a9d6541fc44add58298bcb3878a29bf95f6c2e5981e02a6e3ecc7d56"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Runs_Get.json",
+      "sha256": "28335b1c4272a330c7e83109fc624d4619656e673701ecbadbca1c4c44d21ceb"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopedAssetMetaData_Get.json",
+      "sha256": "3a373e05d768c420e1436e8d6febf1cdbb6ee63c3074b172a95f9e3da8222de3"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopeMetaData_Update.json",
+      "sha256": "2cca6ad2cd46f0c012401350d36486ad05a58a979d32f768cb363c03fa6629d6"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScopedAssetMetaData_Delete.json",
+      "sha256": "7eab4285b17e2ce462866db24376017877c0d3c1b2148dfa2ffb7f8780e01e71"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/LatestSnapshot_Get.json",
+      "sha256": "e75d6b1275d60c9595670c5eefbec4bd7fad07d0a60c82d3df00b8c1a620fbd3"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/DataSources_Get.json",
+      "sha256": "db4133e066faf045e5e32fe5b08919a9addd735fd0e700e68c0905c0fa5cf5e6"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/DataSource_Get.json",
+      "sha256": "4fec198237c05bc8a13d0d13b28574fd9684450db6d60376468a37a91ddaddc4"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/DataSource_Create.json",
+      "sha256": "a8cd762752b4db6723a80b06187d2672f23040140833ce9083c50e6246c4533d"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/DataSource_Update.json",
+      "sha256": "275b99165e0bae0f635d33e5a98a3122282d6215025b70a2532610bdc14f456e"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/DataSource_Delete.json",
+      "sha256": "8dd224213e5241524ff79ce6ee427d5e286ef1dfeb2f317f47bdf309a73446c9"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Run_Get.json",
+      "sha256": "dfb3acef773190fb07c6eb21af5cb53ea9bcb92929b36e370601d87bbdc34cc7"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Scan_CancelByRunId.json",
+      "sha256": "e54baa25f0de017e45e799b82a71da724d5cfa56bdc6d1b4f94a10112c455fe7"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Schedules_Get.json",
+      "sha256": "1aeff5c10e3159791380cfff8e167077cef19f1512807d51acdf38d8db840a6c"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Schedule_Get.json",
+      "sha256": "cc230fd403a0e3c64ab46518700e1a5e649851df691abc836c5a596219f462ce"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Schedule_Create.json",
+      "sha256": "17e8f7f757ba7928a39dae5f33fe14de780c78878a8f4a1d29ef6dab5672ffee"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Schedule_Update.json",
+      "sha256": "13edf04db3607dacdcabce72fe8aec780929c935456994b38c029dae6cbed0ca"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Schedule_Delete.json",
+      "sha256": "df5f8de89c10aaef12caaf4f40174f214ae9dc66dce6bd339285d25faa206ef2"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Scan_Create.json",
+      "sha256": "f1fc9a68eaa520cf9dff99bfa32fd28e0ac32587c45f38ac72eec5655eebd961"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Scan_Cancel.json",
+      "sha256": "9448c5fc6deccf1d236289c2bea25e18ac37348379a094f4204a4782c4a1b875"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/Scan_Get.json",
+      "sha256": "262ca3e826bd5d270b650323bfb2acfa2e60214d25813b501981ac8bf6469343"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/ScanRuns_Get.json",
+      "sha256": "4aa62e280189c994d8cb0470142c6f87ceae7b710ed8f5d7330e18adfc244efe"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetMetaData_Get.json",
+      "sha256": "c9ac37f7e09881959f45947f35618a1009dcb2e35bdf6da86a3ec9dcfae47149"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/examples/AssetMetaData_Update.json",
+      "sha256": "9e67b3975baeb18483d382a777ef488f1e29e9322ebb8eca39c86fc62a13f885"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/BusinessDomain_Enumerate_Gen.json",
+      "sha256": "592468b2fec20b83574af805e700d1004518acf229a39c3c12ac44fa910ada93"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/BusinessDomain_Create_Gen.json",
+      "sha256": "1ebbe4f0f95463a47e1da885f7758e9848d4d87de271e6722e23f8424f9faecd"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/BusinessDomain_Get_Gen.json",
+      "sha256": "05c3019761b37ded5a773339a7fbeb16b7d650aa1d9ff370ffcad35d56e3d352"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/BusinessDomain_Update_Gen.json",
+      "sha256": "6171ec6b84ff5ae9d37062f061e805ea0dd6d1b21f5fda7adf04307e89123f6d"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/BusinessDomain_Delete_Gen.json",
+      "sha256": "533dbf4640b3d6ffae917012c57cb8ab09305bbb741f2fa05dfea82e67622799"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_List_Gen.json",
+      "sha256": "69517c91b103baa909f51c4a17348005af45d62db72931ff08788d6534fec614"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Create_Gen.json",
+      "sha256": "14b88e0e3dc72927aa7cb4dc44676fc6b25061478ea7dd16bc24be3cac9fc0b7"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Get_Gen.json",
+      "sha256": "f7727b72e6a784a456860fe1491fdcabe068dbf57843e5d8da9dbb4c1de763f2"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Update_Gen.json",
+      "sha256": "e26f6facb58fe9e133d5b5c888a12eba3738e4a8462f1f4132eb29cfb2c764b6"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Delete_Gen.json",
+      "sha256": "51830b13bcb88b9989bc4f7abbeea8c52e8e3927a61c61f10b28d74ecc64dc43"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_ListRelationships_Gen.json",
+      "sha256": "2e19d1a1afb1aaa1e235316afcbcedc81a86e59b964d23cc40b0b472793b2e3c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_CreateRelationship_Gen.json",
+      "sha256": "f606b6e5c6868990f0f5f0226c83cbcc1031215e175897f188023e673880ad0d"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_DeleteRelationship_Gen.json",
+      "sha256": "d6026154718c8917b1549f9ff4302bc358c39499b6838e377a9f8763b83349d3"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_GetFacets_Gen.json",
+      "sha256": "bb05472b244b51624829fbd9efbebec83d44fed7e5e5959cbac84944a1dbe32c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Query_Gen.json",
+      "sha256": "be13ed512f0fecb9ec9bddd8adee30f6cd8686d3554945a22f5a46484fb6fd26"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/CriticalDataElements_Count_Gen.json",
+      "sha256": "0d8aff532475c965f84d8eb01eb08e1e0474ff477248efe1290940882f05406a"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_List_Gen.json",
+      "sha256": "b34dec68387a16405cdb83c534aff473527ff4f9a2ab47a15a7d2545cf7519f1"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_Create_Gen.json",
+      "sha256": "20fdc23d5cd784b6fae2ec7c2044d454b44d101db280244dfdf3d800413d0b63"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_GetById_Gen.json",
+      "sha256": "8ed3380319b976b818755ce669b5cf75731f0f6962d974213f0b846a08b64421"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_Update_Gen.json",
+      "sha256": "390eafc8564565d9cd00afc4dad4d479ceceea0df82880f41f7dbb7edf072116"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_DeleteById_Gen.json",
+      "sha256": "1387b464c7a9deddfb706a574d99a8fbb8a1dbf3fb55fee985151ed7c27ed02c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_ListRelationships_Gen.json",
+      "sha256": "47b45a88a68db5340d1863ea2d49298b5dd6c9c44bdc98d3a57a3989c4d7513f"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_CreateRelationship_Gen.json",
+      "sha256": "f1503723e5272e8ee28865ca15a973ea7d7b0c70cca6d376f65f50286bb7780d"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_DeleteRelationship_Gen.json",
+      "sha256": "39c97bd4277f32508eb50680e4d04ab751dd7ed90e7a778447b72c942285d500"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataAssets_Query_Gen.json",
+      "sha256": "f91620b118c0c55d44810297908074f5c844504fd7545d25a6308423d0e47284"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_Get_Gen.json",
+      "sha256": "3d626d0ef0842734b4e232d7784f10254be9a9b398450a6b46b1359406a383af"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_ListRelatedEntities_Gen.json",
+      "sha256": "1460d5deb184134e43d8733b928e3021ea79c349b24eec926d4fddcb4b54b14b"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_AddRelatedEntity_Gen.json",
+      "sha256": "daec6d539cda7a3cba0677ad7e0a386e3c1586dca448948f3c2e7575e6581553"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_DeleteRelated_Gen.json",
+      "sha256": "6722fb750b7fb74044e70d6ca68d1ea00138442c01d7e93edac0c19c70470c0e"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_Ingest_Gen.json",
+      "sha256": "ed2d5669e904c8fa3d337687257adbe933d88cb4f2888d29908f7050c3a52b76"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataColumns_Query_Gen.json",
+      "sha256": "8bf67e54b040df07fd6d7d2aa8c52ccc49aaa3b16ac1e33e8d67f644bbb035c5"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_List_Gen.json",
+      "sha256": "8aca52418db37ff7bb6767bc452fe0fce4c0edc4d414d2fa05dda1d9533dd5d5"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Create_Gen.json",
+      "sha256": "be5b2f3b61ea27c58a5d1250287b5e91019a93bad9c7dbfb3b7f1cee0bea0821"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Get_Gen.json",
+      "sha256": "e162d05a5587b961dde90d189dc50d6072fb316ee8d7c34110f8639c0c78d8fc"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Update_Gen.json",
+      "sha256": "98d9049c9d6391b24edfe6c895abd4b41f8e80a6855fb6a326e380cc936ec6e0"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Delete_Gen.json",
+      "sha256": "8f892d682ed6dacdc17a0135246abebf15745e64e2197f91985400739cf5b677"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_ListRelationships_Gen.json",
+      "sha256": "6a3c0122b694a9de1d1517c67cc10bff08a7d960f2d1e96849693df7b2ce4504"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_CreateRelationship_Gen.json",
+      "sha256": "796b9f13a4689d918989dd876d01042f0d73cd8f8c297cd28a8bbcf28bf2b6c2"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_DeleteRelationship_Gen.json",
+      "sha256": "54965aff99df9c68dfaa0cc891c8658b745a310648d0793c4610db358394170e"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_GetFacets_Gen.json",
+      "sha256": "0d02c8190fa3db563b97807ad621e2852e8f5391bd537c0f42114f220e117a64"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Query_Gen.json",
+      "sha256": "9db081f98dfbd601494c1eed86e26a327300a0349ba43cb25b39986bc048cb16"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/DataProducts_Count_Gen.json",
+      "sha256": "fb70618479ee2425920e7bba3484c1a2f68881e91434965ca936e1fdd16da33c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_List_Gen.json",
+      "sha256": "fafbfd3b43159b384e6e926c2c70a82e75f7f826a313f5e2e01e2cec2f07cbf9"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Create_Gen.json",
+      "sha256": "1c5d42becefbf19c1280f45c20bc3cd348690218eb6acc76fa920100d1fb877c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Get_Gen.json",
+      "sha256": "1ad64132447584989919074c02509ff03c8b496ef009a8241d998442fb7341e6"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Update_Gen.json",
+      "sha256": "f0653e135bac57e4fdf10e61c7e1d84a32bd036adf8629cdd047d21ec3b7ba33"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Delete_Gen.json",
+      "sha256": "49dd8cd10faf5376384df7573bb2a067e0f972c7d9374dad18727335e2376d22"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_ListKeyResults_Gen.json",
+      "sha256": "9577977f353d4faebee59ed74c7d233ec2586d76316d7a2ee98c084e3f36d90b"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_CreateKeyResult_Gen.json",
+      "sha256": "cfebe8d0ac7b36227ab2a7c577e8a89a51c457bc18466041a1b26cbf5a21053a"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_GetKeyResult_Gen.json",
+      "sha256": "e716eaf57d18d8f90a30137969999197e08aa1d73b3eaeae021417df3e249f7d"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_UpdateKeyResult_Gen.json",
+      "sha256": "5378d368cd9ec29b68433127d5d9f98bca5d1386b445c91a03f55a89fcb6d667"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_DeleteKeyResult_Gen.json",
+      "sha256": "ab343e5034a73ef52e4b3baaf05270e1d00ee6f3b464755ff98b4b3f47a762b9"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_GetFacets_Gen.json",
+      "sha256": "bc02dcdb2f1f084823336987da056ed838c5558ad91d5e18e9018cf8a17f52aa"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Query_Gen.json",
+      "sha256": "9d0a73ef23fc5e5ca2b29b43f98330093a2eecc043d2ca9e2311e89e4acb4c8b"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Okr_Count_Gen.json",
+      "sha256": "4bd18c3b3f39ed508c902187c60a229a74b617cef2f8ae891272e8436168f340"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Policies_List_Gen.json",
+      "sha256": "961906654f3e3118e392800ff7c15e4dbfc27e6324adc5a06e393435e8cec29b"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Policies_Update_BusinessDomain_Gen.json",
+      "sha256": "c6fc82254e8b4d930ccf80a5ae0735266ad8fc419ce577e893b69c2cd9b0f98c"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Policies_Update_DataGovernanceApp_Gen.json",
+      "sha256": "8369edbd8a35fa2c492a3f51e6a2f134e175771383b1e5e6f6ea49d0678a3bbb"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Policies_Update_DgDataQualityScope_Gen.json",
+      "sha256": "1d087332d80c792feec5acc878dd36c044c64ef360bf9c76d80dce670bc50eaf"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_List_Gen.json",
+      "sha256": "2a2285cd1144cbdd298daa7abc83f13b9c130ac607f433495f44c0d64c6a4514"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Create_Gen.json",
+      "sha256": "5d67329ccae40775ff3be71c9690392afe9398f97a6f83c66634438e5c32fec9"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Get_Gen.json",
+      "sha256": "be8e4080d99be821130a7397d9495e7b8a6683ffb99526cd4133a8884c278905"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Update_Gen.json",
+      "sha256": "32bf1074c5b1e15d8e5b291b7297ccf33b2e05685a9b6b513daaabd1b76df931"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Delete_Gen.json",
+      "sha256": "40c87b4d01dcf5be71bbcbc17af1b974fadec981c20e51f2c720604acd0b7fe1"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_ListHierarchy_Gen.json",
+      "sha256": "f6c44176f3b239ebb10bda1d47cdacdcb2e6b8f9918b7219d62f9e839e574944"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_ListRelatedEntities_Gen.json",
+      "sha256": "13466f5543f1032b57c3d94a5dc8170ba96b38e3ebe25913ad6904bdb6aacfeb"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_AddRelatedEntity_Gen.json",
+      "sha256": "46a3738becb1b3912a6f23ef6cb8e0fd14cc1b3251e7964dea4951d4a1469610"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_DeleteRelated_Gen.json",
+      "sha256": "53741dd5d4edba31386fd65e61c299de5d223540cb6db883f8b829f31517acb9"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_GetFacets_Gen.json",
+      "sha256": "40ab414708af8e6602d93a63f400a7dc3458bd8a471a1f660ac125e31f20c400"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Query_Gen.json",
+      "sha256": "defef490cabd8d8bc22c5955922652deb7c6d0f53248ad4a678f24c3980ca39f"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/examples/Terms_Count_Gen.json",
+      "sha256": "2f1ca9c15e076e3532995b0e5a12cbddf6b30d24cc3d0fd0e16378d4d54f65a2"
+    }
+  ],
+  "referenceFailures": []
+}

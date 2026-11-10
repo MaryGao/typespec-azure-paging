@@ -1,0 +1,86 @@
+{
+  "index": 92,
+  "slug": "092-webpubsub-webpubsub",
+  "sourcePath": "specification/webpubsub/data-plane/WebPubSub",
+  "swaggerCandidates": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/preview/2021-05-01-preview/webpubsub.json",
+      "apiVersion": "2021-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "508b412ba1e59d179653875b177185d75cd10763073af8c7f65cff6ab84880ef"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/preview/2021-08-01-preview/webpubsub.json",
+      "apiVersion": "2021-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "662e3d90e2d39c34dd281d8ada6ced04745ad997f9fdc2526d19e0e9a4bb35e1"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2021-10-01/webpubsub.json",
+      "apiVersion": "2021-10-01",
+      "format": "swagger-2.0",
+      "sha256": "db70e5df6e1523e417e8219f84b7ee40d8cf544754bf8dc976f3796642218050"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2022-11-01/webpubsub.json",
+      "apiVersion": "2022-11-01",
+      "format": "swagger-2.0",
+      "sha256": "f4b776f5fabcb278311124631bf63795abee50dc95cd30aef92db5f7008ac1a3"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2023-07-01/webpubsub.json",
+      "apiVersion": "2023-07-01",
+      "format": "swagger-2.0",
+      "sha256": "19d6476bb9029a3951db76a39293029ddd6f67d13a028c943f0114bf67afe5d2"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2024-01-01/webpubsub.json",
+      "apiVersion": "2024-01-01",
+      "format": "swagger-2.0",
+      "sha256": "a1fc29b91d68bac69a7d36bf539dd03ef4d40197345d108d1cc01c9be9133c4d"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2024-12-01/webpubsub.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "3c12a9fc630545f424d1f70d872a2c59e405873270b0b5c196edbd52f76ca30f"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/client.tsp",
+      "sha256": "99a2d2e33de51d7690d98fc7f33ee2f0fa3ecde0583030e729fa303dc6564e3d"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/main.tsp",
+      "sha256": "caa6a0771c2d4d91ad50cbda3b922db58bb052ac7ffdde2eee471e9ce1a054c0"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/models.tsp",
+      "sha256": "0d5f8613c8a7a4852905474b9de84fcd496649056e58fbdbad3546f5d4f42827"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/routes.tsp",
+      "sha256": "d7a7290ff17d9fb0456e2a8b93b6fb9154aa25581585dcb927d71f76b43ceab7"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/tspconfig.yaml",
+      "sha256": "bf16e0f43b9d687efbebdb7a1ec32b73b8cb62f7eeb45d1a317f1fd675ddb4d9"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/webpubsub/data-plane/WebPubSub",
+  "swaggerOutputPattern": "{version-status}/{version}/webpubsub.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-12-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSub/stable/2024-12-01/webpubsub.json",
+      "apiVersion": "2024-12-01",
+      "format": "swagger-2.0",
+      "sha256": "3c12a9fc630545f424d1f70d872a2c59e405873270b0b5c196edbd52f76ca30f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

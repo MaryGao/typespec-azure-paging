@@ -1,0 +1,50 @@
+{
+  "index": 77,
+  "slug": "077-monitor-operationalinsights",
+  "sourcePath": "specification/monitor/data-plane/OperationalInsights",
+  "swaggerCandidates": [
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/stable/v1/OperationalInsights.json",
+      "apiVersion": "v1",
+      "format": "swagger-2.0",
+      "sha256": "a204fb911757d795a636de7e47bc9285f672744bd0c037db8191272c95654235"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/client.tsp",
+      "sha256": "8d8922984a5e6dfdfdbbf678380672adfa4dfbcf996fd1e08328b353310f59e3"
+    },
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/main.tsp",
+      "sha256": "fd4f3a8eb8401f99d4af94a63260ac45bb7391644ae3f5423292e076f3e39506"
+    },
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/models.tsp",
+      "sha256": "87f0adcbdf2a0800283d067bda87127a2d432b2f4b1bebfb745eeb0c8564f363"
+    },
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/routes.tsp",
+      "sha256": "bd8c76a562eebb6957cf1c25179da712232a6bead552c6af6a2615c0ef5a0d50"
+    },
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/tspconfig.yaml",
+      "sha256": "c7231161181c10380520101a86c2b0789d256c6c720d575c009e6fbdb4a52204"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/monitor/data-plane/OperationalInsights",
+  "swaggerOutputPattern": "{version-status}/{version}/OperationalInsights.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "v1",
+  "swaggerFiles": [
+    {
+      "file": "specification/monitor/data-plane/OperationalInsights/stable/v1/OperationalInsights.json",
+      "apiVersion": "v1",
+      "format": "swagger-2.0",
+      "sha256": "a204fb911757d795a636de7e47bc9285f672744bd0c037db8191272c95654235"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

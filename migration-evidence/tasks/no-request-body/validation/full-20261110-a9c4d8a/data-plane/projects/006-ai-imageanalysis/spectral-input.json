@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "slug": "006-ai-imageanalysis",
+  "sourcePath": "specification/ai/data-plane/ImageAnalysis",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/stable/2023-10-01/generated.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "cd3913e36cb7790c1c64b9f7bfb570b3ba58c2499631633fe812f5812d828fe3"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/client.tsp",
+      "sha256": "4462589f870f1bed7469f019eba7b6eeff2c8f3b16c1bddef5f8904eb2635dc9"
+    },
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/main.tsp",
+      "sha256": "5c376fdf6f70887698cb8c1c56c1bc93455bbf293b411a047a9c476571bf53d8"
+    },
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/models.tsp",
+      "sha256": "a9915a868727713f585095db21fbd6d78754182380405eaff5bbfc5622d62e52"
+    },
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/routes.tsp",
+      "sha256": "71b7f03fbd8e94f6afdd75d321ae2cf23e3cf5eb4bb1a12f4d73c87da187f07b"
+    },
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/tspconfig.yaml",
+      "sha256": "5f97becc333a5aea65247fd748dfef500a37e4a915174eeb37d22b6520513a26"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/ImageAnalysis",
+  "swaggerOutputPattern": "{version-status}/{version}/generated.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2023-10-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/ImageAnalysis/stable/2023-10-01/generated.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "cd3913e36cb7790c1c64b9f7bfb570b3ba58c2499631633fe812f5812d828fe3"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

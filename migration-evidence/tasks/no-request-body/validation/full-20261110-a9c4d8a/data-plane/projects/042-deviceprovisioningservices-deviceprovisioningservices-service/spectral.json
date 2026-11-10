@@ -1,0 +1,77 @@
+{
+  "project": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2026-11-02-preview/service.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "a219050bccbdc73ad2bb9464d66fb032b7bc86d47306f79891bd82be7586d7f6",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/enrollmentGroups/{id}",
+          "verb": "get",
+          "operationId": "EnrollmentGroup_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/enrollmentGroups/{id}",
+          "verb": "delete",
+          "operationId": "EnrollmentGroup_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/enrollments/{id}",
+          "verb": "get",
+          "operationId": "IndividualEnrollment_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/enrollments/{id}",
+          "verb": "delete",
+          "operationId": "IndividualEnrollment_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/registrations/{id}",
+          "verb": "get",
+          "operationId": "DeviceRegistrationState_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/registrations/{id}",
+          "verb": "delete",
+          "operationId": "DeviceRegistrationState_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

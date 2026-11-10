@@ -1,0 +1,239 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring/preview/2025-11-15-preview/analyzeconversations-authoring.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "c6a1fed58cf390875918eb9ad196ef41b3eb768cff63241665b621d26b7c6823",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/authoring/analyze-conversations/projects",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListProjects",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}",
+          "verb": "delete",
+          "operationId": "ConversationAuthoringProject_DeleteProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/copy/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetCopyProjectStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringDeployment_GetDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "ConversationAuthoringDeployment_DeleteDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments/{deploymentName}/delete-from-resources/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringDeployment_GetDeploymentDeleteFromResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments/{deploymentName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringDeployment_GetDeploymentStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/deployments/swap/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetSwapDeploymentsStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/export/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetExportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/exported-models",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListExportedModels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/exported-models/{exportedModelName}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringExportedModel_GetExportedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/exported-models/{exportedModelName}",
+          "verb": "delete",
+          "operationId": "ConversationAuthoringExportedModel_DeleteExportedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/exported-models/{exportedModelName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringExportedModel_GetExportedModelJobStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/import/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetImportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListTrainedModels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringTrainedModel_GetTrainedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}",
+          "verb": "delete",
+          "operationId": "ConversationAuthoringTrainedModel_DeleteTrainedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}/evaluate/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringTrainedModel_GetEvaluationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}/evaluation/result",
+          "verb": "get",
+          "operationId": "ConversationAuthoringTrainedModel_GetModelEvaluationResults",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}/evaluation/summary-result",
+          "verb": "get",
+          "operationId": "ConversationAuthoringTrainedModel_GetModelEvaluationSummary",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/models/{trainedModelLabel}/load-snapshot/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringTrainedModel_GetLoadSnapshotStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/resources",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListProjectResources",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/resources/assign/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetAssignProjectResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/resources/unassign/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetUnassignProjectResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/train/jobs",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListTrainingJobs",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/{projectName}/train/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetTrainingStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/global/deletion-jobs/{jobId}",
+          "verb": "get",
+          "operationId": "ConversationAuthoringProject_GetProjectDeletionStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/global/deployments/resources",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListAssignedResourceDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/global/languages",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListSupportedLanguages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/global/prebuilt-entities",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListSupportedPrebuiltEntities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-conversations/projects/global/training-config-versions",
+          "verb": "get",
+          "operationId": "ConversationAuthoringListTrainingConfigVersions",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

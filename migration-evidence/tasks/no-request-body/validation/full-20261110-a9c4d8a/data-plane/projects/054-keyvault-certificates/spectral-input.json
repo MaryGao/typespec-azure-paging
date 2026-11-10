@@ -1,0 +1,102 @@
+{
+  "index": 54,
+  "slug": "054-keyvault-certificates",
+  "sourcePath": "specification/keyvault/data-plane/Certificates",
+  "swaggerCandidates": [
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2025-06-01-preview/certificates.json",
+      "apiVersion": "2025-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "28e2d9b53b0600ad50f4cf88e00e327405b18be3ce3c8e5e6d35ac2547f9f108"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-01-01-preview/certificates.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "75b736c3593029ed64ca2ba3dc77312a05bef354e3fd65b0f57420b6605ffb38"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-03-01-preview/certificates.json",
+      "apiVersion": "2026-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "404a16ac10453caebffc0d5deabce7a4927d01a61f19eb0d909486775b084f4f"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-05-01-preview/certificates.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "683ba1fe768ab7cc798951769dfeec0dc8ffde71496c4c0bc263bb4eee611adf"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-07-01-preview/certificates.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5694b678d1231a8e9b64ebd62e9dd6e9d580ada3b559eac5096bed1e1526d591"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/7.6-preview.2/certificates.json",
+      "apiVersion": "7.6-preview.2",
+      "format": "swagger-2.0",
+      "sha256": "b96f8513893bad60199d5e51025316dd8cc67599f7cdb8547f7706eb69fcb744"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/stable/2025-07-01/certificates.json",
+      "apiVersion": "2025-07-01",
+      "format": "swagger-2.0",
+      "sha256": "7afcc3e0fb095b62b5d99e2b02ee970580663b85c68ba70b8a7f147e9ed4d2fb"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/stable/7.5/certificates.json",
+      "apiVersion": "7.5",
+      "format": "swagger-2.0",
+      "sha256": "8a7adbb060a66429c9562cb1edd69762504ae7fba7d79d929e9fb89990ba8b9d"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/stable/7.6/certificates.json",
+      "apiVersion": "7.6",
+      "format": "swagger-2.0",
+      "sha256": "98cdad5936a9dbb24943682ade867365ada107a642662709acbbf3c729482b46"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Certificates/client.tsp",
+      "sha256": "7d06b92c8b79d20a4d8fcd8c421956a50936dd8e7ab5a5ac5363459c3019ecb7"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/common/common.tsp",
+      "sha256": "00c3bbcdd823f837547d082cf728487c78ca85d0b632bf3a48ac6de43ffd5dea"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/main.tsp",
+      "sha256": "7376f60ac96756ed8d20d29c93296e3f47b725d736e5eb495b0d73840b1f8adc"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/models.tsp",
+      "sha256": "738b074367199094932d3152d7886cc8dc0e681bb851c1020694640bc84d264b"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/routes.tsp",
+      "sha256": "91d36fb224b7ee7f06d16c0d99f29b8082a9930defaff24e72f81135a1c25cfe"
+    },
+    {
+      "file": "specification/keyvault/data-plane/Certificates/tspconfig.yaml",
+      "sha256": "b21cfc49b5c3389e4b934a34d096d5506b1184e4fcd56265256a072291c221e2"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/keyvault/data-plane/Certificates",
+  "swaggerOutputPattern": "{version-status}/{version}/certificates.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/keyvault/data-plane/Certificates/preview/2026-07-01-preview/certificates.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5694b678d1231a8e9b64ebd62e9dd6e9d580ada3b559eac5096bed1e1526d591"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

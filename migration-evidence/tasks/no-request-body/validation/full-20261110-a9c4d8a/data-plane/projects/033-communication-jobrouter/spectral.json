@@ -1,0 +1,161 @@
+{
+  "project": "specification/communication/data-plane/JobRouter",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/communication/data-plane/JobRouter/preview/2024-01-18-preview/communicationservicejobrouter.json",
+      "apiVersion": "2024-01-18-preview",
+      "format": "swagger-2.0",
+      "sha256": "c06e8f55d8b7f14c5ee17d649d7127a75bc228faf23ab3cce2d5f5f03e3baae9",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/routing/classificationPolicies",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_ListClassificationPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/classificationPolicies/{classificationPolicyId}",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_GetClassificationPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/classificationPolicies/{classificationPolicyId}",
+          "verb": "delete",
+          "operationId": "JobRouterAdministrationOperations_DeleteClassificationPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/distributionPolicies",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_ListDistributionPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/distributionPolicies/{distributionPolicyId}",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_GetDistributionPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/distributionPolicies/{distributionPolicyId}",
+          "verb": "delete",
+          "operationId": "JobRouterAdministrationOperations_DeleteDistributionPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/exceptionPolicies",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_ListExceptionPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/exceptionPolicies/{exceptionPolicyId}",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_GetExceptionPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/exceptionPolicies/{exceptionPolicyId}",
+          "verb": "delete",
+          "operationId": "JobRouterAdministrationOperations_DeleteExceptionPolicy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/jobs",
+          "verb": "get",
+          "operationId": "JobRouterOperations_ListJobs",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "JobRouterOperations_GetJob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/jobs/{jobId}",
+          "verb": "delete",
+          "operationId": "JobRouterOperations_DeleteJob",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/jobs/{jobId}/position",
+          "verb": "get",
+          "operationId": "JobRouterOperations_GetInQueuePosition",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/queues",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_ListQueues",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/queues/{queueId}",
+          "verb": "get",
+          "operationId": "JobRouterAdministrationOperations_GetQueue",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/queues/{queueId}",
+          "verb": "delete",
+          "operationId": "JobRouterAdministrationOperations_DeleteQueue",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/queues/{queueId}/statistics",
+          "verb": "get",
+          "operationId": "JobRouterOperations_GetQueueStatistics",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/workers",
+          "verb": "get",
+          "operationId": "JobRouterOperations_ListWorkers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/workers/{workerId}",
+          "verb": "get",
+          "operationId": "JobRouterOperations_GetWorker",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/routing/workers/{workerId}",
+          "verb": "delete",
+          "operationId": "JobRouterOperations_DeleteWorker",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

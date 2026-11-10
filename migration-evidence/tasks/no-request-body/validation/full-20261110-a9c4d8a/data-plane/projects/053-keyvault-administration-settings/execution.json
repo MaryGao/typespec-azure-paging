@@ -1,0 +1,26 @@
+{
+  "project": "specification/keyvault/data-plane/Administration/Settings",
+  "slug": "053-keyvault-administration-settings",
+  "status": "unassessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": false,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:31:18.733Z",
+    "finishedAt": "2026-11-10T01:31:22.740Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:31:22.748Z",
+    "finishedAt": "2026-11-10T01:31:24.517Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": null,
+  "swaggerError": "unassessed-no-local-oas2",
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

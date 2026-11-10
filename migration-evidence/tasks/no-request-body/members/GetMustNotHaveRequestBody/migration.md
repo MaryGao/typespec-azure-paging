@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The GET branch of `@azure-tools/typespec-azure-core/no-request-body` implements the intended ARM policy. It replaces the unmerged ARM-only rule in PR #5986. Real-spec equivalence for this revision is not assessed.
+The GET branch of `@azure-tools/typespec-azure-core/no-request-body` implements the intended ARM policy, replacing the former ARM-only rule in now-merged PR #5986. Full observed-population comparison is complete; whole-rule equivalence remains undetermined.
 
 Swagger sources: [implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/az-arm.ts), [documentation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/get-must-not-have-request-body.md). ARM OpenAPI 2.0 error, guideline RPC-Get-V1-02; resolved operation-level body parameters under `paths` and `x-ms-paths`.
 
@@ -12,6 +12,8 @@ Swagger sources: [implementation](https://github.com/Azure/azure-openapi-validat
 
 ## 3. Function-level coverage
 
+The [full frozen-population comparison](../../validation/full-20261110-a9c4d8a/index.md) covers all 487 ARM projects, with successful native compilation and finalized baseline-integrity checks. Saved production GET observations are zero; six native GET warnings remain, exclusively the already-investigated Search client-only customizations. No new GET-positive wire cases were observed, so this does not establish positive-case completeness.
+
 Explicit, implicit, optional, empty-model, body-root, primitive, and multipart GET bodies report once. Bodyless, `void`, HTTP-metadata-only and non-request-visible controls pass. See the [group report](../../migration.md) for shared evidence and exact revision.
 
 ## 4. Why diagnostic counts differ
@@ -20,4 +22,4 @@ Swagger selects body parameters and emits errors; TypeSpec resolves the payload 
 
 ## NOTES
 
-One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user authorized full validation only if representative comparison has no gaps; that condition is not met, so no full run was started.
+One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user explicitly authorized full validation despite the pilot gaps on November 10, 2026. All 487 ARM projects were assessed; #5993 remains unresolved, and raw findings are retained.

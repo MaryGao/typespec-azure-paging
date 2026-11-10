@@ -1,0 +1,25 @@
+{
+  "project": "specification/maps/data-plane/Route",
+  "slug": "068-maps-route",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:32:57.504Z",
+    "finishedAt": "2026-11-10T01:33:02.848Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:33:02.856Z",
+    "finishedAt": "2026-11-10T01:33:04.857Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

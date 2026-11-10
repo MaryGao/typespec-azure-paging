@@ -1,0 +1,203 @@
+{
+  "project": "specification/machinelearningservices/data-plane/DatasetDataplane",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/stable/1.5.0/dataset-dataplane.json",
+      "apiVersion": "1.5.0",
+      "format": "swagger-2.0",
+      "sha256": "e80c4f05a29bb8fdd70a50296ad7586b9708574de2b5e2c9f2bcdcba10c817ce",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datacontainer",
+          "verb": "get",
+          "operationId": "DataContainerOps_ListDataContainer",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datacontainer/{name}",
+          "verb": "get",
+          "operationId": "DataContainerOps_GetDataContainer",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datacontainer/{name}",
+          "verb": "delete",
+          "operationId": "DataContainerOps_DeleteDataContainer",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/dataversion/{name}/versions",
+          "verb": "get",
+          "operationId": "DataVersionOps_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/dataversion/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "DataVersionOps_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/dataversion/{name}/versions/{version}",
+          "verb": "delete",
+          "operationId": "DataVersionOps_DeleteVersion",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/dataversion/{name}/versions/{version}/exists",
+          "verb": "get",
+          "operationId": "DataVersionOps_Exists",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "get",
+          "operationId": "DatasetsV1_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "delete",
+          "operationId": "DatasetsV1_DeleteAllDatasets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{name}",
+          "verb": "delete",
+          "operationId": "DatasetsV1_UnregisterDataset",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/definitions",
+          "verb": "get",
+          "operationId": "DatasetsV1_GetAllDatasetDefinitions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/definitions/{version}",
+          "verb": "get",
+          "operationId": "DatasetsV1_GetDatasetDefinition",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/versions",
+          "verb": "get",
+          "operationId": "DatasetsV1_GetAllDatasetVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/query/name={datasetName}",
+          "verb": "get",
+          "operationId": "DatasetsV1_GetDatasetByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "GetOperationStatus_GetDatasetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "get",
+          "operationId": "DatasetControllerV2_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "delete",
+          "operationId": "DatasetControllerV2_DeleteAllDatasets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{name}",
+          "verb": "delete",
+          "operationId": "DatasetControllerV2_UnregisterDataset",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/definitions",
+          "verb": "get",
+          "operationId": "DatasetControllerV2_GetAllDatasetDefinitions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/definitions/{version}",
+          "verb": "get",
+          "operationId": "DatasetControllerV2_GetDatasetDefinition",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}/versions",
+          "verb": "get",
+          "operationId": "DatasetControllerV2_GetAllDatasetVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v1.2/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/query/name={datasetName}",
+          "verb": "get",
+          "operationId": "DatasetControllerV2_GetDatasetByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "get",
+          "operationId": "DatasetV2Operations_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets",
+          "verb": "delete",
+          "operationId": "DatasetV2Operations_DeleteAllDatasets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{datasetId}",
+          "verb": "get",
+          "operationId": "DatasetV2Operations_GetDatasetById",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/{name}/versions/{versionId}",
+          "verb": "delete",
+          "operationId": "DatasetV2Operations_DeleteDatasetByName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataset/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/datasets/query/name={datasetName}",
+          "verb": "get",
+          "operationId": "DatasetV2Operations_GetDatasetByName",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

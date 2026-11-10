@@ -1,0 +1,50 @@
+{
+  "index": 39,
+  "slug": "039-cosmos-db-tables",
+  "sourcePath": "specification/cosmos-db/data-plane/Tables",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/stable/2019-02-02/table.json",
+      "apiVersion": "2019-02-02",
+      "format": "swagger-2.0",
+      "sha256": "589c7bbedb9eff5643770557929725760b8a0c00b3649552fd7dff5207621f71"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/client.tsp",
+      "sha256": "2868e6b35a7ca629d8c95e643d177433bea87cab868c2059f7497f2cfac1a1a9"
+    },
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/main.tsp",
+      "sha256": "c097d89db5bdf9982a45cb9b07c17b5f43aefdd86ca65da5b75eb9709dfa67ff"
+    },
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/models.tsp",
+      "sha256": "ef0c78b8313a93621492fed18d4053878dd3b37b63a69136798f10bb1d1bdcb6"
+    },
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/routes.tsp",
+      "sha256": "92604c07f7862bb2f706824498f93d5a9a9c3aa57ba97e757a4f70c0fe6831ab"
+    },
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/tspconfig.yaml",
+      "sha256": "963e453bd96e1832e8fd88138cb9075244b54cdc34888e327bc4fa249e8aa583"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cosmos-db/data-plane/Tables",
+  "swaggerOutputPattern": "{version-status}/{version}/table.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2019-02-02",
+  "swaggerFiles": [
+    {
+      "file": "specification/cosmos-db/data-plane/Tables/stable/2019-02-02/table.json",
+      "apiVersion": "2019-02-02",
+      "format": "swagger-2.0",
+      "sha256": "589c7bbedb9eff5643770557929725760b8a0c00b3649552fd7dff5207621f71"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

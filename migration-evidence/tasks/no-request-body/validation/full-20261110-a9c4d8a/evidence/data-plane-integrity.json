@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "phase": "Post-execution verification of both completed data-plane batches",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "method": "Read every retained Swagger and transitive local reference/example file and independently recompute SHA256 against its frozen Git-blob inventory.",
+  "batches": [
+    {
+      "batch": "data-plane",
+      "files": 2025,
+      "bytes": 18465234,
+      "allHashesMatched": true
+    },
+    {
+      "batch": "data-plane-supplement",
+      "files": 339,
+      "bytes": 2986043,
+      "allHashesMatched": true
+    }
+  ],
+  "compiledSourcePrograms": 103,
+  "assessedSwaggerComparisons": 98,
+  "unassessedSwaggerComparisons": 5,
+  "rawNativeWarnings": 15,
+  "rawSwaggerObservations": 9,
+  "semanticCorrespondences": [
+    "purview-gap-investigation.json",
+    "run-history-positive-investigation.json"
+  ],
+  "reconciliation": "Totals computed from all completed execution receipts. RunHistory adds three matching actual DELETE-body cases beyond the six Purview wire cases and six Purview aliases described in the preliminary status.",
+  "limitations": "The five comparisons without owned OAS2 are explicitly unassessed, not clean. This is a separate selected-rule Spectral profile, not a saved data-plane baseline or full AutoRest production execution."
+}

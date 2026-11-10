@@ -1,0 +1,38 @@
+{
+  "index": 16,
+  "slug": "016-artifactsigning-artifactsigning",
+  "sourcePath": "specification/artifactsigning/data-plane/ArtifactSigning",
+  "swaggerCandidates": [
+    {
+      "file": "specification/artifactsigning/data-plane/ArtifactSigning/stable/2024-06-15/azure.developer.artifactsigning.json",
+      "apiVersion": "2024-06-15",
+      "format": "swagger-2.0",
+      "sha256": "18be9e0dd9dfb894a27be03b2d004eba767b9ba7f84397667267f08411382a72"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/artifactsigning/data-plane/ArtifactSigning/main.tsp",
+      "sha256": "c18a2282a3b1a8a9c400a8d6cf1d02c30c0f84b35a21651f79074c453e3a2e0e"
+    },
+    {
+      "file": "specification/artifactsigning/data-plane/ArtifactSigning/tspconfig.yaml",
+      "sha256": "940e64b4c08e5065b578acfb82ddb88733eda1af071ca1f6388f7b4f03e90cd3"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/artifactsigning/data-plane/ArtifactSigning",
+  "swaggerOutputPattern": "{version-status}/{version}/azure.developer.artifactsigning.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-06-15",
+  "swaggerFiles": [
+    {
+      "file": "specification/artifactsigning/data-plane/ArtifactSigning/stable/2024-06-15/azure.developer.artifactsigning.json",
+      "apiVersion": "2024-06-15",
+      "format": "swagger-2.0",
+      "sha256": "18be9e0dd9dfb894a27be03b2d004eba767b9ba7f84397667267f08411382a72"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

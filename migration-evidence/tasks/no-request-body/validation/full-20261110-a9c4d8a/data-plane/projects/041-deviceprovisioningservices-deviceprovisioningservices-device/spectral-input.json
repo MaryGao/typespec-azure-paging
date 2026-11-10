@@ -1,0 +1,68 @@
+{
+  "index": 41,
+  "slug": "041-deviceprovisioningservices-deviceprovisioningservices-device",
+  "sourcePath": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device",
+  "swaggerCandidates": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2025-07-01-preview/device.json",
+      "apiVersion": "2025-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "97af64dac48739232448f08b047b975db577fad9a3529c32ac5deee3da6562a3"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2026-11-02-preview/device.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "ab98afc0ec401c1ddd4d09edcf067ccbcebd11cc3df131455c2f43780f6e9bf5"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/stable/2021-10-01/device.json",
+      "apiVersion": "2021-10-01",
+      "format": "swagger-2.0",
+      "sha256": "bd4787e986c2451db8e11729a05a8666cf0fc7ec7b58a84ba71e2bd89dd61eab"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/stable/2026-11-01/device.json",
+      "apiVersion": "2026-11-01",
+      "format": "swagger-2.0",
+      "sha256": "5d3856e837966c45383485cd891ae78a2dd4f447f2e2286f85d8b54299187228"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device/client.tsp",
+      "sha256": "183bd6a75f1a8556f57531074c3b1682220fd9ef74d2ab0efc481b27c104ee42"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device/main.tsp",
+      "sha256": "87d63ef7730f25136961c412fa3e4cf1efade1cb08202ef780aa27dece0e26da"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device/models.tsp",
+      "sha256": "99559a44334dd593447cad60291f7b983a243a15bc351fa57a55964f004085ec"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device/routes.tsp",
+      "sha256": "a061e920dd68527508f04f72de0a17a7a8f2f9109e3038f79f17627de9b37aa3"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/device/tspconfig.yaml",
+      "sha256": "41eb749b0a396bf9d047aa990ec98d86d2595764dabfa14a88d7799a8d794b69"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices",
+  "swaggerOutputPattern": "{version-status}/{version}/device.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-11-02-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2026-11-02-preview/device.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "ab98afc0ec401c1ddd4d09edcf067ccbcebd11cc3df131455c2f43780f6e9bf5"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

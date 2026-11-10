@@ -1,0 +1,25 @@
+{
+  "project": "specification/deviceupdate/data-plane/duiothub",
+  "slug": "043-deviceupdate-duiothub",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:30:17.628Z",
+    "finishedAt": "2026-11-10T01:30:22.111Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:30:22.117Z",
+    "finishedAt": "2026-11-10T01:30:24.027Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

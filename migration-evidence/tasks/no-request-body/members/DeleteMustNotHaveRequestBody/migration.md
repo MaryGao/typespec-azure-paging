@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The DELETE branch of `@azure-tools/typespec-azure-core/no-request-body` implements the intended ARM policy for issue #5982. Real-spec equivalence is not assessed.
+The DELETE branch of `@azure-tools/typespec-azure-core/no-request-body` implements the intended ARM policy for issue #5982. Full observed-population comparison is complete; whole-rule equivalence remains undetermined.
 
 Swagger sources: [implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/az-arm.ts), [documentation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/delete-must-not-have-request-body.md). ARM OpenAPI 2.0 error, guideline RPC-Delete-V1-02; resolved operation-level body parameters under `paths`.
 
@@ -14,6 +14,8 @@ The documentation labels applicability as ARM and data plane, but actual caller 
 
 ## 3. Function-level coverage
 
+The [full frozen-population comparison](../../validation/full-20261110-a9c4d8a/index.md) covers all 487 ARM projects, with successful native compilation and finalized baseline-integrity checks. Saved production DELETE observations are zero; four native DELETE warnings remain, exclusively the already-investigated Search client-only customizations. Nine actual DELETE-body wire cases were observed in the separate data-plane audience, not double-counted as ARM policy findings.
+
 Explicit, implicit, optional, empty-model, body-root, primitive, and multipart DELETE bodies report once. Bodyless, `void`, HTTP-metadata-only and non-request-visible controls pass. See the [group report](../../migration.md) for shared evidence and exact revision.
 
 ## 4. Why diagnostic counts differ
@@ -22,4 +24,4 @@ Swagger emits an error per selected body parameter and does not select `x-ms-pat
 
 ## NOTES
 
-One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user authorized full validation only if representative comparison has no gaps; that condition is not met, so no full run was started.
+One shared Core rule controls both GET and DELETE. Existing RPC behavior is preserved. The user explicitly authorized full validation despite the pilot gaps on November 10, 2026. All 487 ARM projects were assessed; #5993 remains unresolved, and raw findings are retained.

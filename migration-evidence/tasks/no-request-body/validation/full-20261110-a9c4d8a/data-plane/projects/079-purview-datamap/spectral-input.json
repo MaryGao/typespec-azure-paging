@@ -1,0 +1,62 @@
+{
+  "index": 79,
+  "slug": "079-purview-datamap",
+  "sourcePath": "specification/purview/data-plane/datamap",
+  "swaggerCandidates": [
+    {
+      "file": "specification/purview/data-plane/datamap/preview/2023-10-01-preview/purviewdatamap.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5afce6b3aae179cd89e49e72917362a419ce3b223946443dfe19d6bbed3f2e2b"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "442226cb14a9ff3c93eabc70ea09467ebbd3ee9d10b3430dd08c3fbe7fa2208a"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/stable/2023-09-01/purviewdatamap.json",
+      "apiVersion": "2023-09-01",
+      "format": "swagger-2.0",
+      "sha256": "adb679263fe3d0c5a5a867fe16bfcc9fa0a216bd6f63497cb17c19022dd45b56"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/purview/data-plane/datamap/client.tsp",
+      "sha256": "7f2a27e7f10611274ee3d9b329237a039336c4a64fa56fa9fbb7b239f0b3832a"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/main.tsp",
+      "sha256": "15c0461907e3b8e11d889f3fcc0ddb0cc55a3e9563a0f4a4e2d2bec2b33d2b6f"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/models.tsp",
+      "sha256": "b40df3df7158e2f441c2ea71af9ee9c6fe2d4da0ab47a7a6efdc840c6da2045c"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/routes.tsp",
+      "sha256": "5a092f35cf8ffc10f7cefae852c33f1446a6e02f6c3ed0a93664c66112403a5d"
+    },
+    {
+      "file": "specification/purview/data-plane/datamap/tspconfig.yaml",
+      "sha256": "0591f4ea8cfd171a531701ab75743b88f9c9ef9d06d0ded9b185fb3f287f3a22"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/purview/data-plane/datamap",
+  "swaggerOutputPattern": "{version-status}/{version}/purviewdatamap.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-03-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/purview/data-plane/datamap/preview/2024-03-01-preview/purviewdatamap.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "442226cb14a9ff3c93eabc70ea09467ebbd3ee9d10b3430dd08c3fbe7fa2208a"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

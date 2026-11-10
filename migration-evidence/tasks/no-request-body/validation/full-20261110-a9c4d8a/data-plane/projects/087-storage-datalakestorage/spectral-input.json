@@ -1,0 +1,50 @@
+{
+  "index": 87,
+  "slug": "087-storage-datalakestorage",
+  "sourcePath": "specification/storage/data-plane/DataLakeStorage",
+  "swaggerCandidates": [
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/stable/2026-06-06/generated_datalake.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "ef31d958c93df512f8d5c5d045da5cbd2ae4a470f57c980891681e6452849399"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/client.tsp",
+      "sha256": "2de057d5dd3de78acffc30b7d45db1df67ebc34dcce190646fb661cfe70aeaf7"
+    },
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/main.tsp",
+      "sha256": "4c458706a86dc9104bc744b8edcd6781c2c2f1a792e460baa2230f622e617182"
+    },
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/models.tsp",
+      "sha256": "e2dbf78a7be226c440d28d39f08de97cb591c822c21602c69592b99143cc8e4e"
+    },
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/routes.tsp",
+      "sha256": "6e36cc4cc42e2f64240de1a363fbb0210233dcb9e5ef0ed77ccbdb8ffb2d70bc"
+    },
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/tspconfig.yaml",
+      "sha256": "61c8de08079af7028560a331fc1e53c6d2ed20267dca274acf6377c651fa1c62"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/storage/data-plane/DataLakeStorage",
+  "swaggerOutputPattern": "{version-status}/{version}/generated_datalake.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-06",
+  "swaggerFiles": [
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/stable/2026-06-06/generated_datalake.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "ef31d958c93df512f8d5c5d045da5cbd2ae4a470f57c980891681e6452849399"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

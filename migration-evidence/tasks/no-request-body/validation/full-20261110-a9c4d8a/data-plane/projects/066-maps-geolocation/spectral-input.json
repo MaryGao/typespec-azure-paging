@@ -1,0 +1,54 @@
+{
+  "index": 66,
+  "slug": "066-maps-geolocation",
+  "sourcePath": "specification/maps/data-plane/Geolocation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/maps/data-plane/Geolocation/stable/1.0/geolocation.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "02b01a4e1f63e3bb89f20d4c9bbadb0ac77ee3868a05d5db876726b83c9c2f99"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/maps/data-plane/Geolocation/client.tsp",
+      "sha256": "32fa0f4698046980eddeee3cae9319cbc36e80f75414e2f589f8d204a7bc80f2"
+    },
+    {
+      "file": "specification/maps/data-plane/Geolocation/common/common.tsp",
+      "sha256": "e5ce78ab2310a7bd465a3a512d0455aacf363d4920cabb6608cbea5313dd2862"
+    },
+    {
+      "file": "specification/maps/data-plane/Geolocation/main.tsp",
+      "sha256": "c411c1ff950589babc89e0853582b45f2b0ebb42e233c3c23a49891a2578229f"
+    },
+    {
+      "file": "specification/maps/data-plane/Geolocation/models.tsp",
+      "sha256": "6054834a97fb568b3ecc0d014ab31aca8c7a981aaaebaa8381bf454809512ad6"
+    },
+    {
+      "file": "specification/maps/data-plane/Geolocation/routes.tsp",
+      "sha256": "33398cf8b8c735fa503b9c5e053eb8cdf62811aca804cd6c228e0a0e39991119"
+    },
+    {
+      "file": "specification/maps/data-plane/Geolocation/tspconfig.yaml",
+      "sha256": "c7f67ae86076eea95fb683684bbeb47e80b6a0d7578614553975a12322c3d2ef"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/maps/data-plane/Geolocation",
+  "swaggerOutputPattern": "{version-status}/{version}/geolocation.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "1.0",
+  "swaggerFiles": [
+    {
+      "file": "specification/maps/data-plane/Geolocation/stable/1.0/geolocation.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "02b01a4e1f63e3bb89f20d4c9bbadb0ac77ee3868a05d5db876726b83c9c2f99"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

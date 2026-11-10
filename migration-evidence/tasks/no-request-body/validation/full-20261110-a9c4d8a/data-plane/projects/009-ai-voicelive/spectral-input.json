@@ -1,0 +1,90 @@
+{
+  "index": 9,
+  "slug": "009-ai-voicelive",
+  "sourcePath": "specification/ai/data-plane/VoiceLive",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/VoiceLive/preview/2026-01-01-preview/VoiceLive.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "76d31892c4dfaf5cbe9b4f91cd83616bdd0c93afd8a4cca24a190f9f4639c912"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/preview/2026-06-01-preview/VoiceLive.json",
+      "apiVersion": "2026-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "01abe21dce6599bd2b1a17d7febdb39a4fd2e4f1821e7bcc2c605071e4aa6bf0"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/stable/2025-10-01/VoiceLive.json",
+      "apiVersion": "2025-10-01",
+      "format": "swagger-2.0",
+      "sha256": "1f02d3565c9ee0193f7eba92d5a9ec66e2dc26ddd69ff0956e6a27a5c49a643b"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/stable/2026-04-10/VoiceLive.json",
+      "apiVersion": "2026-04-10",
+      "format": "swagger-2.0",
+      "sha256": "8ef3ebdb05727d534220b13b59ea3fc3639a07f879ef2c27829cc710fcbc0319"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/stable/2026-07-15/VoiceLive.json",
+      "apiVersion": "2026-07-15",
+      "format": "swagger-2.0",
+      "sha256": "47b29b73369d313f2988e71a3e08dbf282d106825a8206c434c056f53d762ffa"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/VoiceLive/client.tsp",
+      "sha256": "88cea3fb3056cface46ceae92741ae9ba4e907a536017f6c5cc3d9ac7a7c005a"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/content_parts.tsp",
+      "sha256": "0e0f7c0a250a51ca7dbbc67e579e20cd2ef10d2e452efa7e98334202d18530ae"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/custom.tsp",
+      "sha256": "65ffec0a3a3149afcb75d9713cac23ec1ab2f0a671f070802e0c9ce6c177de10"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/events.tsp",
+      "sha256": "afe2484086a0ff2ec8c6f3c3303226170e64f77baccde5ed451c0ff228ca85d7"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/items.tsp",
+      "sha256": "35a86e457c122b7e84f263e96b15bda9c65d25b8a02b058523287092b65e3441"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/main.tsp",
+      "sha256": "857349f481e2aa0dd17298a3c177f68cee70fcce1e0fe71a399cb5df79d2b338"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/models.tsp",
+      "sha256": "80c06b89028d6d9d7d13c0e4ef0976361a6232d10ee8665af8c3ee8469d7ecd3"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/tools.tsp",
+      "sha256": "4bb73790dcdb5e2a3149972b789db51358dc86c835ef7dc3d48319bd6979c7c2"
+    },
+    {
+      "file": "specification/ai/data-plane/VoiceLive/tspconfig.yaml",
+      "sha256": "95d95cb6fc769c4639af6a4b72c5086d37e1f5fad03f118178647c8de0764f9e"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/VoiceLive",
+  "swaggerOutputPattern": "{version-status}/{version}/VoiceLive.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-07-15",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/VoiceLive/stable/2026-07-15/VoiceLive.json",
+      "apiVersion": "2026-07-15",
+      "format": "swagger-2.0",
+      "sha256": "47b29b73369d313f2988e71a3e08dbf282d106825a8206c434c056f53d762ffa"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

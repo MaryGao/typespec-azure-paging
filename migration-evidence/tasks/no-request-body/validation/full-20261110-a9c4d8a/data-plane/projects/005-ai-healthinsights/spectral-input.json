@@ -1,0 +1,114 @@
+{
+  "index": 5,
+  "slug": "005-ai-healthinsights",
+  "sourcePath": "specification/ai/data-plane/HealthInsights",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/HealthInsights/preview/2023-03-01-preview/openapi.json",
+      "apiVersion": "2023-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "170d7819ac4c890a0a0ca006efcc65d04865e3e0a6ca5d0e7a1eec647b24750b"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/preview/2023-09-01-preview/openapi.json",
+      "apiVersion": "2023-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "653a80b05fbbbc4c7736d8771639fed7af4494234de81110419de329f82f753a"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/preview/2024-08-01-preview/openapi.json",
+      "apiVersion": "2024-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "afd21674be5f15283ba5c8b44b3c98f7ba632390cf2a6f19e2d7228dab8b6e6d"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/stable/2024-04-01/openapi.json",
+      "apiVersion": "2024-04-01",
+      "format": "swagger-2.0",
+      "sha256": "4a31dc74a8e3104e011b5ffc1af6bebe84f4ffe55c50ae05173b50080ad657f6"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/stable/2024-10-01/openapi.json",
+      "apiVersion": "2024-10-01",
+      "format": "swagger-2.0",
+      "sha256": "898a8248bf24a0f220bdf999925b676d5ac51300cfd1100566b8383dc9f5a22f"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/model.common.fhir.elements.tsp",
+      "sha256": "87599f7cb0349e3c01837cfaa86a4d3e646d0f7a7763f219c43ce533de6d97b0"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/model.common.fhir.resources.tsp",
+      "sha256": "3f27a415ced4496b6c5e27cc0800822b360b027715cbdbb81ed0ee57bf3f8729"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/model.common.request.tsp",
+      "sha256": "ea6f7fba17e6ec6a34f68e3cfb25659082a4b51b66ff129e07a779c94d7bcc7f"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/model.common.response.tsp",
+      "sha256": "ea0bc173c3cad772936b8fa74abb5514717d848cabd77bb98ebf321499e38eee"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/model.common.shared.tsp",
+      "sha256": "22fd5ae04a8eeba87227f19a08c2e6a674ab1a4550387bfba8bc9f2aae22882d"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/primitives.tsp",
+      "sha256": "14255f110ed9606371ddea844c522bf4ca02909e1548e1b136cda25eceaf7c07"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/Common/service.tsp",
+      "sha256": "8f26b580be3bb6dee993b970b810bfcd2854f15e09bde6191779a732b2f12416"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/RadiologyInsights/client.tsp",
+      "sha256": "df90065797aac6f85f7fa5d443876efa0efd44634cac4b3b83382bc41e475e83"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/RadiologyInsights/model.radiologyinsights.tsp",
+      "sha256": "9fe6a58bfe6e091bba822ad3e21bed5815b0b4fe135df0344ae0f0fd0d2a18fe"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/RadiologyInsights/model.radiologyinsights.valuesets.tsp",
+      "sha256": "aa975fe23577e08cd1f753ccb1cc7f0208d35eca88e7f0f50285e9a9c249b294"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/RadiologyInsights/route.radiologyinsights.tsp",
+      "sha256": "b86506c5e3186f91739935b376c80edce5403b670c72aabb0fa9624313f568da"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/TrialMatcher/model.trialmatcher.tsp",
+      "sha256": "11f322275e28a227514d865de68cc9b4adc7da1792cd1474da8dc52fdd859553"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/TrialMatcher/route.trialmatcher.tsp",
+      "sha256": "b557c3a71184abd2617e9f9c136f43850336553d1e57d7698cdcb9dca410e706"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/main.tsp",
+      "sha256": "bee4972b8900b6e925951291eb62cc019a3424be9e54e11cae2c8c09c7012aee"
+    },
+    {
+      "file": "specification/ai/data-plane/HealthInsights/tspconfig.yaml",
+      "sha256": "79bf08689cf64f9feb4b8390fb3230cec264523f9f0dbdd5d92672ab0bb3d52d"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/HealthInsights",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-10-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/HealthInsights/stable/2024-10-01/openapi.json",
+      "apiVersion": "2024-10-01",
+      "format": "swagger-2.0",
+      "sha256": "898a8248bf24a0f220bdf999925b676d5ac51300cfd1100566b8383dc9f5a22f"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

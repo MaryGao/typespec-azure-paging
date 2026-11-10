@@ -1,0 +1,48 @@
+{
+  "index": 45,
+  "slug": "045-eventgrid-eventgridnamespace",
+  "sourcePath": "specification/eventgrid/data-plane/EventGridNamespace",
+  "swaggerCandidates": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/stable/2023-11-01/EventGrid.json",
+      "apiVersion": "2023-11-01",
+      "format": "swagger-2.0",
+      "sha256": "b962ed84de1704aadbb0fc822aafb44fc168e6ca4fd253c4769800ee24916dc6"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/stable/2024-06-01/EventGrid.json",
+      "apiVersion": "2024-06-01",
+      "format": "swagger-2.0",
+      "sha256": "fa0c2b9f87c092e24e213aecede65ae5361744e272b8f72b0e7b0f3141ee280d"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/client.tsp",
+      "sha256": "fcfcbafd0e17da43c6756020410e56783e0014b8ee7f79ecd86e4feee42df1e4"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/main.tsp",
+      "sha256": "316477cc00b2a1d00652ab4451190e5b20e90cd236258f2e4138cd31edc1744b"
+    },
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/tspconfig.yaml",
+      "sha256": "2c1332cdee9567f1524970e8ed524f4f9492fe5324280ca4feca316ce8cb1c52"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/eventgrid/data-plane/EventGridNamespace",
+  "swaggerOutputPattern": "{version-status}/{version}/EventGrid.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/eventgrid/data-plane/EventGridNamespace/stable/2024-06-01/EventGrid.json",
+      "apiVersion": "2024-06-01",
+      "format": "swagger-2.0",
+      "sha256": "fa0c2b9f87c092e24e213aecede65ae5361744e272b8f72b0e7b0f3141ee280d"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

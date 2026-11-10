@@ -1,0 +1,143 @@
+{
+  "project": "specification/ai/data-plane/DocumentIntelligence",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/ai/data-plane/DocumentIntelligence/stable/2024-11-30/DocumentIntelligence.json",
+      "apiVersion": "2024-11-30",
+      "format": "swagger-2.0",
+      "sha256": "3f750834da9e3acc162b781711bf0eda02ab2bd8a30c2b4c6a62c6910e7f1bd0",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/documentClassifiers",
+          "verb": "get",
+          "operationId": "DocumentClassifiers_ListClassifiers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentClassifiers/{classifierId}",
+          "verb": "get",
+          "operationId": "DocumentClassifiers_GetClassifier",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentClassifiers/{classifierId}",
+          "verb": "delete",
+          "operationId": "DocumentClassifiers_DeleteClassifier",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentClassifiers/{classifierId}/analyzeResults/{resultId}",
+          "verb": "get",
+          "operationId": "DocumentClassifiers_GetClassifyResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels",
+          "verb": "get",
+          "operationId": "DocumentModels_ListModels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}",
+          "verb": "get",
+          "operationId": "DocumentModels_GetModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}",
+          "verb": "delete",
+          "operationId": "DocumentModels_DeleteModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeBatchResults",
+          "verb": "get",
+          "operationId": "DocumentModels_ListAnalyzeBatchResults",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeBatchResults/{resultId}",
+          "verb": "get",
+          "operationId": "DocumentModels_GetAnalyzeBatchResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeBatchResults/{resultId}",
+          "verb": "delete",
+          "operationId": "DocumentModels_DeleteAnalyzeBatchResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeResults/{resultId}",
+          "verb": "get",
+          "operationId": "DocumentModels_GetAnalyzeResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeResults/{resultId}",
+          "verb": "delete",
+          "operationId": "DocumentModels_DeleteAnalyzeResult",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeResults/{resultId}/figures/{figureId}",
+          "verb": "get",
+          "operationId": "DocumentModels_GetAnalyzeResultFigure",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/documentModels/{modelId}/analyzeResults/{resultId}/pdf",
+          "verb": "get",
+          "operationId": "DocumentModels_GetAnalyzeResultPdf",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/info",
+          "verb": "get",
+          "operationId": "MiscellaneousOperations_GetResourceDetails",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations",
+          "verb": "get",
+          "operationId": "MiscellaneousOperations_ListOperations",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations/{operationId}",
+          "verb": "get",
+          "operationId": "MiscellaneousOperations_GetDocumentModelBuildOperation",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

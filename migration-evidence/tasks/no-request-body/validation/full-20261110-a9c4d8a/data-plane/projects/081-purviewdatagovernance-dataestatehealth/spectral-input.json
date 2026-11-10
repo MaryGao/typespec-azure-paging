@@ -1,0 +1,50 @@
+{
+  "index": 81,
+  "slug": "081-purviewdatagovernance-dataestatehealth",
+  "sourcePath": "specification/purviewdatagovernance/data-plane/DataEstateHealth",
+  "swaggerCandidates": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/preview/2024-02-01-preview/DataEstateHealthApiService.json",
+      "apiVersion": "2024-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ee7d7a5c96fb5bd1a823a3cb4f1d7384da0b947caaa800ac67aa623ded9b7197"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/client.tsp",
+      "sha256": "a011207d4808fb9a925a29ce027ce7f89de4a6ce42fdcd8ae2276aa6bbcf5eb6"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/main.tsp",
+      "sha256": "3c5968b95312a41102a0c4b7edec427d596f60fad7515dc24d544c34c79c28f1"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/models.tsp",
+      "sha256": "cdb0c21e904026b33c84665fe8c051f28b93a98b8d848b06c1ef52964b8ff882"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/routes.tsp",
+      "sha256": "06d01f7fe9f50d060b86eb2f4421b8154aa22f2d3f037723a6ab0ba5e92a093a"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/tspconfig.yaml",
+      "sha256": "a8c1028d564bf769919fbd08c107d3f3d4474616f4a666f8b59ee4b6167bfeba"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/purviewdatagovernance/data-plane/DataEstateHealth",
+  "swaggerOutputPattern": "{version-status}/{version}/DataEstateHealthApiService.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-02-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataEstateHealth/preview/2024-02-01-preview/DataEstateHealthApiService.json",
+      "apiVersion": "2024-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ee7d7a5c96fb5bd1a823a3cb4f1d7384da0b947caaa800ac67aa623ded9b7197"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

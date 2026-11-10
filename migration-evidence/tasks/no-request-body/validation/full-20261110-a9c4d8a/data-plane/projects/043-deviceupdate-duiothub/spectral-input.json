@@ -1,0 +1,80 @@
+{
+  "index": 43,
+  "slug": "043-deviceupdate-duiothub",
+  "sourcePath": "specification/deviceupdate/data-plane/duiothub",
+  "swaggerCandidates": [
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/preview/2020-09-01/deviceupdate.json",
+      "apiVersion": "2020-09-01",
+      "format": "swagger-2.0",
+      "sha256": "06221417ac261cdf35377257317f352a2b130f10ad6d8c8e7b4f2367e4cf639f"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/preview/2021-06-01-preview/deviceupdate.json",
+      "apiVersion": "2021-06-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "3927720e321b75c8f5b902c5cb14cfd2f6e488dd70c5ff8b7abce9cec8e55ef4"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/preview/2022-07-01-preview/deviceupdate.json",
+      "apiVersion": "2022-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5ba53cf1b884808cca034f036edab3b60a10efd11eceab4ce6950dca687d933a"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/preview/2023-10-01-preview/deviceupdate.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "0fe4ce01182309265eb2262445bcff9e2a464cd6cb2efbadce8cf0124c380bdc"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/stable/2022-10-01/deviceupdate.json",
+      "apiVersion": "2022-10-01",
+      "format": "swagger-2.0",
+      "sha256": "6f894985f81d86a043a1afcc48e5055e713693801947bfe565ad5f4d67486ce7"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/stable/2026-06-01/deviceupdate.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "ceb0ecac6c82adbc74730a59cc44944159bf7fce27235aff630dac03f65fcb65"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/client.tsp",
+      "sha256": "8c72ea138bca89d6c67ea86c0082542dc8cc6376b17bd9bec6a0714d808893ec"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/main.tsp",
+      "sha256": "76c64f524100cd03568a5339af82af9d08d3127c84891e55afd3ef0c1fc5d2ad"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/models.tsp",
+      "sha256": "c219ee77ac4113a8b8dc4c52f914788f2f9ce63e71213c07eec582cd0d3eab17"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/routes.tsp",
+      "sha256": "17f2fbd9e4654c8e808a8074f729eb0d5832c6f0d5797cd7903282af1a940a66"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/tspconfig.yaml",
+      "sha256": "e01106e8bac4de554ca96b55b40c4e3575afcae494a09383e4c27b37ea9443a0"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/deviceupdate/data-plane/duiothub",
+  "swaggerOutputPattern": "Microsoft.DeviceUpdate/{version-status}/{version}/deviceupdate.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-06-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/deviceupdate/data-plane/duiothub/Microsoft.DeviceUpdate/stable/2026-06-01/deviceupdate.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "ceb0ecac6c82adbc74730a59cc44944159bf7fce27235aff630dac03f65fcb65"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

@@ -1,0 +1,72 @@
+{
+  "index": 27,
+  "slug": "027-cognitiveservices-languagequestionansweringauthoring",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/preview/2023-11-15-preview/questionanswering-authoring.json",
+      "apiVersion": "2023-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "4c61908e94a80a2ea60ade741f78391d927e50886fe079854de69bf25743bb3f"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/preview/2025-05-15-preview/questionanswering-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "7a91532cd61e0c3477183ebd2708ef809e48b725478e4a91723be571d9001ef6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/stable/2021-10-01/questionanswering-authoring.json",
+      "apiVersion": "2021-10-01",
+      "format": "swagger-2.0",
+      "sha256": "63a96b6a974377655ce0f98f542501b34107f1511b4601e3ffb0b40335fa0545"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/stable/2023-04-01/questionanswering-authoring.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "bf80a6eaada058d082bec24cdd99e68e815cf26253b1b5d8e50c0fb288bc1cdb"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/client.tsp",
+      "sha256": "93297ab4be43bd731ed4d0e827247614439b4d8aa9e9a4a38dbfdb3dec56c1d3"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/main.tsp",
+      "sha256": "e1451fc76bd90d34bb2584a65b29ce0f9c616935e6981574a479daa995030d58"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/models.tsp",
+      "sha256": "d6deb4b24c1f58a1235a671a0d87dcdeafb1f27f8dc1304b5aaf55d62595ab03"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/ops.tsp",
+      "sha256": "bb9d068453069f872edc1606c6b3b1c5da3c6fccd2f1fc86b9b7a42f437c100c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/routes.tsp",
+      "sha256": "2d132216ec71cac06ced05ac0077547240ca87f2103c522ad33acc5209d53123"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/tspconfig.yaml",
+      "sha256": "d075c0c4ff120e91d7e98e052e2d414ad65c535df83ace8de03e16da5c6dc7d0"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring",
+  "swaggerOutputPattern": "{version-status}/{version}/questionanswering-authoring.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-05-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/preview/2025-05-15-preview/questionanswering-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "7a91532cd61e0c3477183ebd2708ef809e48b725478e4a91723be571d9001ef6"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

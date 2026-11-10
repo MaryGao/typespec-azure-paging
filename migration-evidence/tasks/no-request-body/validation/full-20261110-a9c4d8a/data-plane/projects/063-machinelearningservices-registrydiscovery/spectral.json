@@ -1,0 +1,53 @@
+{
+  "project": "specification/machinelearningservices/data-plane/RegistryDiscovery",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/machinelearningservices/data-plane/RegistryDiscovery/stable/v1.0/registry-discovery.json",
+      "apiVersion": "v1.0",
+      "format": "swagger-2.0",
+      "sha256": "6efa4836b10e032717bcd35793255696bf16cdf317a16e135682408221fbbdd8",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/registrymanagement/v1.0/operations/{operationId}",
+          "verb": "get",
+          "operationId": "AsyncOperations_GetStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/registrymanagement/v1.0/registries/{registryName}/discovery",
+          "verb": "get",
+          "operationId": "RegistryManagementNonWorkspace_GetRegistryManagementNonWorkspace",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

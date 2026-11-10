@@ -1,0 +1,92 @@
+{
+  "index": 86,
+  "slug": "086-storage-blobstorage",
+  "sourcePath": "specification/storage/data-plane/BlobStorage",
+  "swaggerCandidates": [
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2025-11-05/generated_blob.json",
+      "apiVersion": "2025-11-05",
+      "format": "swagger-2.0",
+      "sha256": "bb5004847a6a7321b7fe5c20fa0a3a8ca083ebc6e593a0c7e0864b7f2961fe6a"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-02-06/generated_blob.json",
+      "apiVersion": "2026-02-06",
+      "format": "swagger-2.0",
+      "sha256": "3bf74b4b3673536b3caf3fa4bcd685473d2c390773dddbd94902fc65222efc32"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-04-06/generated_blob.json",
+      "apiVersion": "2026-04-06",
+      "format": "swagger-2.0",
+      "sha256": "3f96bda094049cca510d913176adcebda10a55a2c0c85a91f61be16ed0035c91"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-06-06/generated_blob.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "27b99d7ade0b9f98e9694677559e337572afdd645a231e600860a2f6b0ca66bf"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-10-06/generated_blob.json",
+      "apiVersion": "2026-10-06",
+      "format": "swagger-2.0",
+      "sha256": "b8179ec2f6590472480e246b2321abec31daee10d5357fcd0e427bd6cb46cbd6"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-12-06/generated_blob.json",
+      "apiVersion": "2026-12-06",
+      "format": "swagger-2.0",
+      "sha256": "e32379ad53a7e28c7f201a49870bc5c866a236ccdc0f74f1aef6597ca83b4eba"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/storage/data-plane/BlobStorage/Common/models.tsp",
+      "sha256": "8037b8bdbc6d628614e4ee8131016c56d458421d7c5eb2ccdbf5c61124646cc5"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/Common/routes.tsp",
+      "sha256": "555f4a78dde007eaea133c138bac3ece004bd27d33974b608e248e4dae3b1147"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/Common/service.tsp",
+      "sha256": "f7cc7c985b8ec48fb70dfafea552318ff34af6497e741db6ba45322329f96874"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/SdkBatchCsharp/client.tsp",
+      "sha256": "4f217b6347c6f25a67265c0549b52ff92d51aa4b481e6086ea65f154173103e3"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/SdkDatalakeGo/client.tsp",
+      "sha256": "d0068775e29eebcf10324e45b641d5db4634882e0c636b5214f527544b10f66b"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/client.tsp",
+      "sha256": "3adc0558d34920544a1af7191a41498b1e923178b13d7a0cc847c6cb3c74bb9c"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/main.tsp",
+      "sha256": "cc7a896723160ba38bc0c40caf8037ec4e3596292b99bab7b71a1568254549b3"
+    },
+    {
+      "file": "specification/storage/data-plane/BlobStorage/tspconfig.yaml",
+      "sha256": "4edb6ca4ec88d3a612e27ba73ef3f3dc4efa4363740df1dc26839eb5d5d6114f"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/storage/data-plane/BlobStorage",
+  "swaggerOutputPattern": "{version-status}/{version}/generated_blob.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-12-06",
+  "swaggerFiles": [
+    {
+      "file": "specification/storage/data-plane/BlobStorage/stable/2026-12-06/generated_blob.json",
+      "apiVersion": "2026-12-06",
+      "format": "swagger-2.0",
+      "sha256": "e32379ad53a7e28c7f201a49870bc5c866a236ccdc0f74f1aef6597ca83b4eba"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

@@ -1,0 +1,138 @@
+{
+  "completedAt": "2026-11-10T01:35:56.998Z",
+  "total": 95,
+  "assessed": 90,
+  "unassessed": [
+    {
+      "project": "specification/ai-foundry/data-plane/Foundry",
+      "slug": "000-ai-foundry-foundry",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:25:32.009Z",
+        "finishedAt": "2026-11-10T01:25:42.741Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:25:42.744Z",
+        "finishedAt": "2026-11-10T01:25:44.627Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/BackupRestore",
+      "slug": "050-keyvault-administration-backuprestore",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:01.247Z",
+        "finishedAt": "2026-11-10T01:31:05.282Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:05.287Z",
+        "finishedAt": "2026-11-10T01:31:07.078Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/EKM",
+      "slug": "051-keyvault-administration-ekm",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:07.087Z",
+        "finishedAt": "2026-11-10T01:31:11.121Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:11.128Z",
+        "finishedAt": "2026-11-10T01:31:12.925Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/RBAC",
+      "slug": "052-keyvault-administration-rbac",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:12.933Z",
+        "finishedAt": "2026-11-10T01:31:16.944Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:16.950Z",
+        "finishedAt": "2026-11-10T01:31:18.724Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    },
+    {
+      "project": "specification/keyvault/data-plane/Administration/Settings",
+      "slug": "053-keyvault-administration-settings",
+      "status": "unassessed",
+      "nativeAssessed": true,
+      "swaggerAssessed": false,
+      "nativeExecution": {
+        "startedAt": "2026-11-10T01:31:18.733Z",
+        "finishedAt": "2026-11-10T01:31:22.740Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "spectralExecution": {
+        "startedAt": "2026-11-10T01:31:22.748Z",
+        "finishedAt": "2026-11-10T01:31:24.517Z",
+        "timedOut": false,
+        "code": 0,
+        "signal": null
+      },
+      "nativeRawCount": 0,
+      "swaggerRawCount": null,
+      "swaggerError": "unassessed-no-local-oas2",
+      "nativeGet": 0,
+      "nativeDelete": 0
+    }
+  ],
+  "allProjectsAttempted": true
+}

@@ -1,0 +1,56 @@
+{
+  "index": 6,
+  "slug": "006-purviewdatagovernace-azure.analaytics.purview.dataquality",
+  "sourcePath": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality",
+  "swaggerCandidates": [
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2025-09-01-preview/purviewDataQuality.json",
+      "apiVersion": "2025-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8e103456b7fa2ddf16ac2d3ddd0085703999e07e504f65f04d53510bd0a8d43a"
+    },
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+      "apiVersion": "2026-01-12-preview",
+      "format": "swagger-2.0",
+      "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/client.tsp",
+      "sha256": "04ea143aae164810f1f5414c9c5221610e0f6b7261acadc3f1b1522c4818aaee"
+    },
+    {
+      "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/main.tsp",
+      "sha256": "5bfc0c6f1bfe3bf6b178b8101e3af643306a6258596546af2a4960815c3b3c4e"
+    },
+    {
+      "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/models.tsp",
+      "sha256": "10e2068332eaad7c0087c2c491538df2c13e3cf0e19f0a6572dfe8673c0dd2c9"
+    },
+    {
+      "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/routes.tsp",
+      "sha256": "a9bf864955f358f13436a141f85e373985926e8b18459d98295c7c5e92ab7b8b"
+    },
+    {
+      "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/tspconfig.yaml",
+      "sha256": "1a857625d9743737486273c9e83d0418110e9d002aebb5c59368a37173d5a485"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/purviewdatagovernace",
+  "swaggerOutputPattern": "data-plane/Azure.Analaytics.Purview.DataQuality/{version-status}/{version}/purviewDataQuality.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-01-12-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+      "apiVersion": "2026-01-12-preview",
+      "format": "swagger-2.0",
+      "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

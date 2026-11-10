@@ -1,0 +1,68 @@
+{
+  "index": 33,
+  "slug": "033-communication-jobrouter",
+  "sourcePath": "specification/communication/data-plane/JobRouter",
+  "swaggerCandidates": [
+    {
+      "file": "specification/communication/data-plane/JobRouter/preview/2021-10-20-preview2/communicationservicejobrouter.json",
+      "apiVersion": "2021-10-20-preview2",
+      "format": "swagger-2.0",
+      "sha256": "8ed418b2862d96360a4deb3ce33ebdf37c0ca5e705210bc60789ca0e3d9af029"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/preview/2022-07-18-preview/communicationservicejobrouter.json",
+      "apiVersion": "2022-07-18-preview",
+      "format": "swagger-2.0",
+      "sha256": "1a6c28227c55ab125ade06894a1d28767228991d4f405b3c832691ca858c202b"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/preview/2024-01-18-preview/communicationservicejobrouter.json",
+      "apiVersion": "2024-01-18-preview",
+      "format": "swagger-2.0",
+      "sha256": "c06e8f55d8b7f14c5ee17d649d7127a75bc228faf23ab3cce2d5f5f03e3baae9"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/stable/2023-11-01/communicationservicejobrouter.json",
+      "apiVersion": "2023-11-01",
+      "format": "swagger-2.0",
+      "sha256": "fe2019dcc5b03fe11cbb838126dbcde02d53351ee33d1b5679f970e5a5fbb648"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/communication/data-plane/JobRouter/client.tsp",
+      "sha256": "261a544dfd23183a7c81ea0b02fd5a8ce4f1d2ea5c232fb5528268bff9948232"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/main.tsp",
+      "sha256": "c44aaaed10cf7122eaaf3692ccd841fd67d7d78a2acc884c8eb3c129f2d2cbe8"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/models.tsp",
+      "sha256": "cffce0f7de99d133bb155836022b3695e48471734d7672533fc72e41c76109d7"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/routes.tsp",
+      "sha256": "5a410ad8e68913e6f3b9ddd8ab5db6c231da6c3ff75d71d9b82a9715adee3e8e"
+    },
+    {
+      "file": "specification/communication/data-plane/JobRouter/tspconfig.yaml",
+      "sha256": "c9c9bd1d2c523c5477d2012cfcc56d69fbcc36e7df63b0958b0d115b28b57abb"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/communication/data-plane/JobRouter",
+  "swaggerOutputPattern": "{version-status}/{version}/communicationservicejobrouter.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-01-18-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/communication/data-plane/JobRouter/preview/2024-01-18-preview/communicationservicejobrouter.json",
+      "apiVersion": "2024-01-18-preview",
+      "format": "swagger-2.0",
+      "sha256": "c06e8f55d8b7f14c5ee17d649d7127a75bc228faf23ab3cce2d5f5f03e3baae9"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

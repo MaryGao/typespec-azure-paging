@@ -1,0 +1,100 @@
+{
+  "index": 21,
+  "slug": "021-cognitiveservices-languageanalyzeconversations",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/preview/2025-05-15-preview/analyzeconversations.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "d99bcea249acf0860884eef99d84ec6dfe80cc3e8dfee256a7fa9ae9ad6427c8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/preview/2025-11-15-preview/analyzeconversations.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "79233defacd8898dc47523e1003a0b3732db8b2bc4683a31d99c2600bb506296"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/stable/2022-05-01/analyzeconversations.json",
+      "apiVersion": "2022-05-01",
+      "format": "swagger-2.0",
+      "sha256": "963f66e32541bfc5cd735385844dc393c266a344868e0cdd923cc38574cf5de4"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/stable/2023-04-01/analyzeconversations.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "da94d12a9df300bbe9f9717c05a46e9fe4001cac982dda917272511c895b65c0"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/stable/2024-05-01/analyzeconversations.json",
+      "apiVersion": "2024-05-01",
+      "format": "swagger-2.0",
+      "sha256": "40b71d7c24ce9df90038952b0aeb8d6ed30fd4b72361f070f4f3c6162133c160"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/stable/2024-11-01/analyzeconversations.json",
+      "apiVersion": "2024-11-01",
+      "format": "swagger-2.0",
+      "sha256": "bb71ee6712578a3b945b85e6b123d6e2989abd0bbfc408763d3abfa190fd01e5"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/client.tsp",
+      "sha256": "74e569183f762562647cfcfb549690f1566ebb096a85296a9e6816e303685c95"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/main.tsp",
+      "sha256": "14c3c3dc63eaee39c780427042611d37133d514efd18f1709868cbd127c398c6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/common.tsp",
+      "sha256": "79f1d565d9805c737a46e53bf587192bbac5880e41b1b03413b33ef5dcd1a0da"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/common.union.tsp",
+      "sha256": "c5519115f94dfdc80d478fb75f0622b974f9e53d6c9428fe9a1428532e160e25"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/luis.tsp",
+      "sha256": "1e281daf0c531add156de5fc8739cca507b018384d1044b473257682b4606904"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/pii.tsp",
+      "sha256": "01ef72818996fd64178814ef3234e9379641317cd6a5e3d34fc2a95f2bf2d5ed"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/qna.tsp",
+      "sha256": "a54fb7a4842b65ab485a93ac6d25f4739f1b15f0abffc537fb66285ad574504c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/models/summarization.tsp",
+      "sha256": "73daef25ff72aa05e74fc65ca26603007f9b33ec57e3108eb4d6bc810f677f60"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/routes.tsp",
+      "sha256": "96545e88534c15ad931564db2090c027a76fb7d0300ae36588a0a446440b4874"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/tspconfig.yaml",
+      "sha256": "3fe4fed9708b3a269b49242d2bf81979dcafaffe29be0f1dbe6ad6c76fe2e1cf"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations",
+  "swaggerOutputPattern": "{version-status}/{version}/analyzeconversations.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-11-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversations/preview/2025-11-15-preview/analyzeconversations.json",
+      "apiVersion": "2025-11-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "79233defacd8898dc47523e1003a0b3732db8b2bc4683a31d99c2600bb506296"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

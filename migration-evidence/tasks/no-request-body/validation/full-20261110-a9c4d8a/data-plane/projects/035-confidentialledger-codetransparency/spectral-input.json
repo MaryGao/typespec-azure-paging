@@ -1,0 +1,54 @@
+{
+  "index": 35,
+  "slug": "035-confidentialledger-codetransparency",
+  "sourcePath": "specification/confidentialledger/data-plane/CodeTransparency",
+  "swaggerCandidates": [
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/preview/2024-01-11-preview/cts.json",
+      "apiVersion": "2024-01-11-preview",
+      "format": "swagger-2.0",
+      "sha256": "796718e1de363d3e6e285777bca6a8ddb44d8e6c3697dc2b08ba01b99c982920"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/preview/2025-01-31-preview/cts.json",
+      "apiVersion": "2025-01-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "736b8c4851d98816e2bf8637f3ed2444158d83ab3553ee53fc32b8e853a471ee"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/stable/2026-03-26/cts.json",
+      "apiVersion": "2026-03-26",
+      "format": "swagger-2.0",
+      "sha256": "f432c3d7f09716fa6d49b816ab437e15155406319aebf8e2f5344be6492ba093"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/client.tsp",
+      "sha256": "37c7738c2bdb04bf1b14ad1239b00c7c63173f5d94ef071cc025980d424b9cb0"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/main.tsp",
+      "sha256": "25b8370e9451b68afb2dae267b15b4eb822c86d8923f150904561e134b591e35"
+    },
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/tspconfig.yaml",
+      "sha256": "bfeb43650edadb359857ca50402592fbc31b05efc3218bc82ec6919ef7ea9364"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/confidentialledger/data-plane/CodeTransparency",
+  "swaggerOutputPattern": "{version-status}/{version}/cts.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-03-26",
+  "swaggerFiles": [
+    {
+      "file": "specification/confidentialledger/data-plane/CodeTransparency/stable/2026-03-26/cts.json",
+      "apiVersion": "2026-03-26",
+      "format": "swagger-2.0",
+      "sha256": "f432c3d7f09716fa6d49b816ab437e15155406319aebf8e2f5344be6492ba093"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

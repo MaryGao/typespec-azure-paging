@@ -1,0 +1,68 @@
+{
+  "index": 38,
+  "slug": "038-containerregistry-registry",
+  "sourcePath": "specification/containerregistry/data-plane/Registry",
+  "swaggerCandidates": [
+    {
+      "file": "specification/containerregistry/data-plane/Registry/preview/2018-08-10-preview/containerregistry.json",
+      "apiVersion": "2018-08-10-preview",
+      "format": "swagger-2.0",
+      "sha256": "7108fa6b173b1ee7d56d63e68af5801a95f65b84e070f4e6126e36f551a97ad9"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/preview/2019-07-15-preview/containerregistry.json",
+      "apiVersion": "2019-07-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "89022cd898bc34644198d5aa1c3c07456e19a6fb389a6fd1e31723f3044e6e16"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/preview/2019-08-15-preview/containerregistry.json",
+      "apiVersion": "2019-08-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "9203740b38ddcfc774b04ddc75fadcb9a75ae07a2ab7556c7fdb0ef385ed63fa"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/stable/2021-07-01/containerregistry.json",
+      "apiVersion": "2021-07-01",
+      "format": "swagger-2.0",
+      "sha256": "be283057eb09a4aab50029474d045255127057aa3474c0b0d5c9a5ce122ee5ba"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/containerregistry/data-plane/Registry/client.tsp",
+      "sha256": "d369e249ee1de24b59e2311a1652fc50deba06c2ad9a09702392ad974ae63a3e"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/main.tsp",
+      "sha256": "e32d4c061dd3a69c0978579bc16efd0b046d6bd4003a7bcce4876a74d3d3a181"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/models.tsp",
+      "sha256": "1397f01021a15ba03a4cffd13f18dd127addc63ce393db0b8e4519d5114eddeb"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/routes.tsp",
+      "sha256": "4585455dfd3b9c70ccb1e6697fc6129ad15d47832d34bb742bfdc789ee1b41b0"
+    },
+    {
+      "file": "specification/containerregistry/data-plane/Registry/tspconfig.yaml",
+      "sha256": "bbdbf1928aaa679bcaff5c04bb314f925c3e8cf66355a4d60109ebc887b4f3e1"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/containerregistry/data-plane/Registry",
+  "swaggerOutputPattern": "{version-status}/{version}/containerregistry.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2021-07-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/containerregistry/data-plane/Registry/stable/2021-07-01/containerregistry.json",
+      "apiVersion": "2021-07-01",
+      "format": "swagger-2.0",
+      "sha256": "be283057eb09a4aab50029474d045255127057aa3474c0b0d5c9a5ce122ee5ba"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

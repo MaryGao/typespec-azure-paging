@@ -1,0 +1,88 @@
+{
+  "index": 85,
+  "slug": "085-search-search",
+  "sourcePath": "specification/search/data-plane/Search",
+  "swaggerCandidates": [
+    {
+      "file": "specification/search/data-plane/Search/preview/2025-11-01-preview/search.json",
+      "apiVersion": "2025-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "2347f1ba42cb36b9585db32a6116641fe8611b6e43f87e0d0d34fc3af8f464d7"
+    },
+    {
+      "file": "specification/search/data-plane/Search/preview/2026-05-01-preview/search.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "cea672019d17aff0bd4b9ac3ae67ea29ea8fbe690c2c57f12ef1bbfd13967629"
+    },
+    {
+      "file": "specification/search/data-plane/Search/preview/2026-08-01-preview/search.json",
+      "apiVersion": "2026-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c69d8afce9b436fede234042a7f4a47c3ba1372178fa846a24d6d08fd1cdb580"
+    },
+    {
+      "file": "specification/search/data-plane/Search/stable/2026-04-01/search.json",
+      "apiVersion": "2026-04-01",
+      "format": "swagger-2.0",
+      "sha256": "c2a01d16d10c331cf412ef1021f99f77ae4440f77bd90bd344f2b101ba1f1b80"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/search/data-plane/Search/client.tsp",
+      "sha256": "5585358a4f96447a69f701c2487ac0ddc26d1ee858b59b359af31838dbd66ef6"
+    },
+    {
+      "file": "specification/search/data-plane/Search/main.tsp",
+      "sha256": "4d62aaf9ed7f7c3003d45f79d4ad04f2cc5311f87a89b6bdcd95116ba7eb90f9"
+    },
+    {
+      "file": "specification/search/data-plane/Search/models-index.tsp",
+      "sha256": "3ab599088467add8b99b378f32e15996e599cfb801fb9a64713c7b69c858fe54"
+    },
+    {
+      "file": "specification/search/data-plane/Search/models-knowledgebase.tsp",
+      "sha256": "2197e1a8ccef2ff3b21a9471f0be5a4b325e508e009b127c85d5a272b0701bdf"
+    },
+    {
+      "file": "specification/search/data-plane/Search/models-service.tsp",
+      "sha256": "a0c2411630ab6d10faed8ebf70cfebb605ebab04143af3e406970716c6d8a077"
+    },
+    {
+      "file": "specification/search/data-plane/Search/models-shared.tsp",
+      "sha256": "2d3d4bd946c1b4bbca82965e3403d0faf057ca2b3f3543c94b0c52410956069a"
+    },
+    {
+      "file": "specification/search/data-plane/Search/routes-index.tsp",
+      "sha256": "af9662d8b139d553dca3d0c00d497cffaed86f7d6fd7a905c362cbcf41dc9482"
+    },
+    {
+      "file": "specification/search/data-plane/Search/routes-knowledgebase.tsp",
+      "sha256": "59b09ea42a03a37a9db0bf347c58fe5671a40a410cc1d81ff15c4955f1305ccf"
+    },
+    {
+      "file": "specification/search/data-plane/Search/routes-service.tsp",
+      "sha256": "7d8bcedf36800ccd80510e2f040695d89df13229a134054263437a578147f6e2"
+    },
+    {
+      "file": "specification/search/data-plane/Search/tspconfig.yaml",
+      "sha256": "4c0c13f88c24cfaa3fa6b36c5b868e9a743f0718852fb81cbdce8a169413cfa7"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/search/data-plane/Search",
+  "swaggerOutputPattern": "{version-status}/{version}/search.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-08-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/search/data-plane/Search/preview/2026-08-01-preview/search.json",
+      "apiVersion": "2026-08-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c69d8afce9b436fede234042a7f4a47c3ba1372178fa846a24d6d08fd1cdb580"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

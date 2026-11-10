@@ -1,0 +1,341 @@
+{
+  "project": "specification/devcenter/data-plane/DevCenter",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/devcenter/data-plane/DevCenter/preview/2026-01-01-preview/devcenter.json",
+      "apiVersion": "2026-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "bd87f45e30bebfe75349e6c2f428026a9a8cccc39476f8d1f3bf7e25cbda9ad4",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/devboxes",
+          "verb": "get",
+          "operationId": "DevBoxes_ListAllDevBoxes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/imageBuildLogs/{imageBuildLogId}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetDevCenterImagingTaskLog",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects",
+          "verb": "get",
+          "operationId": "DevCenter_ListProjects",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}",
+          "verb": "get",
+          "operationId": "DevCenter_GetProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/approvals",
+          "verb": "get",
+          "operationId": "DevCenter_ListApprovals",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/catalogs",
+          "verb": "get",
+          "operationId": "Environments_ListCatalogsByProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/catalogs/{catalogName}",
+          "verb": "get",
+          "operationId": "Environments_GetCatalog",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/catalogs/{catalogName}/customizationTasks/{taskName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetCustomizationTaskDefinitions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/catalogs/{catalogName}/environmentDefinitions",
+          "verb": "get",
+          "operationId": "Environments_ListEnvironmentDefinitionsByCatalog",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/catalogs/{catalogName}/environmentDefinitions/{definitionName}",
+          "verb": "get",
+          "operationId": "Environments_GetEnvironmentDefinition",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/customizationTasks",
+          "verb": "get",
+          "operationId": "DevBoxes_ListCustomizationTaskDefinitionsByProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/environmentDefinitions",
+          "verb": "get",
+          "operationId": "Environments_ListEnvironmentDefinitionsByProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/environmentTypes",
+          "verb": "get",
+          "operationId": "Environments_ListEnvironmentTypes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/environmentTypes/{environmentTypeName}",
+          "verb": "get",
+          "operationId": "Environments_GetEnvironmentTypes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/environmentTypes/{environmentTypeName}/users/{userId}/abilities",
+          "verb": "get",
+          "operationId": "Environments_GetEnvironmentTypeAbilities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/environments",
+          "verb": "get",
+          "operationId": "Environments_ListEnvironments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/imageBuildLogs/{imageBuildLogId}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetImagingTaskLog",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/operationstatuses/{operationId}",
+          "verb": "get",
+          "operationId": "OperationStatuses_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/pools",
+          "verb": "get",
+          "operationId": "DevBoxes_ListPools",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/pools/{poolName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetPool",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/pools/{poolName}/schedules",
+          "verb": "get",
+          "operationId": "DevBoxes_ListSchedulesByPool",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/pools/{poolName}/schedules/{scheduleName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetScheduleByPool",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/schedules",
+          "verb": "get",
+          "operationId": "DevBoxes_ListSchedulesByProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/abilities",
+          "verb": "get",
+          "operationId": "DevCenter_GetProjectAbilities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes",
+          "verb": "get",
+          "operationId": "DevBoxes_ListDevBoxesByUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetDevBoxByUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}",
+          "verb": "delete",
+          "operationId": "DevBoxes_DeleteDevBox",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/actions",
+          "verb": "get",
+          "operationId": "DevBoxes_ListActions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/actions/{actionName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetAction",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/addons",
+          "verb": "get",
+          "operationId": "DevBoxes_ListDevBoxAddons",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/addons/{addOnName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetDevBoxAddon",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/addons/{addOnName}",
+          "verb": "delete",
+          "operationId": "DevBoxes_DeleteDevBoxAddOn",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/customizationGroups",
+          "verb": "get",
+          "operationId": "DevBoxes_ListCustomizationGroups",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/customizationGroups/{customizationGroupName}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetCustomizationGroup",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/customizationGroups/{customizationGroupName}/logs/{customizationTaskId}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetCustomizationTaskLog",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/operations",
+          "verb": "get",
+          "operationId": "DevBoxes_ListOperations",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/remoteConnection",
+          "verb": "get",
+          "operationId": "DevBoxes_GetRemoteConnection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/snapshots",
+          "verb": "get",
+          "operationId": "DevBoxes_ListSnapshots",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/snapshots/{snapshotId}",
+          "verb": "get",
+          "operationId": "DevBoxes_GetSnapshot",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments",
+          "verb": "get",
+          "operationId": "Environments_ListEnvironmentsByUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}",
+          "verb": "get",
+          "operationId": "Environments_GetEnvironmentByUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}",
+          "verb": "delete",
+          "operationId": "Environments_DeleteEnvironment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/actions",
+          "verb": "get",
+          "operationId": "Environments_ListActions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/actions/{actionName}",
+          "verb": "get",
+          "operationId": "Environments_GetAction",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/operations",
+          "verb": "get",
+          "operationId": "Environments_ListOperations",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "Environments_GetOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/operations/{operationId}/logs",
+          "verb": "get",
+          "operationId": "Environments_GetLogsByOperation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/users/{userId}/environments/{environmentName}/outputs",
+          "verb": "get",
+          "operationId": "Environments_GetOutputs",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/users/{userId}/devboxes",
+          "verb": "get",
+          "operationId": "DevBoxes_ListAllDevBoxesByUser",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

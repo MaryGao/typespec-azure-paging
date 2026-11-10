@@ -1,0 +1,156 @@
+{
+  "index": 3,
+  "slug": "003-orbital-microsoft.planetarycomputer",
+  "sourcePath": "specification/orbital/Microsoft.PlanetaryComputer",
+  "swaggerCandidates": [
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/preview/2025-04-30-preview/openapi.json",
+      "apiVersion": "2025-04-30-preview",
+      "format": "swagger-2.0",
+      "sha256": "5ac1a8504c7f6fa8d58b538ced37c2fd0ae467560f464d46fc31d1f98852188b"
+    },
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+      "apiVersion": "2026-04-15",
+      "format": "swagger-2.0",
+      "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/client.tsp",
+      "sha256": "3532082c76e7dacd02dc78ac5cb68143afb6294bc91b5e09d638b123c086808c"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/inma.tsp",
+      "sha256": "6a7a96e28422d01753a0525a41e739bfe5d90b22635350d303bcad1779fd83b6"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/main.tsp",
+      "sha256": "b6f2b90fb9fb218de2a47c88a4b8b13cdbb13a15f49b10f6a640cb1ae55e17ba"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.colormaps.tsp",
+      "sha256": "2c5793f7dcec540f2270eb74e7e96a5c5347c3041d8f64b6daef00679c815f82"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.geojson.tsp",
+      "sha256": "d57dd1f2446e52c22157267ec77d9999531083b11643b2649cd0c63e3e63a34c"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.images.tsp",
+      "sha256": "1480005722af57147e3e4132a12b282db6a677a8bcf4f02db6f113e7d5fd00bd"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.versions.tsp",
+      "sha256": "85a43c2612c41a07144b917e87fcdb222cf109899d09786e184ddab2509bbbbd"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.stac.config.tsp",
+      "sha256": "e93ef0ee60ad16083ede3ef83eb51939e53053799caaf05de9ce695ba22a50c0"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.stac.spec.tsp",
+      "sha256": "16e1ce5425a8395a04a0ed744725e9d9e1f74b241bf93c198a8a22fe786936a7"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.common.tsp",
+      "sha256": "69fdfa2988d9db266ec1faa5117cd483840cd01bec3e27c285362c32bc20ec4d"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.image-exports.tsp",
+      "sha256": "2fa35f4e07e5fe2736a7fac76d542f63601b2f53ea064da0bc44c797f3312aaf"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.items.tsp",
+      "sha256": "12cc88989b760579cb5a4f2c7a305eebc8e2d6c7d3338708bd2923bf4ea4b258"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.map-legends.tsp",
+      "sha256": "7c86410422318269d18ab5286422961c6d403c295f9858d0531a4788447f2e82"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.mosaics.tsp",
+      "sha256": "40ed3d7749aab4a96b7121d55e158a6e12bd25a664ce7d0dd8b597f139f87dd7"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.tile-matrix-sets.tsp",
+      "sha256": "a6bebc13d37272b54ba58059d237481f37204c9ce4b17b6b2306cb3ad780abfd"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/overrides.tsp",
+      "sha256": "6357547a500a5cc1b37d701b8b222a8944431dca8ca2649ed7fccd0e31bd1166"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.common.tsp",
+      "sha256": "325796d40af02685cb1af87f83fea8834fb47455425c3d87a28b88a5a4e72454"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.stac.config.tsp",
+      "sha256": "9528e2c8dcc27361aed273cc6b23535d1786614e4451ee30413c6f6cb39fac92"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.stac.spec.tsp",
+      "sha256": "c2d3ba93f0e18ec46e6e9c0147a861a40110fb2e974e193df11043572dcb0b42"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.image-exports.tsp",
+      "sha256": "cd96be1328f89631c2220f1c14a35a9258ce66751b98840bdbe517a7f5fe436c"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.items.tsp",
+      "sha256": "d34d40fff5eff940d1bd69564b39082588285b03bbc0d53dd705d1049662ddd1"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.map-legends.tsp",
+      "sha256": "771cb0155588f7fefe01a3c04890cabe317eba7bd80466511645da7699545e8b"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.collections.tsp",
+      "sha256": "e6239761f59b36f054355acfc189b2926d7a3205f0fcbcc22e57594b4a6024d9"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.items.tsp",
+      "sha256": "e5ac9c3442b592289ec67c8c5acc836bf90247a80859c872943d79df8b9a62f4"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.searches.tsp",
+      "sha256": "994ec0b2014d0b80ae3c57f6e59aec1646b93ebaa1c50e0f5bebfe5462ad728c"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaics.tsp",
+      "sha256": "c17e3c54d04f0c8dea727a48f829e3f945c893ed8bba6d6f4d14adfa59a72abb"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.tile-matrix-sets.tsp",
+      "sha256": "36041133ef38e4b3e104c8c50ee87bd40af2a5b4e9cdb39df7744eb1cc5e785d"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.tsp",
+      "sha256": "1dae8a945d144ee4973613b05f4c0474bc076421276dce484d9812d18c431b7f"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/sas.tsp",
+      "sha256": "619e0c7373dfdb2709b6ba0a8d0e958589d84bc3b0e4738c693ee7183c68b9e1"
+    },
+    {
+      "file": "specification/orbital/Microsoft.PlanetaryComputer/tspconfig.yaml",
+      "sha256": "d7faee797b1e15bcbaacb42ce4afd94baaf353868ab702ea943cf6f5fb7e818f"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/orbital",
+  "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-04-15",
+  "swaggerFiles": [
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+      "apiVersion": "2026-04-15",
+      "format": "swagger-2.0",
+      "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

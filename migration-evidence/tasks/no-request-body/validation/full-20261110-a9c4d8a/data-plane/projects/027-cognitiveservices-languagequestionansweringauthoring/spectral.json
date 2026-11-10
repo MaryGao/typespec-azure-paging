@@ -1,0 +1,119 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageQuestionAnsweringAuthoring/preview/2025-05-15-preview/questionanswering-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "7a91532cd61e0c3477183ebd2708ef809e48b725478e4a91723be571d9001ef6",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/authoring/query-knowledgebases/projects",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_ListProjects",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetProjectDetails",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}",
+          "verb": "delete",
+          "operationId": "QuestionAnsweringProjects_DeleteProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/deployments",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_ListDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/deployments/{deploymentName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetDeployStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/export/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetExportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/import/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetImportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/qnas",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetQnas",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/qnas/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetUpdateQnasStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/sources",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetSources",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/sources/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetUpdateSourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/{projectName}/synonyms",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetSynonyms",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/query-knowledgebases/projects/deletion-jobs/{jobId}",
+          "verb": "get",
+          "operationId": "QuestionAnsweringProjects_GetDeleteStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

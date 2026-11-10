@@ -1,0 +1,25 @@
+{
+  "project": "specification/machinelearningservices/data-plane/ModelDataplane",
+  "slug": "062-machinelearningservices-modeldataplane",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:32:18.484Z",
+    "finishedAt": "2026-11-10T01:32:22.672Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:32:22.679Z",
+    "finishedAt": "2026-11-10T01:32:24.561Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

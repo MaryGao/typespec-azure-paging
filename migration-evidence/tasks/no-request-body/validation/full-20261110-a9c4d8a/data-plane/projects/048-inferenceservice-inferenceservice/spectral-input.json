@@ -1,0 +1,50 @@
+{
+  "index": 48,
+  "slug": "048-inferenceservice-inferenceservice",
+  "sourcePath": "specification/inferenceservice/data-plane/InferenceService",
+  "swaggerCandidates": [
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/preview/2026-09-01-preview/inferenceservice.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "1b5637a3b3c3631b00c2c6a90af89bf1a238dc4dbc3a20a6cd8d89cac4a833dd"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/client.tsp",
+      "sha256": "ce8630ff553ce3f168461acd4d3f6bf531c1accca7066bdb99e3b33ef9972256"
+    },
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/main.tsp",
+      "sha256": "9fccadb0520745057aacd9f7641da924b67836e6c5e17c5c73e58433d5614aaa"
+    },
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/models.tsp",
+      "sha256": "5c22b9442441386db65c9b35c25854753249e44e98458ab01bb055ee34aa9b7e"
+    },
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/routes.tsp",
+      "sha256": "9e1209fe446e63c7441636fb353350b53ca94d7ac829565779aed21f188d88bc"
+    },
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/tspconfig.yaml",
+      "sha256": "c5e973019784a24e7442162df88cf2362cde61e2a7f07bd702c93c454e9f1ca2"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/inferenceservice/data-plane/InferenceService",
+  "swaggerOutputPattern": "{version-status}/{version}/inferenceservice.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-09-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/inferenceservice/data-plane/InferenceService/preview/2026-09-01-preview/inferenceservice.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "1b5637a3b3c3631b00c2c6a90af89bf1a238dc4dbc3a20a6cd8d89cac4a833dd"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

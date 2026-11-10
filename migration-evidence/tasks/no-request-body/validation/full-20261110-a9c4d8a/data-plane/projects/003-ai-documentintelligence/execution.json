@@ -1,0 +1,25 @@
+{
+  "project": "specification/ai/data-plane/DocumentIntelligence",
+  "slug": "003-ai-documentintelligence",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:25:59.915Z",
+    "finishedAt": "2026-11-10T01:26:04.453Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:26:04.455Z",
+    "finishedAt": "2026-11-10T01:26:06.384Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

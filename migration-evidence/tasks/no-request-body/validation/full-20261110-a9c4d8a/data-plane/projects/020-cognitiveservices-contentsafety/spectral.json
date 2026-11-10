@@ -1,0 +1,77 @@
+{
+  "project": "specification/cognitiveservices/data-plane/ContentSafety",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/ContentSafety/preview/2026-09-01-preview/contentsafety.json",
+      "apiVersion": "2026-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a444908a3ce589871b15ae9cb9edfe7e182ebb9a6bf080b6a988510818cd88d5",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/provenance/operations/{operationId}",
+          "verb": "get",
+          "operationId": "ContentProvenanceOperations_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/text/blocklists",
+          "verb": "get",
+          "operationId": "TextBlocklists_ListTextBlocklists",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/text/blocklists/{blocklistName}",
+          "verb": "get",
+          "operationId": "TextBlocklists_GetTextBlocklist",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/text/blocklists/{blocklistName}",
+          "verb": "delete",
+          "operationId": "TextBlocklists_DeleteTextBlocklist",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/text/blocklists/{blocklistName}/blocklistItems",
+          "verb": "get",
+          "operationId": "TextBlocklists_ListTextBlocklistItems",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/text/blocklists/{blocklistName}/blocklistItems/{blocklistItemId}",
+          "verb": "get",
+          "operationId": "TextBlocklists_GetTextBlocklistItem",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

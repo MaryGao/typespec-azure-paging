@@ -1,0 +1,25 @@
+{
+  "project": "specification/storage/data-plane/DataLakeStorage",
+  "slug": "087-storage-datalakestorage",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:35:06.358Z",
+    "finishedAt": "2026-11-10T01:35:10.923Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:35:10.933Z",
+    "finishedAt": "2026-11-10T01:35:12.883Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

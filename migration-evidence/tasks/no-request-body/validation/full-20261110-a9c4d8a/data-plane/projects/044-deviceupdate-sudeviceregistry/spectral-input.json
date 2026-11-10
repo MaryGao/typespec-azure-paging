@@ -1,0 +1,54 @@
+{
+  "index": 44,
+  "slug": "044-deviceupdate-sudeviceregistry",
+  "sourcePath": "specification/deviceupdate/data-plane/sudeviceregistry",
+  "swaggerCandidates": [
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/preview/2026-11-02-preview/softwareupdatedeviceregistry.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "1d29e03ccf4135bf3d20f3883247d24634991b8e2959a54fdaaaa0f00300f419"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/client.tsp",
+      "sha256": "98fe55d05cc7a9dcb2db7a9bead26eb1a5202bbd4f0c2434ca7721077c1293ad"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/deviceclasses.tsp",
+      "sha256": "38bd2a30256961950b1e1db40ec7de8057e802caed064d6c3e87ab18002ccf27"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/main.tsp",
+      "sha256": "d9315b840de466d702f08679023ab1ff460f62f637d1c9ededa1264aa1120c7b"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/models.tsp",
+      "sha256": "9020efcc5febdd7e7b550ec33126c6c970c1433a423c97751bfa509791327273"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/tspconfig.yaml",
+      "sha256": "a6812cbe871b741a983a92f2ac2a91b3645648faf1d7a5f2497d8329841384d8"
+    },
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/updates.tsp",
+      "sha256": "21a960ebc1481d894c1dabbc3c9430bf2191ec60d938919015dc88fa8b4662d1"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/deviceupdate/data-plane/sudeviceregistry",
+  "swaggerOutputPattern": "{version-status}/{version}/softwareupdatedeviceregistry.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-11-02-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/preview/2026-11-02-preview/softwareupdatedeviceregistry.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "1d29e03ccf4135bf3d20f3883247d24634991b8e2959a54fdaaaa0f00300f419"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

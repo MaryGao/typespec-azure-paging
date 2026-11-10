@@ -1,0 +1,74 @@
+{
+  "index": 34,
+  "slug": "034-communication-messages",
+  "sourcePath": "specification/communication/data-plane/Messages",
+  "swaggerCandidates": [
+    {
+      "file": "specification/communication/data-plane/Messages/preview/2025-01-15-preview/communicationservicesmessages.json",
+      "apiVersion": "2025-01-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "3fbfdefe0f795dae6048044d068ebbe93a3801c51efad90b648a270170d8b225"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/preview/2025-04-01-preview/communicationservicesmessages.json",
+      "apiVersion": "2025-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "1b6c73c628f1bb899151b0356ee21085dbdc47efd5af1a69d5eb3e006b58bf27"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/preview/2025-09-01-preview/communicationservicesmessages.json",
+      "apiVersion": "2025-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ec11c913a0e6540c51159749dd249a27ce377ed396cae4108041f4123a232f88"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/stable/2024-02-01/communicationservicesmessages.json",
+      "apiVersion": "2024-02-01",
+      "format": "swagger-2.0",
+      "sha256": "1640758c51e22cc1a27a46488bd80ad012dfa262ece057f3586a6bc8d2029c9c"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/stable/2024-08-30/communicationservicesmessages.json",
+      "apiVersion": "2024-08-30",
+      "format": "swagger-2.0",
+      "sha256": "105251d161a9e7bbc91cde3349dc06f5b5027803c078e91aa30dadb4505bed34"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/communication/data-plane/Messages/client.tsp",
+      "sha256": "72936c85f71dabf2489a7361cfd13b9f70325cd7955e8fef06aae0bd88df4d62"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/main.tsp",
+      "sha256": "a17ee68323b4d7aa7c3c192592d6f0207b5406edbc18cd5f33799e2556914675"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/models.tsp",
+      "sha256": "25d9e40192ad4c09f502dd87706d91d79df312d1f3e8c917294e496ae1775bfa"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/routes.tsp",
+      "sha256": "3a5e1f969ee22e271604baa676a466671e7da23aab39e93c4b0431179d7c1e78"
+    },
+    {
+      "file": "specification/communication/data-plane/Messages/tspconfig.yaml",
+      "sha256": "9bbdb7c3c9667139913d2d0db3a795dc17862141b78bba40fe910cd64f4b223c"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/communication/data-plane/Messages",
+  "swaggerOutputPattern": "{version-status}/{version}/communicationservicesmessages.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-09-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/communication/data-plane/Messages/preview/2025-09-01-preview/communicationservicesmessages.json",
+      "apiVersion": "2025-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "ec11c913a0e6540c51159749dd249a27ce377ed396cae4108041f4123a232f88"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

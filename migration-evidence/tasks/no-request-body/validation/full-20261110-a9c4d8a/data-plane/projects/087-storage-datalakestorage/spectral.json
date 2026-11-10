@@ -1,0 +1,53 @@
+{
+  "project": "specification/storage/data-plane/DataLakeStorage",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/storage/data-plane/DataLakeStorage/stable/2026-06-06/generated_datalake.json",
+      "apiVersion": "2026-06-06",
+      "format": "swagger-2.0",
+      "sha256": "ef31d958c93df512f8d5c5d045da5cbd2ae4a470f57c980891681e6452849399",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/",
+          "verb": "get",
+          "operationId": "Service_ListFileSystems",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/",
+          "verb": "delete",
+          "operationId": "FileSystem_Delete",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

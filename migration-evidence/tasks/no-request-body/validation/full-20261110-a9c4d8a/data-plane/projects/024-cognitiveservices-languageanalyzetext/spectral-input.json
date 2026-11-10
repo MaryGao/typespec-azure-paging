@@ -1,0 +1,112 @@
+{
+  "index": 24,
+  "slug": "024-cognitiveservices-languageanalyzetext",
+  "sourcePath": "specification/cognitiveservices/data-plane/LanguageAnalyzeText",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/preview/2026-05-15-preview/analyzetext.json",
+      "apiVersion": "2026-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "87a54ae2fce6a249571c043bd1da49e212318408a3304ebe00031ee2e4effefa"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/stable/2022-05-01/analyzetext.json",
+      "apiVersion": "2022-05-01",
+      "format": "swagger-2.0",
+      "sha256": "e0056eb25acc4d26835b6bcd489acbc421745f06c2c796ca53d103e2aaf5ad5c"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/stable/2023-04-01/analyzetext.json",
+      "apiVersion": "2023-04-01",
+      "format": "swagger-2.0",
+      "sha256": "a6e288d4a8b7fb09e856d527d29f460aa645c1ae4f34d8af8f6dfae03e02d8b9"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/stable/2024-11-01/analyzetext.json",
+      "apiVersion": "2024-11-01",
+      "format": "swagger-2.0",
+      "sha256": "5fb6e8580ab91b4857d8c6b3152b0cded916df2fd048e4577e2a9b299a40e194"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/stable/2025-11-01/analyzetext.json",
+      "apiVersion": "2025-11-01",
+      "format": "swagger-2.0",
+      "sha256": "dea6b4dfefd781ceeb8290b5b667a450ce3365640cd72a721f38b3d6e5212837"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/stable/2026-05-01/analyzetext.json",
+      "apiVersion": "2026-05-01",
+      "format": "swagger-2.0",
+      "sha256": "3ccf8a2e43f190998cab4ecb86bb0c97f8993e5f1064f7cb827240fb010fc8c8"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/client.tsp",
+      "sha256": "b8a4dec8b9def355792dc192b995bb38a4f1d2f08ae7b6db463faeeb8245dd77"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/main.tsp",
+      "sha256": "8371abce305931916d73df36ec2c091c1c3e5b99759d026565deac9365a546bf"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/common.models.tsp",
+      "sha256": "5859242c8d0f3197d46a98243751189dde7438a313362a4f48623f5aa9c3fc2a"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/custom.text.tsp",
+      "sha256": "9c77ca80644686178fa1676e52083968b565b75c1a9a4ef022cc4806cc0f97ef"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/entity.linking.tsp",
+      "sha256": "16157a7d2142e940ed29a94ae30ab634ae81073b6238b417698191874a9d61e7"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/entity.recognition.tsp",
+      "sha256": "81282605cf041c552f3cf8485bb13a2ace21a363478f60dacca80111b03f08a2"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/healthcare.tsp",
+      "sha256": "18e7ddd36cbd187db0c0e4a690111ec9bb6bcc64da99445512b35801e7558dbc"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/key.phrase.extraction.tsp",
+      "sha256": "39d14f8bd4149cc35be0ac1474035190cef84ae714c2a436d635f456f2e521d3"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/language.detection.tsp",
+      "sha256": "a8df3f8134ab695974c0a8ef029d374edaf7817736008374dd935fdb30192732"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/pii.entity.recognition.tsp",
+      "sha256": "8c4549a2238d8e372bc217d4c26079609ab9c07d0bdc87553c8a09d50246b0f8"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/sentiment.analysis.tsp",
+      "sha256": "3647940ff9930f5d9f2befd01407885643acd4277ed75ca120857d18160aa109"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/models/summarization.tsp",
+      "sha256": "dca062c1262e2370b309d926e211605e81b100fa0de4b86e7905a1394358832b"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/tspconfig.yaml",
+      "sha256": "3c0331eacdcae7dc30a678663c2da83c9d713ce4fa2e02e76ed04ad020e0b5a2"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/LanguageAnalyzeText",
+  "swaggerOutputPattern": "{version-status}/{version}/analyzetext.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-05-15-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeText/preview/2026-05-15-preview/analyzetext.json",
+      "apiVersion": "2026-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "87a54ae2fce6a249571c043bd1da49e212318408a3304ebe00031ee2e4effefa"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

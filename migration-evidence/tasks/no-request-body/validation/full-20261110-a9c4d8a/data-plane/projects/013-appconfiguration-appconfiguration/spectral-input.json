@@ -1,0 +1,92 @@
+{
+  "index": 13,
+  "slug": "013-appconfiguration-appconfiguration",
+  "sourcePath": "specification/appconfiguration/data-plane/AppConfiguration",
+  "swaggerCandidates": [
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/preview/2022-11-01-preview/appconfiguration.json",
+      "apiVersion": "2022-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "cf9d4ff2d2533985e18c7f34a7f5e42b2b0aeb89405a0c418e52d299a123cfa1"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/preview/2023-05-01-preview/appconfiguration.json",
+      "apiVersion": "2023-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "68fa1c52343d7dc8803c4aa0ddf36d609973f0cc6f6c8a9435d8e412f3347cf5"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/preview/2026-05-01-preview/appconfiguration.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9e79727c7d5de6400e7d07705ea0328b8ef56e5fc181507ea2b223d7d3930000"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/stable/1.0/appconfiguration.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "dc05dfdadf6060b3a08ed1e4685051546dcb3bd134b7c2a2fb387d514df0441a"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/stable/2023-10-01/appconfiguration.json",
+      "apiVersion": "2023-10-01",
+      "format": "swagger-2.0",
+      "sha256": "29c04454b98727e4b96c4d740e49f1e94aa51a20094c88a63025edd8d01cf4a6"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/stable/2023-11-01/appconfiguration.json",
+      "apiVersion": "2023-11-01",
+      "format": "swagger-2.0",
+      "sha256": "aae548164aa371cd8904fcc6242d56dcfdd098be85c436a3edfa4581f37acbbf"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/stable/2024-09-01/appconfiguration.json",
+      "apiVersion": "2024-09-01",
+      "format": "swagger-2.0",
+      "sha256": "68ab34cb5fe0e9df6892cdacfaf74f3447d5170811c5b3530dc0dd328b7811af"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/stable/2026-04-01/appconfiguration.json",
+      "apiVersion": "2026-04-01",
+      "format": "swagger-2.0",
+      "sha256": "806b202b7efbc2459f5604af9681848a091be41d07d9a5cd030dbac0ecdc4b8b"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/client.tsp",
+      "sha256": "891e96f2eb48349045c75f634ca279472e40e49505f3db088cc37c66fb1a5ea7"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/main.tsp",
+      "sha256": "747b96c99372dabd3a65f70a525f5212ed6b2724d23b944f93405cee54a228bb"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/models.tsp",
+      "sha256": "d1a4ca30960ce7b75b5ceec6f71b96c73c8f6f5c0391ab8c514b01b25316d4bc"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/routes.tsp",
+      "sha256": "02e2781d7b8b64d37cccf89e2a547de8282f67a9954bfb47d537714c773ee03a"
+    },
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/tspconfig.yaml",
+      "sha256": "3176ca97d2ff2011f991370be04844d976db0e610dc11330f25a5a78fa3f3316"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/appconfiguration/data-plane/AppConfiguration",
+  "swaggerOutputPattern": "{version-status}/{version}/appconfiguration.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-05-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/preview/2026-05-01-preview/appconfiguration.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9e79727c7d5de6400e7d07705ea0328b8ef56e5fc181507ea2b223d7d3930000"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

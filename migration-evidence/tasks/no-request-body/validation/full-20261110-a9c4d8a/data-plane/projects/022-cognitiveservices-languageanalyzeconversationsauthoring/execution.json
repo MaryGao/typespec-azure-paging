@@ -1,0 +1,25 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeConversationsAuthoring",
+  "slug": "022-cognitiveservices-languageanalyzeconversationsauthoring",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:28:03.127Z",
+    "finishedAt": "2026-11-10T01:28:07.918Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:28:07.921Z",
+    "finishedAt": "2026-11-10T01:28:09.880Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

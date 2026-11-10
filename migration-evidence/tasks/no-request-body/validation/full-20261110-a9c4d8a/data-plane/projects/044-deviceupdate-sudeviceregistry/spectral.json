@@ -1,0 +1,119 @@
+{
+  "project": "specification/deviceupdate/data-plane/sudeviceregistry",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/deviceupdate/data-plane/sudeviceregistry/preview/2026-11-02-preview/softwareupdatedeviceregistry.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "1d29e03ccf4135bf3d20f3883247d24634991b8e2959a54fdaaaa0f00300f419",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/management/deviceClasses",
+          "verb": "get",
+          "operationId": "DeviceClasses_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/management/deviceClasses/{deviceClassId}",
+          "verb": "get",
+          "operationId": "DeviceClasses_GetDeviceClass",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/management/deviceClasses/{deviceClassId}",
+          "verb": "delete",
+          "operationId": "DeviceClasses_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListUpdates",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/operations",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListOperationStatuses",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/operations/{operationId}",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListProviders",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListNames",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names/{name}/versions",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_GetUpdate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names/{name}/versions/{version}",
+          "verb": "delete",
+          "operationId": "SoftwareUpdate_DeleteUpdate",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names/{name}/versions/{version}/files",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_ListFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/updates/providers/{provider}/names/{name}/versions/{version}/files/{fileId}",
+          "verb": "get",
+          "operationId": "SoftwareUpdate_GetFile",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

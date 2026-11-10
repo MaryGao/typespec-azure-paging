@@ -1,0 +1,119 @@
+{
+  "project": "specification/apicenter/data-plane/ApiCenter",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/apicenter/data-plane/ApiCenter/preview/2024-02-01-preview/azure.apicenter.dataapi.json",
+      "apiVersion": "2024-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "4a714a4586b07a60563a802424d6be4e17ff4c621dc4f5f6f30610ef81fc9c38",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/apis",
+          "verb": "get",
+          "operationId": "Apis_ListAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/environments",
+          "verb": "get",
+          "operationId": "Environments_ListAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis",
+          "verb": "get",
+          "operationId": "Apis_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}",
+          "verb": "get",
+          "operationId": "Apis_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/deployments",
+          "verb": "get",
+          "operationId": "ApiDeployments_ListDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "ApiDeployments_GetDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/versions",
+          "verb": "get",
+          "operationId": "ApiVersions_ListVersions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/versions/{versionName}",
+          "verb": "get",
+          "operationId": "ApiVersions_GetVersion",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/versions/{versionName}/definitions",
+          "verb": "get",
+          "operationId": "ApiDefinitions_ListDefinitions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/versions/{versionName}/definitions/{definitionName}",
+          "verb": "get",
+          "operationId": "ApiDefinitions_GetDefinition",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/apis/{apiName}/versions/{versionName}/definitions/{definitionName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "ApiDefinitions_GetExportSpecificationOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/environments",
+          "verb": "get",
+          "operationId": "Environments_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/environments/{environmentName}",
+          "verb": "get",
+          "operationId": "Environments_Get",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

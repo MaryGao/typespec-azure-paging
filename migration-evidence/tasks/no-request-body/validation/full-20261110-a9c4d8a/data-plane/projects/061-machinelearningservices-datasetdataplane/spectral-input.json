@@ -1,0 +1,46 @@
+{
+  "index": 61,
+  "slug": "061-machinelearningservices-datasetdataplane",
+  "sourcePath": "specification/machinelearningservices/data-plane/DatasetDataplane",
+  "swaggerCandidates": [
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/stable/1.5.0/dataset-dataplane.json",
+      "apiVersion": "1.5.0",
+      "format": "swagger-2.0",
+      "sha256": "e80c4f05a29bb8fdd70a50296ad7586b9708574de2b5e2c9f2bcdcba10c817ce"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/main.tsp",
+      "sha256": "334a572f6b0b40a50cfa7f5c9fcd8cfe484c5591bdb7393f4c3b609b7a4491e1"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/models.tsp",
+      "sha256": "07d2a64e911e8f01cbf98aabed8aa00cf33df9decec76315fd87617f1683f534"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/routes.tsp",
+      "sha256": "d108fb1b3791a19563fb32c2a7cfa39311054d64002cae0b3878d02af2cfd93f"
+    },
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/tspconfig.yaml",
+      "sha256": "5142300994884572caf9118158b55d59c7b7e94b1b4387839e52c936a8086557"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/machinelearningservices/data-plane/DatasetDataplane",
+  "swaggerOutputPattern": "{version-status}/{version}/dataset-dataplane.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "1.5.0",
+  "swaggerFiles": [
+    {
+      "file": "specification/machinelearningservices/data-plane/DatasetDataplane/stable/1.5.0/dataset-dataplane.json",
+      "apiVersion": "1.5.0",
+      "format": "swagger-2.0",
+      "sha256": "e80c4f05a29bb8fdd70a50296ad7586b9708574de2b5e2c9f2bcdcba10c817ce"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

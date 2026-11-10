@@ -1,0 +1,713 @@
+{
+  "project": "specification/orbital/Microsoft.PlanetaryComputer",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+      "apiVersion": "2026-04-15",
+      "format": "swagger-2.0",
+      "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/data/legend/classmap/{classmapName}",
+          "verb": "get",
+          "operationId": "MapsClassMapLegends_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/legend/colormap/{colorMapName}",
+          "verb": "get",
+          "operationId": "MapsLegends_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/legend/interval/{classmapName}",
+          "verb": "get",
+          "operationId": "MapsIntervalLegends_GetByClassMapName",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/{tileMatrixSetId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicCollectionsWmtsTileMatrixSets_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/{tileMatrixSetId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileMatrixSetsTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicCollectionsWmts_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/bbox/{minx},{miny},{maxx},{maxy}.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsBbox_GetCroppedToBoundingBox",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/bbox/{minx},{miny},{maxx},{maxy}/{width}x{height}.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/bbox/{minx},{miny},{maxx},{maxy}/assets",
+          "verb": "get",
+          "operationId": "MosaicCollectionsAssetsForBbox_GetBboxAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/info",
+          "verb": "get",
+          "operationId": "MosaicCollectionsInfo_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/{tileMatrixSetId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicItemsWmtsTileMatrixSets_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/{tileMatrixSetId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicItemsTileMatrixSetsTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicItemsWmts_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/asset_statistics",
+          "verb": "get",
+          "operationId": "MosaicItemsAssetStatistics_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/assets",
+          "verb": "get",
+          "operationId": "MosaicItemsAvailableAssets_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/bbox/{minx},{miny},{maxx},{maxy}.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsBbox_GetCroppedToBoundingBox",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/bbox/{minx},{miny},{maxx},{maxy}/{width}x{height}.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/bounds",
+          "verb": "get",
+          "operationId": "MosaicItemsBounds_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/info",
+          "verb": "get",
+          "operationId": "MosaicItemsInfo_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/info.geojson",
+          "verb": "get",
+          "operationId": "MosaicItemsInfoGeoJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/point/{longitude},{latitude}",
+          "verb": "get",
+          "operationId": "MosaicItemsPoint_GetPoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/preview",
+          "verb": "get",
+          "operationId": "MosaicItemsPreview_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/preview.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsPreviewFormat_GetFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/statistics",
+          "verb": "get",
+          "operationId": "MosaicItemsStatistics_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicItemsTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles",
+          "verb": "get",
+          "operationId": "MosaicItemsTileSetList_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{tileMatrixSetId}",
+          "verb": "get",
+          "operationId": "MosaicItemsTileSetMetadata_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicItemsTilesPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsTilesFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsTilesScaleByFormat_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicItemsTilesScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicItemsTileMatrixSetsPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsTileMatrixSetsFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicItemsTileMatrixSetsScaleByFormat_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/items/{itemId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicItemsTileMatrixSetsScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/point/{longitude},{latitude}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsPoint_GetPoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/point/{longitude},{latitude}/assets",
+          "verb": "get",
+          "operationId": "MosaicCollectionsPointAssets_GetPointAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileSetList_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileSetMetadata_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTiles_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTilesPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTilesFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTilesScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileMatrixSets_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileMatrixSetsPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileMatrixSetsFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicCollectionsTileMatrixSetsScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}/assets",
+          "verb": "get",
+          "operationId": "MosaicCollectionsAssetsForTileMatrixSets_GetZxyAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/collections/{collectionId}/tiles/{z}/{x}/{y}/assets",
+          "verb": "get",
+          "operationId": "MosaicCollectionsAssetsForTiles_GetZxyAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/{tileMatrixSetId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicSearchesWmtsTileMatrixSets_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/{tileMatrixSetId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileMatrixSetsTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/WMTSCapabilities.xml",
+          "verb": "get",
+          "operationId": "MosaicSearchesWmts_GetCapabilitiesXml",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/bbox/{minx},{miny},{maxx},{maxy}.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesBbox_GetCroppedToBoundingBox",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/bbox/{minx},{miny},{maxx},{maxy}/{width}x{height}.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesBboxWithDimensions_GetCroppedToBoundingBoxWidthByHeight",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/bbox/{minx},{miny},{maxx},{maxy}/assets",
+          "verb": "get",
+          "operationId": "MosaicSearchesAssetsForBbox_GetBboxAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/info",
+          "verb": "get",
+          "operationId": "MosaicSearchesInfoSearch_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/point/{longitude},{latitude}",
+          "verb": "get",
+          "operationId": "MosaicSearchesPoint_GetPoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/point/{longitude},{latitude}/assets",
+          "verb": "get",
+          "operationId": "MosaicSearchesPointWithAssets_GetPointAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tilejson.json",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileJson_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileSetList_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileSetMetadata_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTilesPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTilesFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicSearchesTilesScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTiles_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileMatrixSets_GetZxyScaleByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileMatrixSetsPlain_GetZxy",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}.{format}",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileMatrixSetsFormat_GetZxyByFormat",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}@{scale}x",
+          "verb": "get",
+          "operationId": "MosaicSearchesTileMatrixSetsScale_GetZxyByScale",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{tileMatrixSetId}/{z}/{x}/{y}/assets",
+          "verb": "get",
+          "operationId": "MosaicSearchesAssetsForTileMatrixSets_GetZxyAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/mosaic/searches/{searchId}/tiles/{z}/{x}/{y}/assets",
+          "verb": "get",
+          "operationId": "MosaicSearchesAssetsForTiles_GetZxyAssets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/tile-matrix-sets",
+          "verb": "get",
+          "operationId": "TileMatrixList_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data/tile-matrix-sets/{tileMatrixSetId}",
+          "verb": "get",
+          "operationId": "TileMatrixDefinitions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/collections/{collectionId}/ingestions",
+          "verb": "get",
+          "operationId": "Ingestions_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/collections/{collectionId}/ingestions/{ingestionId}",
+          "verb": "get",
+          "operationId": "Ingestions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/collections/{collectionId}/ingestions/{ingestionId}",
+          "verb": "delete",
+          "operationId": "Ingestions_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/collections/{collectionId}/ingestions/{ingestionId}/runs",
+          "verb": "get",
+          "operationId": "IngestionRuns_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/collections/{collectionId}/ingestions/{ingestionId}/runs/{runId}",
+          "verb": "get",
+          "operationId": "IngestionRuns_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/ingestion-sources",
+          "verb": "get",
+          "operationId": "IngestionSources_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/ingestion-sources/{id}",
+          "verb": "get",
+          "operationId": "IngestionSources_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/ingestion-sources/{id}",
+          "verb": "delete",
+          "operationId": "IngestionSources_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/ingestion-sources/managed-identities",
+          "verb": "get",
+          "operationId": "IngestionSources_ListManagedIdentities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/operations",
+          "verb": "get",
+          "operationId": "IngestionOperations_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/operations",
+          "verb": "delete",
+          "operationId": "IngestionOperations_DeleteAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/operations/{operationId}",
+          "verb": "get",
+          "operationId": "IngestionOperations_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/inma/operations/{operationId}",
+          "verb": "delete",
+          "operationId": "IngestionOperations_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/sas/sign",
+          "verb": "get",
+          "operationId": "Sas_GetSign",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/sas/token/{collectionId}",
+          "verb": "get",
+          "operationId": "Sas_GetToken",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac",
+          "verb": "get",
+          "operationId": "StacLandingPages_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections",
+          "verb": "get",
+          "operationId": "StacCollections_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}",
+          "verb": "get",
+          "operationId": "StacCollections_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}",
+          "verb": "delete",
+          "operationId": "StacCollections_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/assets/{assetId}",
+          "verb": "delete",
+          "operationId": "StacCollectionAssets_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations",
+          "verb": "get",
+          "operationId": "StacCollectionConfig_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/mosaics",
+          "verb": "get",
+          "operationId": "StacCollectionMosaics_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/mosaics/{mosaicId}",
+          "verb": "get",
+          "operationId": "StacCollectionMosaics_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/mosaics/{mosaicId}",
+          "verb": "delete",
+          "operationId": "StacCollectionMosaics_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/partition-type",
+          "verb": "get",
+          "operationId": "StacCollectionPartitionTypes_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/render-options",
+          "verb": "get",
+          "operationId": "StacCollectionRenderOptions_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/render-options/{renderOptionId}",
+          "verb": "get",
+          "operationId": "StacCollectionRenderOptions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/render-options/{renderOptionId}",
+          "verb": "delete",
+          "operationId": "StacCollectionRenderOptions_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/configurations/tile-settings",
+          "verb": "get",
+          "operationId": "StacCollectionTileSettings_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/items",
+          "verb": "get",
+          "operationId": "StacItems_GetFeatures",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/items/{itemId}",
+          "verb": "get",
+          "operationId": "StacItems_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/items/{itemId}",
+          "verb": "delete",
+          "operationId": "StacItems_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/queryables",
+          "verb": "get",
+          "operationId": "StacQueryables_GetAllByCollection",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/queryables/{queryableName}",
+          "verb": "delete",
+          "operationId": "StacQueryables_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/collections/{collectionId}/thumbnail",
+          "verb": "get",
+          "operationId": "StacCollectionThumbnails_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/conformance",
+          "verb": "get",
+          "operationId": "StacConformanceClass_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/queryables",
+          "verb": "get",
+          "operationId": "StacQueryables_GetAll",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/stac/search",
+          "verb": "get",
+          "operationId": "StacSearch_Get",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

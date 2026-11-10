@@ -1,0 +1,110 @@
+{
+  "index": 58,
+  "slug": "058-loadtestservice-loadtesting",
+  "sourcePath": "specification/loadtestservice/data-plane/loadtesting",
+  "swaggerCandidates": [
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2023-04-01-preview/loadtestservice.json",
+      "apiVersion": "2023-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "d7648b091eb521f9fa0f4065bffff935747f6e382dbfa80b781e65aea6d09357"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2024-03-01-preview/loadtestservice.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "cb73c24a532030ed695856dbc205792b475bbddcb5b727179541c9429ce9861a"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2024-05-01-preview/loadtestservice.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "778cfdeae65d8c6283ea7363fc0a2b3233001787ddb6bb6a45bfaeb53eb71270"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2024-07-01-preview/loadtestservice.json",
+      "apiVersion": "2024-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c5851e131675cf9d332959a2414cbe6a1f89ad87dbfdb91315a681762df8aae3"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2024-12-01-preview/loadtestservice.json",
+      "apiVersion": "2024-12-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "66a4a1cfc3c620d6fabd2ed2a413c56f72fbfe92f7df455d1bde483c75521125"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2025-03-01-preview/loadtestservice.json",
+      "apiVersion": "2025-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b15721d91722152cb31f4ddcca3b2b7ebbe7a38923a14c34b3e166a9765f8b70"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/preview/2025-11-01-preview/loadtestservice.json",
+      "apiVersion": "2025-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "85cf9b10e4983881919c84e720cb0650a03154017aa0776df45ec322e7c13b7a"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/stable/2022-11-01/loadtestservice.json",
+      "apiVersion": "2022-11-01",
+      "format": "swagger-2.0",
+      "sha256": "7ae93f3cfe21f94de77ed7a1d1c455d8af9348596da201a147e2607d19543fb9"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/stable/2026-04-01/loadtestservice.json",
+      "apiVersion": "2026-04-01",
+      "format": "swagger-2.0",
+      "sha256": "a39805b6167f7d2244faaea2d109fc7488bc56724820124586f5638a88f652f3"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/client.tsp",
+      "sha256": "fb8ea76a99a69f91331a436c7b28349b679f866adc25007e6ee3576cdaa5a115"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/main.tsp",
+      "sha256": "049bf667e56d00c5d533ea98501913988df0fe8733d236119411a0e8a16e63e0"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/models.notificationrule.tsp",
+      "sha256": "41fe57f2dcb85d5b27db5ca108c8b077dc2bb4ed4b24e1fe4add6fd9dbb53f00"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/models.testprofile.tsp",
+      "sha256": "a0ecbcee55db9d1af1c215877d5bf29d3c2b3065f6b29c1dd3ec9577dfd67ada"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/models.trigger.tsp",
+      "sha256": "9c15348beb67c5e59ccd0bfe6f81a0e3d5906fbaeb4ffcc3e6847cd4142a5645"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/models.tsp",
+      "sha256": "fc824f7913dbb27d6a34e1b18b0e17a7961352814027a2d87cd5796484557c95"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/routes.tsp",
+      "sha256": "8a06e8d03849828531de7cfd32b5e64d603ef3ad7bfc9dff687fedd4895fed07"
+    },
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/tspconfig.yaml",
+      "sha256": "9e00eb8b67a1a6d6b548149c681047ab22e3fa8524c1d11424e8a0573621cce8"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/loadtestservice/data-plane/loadtesting",
+  "swaggerOutputPattern": "{version-status}/{version}/loadtestservice.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-04-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/loadtestservice/data-plane/loadtesting/stable/2026-04-01/loadtestservice.json",
+      "apiVersion": "2026-04-01",
+      "format": "swagger-2.0",
+      "sha256": "a39805b6167f7d2244faaea2d109fc7488bc56724820124586f5638a88f652f3"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

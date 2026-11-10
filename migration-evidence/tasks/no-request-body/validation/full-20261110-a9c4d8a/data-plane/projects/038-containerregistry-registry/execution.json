@@ -1,0 +1,25 @@
+{
+  "project": "specification/containerregistry/data-plane/Registry",
+  "slug": "038-containerregistry-registry",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:29:45.721Z",
+    "finishedAt": "2026-11-10T01:29:49.829Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:29:49.834Z",
+    "finishedAt": "2026-11-10T01:29:51.733Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

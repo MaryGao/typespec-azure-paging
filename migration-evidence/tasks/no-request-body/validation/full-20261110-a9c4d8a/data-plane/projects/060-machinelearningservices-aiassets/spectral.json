@@ -1,0 +1,107 @@
+{
+  "project": "specification/machinelearningservices/data-plane/AIAssets",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/machinelearningservices/data-plane/AIAssets/preview/2024-05-01-preview/azure-ai-assets.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "c247697f147aeefca96b5659797addd7a98e732ab3e0b6083c57c8431457277a",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/registries/{registryName}/deploymenttemplates",
+          "verb": "get",
+          "operationId": "DeploymentTemplates_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/registries/{registryName}/deploymenttemplates/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "DeploymentTemplates_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/registries/{registryName}/deploymenttemplates/{name}/versions/{version}",
+          "verb": "delete",
+          "operationId": "DeploymentTemplates_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/indexes",
+          "verb": "get",
+          "operationId": "Indexes_ListLatest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/indexes/{name}",
+          "verb": "get",
+          "operationId": "Indexes_GetLatest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/indexes/{name}/versions",
+          "verb": "get",
+          "operationId": "Indexes_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/indexes/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "Indexes_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/prompts",
+          "verb": "get",
+          "operationId": "Prompts_ListLatest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/prompts/{name}",
+          "verb": "get",
+          "operationId": "Prompts_GetLatest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/prompts/{name}/versions",
+          "verb": "get",
+          "operationId": "Prompts_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workspaces/{workspaceName}/prompts/{name}/versions/{version}",
+          "verb": "get",
+          "operationId": "Prompts_Get",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

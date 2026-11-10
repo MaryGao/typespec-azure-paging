@@ -1,0 +1,80 @@
+{
+  "index": 83,
+  "slug": "083-riskiq-easm",
+  "sourcePath": "specification/riskiq/data-plane/Easm",
+  "swaggerCandidates": [
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2022-04-01-preview/easm.json",
+      "apiVersion": "2022-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "37b2daa23773ad1eb5cf7b422fe0abaec124e3efaba16074abec034d240d11ea"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2022-09-01-preview/easm.json",
+      "apiVersion": "2022-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "540f9ccc212cc2a4056acb8aae54e1ff836dd6c3ef3565a1222bd6e81f95107b"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2022-11-01-preview/easm.json",
+      "apiVersion": "2022-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b705c470772a8b51b1aa235d62d0d141a0e8b74eb2e6b87830b31ec073177203"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2023-03-01-preview/easm.json",
+      "apiVersion": "2023-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "6ed0f7eb589257971901f436b8ca6f6f38954b7848155ae8f2820dd9667d6a81"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2024-03-01-preview/easm.json",
+      "apiVersion": "2024-03-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "7440dd6018dd062567ef2bd91ce201a99de4c633fe85794eae947e74115f048c"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2024-10-01-preview/easm.json",
+      "apiVersion": "2024-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5865b52c51a3e69212c8905847c0a8d4634be1df8e60f259f2d7db68bc551335"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/riskiq/data-plane/Easm/client.tsp",
+      "sha256": "682c7501d453218b935773d6f5afb42884f600bdb34db77bcf1aa85a3a39b98e"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/main.tsp",
+      "sha256": "5bbd764b5d7c11453532625e938fc02bf7b0e75b2eb4c91924d12cb3ab7c8802"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/models.tsp",
+      "sha256": "51dbc0eb8e316df18e9cb44b7749f3a8a5529e5b09410ae3cf8d926043e821a3"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/routes.tsp",
+      "sha256": "b8dc9d380972d84f841dfd9d3eaed9612aac404ec672410a119afbaf79d5fbb0"
+    },
+    {
+      "file": "specification/riskiq/data-plane/Easm/tspconfig.yaml",
+      "sha256": "ca0a4368d2c4a4e1484b73ef2d1842c353db396690b8103cb36e40d1fef5df9b"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/riskiq/data-plane/Easm",
+  "swaggerOutputPattern": "{version-status}/{version}/easm.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-10-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/riskiq/data-plane/Easm/preview/2024-10-01-preview/easm.json",
+      "apiVersion": "2024-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "5865b52c51a3e69212c8905847c0a8d4634be1df8e60f259f2d7db68bc551335"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

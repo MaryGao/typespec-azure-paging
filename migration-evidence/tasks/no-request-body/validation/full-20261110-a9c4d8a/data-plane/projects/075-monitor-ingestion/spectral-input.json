@@ -1,0 +1,52 @@
+{
+  "index": 75,
+  "slug": "075-monitor-ingestion",
+  "sourcePath": "specification/monitor/data-plane/Ingestion",
+  "swaggerCandidates": [
+    {
+      "file": "specification/monitor/data-plane/Ingestion/preview/2021-11-01-preview/DataCollectionRules.json",
+      "apiVersion": "2021-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "748887c86d468c75308840a8626e713497555ca89a1851e20ae4a9f85e644b6e"
+    },
+    {
+      "file": "specification/monitor/data-plane/Ingestion/stable/2023-01-01/DataCollectionRules.json",
+      "apiVersion": "2023-01-01",
+      "format": "swagger-2.0",
+      "sha256": "e1f8e314d713683aa38aa299f254c5bb3da29ce7bdc34d5a67daa63d4c9dd658"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/monitor/data-plane/Ingestion/client.tsp",
+      "sha256": "6871fcc91ae471fa2c7590b08be3301e4e7ade80d9b7b42e801a1154a613a6ad"
+    },
+    {
+      "file": "specification/monitor/data-plane/Ingestion/main.tsp",
+      "sha256": "3c1374752531f1e98ac15d7085caf74abf20c723cfca22c80f5bdb9c93c0279f"
+    },
+    {
+      "file": "specification/monitor/data-plane/Ingestion/routes.tsp",
+      "sha256": "4e0100eb97dfcb234bbf51ff8be651791347af6a4d6f7859108bff4bc841d305"
+    },
+    {
+      "file": "specification/monitor/data-plane/Ingestion/tspconfig.yaml",
+      "sha256": "a330a1f1f3fb7928670b9f991311416d84c883e8e0d43397559d5ea506bbe067"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/monitor/data-plane/Ingestion",
+  "swaggerOutputPattern": "{version-status}/{version}/DataCollectionRules.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2023-01-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/monitor/data-plane/Ingestion/stable/2023-01-01/DataCollectionRules.json",
+      "apiVersion": "2023-01-01",
+      "format": "swagger-2.0",
+      "sha256": "e1f8e314d713683aa38aa299f254c5bb3da29ce7bdc34d5a67daa63d4c9dd658"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

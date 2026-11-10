@@ -1,0 +1,263 @@
+{
+  "project": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+      "apiVersion": "2026-01-12-preview",
+      "format": "swagger-2.0",
+      "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/bulk-asset-metadata",
+          "verb": "get",
+          "operationId": "GetBulkAssetMetadata",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/alerts",
+          "verb": "get",
+          "operationId": "GetAlerts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/alerts/{alertId}",
+          "verb": "get",
+          "operationId": "GetAlert",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/alerts/{alertId}",
+          "verb": "delete",
+          "operationId": "DeleteAlert",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/asset-scores",
+          "verb": "get",
+          "operationId": "GetAssetScoresForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/assets",
+          "verb": "get",
+          "operationId": "GetDQAssetsPaginationForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/assets/{assetId}",
+          "verb": "get",
+          "operationId": "GetDQAssetForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/assets/{assetId}",
+          "verb": "delete",
+          "operationId": "DeleteDQAssetForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/observations/{observationId}",
+          "verb": "delete",
+          "operationId": "DeleteObservationForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/profiles/{profileRunId}",
+          "verb": "delete",
+          "operationId": "DeleteProfileRunForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/rules",
+          "verb": "get",
+          "operationId": "GetRulesForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/rules/{ruleId}",
+          "verb": "get",
+          "operationId": "GetRuleForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/rules/{ruleId}",
+          "verb": "delete",
+          "operationId": "DeleteRuleForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/runs",
+          "verb": "get",
+          "operationId": "GetRunsForAssetForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/scoped-asset-metadata",
+          "verb": "get",
+          "operationId": "GetScopedAssetMetaDataForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{dataAssetId}/scoped-asset-metadata",
+          "verb": "delete",
+          "operationId": "DeleteScopedAssetMetaDataForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-assets/{assetId}/snapshots",
+          "verb": "get",
+          "operationId": "GetLatestSnapshotForAssetDQ",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/observations/{observationId}",
+          "verb": "delete",
+          "operationId": "DeleteObservation",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/profiles/{profileRunId}",
+          "verb": "delete",
+          "operationId": "DeleteProfileRun",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/rule-opinions/{ruleId}",
+          "verb": "get",
+          "operationId": "OpinionTrend",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/rules",
+          "verb": "get",
+          "operationId": "GetRules",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/rules/{ruleId}",
+          "verb": "get",
+          "operationId": "GetRule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/rules/{ruleId}",
+          "verb": "delete",
+          "operationId": "DeleteRule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/runs",
+          "verb": "get",
+          "operationId": "GetRunsForAsset",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/scoped-asset-metadata",
+          "verb": "get",
+          "operationId": "GetScopedAssetMetaData",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{dataAssetId}/scoped-asset-metadata",
+          "verb": "delete",
+          "operationId": "DeleteScopedAssetMetaData",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-products/{dataProductId}/data-assets/{assetId}/snapshots",
+          "verb": "get",
+          "operationId": "GetLatestSnapshot",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-sources",
+          "verb": "get",
+          "operationId": "GetDataSources",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-sources/{dataSourceId}",
+          "verb": "get",
+          "operationId": "GetDataSource",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/data-sources/{dataSourceId}",
+          "verb": "delete",
+          "operationId": "DeleteDataSource",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/runs/{runId}",
+          "verb": "get",
+          "operationId": "GetRunStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/schedules",
+          "verb": "get",
+          "operationId": "GetSchedules",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/schedules/{scheduleId}",
+          "verb": "get",
+          "operationId": "GetSchedule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/schedules/{scheduleId}",
+          "verb": "delete",
+          "operationId": "DeleteSchedule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/schedules/{scheduleId}/scans/{scanId}",
+          "verb": "get",
+          "operationId": "ScheduleScanByScanId",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/business-domains/{businessDomainId}/schedules/{scheduleId}/scans/{scanId}/runs",
+          "verb": "get",
+          "operationId": "GetRunsForScheduleScan",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/data-assets/{dataAssetId}/asset-metadata",
+          "verb": "get",
+          "operationId": "GetObserver",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

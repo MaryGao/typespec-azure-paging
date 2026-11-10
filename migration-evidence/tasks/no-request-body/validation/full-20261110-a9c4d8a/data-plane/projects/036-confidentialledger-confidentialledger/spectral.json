@@ -1,0 +1,185 @@
+{
+  "project": "specification/confidentialledger/data-plane/ConfidentialLedger",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/confidentialledger/data-plane/ConfidentialLedger/preview/2026-07-31-preview/confidentialledger.json",
+      "apiVersion": "2026-07-31-preview",
+      "format": "swagger-2.0",
+      "sha256": "4de6ebd965aaebfcf7b9aa706f087d3be9d32787849e9a7d763c27677173dab8",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/app/collections",
+          "verb": "get",
+          "operationId": "ListCollections",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/collections/tags",
+          "verb": "get",
+          "operationId": "ListTags",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/enclaveQuotes",
+          "verb": "get",
+          "operationId": "GetEnclaveQuotes",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/governance/constitution",
+          "verb": "get",
+          "operationId": "GetConstitution",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/governance/members",
+          "verb": "get",
+          "operationId": "ListConsortiumMembers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/ledgerUsers",
+          "verb": "get",
+          "operationId": "ListLedgerUsers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/ledgerUsers/{userId}",
+          "verb": "get",
+          "operationId": "GetLedgerUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/ledgerUsers/{userId}",
+          "verb": "delete",
+          "operationId": "DeleteLedgerUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/roles",
+          "verb": "get",
+          "operationId": "GetUserDefinedRole",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/roles",
+          "verb": "delete",
+          "operationId": "DeleteUserDefinedRole",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/transactions",
+          "verb": "get",
+          "operationId": "ListLedgerEntries",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/transactions/{transactionId}",
+          "verb": "get",
+          "operationId": "GetLedgerEntry",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/transactions/{transactionId}/receipt",
+          "verb": "get",
+          "operationId": "GetReceipt",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/transactions/{transactionId}/status",
+          "verb": "get",
+          "operationId": "GetTransactionStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/transactions/current",
+          "verb": "get",
+          "operationId": "GetCurrentLedgerEntry",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedEndpoints",
+          "verb": "get",
+          "operationId": "GetUserDefinedEndpoint",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedEndpoints/modules",
+          "verb": "get",
+          "operationId": "GetUserDefinedEndpointsModule",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedEndpoints/runtimeOptions",
+          "verb": "get",
+          "operationId": "GetRuntimeOptions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedFunctions",
+          "verb": "get",
+          "operationId": "ListUserDefinedFunctions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedFunctions/{functionId}",
+          "verb": "get",
+          "operationId": "GetUserDefinedFunction",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/userDefinedFunctions/{functionId}",
+          "verb": "delete",
+          "operationId": "DeleteUserDefinedFunction",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/users",
+          "verb": "get",
+          "operationId": "ListUsers",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/users/{userId}",
+          "verb": "get",
+          "operationId": "GetUser",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/app/users/{userId}",
+          "verb": "delete",
+          "operationId": "DeleteUser",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

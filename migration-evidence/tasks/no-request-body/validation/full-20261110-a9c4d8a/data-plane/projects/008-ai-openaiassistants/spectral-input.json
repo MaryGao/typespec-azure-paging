@@ -1,0 +1,200 @@
+{
+  "index": 8,
+  "slug": "008-ai-openaiassistants",
+  "sourcePath": "specification/ai/data-plane/OpenAIAssistants",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2024-02-15-preview/assistants_generated.json",
+      "apiVersion": "2024-02-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "8cce2c5298939420ad9f6ea33709db1fcb2b4a0fd6fc7a1105a3e0d1fe6736aa"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2024-05-01-preview/assistants_generated.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "56a1ffd6aa936355ca9b84d4299f5022c1f3c0f99cfb50d4b223ae87925105dd"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2024-07-01-preview/assistants_generated.json",
+      "apiVersion": "2024-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "3fa42e6513dbee18625206e1c331d1fa613c66d7c68c97fcd0b26ee92943ad85"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2024-09-01-preview/assistants_generated.json",
+      "apiVersion": "2024-09-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "815de812f75325990e7f9bdf3c244e7e364963aa26e18e0323ee3cfd13b221b0"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2024-10-01-preview/assistants_generated.json",
+      "apiVersion": "2024-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a5b49342f8c74e31289c509dad71e3e505b4f979be51e7b8139ce4cc9b9427f6"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2025-01-01-preview/assistants_generated.json",
+      "apiVersion": "2025-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "453a64f820f0b71cd35c25492dda40cd5c3a6f293c263a7e033db93309487970"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/assistants/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/assistants/models.tsp",
+      "sha256": "ef899e8a6bcc084ac7b1840321b7b6781558417bc05c78c76da1654a24878c0f"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/assistants/routes.tsp",
+      "sha256": "f86f6842ecd889a02217f0c8bd390adf1561eb9df3128125b967f751a57f26a2"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/client.tsp",
+      "sha256": "26c87c8d0a08ce464ef4899f398466388410ecc702d5b0c7cd9c38fdd29aa7e9"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/common/models.tsp",
+      "sha256": "74048781198334abb084122acec49103cbc36fffe5217472aecc99c6588ba781"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/files/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/files/models.tsp",
+      "sha256": "c4dddc0f5cc1ea05d96425675ab4f40256407d70ed72e5ae2e8591dca0b04357"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/files/routes.tsp",
+      "sha256": "c8cf52c873bcde17b74c18563d1da20ae0d40d4f3a67851d2967d9ae16d63715"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/main.tsp",
+      "sha256": "26be948f72b83dd4d1166bb6e14ba687566043a381323bbdba8a816d5255b09f"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/messages/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/messages/models.tsp",
+      "sha256": "135d2ab3a79141bf895a325aa0aec0186a7fb96845f10ec39f6f55dbc25f6293"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/messages/routes.tsp",
+      "sha256": "fc8a778a8c5fa523850845c35ff8f1648c66354ae8b567dcd726d441966bf95d"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/run_steps/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/run_steps/models.tsp",
+      "sha256": "f2b606ebf33eccc961a832897c65e9b29c99764503d3db8f93245a37f0aab5ce"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/run_steps/routes.tsp",
+      "sha256": "2cc2fcb3f49388f2403ad1337d44a27a191f7a33910043b5b17f25296c0c4bfe"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/runs/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/runs/models.tsp",
+      "sha256": "40ae5eef1b88f08ebd58aeda6544f5cb23b23eba90828dbdbb98d0d6c9b0235a"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/runs/routes.tsp",
+      "sha256": "56e4854896892f2cb9660b0c1bede821baff5a6c51054bd306704ad81984a77e"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/streaming/events.tsp",
+      "sha256": "2433991f8eb4e33156d8299b49a24e8b255a52dbbe5f0c16b96d83cdd358f09b"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/threads/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/threads/models.tsp",
+      "sha256": "7af0afa42498c3bc67cf229a5af8973c8debdd2192a659608243784a8ce27b0e"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/threads/routes.tsp",
+      "sha256": "23871dd986534866b97e6ec1fc4b201284ce79c93a71f40017bee4e4d61a9866"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/tools/models.tsp",
+      "sha256": "d720a4554feea0422e5d30fbac7008761595b3d1bcd290e46b2a6d6f89de3392"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/tools/tool_resources.tsp",
+      "sha256": "805e3f3f784d3bee0a503bba1909c42b59f8f7ee42f2697a4070ac4f66054d56"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/tspconfig.yaml",
+      "sha256": "174385407b8bb0799a7087bc32f1aded0d6ef2bf9cb15fbb90cfa952f6361941"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/common/main.tsp",
+      "sha256": "afe1b53e8049535ba71d511debe1c7eeee595cf3906f685b84e82e46138e33eb"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/file_batches/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/file_batches/models.tsp",
+      "sha256": "0244af6f589aba143d82aa6ed9fe37956902b439832efe631f565bc87b3005c2"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/file_batches/routes.tsp",
+      "sha256": "f3d0ca5c05012f77a907cd8ceed6a4fc7e6561b993374d77ccef6e715b84637b"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/files/main.tsp",
+      "sha256": "a1ab812cc56e19aef01c1ade127d5358355225cea951e2d2e7ec3f3e3f5aa2a8"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/files/models.tsp",
+      "sha256": "258879e3bc7def5aab9c0a917f37c251585d0af010d49c05eb48dc3b6139d7bd"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/files/routes.tsp",
+      "sha256": "82404dd82ebe29d483c5cb5eb604ce4831baaa6739ff9074fd364734d839a67b"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/main.tsp",
+      "sha256": "899eca3ed47c4db79e1eeacde836dcbc7969fbae3aca88f23465d907743d7262"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/models.tsp",
+      "sha256": "7120f36d5fd1097eda940ab91e91576023962f3531228506ee7e37d9d04bd2f2"
+    },
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/vector_stores/routes.tsp",
+      "sha256": "e6fce5a7f5c493aafc178a3fe294ce29a7f157552ce58d97290e422f731753ad"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/OpenAIAssistants",
+  "swaggerOutputPattern": "OpenApiV2/{version-status}/{version}/assistants_generated.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2025-01-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/OpenAIAssistants/OpenApiV2/preview/2025-01-01-preview/assistants_generated.json",
+      "apiVersion": "2025-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "453a64f820f0b71cd35c25492dda40cd5c3a6f293c263a7e033db93309487970"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

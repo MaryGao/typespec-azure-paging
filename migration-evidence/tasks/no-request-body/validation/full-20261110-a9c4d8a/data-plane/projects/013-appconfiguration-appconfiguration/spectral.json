@@ -1,0 +1,125 @@
+{
+  "project": "specification/appconfiguration/data-plane/AppConfiguration",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/appconfiguration/data-plane/AppConfiguration/preview/2026-05-01-preview/appconfiguration.json",
+      "apiVersion": "2026-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "9e79727c7d5de6400e7d07705ea0328b8ef56e5fc181507ea2b223d7d3930000",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/ff",
+          "verb": "get",
+          "operationId": "FeatureFlagClient_GetFeatureFlags",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ff/{name}",
+          "verb": "get",
+          "operationId": "FeatureFlagClient_GetFeatureFlag",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ff/{name}",
+          "verb": "delete",
+          "operationId": "FeatureFlagClient_DeleteFeatureFlag",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/ff-revisions",
+          "verb": "get",
+          "operationId": "FeatureFlagClient_GetFeatureFlagRevisions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/keys",
+          "verb": "get",
+          "operationId": "GetKeys",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/kv",
+          "verb": "get",
+          "operationId": "GetKeyValues",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/kv/{key}",
+          "verb": "get",
+          "operationId": "GetKeyValue",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/kv/{key}",
+          "verb": "delete",
+          "operationId": "DeleteKeyValue",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/labels",
+          "verb": "get",
+          "operationId": "GetLabels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/locks/{key}",
+          "verb": "delete",
+          "operationId": "DeleteLock",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/operations",
+          "verb": "get",
+          "operationId": "GetOperationDetails",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/revisions",
+          "verb": "get",
+          "operationId": "GetRevisions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/snapshots",
+          "verb": "get",
+          "operationId": "GetSnapshots",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/snapshots/{name}",
+          "verb": "get",
+          "operationId": "GetSnapshot",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

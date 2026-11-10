@@ -1,0 +1,68 @@
+{
+  "index": 42,
+  "slug": "042-deviceprovisioningservices-deviceprovisioningservices-service",
+  "sourcePath": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service",
+  "swaggerCandidates": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2025-07-01-preview/service.json",
+      "apiVersion": "2025-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "7a435d41f69f8f8a14cefb8059f8a593179da75201eb59962782cde4a4b40ac3"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2026-11-02-preview/service.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "a219050bccbdc73ad2bb9464d66fb032b7bc86d47306f79891bd82be7586d7f6"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/stable/2021-10-01/service.json",
+      "apiVersion": "2021-10-01",
+      "format": "swagger-2.0",
+      "sha256": "b05779f47b52b269a9a897f80e2c68e124c046d9a7654f421dabd9175392a1b7"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/stable/2026-11-01/service.json",
+      "apiVersion": "2026-11-01",
+      "format": "swagger-2.0",
+      "sha256": "ad5a6b1d7ee93f2ce97122d06050975df686829a0c0e0a0c2439c64515ba9d2a"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service/client.tsp",
+      "sha256": "e67dd5b3aefe592d5156426ad9e0443bd82c278ed790973120e38486e60a68cd"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service/main.tsp",
+      "sha256": "1ee5130e0f2ced9e8344db54d4bbebbb8f9365db5e28a74987b538dcc8ff8aa9"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service/models.tsp",
+      "sha256": "502d8f71bb679c14c68512f0cffc5f04929afdb1d4268da54d8425faba8d17ca"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service/routes.tsp",
+      "sha256": "4f9ea30f095a3e70e6bb8fa9ab3981ce553bc01a6d828b6fa145f50d9218b682"
+    },
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/service/tspconfig.yaml",
+      "sha256": "61c2b308335b1331ab0cae601d6e64b09d426e9f4f9cf97a8551017834482843"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices",
+  "swaggerOutputPattern": "{version-status}/{version}/service.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-11-02-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/deviceprovisioningservices/data-plane/DeviceProvisioningServices/preview/2026-11-02-preview/service.json",
+      "apiVersion": "2026-11-02-preview",
+      "format": "swagger-2.0",
+      "sha256": "a219050bccbdc73ad2bb9464d66fb032b7bc86d47306f79891bd82be7586d7f6"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

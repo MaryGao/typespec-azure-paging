@@ -1,0 +1,54 @@
+{
+  "index": 30,
+  "slug": "030-cognitiveservices-speechvideotranslation",
+  "sourcePath": "specification/cognitiveservices/data-plane/SpeechVideoTranslation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/preview/2024-05-20-preview/VideoTranslation.json",
+      "apiVersion": "2024-05-20-preview",
+      "format": "swagger-2.0",
+      "sha256": "61b4721af2117e5592c867f6887ebc43cefafe692361883ed0b30cb236029197"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/stable/2025-05-20/VideoTranslation.json",
+      "apiVersion": "2025-05-20",
+      "format": "swagger-2.0",
+      "sha256": "ad826db967fe4b774a3876cc87fedd612c910969a40d63448e198c6303f4eee6"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/stable/2026-03-01/VideoTranslation.json",
+      "apiVersion": "2026-03-01",
+      "format": "swagger-2.0",
+      "sha256": "2e781a63dbdcdfb5068b419dfebeaac677c9e2af52ba55672be36d6e1042aa1b"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/client.tsp",
+      "sha256": "41f113fcecd6b416ed122838524ac5b8da4a056a800b4be802fa1da4332b0fcb"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/main.tsp",
+      "sha256": "3cedaa0d10302262d2cd3e88984e1755564897ae3908ab676a7831a0dc675bed"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/tspconfig.yaml",
+      "sha256": "2b36cbea463fb683b3a4f4a1d31c8c0d156fd764fdac1297a25cb77dba5a3938"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/SpeechVideoTranslation",
+  "swaggerOutputPattern": "{version-status}/{version}/VideoTranslation.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-03-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/SpeechVideoTranslation/stable/2026-03-01/VideoTranslation.json",
+      "apiVersion": "2026-03-01",
+      "format": "swagger-2.0",
+      "sha256": "2e781a63dbdcdfb5068b419dfebeaac677c9e2af52ba55672be36d6e1042aa1b"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

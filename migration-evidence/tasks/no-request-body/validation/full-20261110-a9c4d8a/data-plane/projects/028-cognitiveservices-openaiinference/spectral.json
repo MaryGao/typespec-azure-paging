@@ -1,0 +1,77 @@
+{
+  "project": "specification/cognitiveservices/data-plane/OpenAIInference",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/OpenAIInference/preview/2025-01-01-preview/generated.json",
+      "apiVersion": "2025-01-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "8975db73182c6c75e2a9559c8cbfa52bd4a1026844f3e3727cb0c9afd4424dcd",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/batches",
+          "verb": "get",
+          "operationId": "ListBatches",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/batches/{batchId}",
+          "verb": "get",
+          "operationId": "GetBatch",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files",
+          "verb": "get",
+          "operationId": "ListFiles",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}",
+          "verb": "get",
+          "operationId": "GetFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}",
+          "verb": "delete",
+          "operationId": "DeleteFile",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/files/{fileId}/content",
+          "verb": "get",
+          "operationId": "GetFileContent",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,62 @@
+{
+  "index": 5,
+  "slug": "005-programmableconnectivity-azure.programmableconnectivity",
+  "sourcePath": "specification/programmableconnectivity/Azure.ProgrammableConnectivity",
+  "swaggerCandidates": [
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/openapi.json",
+      "apiVersion": "2024-02-09-preview",
+      "format": "swagger-2.0",
+      "sha256": "c44637984eb536da89286c472a2043956315c6ce6829a84f271143702243fce8"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/common.tsp",
+      "sha256": "57b43465acdf4984315d4c9c666d40de2bfc3259a54412a4d2c894bd0000e4a5"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/location.tsp",
+      "sha256": "976a91de68872086cbd094743f24d223b6b4d7cc72d5558933ccfd5325906407"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/network.tsp",
+      "sha256": "7602e31780a2ce684a6d682e73d329fc50861c14f1f7b8be0a360b0c1fab5545"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/number.tsp",
+      "sha256": "21f6fe44c6ae378e63eff5204c9cafabffd3b00825c589a56e3d8a8970abf3e4"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/simswap.tsp",
+      "sha256": "8eb5da599985a9aa71ad010709f78123f2c79dee0f3404cc09ad38489bfe6e53"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/client.tsp",
+      "sha256": "8cfa05e45e6cd371e0d4641a7e27344d7b9cff34796f7b1c750c28248a5d0175"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/main.tsp",
+      "sha256": "471cef4d6ccee970d7000f1feebad5b6c285de07d9f6733b040b6fde84d96c38"
+    },
+    {
+      "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/tspconfig.yaml",
+      "sha256": "db8e0213e49fbe84f7ae683fb2f21ac7aecf78158edaa3aab5c797451876531e"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/programmableconnectivity",
+  "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-02-09-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/openapi.json",
+      "apiVersion": "2024-02-09-preview",
+      "format": "swagger-2.0",
+      "sha256": "c44637984eb536da89286c472a2043956315c6ce6829a84f271143702243fce8"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

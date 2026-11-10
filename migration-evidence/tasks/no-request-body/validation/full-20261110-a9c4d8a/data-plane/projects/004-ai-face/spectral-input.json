@@ -1,0 +1,118 @@
+{
+  "index": 4,
+  "slug": "004-ai-face",
+  "sourcePath": "specification/ai/data-plane/Face",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/Face/preview/v1.1-preview.1/Face.json",
+      "apiVersion": "v1.1-preview.1",
+      "format": "swagger-2.0",
+      "sha256": "e1f63ec9983b61655a32f4858d3f541a9c50f4d2ef063dc1502a30097a119219"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/preview/v1.2-preview.1/Face.json",
+      "apiVersion": "v1.2-preview.1",
+      "format": "swagger-2.0",
+      "sha256": "44e2cf82becdd81ca54a1d764f0e04cf25793ea9ce27fe4150e2d353db1d60c5"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/preview/v1.3-preview.1/Face.json",
+      "apiVersion": "v1.3-preview.1",
+      "format": "swagger-2.0",
+      "sha256": "e9a68c525be684431f2c930ee52d9fd729dfc296448d9144a3e4da610db337e8"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/stable/v1.0/Face.json",
+      "apiVersion": "1.0",
+      "format": "swagger-2.0",
+      "sha256": "106051bfd7b77dcc8b244e984e7ecd7c5330d3a23f110e8200c8e47b00041741"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/stable/v1.2/Face.json",
+      "apiVersion": "v1.2",
+      "format": "swagger-2.0",
+      "sha256": "5375faa8d1345efde5185666d79dab6c754040fef7bc9cbc1dd1ef375c1e43d8"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/Face/client.tsp",
+      "sha256": "a1665662af42b54da759dc1d09c75aff68e8d4a4a0c7b7211ae87d2c799fc6a3"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/main.tsp",
+      "sha256": "80f6b701e246af6d947a2b3e8803f89f2882fdc6ee8da3058259f9bae6f7afd9"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.common.tsp",
+      "sha256": "5d59a43487ab32d5f3684080e679853116d1cd34dadb6daf1f9f64c18c178391"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.detect.tsp",
+      "sha256": "cf3e4b6c631dde06617acfcc016e66615acb86aea66e9a9ff9476653f3c8bfe3"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.facelist.tsp",
+      "sha256": "e7856f6c76326154996a8d33dfaea5e54eaf877071514be28bb6564956592f88"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.persondirectory.tsp",
+      "sha256": "d08739e4bf99cf345e2722ed2546b19e5736503dde51d887df9cf94f605b8c03"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.persongroup.tsp",
+      "sha256": "560d46ec85dbbe863aadf6b5b4f20a3c22c7a92c0f943d352c90dfb86f9e2827"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/models.session.tsp",
+      "sha256": "e4247f97549f5bece81c56c512946ffd0d8683426804d4fbc23762a532569594"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.common.tsp",
+      "sha256": "6ee018827e8d6dbc92d7980d187c769a29ec036337baf3e05ebbed48a31ed031"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.detection.tsp",
+      "sha256": "41719427407d2f571f67e472d0d458e55ec0a555dce299ca33e7b7da26433007"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.facelist.tsp",
+      "sha256": "f0335f9b04a9868b2d7e363ba84c5e6635af9e55a0b89f1b9dbe2e7c1b90da30"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.persondirectory.tsp",
+      "sha256": "33e45e787eb2ea458b34c0f044b760086733545102b2df1de1997ad8fc941c6d"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.persongroup.tsp",
+      "sha256": "21e6fc6f7212c289b3cb31033c7cd67ff1ec415d87adb3ae8e82fa6c5a2795a8"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.recognition.tsp",
+      "sha256": "d30877e116ed33b425ca054a2aa83b98eeb577a20e46ea65677ed40581398bed"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/routes.session.tsp",
+      "sha256": "f83b7c48bfcfa145af8eb97a041dc792cb9a57d06eafc2a3939cf543920fbe74"
+    },
+    {
+      "file": "specification/ai/data-plane/Face/tspconfig.yaml",
+      "sha256": "ebb71e68a98ff62fe9addde25969d8889821a0641971f7aa5c41d258f687818c"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/Face",
+  "swaggerOutputPattern": "{version-status}/{version}/Face.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "v1.3-preview.1",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/Face/preview/v1.3-preview.1/Face.json",
+      "apiVersion": "v1.3-preview.1",
+      "format": "swagger-2.0",
+      "sha256": "e9a68c525be684431f2c930ee52d9fd729dfc296448d9144a3e4da610db337e8"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

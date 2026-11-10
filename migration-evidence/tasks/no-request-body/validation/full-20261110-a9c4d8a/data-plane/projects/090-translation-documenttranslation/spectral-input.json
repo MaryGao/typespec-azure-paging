@@ -1,0 +1,74 @@
+{
+  "index": 90,
+  "slug": "090-translation-documenttranslation",
+  "sourcePath": "specification/translation/data-plane/DocumentTranslation",
+  "swaggerCandidates": [
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/preview/2023-11-01-preview/openapi.json",
+      "apiVersion": "2023-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "df4baf83b59e41693f2a2718c7975145700e0fa2070e76756eb722ad79857f37"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/preview/2024-11-01-preview/openapi.json",
+      "apiVersion": "2024-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a4e049ab474e5dd4f2ad05453a791fd25ec3450c6cbb933bd9bcc9c4fcb436fd"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/preview/2025-12-01-preview/openapi.json",
+      "apiVersion": "2025-12-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f29cf344b9da7396e46a60dbec1d912a422b1c1a457b21085d9b4b28d38a8a9b"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/stable/2024-05-01/openapi.json",
+      "apiVersion": "2024-05-01",
+      "format": "swagger-2.0",
+      "sha256": "2a29f2b714b8ceb32fea06d1affd4b96f17c35f54f7b52363d76f86f2a261334"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/stable/2026-03-01/openapi.json",
+      "apiVersion": "2026-03-01",
+      "format": "swagger-2.0",
+      "sha256": "bd5de272cc9affa5c7909820cbfd80ed695932825b7b1abe90fbdd7dfc0de31d"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/client.tsp",
+      "sha256": "6fca63f991b5ef5f7c089632395bd6b5dbefd7cf445d763f20476c4c4543155b"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/main.tsp",
+      "sha256": "e31385d9568f1e5c4f71b17496912288e7d61ae8cf382e0685c214fd8f3a462c"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/models.tsp",
+      "sha256": "ab28209d7371f44fdf5fe9d094c693b794ee113ca2ac380d506812f59245e83b"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/routes.tsp",
+      "sha256": "cf592ec45138872689940d84137cd9607f94400d698cdfeb428fd3f954365dc4"
+    },
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/tspconfig.yaml",
+      "sha256": "d34dd06230debae10fbcb6a90786ea04d8f44f50a418cbe109a0a9b5cac6db66"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/translation/data-plane/DocumentTranslation",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-03-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/translation/data-plane/DocumentTranslation/stable/2026-03-01/openapi.json",
+      "apiVersion": "2026-03-01",
+      "format": "swagger-2.0",
+      "sha256": "bd5de272cc9affa5c7909820cbfd80ed695932825b7b1abe90fbdd7dfc0de31d"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

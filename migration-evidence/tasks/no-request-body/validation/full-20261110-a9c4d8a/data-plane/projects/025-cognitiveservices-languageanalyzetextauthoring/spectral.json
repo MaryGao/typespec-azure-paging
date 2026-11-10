@@ -1,0 +1,245 @@
+{
+  "project": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/cognitiveservices/data-plane/LanguageAnalyzeTextAuthoring/preview/2025-05-15-preview/analyzetext-authoring.json",
+      "apiVersion": "2025-05-15-preview",
+      "format": "swagger-2.0",
+      "sha256": "86ade86b91df681abb6d1d0b7c2a269d785205b0c37d8fd989bfec111cb8a16e",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/authoring/analyze-text/projects",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListProjects",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}",
+          "verb": "delete",
+          "operationId": "TextAuthoringProject_DeleteProject",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/copy/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetCopyProjectStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "TextAuthoringDeployment_GetDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "TextAuthoringDeployment_DeleteDeployment",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments/{deploymentName}/delete-from-resources/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringDeployment_GetDeploymentDeleteFromResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments/{deploymentName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringDeployment_GetDeploymentStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/deployments/swap/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetSwapDeploymentsStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/export/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetExportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/exported-models",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListExportedModels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/exported-models/{exportedModelName}",
+          "verb": "get",
+          "operationId": "TextAuthoringExportedModel_GetExportedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/exported-models/{exportedModelName}",
+          "verb": "delete",
+          "operationId": "TextAuthoringExportedModel_DeleteExportedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/exported-models/{exportedModelName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringExportedModel_GetExportedModelJobStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/exported-models/{exportedModelName}/manifest",
+          "verb": "get",
+          "operationId": "TextAuthoringExportedModel_GetExportedModelManifest",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/import/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetImportStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListTrainedModels",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}",
+          "verb": "get",
+          "operationId": "TextAuthoringTrainedModel_GetTrainedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}",
+          "verb": "delete",
+          "operationId": "TextAuthoringTrainedModel_DeleteTrainedModel",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}/evaluate/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringTrainedModel_GetEvaluationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}/evaluation/result",
+          "verb": "get",
+          "operationId": "TextAuthoringTrainedModel_GetModelEvaluationResults",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}/evaluation/summary-result",
+          "verb": "get",
+          "operationId": "TextAuthoringTrainedModel_GetModelEvaluationSummary",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/models/{trainedModelLabel}/load-snapshot/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringTrainedModel_GetLoadSnapshotStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/resources",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListDeploymentResources",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/resources/assign/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetAssignDeploymentResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/resources/unassign/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetUnassignDeploymentResourcesStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/train/jobs",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListTrainingJobs",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/{projectName}/train/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetTrainingStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/global/deletion-jobs/{jobId}",
+          "verb": "get",
+          "operationId": "TextAuthoringProject_GetProjectDeletionStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/global/deployments/resources",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListAssignedResourceDeployments",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/global/languages",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringGetSupportedLanguages",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/global/prebuilt-entities",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringGetSupportedPrebuiltEntities",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/authoring/analyze-text/projects/global/training-config-versions",
+          "verb": "get",
+          "operationId": "TextAnalysisAuthoringListTrainingConfigVersions",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

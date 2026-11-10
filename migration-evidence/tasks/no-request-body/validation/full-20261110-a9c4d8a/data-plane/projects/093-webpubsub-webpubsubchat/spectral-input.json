@@ -1,0 +1,50 @@
+{
+  "index": 93,
+  "slug": "093-webpubsub-webpubsubchat",
+  "sourcePath": "specification/webpubsub/data-plane/WebPubSubChat",
+  "swaggerCandidates": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/preview/2026-02-01-preview/webpubsubchat.json",
+      "apiVersion": "2026-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a75342a01c87ee8d6b6ebe98e567016b33727a85db8668873cb0ea787c83c80e"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/client.tsp",
+      "sha256": "3f75741a4b0f4790952940132e97f4b87f965f52bc69f685db653872be63d645"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/main.tsp",
+      "sha256": "67eedf2c04b1250dcfec41d838f0d9bcb4547ab54991c865f076a0abd2b478cb"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/models.tsp",
+      "sha256": "58695e8a95a67b1d2c2ed350709fd8df3b3db2780cb7cb005fb167df07890270"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/routes.tsp",
+      "sha256": "8b202e964c2a70191d2ecafcb2911d065ecf7c676be007648d27ac0025532e3f"
+    },
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/tspconfig.yaml",
+      "sha256": "60345d81e138e64b8e02d9c65c71fb10d3a570a166b9132692aa48e5563b2a3f"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/webpubsub/data-plane/WebPubSubChat",
+  "swaggerOutputPattern": "{version-status}/{version}/webpubsubchat.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-02-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/webpubsub/data-plane/WebPubSubChat/preview/2026-02-01-preview/webpubsubchat.json",
+      "apiVersion": "2026-02-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "a75342a01c87ee8d6b6ebe98e567016b33727a85db8668873cb0ea787c83c80e"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

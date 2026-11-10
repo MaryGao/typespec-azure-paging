@@ -1,0 +1,58 @@
+{
+  "index": 7,
+  "slug": "007-ai-modelinference",
+  "sourcePath": "specification/ai/data-plane/ModelInference",
+  "swaggerCandidates": [
+    {
+      "file": "specification/ai/data-plane/ModelInference/preview/2024-05-01-preview/openapi.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "6a2cfd0ca1ff16b642e15903f32f5d9e770d73238b413e71ad542b3a9a1deddb"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/ai/data-plane/ModelInference/main.tsp",
+      "sha256": "3505f1b91a5d862cd9c3186b164bca99cc1ea75ea9b341820bf1a3d6116a928e"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/models/chat_completions.tsp",
+      "sha256": "c7b6adf662d43e84da7ff10c3dda49ae4e82a57776ebbc3572299c4d043fe4d8"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/models/common.tsp",
+      "sha256": "dd8706f7b6e3d28e7ce626fade743b2912230143dd82f56f11bd39eb0a54df66"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/models/embeddings.tsp",
+      "sha256": "f477947a2145bdd91325798fec289e57318385f509bbae7fce654594501884ba"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/models/image_embeddings.tsp",
+      "sha256": "1349dfc67ca4bb91cd3370d4a4f3aa77fc92393a59e46336c1adcde7bc9d9315"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/routes.tsp",
+      "sha256": "f58297923868651847aff6d7e44657affd39f4a24619181d33e93919123d69ab"
+    },
+    {
+      "file": "specification/ai/data-plane/ModelInference/tspconfig.yaml",
+      "sha256": "d155ea6632814957e1ee35b0405b4b7b9b4ba4a6478b5b4856f91a8625306f47"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/ai/data-plane/ModelInference",
+  "swaggerOutputPattern": "{version-status}/{version}/openapi.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-05-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/ai/data-plane/ModelInference/preview/2024-05-01-preview/openapi.json",
+      "apiVersion": "2024-05-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "6a2cfd0ca1ff16b642e15903f32f5d9e770d73238b413e71ad542b3a9a1deddb"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

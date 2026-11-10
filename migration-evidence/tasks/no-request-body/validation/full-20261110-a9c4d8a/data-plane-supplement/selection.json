@@ -1,0 +1,607 @@
+{
+  "createdAt": "2026-11-10T01:33:25.014Z",
+  "specs": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "candidateCommit": "a9c4d8a1db1bad607cd21d856421c6b1b712d746",
+  "worker": "C:\\dev\\worktrees\\tooling-no-request-body-full-20261110\\packages\\typespec-lintdiff\\test\\harness\\native-coverage-worker.mjs",
+  "workerSha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609",
+  "discovery": "Every frozen data-plane preset project outside data-plane directory names, identified by the independent complete Git-tree preset audit; both main.tsp and tspconfig.yaml required. Complements the primary path-based batch without duplicates.",
+  "comparison": "Fresh native source programs versus latest frozen Git OAS2 version selected using the official selectLatestApiVersion helper; all files at that version and their local reference closure. Swagger ownership follows resolved AutoRest emitter-output-dir/output-file; absent explicit output patterns use nearest-project local ownership. Source/version populations are not aligned.",
+  "limitation": "Separate explicit selected-rule Spectral profile, not a saved data-plane baseline or full AutoRest production execution. Missing OAS2, unsupported formats, invalid inputs and compilation failures are unassessed. Fragment-only and SDK config-only directories are inventoried, not silently counted as projects.",
+  "validatorRules": [
+    "RequestBodyNotAllowed"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-core/no-request-body"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only",
+  "concurrency": 1,
+  "workerTimeoutMs": 240000,
+  "configDirectories": 9,
+  "mainDirectories": 8,
+  "configWithoutMain": [
+    "specification/discovery/Discovery.Combined"
+  ],
+  "mainWithoutConfig": [],
+  "projects": [
+    {
+      "index": 0,
+      "slug": "000-contosowidgetmanager-contoso.widgetmanager",
+      "sourcePath": "specification/contosowidgetmanager/Contoso.WidgetManager",
+      "swaggerCandidates": [
+        {
+          "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/preview/2022-11-01-preview/widgets.json",
+          "apiVersion": "2022-11-01-preview",
+          "format": "swagger-2.0",
+          "sha256": "26e88d639721c4f21c082f2a52501c08011e2777541fa0a1e16f35f06806c9e4"
+        },
+        {
+          "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+          "apiVersion": "2022-12-01",
+          "format": "swagger-2.0",
+          "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/contosowidgetmanager/Contoso.WidgetManager/client.tsp",
+          "sha256": "ba874e8e4d67a50373dabb0f96370f5127a8e1e1fc1afb79a657ecb8ccf40608"
+        },
+        {
+          "file": "specification/contosowidgetmanager/Contoso.WidgetManager/main.tsp",
+          "sha256": "e8f0414232b26775fcdebd5d5c67c1009c4a5ed8c2f6473a8f78ae5a3bd39e0d"
+        },
+        {
+          "file": "specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml",
+          "sha256": "67dd4fcb5defe1d565dee541911a73094b9f842d4ae3894e5fbe37ff3427af4b"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/contosowidgetmanager",
+      "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/widgets.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2022-12-01",
+      "swaggerFiles": [
+        {
+          "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+          "apiVersion": "2022-12-01",
+          "format": "swagger-2.0",
+          "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 1,
+      "slug": "001-discovery-discovery.bookshelf",
+      "sourcePath": "specification/discovery/Discovery.Bookshelf",
+      "swaggerCandidates": [
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/preview/2026-02-01-preview/discovery-bookshelf.json",
+          "apiVersion": "2026-02-01-preview",
+          "format": "swagger-2.0",
+          "sha256": "9d25e811f353f2a1078e678325a88346189cf08f24af99ba9664f87fa315ef4b"
+        },
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/discovery-bookshelf.json",
+          "apiVersion": "2026-06-01",
+          "format": "swagger-2.0",
+          "sha256": "c840108aff929884307906edcdc7adbb2343db7eab9773da56ea258be1cda6f4"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase.tsp",
+          "sha256": "fadcd835282a343a70325a7c6205f8ad8e7eca2c6ad5f1ac93de3b8e285a59eb"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase_operation.tsp",
+          "sha256": "19065511d795e9e20e57a78f75d35ab9a5609351da66b4dc15ceee90822209d9"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/_knowledgeBase_version.tsp",
+          "sha256": "e0ff029476017c881fcf31446705a3ea805584176820ffbdf5d2f531761e8c48"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/client.tsp",
+          "sha256": "9796316db92242b32c7906c2b10f3e6712ac508352fffa169cf6457478657b8d"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/main.tsp",
+          "sha256": "18c56fb565d96d9ab98f264399e30b05c4d99a68c50ad4fea68a6a9fede89b0c"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/tspconfig.yaml",
+          "sha256": "b1e7b2349f548e6cecc0b79ee2b6404ed53c73c0ab6f77996be14147cc65cafb"
+        },
+        {
+          "file": "specification/discovery/Discovery.Bookshelf/versions.tsp",
+          "sha256": "b68b116306c5597d40316c8779b050f9671ea868b88d6f81d52437d58bf2577f"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/discovery",
+      "swaggerOutputPattern": "data-plane/Microsoft.Discovery.Bookshelf/{version-status}/{version}/discovery-bookshelf.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2026-06-01",
+      "swaggerFiles": [
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Bookshelf/stable/2026-06-01/discovery-bookshelf.json",
+          "apiVersion": "2026-06-01",
+          "format": "swagger-2.0",
+          "sha256": "c840108aff929884307906edcdc7adbb2343db7eab9773da56ea258be1cda6f4"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 2,
+      "slug": "002-discovery-discovery.workspace",
+      "sourcePath": "specification/discovery/Discovery.Workspace",
+      "swaggerCandidates": [
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/preview/2026-02-01-preview/discovery-workspace.json",
+          "apiVersion": "2026-02-01-preview",
+          "format": "swagger-2.0",
+          "sha256": "00ea3de690634beda94eb6ee7a57dd6b1023e5a4b885fa0535db811849e159f6"
+        },
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+          "apiVersion": "2026-06-01",
+          "format": "swagger-2.0",
+          "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/discovery/Discovery.Workspace/_conversation.tsp",
+          "sha256": "96586718490db946647450109f189541c5af9ce78e64b41437fd34976f140f21"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_conversation_message.tsp",
+          "sha256": "47d268fefd30c682328796a0ed0a94d638cd4f6757c91fb26e5813503ec157f4"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_conversation_message_logs.tsp",
+          "sha256": "d6a44c1e22e269bf64e65cf0cfb96c4134f55f6fc729a7eaec194d98ed0e0931"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_conversation_suggestions.tsp",
+          "sha256": "71d84d43bc7031d018dd4bc3b0424a1e288ba0cedbfc9f175d4ca2c0c00bf81b"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_discovery_agent.tsp",
+          "sha256": "53efe2fe64c7c3adaa3acd30d67d1cd85c0a192aec70fa15567a3e1a0640af1f"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_investigation.tsp",
+          "sha256": "810f7397478b7a5dda959ff04073b8239366c8513ea2a743b85f577c86a2f332"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_project.tsp",
+          "sha256": "6c8e3f9f326d20ab8baaf61674d77b645149d73e45eaf8999e34ab3ab30c0bed"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_task.tsp",
+          "sha256": "2af6753a7d9526cbf6ffa251e99fb00c04f2ad0e5271e2a064b85385d3c2c845"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/_tool.tsp",
+          "sha256": "c6ba1f745b46e850e5023db9677885c872c7643b487441ff75d0e29852cc5cec"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/client.tsp",
+          "sha256": "6ae374d4ae451c89db1735e1f7120c600dba86b22c01d4b7c3b22422fdaa22b0"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/common.tsp",
+          "sha256": "64a38dc9346014a23782eb0939ae5118948172d25988a6df57469dd079368345"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/main.tsp",
+          "sha256": "c427302ae4b7936f8ae3371eeead33b6fa11c31173f148969e0fc054f82bab16"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/tspconfig.yaml",
+          "sha256": "336ec8997117d64bb604c93eb67050877b0f54925c36bdba2fe278c4bb7476e7"
+        },
+        {
+          "file": "specification/discovery/Discovery.Workspace/versions.tsp",
+          "sha256": "3604c70e9e1c61c3cbb6bdde8d6ab9864551e0166434e92ae4d48cc30808732c"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/discovery",
+      "swaggerOutputPattern": "data-plane/Microsoft.Discovery.Workspace/{version-status}/{version}/discovery-workspace.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2026-06-01",
+      "swaggerFiles": [
+        {
+          "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+          "apiVersion": "2026-06-01",
+          "format": "swagger-2.0",
+          "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 3,
+      "slug": "003-orbital-microsoft.planetarycomputer",
+      "sourcePath": "specification/orbital/Microsoft.PlanetaryComputer",
+      "swaggerCandidates": [
+        {
+          "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/preview/2025-04-30-preview/openapi.json",
+          "apiVersion": "2025-04-30-preview",
+          "format": "swagger-2.0",
+          "sha256": "5ac1a8504c7f6fa8d58b538ced37c2fd0ae467560f464d46fc31d1f98852188b"
+        },
+        {
+          "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+          "apiVersion": "2026-04-15",
+          "format": "swagger-2.0",
+          "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/client.tsp",
+          "sha256": "3532082c76e7dacd02dc78ac5cb68143afb6294bc91b5e09d638b123c086808c"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/inma.tsp",
+          "sha256": "6a7a96e28422d01753a0525a41e739bfe5d90b22635350d303bcad1779fd83b6"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/main.tsp",
+          "sha256": "b6f2b90fb9fb218de2a47c88a4b8b13cdbb13a15f49b10f6a640cb1ae55e17ba"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.colormaps.tsp",
+          "sha256": "2c5793f7dcec540f2270eb74e7e96a5c5347c3041d8f64b6daef00679c815f82"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.geojson.tsp",
+          "sha256": "d57dd1f2446e52c22157267ec77d9999531083b11643b2649cd0c63e3e63a34c"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.images.tsp",
+          "sha256": "1480005722af57147e3e4132a12b282db6a677a8bcf4f02db6f113e7d5fd00bd"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.common.versions.tsp",
+          "sha256": "85a43c2612c41a07144b917e87fcdb222cf109899d09786e184ddab2509bbbbd"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.stac.config.tsp",
+          "sha256": "e93ef0ee60ad16083ede3ef83eb51939e53053799caaf05de9ce695ba22a50c0"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.stac.spec.tsp",
+          "sha256": "16e1ce5425a8395a04a0ed744725e9d9e1f74b241bf93c198a8a22fe786936a7"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.common.tsp",
+          "sha256": "69fdfa2988d9db266ec1faa5117cd483840cd01bec3e27c285362c32bc20ec4d"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.image-exports.tsp",
+          "sha256": "2fa35f4e07e5fe2736a7fac76d542f63601b2f53ea064da0bc44c797f3312aaf"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.items.tsp",
+          "sha256": "12cc88989b760579cb5a4f2c7a305eebc8e2d6c7d3338708bd2923bf4ea4b258"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.map-legends.tsp",
+          "sha256": "7c86410422318269d18ab5286422961c6d403c295f9858d0531a4788447f2e82"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.mosaics.tsp",
+          "sha256": "40ed3d7749aab4a96b7121d55e158a6e12bd25a664ce7d0dd8b597f139f87dd7"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/models.tiler.tile-matrix-sets.tsp",
+          "sha256": "a6bebc13d37272b54ba58059d237481f37204c9ce4b17b6b2306cb3ad780abfd"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/overrides.tsp",
+          "sha256": "6357547a500a5cc1b37d701b8b222a8944431dca8ca2649ed7fccd0e31bd1166"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.common.tsp",
+          "sha256": "325796d40af02685cb1af87f83fea8834fb47455425c3d87a28b88a5a4e72454"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.stac.config.tsp",
+          "sha256": "9528e2c8dcc27361aed273cc6b23535d1786614e4451ee30413c6f6cb39fac92"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.stac.spec.tsp",
+          "sha256": "c2d3ba93f0e18ec46e6e9c0147a861a40110fb2e974e193df11043572dcb0b42"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.image-exports.tsp",
+          "sha256": "cd96be1328f89631c2220f1c14a35a9258ce66751b98840bdbe517a7f5fe436c"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.items.tsp",
+          "sha256": "d34d40fff5eff940d1bd69564b39082588285b03bbc0d53dd705d1049662ddd1"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.map-legends.tsp",
+          "sha256": "771cb0155588f7fefe01a3c04890cabe317eba7bd80466511645da7699545e8b"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.collections.tsp",
+          "sha256": "e6239761f59b36f054355acfc189b2926d7a3205f0fcbcc22e57594b4a6024d9"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.items.tsp",
+          "sha256": "e5ac9c3442b592289ec67c8c5acc836bf90247a80859c872943d79df8b9a62f4"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaic.searches.tsp",
+          "sha256": "994ec0b2014d0b80ae3c57f6e59aec1646b93ebaa1c50e0f5bebfe5462ad728c"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.mosaics.tsp",
+          "sha256": "c17e3c54d04f0c8dea727a48f829e3f945c893ed8bba6d6f4d14adfa59a72abb"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.tile-matrix-sets.tsp",
+          "sha256": "36041133ef38e4b3e104c8c50ee87bd40af2a5b4e9cdb39df7744eb1cc5e785d"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/routes.tiler.tsp",
+          "sha256": "1dae8a945d144ee4973613b05f4c0474bc076421276dce484d9812d18c431b7f"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/sas.tsp",
+          "sha256": "619e0c7373dfdb2709b6ba0a8d0e958589d84bc3b0e4738c693ee7183c68b9e1"
+        },
+        {
+          "file": "specification/orbital/Microsoft.PlanetaryComputer/tspconfig.yaml",
+          "sha256": "d7faee797b1e15bcbaacb42ce4afd94baaf353868ab702ea943cf6f5fb7e818f"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/orbital",
+      "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/openapi.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2026-04-15",
+      "swaggerFiles": [
+        {
+          "file": "specification/orbital/data-plane/Microsoft.PlanetaryComputer/stable/2026-04-15/openapi.json",
+          "apiVersion": "2026-04-15",
+          "format": "swagger-2.0",
+          "sha256": "42447be18bc560ee904b3e7152b5ddae052449901ea63d6829948dec150eaa46"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 4,
+      "slug": "004-playwrighttesting-playwrighttesting.authmanager",
+      "sourcePath": "specification/playwrighttesting/PlaywrightTesting.AuthManager",
+      "swaggerCandidates": [
+        {
+          "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/preview/2023-10-01-preview/playwrighttesting.json",
+          "apiVersion": "2023-10-01-preview",
+          "format": "swagger-2.0",
+          "sha256": "b2547a27244607139e5e46d56dfdf57be6531e0359702ca34290de88b117eac9"
+        },
+        {
+          "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+          "apiVersion": "2024-12-01",
+          "format": "swagger-2.0",
+          "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/playwrighttesting/PlaywrightTesting.AuthManager/main.tsp",
+          "sha256": "71ca17d9a215dab480edbc0cca1ea929c335a13fd037a4c75dd5cec79fe2f6f6"
+        },
+        {
+          "file": "specification/playwrighttesting/PlaywrightTesting.AuthManager/tspconfig.yaml",
+          "sha256": "12aa097278f1bfd61d198415052853a0b7b73ecddeaa689b00649e654e54ffef"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/playwrighttesting",
+      "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/playwrighttesting.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2024-12-01",
+      "swaggerFiles": [
+        {
+          "file": "specification/playwrighttesting/data-plane/Microsoft.PlaywrightTesting.AuthManager/stable/2024-12-01/playwrighttesting.json",
+          "apiVersion": "2024-12-01",
+          "format": "swagger-2.0",
+          "sha256": "8d0776959d0381d26effa288f1626088109e0bb95f0b69431717d81edca7d00b"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 5,
+      "slug": "005-programmableconnectivity-azure.programmableconnectivity",
+      "sourcePath": "specification/programmableconnectivity/Azure.ProgrammableConnectivity",
+      "swaggerCandidates": [
+        {
+          "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/openapi.json",
+          "apiVersion": "2024-02-09-preview",
+          "format": "swagger-2.0",
+          "sha256": "c44637984eb536da89286c472a2043956315c6ce6829a84f271143702243fce8"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/common.tsp",
+          "sha256": "57b43465acdf4984315d4c9c666d40de2bfc3259a54412a4d2c894bd0000e4a5"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/location.tsp",
+          "sha256": "976a91de68872086cbd094743f24d223b6b4d7cc72d5558933ccfd5325906407"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/network.tsp",
+          "sha256": "7602e31780a2ce684a6d682e73d329fc50861c14f1f7b8be0a360b0c1fab5545"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/number.tsp",
+          "sha256": "21f6fe44c6ae378e63eff5204c9cafabffd3b00825c589a56e3d8a8970abf3e4"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/apis/simswap.tsp",
+          "sha256": "8eb5da599985a9aa71ad010709f78123f2c79dee0f3404cc09ad38489bfe6e53"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/client.tsp",
+          "sha256": "8cfa05e45e6cd371e0d4641a7e27344d7b9cff34796f7b1c750c28248a5d0175"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/main.tsp",
+          "sha256": "471cef4d6ccee970d7000f1feebad5b6c285de07d9f6733b040b6fde84d96c38"
+        },
+        {
+          "file": "specification/programmableconnectivity/Azure.ProgrammableConnectivity/tspconfig.yaml",
+          "sha256": "db8e0213e49fbe84f7ae683fb2f21ac7aecf78158edaa3aab5c797451876531e"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/programmableconnectivity",
+      "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/openapi.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2024-02-09-preview",
+      "swaggerFiles": [
+        {
+          "file": "specification/programmableconnectivity/data-plane/Azure.ProgrammableConnectivity/preview/2024-02-09-preview/openapi.json",
+          "apiVersion": "2024-02-09-preview",
+          "format": "swagger-2.0",
+          "sha256": "c44637984eb536da89286c472a2043956315c6ce6829a84f271143702243fce8"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 6,
+      "slug": "006-purviewdatagovernace-azure.analaytics.purview.dataquality",
+      "sourcePath": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality",
+      "swaggerCandidates": [
+        {
+          "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2025-09-01-preview/purviewDataQuality.json",
+          "apiVersion": "2025-09-01-preview",
+          "format": "swagger-2.0",
+          "sha256": "8e103456b7fa2ddf16ac2d3ddd0085703999e07e504f65f04d53510bd0a8d43a"
+        },
+        {
+          "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+          "apiVersion": "2026-01-12-preview",
+          "format": "swagger-2.0",
+          "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/client.tsp",
+          "sha256": "04ea143aae164810f1f5414c9c5221610e0f6b7261acadc3f1b1522c4818aaee"
+        },
+        {
+          "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/main.tsp",
+          "sha256": "5bfc0c6f1bfe3bf6b178b8101e3af643306a6258596546af2a4960815c3b3c4e"
+        },
+        {
+          "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/models.tsp",
+          "sha256": "10e2068332eaad7c0087c2c491538df2c13e3cf0e19f0a6572dfe8673c0dd2c9"
+        },
+        {
+          "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/routes.tsp",
+          "sha256": "a9bf864955f358f13436a141f85e373985926e8b18459d98295c7c5e92ab7b8b"
+        },
+        {
+          "file": "specification/purviewdatagovernace/Azure.Analaytics.Purview.DataQuality/tspconfig.yaml",
+          "sha256": "1a857625d9743737486273c9e83d0418110e9d002aebb5c59368a37173d5a485"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/purviewdatagovernace",
+      "swaggerOutputPattern": "data-plane/Azure.Analaytics.Purview.DataQuality/{version-status}/{version}/purviewDataQuality.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2026-01-12-preview",
+      "swaggerFiles": [
+        {
+          "file": "specification/purviewdatagovernace/data-plane/Azure.Analaytics.Purview.DataQuality/preview/2026-01-12-preview/purviewDataQuality.json",
+          "apiVersion": "2026-01-12-preview",
+          "format": "swagger-2.0",
+          "sha256": "19e792d8178bd10d03531e9def6bbf0e5f95b9510acaab53831e79736be94c26"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    },
+    {
+      "index": 7,
+      "slug": "007-purviewdatagovernance-azure.analytics.purview.unifiedcatalog",
+      "sourcePath": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog",
+      "swaggerCandidates": [
+        {
+          "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2025-09-15-preview/CatalogApiService.json",
+          "apiVersion": "2025-09-15-preview",
+          "format": "swagger-2.0",
+          "sha256": "4928fc2e3948f8d52fae8e00c52b2fbe5a7f98dbb746364e5bbff9c6ccdfc71f"
+        },
+        {
+          "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+          "apiVersion": "2026-03-20-preview",
+          "format": "swagger-2.0",
+          "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70"
+        }
+      ],
+      "invalidCandidateJson": [],
+      "sourceFiles": [
+        {
+          "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/client.tsp",
+          "sha256": "a9bfb69e25afe3132fcc9a95728330840de008013acb0c27f35362412d6fa237"
+        },
+        {
+          "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/main.tsp",
+          "sha256": "2d2f447cc27a3ef94801bb41afe0b65261830c4b1c9a1efe32ff4fc5b7870f62"
+        },
+        {
+          "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/models.tsp",
+          "sha256": "0b90136ac0cec159f23e8bfd940e23d7afb79526c2beba2efb0aef08c90e72e6"
+        },
+        {
+          "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/routes.tsp",
+          "sha256": "8b5cb75fe328a7f89e00caf763622288ef910336690b0636719f9a47d0222fbb"
+        },
+        {
+          "file": "specification/purviewdatagovernance/Azure.Analytics.Purview.UnifiedCatalog/tspconfig.yaml",
+          "sha256": "a9be432454e01ab955542df3e29890c76581550435306ec37ced6c6c9c94557d"
+        }
+      ],
+      "emitterConfigDiagnostics": [],
+      "swaggerOutputRoot": "specification/purviewdatagovernance",
+      "swaggerOutputPattern": "data-plane/Azure.Analytics.Purview.UnifiedCatalog/{version-status}/{version}/CatalogApiService.json",
+      "hasExplicitAutorestOptions": true,
+      "apiVersion": "2026-03-20-preview",
+      "swaggerFiles": [
+        {
+          "file": "specification/purviewdatagovernance/data-plane/Azure.Analytics.Purview.UnifiedCatalog/preview/2026-03-20-preview/CatalogApiService.json",
+          "apiVersion": "2026-03-20-preview",
+          "format": "swagger-2.0",
+          "sha256": "70d32c954a8ce3b85cb0603898b3cea0f6043c7331dd4ef6f0bfca37ec865e70"
+        }
+      ],
+      "swaggerSelectionStatus": "selected"
+    }
+  ]
+}

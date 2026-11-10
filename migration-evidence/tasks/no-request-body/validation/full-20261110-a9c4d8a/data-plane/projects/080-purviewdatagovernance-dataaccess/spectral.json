@@ -1,0 +1,179 @@
+{
+  "project": "specification/purviewdatagovernance/data-plane/DataAccess",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/preview/2023-10-01-preview/DataAccessApiService.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "d064a2e47d18394bdf4e7c61f915e6bb43676916999c4b347d0946f2d2942fea",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/approvals",
+          "verb": "get",
+          "operationId": "Workflows_GetApprovals",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/businessDomains/{domainId}/policySets/applied",
+          "verb": "get",
+          "operationId": "DomainPolicySets_GetApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/businessDomains/{domainId}/policySets/applied",
+          "verb": "delete",
+          "operationId": "DomainPolicySets_DeleteApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/criticalDataElements/{criticalDataElementId}/policySets/applied",
+          "verb": "get",
+          "operationId": "CriticalDataElementPolicySets_GetApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySet",
+          "verb": "get",
+          "operationId": "DataProductPolicySets_GetWorkflowSettings",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySets/applied",
+          "verb": "get",
+          "operationId": "DataProductPolicySets_GetApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySets/applied",
+          "verb": "delete",
+          "operationId": "DataProductPolicySets_DeleteApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySets/criticalDataElements",
+          "verb": "get",
+          "operationId": "DataProductPolicySets_GetCriticalDataElementPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySets/effective",
+          "verb": "get",
+          "operationId": "DataProductPolicySets_GetEffective",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataProducts/{dataProductId}/policySets/terms",
+          "verb": "get",
+          "operationId": "DataProductPolicySets_GetTermPolicies",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataSubscriptions",
+          "verb": "get",
+          "operationId": "DataSubscriptions_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataSubscriptions/{dataSubscriptionId}",
+          "verb": "get",
+          "operationId": "DataSubscriptions_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/dataSubscriptions/{dataSubscriptionId}",
+          "verb": "delete",
+          "operationId": "DataSubscriptions_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}/policySets/applied",
+          "verb": "get",
+          "operationId": "TermPolicySets_GetApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/terms/{termId}/policySets/applied",
+          "verb": "delete",
+          "operationId": "TermPolicySets_DeleteApplied",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflowRuns",
+          "verb": "get",
+          "operationId": "Workflows_GetRuns",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflowRuns/{workflowRunId}",
+          "verb": "get",
+          "operationId": "Workflows_GetRun",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflowRuns/{workflowRunId}",
+          "verb": "delete",
+          "operationId": "Workflows_DeleteRun",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflowRuns/{workflowRunId}/approvals",
+          "verb": "get",
+          "operationId": "Workflows_GetRunApprovals",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflows",
+          "verb": "get",
+          "operationId": "Workflows_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflows/{workflowId}",
+          "verb": "get",
+          "operationId": "Workflows_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflows/{workflowId}",
+          "verb": "delete",
+          "operationId": "Workflows_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/workflows/templates/dataAccessRequestTemplate/{triggerType}",
+          "verb": "get",
+          "operationId": "Workflows_GetTemplateByTriggerType",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "MaryGao/typespec-azure-paging",
+  "tag": "no-request-body-full-validation-20261110-a9c4d8a",
+  "release": "https://github.com/MaryGao/typespec-azure-paging/releases/tag/no-request-body-full-validation-20261110-a9c4d8a",
+  "asset": "no-request-body-full-evidence-a9c4d8a.tar.gz",
+  "bytes": 11379816,
+  "sha256": "a562c9bda0cedfea547b2b9f4700337467fe829c87bdf4579403b60e829013c5",
+  "inventory": "evidence/file-retention.json",
+  "retainedRawFiles": 5211,
+  "compactFiles": 1646,
+  "replay": "Download the release archive, extract it, and verify every rawSha256 in evidence/file-retention.json. Git compact views use compactSha256. The 487-project ARM dataset is retained by the independently checksummed shared baseline asset, not duplicated here."
+}

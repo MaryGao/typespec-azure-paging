@@ -1,0 +1,50 @@
+{
+  "index": 80,
+  "slug": "080-purviewdatagovernance-dataaccess",
+  "sourcePath": "specification/purviewdatagovernance/data-plane/DataAccess",
+  "swaggerCandidates": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/preview/2023-10-01-preview/DataAccessApiService.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "d064a2e47d18394bdf4e7c61f915e6bb43676916999c4b347d0946f2d2942fea"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/client.tsp",
+      "sha256": "18ae968d6b77684675101544151cab11772fb63310d369a2e9a102545f66d05b"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/main.tsp",
+      "sha256": "6641981388f1875db2f74e22fdaa134ea0a20b9f33a93c1e02c1210160108b2f"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/models.tsp",
+      "sha256": "ea6bad09fac8f722a07db75e02c4b30406a9168c63b237a63cb4aaf75ce5ff8a"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/routes.tsp",
+      "sha256": "f2d772d21788143685b940bf2a11ed2829cc037a639ba79ea6eaa584fc842d3f"
+    },
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/tspconfig.yaml",
+      "sha256": "2caa32c1ae37f684490048e92ce6df52efcfd8cfab197014515572fe70cbd365"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/purviewdatagovernance/data-plane/DataAccess",
+  "swaggerOutputPattern": "{version-status}/{version}/DataAccessApiService.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2023-10-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/purviewdatagovernance/data-plane/DataAccess/preview/2023-10-01-preview/DataAccessApiService.json",
+      "apiVersion": "2023-10-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "d064a2e47d18394bdf4e7c61f915e6bb43676916999c4b347d0946f2d2942fea"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

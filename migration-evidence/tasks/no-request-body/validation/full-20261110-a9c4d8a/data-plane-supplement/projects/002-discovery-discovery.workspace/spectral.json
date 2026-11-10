@@ -1,0 +1,131 @@
+{
+  "project": "specification/discovery/Discovery.Workspace",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/discovery/data-plane/Microsoft.Discovery.Workspace/stable/2026-06-01/discovery-workspace.json",
+      "apiVersion": "2026-06-01",
+      "format": "swagger-2.0",
+      "sha256": "782c140d5dd3b7f63c5db062ff7ca3e92ace4804863a7bdc0cfea1ce36e96060",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/conversations",
+          "verb": "get",
+          "operationId": "Conversations_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/conversations/{conversationName}",
+          "verb": "get",
+          "operationId": "Conversations_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/conversations/{conversationName}",
+          "verb": "delete",
+          "operationId": "Conversations_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations",
+          "verb": "get",
+          "operationId": "Investigations_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}",
+          "verb": "get",
+          "operationId": "Investigations_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}",
+          "verb": "delete",
+          "operationId": "Investigations_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/discoveryEngine",
+          "verb": "get",
+          "operationId": "Investigations_GetDiscoveryEngine",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/discoveryEngine/workingMemory",
+          "verb": "get",
+          "operationId": "Investigations_GetDiscoveryEngineMemory",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "Investigations_GetOperationStatus",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/tasks",
+          "verb": "get",
+          "operationId": "Tasks_List",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/tasks/{taskName}",
+          "verb": "get",
+          "operationId": "Tasks_Get",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/projects/{projectName}/investigations/{investigationName}/tasks/{taskName}",
+          "verb": "delete",
+          "operationId": "Tasks_Delete",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/tools/projects/{projectName}/computeUsage",
+          "verb": "get",
+          "operationId": "Tools_GetComputeUsage",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/tools/projects/{projectName}/operations",
+          "verb": "get",
+          "operationId": "Tools_GetOperations",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/tools/projects/{projectName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "Tools_GetRunStatus",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

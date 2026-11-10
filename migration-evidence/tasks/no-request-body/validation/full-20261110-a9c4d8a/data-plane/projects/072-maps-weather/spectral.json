@@ -1,0 +1,149 @@
+{
+  "project": "specification/maps/data-plane/Weather",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/maps/data-plane/Weather/stable/1.1/weather.json",
+      "apiVersion": "1.1",
+      "format": "swagger-2.0",
+      "sha256": "085d2875036479f47629fcef0a7c4c9f92ccbe7ce502c220e4d2325d00c52661",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/weather/airQuality/current/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetCurrentAirQuality",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/airQuality/forecasts/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetAirQualityDailyForecasts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/airQuality/forecasts/hourly/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetAirQualityHourlyForecasts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/currentConditions/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetCurrentConditions",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/forecast/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetDailyForecast",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/forecast/hourly/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetHourlyForecast",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/forecast/minute/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetMinuteForecast",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/forecast/quarterDay/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetQuarterDayForecast",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/historical/actuals/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetDailyHistoricalActuals",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/historical/normals/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetDailyHistoricalNormals",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/historical/records/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetDailyHistoricalRecords",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/indices/daily/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetDailyIndices",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/route/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetWeatherAlongRoute",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/severe/alerts/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetSevereWeatherAlerts",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/tropical/storms/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetTropicalStormSearch",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/tropical/storms/active/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetTropicalStormActive",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/tropical/storms/forecasts/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetTropicalStormForecast",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/weather/tropical/storms/locations/{format}",
+          "verb": "get",
+          "operationId": "Weather_GetTropicalStormLocations",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

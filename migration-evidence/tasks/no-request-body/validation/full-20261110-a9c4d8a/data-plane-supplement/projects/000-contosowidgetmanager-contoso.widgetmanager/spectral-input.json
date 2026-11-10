@@ -1,0 +1,48 @@
+{
+  "index": 0,
+  "slug": "000-contosowidgetmanager-contoso.widgetmanager",
+  "sourcePath": "specification/contosowidgetmanager/Contoso.WidgetManager",
+  "swaggerCandidates": [
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/preview/2022-11-01-preview/widgets.json",
+      "apiVersion": "2022-11-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "26e88d639721c4f21c082f2a52501c08011e2777541fa0a1e16f35f06806c9e4"
+    },
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/contosowidgetmanager/Contoso.WidgetManager/client.tsp",
+      "sha256": "ba874e8e4d67a50373dabb0f96370f5127a8e1e1fc1afb79a657ecb8ccf40608"
+    },
+    {
+      "file": "specification/contosowidgetmanager/Contoso.WidgetManager/main.tsp",
+      "sha256": "e8f0414232b26775fcdebd5d5c67c1009c4a5ed8c2f6473a8f78ae5a3bd39e0d"
+    },
+    {
+      "file": "specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml",
+      "sha256": "67dd4fcb5defe1d565dee541911a73094b9f842d4ae3894e5fbe37ff3427af4b"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/contosowidgetmanager",
+  "swaggerOutputPattern": "data-plane/{service-name}/{version-status}/{version}/widgets.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2022-12-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/contosowidgetmanager/data-plane/Azure.Contoso.WidgetManager/stable/2022-12-01/widgets.json",
+      "apiVersion": "2022-12-01",
+      "format": "swagger-2.0",
+      "sha256": "2317506a7480c55e71792bf04d1613d6d755490476c7dc3a0349559ddbeffa78"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

@@ -1,0 +1,25 @@
+{
+  "project": "specification/ai/data-plane/ModelInference",
+  "slug": "007-ai-modelinference",
+  "status": "assessed",
+  "nativeAssessed": true,
+  "swaggerAssessed": true,
+  "nativeExecution": {
+    "startedAt": "2026-11-10T01:26:25.829Z",
+    "finishedAt": "2026-11-10T01:26:29.928Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "spectralExecution": {
+    "startedAt": "2026-11-10T01:26:29.930Z",
+    "finishedAt": "2026-11-10T01:26:31.787Z",
+    "timedOut": false,
+    "code": 0,
+    "signal": null
+  },
+  "nativeRawCount": 0,
+  "swaggerRawCount": 0,
+  "nativeGet": 0,
+  "nativeDelete": 0
+}

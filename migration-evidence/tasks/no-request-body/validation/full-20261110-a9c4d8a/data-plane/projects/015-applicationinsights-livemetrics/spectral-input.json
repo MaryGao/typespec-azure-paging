@@ -1,0 +1,46 @@
+{
+  "index": 15,
+  "slug": "015-applicationinsights-livemetrics",
+  "sourcePath": "specification/applicationinsights/data-plane/LiveMetrics",
+  "swaggerCandidates": [
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/preview/2024-04-01-preview/livemetrics.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f8d1cc274c0aed24fee9057e82175b80d6ae28cbb9493d70d1f8004b0bc26832"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/main.tsp",
+      "sha256": "492e59cc82fefd064ebb637ca30ef8e1a34011b447de39c53628152b9c592306"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/models.tsp",
+      "sha256": "d1c91e4796f14339be514bd28e07a2442e683828cc2dbe99834aa6478e5a4cef"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/routes.tsp",
+      "sha256": "7308f9b2627c51cb07b54fe2ffb61a75a952a020b360cebb095ad72a9d82709c"
+    },
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/tspconfig.yaml",
+      "sha256": "5c0dfd9ae3b8b80570359bd83638d235b73b19f13dd2cb9f7a7142a6bf8ad3ed"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/applicationinsights/data-plane/LiveMetrics",
+  "swaggerOutputPattern": "{version-status}/{version}/livemetrics.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2024-04-01-preview",
+  "swaggerFiles": [
+    {
+      "file": "specification/applicationinsights/data-plane/LiveMetrics/preview/2024-04-01-preview/livemetrics.json",
+      "apiVersion": "2024-04-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "f8d1cc274c0aed24fee9057e82175b80d6ae28cbb9493d70d1f8004b0bc26832"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}

@@ -1,0 +1,83 @@
+{
+  "project": "specification/keyvault/data-plane/Secrets",
+  "status": "assessed",
+  "runtime": {
+    "node": "v26.5.0",
+    "entrypoint": "C:\\dev\\worktrees\\specs-get-must-not-have-request-body-5983\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+    "entrypointSha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9",
+    "rulesetsVersion": "2.2.6"
+  },
+  "controls": {
+    "status": "passed",
+    "findings": 2
+  },
+  "registeredRule": {
+    "name": "RequestBodyNotAllowed",
+    "given": [
+      "$.paths[*][get,delete].parameters[*]"
+    ],
+    "severity": "warn",
+    "then": {
+      "field": "in",
+      "function": "pattern",
+      "functionOptions": {
+        "notMatch": "/^body$/"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "specification/keyvault/data-plane/Secrets/preview/2026-07-01-preview/secrets.json",
+      "apiVersion": "2026-07-01-preview",
+      "format": "swagger-2.0",
+      "sha256": "b91ab5d119d69dfb5af9dd760331a8777b96ba46a5859d387235056f8d8b152b",
+      "findings": [],
+      "ambientDiagnostics": [],
+      "operations": [
+        {
+          "route": "/deletedsecrets",
+          "verb": "get",
+          "operationId": "GetDeletedSecrets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedsecrets/{secret-name}",
+          "verb": "get",
+          "operationId": "GetDeletedSecret",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/deletedsecrets/{secret-name}",
+          "verb": "delete",
+          "operationId": "PurgeDeletedSecret",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/secrets",
+          "verb": "get",
+          "operationId": "GetSecrets",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/secrets/{secret-name}",
+          "verb": "delete",
+          "operationId": "DeleteSecret",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/secrets/{secret-name}/{secret-version}",
+          "verb": "get",
+          "operationId": "GetSecret",
+          "directBodyParameters": 0
+        },
+        {
+          "route": "/secrets/{secret-name}/versions",
+          "verb": "get",
+          "operationId": "GetSecretVersions",
+          "directBodyParameters": 0
+        }
+      ]
+    }
+  ],
+  "rawTargetCount": 0
+}

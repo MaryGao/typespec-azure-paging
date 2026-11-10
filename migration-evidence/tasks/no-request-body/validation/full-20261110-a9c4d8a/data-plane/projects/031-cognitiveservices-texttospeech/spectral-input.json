@@ -1,0 +1,50 @@
+{
+  "index": 31,
+  "slug": "031-cognitiveservices-texttospeech",
+  "sourcePath": "specification/cognitiveservices/data-plane/TextToSpeech",
+  "swaggerCandidates": [
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/stable/2026-01-01/texttospeech.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "5b2457baf70aa42f593ebf25373cfcaa488cfe299a750e9ea7c9cbe5051c2601"
+    }
+  ],
+  "invalidCandidateJson": [],
+  "sourceFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/client.tsp",
+      "sha256": "83f50e30f3e3c142c8f3ef52e40ef0d30facd6c4276ed06f17a3d966df01d018"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/main.tsp",
+      "sha256": "974e0a3598687dd9ca9a514ef32c1ff20de8f811e96d921d94cb47ce746c41a4"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/models.tsp",
+      "sha256": "62d4688b5ae5bdb6dc6d28bfd84730289399ba4460b2dd07697a3dd9e1588c71"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/routes.tsp",
+      "sha256": "26d3966de89f2a6b7ac43aa72da6fdfe7055acf6e6a8c2a458581c1b85867334"
+    },
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/tspconfig.yaml",
+      "sha256": "03aea0ed25c0b9cad76e1c27d3db47002cc540e4d1d0f27b0e07ef622ab0c006"
+    }
+  ],
+  "emitterConfigDiagnostics": [],
+  "swaggerOutputRoot": "specification/cognitiveservices/data-plane/TextToSpeech",
+  "swaggerOutputPattern": "{version-status}/{version}/texttospeech.json",
+  "hasExplicitAutorestOptions": true,
+  "apiVersion": "2026-01-01",
+  "swaggerFiles": [
+    {
+      "file": "specification/cognitiveservices/data-plane/TextToSpeech/stable/2026-01-01/texttospeech.json",
+      "apiVersion": "2026-01-01",
+      "format": "swagger-2.0",
+      "sha256": "5b2457baf70aa42f593ebf25373cfcaa488cfe299a750e9ea7c9cbe5051c2601"
+    }
+  ],
+  "swaggerSelectionStatus": "selected"
+}
