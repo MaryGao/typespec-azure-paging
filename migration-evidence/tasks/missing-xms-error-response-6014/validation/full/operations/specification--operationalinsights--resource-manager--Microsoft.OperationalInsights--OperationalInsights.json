@@ -1,0 +1,73 @@
+{
+  "project": "specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights",
+  "apiVersion": "2026-03-01",
+  "status": "success",
+  "swaggerCount": 1,
+  "nativeCount": 1,
+  "matched": 1,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "unresolved": [],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "DataExport.tsp",
+        "line": 46,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.OperationalInsights.DataExports.delete",
+        "sourceFile": "DataExport.tsp",
+        "line": 46,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "ArmDeletedResponse"
+          },
+          {
+            "status": "404",
+            "marked": false,
+            "representativeType": "ArmNotFoundResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/swagger/stable/2026-03-01/openapi.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}",
+        "verb": "delete",
+        "status": "404",
+        "operationId": "DataExports_Delete",
+        "errorMarker": null,
+        "violates": true
+      }
+    }
+  ],
+  "savedResponses": [
+    {
+      "swaggerFile": "projects/specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights/swagger/stable/2026-03-01/openapi.json",
+      "container": "paths",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}",
+      "verb": "delete",
+      "status": "404",
+      "operationId": "DataExports_Delete",
+      "errorMarker": null,
+      "violates": true
+    }
+  ]
+}

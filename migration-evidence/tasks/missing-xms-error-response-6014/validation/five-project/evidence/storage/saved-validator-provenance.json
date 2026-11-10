@@ -1,0 +1,12 @@
+[
+  {
+    "file": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/raw/stable/2026-09-01/openapi.jsonl",
+    "lifecycle": [
+      "openapiValidatorPluginFunc: Enter",
+      "openapiValidatorPluginFunc: Validating files:",
+      "openapiValidatorPluginFunc: File 1/1: 'file:///$BASELINE_DATASET/projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json'",
+      "openapiValidatorPluginFunc: Return"
+    ],
+    "findings": []
+  }
+]

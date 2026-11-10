@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "startedAt": "2026-11-10T03:24:35.446Z",
+  "node": "v26.5.0",
+  "candidateCommit": "74e56a0f144190769180d5dbb27179db8b448c9c",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "scope": "source",
+  "nativeMode": "target-only",
+  "defaultActivation": "not-assessed",
+  "sourceSuppressionsRetained": true,
+  "concurrency": 2,
+  "perProjectTimeoutMs": 240000,
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "projects": [
+    {
+      "slug": "deployments",
+      "project": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+      "startedAt": "2026-11-10T03:24:35.464Z",
+      "finishedAt": "2026-11-10T03:24:41.991Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success",
+      "rawCount": 5,
+      "diagnosticCount": 5
+    },
+    {
+      "slug": "automation",
+      "project": "specification/automation/resource-manager/Microsoft.Automation/Automation",
+      "startedAt": "2026-11-10T03:24:35.447Z",
+      "finishedAt": "2026-11-10T03:24:43.821Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success",
+      "rawCount": 1,
+      "diagnosticCount": 1
+    },
+    {
+      "slug": "search",
+      "project": "specification/search/resource-manager/Microsoft.Search/Search",
+      "startedAt": "2026-11-10T03:24:41.994Z",
+      "finishedAt": "2026-11-10T03:24:48.572Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success",
+      "rawCount": 7,
+      "diagnosticCount": 7
+    },
+    {
+      "slug": "solutions",
+      "project": "specification/solutions/resource-manager/Microsoft.Solutions/Solutions",
+      "startedAt": "2026-11-10T03:24:43.823Z",
+      "finishedAt": "2026-11-10T03:24:49.971Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success",
+      "rawCount": 5,
+      "diagnosticCount": 5
+    },
+    {
+      "slug": "storage",
+      "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "startedAt": "2026-11-10T03:24:48.574Z",
+      "finishedAt": "2026-11-10T03:24:56.432Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "workerStatus": "success",
+      "rawCount": 0,
+      "diagnosticCount": 0
+    }
+  ],
+  "finishedAt": "2026-11-10T03:24:56.433Z",
+  "quiescent": true
+}

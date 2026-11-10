@@ -1,0 +1,125 @@
+[
+  {
+    "rule": "MissingXmsErrorResponse",
+    "level": "error",
+    "project": "specification/search/resource-manager/Microsoft.Search/Search",
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "validatorInputFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "sourceDocuments": [
+      "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json"
+    ],
+    "sourceAttribution": "reported",
+    "message": "Response code 404 is defined without a x-ms-error-response.",
+    "path": [
+      "paths",
+      "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+      "delete",
+      "responses",
+      "404"
+    ],
+    "details": {
+      "jsonpath": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+        "delete",
+        "responses",
+        "404"
+      ],
+      "validationCategory": "SDKViolation",
+      "providerNamespace": false,
+      "resourceType": false,
+      "range": {
+        "start": {
+          "line": 877,
+          "column": 18
+        },
+        "end": {
+          "line": 879,
+          "column": 12
+        }
+      }
+    }
+  },
+  {
+    "rule": "MissingXmsErrorResponse",
+    "level": "error",
+    "project": "specification/search/resource-manager/Microsoft.Search/Search",
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "validatorInputFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "sourceDocuments": [
+      "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json"
+    ],
+    "sourceAttribution": "reported",
+    "message": "Response code 404 is defined without a x-ms-error-response.",
+    "path": [
+      "paths",
+      "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+      "delete",
+      "responses",
+      "404"
+    ],
+    "details": {
+      "jsonpath": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+        "delete",
+        "responses",
+        "404"
+      ],
+      "validationCategory": "SDKViolation",
+      "providerNamespace": false,
+      "resourceType": false,
+      "range": {
+        "start": {
+          "line": 1437,
+          "column": 18
+        },
+        "end": {
+          "line": 1439,
+          "column": 12
+        }
+      }
+    }
+  },
+  {
+    "rule": "MissingXmsErrorResponse",
+    "level": "error",
+    "project": "specification/search/resource-manager/Microsoft.Search/Search",
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "validatorInputFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "sourceDocuments": [
+      "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json"
+    ],
+    "sourceAttribution": "reported",
+    "message": "Response code 404 is defined without a x-ms-error-response.",
+    "path": [
+      "paths",
+      "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+      "delete",
+      "responses",
+      "404"
+    ],
+    "details": {
+      "jsonpath": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+        "delete",
+        "responses",
+        "404"
+      ],
+      "validationCategory": "SDKViolation",
+      "providerNamespace": false,
+      "resourceType": false,
+      "range": {
+        "start": {
+          "line": 1878,
+          "column": 18
+        },
+        "end": {
+          "line": 1880,
+          "column": 12
+        }
+      }
+    }
+  }
+]

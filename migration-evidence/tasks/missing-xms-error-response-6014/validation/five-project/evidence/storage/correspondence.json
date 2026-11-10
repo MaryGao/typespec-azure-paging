@@ -1,0 +1,14 @@
+{
+  "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+  "status": "assessed",
+  "sourceOperationCount": 140,
+  "serviceOperationCount": 138,
+  "sourceExplicitErrorOperations": [],
+  "head404": [],
+  "swaggerCount": 0,
+  "nativeCount": 0,
+  "matched": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "correspondence": []
+}

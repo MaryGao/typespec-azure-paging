@@ -1,0 +1,32 @@
+[
+  {
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+    "verb": "delete",
+    "status": "404",
+    "operationId": "QueryKeys_Delete",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "delete",
+    "status": "404",
+    "operationId": "PrivateEndpointConnections_Delete",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+    "verb": "delete",
+    "status": "404",
+    "operationId": "SharedPrivateLinkResources_Delete",
+    "errorMarker": null,
+    "violates": true
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "node": "v26.5.0",
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+      "archiveSha256": "494eaf2ffdbb7cec8e6e95dbc4d7007e415f0f09e2c3a5497e269c6062a0f2ad",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-autor_6e3f2c22b8f4ce3dd098baffb19873ce\\node_modules\\@azure-tools\\typespec-autorest",
+      "verifiedFiles": 71,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+      "archiveSha256": "9fa02e6081a177810561ed5137e3adb0d5ce69423ec7fe172520c351fc2e46d5",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_a412749739c0ac686107a643e55fdc59\\node_modules\\@azure-tools\\typespec-azure-core",
+      "verifiedFiles": 417,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "version": "0.2.2",
+      "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+      "archiveSha256": "2e04f3391bbc68273d62d261108876b9679da2e09529cc73040901ea9c696633",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_2a806d076616986bd7230ea95f9fd392\\node_modules\\@azure-tools\\typespec-azure-examples",
+      "verifiedFiles": 169,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+      "archiveSha256": "4ee1a6d9660b1663139c8179d3fa45a771d5622534985ce3e8fd6c3244702536",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_5b3039f564398f7ed922d737711899f9\\node_modules\\@azure-tools\\typespec-azure-resource-manager",
+      "verifiedFiles": 435,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+      "archiveSha256": "76f9cf1dbedc8dc03069c406527d6bf13f498770253ab67ac4a16ddee465916c",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_f75b4c355440af5ebc75f7be44b6e908\\node_modules\\@azure-tools\\typespec-azure-rulesets",
+      "verifiedFiles": 19,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+      "archiveSha256": "349f5e21c51e0e2d3160c5fbb5fc2d2913a80d9132cc4e0ba2621fffaab63ef0",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-clien_18e0ffb06f6395fd4778a42f8e93c050\\node_modules\\@azure-tools\\typespec-client-generator-core",
+      "verifiedFiles": 188,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "archive": "typespec-compiler-1.17.0.tgz",
+      "archiveSha256": "d6149dfe687c0597de11888fefa836e26c8e256957ea64cc61ac1865179bc5ce",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+compiler@file+..+_6474c4e9da731c6eda724aa12a1cc448\\node_modules\\@typespec\\compiler",
+      "verifiedFiles": 1086,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "version": "0.87.0",
+      "archive": "typespec-events-0.87.0.tgz",
+      "archiveSha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+events@file+..+ev_bb14870a3c0b0201b0ea645c376f1e1c\\node_modules\\@typespec\\events",
+      "verifiedFiles": 45,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "archive": "typespec-http-1.17.0.tgz",
+      "archiveSha256": "ad3a5de662be2296aa994b30aff834dce7bf8272168126738af0d1e7b087d5da",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+http@file+..+evid_279e0168df6b56387d9109e9a4801320\\node_modules\\@typespec\\http",
+      "verifiedFiles": 181,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "version": "1.17.0",
+      "archive": "typespec-openapi-1.17.0.tgz",
+      "archiveSha256": "ea070d3cab8412814abc1d3b8c182fd63e16a0e8a31e37ffe61ec608b3bd0fd6",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+openapi@file+..+e_503070ad0917669599f8ef309ec0ce69\\node_modules\\@typespec\\openapi",
+      "verifiedFiles": 42,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/rest",
+      "version": "0.87.0",
+      "archive": "typespec-rest-0.87.0.tgz",
+      "archiveSha256": "80597d81af15f34c8e8ca12e5564ccee611fea2e33fbb0a472d79b1e5997b58a",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+rest@file+..+evid_b0dfc8929cd98fae4f29ca162ece261e\\node_modules\\@typespec\\rest",
+      "verifiedFiles": 58,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "version": "0.87.0",
+      "archive": "typespec-sse-0.87.0.tgz",
+      "archiveSha256": "51623f21e623ac0db0a1c4992f2bd26af3d09c9664496a18e6f92c42684f8aeb",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+sse@file+..+evide_eb4b1353f31b6ffc3ab52c5a2529980f\\node_modules\\@typespec\\sse",
+      "verifiedFiles": 38,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/streams",
+      "version": "0.87.0",
+      "archive": "typespec-streams-0.87.0.tgz",
+      "archiveSha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+streams@file+..+e_3136540e84db25843dc9231a90210059\\node_modules\\@typespec\\streams",
+      "verifiedFiles": 34,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "archive": "typespec-versioning-0.87.0.tgz",
+      "archiveSha256": "d71421f381f7abef857964aa995088ea7e3d5c1feed7614494c289fbaa5a10cf",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+versioning@file+._b64d0fea955870fb4fe18ae8319fdd17\\node_modules\\@typespec\\versioning",
+      "verifiedFiles": 61,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "version": "0.87.0",
+      "archive": "typespec-xml-0.87.0.tgz",
+      "archiveSha256": "97714a7876073829510474cbded775f2372fc129b085dfce0427ab148028b716",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+xml@file+..+evide_67598453926aabcba998717eaa471fad\\node_modules\\@typespec\\xml",
+      "verifiedFiles": 43,
+      "mismatches": []
+    }
+  ]
+}

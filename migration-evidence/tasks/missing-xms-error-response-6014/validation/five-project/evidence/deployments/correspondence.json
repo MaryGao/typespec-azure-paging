@@ -1,0 +1,592 @@
+{
+  "project": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+  "status": "assessed",
+  "sourceOperationCount": 55,
+  "serviceOperationCount": 55,
+  "sourceExplicitErrorOperations": [
+    {
+      "operation": "Microsoft.Resources.Deployments.checkExistenceAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 74,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.validateAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 149,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "DeploymentValidateResult"
+        },
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 400,
+          "marked": false,
+          "representativeType": ""
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.checkExistenceAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 253,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.validateAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 304,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "DeploymentValidateResult"
+        },
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 400,
+          "marked": false,
+          "representativeType": ""
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.checkExistenceAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 451,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.validateAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 526,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "DeploymentValidateResult"
+        },
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 400,
+          "marked": false,
+          "representativeType": ""
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.checkExistenceAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 643,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.validateAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 718,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "DeploymentValidateResult"
+        },
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 400,
+          "marked": false,
+          "representativeType": ""
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.checkExistence",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 839,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.validate",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 897,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "DeploymentValidateResult"
+        },
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 400,
+          "marked": false,
+          "representativeType": ""
+        }
+      ]
+    }
+  ],
+  "head404": [
+    {
+      "operation": "Microsoft.Resources.Deployments.checkExistenceAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 74,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.checkExistenceAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 253,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.checkExistenceAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 451,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.checkExistenceAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 643,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.checkExistence",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 839,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "responses": [
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "ArmResourceExistsResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "ArmResourceNotFoundResponse"
+        }
+      ]
+    }
+  ],
+  "swaggerCount": 5,
+  "nativeCount": 5,
+  "matched": 5,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 149,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.Deployments.validateAtScope",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 149,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "DeploymentValidateResult"
+          },
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 400,
+            "marked": false,
+            "representativeType": ""
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+        "container": "paths",
+        "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "Deployments_ValidateAtScope",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 304,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentsExtendedTenant.validateAtTenantScope",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 304,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "DeploymentValidateResult"
+          },
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 400,
+            "marked": false,
+            "representativeType": ""
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+        "container": "paths",
+        "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "Deployments_ValidateAtTenantScope",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 526,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.validateAtManagementGroupScope",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 526,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "DeploymentValidateResult"
+          },
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 400,
+            "marked": false,
+            "representativeType": ""
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+        "container": "paths",
+        "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "Deployments_ValidateAtManagementGroupScope",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 718,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.validateAtSubscriptionScope",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 718,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "DeploymentValidateResult"
+          },
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 400,
+            "marked": false,
+            "representativeType": ""
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "Deployments_ValidateAtSubscriptionScope",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 897,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.validate",
+        "sourceFile": "DeploymentExtended.tsp",
+        "line": 897,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "DeploymentValidateResult"
+          },
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 400,
+            "marked": false,
+            "representativeType": ""
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "Deployments_Validate",
+        "errorMarker": null,
+        "violates": true
+      }
+    }
+  ]
+}

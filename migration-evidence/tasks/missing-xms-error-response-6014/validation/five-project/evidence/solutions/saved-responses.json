@@ -1,0 +1,52 @@
+[
+  {
+    "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+    "container": "paths",
+    "route": "/{applicationId}",
+    "verb": "get",
+    "status": "404",
+    "operationId": "Applications_GetById",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}",
+    "verb": "get",
+    "status": "404",
+    "operationId": "ApplicationDefinitions_Get",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applications/{applicationName}",
+    "verb": "get",
+    "status": "404",
+    "operationId": "Applications_Get",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/jitRequests/{jitRequestName}",
+    "verb": "get",
+    "status": "404",
+    "operationId": "JitRequests_Get",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+    "container": "x-ms-paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+    "verb": "get",
+    "status": "404",
+    "operationId": "ApplicationDefinitions_GetById",
+    "errorMarker": null,
+    "violates": false
+  }
+]

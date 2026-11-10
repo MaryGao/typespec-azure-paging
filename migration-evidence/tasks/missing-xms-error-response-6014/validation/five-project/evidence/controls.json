@@ -1,0 +1,67 @@
+[
+  {
+    "name": "unmarked-errors",
+    "expected": 2,
+    "passed": true,
+    "startedAt": "2026-11-10T03:23:51.590Z",
+    "finishedAt": "2026-11-10T03:24:13.997Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "workerStatus": "success",
+    "rawCount": 2,
+    "diagnosticCount": 2
+  },
+  {
+    "name": "head-exception",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T03:24:14.000Z",
+    "finishedAt": "2026-11-10T03:24:19.259Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "workerStatus": "success",
+    "rawCount": 1,
+    "diagnosticCount": 1
+  },
+  {
+    "name": "marked-errors",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T03:24:19.261Z",
+    "finishedAt": "2026-11-10T03:24:24.542Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "workerStatus": "success",
+    "rawCount": 0,
+    "diagnosticCount": 0
+  },
+  {
+    "name": "marked-body-only",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T03:24:24.545Z",
+    "finishedAt": "2026-11-10T03:24:30.057Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "workerStatus": "success",
+    "rawCount": 1,
+    "diagnosticCount": 1
+  },
+  {
+    "name": "suppressed",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T03:24:30.059Z",
+    "finishedAt": "2026-11-10T03:24:35.445Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "workerStatus": "success",
+    "rawCount": 0,
+    "diagnosticCount": 0
+  }
+]

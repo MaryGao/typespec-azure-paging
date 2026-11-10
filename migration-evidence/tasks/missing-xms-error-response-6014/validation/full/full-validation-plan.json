@@ -1,0 +1,27 @@
+{
+  "approval": "User approved full-spec validation and confirmed reuse of verified historical Swagger baseline with fresh native validation for every project.",
+  "candidateCommit": "74e56a0f144190769180d5dbb27179db8b448c9c",
+  "candidateCoreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselinePolicy": "frozen-reference",
+  "expectedProjects": 487,
+  "scope": "source",
+  "nativeMode": "target-only",
+  "nativeConcurrency": 2,
+  "nativeStageBudgetSeconds": 7200,
+  "estimatedNativeMinutes": "25-60, based on approximately 6-9 seconds per pilot project at concurrency 2; larger projects may take longer",
+  "setupAndBaselineVerificationEstimateMinutes": "5-20",
+  "swaggerRegeneration": false,
+  "controls": {
+    "portableHarnessSelection": "^(?!.*evaluates injected resource-group rule)",
+    "excludedFixtureGroup": "Six resource-group-path-parameter migration cases are not applicable because the candidate does not register that unrelated rule.",
+    "targetSpecificControls": "Five already passed injected cases retained in evidence/controls.json, against the same 15 byte-verified archives.",
+    "defaultActivation": "Already checked by package tests; target-only corpus execution deliberately does not assess project default activation.",
+    "result": "37 portable injected controls passed; six unrelated migration fixtures explicitly excluded before execution.",
+    "bootstrapRecovery": "Two loader attempts in the minimal tooling worktree collected zero tests because the full core tsconfig graph was absent. Both failed receipts were retained. The final run used byte-identical pinned test/worker files from the existing complete tooling runtime with an isolated cache; all applicable tests passed."
+  },
+  "sourcePopulationCaveat": "Native source and historical selected-version emitted Swagger are not version/reachability aligned; investigate operation identities rather than inferring equivalence from counts.",
+  "output": "$EVIDENCE_ROOT\\.local\\full-74e56a0f1-frozen-reference"
+}

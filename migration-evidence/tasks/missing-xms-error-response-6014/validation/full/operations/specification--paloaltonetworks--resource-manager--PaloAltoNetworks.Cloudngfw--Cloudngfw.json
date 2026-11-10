@@ -1,0 +1,73 @@
+{
+  "project": "specification/paloaltonetworks/resource-manager/PaloAltoNetworks.Cloudngfw/Cloudngfw",
+  "apiVersion": "2026-08-27-preview",
+  "status": "success",
+  "swaggerCount": 1,
+  "nativeCount": 1,
+  "matched": 1,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "unresolved": [],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 43,
+        "column": 3
+      },
+      "operation": {
+        "operation": "PaloAltoNetworks.Cloudngfw.PaloAltoNetworksCloudngfwOperationsOperationGroup.listProductSerialNumberStatus",
+        "sourceFile": "routes.tsp",
+        "line": 43,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/providers/PaloAltoNetworks.Cloudngfw/listProductSerialNumberStatus",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "ProductSerialNumberStatus"
+          },
+          {
+            "status": "404",
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/paloaltonetworks/resource-manager/PaloAltoNetworks.Cloudngfw/Cloudngfw/swagger/preview/2026-08-27-preview/PaloAltoNetworks.Cloudngfw.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/providers/PaloAltoNetworks.Cloudngfw/listProductSerialNumberStatus",
+        "verb": "post",
+        "status": "404",
+        "operationId": "PaloAltoNetworksCloudngfwOperations_listProductSerialNumberStatus",
+        "errorMarker": null,
+        "violates": true
+      }
+    }
+  ],
+  "savedResponses": [
+    {
+      "swaggerFile": "projects/specification/paloaltonetworks/resource-manager/PaloAltoNetworks.Cloudngfw/Cloudngfw/swagger/preview/2026-08-27-preview/PaloAltoNetworks.Cloudngfw.json",
+      "container": "paths",
+      "route": "/subscriptions/{subscriptionId}/providers/PaloAltoNetworks.Cloudngfw/listProductSerialNumberStatus",
+      "verb": "post",
+      "status": "404",
+      "operationId": "PaloAltoNetworksCloudngfwOperations_listProductSerialNumberStatus",
+      "errorMarker": null,
+      "violates": true
+    }
+  ]
+}

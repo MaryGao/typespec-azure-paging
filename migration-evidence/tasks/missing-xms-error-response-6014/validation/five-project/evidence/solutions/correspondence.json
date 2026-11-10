@@ -1,0 +1,374 @@
+{
+  "project": "specification/solutions/resource-manager/Microsoft.Solutions/Solutions",
+  "status": "assessed",
+  "sourceOperationCount": 31,
+  "serviceOperationCount": 31,
+  "sourceExplicitErrorOperations": [
+    {
+      "operation": "Microsoft.Solutions.Applications.get",
+      "sourceFile": "Application.tsp",
+      "line": 59,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applications/{applicationName}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Solutions.ApplicationDefinitions.get",
+      "sourceFile": "ApplicationDefinition.tsp",
+      "line": 60,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Solutions.ApplicationDefinitionOpsById.getById",
+      "sourceFile": "ApplicationDefinition.tsp",
+      "line": 96,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Solutions.JitRequestDefinitions.get",
+      "sourceFile": "JitRequestDefinition.tsp",
+      "line": 51,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/jitRequests/{jitRequestName}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Solutions.ApplicationsOperationGroup.getById",
+      "sourceFile": "routes.tsp",
+      "line": 35,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/{applicationId}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    }
+  ],
+  "head404": [],
+  "swaggerCount": 4,
+  "nativeCount": 5,
+  "matched": 4,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 96,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.ApplicationDefinitionOpsById.getById",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 96,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "swagger-selector-exclusion",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "x-ms-paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+        "verb": "get",
+        "status": "404",
+        "operationId": "ApplicationDefinitions_GetById",
+        "errorMarker": null,
+        "violates": false
+      }
+    }
+  ],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "Application.tsp",
+        "line": 59,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.Applications.get",
+        "sourceFile": "Application.tsp",
+        "line": 59,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applications/{applicationName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applications/{applicationName}",
+        "verb": "get",
+        "status": "404",
+        "operationId": "Applications_Get",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 60,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.ApplicationDefinitions.get",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 60,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}",
+        "verb": "get",
+        "status": "404",
+        "operationId": "ApplicationDefinitions_Get",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 96,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.ApplicationDefinitionOpsById.getById",
+        "sourceFile": "ApplicationDefinition.tsp",
+        "line": 96,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "swagger-selector-exclusion",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "x-ms-paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy",
+        "verb": "get",
+        "status": "404",
+        "operationId": "ApplicationDefinitions_GetById",
+        "errorMarker": null,
+        "violates": false
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "JitRequestDefinition.tsp",
+        "line": 51,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.JitRequestDefinitions.get",
+        "sourceFile": "JitRequestDefinition.tsp",
+        "line": 51,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/jitRequests/{jitRequestName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/jitRequests/{jitRequestName}",
+        "verb": "get",
+        "status": "404",
+        "operationId": "JitRequests_Get",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 35,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Solutions.ApplicationsOperationGroup.getById",
+        "sourceFile": "routes.tsp",
+        "line": 35,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/{applicationId}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/solutions/resource-manager/Microsoft.Solutions/Solutions/swagger/preview/2023-12-01-preview/managedapplications.json",
+        "container": "paths",
+        "route": "/{applicationId}",
+        "verb": "get",
+        "status": "404",
+        "operationId": "Applications_GetById",
+        "errorMarker": null,
+        "violates": true
+      }
+    }
+  ]
+}

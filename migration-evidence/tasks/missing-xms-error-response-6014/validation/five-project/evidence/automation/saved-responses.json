@@ -1,0 +1,12 @@
+[
+  {
+    "swaggerFile": "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+    "verb": "put",
+    "status": "409",
+    "operationId": "Schedule_CreateOrUpdate",
+    "errorMarker": null,
+    "violates": true
+  }
+]

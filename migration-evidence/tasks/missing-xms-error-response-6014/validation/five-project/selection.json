@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "taskId": "missing-xms-error-response-6014-five-project-pilot",
+  "pullRequest": "https://github.com/Azure/typespec-azure/pull/6028",
+  "candidateCommit": "74e56a0f144190769180d5dbb27179db8b448c9c",
+  "candidateCoreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "specs": "$SPECS_ROOT",
+  "candidate": "$CANDIDATE_ROOT",
+  "baselineDirectory": "$BASELINE_ROOT",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselineMetadataCommit": "1c9d2b0e6a596754af1aa793b1906ff3c4ef2bd6",
+  "worker": {
+    "file": "$TOOLING_ROOT\\packages\\typespec-lintdiff\\test\\harness\\native-coverage-worker.mjs",
+    "sha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609"
+  },
+  "swaggerRule": "MissingXmsErrorResponse",
+  "typeSpecRule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+  "scope": "source",
+  "nativeMode": "target-only",
+  "defaultActivation": "not-assessed",
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "sourceSuppressionsRetained": true,
+  "selectionRationale": "Four violating services span PUT409, POST400, DELETE404 and GET404; Deployments supplies five HEAD404 exceptions. Storage is a no-explicit-error negative control. Purposive, not statistical.",
+  "comparisonBoundary": "Historical production Swagger selected API vs fresh current-candidate native source scope; source inputs byte-verified at frozen specs SHA. No selected-version projection or full baseline ingestion.",
+  "projects": [
+    {
+      "name": "Automation",
+      "slug": "automation",
+      "sourcePath": "specification/automation/resource-manager/Microsoft.Automation/Automation",
+      "apiVersion": "2024-10-23",
+      "sourceFiles": 235,
+      "savedFindings": 1,
+      "explicitErrorResponses": 1,
+      "exemptHead404": 0
+    },
+    {
+      "name": "Deployments",
+      "slug": "deployments",
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+      "apiVersion": "2026-06-01",
+      "sourceFiles": 53,
+      "savedFindings": 5,
+      "explicitErrorResponses": 10,
+      "exemptHead404": 5
+    },
+    {
+      "name": "Search",
+      "slug": "search",
+      "sourcePath": "specification/search/resource-manager/Microsoft.Search/Search",
+      "apiVersion": "2026-09-01-preview",
+      "sourceFiles": 171,
+      "savedFindings": 3,
+      "explicitErrorResponses": 3,
+      "exemptHead404": 0
+    },
+    {
+      "name": "Solutions",
+      "slug": "solutions",
+      "sourcePath": "specification/solutions/resource-manager/Microsoft.Solutions/Solutions",
+      "apiVersion": "2023-12-01-preview",
+      "sourceFiles": 49,
+      "savedFindings": 4,
+      "explicitErrorResponses": 5,
+      "exemptHead404": 0
+    },
+    {
+      "name": "Storage",
+      "slug": "storage",
+      "sourcePath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "sourceFiles": 1092,
+      "savedFindings": 0,
+      "explicitErrorResponses": 0,
+      "exemptHead404": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Automation",
+    "swagger": 1,
+    "native": 1,
+    "matched": 1,
+    "swaggerOnly": 0,
+    "nativeOnly": [],
+    "head404": 0
+  },
+  {
+    "name": "Deployments",
+    "swagger": 5,
+    "native": 5,
+    "matched": 5,
+    "swaggerOnly": 0,
+    "nativeOnly": [],
+    "head404": 5
+  },
+  {
+    "name": "Search",
+    "swagger": 3,
+    "native": 7,
+    "matched": 3,
+    "swaggerOnly": 0,
+    "nativeOnly": [
+      {
+        "source": "client.tsp:259",
+        "operation": "Customizations.searchDeleteCustomization",
+        "category": "non-service-client-customization",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchDeleteCustomization"
+      },
+      {
+        "source": "client.tsp:316",
+        "operation": "Customizations.queryKeysDeleteCustomization",
+        "category": "non-service-client-customization",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/searchServices/{searchServiceName}/{key}"
+      },
+      {
+        "source": "client.tsp:498",
+        "operation": "Customizations.privateEndpointConnectionsDeleteCustomization",
+        "category": "non-service-client-customization",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}"
+      },
+      {
+        "source": "client.tsp:702",
+        "operation": "Customizations.SharedPrivateLinkResourcesDeleteCustomization",
+        "category": "non-service-client-customization",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}"
+      }
+    ],
+    "head404": 0
+  },
+  {
+    "name": "Solutions",
+    "swagger": 4,
+    "native": 5,
+    "matched": 4,
+    "swaggerOnly": 0,
+    "nativeOnly": [
+      {
+        "source": "ApplicationDefinition.tsp:96",
+        "operation": "Microsoft.Solutions.ApplicationDefinitionOpsById.getById",
+        "category": "swagger-selector-exclusion",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Solutions/applicationDefinitions/{applicationDefinitionName}?disambiguation_dummy"
+      }
+    ],
+    "head404": 0
+  },
+  {
+    "name": "Storage",
+    "swagger": 0,
+    "native": 0,
+    "matched": 0,
+    "swaggerOnly": 0,
+    "nativeOnly": [],
+    "head404": 0
+  }
+]

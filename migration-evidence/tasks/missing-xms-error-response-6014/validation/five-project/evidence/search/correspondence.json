@@ -1,0 +1,619 @@
+{
+  "project": "specification/search/resource-manager/Microsoft.Search/Search",
+  "status": "assessed",
+  "sourceOperationCount": 53,
+  "serviceOperationCount": 29,
+  "sourceExplicitErrorOperations": [
+    {
+      "operation": "Microsoft.Search.SearchServices.queryKeysDelete",
+      "sourceFile": "SearchService.tsp",
+      "line": 361,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "OkResponse"
+        },
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "NoContentResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Search.PrivateEndpointConnections.delete",
+      "sourceFile": "PrivateEndpointConnection.tsp",
+      "line": 78,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Search.SharedPrivateLinkResources.delete",
+      "sourceFile": "SharedPrivateLinkResource.tsp",
+      "line": 83,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+      "responses": [
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "NoContentResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Customizations.searchDeleteCustomization",
+      "sourceFile": "client.tsp",
+      "line": 259,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchDeleteCustomization",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "OkResponse"
+        },
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "NoContentResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Customizations.queryKeysDeleteCustomization",
+      "sourceFile": "client.tsp",
+      "line": 316,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/searchServices/{searchServiceName}/{key}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "OkResponse"
+        },
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "NoContentResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Customizations.privateEndpointConnectionsDeleteCustomization",
+      "sourceFile": "client.tsp",
+      "line": 498,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+      "responses": [
+        {
+          "status": 200,
+          "marked": false,
+          "representativeType": "ArmResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    },
+    {
+      "operation": "Customizations.SharedPrivateLinkResourcesDeleteCustomization",
+      "sourceFile": "client.tsp",
+      "line": 702,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+      "responses": [
+        {
+          "status": 202,
+          "marked": false,
+          "representativeType": "ArmAcceptedLroResponse"
+        },
+        {
+          "status": 204,
+          "marked": false,
+          "representativeType": "NoContentResponse"
+        },
+        {
+          "status": 404,
+          "marked": false,
+          "representativeType": "NotFoundResponse"
+        }
+      ]
+    }
+  ],
+  "head404": [],
+  "swaggerCount": 3,
+  "nativeCount": 7,
+  "matched": 3,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.searchDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchDeleteCustomization",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "OkResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 316,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.queryKeysDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 316,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/searchServices/{searchServiceName}/{key}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "OkResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 498,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.privateEndpointConnectionsDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 498,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 702,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.SharedPrivateLinkResourcesDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 702,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+        "responses": [
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    }
+  ],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "SearchService.tsp",
+        "line": 361,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Search.SearchServices.queryKeysDelete",
+        "sourceFile": "SearchService.tsp",
+        "line": 361,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "OkResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+        "verb": "delete",
+        "status": "404",
+        "operationId": "QueryKeys_Delete",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "PrivateEndpointConnection.tsp",
+        "line": 78,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Search.PrivateEndpointConnections.delete",
+        "sourceFile": "PrivateEndpointConnection.tsp",
+        "line": 78,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+        "verb": "delete",
+        "status": "404",
+        "operationId": "PrivateEndpointConnections_Delete",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "SharedPrivateLinkResource.tsp",
+        "line": 83,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Search.SharedPrivateLinkResources.delete",
+        "sourceFile": "SharedPrivateLinkResource.tsp",
+        "line": 83,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+        "responses": [
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+        "verb": "delete",
+        "status": "404",
+        "operationId": "SharedPrivateLinkResources_Delete",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.searchDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/searchDeleteCustomization",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "OkResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 316,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.queryKeysDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 316,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/searchServices/{searchServiceName}/{key}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "OkResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 498,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.privateEndpointConnectionsDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 498,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{privateEndpointConnectionName}",
+        "responses": [
+          {
+            "status": 200,
+            "marked": false,
+            "representativeType": "ArmResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '404' must use a response model marked with @error.",
+        "sourceFile": "client.tsp",
+        "line": 702,
+        "column": 4
+      },
+      "operation": {
+        "operation": "Customizations.SharedPrivateLinkResourcesDeleteCustomization",
+        "sourceFile": "client.tsp",
+        "line": 702,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/{sharedPrivateLinkResourceName}",
+        "responses": [
+          {
+            "status": 202,
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": 204,
+            "marked": false,
+            "representativeType": "NoContentResponse"
+          },
+          {
+            "status": 404,
+            "marked": false,
+            "representativeType": "NotFoundResponse"
+          }
+        ]
+      },
+      "status": "404",
+      "category": "non-service-client-customization",
+      "swagger": null
+    }
+  ]
+}

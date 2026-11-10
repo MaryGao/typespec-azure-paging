@@ -1,0 +1,102 @@
+[
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "status": "404",
+    "operationId": "Deployments_CheckExistenceAtScope",
+    "errorMarker": null,
+    "violates": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "status": "400",
+    "operationId": "Deployments_ValidateAtScope",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "status": "404",
+    "operationId": "Deployments_CheckExistenceAtManagementGroupScope",
+    "errorMarker": null,
+    "violates": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "status": "400",
+    "operationId": "Deployments_ValidateAtManagementGroupScope",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "status": "404",
+    "operationId": "Deployments_CheckExistenceAtTenantScope",
+    "errorMarker": null,
+    "violates": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "status": "400",
+    "operationId": "Deployments_ValidateAtTenantScope",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "status": "404",
+    "operationId": "Deployments_CheckExistenceAtSubscriptionScope",
+    "errorMarker": null,
+    "violates": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "status": "400",
+    "operationId": "Deployments_ValidateAtSubscriptionScope",
+    "errorMarker": null,
+    "violates": true
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "status": "404",
+    "operationId": "Deployments_CheckExistence",
+    "errorMarker": null,
+    "violates": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "container": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "status": "400",
+    "operationId": "Deployments_Validate",
+    "errorMarker": null,
+    "violates": true
+  }
+]

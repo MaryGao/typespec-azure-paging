@@ -1,0 +1,43 @@
+[
+  {
+    "rule": "MissingXmsErrorResponse",
+    "level": "error",
+    "project": "specification/automation/resource-manager/Microsoft.Automation/Automation",
+    "swaggerFile": "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json",
+    "validatorInputFile": "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json",
+    "sourceDocuments": [
+      "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json"
+    ],
+    "sourceAttribution": "reported",
+    "message": "Response code 409 is defined without a x-ms-error-response.",
+    "path": [
+      "paths",
+      "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+      "put",
+      "responses",
+      "409"
+    ],
+    "details": {
+      "jsonpath": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+        "put",
+        "responses",
+        "409"
+      ],
+      "validationCategory": "SDKViolation",
+      "providerNamespace": false,
+      "resourceType": false,
+      "range": {
+        "start": {
+          "line": 8172,
+          "column": 18
+        },
+        "end": {
+          "line": 8174,
+          "column": 12
+        }
+      }
+    }
+  }
+]

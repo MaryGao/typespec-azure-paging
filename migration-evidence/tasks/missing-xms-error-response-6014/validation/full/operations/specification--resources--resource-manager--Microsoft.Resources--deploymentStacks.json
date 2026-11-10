@@ -1,0 +1,293 @@
+{
+  "project": "specification/resources/resource-manager/Microsoft.Resources/deploymentStacks",
+  "apiVersion": "2025-07-01",
+  "status": "success",
+  "swaggerCount": 3,
+  "nativeCount": 4,
+  "matched": 3,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentStacks.DeploymentStacksAtScope.validateStack",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": false,
+        "verb": "post",
+        "route": "/{scope}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "DeploymentStackValidateResult"
+          },
+          {
+            "status": "202",
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          },
+          {
+            "status": "400",
+            "marked": false,
+            "representativeType": "ValidationBadRequestResponse"
+          }
+        ]
+      },
+      "status": "400",
+      "category": "emitter-scoped-client-customization",
+      "swagger": null
+    }
+  ],
+  "unresolved": [],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentStacks.DeploymentStacksAtResourceGroup.validateStack",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "DeploymentStackValidateResult"
+          },
+          {
+            "status": "202",
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          },
+          {
+            "status": "400",
+            "marked": false,
+            "representativeType": "ValidationBadRequestResponse"
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "DeploymentStacks_ValidateStackAtResourceGroup",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentStacks.DeploymentStacksAtSubscription.validateStack",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "DeploymentStackValidateResult"
+          },
+          {
+            "status": "202",
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          },
+          {
+            "status": "400",
+            "marked": false,
+            "representativeType": "ValidationBadRequestResponse"
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "DeploymentStacks_ValidateStackAtSubscription",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentStacks.DeploymentStacksAtManagementGroup.validateStack",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "post",
+        "route": "/providers/Microsoft.Management/managementGroups/{managementGroupId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "DeploymentStackValidateResult"
+          },
+          {
+            "status": "202",
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          },
+          {
+            "status": "400",
+            "marked": false,
+            "representativeType": "ValidationBadRequestResponse"
+          }
+        ]
+      },
+      "status": "400",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+        "container": "paths",
+        "route": "/providers/Microsoft.Management/managementGroups/{managementGroupId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "verb": "post",
+        "status": "400",
+        "operationId": "DeploymentStacks_ValidateStackAtManagementGroup",
+        "errorMarker": null,
+        "violates": true
+      }
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '400' must use a response model marked with @error.",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Resources.DeploymentStacks.DeploymentStacksAtScope.validateStack",
+        "sourceFile": "routes.tsp",
+        "line": 41,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": false,
+        "verb": "post",
+        "route": "/{scope}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "DeploymentStackValidateResult"
+          },
+          {
+            "status": "202",
+            "marked": false,
+            "representativeType": "ArmAcceptedLroResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          },
+          {
+            "status": "400",
+            "marked": false,
+            "representativeType": "ValidationBadRequestResponse"
+          }
+        ]
+      },
+      "status": "400",
+      "category": "emitter-scoped-client-customization",
+      "swagger": null
+    }
+  ],
+  "savedResponses": [
+    {
+      "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+      "container": "paths",
+      "route": "/providers/Microsoft.Management/managementGroups/{managementGroupId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+      "verb": "post",
+      "status": "400",
+      "operationId": "DeploymentStacks_ValidateStackAtManagementGroup",
+      "errorMarker": null,
+      "violates": true
+    },
+    {
+      "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+      "container": "paths",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+      "verb": "post",
+      "status": "400",
+      "operationId": "DeploymentStacks_ValidateStackAtSubscription",
+      "errorMarker": null,
+      "violates": true
+    },
+    {
+      "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deploymentStacks/swagger/stable/2025-07-01/deploymentStacks.json",
+      "container": "paths",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/deploymentStacks/{deploymentStackName}/validate",
+      "verb": "post",
+      "status": "400",
+      "operationId": "DeploymentStacks_ValidateStackAtResourceGroup",
+      "errorMarker": null,
+      "violates": true
+    }
+  ]
+}

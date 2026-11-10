@@ -1,0 +1,78 @@
+{
+  "project": "specification/automation/resource-manager/Microsoft.Automation/Automation",
+  "apiVersion": "2024-10-23",
+  "status": "success",
+  "swaggerCount": 1,
+  "nativeCount": 1,
+  "matched": 1,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "unresolved": [],
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+        "message": "Response status '409' must use a response model marked with @error.",
+        "sourceFile": "Schedule.tsp",
+        "line": 43,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Automation.Schedules.createOrUpdate",
+        "sourceFile": "Schedule.tsp",
+        "line": 43,
+        "column": 3,
+        "serviceOperation": true,
+        "autorestInScope": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+        "responses": [
+          {
+            "status": "200",
+            "marked": false,
+            "representativeType": "ArmResourceUpdatedResponse"
+          },
+          {
+            "status": "201",
+            "marked": false,
+            "representativeType": "ArmResourceCreatedSyncResponse"
+          },
+          {
+            "status": "409",
+            "marked": false,
+            "representativeType": "ConflictResponse"
+          },
+          {
+            "status": "*",
+            "marked": true,
+            "representativeType": "ErrorResponse"
+          }
+        ]
+      },
+      "status": "409",
+      "category": "matched",
+      "swagger": {
+        "swaggerFile": "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json",
+        "container": "paths",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+        "verb": "put",
+        "status": "409",
+        "operationId": "Schedule_CreateOrUpdate",
+        "errorMarker": null,
+        "violates": true
+      }
+    }
+  ],
+  "savedResponses": [
+    {
+      "swaggerFile": "projects/specification/automation/resource-manager/Microsoft.Automation/Automation/swagger/stable/2024-10-23/openapi.json",
+      "container": "paths",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/schedules/{scheduleName}",
+      "verb": "put",
+      "status": "409",
+      "operationId": "Schedule_CreateOrUpdate",
+      "errorMarker": null,
+      "violates": true
+    }
+  ]
+}

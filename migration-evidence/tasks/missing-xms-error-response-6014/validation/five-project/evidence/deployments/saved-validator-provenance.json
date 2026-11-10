@@ -1,0 +1,203 @@
+[
+  {
+    "file": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/raw/stable/2026-06-01/deployments.jsonl",
+    "lifecycle": [
+      "openapiValidatorPluginFunc: Enter",
+      "openapiValidatorPluginFunc: Validating files:",
+      "openapiValidatorPluginFunc: File 1/1: 'file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json'",
+      "openapiValidatorPluginFunc: Return"
+    ],
+    "findings": [
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 400 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+            "post",
+            "responses",
+            "400"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 595,
+              "column": 18
+            },
+            "end": {
+              "line": 600,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+            "position": {
+              "line": 595,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 400 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+            "post",
+            "responses",
+            "400"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1175,
+              "column": 18
+            },
+            "end": {
+              "line": 1180,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+            "position": {
+              "line": 1175,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 400 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+            "post",
+            "responses",
+            "400"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1785,
+              "column": 18
+            },
+            "end": {
+              "line": 1790,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+            "position": {
+              "line": 1785,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 400 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+            "post",
+            "responses",
+            "400"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 2376,
+              "column": 18
+            },
+            "end": {
+              "line": 2381,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+            "position": {
+              "line": 2376,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 400 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+            "post",
+            "responses",
+            "400"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 3044,
+              "column": 18
+            },
+            "end": {
+              "line": 3049,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+            "position": {
+              "line": 3044,
+              "column": 11
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

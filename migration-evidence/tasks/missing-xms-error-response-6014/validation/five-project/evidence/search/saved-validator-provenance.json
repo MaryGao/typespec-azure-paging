@@ -1,0 +1,127 @@
+[
+  {
+    "file": "projects/specification/search/resource-manager/Microsoft.Search/Search/raw/preview/2026-09-01-preview/search.jsonl",
+    "lifecycle": [
+      "openapiValidatorPluginFunc: Enter",
+      "openapiValidatorPluginFunc: Validating files:",
+      "openapiValidatorPluginFunc: File 1/1: 'file:///$BASELINE_DATASET/projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json'",
+      "openapiValidatorPluginFunc: Return"
+    ],
+    "findings": [
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 404 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}",
+            "delete",
+            "responses",
+            "404"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 877,
+              "column": 18
+            },
+            "end": {
+              "line": 879,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+            "position": {
+              "line": 877,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 404 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+            "delete",
+            "responses",
+            "404"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1437,
+              "column": 18
+            },
+            "end": {
+              "line": 1439,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+            "position": {
+              "line": 1437,
+              "column": 11
+            }
+          }
+        ]
+      },
+      {
+        "pluginName": "spectral",
+        "extensionName": "@microsoft.azure/openapi-validator",
+        "level": "error",
+        "message": "Response code 404 is defined without a x-ms-error-response.",
+        "code": "MissingXmsErrorResponse",
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}",
+            "delete",
+            "responses",
+            "404"
+          ],
+          "validationCategory": "SDKViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1878,
+              "column": 18
+            },
+            "end": {
+              "line": 1880,
+              "column": 12
+            }
+          }
+        },
+        "source": [
+          {
+            "document": "file:///$BASELINE_DATASET/projects/specification/search/resource-manager/Microsoft.Search/Search/swagger/preview/2026-09-01-preview/search.json",
+            "position": {
+              "line": 1878,
+              "column": 11
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
