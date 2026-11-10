@@ -8,7 +8,9 @@ and [XmsPageableForListCalls](https://github.com/Azure/azure-openapi-validator/b
 The agreed collection scope is the union of `@list` operations and collection-shaped
 GET paths, including `/operations`. This deliberately extends Swagger's response
 selector; Swagger also permits `nextLinkName: null`, whereas the TypeSpec rule
-requires continuation metadata. Real-project equivalence remains unassessed.
+requires continuation metadata. Diagnostics are prioritized per operation:
+missing `@list`, then paging/envelope defects, then extra properties. Real-project
+equivalence remains unassessed.
 
 ## 2. Actual coverage
 
@@ -26,7 +28,7 @@ explicitly approved for validation.
 | Behavior | Result | Rationale |
 | --- | --- | --- |
 | Collection identity | Focused tests; real projects unassessed | `@list` operations and Swagger-shaped GET paths are both selected; see [predicate tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
-| Required list and paging markers | Focused tests; real projects unassessed | Missing `@list`, `@pageItems`, or `@nextLink` are independently reported; see [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts). |
+| Required list and paging markers | Focused tests; real projects unassessed | Missing `@list` takes priority over paging/envelope diagnostics; paging defects take priority over extra properties. See [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts). |
 | HTTP 200 response envelope | Focused tests; real projects unassessed | Union members, status ranges including 200, missing bodies, JSON names, array value, inherited properties and indexers are covered by [response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
 | Paging-property names | Focused tests; real projects unassessed | TypeSpec property names must match emitted JSON names because AutoRest uses TypeSpec names for `x-ms-pageable`; see [AutoRest emission](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-autorest/src/openapi.ts). |
 | Collection query parameters | Separate rule | `no-query-in-collection` is unchanged and will be handled in a separate task. |
@@ -55,6 +57,6 @@ been measured.
 - The previous `list-operation-missing-pageable` rule ID is retired; existing
   configurations and suppressions must migrate to `list-response-envelope`.
 - Candidate development began from Azure/typespec-azure main at
-  `ce1ca4c66f918a92113a035d3e7d908aa25d62f5`; the reviewed rule commit is
-  `305296dec9d74e5f0f43a0dc50e699c28b245f56`. This commit includes the main
+  `ce1ca4c66f918a92113a035d3e7d908aa25d62f5`; the current rule candidate is
+  `2272a21afb1df13a4d727b6c3b6521448c4fbd2a`. This commit includes the main
   update that added unrelated Azure HTTP unified YAML examples.

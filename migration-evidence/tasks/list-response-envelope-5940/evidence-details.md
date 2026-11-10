@@ -18,7 +18,9 @@ and requires a truthy `x-ms-pageable`.
 The approved TypeSpec population is a superset: any `@list` operation, or any
 GET with the provider-tail collection path shape. Path-shaped collection GETs
 must also have `@list`. The shared scope includes `/operations`. The response
-shape and paging metadata are checked independently.
+shape and paging metadata are checked independently of HTTP response status.
+Diagnostics are prioritized per operation: missing `@list` first, then
+paging/envelope defects, then extra properties.
 
 ## Existing TypeSpec coverage and tests
 
@@ -31,7 +33,7 @@ for `CollectionObjectPropertiesNaming` remains under the same public rule.
   collection identity, path boundaries, body variants and unions, encoded names,
   paging markers, indexers, inheritance, and status-code ranges.
 - [`list-response-envelope-paging.test.ts`](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts):
-  independent missing-marker diagnostics, paged responses outside HTTP 200,
+  prioritized missing-marker diagnostics, paged responses outside HTTP 200,
   generic/template operations, inherited library operations and targets.
 - AutoRest's [paging metadata mapping](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-autorest/src/openapi.ts)
   uses TypeSpec property names for `x-ms-pageable`; the rule therefore requires

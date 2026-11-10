@@ -22,7 +22,7 @@ checks; real-project coverage and correspondence have not been assessed.
 | --- | --- | --- |
 | Collection GET and `@list` scope | Focused tests; real projects unassessed | The TypeSpec rule uses the agreed union of list markers and collection-shaped GET paths. [Scope tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts) cover extension and provider actions, `/operations`, point paths and controls. |
 | JSON `value` array and `nextLink` | Focused tests; real projects unassessed | [Response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts) cover unions, status ranges, bodies, encoded names, decorators and inherited properties. |
-| Extra properties and indexers | Focused tests; real projects unassessed | Additional response properties and open-ended indexers have separate diagnostics in the same [response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
+| Extra properties and indexers | Focused tests; real projects unassessed | Additional response properties and open-ended indexers have separate diagnostics when paging/envelope checks pass; see the [response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
 
 ## 4. Why diagnostic counts differ
 
