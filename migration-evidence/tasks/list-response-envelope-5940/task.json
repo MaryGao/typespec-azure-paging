@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "taskId": "list-response-envelope-5940",
+  "flowVersion": "native-first",
+  "nativeRule": "@azure-tools/typespec-azure-resource-manager/list-response-envelope",
+  "validatorRules": [
+    "GetCollectionOnlyHasValueAndNextLink",
+    "XmsPageableForListCalls"
+  ],
+  "membershipRevision": "e1b8b207a196cf2fc288593efec22e6e38ab98d5",
+  "candidateBase": {
+    "repository": "Azure/typespec-azure",
+    "branch": "main",
+    "commit": "ce1ca4c66f918a92113a035d3e7d908aa25d62f5"
+  },
+  "candidateCommit": "305296dec9d74e5f0f43a0dc50e699c28b245f56",
+  "comparison": {
+    "serviceType": "resource-manager",
+    "selectedBaseline": "swagger-arm-20261026-2cd3c5dd",
+    "realProjectValidation": "not-run-pending-manual-pr-review-and-approval"
+  }
+}
