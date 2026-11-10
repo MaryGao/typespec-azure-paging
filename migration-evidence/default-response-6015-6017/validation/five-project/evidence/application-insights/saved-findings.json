@@ -1,0 +1,902 @@
+{
+  "MissingDefaultResponse": [],
+  "RequiredDefaultResponse": [
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 72,
+            "column": 22
+          },
+          "end": {
+            "line": 79,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "delete",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "delete",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 114,
+            "column": 22
+          },
+          "end": {
+            "line": 121,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+        "delete",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "delete",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 322,
+            "column": 22
+          },
+          "end": {
+            "line": 326,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 356,
+            "column": 22
+          },
+          "end": {
+            "line": 363,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "post",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "post",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 403,
+            "column": 22
+          },
+          "end": {
+            "line": 410,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 440,
+            "column": 22
+          },
+          "end": {
+            "line": 447,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 477,
+            "column": 22
+          },
+          "end": {
+            "line": 487,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 524,
+            "column": 22
+          },
+          "end": {
+            "line": 531,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "put",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "put",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 575,
+            "column": 22
+          },
+          "end": {
+            "line": 582,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+        "post",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "post",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 665,
+            "column": 22
+          },
+          "end": {
+            "line": 672,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 709,
+            "column": 22
+          },
+          "end": {
+            "line": 716,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "patch",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "patch",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 760,
+            "column": 22
+          },
+          "end": {
+            "line": 767,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "delete",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "delete",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 802,
+            "column": 22
+          },
+          "end": {
+            "line": 806,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 836,
+            "column": 22
+          },
+          "end": {
+            "line": 843,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "put",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "put",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 880,
+            "column": 22
+          },
+          "end": {
+            "line": 887,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 917,
+            "column": 22
+          },
+          "end": {
+            "line": 927,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "post",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "post",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 964,
+            "column": 22
+          },
+          "end": {
+            "line": 974,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1011,
+            "column": 22
+          },
+          "end": {
+            "line": 1018,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "put",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "put",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1062,
+            "column": 22
+          },
+          "end": {
+            "line": 1069,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "delete",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "delete",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1104,
+            "column": 22
+          },
+          "end": {
+            "line": 1111,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1141,
+            "column": 22
+          },
+          "end": {
+            "line": 1148,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1178,
+            "column": 22
+          },
+          "end": {
+            "line": 1185,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+      "sourceDocuments": [
+        "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+        "get",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+          "get",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 1215,
+            "column": 22
+          },
+          "end": {
+            "line": 1222,
+            "column": 10
+          }
+        }
+      }
+    }
+  ]
+}

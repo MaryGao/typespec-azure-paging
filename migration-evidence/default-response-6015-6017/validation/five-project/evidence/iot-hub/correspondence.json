@@ -1,0 +1,1750 @@
+{
+  "project": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+  "status": "assessed",
+  "sourceOperationCount": 40,
+  "serviceOperationCount": 37,
+  "sourceHeadOperations": [],
+  "sourceMissingDefaultOperations": [
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.update",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 99,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "patch",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update an existing IoT Hub tags. to update other fields use the CreateOrUpdate method\n   */\n  #suppress \"@azure-tools/typespec-azure-core/invalid-final-state\" \"Final-state-via location is retained to match the published LRO behavior of this tags update operation.\"\n  @summary(\"Update an existing IoT Hubs tags.\")\n  @tag(\"PATCH\")\n  @patch(#{ implicitOptionality: false })\n  @Azure.Core.useFinalStateVia(\"location\")\n  update is ArmCustomPatchAsync<\n    IotHubDescription,\n    PatchModel = TagsResource,\n    Response = ArmResponse<IotHubDescription> &\n      ArmCombinedLroHeaders<FinalResult = IotHubDescription> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "verb": "patch",
+          "operationId": "IotHubResource_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "A link to the status monitor"
+                },
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 1
+  },
+  "nativeCount": 1,
+  "requiredDefaultMatched": 1,
+  "requiredDefaultSwaggerOnly": [],
+  "requiredDefaultNativeOnly": [],
+  "missingDefaultSpectralNativeOnly": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "IotHubDescription.tsp",
+        "line": 99,
+        "column": 3
+      },
+      "operation": {
+        "operation": "Microsoft.Devices.IotHubDescriptions.update",
+        "sourceFile": "IotHubDescription.tsp",
+        "line": 99,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "patch",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Update an existing IoT Hub tags. to update other fields use the CreateOrUpdate method\n   */\n  #suppress \"@azure-tools/typespec-azure-core/invalid-final-state\" \"Final-state-via location is retained to match the published LRO behavior of this tags update operation.\"\n  @summary(\"Update an existing IoT Hubs tags.\")\n  @tag(\"PATCH\")\n  @patch(#{ implicitOptionality: false })\n  @Azure.Core.useFinalStateVia(\"location\")\n  update is ArmCustomPatchAsync<\n    IotHubDescription,\n    PatchModel = TagsResource,\n    Response = ArmResponse<IotHubDescription> &\n      ArmCombinedLroHeaders<FinalResult = IotHubDescription> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+            "verb": "patch",
+            "operationId": "IotHubResource_Update",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/IotHubDescription"
+                },
+                "headers": {
+                  "Azure-AsyncOperation": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "A link to the status monitor"
+                  },
+                  "Location": {
+                    "type": "string",
+                    "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                  },
+                  "Retry-After": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    }
+  ],
+  "operations": [
+    {
+      "operation": ".replaceTestAllRoutes",
+      "sourceFile": "client.tsp",
+      "line": 389,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "post",
+      "route": "/{subscriptionId}/{iotHubName}/{resourceGroupName}/{provider}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n * override for IotHubDescriptions.testAllRoutes\n */\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop replaceTestAllRoutes(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n\n  @path\n  iotHubName: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  @body body: Microsoft.Devices.TestAllRoutesInput,\n):\n  | Azure.ResourceManager.ArmResponse<Microsoft.Devices.TestAllRoutesResult>\n  | Microsoft.Devices.ErrorDetails;",
+      "savedCandidates": []
+    },
+    {
+      "operation": ".replaceTestRoute",
+      "sourceFile": "client.tsp",
+      "line": 413,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "post",
+      "route": "/{subscriptionId}/{iotHubName}/{resourceGroupName}/{provider}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n * override for IotHubDescriptions.testRoute\n */\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop replaceTestRoute(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n\n  @path\n  iotHubName: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  @body body: Microsoft.Devices.TestRouteInput,\n):\n  | Azure.ResourceManager.ArmResponse<Microsoft.Devices.TestRouteResult>\n  | Microsoft.Devices.ErrorDetails;",
+      "savedCandidates": []
+    },
+    {
+      "operation": ".replaceManualFailover",
+      "sourceFile": "client.tsp",
+      "line": 360,
+      "column": 4,
+      "serviceOperation": false,
+      "verb": "post",
+      "route": "/{subscriptionId}/{iotHubName}/{resourceGroupName}/{provider}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n * override for IotHubDescriptions.manualFailover\n */\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop replaceManualFailover(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n\n  @path\n  iotHubName: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  @body body: Microsoft.Devices.FailoverInput,\n):\n  | (ArmCombinedLroHeaders & Azure.Core.Foundations.RetryAfterHeader)\n  | Microsoft.Devices.ErrorDetails\n  | Azure.ResourceManager.ArmResponse<void>;",
+      "savedCandidates": []
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.get",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 67,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the non-security related metadata of an IoT hub.\n   */\n  @summary(\"Get the non-security related metadata of an IoT hub\")\n  @tag(\"GET\")\n  get is ArmResourceRead<IotHubDescription, Error = ErrorDetails>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "verb": "get",
+          "operationId": "IotHubResource_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.createOrUpdate",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 76,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Create or update the metadata of an Iot hub. The usual pattern to modify a property is to retrieve the IoT hub metadata and security metadata, and then combine them with the modified values in a new body to update the IoT hub.\n   */\n  #suppress \"@azure-tools/typespec-azure-core/invalid-final-state\" \"Final-state-via location is retained to match the published LRO behavior of this create-or-update operation.\"\n  @summary(\"Create or update the metadata of an IoT hub.\")\n  @tag(\"PUT\")\n  @Azure.Core.useFinalStateVia(\"location\")\n  createOrUpdate is ArmResourceCreateOrReplaceAsync<\n    IotHubDescription,\n    Parameters = {\n      /**\n       * ETag of the IoT Hub. Do not specify for creating a brand new IoT Hub. Required to update an existing IoT Hub.\n       */\n      #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"'If-Match' is a standard HTTP header name (RFC 9110) and must retain its canonical casing.\"\n      @header(\"If-Match\")\n      `If-Match`?: string;\n    },\n    LroHeaders = ArmAsyncOperationHeader<FinalResult = IotHubDescription> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "verb": "put",
+          "operationId": "IotHubResource_CreateOrUpdate",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'IotHubDescription' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              }
+            },
+            "201": {
+              "description": "Resource 'IotHubDescription' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "description": "A link to the status monitor"
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.update",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 99,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "patch",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update an existing IoT Hub tags. to update other fields use the CreateOrUpdate method\n   */\n  #suppress \"@azure-tools/typespec-azure-core/invalid-final-state\" \"Final-state-via location is retained to match the published LRO behavior of this tags update operation.\"\n  @summary(\"Update an existing IoT Hubs tags.\")\n  @tag(\"PATCH\")\n  @patch(#{ implicitOptionality: false })\n  @Azure.Core.useFinalStateVia(\"location\")\n  update is ArmCustomPatchAsync<\n    IotHubDescription,\n    PatchModel = TagsResource,\n    Response = ArmResponse<IotHubDescription> &\n      ArmCombinedLroHeaders<FinalResult = IotHubDescription> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "verb": "patch",
+          "operationId": "IotHubResource_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "A link to the status monitor"
+                },
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.delete",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 115,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+      "statuses": [
+        200,
+        202,
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Delete an IoT hub.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"The published API returns the deleted resource in the body of the synchronous (200) delete response; retained to preserve backward compatibility.\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-delete-operation-response-codes\" \"Delete response codes match the published API contract and are retained for backward compatibility.\"\n  @summary(\"Delete an IoT hub\")\n  @tag(\"DELETE\")\n  delete is ArmResourceDeleteWithoutOkAsync<\n    IotHubDescription,\n    Response =\n      | ArmResponse<IotHubDescription>\n      | (ArmAcceptedLroResponse<LroHeaders = ArmCombinedLroHeaders<FinalResult = IotHubDescription> &\n          Azure.Core.Foundations.RetryAfterHeader> &\n          Body<IotHubDescription>)\n      | ArmDeletedNoContentResponse\n      | (NotFoundResponse & Body<ErrorDetails>),\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "verb": "delete",
+          "operationId": "IotHubResource_Delete",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              }
+            },
+            "202": {
+              "description": "The request has been accepted for processing, but processing has not yet completed.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescription"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "A link to the status monitor"
+                },
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "404": {
+              "description": "The server cannot find the requested resource.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.listByResourceGroup",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 132,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the IoT hubs in a resource group.\n   */\n  @summary(\"Get all the IoT hubs in a resource group\")\n  @tag(\"GET\")\n  listByResourceGroup is ArmResourceListByParent<\n    IotHubDescription,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs",
+          "verb": "get",
+          "operationId": "IotHubResource_ListByResourceGroup",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescriptionListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.listBySubscription",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 142,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/IotHubs",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the IoT hubs in a subscription.\n   */\n  @summary(\"Get all the IoT hubs in a subscription\")\n  @tag(\"GET\")\n  listBySubscription is ArmListBySubscription<\n    IotHubDescription,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/IotHubs",
+          "verb": "get",
+          "operationId": "IotHubResource_ListBySubscription",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubDescriptionListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.getValidSkus",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 155,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/skus",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the list of valid SKUs for an IoT hub.\n   */\n  @summary(\"Get the list of valid SKUs for an IoT hub\")\n  @tag(\"GET\")\n  @list\n  @get\n  @action(\"skus\")\n  getValidSkus is ArmResourceActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<IotHubSkuDescriptionListResult>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/skus",
+          "verb": "get",
+          "operationId": "IotHubResource_GetValidSkus",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubSkuDescriptionListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.listJobs",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 170,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get a list of all the jobs in an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry.\n   */\n  @summary(\"Get a list of all the jobs in an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry\")\n  @tag(\"GET\")\n  @list\n  @get\n  @action(\"jobs\")\n  listJobs is ArmResourceActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<JobResponseListResult>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs",
+          "verb": "get",
+          "operationId": "IotHubResource_ListJobs",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/JobResponseListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.getJob",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 183,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs/{jobId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the details of a job from an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry.\n   */\n  @summary(\"Get the details of a job from an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry\")\n  @tag(\"GET\")\n  @get\n  getJob is ArmResourceRead<\n    IotHubDescription,\n    Response = ArmResponse<JobResponse>,\n    Parameters = {\n      /**\n       * The job identifier.\n       */\n      @path\n      @segment(\"jobs\")\n      jobId: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs/{jobId}",
+          "verb": "get",
+          "operationId": "IotHubResource_GetJob",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/JobResponse"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.getQuotaMetrics",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 205,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/quotaMetrics",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the quota metrics for an IoT hub.\n   */\n  @summary(\"Get the quota metrics for an IoT hub\")\n  @tag(\"GET\")\n  @list\n  @get\n  @action(\"quotaMetrics\")\n  getQuotaMetrics is ArmResourceActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<IotHubQuotaMetricInfoListResult>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/quotaMetrics",
+          "verb": "get",
+          "operationId": "IotHubResource_GetQuotaMetrics",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/IotHubQuotaMetricInfoListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.getEndpointHealth",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 220,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routingEndpointsHealth",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the health for routing endpoints.\n   */\n  @summary(\"Get the health for routing endpoints\")\n  @tag(\"GET\")\n  @list\n  @get\n  @action(\"routingEndpointsHealth\")\n  getEndpointHealth is IotHubDescriptionOps.ActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<EndpointHealthDataListResult>,\n    OverrideErrorType = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routingEndpointsHealth",
+          "verb": "get",
+          "operationId": "IotHubResource_GetEndpointHealth",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/EndpointHealthDataListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.testAllRoutes",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 233,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testall",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Test all routes configured in this Iot Hub\n   */\n  @summary(\"Test all routes\")\n  @tag(\"POST\")\n  @action(\"routing/routes/$testall\")\n  testAllRoutes is IotHubDescriptionOps.ActionSync<\n    IotHubDescription,\n    TestAllRoutesInput,\n    ArmResponse<TestAllRoutesResult>,\n    OverrideErrorType = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testall",
+          "verb": "post",
+          "operationId": "IotHubResource_TestAllRoutes",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/TestAllRoutesResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.testRoute",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 246,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testnew",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Test the new route for this Iot Hub\n   */\n  @summary(\"Test the new route\")\n  @tag(\"POST\")\n  @action(\"routing/routes/$testnew\")\n  testRoute is IotHubDescriptionOps.ActionSync<\n    IotHubDescription,\n    TestRouteInput,\n    ArmResponse<TestRouteResult>,\n    OverrideErrorType = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testnew",
+          "verb": "post",
+          "operationId": "IotHubResource_TestRoute",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/TestRouteResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.listKeys",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 260,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/listkeys",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the security metadata for an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security.\n   */\n  @summary(\"Get the security metadata for an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security\")\n  @tag(\"POST\")\n  @list\n  @action(\"listkeys\")\n  listKeys is ArmResourceActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<SharedAccessSignatureAuthorizationRuleListResult>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/listkeys",
+          "verb": "post",
+          "operationId": "IotHubResource_ListKeys",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/SharedAccessSignatureAuthorizationRuleListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.getKeysForKeyName",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 273,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubKeys/{keyName}/listkeys",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get a shared access policy by name from an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security.\n   */\n  @summary(\"Get a shared access policy by name from an IoT hub. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security\")\n  @tag(\"POST\")\n  @action(\"listkeys\")\n  getKeysForKeyName is ArmResourceActionSync<\n    IotHubDescription,\n    void,\n    ArmResponse<SharedAccessSignatureAuthorizationRule>,\n    Parameters = {\n      /**\n       * The name of the shared access policy.\n       */\n      @path\n      @segment(\"IotHubKeys\")\n      keyName: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubKeys/{keyName}/listkeys",
+          "verb": "post",
+          "operationId": "IotHubResource_GetKeysForKeyName",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/SharedAccessSignatureAuthorizationRule"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.exportDevices",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 293,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/exportDevices",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports all the device identities in the IoT hub identity registry to an Azure Storage blob container. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities.\n   */\n  @summary(\"Exports all the device identities in the IoT hub identity registry to an Azure Storage blob container. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities\")\n  @tag(\"POST\")\n  exportDevices is ArmResourceActionSync<\n    IotHubDescription,\n    ExportDevicesRequest,\n    ArmResponse<JobResponse>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/exportDevices",
+          "verb": "post",
+          "operationId": "IotHubResource_ExportDevices",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/JobResponse"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.importDevices",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 305,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/importDevices",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Import, update, or delete device identities in the IoT hub identity registry from a blob. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities.\n   */\n  @summary(\"Import, update, or delete device identities in the IoT hub identity registry from a blob. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities\")\n  @tag(\"POST\")\n  importDevices is ArmResourceActionSync<\n    IotHubDescription,\n    ImportDevicesRequest,\n    ArmResponse<JobResponse>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/importDevices",
+          "verb": "post",
+          "operationId": "IotHubResource_ImportDevices",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/JobResponse"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptions.manualFailover",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 318,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/failover",
+      "statuses": [
+        202,
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Manually initiate a failover for the IoT Hub to its secondary region. To learn more, see https://aka.ms/manualfailover\n   */\n  @summary(\"Manually initiate a failover for the IoT Hub to its secondary region\")\n  @tag(\"POST\")\n  @action(\"failover\")\n  manualFailover is IotHubDescriptionOps.ActionAsync<\n    IotHubDescription,\n    FailoverInput,\n    OkResponse,\n    ArmCombinedLroHeaders & Azure.Core.Foundations.RetryAfterHeader,\n    OverrideErrorType = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/failover",
+          "verb": "post",
+          "operationId": "IotHub_ManualFailover",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "A link to the status monitor"
+                },
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubDescriptionOperationGroup.getStats",
+      "sourceFile": "IotHubDescription.tsp",
+      "line": 339,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubStats",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the statistics from an IoT hub.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"This is a non-standard ARM action (IotHubStats) on the IoT hub resource, retained to match the published API routing.\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubStats\")\n  @get\n  @summary(\"Get the statistics from an IoT hub\")\n  @tag(\"GET\")\n  getStats(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"Key parameter mirrors the published API path segment; description retained as in the original specification.\"\n    @path\n    @key\n    @segment(\"IotHubs\")\n    resourceName: string,\n  ): ArmResponse<RegistryStatistics> | ErrorDetails",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubStats",
+          "verb": "get",
+          "operationId": "IotHubResource_GetStats",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/RegistryStatistics"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.EventHubConsumerGroupInfos.getEventHubConsumerGroup",
+      "sourceFile": "EventHubConsumerGroupInfo.tsp",
+      "line": 58,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get a consumer group from the Event Hub-compatible device-to-cloud endpoint for an IoT hub.\n   */\n  @summary(\"Get a consumer group from the Event Hub-compatible device-to-cloud endpoint for an IoT hub\")\n  @tag(\"GET\")\n  getEventHubConsumerGroup is ArmResourceRead<\n    EventHubConsumerGroupInfo,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+          "verb": "get",
+          "operationId": "IotHubResource_GetEventHubConsumerGroup",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/EventHubConsumerGroupInfo"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.EventHubConsumerGroupInfos.createEventHubConsumerGroup",
+      "sourceFile": "EventHubConsumerGroupInfo.tsp",
+      "line": 69,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Add a consumer group to an Event Hub-compatible endpoint in an IoT hub.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-put-operation-response-codes\" \"This create operation returns only 200 in the published API; response codes are retained to preserve backward compatibility.\"\n  @summary(\"Add a consumer group to an Event Hub-compatible endpoint in an IoT hub\")\n  @tag(\"PUT\")\n  createEventHubConsumerGroup is Azure.ResourceManager.Legacy.CreateOrUpdateSync<\n    EventHubConsumerGroupInfo,\n    Request = EventHubConsumerGroupBodyDescription,\n    Response = ArmResourceUpdatedResponse<EventHubConsumerGroupInfo>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+          "verb": "put",
+          "operationId": "IotHubResource_CreateEventHubConsumerGroup",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'EventHubConsumerGroupInfo' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/EventHubConsumerGroupInfo"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.EventHubConsumerGroupInfos.deleteEventHubConsumerGroup",
+      "sourceFile": "EventHubConsumerGroupInfo.tsp",
+      "line": 82,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Delete a consumer group from an Event Hub-compatible endpoint in an IoT hub.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-delete-operation-response-codes\" \"This synchronous delete returns only 200 in the published API; response codes are retained to preserve backward compatibility.\"\n  @summary(\"Delete a consumer group from an Event Hub-compatible endpoint in an IoT hub\")\n  @tag(\"DELETE\")\n  deleteEventHubConsumerGroup is ArmResourceDeleteSync<\n    EventHubConsumerGroupInfo,\n    Response = ArmDeletedResponse,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+          "verb": "delete",
+          "operationId": "IotHubResource_DeleteEventHubConsumerGroup",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource deleted successfully."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.EventHubConsumerGroupInfos.listEventHubConsumerGroups",
+      "sourceFile": "EventHubConsumerGroupInfo.tsp",
+      "line": 93,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get a list of the consumer groups in the Event Hub-compatible device-to-cloud endpoint in an IoT hub.\n   */\n  @summary(\"Get a list of the consumer groups in the Event Hub-compatible device-to-cloud endpoint in an IoT hub\")\n  @tag(\"GET\")\n  listEventHubConsumerGroups is ArmResourceListByParent<\n    EventHubConsumerGroupInfo,\n    Response = ArmResponse<EventHubConsumerGroupsListResult>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups",
+          "verb": "get",
+          "operationId": "IotHubResource_ListEventHubConsumerGroups",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/EventHubConsumerGroupsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.get",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 42,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns the certificate.\n   */\n  @summary(\"Get the certificate.\")\n  @tag(\"Certificates\")\n  get is ArmResourceRead<CertificateDescription, Error = ErrorDetails>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+          "verb": "get",
+          "operationId": "Certificates_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/CertificateDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.createOrUpdate",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 49,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Adds new or replaces existing certificate.\n   */\n  @summary(\"Upload the certificate to the IoT hub.\")\n  @tag(\"Certificates\")\n  createOrUpdate is ArmResourceCreateOrReplaceSync<\n    CertificateDescription,\n    Parameters = {\n      /**\n       * ETag of the Certificate. Do not specify for creating a brand new certificate. Required to update an existing certificate.\n       */\n      #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"'If-Match' is a standard HTTP header name (RFC 9110) and must retain its canonical casing.\"\n      @header(\"If-Match\")\n      `If-Match`?: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+          "verb": "put",
+          "operationId": "Certificates_CreateOrUpdate",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'CertificateDescription' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/CertificateDescription"
+              }
+            },
+            "201": {
+              "description": "Resource 'CertificateDescription' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/CertificateDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.delete",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 67,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+      "statuses": [
+        200,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Deletes an existing X509 certificate or does nothing if it does not exist.\n   */\n  @summary(\"Delete an X509 certificate.\")\n  @tag(\"Certificates\")\n  delete is ArmResourceDeleteSync<\n    CertificateDescription,\n    Parameters = {\n      /**\n       * ETag of the Certificate.\n       */\n      #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"'If-Match' is a standard HTTP header name (RFC 9110) and must retain its canonical casing.\"\n      @header(\"If-Match\")\n      `If-Match`: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+          "verb": "delete",
+          "operationId": "Certificates_Delete",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource deleted successfully."
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.listByIotHub",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 85,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns the list of certificates.\n   */\n  @summary(\"Get the certificate list.\")\n  @tag(\"Certificates\")\n  listByIotHub is Azure.ResourceManager.Legacy.ArmListSinglePageByParent<\n    CertificateDescription,\n    Response = ArmResponse<CertificateListDescription>,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates",
+          "verb": "get",
+          "operationId": "Certificates_ListByIotHub",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/CertificateListDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.generateVerificationCode",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 96,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/generateVerificationCode",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Generates verification code for proof of possession flow. The verification code will be used to generate a leaf certificate.\n   */\n  @summary(\"Generate verification code for proof of possession flow.\")\n  @tag(\"Certificates\")\n  generateVerificationCode is ArmResourceActionSync<\n    CertificateDescription,\n    void,\n    ArmResponse<CertificateWithNonceDescription>,\n    Parameters = {\n      /**\n       * ETag of the Certificate.\n       */\n      #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"'If-Match' is a standard HTTP header name (RFC 9110) and must retain its canonical casing.\"\n      @header(\"If-Match\")\n      `If-Match`: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/generateVerificationCode",
+          "verb": "post",
+          "operationId": "Certificates_GenerateVerificationCode",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/CertificateWithNonceDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.CertificateDescriptions.verify",
+      "sourceFile": "CertificateDescription.tsp",
+      "line": 116,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/verify",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Verifies the certificate's private key possession by providing the leaf cert issued by the verifying pre uploaded certificate.\n   */\n  @summary(\"Verify certificate's private key possession.\")\n  @tag(\"Certificates\")\n  verify is ArmResourceActionSync<\n    CertificateDescription,\n    CertificateVerificationDescription,\n    ArmResponse<CertificateDescription>,\n    Parameters = {\n      /**\n       * ETag of the Certificate.\n       */\n      #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"'If-Match' is a standard HTTP header name (RFC 9110) and must retain its canonical casing.\"\n      @header(\"If-Match\")\n      `If-Match`: string;\n    },\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/verify",
+          "verb": "post",
+          "operationId": "Certificates_Verify",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/CertificateDescription"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.GroupIdInformations.get",
+      "sourceFile": "GroupIdInformation.tsp",
+      "line": 63,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources/{groupId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the specified private link resource for the given IotHub\n   */\n  @summary(\"Get the specified private link resource\")\n  @tag(\"GET\")\n  get is GroupIdInformationOps.Read<GroupIdInformation>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources/{groupId}",
+          "verb": "get",
+          "operationId": "PrivateLinkResources_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/GroupIdInformation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.GroupIdInformations.list",
+      "sourceFile": "GroupIdInformation.tsp",
+      "line": 70,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * List private link resources for the given IotHub\n   */\n  @summary(\"List private link resources\")\n  @tag(\"GET\")\n  list is GroupIdInformationOps.ListSinglePage<\n    GroupIdInformation,\n    Response = ArmResponse<PrivateLinkResources>\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources",
+          "verb": "get",
+          "operationId": "PrivateLinkResources_List",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/PrivateLinkResources"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.PrivateEndpointConnections.get",
+      "sourceFile": "PrivateEndpointConnection.tsp",
+      "line": 61,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get private endpoint connection properties\n   */\n  @summary(\"Get private endpoint connection\")\n  @tag(\"GET\")\n  get is PrivateEndpointConnectionOps.Read<PrivateEndpointConnection>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "verb": "get",
+          "operationId": "PrivateEndpointConnections_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/PrivateEndpointConnection"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.PrivateEndpointConnections.update",
+      "sourceFile": "PrivateEndpointConnection.tsp",
+      "line": 70,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Update the status of a private endpoint connection with the specified name\n   */\n  #suppress \"@azure-tools/typespec-azure-core/invalid-final-state\" \"Final-state-via location is retained to match the published LRO behavior of this update operation.\"\n  @summary(\"Update private endpoint connection\")\n  @tag(\"PUT\")\n  @Azure.Core.useFinalStateVia(\"location\")\n  update is PrivateEndpointConnectionOps.CreateOrUpdateAsync<\n    PrivateEndpointConnection,\n    LroHeaders = ArmAsyncOperationHeader<FinalResult = PrivateEndpointConnection> &\n      Azure.Core.Foundations.RetryAfterHeader\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "verb": "put",
+          "operationId": "PrivateEndpointConnections_Update",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'PrivateEndpointConnection' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/PrivateEndpointConnection"
+              }
+            },
+            "201": {
+              "description": "Resource 'PrivateEndpointConnection' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/PrivateEndpointConnection"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "description": "A link to the status monitor"
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.PrivateEndpointConnections.delete",
+      "sourceFile": "PrivateEndpointConnection.tsp",
+      "line": 83,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+      "statuses": [
+        200,
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Delete private endpoint connection with the specified name\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-delete-operation-response-codes\" \"Delete response codes match the published API contract and are retained for backward compatibility.\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"The published API returns the deleted private endpoint connection in the body of the synchronous (200) delete response; retained to preserve backward compatibility.\"\n  @summary(\"Delete private endpoint connection\")\n  @tag(\"DELETE\")\n  delete is PrivateEndpointConnectionOps.DeleteWithoutOkAsync<\n    PrivateEndpointConnection,\n    Response =\n      | ArmResponse<PrivateEndpointConnection>\n      | (ArmDeleteAcceptedLroResponse<ArmCombinedLroHeaders<FinalResult = PrivateEndpointConnection> &\n          Azure.Core.Foundations.RetryAfterHeader> & {\n          @bodyRoot\n          _: PrivateEndpointConnection;\n        })\n      | ArmDeletedNoContentResponse\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+          "verb": "delete",
+          "operationId": "PrivateEndpointConnections_Delete",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/PrivateEndpointConnection"
+              }
+            },
+            "202": {
+              "description": "The request has been accepted for processing, but processing has not yet completed.",
+              "schema": {
+                "$ref": "#/definitions/PrivateEndpointConnection"
+              },
+              "headers": {
+                "Azure-AsyncOperation": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "A link to the status monitor"
+                },
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.PrivateEndpointConnections.list",
+      "sourceFile": "PrivateEndpointConnection.tsp",
+      "line": 100,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * List private endpoint connection properties\n   */\n  @summary(\"List private endpoint connections\")\n  @tag(\"GET\")\n  list is PrivateEndpointConnectionOps.ListSinglePage<\n    PrivateEndpointConnection,\n    Response = ArmResponse<PrivateEndpointConnection[]>\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections",
+          "verb": "get",
+          "operationId": "PrivateEndpointConnections_List",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/PrivateEndpointConnection"
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.IotHubResourceOperationGroup.checkNameAvailability",
+      "sourceFile": "routes.tsp",
+      "line": 24,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/checkNameAvailability",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Check if an IoT hub name is available.\n   */\n  @summary(\"Check if an IoT hub name is available\")\n  @tag(\"POST\")\n  @autoRoute\n  checkNameAvailability is ArmProviderActionSync<\n    Request = OperationInputs,\n    Response = IotHubNameAvailabilityInfo,\n    Scope = SubscriptionActionScope,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/checkNameAvailability",
+          "verb": "post",
+          "operationId": "IotHubResource_CheckNameAvailability",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/IotHubNameAvailabilityInfo"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Devices.ResourceProviderCommonOperationGroup.getSubscriptionQuota",
+      "sourceFile": "routes.tsp",
+      "line": 42,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/usages",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the number of free and paid iot hubs in the subscription\n   */\n  @summary(\"Get the number of iot hubs in the subscription\")\n  @tag(\"GET\")\n  @autoRoute\n  @get\n  @action(\"usages\")\n  getSubscriptionQuota is ArmProviderActionSync<\n    Response = UserSubscriptionQuotaListResult,\n    Scope = SubscriptionActionScope,\n    Error = ErrorDetails\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/usages",
+          "verb": "get",
+          "operationId": "ResourceProviderCommon_GetSubscriptionQuota",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/UserSubscriptionQuotaListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/ErrorDetails"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

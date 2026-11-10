@@ -1,0 +1,4 @@
+{
+  "source": "import \"@typespec/http\";\nimport \"@typespec/openapi\";\nimport \"@azure-tools/typespec-azure-resource-manager\";\nusing TypeSpec.Http;\nusing Azure.ResourceManager;\n@armProviderNamespace namespace Microsoft.Pilot;\n#suppress \"@azure-tools/typespec-azure-resource-manager/missing-default-response\" \"Representative validation suppression control\"\n@get op read(): string;\n",
+  "expected": 0
+}

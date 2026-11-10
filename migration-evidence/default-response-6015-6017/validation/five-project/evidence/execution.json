@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "startedAt": "2026-11-10T05:29:36.488Z",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "concurrency": 2,
+  "perProjectTimeoutMs": 240000,
+  "scope": "source",
+  "nativeMode": "target-only",
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "projects": [
+    {
+      "slug": "application-insights",
+      "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "startedAt": "2026-11-10T05:29:36.501Z",
+      "finishedAt": "2026-11-10T05:29:42.343Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "count": 23
+    },
+    {
+      "slug": "site-recovery",
+      "project": "specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery",
+      "startedAt": "2026-11-10T05:29:36.489Z",
+      "finishedAt": "2026-11-10T05:29:44.441Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "count": 137
+    },
+    {
+      "slug": "iot-hub",
+      "project": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+      "startedAt": "2026-11-10T05:29:42.345Z",
+      "finishedAt": "2026-11-10T05:29:48.188Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "count": 1
+    },
+    {
+      "slug": "deployments",
+      "project": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+      "startedAt": "2026-11-10T05:29:44.443Z",
+      "finishedAt": "2026-11-10T05:29:49.996Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "count": 0
+    },
+    {
+      "slug": "storage",
+      "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "startedAt": "2026-11-10T05:29:48.190Z",
+      "finishedAt": "2026-11-10T05:29:55.164Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "assessed",
+      "count": 0
+    }
+  ],
+  "finishedAt": "2026-11-10T05:29:55.165Z",
+  "quiescent": true
+}

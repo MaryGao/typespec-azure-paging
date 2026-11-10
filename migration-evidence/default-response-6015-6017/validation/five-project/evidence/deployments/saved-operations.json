@@ -1,0 +1,1493 @@
+[
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments",
+    "verb": "get",
+    "operationId": "Deployments_ListAtScope",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "get",
+    "operationId": "Deployments_GetAtScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "put",
+    "operationId": "Deployments_CreateOrUpdateAtScope",
+    "responses": {
+      "200": {
+        "description": "Resource 'DeploymentExtended' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "201": {
+        "description": "Resource 'DeploymentExtended' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "delete",
+    "operationId": "Deployments_DeleteAtScope",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "operationId": "Deployments_CheckExistenceAtScope",
+    "responses": {
+      "204": {
+        "description": "The Azure resource exists"
+      },
+      "404": {
+        "description": "The Azure resource is not found"
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+    "verb": "post",
+    "operationId": "Deployments_CancelAtScope",
+    "responses": {
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+    "verb": "post",
+    "operationId": "Deployments_ExportTemplateAtScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExportResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+    "verb": "get",
+    "operationId": "DeploymentOperations_ListAtScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+    "verb": "get",
+    "operationId": "DeploymentOperations_GetAtScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "operationId": "Deployments_ValidateAtScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "400": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments",
+    "verb": "get",
+    "operationId": "Deployments_ListAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "get",
+    "operationId": "Deployments_GetAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "put",
+    "operationId": "Deployments_CreateOrUpdateAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Resource 'DeploymentExtended' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "201": {
+        "description": "Resource 'DeploymentExtended' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "delete",
+    "operationId": "Deployments_DeleteAtManagementGroupScope",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "operationId": "Deployments_CheckExistenceAtManagementGroupScope",
+    "responses": {
+      "204": {
+        "description": "The Azure resource exists"
+      },
+      "404": {
+        "description": "The Azure resource is not found"
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+    "verb": "post",
+    "operationId": "Deployments_CancelAtManagementGroupScope",
+    "responses": {
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+    "verb": "post",
+    "operationId": "Deployments_ExportTemplateAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExportResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+    "verb": "get",
+    "operationId": "DeploymentOperations_ListAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+    "verb": "get",
+    "operationId": "DeploymentOperations_GetAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "operationId": "Deployments_ValidateAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "400": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+    "verb": "post",
+    "operationId": "Deployments_WhatIfAtManagementGroupScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WhatIfOperationResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/calculateTemplateHash",
+    "verb": "post",
+    "operationId": "Deployments_CalculateTemplateHash",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/TemplateHashResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments",
+    "verb": "get",
+    "operationId": "Deployments_ListAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "get",
+    "operationId": "Deployments_GetAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "put",
+    "operationId": "Deployments_CreateOrUpdateAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Resource 'DeploymentExtended' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "201": {
+        "description": "Resource 'DeploymentExtended' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "delete",
+    "operationId": "Deployments_DeleteAtTenantScope",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "operationId": "Deployments_CheckExistenceAtTenantScope",
+    "responses": {
+      "204": {
+        "description": "The Azure resource exists"
+      },
+      "404": {
+        "description": "The Azure resource is not found"
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+    "verb": "post",
+    "operationId": "Deployments_CancelAtTenantScope",
+    "responses": {
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+    "verb": "post",
+    "operationId": "Deployments_ExportTemplateAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExportResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+    "verb": "get",
+    "operationId": "DeploymentOperations_ListAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+    "verb": "get",
+    "operationId": "DeploymentOperations_GetAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "operationId": "Deployments_ValidateAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "400": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+    "verb": "post",
+    "operationId": "Deployments_WhatIfAtTenantScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WhatIfOperationResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments",
+    "verb": "get",
+    "operationId": "Deployments_ListAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "get",
+    "operationId": "Deployments_GetAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "put",
+    "operationId": "Deployments_CreateOrUpdateAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Resource 'DeploymentExtended' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "201": {
+        "description": "Resource 'DeploymentExtended' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "delete",
+    "operationId": "Deployments_DeleteAtSubscriptionScope",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "operationId": "Deployments_CheckExistenceAtSubscriptionScope",
+    "responses": {
+      "204": {
+        "description": "The Azure resource exists"
+      },
+      "404": {
+        "description": "The Azure resource is not found"
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+    "verb": "post",
+    "operationId": "Deployments_CancelAtSubscriptionScope",
+    "responses": {
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+    "verb": "post",
+    "operationId": "Deployments_ExportTemplateAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExportResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+    "verb": "get",
+    "operationId": "DeploymentOperations_ListAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+    "verb": "get",
+    "operationId": "DeploymentOperations_GetAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "operationId": "Deployments_ValidateAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "400": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+    "verb": "post",
+    "operationId": "Deployments_WhatIfAtSubscriptionScope",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WhatIfOperationResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations",
+    "verb": "get",
+    "operationId": "DeploymentOperations_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations/{operationId}",
+    "verb": "get",
+    "operationId": "DeploymentOperations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentOperation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments",
+    "verb": "get",
+    "operationId": "Deployments_ListByResourceGroup",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "get",
+    "operationId": "Deployments_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "put",
+    "operationId": "Deployments_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'DeploymentExtended' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        }
+      },
+      "201": {
+        "description": "Resource 'DeploymentExtended' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExtended"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "delete",
+    "operationId": "Deployments_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+    "verb": "head",
+    "operationId": "Deployments_CheckExistence",
+    "responses": {
+      "204": {
+        "description": "The Azure resource exists"
+      },
+      "404": {
+        "description": "The Azure resource is not found"
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+    "verb": "post",
+    "operationId": "Deployments_Cancel",
+    "responses": {
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+    "verb": "post",
+    "operationId": "Deployments_ExportTemplate",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentExportResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+    "verb": "post",
+    "operationId": "Deployments_Validate",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "400": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeploymentValidateResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+    "verb": "post",
+    "operationId": "Deployments_WhatIf",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WhatIfOperationResult"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  }
+]

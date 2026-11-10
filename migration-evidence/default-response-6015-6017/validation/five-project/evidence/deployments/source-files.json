@@ -1,0 +1,214 @@
+[
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/DeploymentExtended.tsp",
+    "sha256": "bf21125530f600b9bebaf19ccd67c9e246988325421fa6a4d0450dbf7748a481"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/back-compatible.tsp",
+    "sha256": "80ff4d07559722b41d7cd0b560cfe5c685491aa426d037b7e56748c99b2adf18"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/client.tsp",
+    "sha256": "8f4c3347084472ad3c688695ed26a6cf6ebd293da5ab74480d890395feb071fa"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/CalculateTemplateHash.json",
+    "sha256": "c84b8558df0a2b47bdb0b4b3677add5064d6f12e9d3547a57acda68f2b798131"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentValidateOnManagementGroup.json",
+    "sha256": "2b0a423ddb38b56f15c2ba371f1ea5b48a4647463be33eb926a139b66c4922f6"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentValidateOnResourceGroup.json",
+    "sha256": "cf6138f88eddb7890aecd3480e7eabaed94684de248688ea2bf752846ed52bf6"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentValidateOnScope.json",
+    "sha256": "13636b87cc94a9bb83a3a65a702525bb481496df1979d25c4d965ad128d78091"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentValidateOnSubscription.json",
+    "sha256": "1f86d28330c0a6a32abc12a174db96612c7badac2639febfe1d8aeacaa8f98aa"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentValidateOnTenant.json",
+    "sha256": "6002f67a15329bd1a948241e22bc310145a2830e7fd940731d6e892ca97da319"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentWhatIfOnManagementGroup.json",
+    "sha256": "438175588aa1a645aa62531df2c57e2dfea1b748f0387349feb1a6dde42cbfbe"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentWhatIfOnResourceGroup.json",
+    "sha256": "9e3d6da1732b9bbb5a6ff5155aad3b1638ba381de6d8bec4f894cba2b2cbae9e"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentWhatIfOnSubscription.json",
+    "sha256": "b03c94f235a7e8c0a433746b43df1219fd77dee489c96d4cd6913eebfa698847"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PostDeploymentWhatIfOnTenant.json",
+    "sha256": "b88d408a760b5514120d8a504f9279dd329b07e0100b0f33bf5ba0d90f915ef2"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentAtManagementGroup.json",
+    "sha256": "f3b493519ef755050b19904383fb6341046e3760bb61d11814822a10861b37bf"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentAtScope.json",
+    "sha256": "2a9db6ceb8e9c9204783de6bf21ae23061bca478dd0f85cafc6838bf494ce421"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentAtTenant.json",
+    "sha256": "f1b9b014313896d458a8b77bf8d09ec130cbab97415d9c9a42b2fb6d6d744bc6"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentResourceGroup.json",
+    "sha256": "8f100e1f0fad05981885049c82b3fd7f9ae860b7409ede2a1dac2d5ee6367c3e"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentResourceGroupTemplateSpecsWithId.json",
+    "sha256": "fc693a9ec7374fce75ea2291fd64842d38894e780ac702aad721bbdada0eadb7"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentSubscriptionTemplateSpecsWithId.json",
+    "sha256": "56bb28d3f05a767c1f5fff45e2b94050cbb459280ec456367cabe36d15588653"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentWithExternalInputs.json",
+    "sha256": "1e57a0906b8882cef1c1532b061245d840e26186f1d67b6ff167cd73bdc2b3e7"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentWithOnErrorDeploymentLastSuccessful.json",
+    "sha256": "a05aef7a2f546576642e810bbf3e4eb639f3d7f34315e6d8a38ede13c104ab81"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2025-04-01/PutDeploymentWithOnErrorDeploymentSpecificDeployment.json",
+    "sha256": "5e04f80acf95a3ecd4dfcfe4d58c25d6fa5dea7ffd376b32146932b311aaa2ce"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/CalculateTemplateHash.json",
+    "sha256": "a9ee6c75197db07412c90c9c48f19c456048e9239d7798b3add7da9460508edc"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentValidateOnManagementGroup.json",
+    "sha256": "de9873a8ccc64abda8a0d70521c70b5a1381b4412b9cb1c3a15dc716f0f49208"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentValidateOnResourceGroup.json",
+    "sha256": "84140676c99fea3174d8831773f35ce099dbc068f31183f0a2395ae8f36ad0d3"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentValidateOnScope.json",
+    "sha256": "9f103524884cb4e0537ce785c2f4b3430fd0b67f4fb4e50998de56e09c269289"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentValidateOnSubscription.json",
+    "sha256": "b9234300bc03cf465fb4a9a707fe4a406b06fd555ed569563fd559cb2a687ea5"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentValidateOnTenant.json",
+    "sha256": "fbf6bf5f823dce7b36e3ab05cc0dce378edef39b0aa01458d9067d7d48b7ad13"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentWhatIfOnManagementGroup.json",
+    "sha256": "4b83debf4506efe8e854745b10e63a8544d2bf31d814572414ac6714ca2fe52a"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentWhatIfOnResourceGroup.json",
+    "sha256": "70b71d0e257bbb9a849e9aa9c5074e9267fddbaa9892b26fb8d339f8d305a747"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentWhatIfOnSubscription.json",
+    "sha256": "135cd940234503840383f404c6397e33dfec19f7214680005275a3b3ff175637"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PostDeploymentWhatIfOnTenant.json",
+    "sha256": "dce94cd248a97258ef22de0173ff51321184d825c97b92ca34034ee552d8714e"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentAtManagementGroup.json",
+    "sha256": "39b7dd0f078114067e2c13129b3e234b1e8f8890f302d6cd9182b94d7ade451c"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentAtScope.json",
+    "sha256": "fbc76c760a7294e3cd36cd8d014649c0c2e7c51aff8813d970b2a6f94c9120fe"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentAtTenant.json",
+    "sha256": "fd1b2464f6d67479fb9d1a4bb2490422bc8701e2cd5f972973b838804dd832af"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentResourceGroup.json",
+    "sha256": "8475da6725d947066086d6fe465da95f47eaf8fc1683e5d26f5340354641abc5"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentResourceGroupTemplateSpecsWithId.json",
+    "sha256": "68579e513815465ec338e0b5d9c50d45ae8e8535a089eb5f6aebaa081e9980fe"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentSubscriptionTemplateSpecsWithId.json",
+    "sha256": "3771a61f6db46b826bb3ef2625033a62e90ce6e761f18fa4eb6c9240e3d60e71"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentWithExternalInputs.json",
+    "sha256": "9c3ac98af34c03ba250ca0d6387c43749c46975e1c225b0a62ef4ad22fd21642"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentWithOnErrorDeploymentLastSuccessful.json",
+    "sha256": "0dfa59ff49d26eda28f8251a07b3fa588c30920c2b86cde296ac90f9d368ba9f"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/examples/2026-06-01/PutDeploymentWithOnErrorDeploymentSpecificDeployment.json",
+    "sha256": "0f5f80d9889a1037443b7d374c877cdc3391cec1967bdbb1aab9d985f07bc66f"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/main.tsp",
+    "sha256": "805c0be3fad52a79950ab6ff7e796dc1341bd0395cf379fe4796c88acd63b189"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/models.tsp",
+    "sha256": "fbede154e211ab0ee66fa2f41f118e714a9f0195071301f4d298f12088a1b375"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.csharp.md",
+    "sha256": "1218182b58cbab389046b377cf58473264dbc0f1bbb218ae0cdd25dae1bb28a5"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.go.md",
+    "sha256": "a8c58cfe047eae0d5186ae3532c4b40c4cde966cf3fbe417e13bba5f8bee25a0"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.java.md",
+    "sha256": "a8b3ec5c5e3c6c10f4ed907a0ff74fba83a6e33e76ce4e995df3e9de158fbf3b"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.md",
+    "sha256": "f061aa1892a06f3209779a0b6a2aaf332fb9f5300e0a528f3c74e9c9d2f01029"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.python.md",
+    "sha256": "e8ea48a7727a882b633bac51e93af97d7e7055e4b2b614adc7bca796ea77919d"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/readme.typescript.md",
+    "sha256": "42d4b3b1b6691f973e884190c5e220406a1de80a3af6b7d209209f69b151855b"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/routes.tsp",
+    "sha256": "5f1f0a89ee710fd99d38ee7ab4b790fac5368bbf58f5ace86b156e339bf71c30"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/service.yaml",
+    "sha256": "84a5a77e8f4f3642174a22b01d63d5483e8107392e961fd810dcceb39d256956"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/suppressions.yaml",
+    "sha256": "dfac5b181357b14a8a816ca9eec795263e5f4f42d655fecfd8fea6e88e73f1ec"
+  },
+  {
+    "file": "specification/resources/resource-manager/Microsoft.Resources/deployments/tspconfig.yaml",
+    "sha256": "3bf26ceee5505487140d639e713e6a823a42c767bb07e958828c1cebfe4b5b00"
+  }
+]

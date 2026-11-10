@@ -1,0 +1,138 @@
+{
+  "task": "default-response-6015-6017-five-project-validation",
+  "createdAt": "2026-11-10T05:25:47.330Z",
+  "pullRequest": "https://github.com/Azure/typespec-azure/pull/6038",
+  "candidate": "$CANDIDATE_ROOT",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "candidateCoreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "specs": "$SPECS_ROOT",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "baselineDirectory": "$BASELINE_ROOT",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselineMetadataCommit": "1c9d2b0e6a596754af1aa793b1906ff3c4ef2bd6",
+  "worker": {
+    "file": "$TOOLING_ROOT\\packages\\typespec-lintdiff\\test\\harness\\native-coverage-worker.mjs",
+    "sha256": "8b912c6cee552c9c89946dbba04c5e03c286d89320175e9f332d595d05234609",
+    "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7"
+  },
+  "swaggerRules": [
+    "MissingDefaultResponse",
+    "RequiredDefaultResponse"
+  ],
+  "typeSpecRule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+  "scope": "source",
+  "nativeMode": "target-only",
+  "defaultActivation": "not-assessed",
+  "sourceSuppressionsRetained": true,
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "freshSwaggerExecution": false,
+  "estimate": "Five projects plus nine controls; two concurrent native project workers, 240 seconds per project. Expected project execution under five minutes; setup is separate.",
+  "rationale": "Three violating services span 137 missing defaults in custom Site Recovery operations, 23 Component API operations, and a single IoT Hub PATCH. Deployments exercises HEAD responses, and Storage supplies standard-template compliant controls. Purposive selection, not statistical sampling.",
+  "comparisonBoundary": "Historical selected-API Swagger versus fresh source-scope native diagnostics at frozen specs. Full shared-baseline analyzer is not invoked with unsupported project filters.",
+  "projects": [
+    {
+      "name": "Site Recovery",
+      "slug": "site-recovery",
+      "sourcePath": "specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery",
+      "apiVersion": "2026-08-31-preview",
+      "sourceFiles": 1272,
+      "swaggerFiles": 1,
+      "savedOperationCount": 154,
+      "counts": {
+        "MissingDefaultResponse": 0,
+        "RequiredDefaultResponse": 137
+      }
+    },
+    {
+      "name": "Application Insights Component APIs",
+      "slug": "application-insights",
+      "sourcePath": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+      "apiVersion": "2015-05-01",
+      "sourceFiles": 33,
+      "swaggerFiles": 1,
+      "savedOperationCount": 27,
+      "counts": {
+        "MissingDefaultResponse": 0,
+        "RequiredDefaultResponse": 23
+      }
+    },
+    {
+      "name": "IoT Hub",
+      "slug": "iot-hub",
+      "sourcePath": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+      "apiVersion": "2026-10-01-preview",
+      "sourceFiles": 143,
+      "swaggerFiles": 1,
+      "savedOperationCount": 38,
+      "counts": {
+        "MissingDefaultResponse": 0,
+        "RequiredDefaultResponse": 1
+      }
+    },
+    {
+      "name": "Deployments",
+      "slug": "deployments",
+      "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+      "apiVersion": "2026-06-01",
+      "sourceFiles": 53,
+      "swaggerFiles": 1,
+      "savedOperationCount": 55,
+      "counts": {
+        "MissingDefaultResponse": 0,
+        "RequiredDefaultResponse": 0
+      }
+    },
+    {
+      "name": "Storage",
+      "slug": "storage",
+      "sourcePath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "sourceFiles": 1092,
+      "swaggerFiles": 1,
+      "savedOperationCount": 139,
+      "counts": {
+        "MissingDefaultResponse": 0,
+        "RequiredDefaultResponse": 0
+      }
+    }
+  ],
+  "controls": [
+    {
+      "name": "missing-get",
+      "expected": 1
+    },
+    {
+      "name": "missing-head",
+      "expected": 1
+    },
+    {
+      "name": "explicit-errors",
+      "expected": 1
+    },
+    {
+      "name": "empty-response",
+      "expected": 1
+    },
+    {
+      "name": "implicit-default",
+      "expected": 0
+    },
+    {
+      "name": "explicit-default",
+      "expected": 0
+    },
+    {
+      "name": "standard-template",
+      "expected": 0
+    },
+    {
+      "name": "removed-template-default",
+      "expected": 1
+    },
+    {
+      "name": "suppressed",
+      "expected": 0
+    }
+  ]
+}

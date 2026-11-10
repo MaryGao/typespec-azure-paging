@@ -1,0 +1,12 @@
+{
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "status": "passed",
+  "manifestSha256": "3a50fd0a84e1f87ea163918369c1aebf3cc39f74492381ca27df818475156478",
+  "baselineJsonSha256": "e5716f46feb5e2098137aa6f561f9513e059651b93c23d7d0fabeec06e1c85c2",
+  "descriptorSha256": "ac511e7ff4b519619f30af811107b7f770a92a5bb56b199dfca983262dc8fd31",
+  "verificationScope": "Sealed baseline identity plus selected indexes, shard, sources, Swagger and execution logs; not a new whole-inventory verification.",
+  "verifiedSelectedFiles": 2611,
+  "setupAdjustment": "Stopped a redundant whole-inventory integrity scan before project execution; reused the existing sealed baseline and verified selected inputs only.",
+  "selectedSourceFiles": 2593,
+  "swaggerRuleRegistration": "Both selected in each retained successful production execution; absent MissingDefaultResponse shard is zero observed findings, not skipped."
+}

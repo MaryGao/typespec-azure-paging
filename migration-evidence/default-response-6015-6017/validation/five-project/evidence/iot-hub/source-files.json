@@ -1,0 +1,574 @@
+[
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/CertificateDescription.tsp",
+    "sha256": "58fbb16bc7e85d90fd2d41da2dca5f4b71844608e4b521e0108a4aa176b24528"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/EventHubConsumerGroupInfo.tsp",
+    "sha256": "99973a5cdaf065f5f1bd8001e796743216133ecf05f0468dffefbe4127dc4e41"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/GroupIdInformation.tsp",
+    "sha256": "0e8c10375979b0a18b71e971af85c9d451e5ed192b40b50b94e895ecaf6e36f4"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/IotHubDescription.tsp",
+    "sha256": "d05ece030c5afe6b0503ea1237c8cc14a0abc2a2f70ef7042884b59f9f0a3863"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/PrivateEndpointConnection.tsp",
+    "sha256": "156fbaa1548ce510570819afd7edcbdf3f92c9903df604dfafa55ce56318d3fe"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/back-compatible.tsp",
+    "sha256": "e26626fe2896e5409872da60a57c722b7a43e500f203a52ece738e6a9194d74f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/client.tsp",
+    "sha256": "9fc84698f901482fe7d24ee13f1855648340383c1222a488bd9cc5bc89606ee6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/CreateOrReplace_Certificates_With_DeviceRegistryPolicy.json",
+    "sha256": "042a94d926ba007a761fb11e7737e48e56c2f3aa297112fe79b0e54aeb94d1e4"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/CreateOrReplace_IoTHub_With_DeviceRegistry.json",
+    "sha256": "f73c7a7ba16d7ef4c61f5ae2fb3a8073f8b2d10dff940453d19e1a1e7ed4fa4d"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/IotHub_ManualFailover.json",
+    "sha256": "9e70492625ad16a84adf7ca9107b275b7182faef6d27c175ad8d9c5aef85e036"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/checkNameAvailability.json",
+    "sha256": "0b7a03e23681cb5ddf4d972dcbe353d7db0319a12a205d0f53bf05357546dc72"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_certificatescreateorupdate.json",
+    "sha256": "4fb4d9a36549b628fb8362a2ace1344a358f469b12f060c490fcd5624d9dbb5e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_certificatesdelete.json",
+    "sha256": "d5c04027864578f06f692332032b30b7ed3747876dc1cd25a5c96c00d80dfd31"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_certverify.json",
+    "sha256": "bbe5646461b76746dad0dab86fa4dad0918264c693010efbf01720a56516027d"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_createOrUpdate.json",
+    "sha256": "1a908786e3c96a1dae9f0ce1acee6de32898cc48c05f4ecb4d3598598780c864"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_createconsumergroup.json",
+    "sha256": "4c93e83ae4642c2942994bf49ddc06bde8adb07b36db240e4103a85df8b5de6a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_delete.json",
+    "sha256": "f5f86d47581c9993d29253b1ce015fca1149763b5f907a0ef4efe397984d9b21"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_deleteconsumergroup.json",
+    "sha256": "71db5dca7dd3ba6a4f1195425876466bc5f604a73b7113dd3b1e94afe5396e79"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_deleteprivateendpointconnection.json",
+    "sha256": "f4ae05fd310d60b9613b3e89fe1c32a285cb3b90cd4213d90bcebcc15f140a34"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_exportdevices.json",
+    "sha256": "79bdccc388fbd129ec23b7191eb68ce91b5d22bf3a540a2182d797d5051325ee"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_generateverificationcode.json",
+    "sha256": "c8fdacbbb63a93664506ad60e45750d67968e58c211043d2d6255e89da11bb76"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_get.json",
+    "sha256": "29926d61ee459773f51a9772e6b98a18359ee2bf398c61db06c7d2602b757770"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getcertificate.json",
+    "sha256": "90a040722ae8a8d8f1a8565334135f2d004af278989674c26bdf74e20115b78a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getconsumergroup.json",
+    "sha256": "9b225b4ea71b5a6d27ebcdb2a9ef395bfbaf1b3b971d7cc829f4862d900067d2"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getjob.json",
+    "sha256": "5a81aaa165d55677441ce91dcd1cd8e978b4ce439ac444b35ad369a00adc4148"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getkey.json",
+    "sha256": "eb07efc49467c96ce55042984ef77a7344fbe7497b4061c99a6fbed10be3a53b"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getprivateendpointconnection.json",
+    "sha256": "cedac83080847e01727fd7fc498fa2d8bd86f903b4ed962ab656b7e4542868a0"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getprivatelinkresources.json",
+    "sha256": "2b34d8cdfa2563c172d7ea3d62ea4f44d325a4c708761e8848a0bf7fe5cf9f4a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_getskus.json",
+    "sha256": "71d04aadf836d4d17adcdd971cbb42874a21205fce2fd89c0c58bcffdb1e59b8"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_importdevices.json",
+    "sha256": "310688ada217bafb380f77fe5c67eb016fbd992ae8310e5fc3c7c9b0aba0070a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listbyrg.json",
+    "sha256": "eb182646e1d08291374bd2ab96319ba151644232ea6464905c4a6822c1a6c116"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listbysubscription.json",
+    "sha256": "efafd7e0fb3488a2b1fd25297cf74cb9e5ad3752fb8b5f5d77d58bf68347afc6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listcertificates.json",
+    "sha256": "80d09e64a858238449ae3caa1d4d03a4898c618efeb2d70c567fa03b555f063b"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listehgroups.json",
+    "sha256": "9935c33b99c1dc742409966e7521f435f49e48e39d04dc1b362569fc0688da07"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listjobs.json",
+    "sha256": "5a859e3243912cd06cf9e23e4bd776840a4feddd4043a758e8efb3695fe26b47"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listkeys.json",
+    "sha256": "bd5d5186bca26225791dbdb0e88b5e26733c4473d45d1ba87210c7bc58bc589b"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listprivateendpointconnections.json",
+    "sha256": "6a5b0cb0430d84542fda4d5b45cad5cbea0db07a23ba8e6638d7aa3f6f8fde31"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_listprivatelinkresources.json",
+    "sha256": "4608b46a369f33b52ab947f1c7274a93fe7e90bb07beb7ddae82fcfe7f407897"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_operations.json",
+    "sha256": "479a5ef94a40f4c415e36def170501849b07c9e63c143bd353270dff55af5f84"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_patch.json",
+    "sha256": "9837db4ffd25cb798f63495c00c7db7bd0c635735590e483c9a7a7f0148ff6f7"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_quotametrics.json",
+    "sha256": "192de396e75f8b9be04b2607be4271a38cb689c76c9a88680092107a5048532e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_routingendpointhealth.json",
+    "sha256": "3619acb7e90f5931520c1c070a63f04e06fcd0fdfca35eaab137a840b3287df8"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_stats.json",
+    "sha256": "a20f00c382d9554cb819d9a68e8ed52f114442ab3d6aaef6588e3b5edec0142c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_testallroutes.json",
+    "sha256": "200f8196092ea7178b4cc1709c8b395637f781156a1220d6da06889ddab85489"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_testnewroute.json",
+    "sha256": "b5e159fb34bb1521365a9922f3c0c863c21d34badb306432e5ae0f468245bff9"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_updateprivateendpointconnection.json",
+    "sha256": "2296936e22c45ef332be9ee4e5d804941d95ec148ba531dc5f85ceb16dafe712"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-03-01-preview/iothub_usages.json",
+    "sha256": "9cba6ddc550c48aa9c7d639c129767ea458cb1205f33c971a0a0202d515cee2f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/CreateOrReplace_Certificates_With_DeviceRegistryPolicy.json",
+    "sha256": "6a4660936cf35b6a6a17af98fb22bc803b83791344d3f641b41c789c61f622e6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/CreateOrReplace_IoTHub_With_DeviceRegistry.json",
+    "sha256": "1666855cafffaad12a428221c450146ecf672fe94b93673c5c77285604ffff8c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/IotHub_ManualFailover.json",
+    "sha256": "a0d9d020e8efe53855565bfd4855e750922b0b13c92f011698d1f6ab1674a192"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/checkNameAvailability.json",
+    "sha256": "e32bf29ad87740040ba94c02d73f27ba86d974f9bf5fe087904f4a67d484a2a8"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_certificatescreateorupdate.json",
+    "sha256": "ae708a61ea5083a32e27db2c34424872ee2c4c9920216fbbe7aba3ab6245cdd8"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_certificatesdelete.json",
+    "sha256": "ca3e91a9928cbfb634768012c9e066ec7981f1e0201516d0df1505e5ca6607f6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_certverify.json",
+    "sha256": "416349b93ceafaa0cc4c965d154717f75199948608f472f4f113678a66596b47"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_createOrUpdate.json",
+    "sha256": "354edbc07b275a9ac69553a2392584fea33f258b70977fe384eb4005019a944d"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_createconsumergroup.json",
+    "sha256": "fc05aef13901ff0d1b315274e44445f3dbb5085a31b66032c07ee77545012b9f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_delete.json",
+    "sha256": "3ae4c4eea21b12cf772cd458be91ef7e61b18269e88e7b5bd84500e159e331b5"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_deleteconsumergroup.json",
+    "sha256": "7bffee042bd79fdb3865d82b0aac50b8706cc9c26aa95b117e40a03dd5441c7c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_deleteprivateendpointconnection.json",
+    "sha256": "284b271e5310da223d41bbc3037215c63a6adea625e7f2cd1d5ad1f8542752e1"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_exportdevices.json",
+    "sha256": "15f4dcf87680aaf03cd8eff5c392207262d1d5ac6166c8608a82c6103668e35d"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_generateverificationcode.json",
+    "sha256": "7d60e9e04eb194a214abca542164787b1a165639e27be88c42ee16f5b043d8c6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_get.json",
+    "sha256": "d85bf5b1c105d337946d21d1e3c3335e9fe04ebda0048245d74e6ea04d61e9b7"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getcertificate.json",
+    "sha256": "6971354da745cdfa87940610f2a6e01bcd7785f14b9318de940437372e157d73"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getconsumergroup.json",
+    "sha256": "76e0d0fb15f4b7989aeb43f425a245c72beae91a9dde6c9e03da04ba3cac2a56"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getjob.json",
+    "sha256": "9ec0cbf8e876489318330a0b44125d3f3c051d5650855750ed0f89e2841b46c5"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getkey.json",
+    "sha256": "4a90f7f7c99ef0a3621ad3ef5ac235aa5e624ee40b2f77d467a622cd2dbcaab4"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getprivateendpointconnection.json",
+    "sha256": "e16c49b445db7b9cc2acf03b1eaf55e39fdcfe1ec41cc377e3cc83612dd979d0"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getprivatelinkresources.json",
+    "sha256": "ff9277502344446f6745a48eaab631bf6c6d156681f18eed244df765a1ba9d58"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_getskus.json",
+    "sha256": "249757abd333c275ea1195da8f339d21595182bc8d5438730800919b88e8a6c1"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_importdevices.json",
+    "sha256": "607673716ffaa4a96dea1c20c67b409660bb842556ae757a4976ce0cf1dd7e5f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listbyrg.json",
+    "sha256": "419f01e4f0e74412f5c0a689b487870590e22a80c3b536211ac64f76288df358"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listbysubscription.json",
+    "sha256": "7442c1128af71a507e788b877dcf8975184c7aa6395eb1a2441f9bc7b01a2166"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listcertificates.json",
+    "sha256": "7f3c096c22d06d702810bf7ff330d32aac63f1f59078c7fc8f4a7d968dbe15a5"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listehgroups.json",
+    "sha256": "21892886e457d8c8aed78c4088261769fa703d0bf25b4f3f0cff4833566e11cb"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listjobs.json",
+    "sha256": "2f478a031ec369df7317c1198b185307d1cb01901e1dbe1d2abf656a9d71a692"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listkeys.json",
+    "sha256": "0b511b44cfd3a261fad6450983b19af5ea3a6f93cd40cf1387036c1831601535"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listprivateendpointconnections.json",
+    "sha256": "26c98a189cfa8b3b6fde095432ed6b23cd9457ade82aec87c9d5de27b32eee9e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_listprivatelinkresources.json",
+    "sha256": "819ad1a36997754971b44ea1c07cde87e9da736e172ad3b4577e1446435f5a48"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_operations.json",
+    "sha256": "3f71fd05b92267274a97af5c5f1be96a864f48c6f81aed7d2e50b267ce0e727a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_patch.json",
+    "sha256": "eea3511962cb1a295697d88ff17285301a7e98fbd56a8cbc851fee4a051b1b7b"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_quotametrics.json",
+    "sha256": "a6b016c98941bcfe0094bb2ec530ad04dcb5387c0f15de6dd64bb2e3dda23378"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_routingendpointhealth.json",
+    "sha256": "b31cfe6f510210bdc4b910688a14135beaf0ff0861316eda8c85f5c5b1020198"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_stats.json",
+    "sha256": "4f783ebd90979c6ab81db537c03ce6874fab0e236eef43b20d7cad5ffbeff4b4"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_testallroutes.json",
+    "sha256": "47d7351d98e2492176f18373bc6a0b84b3486c78b7a63dd3e895cd7da172cec6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_testnewroute.json",
+    "sha256": "494b9304305ba17b51ece582b5103ca5d61abb3c91fab644c2bb3d50048bc1e0"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_updateprivateendpointconnection.json",
+    "sha256": "b82416559523dac2a4a458f212aacbd02f35081df6c8f5fe18fd7106e4c5d5ae"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-05-01-preview/iothub_usages.json",
+    "sha256": "5883dbabcf03fb776620da5a7339923429abac86c861df6fa245b749dd212459"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/CreateOrReplace_Certificates_With_CertificateAuthorityResourceId.json",
+    "sha256": "b359e7bd68b571963f16a85adb810ce3e0a4822970a570ede679c278e7116a3f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/CreateOrReplace_IoTHub_With_MqttV5.json",
+    "sha256": "8b185b57b4bef66dc6140632b4b903a79d056c0e106c5431b513e42f21bc112c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/CreateOrReplace_IotHub.json",
+    "sha256": "bbe4a9733c1f628050bbc0dd13c8eaf26762721cf1b4a63169da556e284eb4ad"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/Get_IotHub_With_DeviceRegistry.json",
+    "sha256": "b69340f7c1598637e2282ee99fae61a09de7e6162acb3e9b84a1ca1e737bf32a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/Get_IotHub_With_DeviceRegistry_Linking_Error.json",
+    "sha256": "28c7ce3dabd66af921e368a7b9928baaea6c5896432cfecf4ca21cfd2555961e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/IotHub_ManualFailover.json",
+    "sha256": "2ba6539f1e80fbce8dbdbfca5d9da6aefdda0a6c44761a5f36a9d37bd4e50c12"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/checkNameAvailability.json",
+    "sha256": "ede97a6b7ef6678aa9dbf8c920a23fdea757abdf5d749fa97524739f05b9cc84"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_certificatescreateorupdate.json",
+    "sha256": "24b46fdf3f284f1508f8449f2bae90ae51a64faffd7097163a3ab40fea410fb5"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_certificatesdelete.json",
+    "sha256": "304dec80bf010401b8fa3db2b6e46a1a13f6bc239ce2af782f135185d1af5a4c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_certverify.json",
+    "sha256": "4ff39f3195df44e1263695e5bb9aee9eb7964483710d3316d7133809b3f260f1"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_createOrUpdate.json",
+    "sha256": "90f1ba5e1843d16893bb235c8d2ed00250e1c1ebca3ed8db5a206eb23ed3c59e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_createconsumergroup.json",
+    "sha256": "daa421c2310307041f79363a2924fda898ef37839eea3fd4b48072bfd4fdaa71"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_delete.json",
+    "sha256": "19a313d99e0b05eb8b92726f5144d6fa400db8fae700eeb600257bee8bf18c3a"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_deleteconsumergroup.json",
+    "sha256": "cac78066a33437f74e4b4f8139db77490f9d348f9ab70d9b6e692fe61f230c39"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_deleteprivateendpointconnection.json",
+    "sha256": "22aaa45e99609bcd84d17556055ca71d5ffe1f3b2e7df7ea75fd2792e01b9348"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_exportdevices.json",
+    "sha256": "9b81dbdf755c7c946ea3c17b3d449e2931f7f5683b4f2c94681cfbd002788f16"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_generateverificationcode.json",
+    "sha256": "363966b864d6c1a1a81d1c52fdfee2335181c5263a407906d9c1da5943e2ddfd"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_get.json",
+    "sha256": "9b5a9adf695ae99d8da1d79853ed5373c176e9644d62c0de900d1786cfc639bd"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getcertificate.json",
+    "sha256": "88956b61edb60dfc0935e627e2a694c927bd812f6b01d71daa31cfda6e81e1ae"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getconsumergroup.json",
+    "sha256": "40b5b212e6be98d3ab18dd98440d8cce1abe80ec1853ead2fa90f0c773a9988c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getjob.json",
+    "sha256": "d55f599b6a7019a1b6b86a5bd7466990a7c89a6b976842c14712f373eeda09e7"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getkey.json",
+    "sha256": "7e591b82bfada0e5f6720f33a46717859b20227796f84274b47d910998a8f135"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getprivateendpointconnection.json",
+    "sha256": "cb5a24f207d781d8cf409803a72e0509197ffccacc8647563a4c8641fb4ddf04"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getprivatelinkresources.json",
+    "sha256": "45d806064ff02d5d9c223945ba231a0960d3f700f96813ca08bd57cd5502e90e"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_getskus.json",
+    "sha256": "a84c127e6f309727889a6b7d25081d9a4f49c3dbd2b43d9408e63eab39f43383"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_importdevices.json",
+    "sha256": "7aa7e6e2074891a6318439548dbe7062d318f324bef4482716202a29eba3e9c3"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listbyrg.json",
+    "sha256": "bd308f6cd519e9d5b05a31aa15186195e8ecc956b644627a514ab16d60c5be1c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listbysubscription.json",
+    "sha256": "65906b0f40b065b914790dd58addf9caa4705d738583f10e60fc05409f82b65d"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listcertificates.json",
+    "sha256": "7c66edf0d7fd15fc7c2534f0405071585226b6a91049c0254583dccdb1ba4da0"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listehgroups.json",
+    "sha256": "4b823cb36cd67b288b405a2a6f82cfaffb6be161c5eca811cd16e3b69ecf5497"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listjobs.json",
+    "sha256": "b0b2358be0c6e26ab447feddd7df3327a79cf67213939accc6c5d2104ea2c4dd"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listkeys.json",
+    "sha256": "d6be68d4c597b2497bf1e3522e8f1d15412f073bb5a1bec707dd3e089c9f511c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listprivateendpointconnections.json",
+    "sha256": "e5363bc4cead1c026ac6879d94ec2f71d4deaeaf89077957933106722b0cda92"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_listprivatelinkresources.json",
+    "sha256": "94d89249c8869902ced4522843883afee47a2e2c78a2221230f9b1e5018a69c9"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_operations.json",
+    "sha256": "d60699b561b0e0ac1ead643de48ac14e1276129c2bb9935e615d32d1219b5e8f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_patch.json",
+    "sha256": "aa1e1f82574843055a90a6ea5036969d7fe2b3f2faa456ec5e61b600de538a32"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_quotametrics.json",
+    "sha256": "8bae591074cfabc6006d843382b9a271be513dd27a7f6860d402d61e91aa1c05"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_routingendpointhealth.json",
+    "sha256": "1c9e902458898ef22f06ff384da7b5cc0d495231ccfabfd6b0a941e70c490491"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_stats.json",
+    "sha256": "c6115820c92ace900ff11da0251639510053bd17f0bbec63d41191cdd96560bb"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_testallroutes.json",
+    "sha256": "5a34b7b41370c6fccba299bc555473565e6216b93d678f7fe90368d91e248550"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_testnewroute.json",
+    "sha256": "09d29635d5564660dd25011125f90092e68da93842fdf21deaabaf90116bb652"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_updateprivateendpointconnection.json",
+    "sha256": "fb7c2196e9a044f29d79cbf8e93b8808b3dadbb62b3b0094808883642dad22f9"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/examples/2026-10-01-preview/iothub_usages.json",
+    "sha256": "dfff9147e9339b785da47d2525c1f54f649b4e6461737525664e9d0ec4b2c5c1"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/main.tsp",
+    "sha256": "cb3815e13880c7315b39f41cffabb085f3213f470ad1e62e09038709f7a251b5"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/models.tsp",
+    "sha256": "a59e812873692244c7ce580ce764831e1d7461d8cfcbba2a897259e0b10e8ea8"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.go.md",
+    "sha256": "44f6d7cc2265a501d27b8af70403562808a8214fba82ef012b95f8fda1cf43ff"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.java.md",
+    "sha256": "c14e3a08d594146ebdc2d58218008d6fc6a3cd5d54dd479bdc13975644ab5968"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.md",
+    "sha256": "335af00c48dd06c09d1962a18d3d236bee3de995cea8dd535fec557cbf84ee8b"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.nodejs.md",
+    "sha256": "84e1465fecd0681d4258e5947fe00d4a77b3e0052523beeeab0492d5edd6c99c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.python.md",
+    "sha256": "942907b6b4656df4c13a06e274e9603042be520f2a23924bb3030082a457842f"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.ruby.md",
+    "sha256": "5ab0dc3cc679e0b3951590cf815bcaab8b61aa44c59d9450e5f4fdbaff7163b6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/readme.typescript.md",
+    "sha256": "5e9d5e5e4a41752aeadb2dac3ee8fee21b6bdc7a0c6a0f5045c2bb26e107455c"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/routes.tsp",
+    "sha256": "7d2d630b1fa5a2b1b3832b473cfc9b885b35648ae1f971ab074d4eb948b160ba"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/service.yaml",
+    "sha256": "4ec296da77f1426717c40267de28cc9163f5224e63a1df74ad7c9926edc7b3f6"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/suppressions.yaml",
+    "sha256": "2f4dbc39f3385fda383a3f5261ea70178458aac058055da23d485ead2533ea42"
+  },
+  {
+    "file": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub/tspconfig.yaml",
+    "sha256": "3065facc246cda11840de3ebba99728a5487528f1b05f7925df2feaa559367f0"
+  }
+]

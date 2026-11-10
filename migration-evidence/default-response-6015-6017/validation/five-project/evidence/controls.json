@@ -1,0 +1,101 @@
+[
+  {
+    "name": "missing-get",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T05:28:48.382Z",
+    "finishedAt": "2026-11-10T05:28:55.019Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 1
+  },
+  {
+    "name": "missing-head",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T05:28:55.023Z",
+    "finishedAt": "2026-11-10T05:29:00.494Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 1
+  },
+  {
+    "name": "explicit-errors",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:00.496Z",
+    "finishedAt": "2026-11-10T05:29:06.128Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 1
+  },
+  {
+    "name": "empty-response",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:06.129Z",
+    "finishedAt": "2026-11-10T05:29:11.541Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 1
+  },
+  {
+    "name": "implicit-default",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:11.543Z",
+    "finishedAt": "2026-11-10T05:29:16.910Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 0
+  },
+  {
+    "name": "explicit-default",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:16.912Z",
+    "finishedAt": "2026-11-10T05:29:22.055Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 0
+  },
+  {
+    "name": "standard-template",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:22.057Z",
+    "finishedAt": "2026-11-10T05:29:26.854Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 0
+  },
+  {
+    "name": "removed-template-default",
+    "expected": 1,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:26.855Z",
+    "finishedAt": "2026-11-10T05:29:31.674Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 1
+  },
+  {
+    "name": "suppressed",
+    "expected": 0,
+    "passed": true,
+    "startedAt": "2026-11-10T05:29:31.676Z",
+    "finishedAt": "2026-11-10T05:29:36.487Z",
+    "exitCode": 0,
+    "signal": null,
+    "status": "assessed",
+    "count": 0
+  }
+]

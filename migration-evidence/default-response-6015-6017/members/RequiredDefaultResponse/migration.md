@@ -2,17 +2,19 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` implements the fallback-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **Real-project equivalence remains unassessed.** Native operation traversal differs from response-map traversal.
+The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` implements the fallback-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **All 161 selected historical findings match 161 concrete native findings in the approved five-project pilot. Full-corpus equivalence remains unassessed.** Native operation traversal differs from response-map traversal.
 
 ## 2. Actual coverage
 
-No real projects were executed. Counts are individual findings.
+Five real projects were assessed with fresh native execution and verified saved production Swagger observations. Counts are individual findings.
 
 | Count                             | Swagger linter | TypeSpec linter |
 | --------------------------------- | -------------- | --------------- |
-| Real-project reported diagnostics | Unassessed     | Unassessed      |
+| Five-project reported diagnostics | 161            | 161             |
 
-**Assessed coverage:** the source predicate `!node.default` rejects missing or null defaults and accepts a truthy response object. In five synthetic response maps its direct predicate outcomes were `1, 0, 1, 1, 1`; this was not execution of the legacy validator engine. Focused TypeSpec checks are recorded in [development evidence](../../development.md). Production correspondence, comparable totals, and coverage percentages remain unassessed.
+**Assessed coverage:** Site Recovery has 137 matched findings, Component APIs 23 and IoT Hub 1. Deployments and Storage each have zero findings. All 161 historical findings map one-to-one to a concrete native operation with the same HTTP verb/route and absent fallback; all five counts agree, and Swagger-only/native-only excess and total absolute difference are zero. This is 100% correspondence for selected historical findings, not a full-corpus coverage claim.
+
+The [per-project reports](../../validation/five-project/README.md) retain actual response maps, source links, execution receipts and limitations. The source predicate `!node.default` also has direct synthetic outcomes `1, 0, 1, 1, 1` for missing, valid, multiple-without-default, empty and null response-map cases; that earlier probe was not legacy-engine execution. This pilot reuses saved legacy-engine results instead of rerunning Swagger.
 
 ## 3. Function-level coverage
 
@@ -22,13 +24,14 @@ No real projects were executed. Counts are individual findings.
 | Explicit or ranged errors without a default     | Implemented intended policy | An error status does not establish a fallback response.                                                                                                          |
 | Accept a truthy default without schema checking | Implemented intended policy | The TypeSpec check likewise does not validate the fallback's payload or error marker. Invalid source values may be compiler-prevented rather than lint findings. |
 | Response maps under `x-ms-paths`                | Scope difference            | The Swagger selector visits `$.paths` only; the TypeSpec rule checks concrete operations before emitter placement.                                               |
-| Production correspondence                       | Unassessed                  | Real-spec execution is gated by user approval.                                                                                                                   |
+| Selected real-project correspondence            | Assessed: 161/161 matched   | No unexplained or one-sided findings in five projects; correspondence is not inferred merely from counts.                                                        |
+| Full-population correspondence                  | Unassessed                  | Requires separate user approval.                                                                                                                                 |
 
 ## 4. Why diagnostic counts differ
 
-The [pinned legacy implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/RequiredDefaultResponse.ts) reports once for each selected response map with a falsy `default`. TypeSpec reports once per concrete operation lacking a fallback, independently of other enabled ARM response checks. Both the Swagger `DeleteResponseCodes` implementation and existing TypeSpec DELETE rule also require a default, so overlapping enabled rules can produce separate findings. Population and aggregate-count differences remain unmeasured.
+The [pinned legacy implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/RequiredDefaultResponse.ts) reports once for each selected response map with a falsy `default`. TypeSpec reports once per concrete operation lacking a fallback, independently of other enabled ARM response checks. Both the Swagger `DeleteResponseCodes` implementation and existing TypeSpec DELETE rule also require a default, so overlapping enabled rules can produce separate findings. The target-only pilot has no count differences against this member. Source/emitted-operation populations differ in IoT Hub and Storage without producing extra target findings; selected-version projection and default activation remain unassessed.
 
-Recommended action: retain per-operation correspondence, raw member findings, active rules, suppressions, API-version selection, and compile failures in the approved representative comparison. Do not infer equivalence from matching totals.
+Recommended action: retain the current rule and the per-operation correspondence, raw member findings, activation, suppressions and source/API-version boundary in the representative reports. Stop for user review before full-spec execution.
 
 ## NOTES
 

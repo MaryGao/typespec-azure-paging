@@ -1,0 +1,16 @@
+{
+  "specsRepo": "$SPECS_ROOT",
+  "project": {
+    "sourcePath": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+    "apiVersion": "2026-06-01"
+  },
+  "validatorRules": [
+    "MissingDefaultResponse",
+    "RequiredDefaultResponse"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/missing-default-response"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

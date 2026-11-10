@@ -1,0 +1,16 @@
+{
+  "missing": 0,
+  "required": 161,
+  "native": 161,
+  "matched": 161,
+  "swaggerOnly": 0,
+  "nativeOnly": 0,
+  "projects": 5,
+  "assessed": 5,
+  "unassessed": 0,
+  "requiredDefaultEqualCountProjects": 5,
+  "missingDefaultEqualCountProjects": 2,
+  "fullRegression": false,
+  "swaggerGeneration": false,
+  "freshSwaggerExecution": false
+}

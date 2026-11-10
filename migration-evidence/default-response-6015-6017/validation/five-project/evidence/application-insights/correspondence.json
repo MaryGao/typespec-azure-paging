@@ -1,0 +1,2631 @@
+{
+  "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+  "status": "assessed",
+  "sourceOperationCount": 27,
+  "serviceOperationCount": 27,
+  "sourceHeadOperations": [],
+  "sourceMissingDefaultOperations": [
+    {
+      "operation": "ComponentAPIs.AnnotationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 80,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete an Annotation of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique annotation ID. This is unique within a Application Insights component.\n     */\n    @path\n    annotationId: string,\n  ): OkResponse | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "verb": "delete",
+          "operationId": "Annotations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 131,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of API keys of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKeyListResult> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "get",
+          "operationId": "APIKeys_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKeyListResult"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 148,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Properties that need to be specified to create an API Key of an Application Insights component. */\n    @bodyRoot\n    body: APIKeyRequest,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "post",
+          "operationId": "APIKeys_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 168,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "delete",
+          "operationId": "APIKeys_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 191,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the API Key for this key id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "get",
+          "operationId": "APIKeys_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 218,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"exportconfiguration\")\n  list is ArmProviderActionSync<\n    Response = {\n      @bodyRoot\n      @identifiers(#[\"ExportId\"])\n      _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "get",
+          "operationId": "ExportConfigurations_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 240,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create a Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @action(\"exportconfiguration\")\n  create is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentExportRequest,\n    Response = {\n      #suppress \"@azure-tools/typespec-azure-resource-manager/missing-x-ms-identifiers\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n      @bodyRoot _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "post",
+          "operationId": "ExportConfigurations_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 262,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete a Continuous Export configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "delete",
+          "operationId": "ExportConfigurations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 285,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "get",
+          "operationId": "ExportConfigurations_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 308,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n\n    /**\n     * Properties that need to be specified to update the Continuous Export configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ExportProperties: ApplicationInsightsComponentExportRequest,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "put",
+          "operationId": "ExportConfigurations_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 342,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"currentbillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentCurrentBillingFeatures_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 361,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @put\n  @action(\"currentbillingfeatures\")\n  update is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentBillingFeatures,\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "put",
+          "operationId": "ComponentCurrentBillingFeatures_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentQuotaStatusOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 385,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns daily data volume cap (quota) status for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"quotastatus\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentQuotaStatus,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+          "verb": "get",
+          "operationId": "ComponentQuotaStatus_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentQuotaStatus"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentFeatureCapabilitiesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 408,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns feature capabilities of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"featurecapabilities\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentFeatureCapabilities,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+          "verb": "get",
+          "operationId": "ComponentFeatureCapabilities_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFeatureCapabilities"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentAvailableFeaturesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 431,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns all available features of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"getavailablebillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentAvailableFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentAvailableFeatures_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAvailableFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 453,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of ProactiveDetection configurations of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs\")\n  @get\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ):\n    | {\n        @bodyRoot\n        @identifiers(#[\"Name\"])\n        _: ApplicationInsightsComponentProactiveDetectionConfiguration[];\n      }\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 475,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 501,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n\n    /**\n     * Properties that need to be specified to update the ProactiveDetection configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ProactiveDetectionProperties: ApplicationInsightsComponentProactiveDetectionConfiguration,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "put",
+          "operationId": "ProactiveDetectionConfigurations_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 555,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create a work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Work item configuration creation payload */\n    @bodyRoot\n    body: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "verb": "post",
+          "operationId": "WorkItemConfigurations_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getDefault",
+      "sourceFile": "routes.tsp",
+      "line": 576,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets default work item configurations that exist for the application\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig\")\n  @get\n  getDefault(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetDefault",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 592,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete a work item configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): OkResponse | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "delete",
+          "operationId": "WorkItemConfigurations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getItem",
+      "sourceFile": "routes.tsp",
+      "line": 615,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets specified work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @get\n  getItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetItem",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.updateItem",
+      "sourceFile": "routes.tsp",
+      "line": 639,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "patch",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update a work item configuration for an Application Insights component.\n   */\n  #suppress \"@typespec/http/deprecated-implicit-optionality\" \"Legacy implicit optionality - DO NOT COPY\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @patch(#{ implicitOptionality: true })\n  updateItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n\n    /**\n     * Properties that need to be specified to update a work item configuration for this Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    WorkItemConfigurationProperties: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "patch",
+          "operationId": "WorkItemConfigurations_UpdateItem",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 23
+  },
+  "nativeCount": 23,
+  "requiredDefaultMatched": 23,
+  "requiredDefaultSwaggerOnly": [],
+  "requiredDefaultNativeOnly": [],
+  "missingDefaultSpectralNativeOnly": 23,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 80,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.AnnotationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 80,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Delete an Annotation of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique annotation ID. This is unique within a Application Insights component.\n     */\n    @path\n    annotationId: string,\n  ): OkResponse | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+            "verb": "delete",
+            "operationId": "Annotations_Delete",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded."
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 131,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.APIKeysOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 131,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Gets a list of API keys of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKeyListResult> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+            "verb": "get",
+            "operationId": "APIKeys_List",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAPIKeyListResult"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 148,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.APIKeysOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 148,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Create an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Properties that need to be specified to create an API Key of an Application Insights component. */\n    @bodyRoot\n    body: APIKeyRequest,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+            "verb": "post",
+            "operationId": "APIKeys_Create",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 168,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.APIKeysOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 168,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Delete an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+            "verb": "delete",
+            "operationId": "APIKeys_Delete",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 191,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.APIKeysOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 191,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Get the API Key for this key id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+            "verb": "get",
+            "operationId": "APIKeys_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 218,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 218,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Gets a list of Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"exportconfiguration\")\n  list is ArmProviderActionSync<\n    Response = {\n      @bodyRoot\n      @identifiers(#[\"ExportId\"])\n      _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+            "verb": "get",
+            "operationId": "ExportConfigurations_List",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 240,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 240,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Create a Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @action(\"exportconfiguration\")\n  create is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentExportRequest,\n    Response = {\n      #suppress \"@azure-tools/typespec-azure-resource-manager/missing-x-ms-identifiers\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n      @bodyRoot _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+            "verb": "post",
+            "operationId": "ExportConfigurations_Create",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 262,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 262,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Delete a Continuous Export configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "verb": "delete",
+            "operationId": "ExportConfigurations_Delete",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 285,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 285,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Get the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "verb": "get",
+            "operationId": "ExportConfigurations_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 308,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 308,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Update the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n\n    /**\n     * Properties that need to be specified to update the Continuous Export configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ExportProperties: ApplicationInsightsComponentExportRequest,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "verb": "put",
+            "operationId": "ExportConfigurations_Update",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 342,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 342,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Returns current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"currentbillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+            "verb": "get",
+            "operationId": "ComponentCurrentBillingFeatures_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 361,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 361,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Update current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @put\n  @action(\"currentbillingfeatures\")\n  update is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentBillingFeatures,\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+            "verb": "put",
+            "operationId": "ComponentCurrentBillingFeatures_Update",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 385,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ComponentQuotaStatusOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 385,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Returns daily data volume cap (quota) status for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"quotastatus\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentQuotaStatus,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+            "verb": "get",
+            "operationId": "ComponentQuotaStatus_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentQuotaStatus"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 408,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ComponentFeatureCapabilitiesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 408,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Returns feature capabilities of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"featurecapabilities\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentFeatureCapabilities,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+            "verb": "get",
+            "operationId": "ComponentFeatureCapabilities_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentFeatureCapabilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 431,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ComponentAvailableFeaturesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 431,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Returns all available features of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"getavailablebillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentAvailableFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+            "verb": "get",
+            "operationId": "ComponentAvailableFeatures_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAvailableFeatures"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 453,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 453,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Gets a list of ProactiveDetection configurations of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs\")\n  @get\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ):\n    | {\n        @bodyRoot\n        @identifiers(#[\"Name\"])\n        _: ApplicationInsightsComponentProactiveDetectionConfiguration[];\n      }\n    | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+            "verb": "get",
+            "operationId": "ProactiveDetectionConfigurations_List",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded.",
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 475,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 475,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Get the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+            "verb": "get",
+            "operationId": "ProactiveDetectionConfigurations_Get",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 501,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 501,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Update the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n\n    /**\n     * Properties that need to be specified to update the ProactiveDetection configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ProactiveDetectionProperties: ApplicationInsightsComponentProactiveDetectionConfiguration,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+            "verb": "put",
+            "operationId": "ProactiveDetectionConfigurations_Update",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 555,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 555,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Create a work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Work item configuration creation payload */\n    @bodyRoot\n    body: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+            "verb": "post",
+            "operationId": "WorkItemConfigurations_Create",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/WorkItemConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 576,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getDefault",
+        "sourceFile": "routes.tsp",
+        "line": 576,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Gets default work item configurations that exist for the application\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig\")\n  @get\n  getDefault(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+            "verb": "get",
+            "operationId": "WorkItemConfigurations_GetDefault",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/WorkItemConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 592,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 592,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Delete a work item configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): OkResponse | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "verb": "delete",
+            "operationId": "WorkItemConfigurations_Delete",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "The request has succeeded."
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 615,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getItem",
+        "sourceFile": "routes.tsp",
+        "line": 615,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Gets specified work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @get\n  getItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "verb": "get",
+            "operationId": "WorkItemConfigurations_GetItem",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/WorkItemConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 639,
+        "column": 3
+      },
+      "operation": {
+        "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.updateItem",
+        "sourceFile": "routes.tsp",
+        "line": 639,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "patch",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "hasDefault": false,
+        "snippet": "/**\n   * Update a work item configuration for an Application Insights component.\n   */\n  #suppress \"@typespec/http/deprecated-implicit-optionality\" \"Legacy implicit optionality - DO NOT COPY\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @patch(#{ implicitOptionality: true })\n  updateItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n\n    /**\n     * Properties that need to be specified to update a work item configuration for this Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    WorkItemConfigurationProperties: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+        "savedCandidates": [
+          {
+            "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+            "section": "paths",
+            "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "verb": "patch",
+            "operationId": "WorkItemConfigurations_UpdateItem",
+            "missingDefault": true,
+            "responses": {
+              "200": {
+                "description": "Azure operation completed successfully.",
+                "schema": {
+                  "$ref": "#/definitions/WorkItemConfiguration"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "category": "matched-required-default-response"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "ComponentAPIs.AnnotationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 24,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets the list of annotations for a component for given time range\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The start time to query from for annotations, cannot be older than 90 days from current date.\n     */\n    @query(\"start\")\n    start: string,\n\n    /**\n     * The end time to query for annotations.\n     */\n    @query(\"end\")\n    end: string,\n  ): ArmResponse<AnnotationsListResult> | AnnotationError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+          "verb": "get",
+          "operationId": "Annotations_List",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/AnnotationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/AnnotationError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.AnnotationsOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 53,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Create an Annotation of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations\")\n  @put\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    @segment(\"components\")\n    resourceName: string,\n\n    /** Properties that need to be specified to create an annotation of a Application Insights component. */\n    @bodyRoot\n    body: Annotation,\n  ):\n    | {\n        #suppress \"@azure-tools/typespec-azure-resource-manager/missing-x-ms-identifiers\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n        @bodyRoot _: Annotation[];\n      }\n    | AnnotationError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+          "verb": "put",
+          "operationId": "Annotations_Create",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Annotation"
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/AnnotationError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.AnnotationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 80,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete an Annotation of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique annotation ID. This is unique within a Application Insights component.\n     */\n    @path\n    annotationId: string,\n  ): OkResponse | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "verb": "delete",
+          "operationId": "Annotations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.AnnotationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 103,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get the annotation for given id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique annotation ID. This is unique within a Application Insights component.\n     */\n    @path\n    annotationId: string,\n  ): ArmResponse<Annotation[]> | AnnotationError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "verb": "get",
+          "operationId": "Annotations_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Annotation"
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/AnnotationError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 131,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of API keys of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKeyListResult> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "get",
+          "operationId": "APIKeys_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKeyListResult"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 148,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Properties that need to be specified to create an API Key of an Application Insights component. */\n    @bodyRoot\n    body: APIKeyRequest,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "post",
+          "operationId": "APIKeys_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 168,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "delete",
+          "operationId": "APIKeys_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.APIKeysOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 191,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the API Key for this key id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "get",
+          "operationId": "APIKeys_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 218,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"exportconfiguration\")\n  list is ArmProviderActionSync<\n    Response = {\n      @bodyRoot\n      @identifiers(#[\"ExportId\"])\n      _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "get",
+          "operationId": "ExportConfigurations_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 240,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create a Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @action(\"exportconfiguration\")\n  create is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentExportRequest,\n    Response = {\n      #suppress \"@azure-tools/typespec-azure-resource-manager/missing-x-ms-identifiers\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n      @bodyRoot _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "post",
+          "operationId": "ExportConfigurations_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 262,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete a Continuous Export configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "delete",
+          "operationId": "ExportConfigurations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 285,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "get",
+          "operationId": "ExportConfigurations_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ExportConfigurationsOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 308,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n\n    /**\n     * Properties that need to be specified to update the Continuous Export configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ExportProperties: ApplicationInsightsComponentExportRequest,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "put",
+          "operationId": "ExportConfigurations_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 342,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"currentbillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentCurrentBillingFeatures_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 361,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @put\n  @action(\"currentbillingfeatures\")\n  update is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentBillingFeatures,\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "put",
+          "operationId": "ComponentCurrentBillingFeatures_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentQuotaStatusOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 385,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns daily data volume cap (quota) status for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"quotastatus\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentQuotaStatus,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+          "verb": "get",
+          "operationId": "ComponentQuotaStatus_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentQuotaStatus"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentFeatureCapabilitiesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 408,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns feature capabilities of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"featurecapabilities\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentFeatureCapabilities,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+          "verb": "get",
+          "operationId": "ComponentFeatureCapabilities_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFeatureCapabilities"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ComponentAvailableFeaturesOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 431,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Returns all available features of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"getavailablebillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentAvailableFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentAvailableFeatures_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAvailableFeatures"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 453,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets a list of ProactiveDetection configurations of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs\")\n  @get\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ):\n    | {\n        @bodyRoot\n        @identifiers(#[\"Name\"])\n        _: ApplicationInsightsComponentProactiveDetectionConfiguration[];\n      }\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_List",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 475,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Get the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_Get",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.update",
+      "sourceFile": "routes.tsp",
+      "line": 501,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n\n    /**\n     * Properties that need to be specified to update the ProactiveDetection configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ProactiveDetectionProperties: ApplicationInsightsComponentProactiveDetectionConfiguration,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "put",
+          "operationId": "ProactiveDetectionConfigurations_Update",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 538,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets the list work item configurations that exist for the application\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<WorkItemConfigurationsListResult> | WorkItemConfigurationError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_List",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfigurationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfigurationError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.create",
+      "sourceFile": "routes.tsp",
+      "line": 555,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Create a work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Work item configuration creation payload */\n    @bodyRoot\n    body: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "verb": "post",
+          "operationId": "WorkItemConfigurations_Create",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getDefault",
+      "sourceFile": "routes.tsp",
+      "line": 576,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets default work item configurations that exist for the application\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig\")\n  @get\n  getDefault(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetDefault",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.delete",
+      "sourceFile": "routes.tsp",
+      "line": 592,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Delete a work item configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): OkResponse | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "delete",
+          "operationId": "WorkItemConfigurations_Delete",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getItem",
+      "sourceFile": "routes.tsp",
+      "line": 615,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Gets specified work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @get\n  getItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetItem",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "ComponentAPIs.WorkItemConfigurationsOperationGroup.updateItem",
+      "sourceFile": "routes.tsp",
+      "line": 639,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "patch",
+      "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+      "statuses": [
+        200
+      ],
+      "hasDefault": false,
+      "snippet": "/**\n   * Update a work item configuration for an Application Insights component.\n   */\n  #suppress \"@typespec/http/deprecated-implicit-optionality\" \"Legacy implicit optionality - DO NOT COPY\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @patch(#{ implicitOptionality: true })\n  updateItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n\n    /**\n     * Properties that need to be specified to update a work item configuration for this Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    WorkItemConfigurationProperties: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "patch",
+          "operationId": "WorkItemConfigurations_UpdateItem",
+          "missingDefault": true,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

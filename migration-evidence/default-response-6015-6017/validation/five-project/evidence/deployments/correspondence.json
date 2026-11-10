@@ -1,0 +1,2676 @@
+{
+  "project": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+  "status": "assessed",
+  "sourceOperationCount": 55,
+  "serviceOperationCount": 55,
+  "sourceHeadOperations": [
+    {
+      "operation": "Microsoft.Resources.Deployments.checkExistenceAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 74,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtScope is Extension.CheckExistence<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.checkExistenceAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 253,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtTenantScope is Extension.CheckExistence<\n    Extension.Tenant,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.checkExistenceAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 451,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtManagementGroupScope is Extension.CheckExistence<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.checkExistenceAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 643,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtSubscriptionScope is Extension.CheckExistence<\n    Extension.Subscription,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.checkExistence",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 839,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistence is DeploymentExtendedResourceGroupOps.CheckExistence<DeploymentExtended>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistence",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceMissingDefaultOperations": [],
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "nativeCount": 0,
+  "requiredDefaultMatched": 0,
+  "requiredDefaultSwaggerOnly": [],
+  "requiredDefaultNativeOnly": [],
+  "missingDefaultSpectralNativeOnly": 0,
+  "correspondence": [],
+  "operations": [
+    {
+      "operation": "Microsoft.Resources.Deployments.getAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 64,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployment.\n   */\n  @tag(\"Deployments\")\n  getAtScope is Extension.Read<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "Deployments_GetAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.checkExistenceAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 74,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtScope is Extension.CheckExistence<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.createOrUpdateAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 85,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can provide the template and parameters directly in the request or link to JSON files.\n   */\n  @summary(\"Deploys resources at a given scope.\")\n  @tag(\"Deployments\")\n  createOrUpdateAtScope is Azure.ResourceManager.Legacy.Extension.CreateOrUpdateAsync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Request = Deployment,\n    LroHeaders = ArmLroLocationHeader<FinalResult = DeploymentExtended> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "put",
+          "operationId": "Deployments_CreateOrUpdateAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'DeploymentExtended' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "201": {
+              "description": "Resource 'DeploymentExtended' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              },
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.deleteAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 99,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.\n   */\n  @summary(\"Deletes a deployment from the deployment history.\")\n  @tag(\"Deployments\")\n  deleteAtScope is Extension.DeleteWithoutOkAsync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "Deployments_DeleteAtScope",
+          "missingDefault": false,
+          "responses": {
+            "202": {
+              "description": "Resource deletion accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.listAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 109,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the deployments at the given scope.\n   */\n  @tag(\"Deployments\")\n  listAtScope is Extension.ListByTarget<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Parameters = {\n      /**\n       * The filter to apply on the operation. For example, you can use $filter=provisioningState eq '{state}'.\n       */\n      @query(\"$filter\")\n      $filter?: string;\n\n      /**\n       * The number of results to get. If null is passed, returns all deployments.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Response = DeploymentListResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments",
+          "verb": "get",
+          "operationId": "Deployments_ListAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.cancelAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 135,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+      "statuses": [
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.\n   */\n  @summary(\"Cancels a currently running template deployment.\")\n  @tag(\"Deployments\")\n  @action(\"cancel\")\n  cancelAtScope is Extension.ActionSync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    void,\n    NoContentResponse,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+          "verb": "post",
+          "operationId": "Deployments_CancelAtScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "There is no content to send for this request, but the headers may be useful."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.validateAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 149,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "statuses": [
+        200,
+        202,
+        "*",
+        400
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-post-operation-response-codes\" \"For backward compatibility\"\n  @tag(\"Deployments\")\n  @action(\"validate\")\n  validateAtScope is Extension.ActionAsync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    Deployment,\n    DeploymentValidateResult,\n    Error =\n      | CloudError\n      | {\n          ...Response<400>;\n\n          /**\n           * The template deployment validation detected failures.\n           */\n          @bodyRoot\n          body: DeploymentValidateResult;\n        }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+          "verb": "post",
+          "operationId": "Deployments_ValidateAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "400": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.exportTemplateAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 172,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports the template used for specified deployment.\n   */\n  @tag(\"Deployments\")\n  @action(\"exportTemplate\")\n  exportTemplateAtScope is Extension.ActionSync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    void,\n    DeploymentExportResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+          "verb": "post",
+          "operationId": "Deployments_ExportTemplateAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExportResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.deploymentOperationsGetAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 186,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployments operation.\n   */\n  @tag(\"DeploymentOperations\")\n  @get\n  @route(\"/{+scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}\")\n  deploymentOperationsGetAtScope is DeploymentExtendedScopeOps.ActionSync<\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperation>,\n    Parameters = {\n      /**\n       * The ID of the operation to get.\n       */\n      @path\n      @segment(\"operations\")\n      operationId: string;\n    }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeploymentOperations_GetAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.Deployments.deploymentOperationsListAtScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 207,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets all deployments operations for a deployment.\n   */\n  @tag(\"DeploymentOperations\")\n  @list\n  @get\n  @action(\"operations\")\n  deploymentOperationsListAtScope is Extension.ActionSync<\n    Extension.ScopeParameter,\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperationsListResult>,\n    Parameters = {\n      /**\n       * The number of results to return.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+          "verb": "get",
+          "operationId": "DeploymentOperations_ListAtScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.getAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 243,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployment.\n   */\n  @tag(\"Deployments\")\n  getAtTenantScope is Extension.Read<\n    Extension.Tenant,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "Deployments_GetAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.checkExistenceAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 253,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtTenantScope is Extension.CheckExistence<\n    Extension.Tenant,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.createOrUpdateAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 264,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can provide the template and parameters directly in the request or link to JSON files.\n   */\n  @summary(\"Deploys resources at tenant scope.\")\n  @tag(\"Deployments\")\n  createOrUpdateAtTenantScope is Azure.ResourceManager.Legacy.Extension.CreateOrUpdateAsync<\n    Extension.Tenant,\n    DeploymentExtended,\n    Request = ScopedDeployment,\n    LroHeaders = ArmLroLocationHeader<FinalResult = DeploymentExtended> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "put",
+          "operationId": "Deployments_CreateOrUpdateAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'DeploymentExtended' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "201": {
+              "description": "Resource 'DeploymentExtended' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              },
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.deleteAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 278,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.\n   */\n  @summary(\"Deletes a deployment from the deployment history.\")\n  @tag(\"Deployments\")\n  deleteAtTenantScope is Extension.DeleteWithoutOkAsync<\n    Extension.Tenant,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "Deployments_DeleteAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "202": {
+              "description": "Resource deletion accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.cancelAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 290,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+      "statuses": [
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.\n   */\n  @summary(\"Cancels a currently running template deployment.\")\n  @tag(\"Deployments\")\n  @action(\"cancel\")\n  cancelAtTenantScope is Extension.ActionSync<\n    Extension.Tenant,\n    DeploymentExtended,\n    void,\n    NoContentResponse,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+          "verb": "post",
+          "operationId": "Deployments_CancelAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "There is no content to send for this request, but the headers may be useful."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.validateAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 304,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "statuses": [
+        200,
+        202,
+        "*",
+        400
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-post-operation-response-codes\" \"For backward compatibility\"\n  @tag(\"Deployments\")\n  @action(\"validate\")\n  validateAtTenantScope is Extension.ActionAsync<\n    Extension.Tenant,\n    DeploymentExtended,\n    ScopedDeployment,\n    DeploymentValidateResult,\n    Error =\n      | CloudError\n      | {\n          ...Response<400>;\n\n          /**\n           * The template deployment validation detected failures.\n           */\n          @bodyRoot\n          body: DeploymentValidateResult;\n        }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+          "verb": "post",
+          "operationId": "Deployments_ValidateAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "400": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.whatIfAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 327,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+      "statuses": [
+        200,
+        202,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns changes that will be made by the deployment if executed at the scope of the tenant group.\n   */\n  @tag(\"Deployments\")\n  @action(\"whatIf\")\n  whatIfAtTenantScope is Extension.ActionAsync<\n    Extension.Tenant,\n    DeploymentExtended,\n    ScopedDeploymentWhatIf,\n    WhatIfOperationResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+          "verb": "post",
+          "operationId": "Deployments_WhatIfAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WhatIfOperationResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.exportTemplateAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 340,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports the template used for specified deployment.\n   */\n  @tag(\"Deployments\")\n  @action(\"exportTemplate\")\n  exportTemplateAtTenantScope is Extension.ActionSync<\n    Extension.Tenant,\n    DeploymentExtended,\n    void,\n    DeploymentExportResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+          "verb": "post",
+          "operationId": "Deployments_ExportTemplateAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExportResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.deploymentOperationsGetAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 354,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployments operation.\n   */\n  @tag(\"DeploymentOperations\")\n  @get\n  @route(\"/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}\")\n  deploymentOperationsGetAtTenantScope is DeploymentExtendedTenantOps.ActionSync<\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperation>,\n    Parameters = {\n      /**\n       * The ID of the operation to get.\n       */\n      @path\n      @segment(\"operations\")\n      operationId: string;\n    }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeploymentOperations_GetAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.list",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 372,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Resources/deployments",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the deployments at the tenant scope.\n   */\n  @tag(\"Deployments\")\n  list is Extension.ListByTarget<\n    Extension.Tenant,\n    DeploymentExtended,\n    Parameters = {\n      /**\n       * The filter to apply on the operation. For example, you can use $filter=provisioningState eq '{state}'.\n       */\n      @query(\"$filter\")\n      $filter?: string;\n\n      /**\n       * The number of results to get. If null is passed, returns all deployments.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Response = DeploymentListResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments",
+          "verb": "get",
+          "operationId": "Deployments_ListAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsExtendedTenant.listAtTenantScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 399,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets all deployments operations for a deployment.\n   */\n  @tag(\"DeploymentOperations\")\n  @list\n  @get\n  @action(\"operations\")\n  listAtTenantScope is Extension.ActionSync<\n    Extension.Tenant,\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperationsListResult>,\n    Parameters = {\n      /**\n       * The number of results to return.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+          "verb": "get",
+          "operationId": "DeploymentOperations_ListAtTenantScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.getAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 441,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployment.\n   */\n  @tag(\"Deployments\")\n  getAtManagementGroupScope is Extension.Read<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "Deployments_GetAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.checkExistenceAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 451,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtManagementGroupScope is Extension.CheckExistence<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.createOrUpdateAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 462,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can provide the template and parameters directly in the request or link to JSON files.\n   */\n  @summary(\"Deploys resources at management group scope.\")\n  @tag(\"Deployments\")\n  createOrUpdateAtManagementGroupScope is Azure.ResourceManager.Legacy.Extension.CreateOrUpdateAsync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Request = ScopedDeployment,\n    LroHeaders = ArmLroLocationHeader<FinalResult = DeploymentExtended> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "put",
+          "operationId": "Deployments_CreateOrUpdateAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'DeploymentExtended' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "201": {
+              "description": "Resource 'DeploymentExtended' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              },
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.deleteAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 476,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.\n   */\n  @summary(\"Deletes a deployment from the deployment history.\")\n  @tag(\"Deployments\")\n  deleteAtManagementGroupScope is Extension.DeleteWithoutOkAsync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "Deployments_DeleteAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "202": {
+              "description": "Resource deletion accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.listAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 486,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the deployments for a management group.\n   */\n  @tag(\"Deployments\")\n  listAtManagementGroupScope is Extension.ListByTarget<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    Parameters = {\n      /**\n       * The filter to apply on the operation. For example, you can use $filter=provisioningState eq '{state}'.\n       */\n      @query(\"$filter\")\n      $filter?: string;\n\n      /**\n       * The number of results to get. If null is passed, returns all deployments.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Response = DeploymentListResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments",
+          "verb": "get",
+          "operationId": "Deployments_ListAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.cancelAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 512,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+      "statuses": [
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.\n   */\n  @summary(\"Cancels a currently running template deployment.\")\n  @tag(\"Deployments\")\n  @action(\"cancel\")\n  cancelAtManagementGroupScope is Extension.ActionSync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    void,\n    NoContentResponse,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+          "verb": "post",
+          "operationId": "Deployments_CancelAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "There is no content to send for this request, but the headers may be useful."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.validateAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 526,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "statuses": [
+        200,
+        202,
+        "*",
+        400
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-post-operation-response-codes\" \"For backward compatibility\"\n  @tag(\"Deployments\")\n  @action(\"validate\")\n  validateAtManagementGroupScope is Extension.ActionAsync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    ScopedDeployment,\n    DeploymentValidateResult,\n    Error =\n      | CloudError\n      | {\n          ...Response<400>;\n\n          /**\n           * The template deployment validation detected failures.\n           */\n          @bodyRoot\n          body: DeploymentValidateResult;\n        }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+          "verb": "post",
+          "operationId": "Deployments_ValidateAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "400": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.whatIfAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 549,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+      "statuses": [
+        200,
+        202,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns changes that will be made by the deployment if executed at the scope of the management group.\n   */\n  @tag(\"Deployments\")\n  @action(\"whatIf\")\n  whatIfAtManagementGroupScope is Extension.ActionAsync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    ScopedDeploymentWhatIf,\n    WhatIfOperationResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+          "verb": "post",
+          "operationId": "Deployments_WhatIfAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WhatIfOperationResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.exportTemplateAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 562,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports the template used for specified deployment.\n   */\n  @tag(\"Deployments\")\n  @action(\"exportTemplate\")\n  exportTemplateAtManagementGroupScope is Extension.ActionSync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    void,\n    DeploymentExportResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+          "verb": "post",
+          "operationId": "Deployments_ExportTemplateAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExportResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.deploymentOperationsGetAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 576,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployments operation.\n   */\n  @tag(\"DeploymentOperations\")\n  @get\n  @route(\"/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}\")\n  deploymentOperationsGetAtManagementGroupScope is DeploymentExtendedManagementGroupOps.ActionSync<\n    DeploymentExtended,\n    void,\n    DeploymentOperation,\n    Parameters = {\n      /**\n       * The ID of the operation to get.\n       */\n      @path\n      @segment(\"operations\")\n      operationId: string;\n    }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeploymentOperations_GetAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedManagementGroup.deploymentOperationsListAtManagementGroupScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 597,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets all deployments operations for a deployment.\n   */\n  @tag(\"DeploymentOperations\")\n  @list\n  @get\n  @action(\"operations\")\n  deploymentOperationsListAtManagementGroupScope is Extension.ActionSync<\n    Extension.ManagementGroup<\"groupId\">,\n    DeploymentExtended,\n    void,\n    DeploymentOperationsListResult,\n    Parameters = {\n      /**\n       * The number of results to return.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+          "verb": "get",
+          "operationId": "DeploymentOperations_ListAtManagementGroupScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.getAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 633,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployment.\n   */\n  @tag(\"Deployments\")\n  getAtSubscriptionScope is Extension.Read<\n    Extension.Subscription,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "Deployments_GetAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.checkExistenceAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 643,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistenceAtSubscriptionScope is Extension.CheckExistence<\n    Extension.Subscription,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistenceAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.createOrUpdateAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 654,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can provide the template and parameters directly in the request or link to JSON files.\n   */\n  @summary(\"Deploys resources at subscription scope.\")\n  @tag(\"Deployments\")\n  createOrUpdateAtSubscriptionScope is Azure.ResourceManager.Legacy.Extension.CreateOrUpdateAsync<\n    Extension.Subscription,\n    DeploymentExtended,\n    Request = Deployment,\n    LroHeaders = ArmLroLocationHeader<FinalResult = DeploymentExtended> &\n      Azure.Core.Foundations.RetryAfterHeader,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "put",
+          "operationId": "Deployments_CreateOrUpdateAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'DeploymentExtended' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "201": {
+              "description": "Resource 'DeploymentExtended' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              },
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.deleteAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 668,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.\n   */\n  @summary(\"Deletes a deployment from the deployment history.\")\n  @tag(\"Deployments\")\n  deleteAtSubscriptionScope is Extension.DeleteWithoutOkAsync<\n    Extension.Subscription,\n    DeploymentExtended,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "Deployments_DeleteAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "202": {
+              "description": "Resource deletion accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.listAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 678,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the deployments for a subscription.\n   */\n  @tag(\"Deployments\")\n  listAtSubscriptionScope is Extension.ListByTarget<\n    Extension.Subscription,\n    DeploymentExtended,\n    Parameters = {\n      /**\n       * The filter to apply on the operation. For example, you can use $filter=provisioningState eq '{state}'.\n       */\n      @query(\"$filter\")\n      $filter?: string;\n\n      /**\n       * The number of results to get. If null is passed, returns all deployments.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Response = DeploymentListResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments",
+          "verb": "get",
+          "operationId": "Deployments_ListAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.cancelAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 704,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+      "statuses": [
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.\n   */\n  @summary(\"Cancels a currently running template deployment.\")\n  @tag(\"Deployments\")\n  @action(\"cancel\")\n  cancelAtSubscriptionScope is Extension.ActionSync<\n    Extension.Subscription,\n    DeploymentExtended,\n    void,\n    NoContentResponse,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+          "verb": "post",
+          "operationId": "Deployments_CancelAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "There is no content to send for this request, but the headers may be useful."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.validateAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 718,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "statuses": [
+        200,
+        202,
+        "*",
+        400
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-post-operation-response-codes\" \"For backward compatibility\"\n  @tag(\"Deployments\")\n  @action(\"validate\")\n  validateAtSubscriptionScope is Extension.ActionAsync<\n    Extension.Subscription,\n    DeploymentExtended,\n    Deployment,\n    DeploymentValidateResult,\n    Error =\n      | CloudError\n      | {\n          ...Response<400>;\n\n          /**\n           * The template deployment validation detected failures.\n           */\n          @bodyRoot\n          body: DeploymentValidateResult;\n        }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+          "verb": "post",
+          "operationId": "Deployments_ValidateAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "400": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.whatIfAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 741,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+      "statuses": [
+        200,
+        202,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns changes that will be made by the deployment if executed at the scope of the subscription.\n   */\n  @tag(\"Deployments\")\n  @action(\"whatIf\")\n  whatIfAtSubscriptionScope is Extension.ActionAsync<\n    Extension.Subscription,\n    DeploymentExtended,\n    DeploymentWhatIf,\n    WhatIfOperationResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+          "verb": "post",
+          "operationId": "Deployments_WhatIfAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WhatIfOperationResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.exportTemplateAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 754,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports the template used for specified deployment.\n   */\n  @tag(\"Deployments\")\n  @action(\"exportTemplate\")\n  exportTemplateAtSubscriptionScope is Extension.ActionSync<\n    Extension.Subscription,\n    DeploymentExtended,\n    void,\n    DeploymentExportResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+          "verb": "post",
+          "operationId": "Deployments_ExportTemplateAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExportResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.deploymentOperationsGetAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 768,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployments operation.\n   */\n  @tag(\"DeploymentOperations\")\n  @get\n  @route(\"/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}\")\n  deploymentOperationsGetAtSubscriptionScope is DeploymentExtendedSubscriptionOps.ActionSync<\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperation>,\n    Parameters = {\n      /**\n       * The ID of the operation to get.\n       */\n      @path\n      @segment(\"operations\")\n      operationId: string;\n    }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeploymentOperations_GetAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedSubscriptionGroup.deploymentOperationsListAtSubscriptionScope",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 789,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets all deployments operations for a deployment.\n   */\n  @tag(\"DeploymentOperations\")\n  @list\n  @get\n  @action(\"operations\")\n  deploymentOperationsListAtSubscriptionScope is Extension.ActionSync<\n    Extension.Subscription,\n    DeploymentExtended,\n    void,\n    ArmResponse<DeploymentOperationsListResult>,\n    Parameters = {\n      /**\n       * The number of results to return.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/operations",
+          "verb": "get",
+          "operationId": "DeploymentOperations_ListAtSubscriptionScope",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.get",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 833,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployment.\n   */\n  @tag(\"Deployments\")\n  get is DeploymentExtendedResourceGroupOps.Read<DeploymentExtended>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "get",
+          "operationId": "Deployments_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.checkExistence",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 839,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "head",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        204,
+        404,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Checks whether the deployment exists.\n   */\n  @tag(\"Deployments\")\n  checkExistence is DeploymentExtendedResourceGroupOps.CheckExistence<DeploymentExtended>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "head",
+          "operationId": "Deployments_CheckExistence",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "The Azure resource exists"
+            },
+            "404": {
+              "description": "The Azure resource is not found"
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.createOrUpdate",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 846,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "put",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        200,
+        201,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can provide the template and parameters directly in the request or link to JSON files.\n   */\n  @summary(\"Deploys resources to a resource group.\")\n  @tag(\"Deployments\")\n  createOrUpdate is DeploymentExtendedResourceGroupOps.CreateOrUpdateAsync<\n    DeploymentExtended,\n    Request = Deployment,\n    LroHeaders = ArmLroLocationHeader<FinalResult = DeploymentExtended> &\n      Azure.Core.Foundations.RetryAfterHeader\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "put",
+          "operationId": "Deployments_CreateOrUpdate",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Resource 'DeploymentExtended' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              }
+            },
+            "201": {
+              "description": "Resource 'DeploymentExtended' create operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExtended"
+              },
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.delete",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 858,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "delete",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+      "statuses": [
+        202,
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. Deleting a template deployment does not affect the state of the resource group. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.\n   */\n  @summary(\"Deletes a deployment from the deployment history.\")\n  @tag(\"Deployments\")\n  delete is DeploymentExtendedResourceGroupOps.DeleteWithoutOkAsync<DeploymentExtended>",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}",
+          "verb": "delete",
+          "operationId": "Deployments_Delete",
+          "missingDefault": false,
+          "responses": {
+            "202": {
+              "description": "Resource deletion accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "204": {
+              "description": "Resource does not exist."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.listByResourceGroup",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 864,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Get all the deployments for a resource group.\n   */\n  @tag(\"Deployments\")\n  listByResourceGroup is DeploymentExtendedResourceGroupOps.List<\n    DeploymentExtended,\n    Parameters = {\n      /**\n       * The filter to apply on the operation. For example, you can use $filter=provisioningState eq '{state}'.\n       */\n      @query(\"$filter\")\n      $filter?: string;\n\n      /**\n       * The number of results to get. If null is passed, returns all deployments.\n       */\n      @query(\"$top\")\n      $top?: int32;\n    },\n    Response = DeploymentListResult\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments",
+          "verb": "get",
+          "operationId": "Deployments_ListByResourceGroup",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.cancel",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 887,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+      "statuses": [
+        204,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resource group partially deployed.\n   */\n  @summary(\"Cancels a currently running template deployment.\")\n  @tag(\"Deployments\")\n  cancel is DeploymentExtendedResourceGroupOps.ActionSync<\n    DeploymentExtended,\n    void,\n    NoContentResponse\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel",
+          "verb": "post",
+          "operationId": "Deployments_Cancel",
+          "missingDefault": false,
+          "responses": {
+            "204": {
+              "description": "There is no content to send for this request, but the headers may be useful."
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.validate",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 897,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+      "statuses": [
+        200,
+        202,
+        "*",
+        400
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..\n   */\n  @tag(\"Deployments\")\n  validate is DeploymentExtendedResourceGroupOps.ActionAsync<\n    DeploymentExtended,\n    Deployment,\n    DeploymentValidateResult,\n    OverrideErrorType =\n      | CloudError\n      | {\n          ...Response<400>;\n\n          /**\n           * The template deployment validation detected failures.\n           */\n          @bodyRoot\n          body: DeploymentValidateResult;\n        }\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate",
+          "verb": "post",
+          "operationId": "Deployments_Validate",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "400": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentValidateResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.whatIf",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 918,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+      "statuses": [
+        200,
+        202,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Returns changes that will be made by the deployment if executed at the scope of the resource group.\n   */\n  @tag(\"Deployments\")\n  whatIf is DeploymentExtendedResourceGroupOps.ActionAsync<\n    DeploymentExtended,\n    DeploymentWhatIf,\n    WhatIfOperationResult\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf",
+          "verb": "post",
+          "operationId": "Deployments_WhatIf",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WhatIfOperationResult"
+              }
+            },
+            "202": {
+              "description": "Resource operation accepted.",
+              "headers": {
+                "Location": {
+                  "type": "string",
+                  "description": "The Location header contains the URL where the status of the long running operation can be checked."
+                },
+                "Retry-After": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+                }
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentExtendedOperationGroup.exportTemplate",
+      "sourceFile": "DeploymentExtended.tsp",
+      "line": 928,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Exports the template used for specified deployment.\n   */\n  @tag(\"Deployments\")\n  exportTemplate is DeploymentExtendedResourceGroupOps.ActionSync<\n    DeploymentExtended,\n    void,\n    DeploymentExportResult\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate",
+          "verb": "post",
+          "operationId": "Deployments_ExportTemplate",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentExportResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentsOperationGroup.calculateTemplateHash",
+      "sourceFile": "routes.tsp",
+      "line": 23,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "post",
+      "route": "/providers/Microsoft.Resources/calculateTemplateHash",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Calculate the hash of the given template.\n   */\n  @tag(\"Deployments\")\n  @autoRoute\n  calculateTemplateHash is ArmProviderActionSync<\n    Request = unknown,\n    Response = TemplateHashResult,\n    Error = CloudError\n  >",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/providers/Microsoft.Resources/calculateTemplateHash",
+          "verb": "post",
+          "operationId": "Deployments_CalculateTemplateHash",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/TemplateHashResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentOperationsOperationGroup.get",
+      "sourceFile": "routes.tsp",
+      "line": 41,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations/{operationId}",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets a deployments operation.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"For backward compatibility\"\n  @tag(\"DeploymentOperations\")\n  @route(\"/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations/{operationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the deployment.\n     */\n    @maxLength(64)\n    @minLength(1)\n    @pattern(\"^[-\\\\w\\\\._\\\\(\\\\)]+$\")\n    @path\n    deploymentName: string,\n\n    /**\n     * The ID of the operation to get.\n     */\n    @path\n    operationId: string,\n\n    ...SubscriptionIdParameter,\n  ): ArmResponse<DeploymentOperation> | CloudError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations/{operationId}",
+          "verb": "get",
+          "operationId": "DeploymentOperations_Get",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperation"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "operation": "Microsoft.Resources.DeploymentOperationsOperationGroup.list",
+      "sourceFile": "routes.tsp",
+      "line": 70,
+      "column": 3,
+      "serviceOperation": true,
+      "verb": "get",
+      "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations",
+      "statuses": [
+        200,
+        "*"
+      ],
+      "hasDefault": true,
+      "snippet": "/**\n   * Gets all deployments operations for a deployment.\n   */\n  @tag(\"DeploymentOperations\")\n  @route(\"/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the deployment.\n     */\n    @maxLength(64)\n    @minLength(1)\n    @pattern(\"^[-\\\\w\\\\._\\\\(\\\\)]+$\")\n    @path\n    @segment(\"deployments\")\n    deploymentName: string,\n\n    /**\n     * The number of results to return.\n     */\n    @query(\"$top\")\n    $top?: int32,\n  ): ArmResponse<DeploymentOperationsListResult> | CloudError",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/swagger/stable/2026-06-01/deployments.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/deployments/{deploymentName}/operations",
+          "verb": "get",
+          "operationId": "DeploymentOperations_List",
+          "missingDefault": false,
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/DeploymentOperationsListResult"
+              }
+            },
+            "default": {
+              "description": "An unexpected error response.",
+              "schema": {
+                "$ref": "#/definitions/CloudError"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3556 @@
+[
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Storage/operations",
+    "verb": "get",
+    "operationId": "Operations_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/OperationListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/checkNameAvailability",
+    "verb": "post",
+    "operationId": "StorageAccounts_CheckNameAvailability",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/CheckNameAvailabilityResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/contextCacheCheckNameAvailability",
+    "verb": "post",
+    "operationId": "ContextCaches_CheckNameAvailability",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheCheckNameAvailabilityResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/contextCaches",
+    "verb": "get",
+    "operationId": "ContextCaches_ListBySubscription",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/deletedAccounts",
+    "verb": "get",
+    "operationId": "DeletedAccounts_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/DeletedAccountListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/locations/{location}/deletedAccounts/{deletedAccountName}",
+    "verb": "get",
+    "operationId": "DeletedAccounts_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DeletedAccount"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/locations/{location}/usages",
+    "verb": "get",
+    "operationId": "Usages_ListByLocation",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/UsageListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/skus",
+    "verb": "get",
+    "operationId": "Skus_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/StorageSkuListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Storage/storageAccounts",
+    "verb": "get",
+    "operationId": "StorageAccounts_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccountListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches",
+    "verb": "get",
+    "operationId": "ContextCaches_ListByResourceGroup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}",
+    "verb": "get",
+    "operationId": "ContextCaches_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCache"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}",
+    "verb": "put",
+    "operationId": "ContextCaches_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'ContextCache' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ContextCache"
+        }
+      },
+      "201": {
+        "description": "Resource 'ContextCache' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ContextCache"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}",
+    "verb": "patch",
+    "operationId": "ContextCaches_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCache"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}",
+    "verb": "delete",
+    "operationId": "ContextCaches_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}/contextCacheContainers",
+    "verb": "get",
+    "operationId": "ContextCacheContainers_ListByContextCache",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheContainerListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}/contextCacheContainers/{contextCacheContainerName}",
+    "verb": "get",
+    "operationId": "ContextCacheContainers_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheContainer"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}/contextCacheContainers/{contextCacheContainerName}",
+    "verb": "put",
+    "operationId": "ContextCacheContainers_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'ContextCacheContainer' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheContainer"
+        }
+      },
+      "201": {
+        "description": "Resource 'ContextCacheContainer' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheContainer"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}/contextCacheContainers/{contextCacheContainerName}",
+    "verb": "patch",
+    "operationId": "ContextCacheContainers_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ContextCacheContainer"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/contextCaches/{contextCacheName}/contextCacheContainers/{contextCacheContainerName}",
+    "verb": "delete",
+    "operationId": "ContextCacheContainers_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts",
+    "verb": "get",
+    "operationId": "StorageAccounts_ListByResourceGroup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccountListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}",
+    "verb": "get",
+    "operationId": "StorageAccounts_GetProperties",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccount"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}",
+    "verb": "put",
+    "operationId": "StorageAccounts_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'StorageAccount' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/StorageAccount"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}",
+    "verb": "patch",
+    "operationId": "StorageAccounts_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccount"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}",
+    "verb": "delete",
+    "operationId": "StorageAccounts_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/aborthnsonmigration",
+    "verb": "post",
+    "operationId": "StorageAccounts_AbortHierarchicalNamespaceMigration",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/accountMigrations/{migrationName}",
+    "verb": "get",
+    "operationId": "StorageAccounts_GetCustomerInitiatedMigration",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccountMigration"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/advancedPlatformMetrics",
+    "verb": "get",
+    "operationId": "AdvancedPlatformMetrics_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/AdvancedPlatformMetricsRuleListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/advancedPlatformMetrics/{advancedPlatformMetricsRuleType}",
+    "verb": "get",
+    "operationId": "AdvancedPlatformMetrics_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/AdvancedPlatformMetricsRule"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/advancedPlatformMetrics/{advancedPlatformMetricsRuleType}",
+    "verb": "put",
+    "operationId": "AdvancedPlatformMetrics_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'AdvancedPlatformMetricsRule' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/AdvancedPlatformMetricsRule"
+        }
+      },
+      "201": {
+        "description": "Resource 'AdvancedPlatformMetricsRule' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/AdvancedPlatformMetricsRule"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/advancedPlatformMetrics/{advancedPlatformMetricsRuleType}",
+    "verb": "delete",
+    "operationId": "AdvancedPlatformMetrics_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations",
+    "verb": "get",
+    "operationId": "BlobAccessPointConfigurations_ListByStorageAccount",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConfigurationListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations/{blobAccessPointConfigurationName}",
+    "verb": "get",
+    "operationId": "BlobAccessPointConfigurations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConfiguration"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations/{blobAccessPointConfigurationName}",
+    "verb": "put",
+    "operationId": "BlobAccessPointConfigurations_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'BlobAccessPointConfiguration' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConfiguration"
+        }
+      },
+      "201": {
+        "description": "Resource 'BlobAccessPointConfiguration' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConfiguration"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations/{blobAccessPointConfigurationName}",
+    "verb": "patch",
+    "operationId": "BlobAccessPointConfigurations_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConfiguration"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations/{blobAccessPointConfigurationName}",
+    "verb": "delete",
+    "operationId": "BlobAccessPointConfigurations_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobAccessPointConfigurations/{blobAccessPointConfigurationName}/testExistingConnection",
+    "verb": "post",
+    "operationId": "BlobAccessPointConfigurations_TestExistingConnection",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConnectionTestResponse"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices",
+    "verb": "get",
+    "operationId": "BlobServices_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobServiceItems"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default",
+    "verb": "get",
+    "operationId": "BlobServices_GetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default",
+    "verb": "put",
+    "operationId": "BlobServices_SetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Resource 'BlobServiceProperties' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers",
+    "verb": "get",
+    "operationId": "BlobContainers_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListContainerItems"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}",
+    "verb": "get",
+    "operationId": "BlobContainers_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobContainer"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}",
+    "verb": "put",
+    "operationId": "BlobContainers_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'BlobContainer' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobContainer"
+        }
+      },
+      "201": {
+        "description": "Resource 'BlobContainer' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobContainer"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}",
+    "verb": "patch",
+    "operationId": "BlobContainers_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobContainer"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}",
+    "verb": "delete",
+    "operationId": "BlobContainers_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/clearLegalHold",
+    "verb": "post",
+    "operationId": "BlobContainers_ClearLegalHold",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LegalHold"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/immutabilityPolicies/default",
+    "verb": "get",
+    "operationId": "BlobContainers_GetImmutabilityPolicy",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ImmutabilityPolicy"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/immutabilityPolicies/default",
+    "verb": "put",
+    "operationId": "BlobContainers_CreateOrUpdateImmutabilityPolicy",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ImmutabilityPolicy"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/immutabilityPolicies/default",
+    "verb": "delete",
+    "operationId": "BlobContainers_DeleteImmutabilityPolicy",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ImmutabilityPolicy"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/immutabilityPolicies/default/extend",
+    "verb": "post",
+    "operationId": "BlobContainers_ExtendImmutabilityPolicy",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ImmutabilityPolicy"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/immutabilityPolicies/default/lock",
+    "verb": "post",
+    "operationId": "BlobContainers_LockImmutabilityPolicy",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ImmutabilityPolicy"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/lease",
+    "verb": "post",
+    "operationId": "BlobContainers_Lease",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LeaseContainerResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/migrate",
+    "verb": "post",
+    "operationId": "BlobContainers_ObjectLevelWorm",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}/setLegalHold",
+    "verb": "post",
+    "operationId": "BlobContainers_SetLegalHold",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LegalHold"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors",
+    "verb": "get",
+    "operationId": "Connectors_ListByStorageAccount",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ConnectorListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors/{connectorName}",
+    "verb": "get",
+    "operationId": "Connectors_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Connector"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors/{connectorName}",
+    "verb": "put",
+    "operationId": "Connectors_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'Connector' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Connector"
+        }
+      },
+      "201": {
+        "description": "Resource 'Connector' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Connector"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors/{connectorName}",
+    "verb": "patch",
+    "operationId": "Connectors_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Connector"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors/{connectorName}",
+    "verb": "delete",
+    "operationId": "Connectors_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/connectors/{connectorName}/testExistingConnection",
+    "verb": "post",
+    "operationId": "Connectors_TestExistingConnection",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/TestConnectionResponse"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/dataShares",
+    "verb": "get",
+    "operationId": "DataShares_ListByStorageAccount",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DataShareListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/dataShares/{dataShareName}",
+    "verb": "get",
+    "operationId": "DataShares_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DataShare"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/dataShares/{dataShareName}",
+    "verb": "put",
+    "operationId": "DataShares_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'DataShare' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DataShare"
+        }
+      },
+      "201": {
+        "description": "Resource 'DataShare' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/DataShare"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/dataShares/{dataShareName}",
+    "verb": "patch",
+    "operationId": "DataShares_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/DataShare"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/dataShares/{dataShareName}",
+    "verb": "delete",
+    "operationId": "DataShares_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes",
+    "verb": "get",
+    "operationId": "EncryptionScopes_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EncryptionScopeListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes/{encryptionScopeName}",
+    "verb": "get",
+    "operationId": "EncryptionScopes_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EncryptionScope"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes/{encryptionScopeName}",
+    "verb": "put",
+    "operationId": "EncryptionScopes_Put",
+    "responses": {
+      "200": {
+        "description": "Resource 'EncryptionScope' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/EncryptionScope"
+        }
+      },
+      "201": {
+        "description": "Resource 'EncryptionScope' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/EncryptionScope"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes/{encryptionScopeName}",
+    "verb": "patch",
+    "operationId": "EncryptionScopes_Patch",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EncryptionScope"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/failover",
+    "verb": "post",
+    "operationId": "StorageAccounts_Failover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices",
+    "verb": "get",
+    "operationId": "FileServices_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileServiceItems"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default",
+    "verb": "get",
+    "operationId": "FileServices_GetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default",
+    "verb": "put",
+    "operationId": "FileServices_SetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Resource 'FileServiceProperties' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/FileServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares",
+    "verb": "get",
+    "operationId": "FileShares_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileShareItems"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}",
+    "verb": "get",
+    "operationId": "FileShares_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileShare"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}",
+    "verb": "put",
+    "operationId": "FileShares_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'FileShare' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/FileShare"
+        }
+      },
+      "201": {
+        "description": "Resource 'FileShare' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/FileShare"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}",
+    "verb": "patch",
+    "operationId": "FileShares_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileShare"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}",
+    "verb": "delete",
+    "operationId": "FileShares_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}/lease",
+    "verb": "post",
+    "operationId": "FileShares_Lease",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LeaseShareResponse"
+        },
+        "headers": {
+          "ETag": {
+            "type": "string",
+            "description": "The ETag HTTP response header. This is an opaque string. You can use it to detect whether the resource has changed between requests. In particular, you can pass the ETag to one of the If-Match or If-None-Match headers."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares/{shareName}/restore",
+    "verb": "post",
+    "operationId": "FileShares_Restore",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/usages",
+    "verb": "get",
+    "operationId": "FileServices_ListServiceUsages",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileServiceUsages"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/usages/default",
+    "verb": "get",
+    "operationId": "FileServices_GetServiceUsage",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FileServiceUsage"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/hnsonmigration",
+    "verb": "post",
+    "operationId": "StorageAccounts_HierarchicalNamespaceMigration",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/inventoryPolicies",
+    "verb": "get",
+    "operationId": "BlobInventoryPolicies_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListBlobInventoryPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/inventoryPolicies/{blobInventoryPolicyName}",
+    "verb": "get",
+    "operationId": "BlobInventoryPolicies_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobInventoryPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/inventoryPolicies/{blobInventoryPolicyName}",
+    "verb": "put",
+    "operationId": "BlobInventoryPolicies_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'BlobInventoryPolicy' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/BlobInventoryPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/inventoryPolicies/{blobInventoryPolicyName}",
+    "verb": "delete",
+    "operationId": "BlobInventoryPolicies_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/listAccountSas",
+    "verb": "post",
+    "operationId": "StorageAccounts_ListAccountSAS",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListAccountSasResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/listKeys",
+    "verb": "post",
+    "operationId": "StorageAccounts_ListKeys",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccountListKeysResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/listServiceSas",
+    "verb": "post",
+    "operationId": "StorageAccounts_ListServiceSAS",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListServiceSasResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers",
+    "verb": "get",
+    "operationId": "LocalUsers_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LocalUsers"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers/{username}",
+    "verb": "get",
+    "operationId": "LocalUsers_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LocalUser"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers/{username}",
+    "verb": "put",
+    "operationId": "LocalUsers_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'LocalUser' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/LocalUser"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers/{username}",
+    "verb": "delete",
+    "operationId": "LocalUsers_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers/{username}/listKeys",
+    "verb": "post",
+    "operationId": "LocalUsers_ListKeys",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LocalUserKeys"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers/{username}/regeneratePassword",
+    "verb": "post",
+    "operationId": "LocalUsers_RegeneratePassword",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LocalUserRegeneratePasswordResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/managementPolicies/{managementPolicyName}",
+    "verb": "get",
+    "operationId": "ManagementPolicies_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ManagementPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/managementPolicies/{managementPolicyName}",
+    "verb": "put",
+    "operationId": "ManagementPolicies_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'ManagementPolicy' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ManagementPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/managementPolicies/{managementPolicyName}",
+    "verb": "delete",
+    "operationId": "ManagementPolicies_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/networkSecurityPerimeterConfigurations",
+    "verb": "get",
+    "operationId": "NetworkSecurityPerimeterConfigurations_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkSecurityPerimeterConfigurationList"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/networkSecurityPerimeterConfigurations/{networkSecurityPerimeterConfigurationName}",
+    "verb": "get",
+    "operationId": "NetworkSecurityPerimeterConfigurations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkSecurityPerimeterConfiguration"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/networkSecurityPerimeterConfigurations/{networkSecurityPerimeterConfigurationName}/reconcile",
+    "verb": "post",
+    "operationId": "NetworkSecurityPerimeterConfigurations_Reconcile",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/objectReplicationPolicies",
+    "verb": "get",
+    "operationId": "ObjectReplicationPolicies_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ObjectReplicationPolicies"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/objectReplicationPolicies/{objectReplicationPolicyId}",
+    "verb": "get",
+    "operationId": "ObjectReplicationPolicies_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ObjectReplicationPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/objectReplicationPolicies/{objectReplicationPolicyId}",
+    "verb": "put",
+    "operationId": "ObjectReplicationPolicies_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'ObjectReplicationPolicy' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ObjectReplicationPolicy"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/objectReplicationPolicies/{objectReplicationPolicyId}",
+    "verb": "delete",
+    "operationId": "ObjectReplicationPolicies_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateEndpointConnections",
+    "verb": "get",
+    "operationId": "PrivateEndpointConnections_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnectionListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "get",
+    "operationId": "PrivateEndpointConnections_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "put",
+    "operationId": "PrivateEndpointConnections_Put",
+    "responses": {
+      "200": {
+        "description": "Resource 'PrivateEndpointConnection' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "delete",
+    "operationId": "PrivateEndpointConnections_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/privateLinkResources",
+    "verb": "get",
+    "operationId": "PrivateLinkResources_ListByStorageAccount",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateLinkResourceListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices",
+    "verb": "get",
+    "operationId": "QueueServices_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListQueueServices"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default",
+    "verb": "get",
+    "operationId": "QueueServices_GetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/QueueServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default",
+    "verb": "put",
+    "operationId": "QueueServices_SetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Resource 'QueueServiceProperties' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/QueueServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues",
+    "verb": "get",
+    "operationId": "Queue_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListQueueResource"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}",
+    "verb": "get",
+    "operationId": "Queue_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageQueue"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}",
+    "verb": "put",
+    "operationId": "Queue_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'StorageQueue' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/StorageQueue"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}",
+    "verb": "patch",
+    "operationId": "Queue_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageQueue"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}",
+    "verb": "delete",
+    "operationId": "Queue_Delete",
+    "responses": {
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/regenerateKey",
+    "verb": "post",
+    "operationId": "StorageAccounts_RegenerateKey",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageAccountListKeysResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/reports",
+    "verb": "get",
+    "operationId": "StorageTaskAssignmentsInstancesReport_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskReportSummary"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/restoreBlobRanges",
+    "verb": "post",
+    "operationId": "StorageAccounts_RestoreBlobRanges",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobRestoreStatus"
+        }
+      },
+      "202": {
+        "description": "The request has been accepted for processing, but processing has not yet completed.",
+        "schema": {
+          "$ref": "#/definitions/BlobRestoreStatus"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/revokeUserDelegationKeys",
+    "verb": "post",
+    "operationId": "StorageAccounts_RevokeUserDelegationKeys",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/startAccountMigration",
+    "verb": "post",
+    "operationId": "StorageAccounts_CustomerInitiatedMigration",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments",
+    "verb": "get",
+    "operationId": "StorageTaskAssignments_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskAssignmentsList"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}",
+    "verb": "get",
+    "operationId": "StorageTaskAssignments_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskAssignment"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}",
+    "verb": "put",
+    "operationId": "StorageTaskAssignments_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'StorageTaskAssignment' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskAssignment"
+        }
+      },
+      "201": {
+        "description": "Resource 'StorageTaskAssignment' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskAssignment"
+        },
+        "headers": {
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}",
+    "verb": "patch",
+    "operationId": "StorageTaskAssignments_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskAssignment"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}",
+    "verb": "delete",
+    "operationId": "StorageTaskAssignments_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}/reports",
+    "verb": "get",
+    "operationId": "StorageTaskAssignmentInstancesReport_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageTaskReportSummary"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}/stopAssignment",
+    "verb": "post",
+    "operationId": "StorageTaskAssignments_StopAssignment",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Azure operation completed successfully."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices",
+    "verb": "get",
+    "operationId": "TableServices_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListTableServices"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default",
+    "verb": "get",
+    "operationId": "TableServices_GetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/TableServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default",
+    "verb": "put",
+    "operationId": "TableServices_SetServiceProperties",
+    "responses": {
+      "200": {
+        "description": "Resource 'TableServiceProperties' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/TableServiceProperties"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables",
+    "verb": "get",
+    "operationId": "Table_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ListTableResource"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}",
+    "verb": "get",
+    "operationId": "Table_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Table"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}",
+    "verb": "put",
+    "operationId": "Table_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'Table' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Table"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}",
+    "verb": "patch",
+    "operationId": "Table_Update",
+    "responses": {
+      "200": {
+        "description": "Resource 'Table' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Table"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}",
+    "verb": "delete",
+    "operationId": "Table_Delete",
+    "responses": {
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/CloudError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/testBlobAccessPointConfigurationProposedConnection",
+    "verb": "post",
+    "operationId": "BlobAccessPointConnectionTests_TestProposedConnection",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/BlobAccessPointConnectionTestResponse"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  }
+]

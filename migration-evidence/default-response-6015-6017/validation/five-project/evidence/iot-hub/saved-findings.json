@@ -1,0 +1,44 @@
+{
+  "MissingDefaultResponse": [],
+  "RequiredDefaultResponse": [
+    {
+      "rule": "RequiredDefaultResponse",
+      "level": "error",
+      "project": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+      "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+      "validatorInputFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+      "sourceDocuments": [
+        "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json"
+      ],
+      "sourceAttribution": "reported",
+      "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+      "path": [
+        "paths",
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+        "patch",
+        "responses"
+      ],
+      "details": {
+        "jsonpath": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+          "patch",
+          "responses"
+        ],
+        "validationCategory": "ARMViolation",
+        "providerNamespace": false,
+        "resourceType": false,
+        "range": {
+          "start": {
+            "line": 442,
+            "column": 22
+          },
+          "end": {
+            "line": 465,
+            "column": 10
+          }
+        }
+      }
+    }
+  ]
+}

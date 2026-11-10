@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "node": "v26.5.0",
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+      "archiveSha256": "556c2a84eddb750a08681db03e40f2dacdeef192955078dfed62ee3539033135",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-autor_c84aab3007593f50436278639527f064\\node_modules\\@azure-tools\\typespec-autorest",
+      "verifiedFiles": 71,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+      "archiveSha256": "c24f74ab8787b81a97bbd3d80bee61564801f90d61a6d81630f0b5677d7e9b59",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_0693c8b9549b499f76173020f28302aa\\node_modules\\@azure-tools\\typespec-azure-core",
+      "verifiedFiles": 425,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "version": "0.2.2",
+      "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+      "archiveSha256": "b403d0c1830d206c48a057aceddb3a6c92e6e38728c27bcb69222adaeb10ac31",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_d0fa076b92e296eddf03f0b3543c5001\\node_modules\\@azure-tools\\typespec-azure-examples",
+      "verifiedFiles": 169,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+      "archiveSha256": "d1b9b18d78c5dd88e5bdd73b647b61bef089b39f939a5f3b99b6530d14c318e4",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e31ea484918254cf8882ae4b857efd0b\\node_modules\\@azure-tools\\typespec-azure-resource-manager",
+      "verifiedFiles": 435,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+      "archiveSha256": "9a489b0abda7a57696f4ed0767e90d76424b69c74205f6b55780b8c212418634",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_da411100fbe2a3e8a51936377b6896e7\\node_modules\\@azure-tools\\typespec-azure-rulesets",
+      "verifiedFiles": 19,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+      "archiveSha256": "556580c3193e959cea24ce7ff1633dd7f437bb35bf2b5f49b023179f23e53364",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-clien_68adfea8a04439bbd210e8672af8eb60\\node_modules\\@azure-tools\\typespec-client-generator-core",
+      "verifiedFiles": 188,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "archive": "typespec-compiler-1.17.0.tgz",
+      "archiveSha256": "38e98a4d58b1713fde5029ab55e7c2d84ae4e1d4cce2bd87acab1a2992b9096d",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+compiler@file+..+_c871f2aaa6b76f942cef060d222b23ff\\node_modules\\@typespec\\compiler",
+      "verifiedFiles": 1086,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "version": "0.87.0",
+      "archive": "typespec-events-0.87.0.tgz",
+      "archiveSha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+events@file+..+ar_ab0fd5857f85125c5ba5207c0ec2b140\\node_modules\\@typespec\\events",
+      "verifiedFiles": 45,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "archive": "typespec-http-1.17.0.tgz",
+      "archiveSha256": "086998d078591d2cc6b9588e31e85ba0c92b3217369a6b196b322bd18feaebdd",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+http@file+..+arti_b53db01d1b967e25090288a8e0e972c4\\node_modules\\@typespec\\http",
+      "verifiedFiles": 181,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "version": "1.17.0",
+      "archive": "typespec-openapi-1.17.0.tgz",
+      "archiveSha256": "6f1f5515775ed004a6063e51d860c85c85eac7e01a27a323e06464b18eb36d31",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+openapi@file+..+a_53b6b2376520fc2254feabef54b12b8d\\node_modules\\@typespec\\openapi",
+      "verifiedFiles": 42,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/rest",
+      "version": "0.87.0",
+      "archive": "typespec-rest-0.87.0.tgz",
+      "archiveSha256": "1220fdc9ac98478233cd26f5ec520849d8f9e7a811676bdd50504c61af0a9f61",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+rest@file+..+arti_1764791224aa8109e83a3393c1f92528\\node_modules\\@typespec\\rest",
+      "verifiedFiles": 58,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "version": "0.87.0",
+      "archive": "typespec-sse-0.87.0.tgz",
+      "archiveSha256": "b9661fa0135212e3d947f4dda4b3edceb11c308898283928830a6222f26a9db6",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+sse@file+..+artif_9f8f5b02c7f77cb0efe43c929d132b7c\\node_modules\\@typespec\\sse",
+      "verifiedFiles": 38,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/streams",
+      "version": "0.87.0",
+      "archive": "typespec-streams-0.87.0.tgz",
+      "archiveSha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+streams@file+..+a_1010671825d454ae8b2610ea737651a0\\node_modules\\@typespec\\streams",
+      "verifiedFiles": 34,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "archive": "typespec-versioning-0.87.0.tgz",
+      "archiveSha256": "a726a9150b541771ba0c5f3f0ad5234cf5779481073d61c83bf40c102c236ba7",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+versioning@file+._c26ab0d18b765aab82a87a145c1e6b26\\node_modules\\@typespec\\versioning",
+      "verifiedFiles": 61,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "version": "0.87.0",
+      "archive": "typespec-xml-0.87.0.tgz",
+      "archiveSha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
+      "installedRoot": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+xml@file+..+artif_a962148caaeaaea1823f9f3514b49a7e\\node_modules\\@typespec\\xml",
+      "verifiedFiles": 43,
+      "mismatches": []
+    }
+  ]
+}

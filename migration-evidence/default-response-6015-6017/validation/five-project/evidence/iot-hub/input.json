@@ -1,0 +1,16 @@
+{
+  "specsRepo": "$SPECS_ROOT",
+  "project": {
+    "sourcePath": "specification/iothub/resource-manager/Microsoft.Devices/IoTHub",
+    "apiVersion": "2026-10-01-preview"
+  },
+  "validatorRules": [
+    "MissingDefaultResponse",
+    "RequiredDefaultResponse"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/missing-default-response"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

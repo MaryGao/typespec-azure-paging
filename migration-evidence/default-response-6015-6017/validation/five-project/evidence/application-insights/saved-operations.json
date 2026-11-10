@@ -1,0 +1,467 @@
+[
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+    "verb": "get",
+    "operationId": "APIKeys_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+    "verb": "delete",
+    "operationId": "APIKeys_Delete",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+    "verb": "get",
+    "operationId": "Annotations_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/AnnotationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/AnnotationError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations",
+    "verb": "put",
+    "operationId": "Annotations_Create",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Annotation"
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/AnnotationError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+    "verb": "get",
+    "operationId": "Annotations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Annotation"
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/AnnotationError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+    "verb": "delete",
+    "operationId": "Annotations_Delete",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+    "verb": "get",
+    "operationId": "APIKeys_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentAPIKeyListResult"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+    "verb": "post",
+    "operationId": "APIKeys_Create",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+    "verb": "get",
+    "operationId": "WorkItemConfigurations_GetDefault",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+    "verb": "get",
+    "operationId": "ProactiveDetectionConfigurations_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+    "verb": "get",
+    "operationId": "ProactiveDetectionConfigurations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+    "verb": "put",
+    "operationId": "ProactiveDetectionConfigurations_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+    "verb": "get",
+    "operationId": "WorkItemConfigurations_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfigurationsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfigurationError"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+    "verb": "post",
+    "operationId": "WorkItemConfigurations_Create",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+    "verb": "get",
+    "operationId": "WorkItemConfigurations_GetItem",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+    "verb": "patch",
+    "operationId": "WorkItemConfigurations_UpdateItem",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/WorkItemConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+    "verb": "delete",
+    "operationId": "WorkItemConfigurations_Delete",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+    "verb": "get",
+    "operationId": "ComponentCurrentBillingFeatures_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+    "verb": "put",
+    "operationId": "ComponentCurrentBillingFeatures_Update",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+    "verb": "get",
+    "operationId": "ExportConfigurations_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+    "verb": "post",
+    "operationId": "ExportConfigurations_Create",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+    "verb": "get",
+    "operationId": "ExportConfigurations_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+    "verb": "put",
+    "operationId": "ExportConfigurations_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+    "verb": "delete",
+    "operationId": "ExportConfigurations_Delete",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+    "verb": "get",
+    "operationId": "ComponentFeatureCapabilities_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentFeatureCapabilities"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+    "verb": "get",
+    "operationId": "ComponentAvailableFeatures_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentAvailableFeatures"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+    "verb": "get",
+    "operationId": "ComponentQuotaStatus_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplicationInsightsComponentQuotaStatus"
+        }
+      }
+    },
+    "missingDefault": true
+  }
+]

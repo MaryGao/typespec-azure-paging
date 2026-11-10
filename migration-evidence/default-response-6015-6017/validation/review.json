@@ -1,0 +1,9 @@
+{
+  "scope": "approved-five-project-representative-validation",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "sourceReview": "No high-confidence bugs found at the exact candidate commit before artifact preparation.",
+  "evidenceReview": "No high-confidence evidence errors found.",
+  "reviewer": "Retained independent read-only code-review agent",
+  "fullSpecValidation": "not-run",
+  "nextGate": "User review and separate approval before full-spec validation."
+}

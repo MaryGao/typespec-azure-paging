@@ -1,0 +1,134 @@
+[
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/back-compatible.tsp",
+    "sha256": "9255011a02b40ac9115a2d60292abfa97edd438cf4b1072cad3d9c974e7d300c"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/APIKeysCreate.json",
+    "sha256": "c9aa4398a019254856edfbf73826a44d2cfbec9f9e341d0c186d9a5e13ea244f"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/APIKeysDelete.json",
+    "sha256": "723d03903206403b2fe6627a001cda5ce856890aa39489d4019f9c697da32e0e"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/APIKeysGet.json",
+    "sha256": "939ae2e218595bfaa6e3995395a51d94919c8dfc228786acd4f711ba7c7e8f1b"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/APIKeysList.json",
+    "sha256": "f0b32448de7f97a851a987aa2a69e6bff34b31e10e93f8895f7649bedf774ffc"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/AnnotationsCreate.json",
+    "sha256": "c3273e5b34d0b8ba26c667d914a0e7cf1b3ec390be6bf0074b3a63511461f40c"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/AnnotationsDelete.json",
+    "sha256": "a09e981553bcf997074d198bee12ff0278ec012ef391aeb0d7cc0827aaa1e389"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/AnnotationsGet.json",
+    "sha256": "519b012bf02c822bd9b9352aa8bf533763c6879e6f3d1e8803a4584daff0bbe9"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/AnnotationsList.json",
+    "sha256": "b013b7a5ea5e52becdbacaaf425d0371fb24e8c5d7d534589da86d51f38b6fe8"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/AvailableBillingFeaturesGet.json",
+    "sha256": "eede787cab63874db7c2f2b6f065f80fe45a0c6efda211a7882e47abecb467cf"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/CurrentBillingFeaturesGet.json",
+    "sha256": "f70672724ed2b17ce8f7bcebc5311265ed79c7d2721f8a65db72d7eedc42e5a9"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/CurrentBillingFeaturesUpdate.json",
+    "sha256": "7583789669d18124a8a173b4fa18325349195f3e4d3a02c710ccafe70fd62a60"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ExportConfigurationDelete.json",
+    "sha256": "141b3cf847a54ef11cccc575dbe4cfa4f86a78de84576e72c07a7ac849ca0f0e"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ExportConfigurationGet.json",
+    "sha256": "e95ddd72421dbb18e1b73e896d7e1d33515d57eb4fecf5abdddeeb49035039b4"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ExportConfigurationUpdate.json",
+    "sha256": "cc6dd18f3ab35c4b7104fbb01465d563208719d09629c7a2579f7015b6c15b35"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ExportConfigurationsList.json",
+    "sha256": "9aa21989bf8ac24d3a66f1145eb90b563ec8b79fc316831405d0826306a85cda"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ExportConfigurationsPost.json",
+    "sha256": "53a1d52ade5d8a0cd75ea8c4cdaacd89af6abd732baa4a3611770c56158cd7d1"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/FeatureCapabilitiesGet.json",
+    "sha256": "155b2a3df08d88e2d2ababd093a107af75153cdaeefb294ddab1437c07d0f2d0"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ProactiveDetectionConfigurationGet.json",
+    "sha256": "db6c60cb635b6d3c49252bc9287439c7a6390d008c8985eeddcc9d7f2ac81d00"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ProactiveDetectionConfigurationUpdate.json",
+    "sha256": "676af0377d18301815c620903714adbad128edf043306d4a7c560e8c21f426e9"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/ProactiveDetectionConfigurationsList.json",
+    "sha256": "1e6e70dc75582f48e2f6bf8a16b8de2ed6088a6da990b23077e3780bae9a809f"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/QuotaStatusGet.json",
+    "sha256": "6519cbffe33a6e4be7bafe911c7672a907d102afda9066e835bef93d20570e8b"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigCreate.json",
+    "sha256": "eb33dd172df8db40cb7bdcd4d33fdab141d78aec69250246a3ae394efff1d80b"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigDefaultGet.json",
+    "sha256": "e409b0838785b6c571485621813ebccc364a897688a45c3b755af5df173c465c"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigDelete.json",
+    "sha256": "dbb83438f4d8f9fba100e60a870e52a1fb25ed9433837890eb25b59405177bad"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigGet.json",
+    "sha256": "cc91f765accc4fee2f1a7794fdf8cb83aa1c2da8eecbc0a5e421fee2c70e7648"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigUpdate.json",
+    "sha256": "c61f22888b7ad004429d224f8f4c3bdb1ae0405b3ceccab246833d9e3c5c4c28"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/examples/2015-05-01/WorkItemConfigsGet.json",
+    "sha256": "509ea70da19ce4ba98640f9adb0223f17f0862e98e5ce0d84e0e4f14fdedb0f2"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/main.tsp",
+    "sha256": "1a351ad3b418c4464e598007c9f01710ef9729bdbc16c8e8689c61e54574101e"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/models.tsp",
+    "sha256": "542d5e7083f032821c6d9231c5c889c4a31927f7771b2d5f9b7b66be24104efe"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/routes.tsp",
+    "sha256": "96dade07dac94e821b7a38c344562e81603423bcd2dd10478f0bc926de541850"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/service.yaml",
+    "sha256": "12977c0d9c1202dd6513369fe3776d19bbcf57a9f372e3bcf9cab87adf90785f"
+  },
+  {
+    "file": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/tspconfig.yaml",
+    "sha256": "5e0c7df6cbd2c7fcfec9cc3c2fae28453927dffa8d56d7a9472ddf4ad074555a"
+  }
+]

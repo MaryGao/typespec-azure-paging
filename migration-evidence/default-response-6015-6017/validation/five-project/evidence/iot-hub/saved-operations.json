@@ -1,0 +1,960 @@
+[
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/providers/Microsoft.Devices/operations",
+    "verb": "get",
+    "operationId": "Operations_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/OperationListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/IotHubs",
+    "verb": "get",
+    "operationId": "IotHubResource_ListBySubscription",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescriptionListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/checkNameAvailability",
+    "verb": "post",
+    "operationId": "IotHubResource_CheckNameAvailability",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/IotHubNameAvailabilityInfo"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Devices/usages",
+    "verb": "get",
+    "operationId": "ResourceProviderCommon_GetSubscriptionQuota",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/UserSubscriptionQuotaListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs",
+    "verb": "get",
+    "operationId": "IotHubResource_ListByResourceGroup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescriptionListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+    "verb": "get",
+    "operationId": "IotHubResource_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+    "verb": "put",
+    "operationId": "IotHubResource_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'IotHubDescription' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        }
+      },
+      "201": {
+        "description": "Resource 'IotHubDescription' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+    "verb": "patch",
+    "operationId": "IotHubResource_Update",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+    "verb": "delete",
+    "operationId": "IotHubResource_Delete",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        }
+      },
+      "202": {
+        "description": "The request has been accepted for processing, but processing has not yet completed.",
+        "schema": {
+          "$ref": "#/definitions/IotHubDescription"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "404": {
+        "description": "The server cannot find the requested resource.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubKeys/{keyName}/listkeys",
+    "verb": "post",
+    "operationId": "IotHubResource_GetKeysForKeyName",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/SharedAccessSignatureAuthorizationRule"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/IotHubStats",
+    "verb": "get",
+    "operationId": "IotHubResource_GetStats",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RegistryStatistics"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates",
+    "verb": "get",
+    "operationId": "Certificates_ListByIotHub",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/CertificateListDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+    "verb": "get",
+    "operationId": "Certificates_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/CertificateDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+    "verb": "put",
+    "operationId": "Certificates_CreateOrUpdate",
+    "responses": {
+      "200": {
+        "description": "Resource 'CertificateDescription' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/CertificateDescription"
+        }
+      },
+      "201": {
+        "description": "Resource 'CertificateDescription' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/CertificateDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}",
+    "verb": "delete",
+    "operationId": "Certificates_Delete",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/generateVerificationCode",
+    "verb": "post",
+    "operationId": "Certificates_GenerateVerificationCode",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/CertificateWithNonceDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/certificates/{certificateName}/verify",
+    "verb": "post",
+    "operationId": "Certificates_Verify",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/CertificateDescription"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups",
+    "verb": "get",
+    "operationId": "IotHubResource_ListEventHubConsumerGroups",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EventHubConsumerGroupsListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+    "verb": "get",
+    "operationId": "IotHubResource_GetEventHubConsumerGroup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EventHubConsumerGroupInfo"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+    "verb": "put",
+    "operationId": "IotHubResource_CreateEventHubConsumerGroup",
+    "responses": {
+      "200": {
+        "description": "Resource 'EventHubConsumerGroupInfo' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/EventHubConsumerGroupInfo"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/eventHubEndpoints/{eventHubEndpointName}/ConsumerGroups/{name}",
+    "verb": "delete",
+    "operationId": "IotHubResource_DeleteEventHubConsumerGroup",
+    "responses": {
+      "200": {
+        "description": "Resource deleted successfully."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/exportDevices",
+    "verb": "post",
+    "operationId": "IotHubResource_ExportDevices",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/JobResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/failover",
+    "verb": "post",
+    "operationId": "IotHub_ManualFailover",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded."
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/importDevices",
+    "verb": "post",
+    "operationId": "IotHubResource_ImportDevices",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/JobResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs",
+    "verb": "get",
+    "operationId": "IotHubResource_ListJobs",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/JobResponseListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/jobs/{jobId}",
+    "verb": "get",
+    "operationId": "IotHubResource_GetJob",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/JobResponse"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/listkeys",
+    "verb": "post",
+    "operationId": "IotHubResource_ListKeys",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/SharedAccessSignatureAuthorizationRuleListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/quotaMetrics",
+    "verb": "get",
+    "operationId": "IotHubResource_GetQuotaMetrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubQuotaMetricInfoListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testall",
+    "verb": "post",
+    "operationId": "IotHubResource_TestAllRoutes",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/TestAllRoutesResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routing/routes/$testnew",
+    "verb": "post",
+    "operationId": "IotHubResource_TestRoute",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/TestRouteResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{iotHubName}/routingEndpointsHealth",
+    "verb": "get",
+    "operationId": "IotHubResource_GetEndpointHealth",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EndpointHealthDataListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}/skus",
+    "verb": "get",
+    "operationId": "IotHubResource_GetValidSkus",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/IotHubSkuDescriptionListResult"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections",
+    "verb": "get",
+    "operationId": "PrivateEndpointConnections_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/PrivateEndpointConnection"
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "get",
+    "operationId": "PrivateEndpointConnections_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "put",
+    "operationId": "PrivateEndpointConnections_Update",
+    "responses": {
+      "200": {
+        "description": "Resource 'PrivateEndpointConnection' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        }
+      },
+      "201": {
+        "description": "Resource 'PrivateEndpointConnection' create operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}",
+    "verb": "delete",
+    "operationId": "PrivateEndpointConnections_Delete",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        }
+      },
+      "202": {
+        "description": "The request has been accepted for processing, but processing has not yet completed.",
+        "schema": {
+          "$ref": "#/definitions/PrivateEndpointConnection"
+        },
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "format": "uri",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources",
+    "verb": "get",
+    "operationId": "PrivateLinkResources_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PrivateLinkResources"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/iotHubs/{resourceName}/privateLinkResources/{groupId}",
+    "verb": "get",
+    "operationId": "PrivateLinkResources_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/GroupIdInformation"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "#/definitions/ErrorDetails"
+        }
+      }
+    },
+    "missingDefault": false
+  }
+]

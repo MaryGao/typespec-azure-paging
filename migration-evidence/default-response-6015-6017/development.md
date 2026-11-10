@@ -1,6 +1,6 @@
 # Development evidence
 
-This is a development-preparation record, not a real-spec coverage report. No real specs have been compiled, emitted, injected, or passed through Swagger or TypeSpec coverage for this task.
+This is the original development-preparation record, not a real-spec coverage report. No real specs were evaluated during PR preparation. The user subsequently approved five-project validation; that separate stage is recorded in the [representative report](validation/five-project/README.md). Full-spec validation remains gated.
 
 ## Native contract
 
@@ -24,7 +24,7 @@ Following manual review, each rule reports independently. There is no shared pro
 
 ## Checks and limitations
 
-All required development-preparation checks below passed. Real-project comparison remains explicitly unassessed.
+All required development-preparation checks below passed. The subsequently approved five-project comparison is assessed separately; full-corpus comparison remains unassessed.
 
 The simplification at `e26ad37b1e0c76a36c5495e0b1c1a497c59ca4d5` was revalidated with the ARM package build, documentation generation, all 99 focused ARM tests (27 new-rule cases), root lint including type-aware lint, targeted formatting, and `git diff --check`. The interaction tests now require both independent diagnostics, including both rule-registration orders for the missing-error check. The focused run took 103.62 seconds. Other checks below describe the initial preparation; ruleset registration and documentation examples were not changed by this revision.
 

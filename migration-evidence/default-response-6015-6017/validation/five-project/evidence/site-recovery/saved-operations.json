@@ -1,0 +1,3738 @@
+[
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults",
+    "verb": "get",
+    "operationId": "ReplicationEligibilityResults_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationEligibilityResultsCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default",
+    "verb": "get",
+    "operationId": "ReplicationEligibilityResults_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationEligibilityResults"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/operations",
+    "verb": "get",
+    "operationId": "Operations_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/OperationsDiscoveryCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings",
+    "verb": "get",
+    "operationId": "ReplicationAlertSettings_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/AlertCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}",
+    "verb": "get",
+    "operationId": "ReplicationAlertSettings_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Alert"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}",
+    "verb": "put",
+    "operationId": "ReplicationAlertSettings_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'Alert' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Alert"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances",
+    "verb": "get",
+    "operationId": "ReplicationAppliances_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ApplianceCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents",
+    "verb": "get",
+    "operationId": "ReplicationEvents_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/EventCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}",
+    "verb": "get",
+    "operationId": "ReplicationEvents_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Event"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics",
+    "verb": "get",
+    "operationId": "ReplicationFabrics_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/FabricCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}",
+    "verb": "get",
+    "operationId": "ReplicationFabrics_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Fabric"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}",
+    "verb": "put",
+    "operationId": "ReplicationFabrics_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'Fabric' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Fabric"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}",
+    "verb": "delete",
+    "operationId": "ReplicationFabrics_Purge",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/checkConsistency",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_CheckConsistency",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Fabric"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/migratetoaad",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_MigrateToAad",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/reassociateGateway",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_ReassociateGateway",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Fabric"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/remove",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/removeInfra",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_RemoveInfra",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/renewCertificate",
+    "verb": "post",
+    "operationId": "ReplicationFabrics_RenewCertificate",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Fabric"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationLogicalNetworks",
+    "verb": "get",
+    "operationId": "ReplicationLogicalNetworks_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LogicalNetworkCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationLogicalNetworks/{logicalNetworkName}",
+    "verb": "get",
+    "operationId": "ReplicationLogicalNetworks_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/LogicalNetwork"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks",
+    "verb": "get",
+    "operationId": "ReplicationNetworks_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}",
+    "verb": "get",
+    "operationId": "ReplicationNetworks_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Network"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}/replicationNetworkMappings",
+    "verb": "get",
+    "operationId": "ReplicationNetworkMappings_ListByReplicationNetworks",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}/replicationNetworkMappings/{networkMappingName}",
+    "verb": "get",
+    "operationId": "ReplicationNetworkMappings_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkMapping"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}/replicationNetworkMappings/{networkMappingName}",
+    "verb": "put",
+    "operationId": "ReplicationNetworkMappings_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'NetworkMapping' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/NetworkMapping"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}/replicationNetworkMappings/{networkMappingName}",
+    "verb": "patch",
+    "operationId": "ReplicationNetworkMappings_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/NetworkMapping"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationNetworks/{networkName}/replicationNetworkMappings/{networkMappingName}",
+    "verb": "delete",
+    "operationId": "ReplicationNetworkMappings_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainers_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainers_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainer"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}",
+    "verb": "put",
+    "operationId": "ReplicationProtectionContainers_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'ProtectionContainer' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainer"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/discoverProtectableItem",
+    "verb": "post",
+    "operationId": "ReplicationProtectionContainers_DiscoverProtectableItem",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainer"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/remove",
+    "verb": "post",
+    "operationId": "ReplicationProtectionContainers_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems",
+    "verb": "get",
+    "operationId": "ReplicationMigrationItems_ListByReplicationProtectionContainers",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItemCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}",
+    "verb": "get",
+    "operationId": "ReplicationMigrationItems_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}",
+    "verb": "put",
+    "operationId": "ReplicationMigrationItems_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'MigrationItem' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}",
+    "verb": "patch",
+    "operationId": "ReplicationMigrationItems_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}",
+    "verb": "delete",
+    "operationId": "ReplicationMigrationItems_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/migrate",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_Migrate",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/migrationRecoveryPoints",
+    "verb": "get",
+    "operationId": "MigrationRecoveryPoints_ListByReplicationMigrationItems",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationRecoveryPointCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/migrationRecoveryPoints/{migrationRecoveryPointName}",
+    "verb": "get",
+    "operationId": "MigrationRecoveryPoints_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationRecoveryPoint"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/pauseReplication",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_PauseReplication",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/resumeReplication",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_ResumeReplication",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/resync",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_Resync",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/testMigrate",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_TestMigrate",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationMigrationItems/{migrationItemName}/testMigrateCleanup",
+    "verb": "post",
+    "operationId": "ReplicationMigrationItems_TestMigrateCleanup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectableItems",
+    "verb": "get",
+    "operationId": "ReplicationProtectableItems_ListByReplicationProtectionContainers",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectableItemCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectableItems/{protectableItemName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectableItems_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectableItem"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems",
+    "verb": "get",
+    "operationId": "ReplicationProtectedItems_ListByReplicationProtectionContainers",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItemCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectedItems_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}",
+    "verb": "put",
+    "operationId": "ReplicationProtectedItems_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'ReplicationProtectedItem' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}",
+    "verb": "patch",
+    "operationId": "ReplicationProtectedItems_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}",
+    "verb": "delete",
+    "operationId": "ReplicationProtectedItems_Purge",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/addDisks",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_AddDisks",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/applyRecoveryPoint",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_ApplyRecoveryPoint",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/failoverCancel",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_FailoverCancel",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/failoverCommit",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_FailoverCommit",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/plannedFailover",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_PlannedFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/reProtect",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_Reprotect",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/recoveryPoints",
+    "verb": "get",
+    "operationId": "RecoveryPoints_ListByReplicationProtectedItems",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPointCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/recoveryPoints/{recoveryPointName}",
+    "verb": "get",
+    "operationId": "RecoveryPoints_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPoint"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/reinstallMobilityService",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_ReinstallMobilityService",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/remove",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/removeDisks",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_RemoveDisks",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/repairReplication",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_RepairReplication",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/resolveHealthErrors",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_ResolveHealthErrors",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/switchProvider",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_SwitchProvider",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/targetComputeSizes",
+    "verb": "get",
+    "operationId": "TargetComputeSizes_ListByReplicationProtectedItems",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/TargetComputeSizeCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/testFailover",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_TestFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/testFailoverCleanup",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_TestFailoverCleanup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/unplannedFailover",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_UnplannedFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/updateAppliance",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_UpdateAppliance",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/updateMobilityService",
+    "verb": "post",
+    "operationId": "ReplicationProtectedItems_UpdateMobilityService",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItem"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters",
+    "verb": "get",
+    "operationId": "ReplicationProtectionClusters_ListByReplicationProtectionContainers",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionClusterCollection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectionClusters_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}",
+    "verb": "put",
+    "operationId": "ReplicationProtectionClusters_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'ReplicationProtectionCluster' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}",
+    "verb": "delete",
+    "operationId": "ReplicationProtectionClusters_Purge",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/applyRecoveryPoint",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_ApplyRecoveryPoint",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/failoverCommit",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_FailoverCommit",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/operationResults/{jobId}",
+    "verb": "get",
+    "operationId": "ReplicationProtectionClusters_GetOperationResults",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/recoveryPoints",
+    "verb": "get",
+    "operationId": "ClusterRecoveryPoints_ListByReplicationProtectionCluster",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ClusterRecoveryPointCollection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/recoveryPoints/{recoveryPointName}",
+    "verb": "get",
+    "operationId": "ClusterRecoveryPoint_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ClusterRecoveryPoint"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/repairReplication",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_RepairReplication",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/testFailover",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_TestFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/testFailoverCleanup",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_TestFailoverCleanup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionClusters/{replicationProtectionClusterName}/unplannedFailover",
+    "verb": "post",
+    "operationId": "ReplicationProtectionClusters_UnplannedFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionCluster"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainerMappings_ListByReplicationProtectionContainers",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings/{mappingName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainerMappings_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerMapping"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings/{mappingName}",
+    "verb": "put",
+    "operationId": "ReplicationProtectionContainerMappings_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'ProtectionContainerMapping' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerMapping"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings/{mappingName}",
+    "verb": "patch",
+    "operationId": "ReplicationProtectionContainerMappings_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerMapping"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings/{mappingName}",
+    "verb": "delete",
+    "operationId": "ReplicationProtectionContainerMappings_Purge",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectionContainerMappings/{mappingName}/remove",
+    "verb": "post",
+    "operationId": "ReplicationProtectionContainerMappings_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/switchClusterProtection",
+    "verb": "post",
+    "operationId": "ReplicationProtectionContainers_SwitchClusterProtection",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainer"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/switchprotection",
+    "verb": "post",
+    "operationId": "ReplicationProtectionContainers_SwitchProtection",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainer"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Azure-AsyncOperation": {
+            "type": "string",
+            "description": "A link to the status monitor"
+          },
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders",
+    "verb": "get",
+    "operationId": "ReplicationRecoveryServicesProviders_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryServicesProviderCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders/{providerName}",
+    "verb": "get",
+    "operationId": "ReplicationRecoveryServicesProviders_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryServicesProvider"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders/{providerName}",
+    "verb": "put",
+    "operationId": "ReplicationRecoveryServicesProviders_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'RecoveryServicesProvider' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/RecoveryServicesProvider"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders/{providerName}",
+    "verb": "delete",
+    "operationId": "ReplicationRecoveryServicesProviders_Purge",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders/{providerName}/refreshProvider",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryServicesProviders_RefreshProvider",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryServicesProvider"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationRecoveryServicesProviders/{providerName}/remove",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryServicesProviders_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "There is no content to send for this request, but the headers may be useful."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassifications_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications/{storageClassificationName}",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassifications_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassification"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications/{storageClassificationName}/replicationStorageClassificationMappings",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassificationMappings_ListByReplicationStorageClassifications",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications/{storageClassificationName}/replicationStorageClassificationMappings/{storageClassificationMappingName}",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassificationMappings_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationMapping"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications/{storageClassificationName}/replicationStorageClassificationMappings/{storageClassificationMappingName}",
+    "verb": "put",
+    "operationId": "ReplicationStorageClassificationMappings_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'StorageClassificationMapping' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationMapping"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationStorageClassifications/{storageClassificationName}/replicationStorageClassificationMappings/{storageClassificationMappingName}",
+    "verb": "delete",
+    "operationId": "ReplicationStorageClassificationMappings_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationvCenters",
+    "verb": "get",
+    "operationId": "ReplicationvCenters_ListByReplicationFabrics",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/VCenterCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationvCenters/{vcenterName}",
+    "verb": "get",
+    "operationId": "ReplicationvCenters_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/VCenter"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationvCenters/{vcenterName}",
+    "verb": "put",
+    "operationId": "ReplicationvCenters_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'VCenter' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/VCenter"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationvCenters/{vcenterName}",
+    "verb": "patch",
+    "operationId": "ReplicationvCenters_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/VCenter"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationvCenters/{vcenterName}",
+    "verb": "delete",
+    "operationId": "ReplicationvCenters_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs",
+    "verb": "get",
+    "operationId": "ReplicationJobs_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/JobCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}",
+    "verb": "get",
+    "operationId": "ReplicationJobs_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Job"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/cancel",
+    "verb": "post",
+    "operationId": "ReplicationJobs_Cancel",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Job"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/restart",
+    "verb": "post",
+    "operationId": "ReplicationJobs_Restart",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Job"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/resume",
+    "verb": "post",
+    "operationId": "ReplicationJobs_Resume",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Job"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/export",
+    "verb": "post",
+    "operationId": "ReplicationJobs_Export",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/Job"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems",
+    "verb": "get",
+    "operationId": "ReplicationMigrationItems_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/MigrationItemCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings",
+    "verb": "get",
+    "operationId": "ReplicationNetworkMappings_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/NetworkMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks",
+    "verb": "get",
+    "operationId": "ReplicationNetworks_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/NetworkCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies",
+    "verb": "get",
+    "operationId": "ReplicationPolicies_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/PolicyCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}",
+    "verb": "get",
+    "operationId": "ReplicationPolicies_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Policy"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}",
+    "verb": "put",
+    "operationId": "ReplicationPolicies_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'Policy' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/Policy"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}",
+    "verb": "patch",
+    "operationId": "ReplicationPolicies_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/Policy"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}",
+    "verb": "delete",
+    "operationId": "ReplicationPolicies_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems",
+    "verb": "get",
+    "operationId": "ReplicationProtectedItems_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectedItemCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionClusters",
+    "verb": "get",
+    "operationId": "ReplicationProtectionClusters_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionClusterCollection"
+        }
+      },
+      "default": {
+        "description": "An unexpected error response.",
+        "schema": {
+          "$ref": "../../../../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
+        }
+      }
+    },
+    "missingDefault": false
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainerMappings_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers",
+    "verb": "get",
+    "operationId": "ReplicationProtectionContainers_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/ProtectionContainerCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents",
+    "verb": "get",
+    "operationId": "ReplicationProtectionIntents_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionIntentCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}",
+    "verb": "get",
+    "operationId": "ReplicationProtectionIntents_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionIntent"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}",
+    "verb": "put",
+    "operationId": "ReplicationProtectionIntents_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'ReplicationProtectionIntent' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/ReplicationProtectionIntent"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans",
+    "verb": "get",
+    "operationId": "ReplicationRecoveryPlans_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlanCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}",
+    "verb": "get",
+    "operationId": "ReplicationRecoveryPlans_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}",
+    "verb": "put",
+    "operationId": "ReplicationRecoveryPlans_Create",
+    "responses": {
+      "200": {
+        "description": "Resource 'RecoveryPlan' update operation succeeded",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}",
+    "verb": "patch",
+    "operationId": "ReplicationRecoveryPlans_Update",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource update request accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}",
+    "verb": "delete",
+    "operationId": "ReplicationRecoveryPlans_Delete",
+    "responses": {
+      "202": {
+        "description": "Resource deletion accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      },
+      "204": {
+        "description": "Resource does not exist."
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/failoverCancel",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_FailoverCancel",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/failoverCommit",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_FailoverCommit",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/plannedFailover",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_PlannedFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/reProtect",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_Reprotect",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/testFailover",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_TestFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/testFailoverCleanup",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_TestFailoverCleanup",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}/unplannedFailover",
+    "verb": "post",
+    "operationId": "ReplicationRecoveryPlans_UnplannedFailover",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryPlan"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders",
+    "verb": "get",
+    "operationId": "ReplicationRecoveryServicesProviders_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/RecoveryServicesProviderCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassificationMappings_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationMappingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications",
+    "verb": "get",
+    "operationId": "ReplicationStorageClassifications_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/StorageClassificationCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems",
+    "verb": "get",
+    "operationId": "SupportedOperatingSystems_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/SupportedOperatingSystems"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth",
+    "verb": "get",
+    "operationId": "ReplicationVaultHealth_Get",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/VaultHealthDetails"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh",
+    "verb": "post",
+    "operationId": "ReplicationVaultHealth_Refresh",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/VaultHealthDetails"
+        }
+      },
+      "202": {
+        "description": "Resource operation accepted.",
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings",
+    "verb": "get",
+    "operationId": "ReplicationVaultSetting_List",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/VaultSettingCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}",
+    "verb": "get",
+    "operationId": "ReplicationVaultSetting_Get",
+    "responses": {
+      "200": {
+        "description": "Azure operation completed successfully.",
+        "schema": {
+          "$ref": "#/definitions/VaultSetting"
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}",
+    "verb": "put",
+    "operationId": "ReplicationVaultSetting_Create",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/VaultSetting"
+        },
+        "headers": {
+          "Location": {
+            "type": "string",
+            "description": "The Location header contains the URL where the status of the long running operation can be checked."
+          },
+          "Retry-After": {
+            "type": "integer",
+            "format": "int32",
+            "description": "The Retry-After header can indicate how long the client should wait before polling the operation status."
+          }
+        }
+      }
+    },
+    "missingDefault": true
+  },
+  {
+    "swaggerFile": "projects/specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery/swagger/preview/2026-08-31-preview/service.json",
+    "section": "paths",
+    "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters",
+    "verb": "get",
+    "operationId": "ReplicationvCenters_List",
+    "responses": {
+      "200": {
+        "description": "The request has succeeded.",
+        "schema": {
+          "$ref": "#/definitions/VCenterCollection"
+        }
+      }
+    },
+    "missingDefault": true
+  }
+]

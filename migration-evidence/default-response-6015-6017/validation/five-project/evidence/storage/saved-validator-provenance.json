@@ -1,0 +1,19 @@
+[
+  {
+    "file": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/raw/stable/2026-09-01/openapi.jsonl",
+    "sha256": "7e16b64f9d862c6bf5fd14665ffdb49830ded4bb17959b7ec2956f40c1161a5c",
+    "findings": {
+      "MissingDefaultResponse": [],
+      "RequiredDefaultResponse": []
+    },
+    "registration": [
+      "Native or legacy rule, severity 'error': 'RequiredDefaultResponse'",
+      "Spectral rule for manually written OpenAPI specs, severity 'Error': 'MissingDefaultResponse'",
+      "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'MissingDefaultResponse'"
+    ],
+    "completed": [
+      "spectralPluginFunc: Return",
+      "openapiValidatorPluginFunc: Return"
+    ]
+  }
+]

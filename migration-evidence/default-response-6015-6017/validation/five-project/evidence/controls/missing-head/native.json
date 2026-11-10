@@ -1,0 +1,74 @@
+{
+  "project": "$EVIDENCE_ROOT\\.local\\five-project-controls\\missing-head",
+  "status": "success",
+  "rawDiagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "main.tsp",
+      "line": 7,
+      "column": 10
+    }
+  ],
+  "diagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "main.tsp",
+      "line": 7,
+      "column": 10
+    }
+  ],
+  "ambientDiagnostics": [],
+  "packages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@typespec+compiler@file+..+_c871f2aaa6b76f942cef060d222b23ff\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "sha256": "348a5bf6f5bf52adad84f19c1d48bdaf99ada8ae6fdb5263774d7028be2a466b"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e31ea484918254cf8882ae4b857efd0b\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-autor_c84aab3007593f50436278639527f064\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@azure-tools+typespec-azure_e31ea484918254cf8882ae4b857efd0b\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\autorest@3.8.0\\node_modules\\autorest\\dist\\exports.js",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-core@1.0.7\\node_modules\\@microsoft.azure\\openapi-validator-core\\dist\\index.js",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypoint": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    }
+  ],
+  "defaultActivation": "not-assessed"
+}

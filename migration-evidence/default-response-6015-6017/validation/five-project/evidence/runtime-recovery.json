@@ -1,0 +1,25 @@
+{
+  "reason": "Full specs-workspace installation stopped after its progress stalled at 523 reused packages. Preserved original installation log; restored dependency manifests with the integration helper.",
+  "recovery": "Install only the 15 packed candidate libraries plus pinned prior AutoRest/validator dependencies in a private runtime, using the existing offline package cache. The frozen specs will resolve this private node_modules through a task-owned junction.",
+  "runtime": "$EVIDENCE_ROOT\\.local\\runtime-071afdea8",
+  "dependencies": {
+    "@azure-tools/typespec-autorest": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-autorest-0.73.2.tgz",
+    "@azure-tools/typespec-azure-core": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-azure-core-0.73.0.tgz",
+    "@azure-tools/typespec-azure-examples": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-azure-examples-0.2.2.tgz",
+    "@azure-tools/typespec-azure-resource-manager": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+    "@azure-tools/typespec-azure-rulesets": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+    "@azure-tools/typespec-client-generator-core": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/azure-tools-typespec-client-generator-core-0.73.0.tgz",
+    "@typespec/compiler": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-compiler-1.17.0.tgz",
+    "@typespec/events": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-events-0.87.0.tgz",
+    "@typespec/http": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-http-1.17.0.tgz",
+    "@typespec/openapi": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-openapi-1.17.0.tgz",
+    "@typespec/rest": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-rest-0.87.0.tgz",
+    "@typespec/sse": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-sse-0.87.0.tgz",
+    "@typespec/streams": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-streams-0.87.0.tgz",
+    "@typespec/versioning": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-versioning-0.87.0.tgz",
+    "@typespec/xml": "file:$EVIDENCE_ROOT/.local/artifacts-071afdea8/typespec-xml-0.87.0.tgz",
+    "autorest": "3.8.0",
+    "@microsoft.azure/openapi-validator": "2.2.4"
+  },
+  "specsUnmodified": true
+}

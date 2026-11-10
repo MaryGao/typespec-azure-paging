@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Site Recovery",
+    "slug": "site-recovery",
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 137,
+    "native": 137,
+    "requiredDefaultMatched": 137,
+    "requiredDefaultSwaggerOnly": 0,
+    "requiredDefaultNativeOnly": [],
+    "sourceHeadOperations": 0,
+    "sourceOperationCount": 154,
+    "serviceOperationCount": 154
+  },
+  {
+    "name": "Application Insights Component APIs",
+    "slug": "application-insights",
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 23,
+    "native": 23,
+    "requiredDefaultMatched": 23,
+    "requiredDefaultSwaggerOnly": 0,
+    "requiredDefaultNativeOnly": [],
+    "sourceHeadOperations": 0,
+    "sourceOperationCount": 27,
+    "serviceOperationCount": 27
+  },
+  {
+    "name": "IoT Hub",
+    "slug": "iot-hub",
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 1,
+    "native": 1,
+    "requiredDefaultMatched": 1,
+    "requiredDefaultSwaggerOnly": 0,
+    "requiredDefaultNativeOnly": [],
+    "sourceHeadOperations": 0,
+    "sourceOperationCount": 40,
+    "serviceOperationCount": 37
+  },
+  {
+    "name": "Deployments",
+    "slug": "deployments",
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 0,
+    "native": 0,
+    "requiredDefaultMatched": 0,
+    "requiredDefaultSwaggerOnly": 0,
+    "requiredDefaultNativeOnly": [],
+    "sourceHeadOperations": 5,
+    "sourceOperationCount": 55,
+    "serviceOperationCount": 55
+  },
+  {
+    "name": "Storage",
+    "slug": "storage",
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 0,
+    "native": 0,
+    "requiredDefaultMatched": 0,
+    "requiredDefaultSwaggerOnly": 0,
+    "requiredDefaultNativeOnly": [],
+    "sourceHeadOperations": 0,
+    "sourceOperationCount": 140,
+    "serviceOperationCount": 138
+  }
+]

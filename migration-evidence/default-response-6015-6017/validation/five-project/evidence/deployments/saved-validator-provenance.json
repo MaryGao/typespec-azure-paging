@@ -1,0 +1,19 @@
+[
+  {
+    "file": "projects/specification/resources/resource-manager/Microsoft.Resources/deployments/raw/stable/2026-06-01/deployments.jsonl",
+    "sha256": "38953b9f06df6542465ca0be41a84ce789daa49108112f85221c9baff3954f9c",
+    "findings": {
+      "MissingDefaultResponse": [],
+      "RequiredDefaultResponse": []
+    },
+    "registration": [
+      "Native or legacy rule, severity 'error': 'RequiredDefaultResponse'",
+      "Spectral rule for manually written OpenAPI specs, severity 'Error': 'MissingDefaultResponse'",
+      "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'MissingDefaultResponse'"
+    ],
+    "completed": [
+      "spectralPluginFunc: Return",
+      "openapiValidatorPluginFunc: Return"
+    ]
+  }
+]

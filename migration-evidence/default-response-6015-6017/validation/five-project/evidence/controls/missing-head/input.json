@@ -1,0 +1,15 @@
+{
+  "specsRepo": "$SPECS_ROOT",
+  "project": {
+    "sourcePath": "$EVIDENCE_ROOT\\.local\\five-project-controls\\missing-head"
+  },
+  "validatorRules": [
+    "MissingDefaultResponse",
+    "RequiredDefaultResponse"
+  ],
+  "tspRules": [
+    "@azure-tools/typespec-azure-resource-manager/missing-default-response"
+  ],
+  "scope": "source",
+  "nativeMode": "target-only"
+}

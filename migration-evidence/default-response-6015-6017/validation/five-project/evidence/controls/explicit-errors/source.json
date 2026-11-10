@@ -1,0 +1,4 @@
+{
+  "source": "import \"@typespec/http\";\nimport \"@typespec/openapi\";\nimport \"@azure-tools/typespec-azure-resource-manager\";\nusing TypeSpec.Http;\nusing Azure.ResourceManager;\n@armProviderNamespace namespace Microsoft.Pilot;\n@error model Failure { @statusCode status: 500; message: string; }\n@get op read(): string | Failure;\n",
+  "expected": 1
+}

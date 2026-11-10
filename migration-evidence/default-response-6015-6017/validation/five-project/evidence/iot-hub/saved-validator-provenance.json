@@ -1,0 +1,57 @@
+[
+  {
+    "file": "projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/raw/preview/2026-10-01-preview/iothub.jsonl",
+    "sha256": "c1ff89bc1b1b65d12e24778df9c0aab80409a2bd43f54ae8c4d4f2302907532a",
+    "findings": {
+      "MissingDefaultResponse": [],
+      "RequiredDefaultResponse": [
+        {
+          "pluginName": "spectral",
+          "extensionName": "@microsoft.azure/openapi-validator",
+          "level": "error",
+          "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+          "code": "RequiredDefaultResponse",
+          "details": {
+            "jsonpath": [
+              "paths",
+              "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}",
+              "patch",
+              "responses"
+            ],
+            "validationCategory": "ARMViolation",
+            "providerNamespace": false,
+            "resourceType": false,
+            "range": {
+              "start": {
+                "line": 442,
+                "column": 22
+              },
+              "end": {
+                "line": 465,
+                "column": 10
+              }
+            }
+          },
+          "source": [
+            {
+              "document": "file:///$BASELINE_DATASET/projects/specification/iothub/resource-manager/Microsoft.Devices/IoTHub/swagger/preview/2026-10-01-preview/iothub.json",
+              "position": {
+                "line": 442,
+                "column": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "registration": [
+      "Native or legacy rule, severity 'error': 'RequiredDefaultResponse'",
+      "Spectral rule for manually written OpenAPI specs, severity 'Error': 'MissingDefaultResponse'",
+      "Spectral rule for TypeSpec-generated OpenAPI specs, severity 'Error': 'MissingDefaultResponse'"
+    ],
+    "completed": [
+      "spectralPluginFunc: Return",
+      "openapiValidatorPluginFunc: Return"
+    ]
+  }
+]

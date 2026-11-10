@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "baselineId": "swagger-arm-20261026-2cd3c5dd",
+  "assessmentMode": "swagger-baseline",
+  "source": {
+    "repository": "Azure/azure-rest-api-specs",
+    "commit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+    "preservationRepository": "msyyc/azure-rest-api-specs",
+    "preservationRef": "evidence/long-running-operations-options-validator-20261022-source"
+  },
+  "producer": {
+    "candidateRepository": "Azure/typespec-azure",
+    "candidateCommit": "726862b537be9fdb24d7e6a4ca868eb9104025dd",
+    "coreCommit": "88e5bd18b07d0cbd3bbe92946aff36beaf707b54",
+    "toolingRepository": "Azure/typespec-azure",
+    "toolingCommit": "8cbd8d8348d5b614afb8bf60d74477de6caaab1a",
+    "nodeVersion": "v26.5.0",
+    "scope": "source",
+    "selection": {
+      "serviceType": "resource-manager",
+      "filter": null,
+      "limit": null
+    },
+    "observedAt": "2026-10-26T07:05:10.288Z"
+  },
+  "dataset": {
+    "projects": 487,
+    "swaggerFiles": 649,
+    "compileFailures": 0,
+    "validationFailures": 0,
+    "observations": 222905,
+    "rulesWithFindings": 121
+  },
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "archive": {
+    "repository": "msyyc/azure-rest-api-specs",
+    "release": "swagger-lint-baseline-20261026-2cd3c5dd",
+    "name": "swagger-arm-20261026-2cd3c5dd.tar.gz",
+    "sha256": "0904cbd17e24ce076e7969837b85b1f5b3682e5ae25b8805b048fb506e77c1d0",
+    "bytes": 51932501
+  }
+}
