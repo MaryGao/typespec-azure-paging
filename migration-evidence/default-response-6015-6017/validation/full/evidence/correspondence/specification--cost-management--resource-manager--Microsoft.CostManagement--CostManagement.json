@@ -1,0 +1,133 @@
+{
+  "project": "specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement",
+  "apiVersion": "2026-06-01",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 2,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 94,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".GetGenerateDetailedCostReportOperationResultCustomized",
+        "sourceFile": "client.tsp",
+        "line": 94,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{extensionProvider}/{operationId}/{scope}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop GetGenerateDetailedCostReportOperationResultCustomized(\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  extensionProvider: \"Microsoft.CostManagement\",\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(\"operationId\")\n  operationId: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(#{ allowReserved: true })\n  scope: string,\n): GenerateDetailedCostReportOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 117,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".GetGenerateDetailedCostReportOperationStatusCustomized",
+        "sourceFile": "client.tsp",
+        "line": 117,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{extensionProvider}/{operationId}/{scope}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop GetGenerateDetailedCostReportOperationStatusCustomized(\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  extensionProvider: \"Microsoft.CostManagement\",\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(\"operationId\")\n  operationId: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(#{ allowReserved: true })\n  scope: string,\n): GenerateDetailedCostReportOperationStatus;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 75,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 94,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".GetGenerateDetailedCostReportOperationResultCustomized",
+        "sourceFile": "client.tsp",
+        "line": 94,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{extensionProvider}/{operationId}/{scope}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop GetGenerateDetailedCostReportOperationResultCustomized(\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  extensionProvider: \"Microsoft.CostManagement\",\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(\"operationId\")\n  operationId: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(#{ allowReserved: true })\n  scope: string,\n): GenerateDetailedCostReportOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 117,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".GetGenerateDetailedCostReportOperationStatusCustomized",
+        "sourceFile": "client.tsp",
+        "line": 117,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{extensionProvider}/{operationId}/{scope}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop GetGenerateDetailedCostReportOperationStatusCustomized(\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  extensionProvider: \"Microsoft.CostManagement\",\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(\"operationId\")\n  operationId: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path(#{ allowReserved: true })\n  scope: string,\n): GenerateDetailedCostReportOperationStatus;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

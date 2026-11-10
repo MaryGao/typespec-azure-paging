@@ -1,0 +1,511 @@
+{
+  "project": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService",
+  "apiVersion": "2025-12-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 9,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 268,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 268,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): WebPubSubHub;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 295,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 295,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: WebPubSubHub,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 325,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 325,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 352,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 352,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 379,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 379,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: PrivateEndpointConnection,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 436,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 436,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesGetCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 463,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 463,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: SharedPrivateLinkResource,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 493,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 493,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesDeleteCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 48,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 268,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 268,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): WebPubSubHub;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 295,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 295,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: WebPubSubHub,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 325,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubHubsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 325,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{hubName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubHubsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<WebPubSubHub>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  hubName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 352,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 352,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 379,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 379,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: PrivateEndpointConnection,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".PrivateEndpointConnectionsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop PrivateEndpointConnectionsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 436,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 436,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesGetCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 463,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 463,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  @body\n  parameters: SharedPrivateLinkResource,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 493,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".WebPubSubSharedPrivateLinkResourcesDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 493,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop WebPubSubSharedPrivateLinkResourcesDeleteCustomized(\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

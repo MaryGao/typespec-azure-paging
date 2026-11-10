@@ -1,0 +1,585 @@
+{
+  "project": "specification/deviceprovisioningservices/resource-manager/Microsoft.Devices/DeviceProvisioningServices",
+  "apiVersion": "2026-11-01",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 10,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 619,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 619,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  /**\n   * ETag of the certificate.\n   */\n  @header(\"If-Match\")\n  ifMatch?: string,\n): CertificateResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 432,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 432,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{resourceGroupName}/{provisioningServiceName}/{certificateName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  ...CertificateNameQuery2,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 485,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseGenerateVerificationCodeCustomized",
+        "sourceFile": "client.tsp",
+        "line": 485,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseGenerateVerificationCodeCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...CertificateNameQuery1,\n\n  /**\n   * Raw data of certificate.\n   */\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  /**\n   * Indicates if the certificate has been verified by owner of the private key.\n   */\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  /**\n   * Description mentioning the purpose of the certificate.\n   */\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  /**\n   * Indicates if the certificate contains private key.\n   */\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  /**\n   * Random number generated to indicate Proof of Possession.\n   */\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n\n  @body\n  body: void,\n): VerificationCodeResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 552,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseVerifyCertificateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 552,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseVerifyCertificateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<CertificateResponse>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...CertificateNameQuery1,\n\n  /**\n   * Raw data of certificate.\n   */\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  /**\n   * Indicates if the certificate has been verified by owner of the private key.\n   */\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  /**\n   * Describe the purpose of the certificate.\n   */\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  /**\n   * Indicates if the certificate contains private key.\n   */\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  /**\n   * Random number generated to indicate Proof of Possession.\n   */\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n\n  @body\n  request: VerificationCodeRequest,\n): CertificateListDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 328,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceGetOperationResultCustomized",
+        "sourceFile": "client.tsp",
+        "line": 328,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{operationId}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceGetOperationResultCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  operationId: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...GetOperationResultParameters,\n): AsyncOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): ProvisioningServiceDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 276,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 276,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 385,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListValidSkusCustomized",
+        "sourceFile": "client.tsp",
+        "line": 385,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListValidSkusCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): IotDpsSkuDefinitionListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 304,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListKeysCustomized",
+        "sourceFile": "client.tsp",
+        "line": 304,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListKeysCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): SharedAccessSignatureAuthorizationRuleListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 357,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListKeysForKeyNameCustomized",
+        "sourceFile": "client.tsp",
+        "line": 357,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{keyName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListKeysForKeyNameCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  keyName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): SharedAccessSignatureAuthorizationRuleAccessRightsDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 24,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 619,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 619,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  /**\n   * ETag of the certificate.\n   */\n  @header(\"If-Match\")\n  ifMatch?: string,\n): CertificateResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 432,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 432,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{resourceGroupName}/{provisioningServiceName}/{certificateName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  ...CertificateNameQuery2,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 485,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseGenerateVerificationCodeCustomized",
+        "sourceFile": "client.tsp",
+        "line": 485,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseGenerateVerificationCodeCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...CertificateNameQuery1,\n\n  /**\n   * Raw data of certificate.\n   */\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  /**\n   * Indicates if the certificate has been verified by owner of the private key.\n   */\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  /**\n   * Description mentioning the purpose of the certificate.\n   */\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  /**\n   * Indicates if the certificate contains private key.\n   */\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  /**\n   * Random number generated to indicate Proof of Possession.\n   */\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n\n  @body\n  body: void,\n): VerificationCodeResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 552,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".CertificateResponseVerifyCertificateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 552,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{certificateName}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop CertificateResponseVerifyCertificateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<CertificateResponse>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  certificateName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  ifMatch: string,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...CertificateNameQuery1,\n\n  /**\n   * Raw data of certificate.\n   */\n  @query(\"certificate.rawBytes\")\n  certificateRawBytes?: bytes,\n\n  /**\n   * Indicates if the certificate has been verified by owner of the private key.\n   */\n  @query(\"certificate.isVerified\")\n  certificateIsVerified?: boolean,\n\n  /**\n   * Describe the purpose of the certificate.\n   */\n  @query(\"certificate.purpose\")\n  certificatePurpose?: CertificatePurpose,\n\n  ...CertificateNameQuery3,\n  ...CertificateNameQuery4,\n\n  /**\n   * Indicates if the certificate contains private key.\n   */\n  @query(\"certificate.hasPrivateKey\")\n  certificateHasPrivateKey?: boolean,\n\n  /**\n   * Random number generated to indicate Proof of Possession.\n   */\n  @query(\"certificate.nonce\")\n  certificateNonce?: string,\n\n  @body\n  request: VerificationCodeRequest,\n): CertificateListDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 328,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceGetOperationResultCustomized",
+        "sourceFile": "client.tsp",
+        "line": 328,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{operationId}/{resourceGroupName}/{provisioningServiceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceGetOperationResultCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  operationId: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...GetOperationResultParameters,\n): AsyncOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 409,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): ProvisioningServiceDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 276,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 276,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 385,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListValidSkusCustomized",
+        "sourceFile": "client.tsp",
+        "line": 385,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListValidSkusCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): IotDpsSkuDefinitionListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 304,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListKeysCustomized",
+        "sourceFile": "client.tsp",
+        "line": 304,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListKeysCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): SharedAccessSignatureAuthorizationRuleListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 357,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".IotDpsResourceListKeysForKeyNameCustomized",
+        "sourceFile": "client.tsp",
+        "line": 357,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{provisioningServiceName}/{keyName}/{resourceGroupName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop IotDpsResourceListKeysForKeyNameCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<ProvisioningServiceDescription>,\n  @body body: void,\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  provisioningServiceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  keyName: string,\n\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n): SharedAccessSignatureAuthorizationRuleAccessRightsDescription;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

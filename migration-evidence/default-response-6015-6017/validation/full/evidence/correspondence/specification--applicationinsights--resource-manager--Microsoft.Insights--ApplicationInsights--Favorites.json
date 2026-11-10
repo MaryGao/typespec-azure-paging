@@ -1,0 +1,450 @@
+{
+  "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+  "apiVersion": "2015-05-01",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 5
+  },
+  "native": 5,
+  "matchedSwagger": 5,
+  "matchedNative": 5,
+  "bijective": 5,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "ambiguous": [],
+  "savedOperationCount": 5,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 24,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "Favorites.FavoritesOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 24,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a list of favorites defined within an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"favorites\")\n  list is ArmProviderActionSync<\n    Response = {\n      @bodyRoot @identifiers(#[]) _: ApplicationInsightsComponentFavorite[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n\n      /**\n       * The type of favorite. Value can be either shared or user.\n       */\n      @query(\"favoriteType\")\n      favoriteType?: FavoriteType = FavoriteType.shared;\n\n      /**\n       * Source type of favorite to return. When left out, the source type defaults to 'other' (not present in this enum).\n       */\n      @query(\"sourceType\")\n      sourceType?: FavoriteSourceType;\n\n      /**\n       * Flag indicating whether or not to return the full content for each applicable favorite. If false, only return summary content for favorites.\n       */\n      @query(\"canFetchContent\")\n      canFetchContent?: boolean;\n\n      /**\n       * Tags that must be present on each favorite returned.\n       */\n      @query(\"tags\")\n      tags?: string[];\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites",
+          "verb": "get",
+          "operationId": "Favorites_List",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentFavorite"
+                }
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 68,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "Favorites.FavoritesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 68,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get a single favorite by its FavoriteId, defined within an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Id of a specific favorite defined in the Application Insights component\n     */\n    @path\n    favoriteId: string,\n  ): ArmResponse<ApplicationInsightsComponentFavorite> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "verb": "get",
+          "operationId": "Favorites_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFavorite"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 91,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "Favorites.FavoritesOperationGroup.add",
+        "sourceFile": "routes.tsp",
+        "line": 91,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Adds a new favorites to an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\")\n  @put\n  add(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Id of a specific favorite defined in the Application Insights component\n     */\n    @path\n    favoriteId: string,\n\n    /**\n     * Properties that need to be specified to create a new favorite and add it to an Application Insights component.\n     */\n    @bodyRoot\n    favoriteProperties: ApplicationInsightsComponentFavorite,\n  ): ArmResponse<ApplicationInsightsComponentFavorite> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "verb": "put",
+          "operationId": "Favorites_Add",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFavorite"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 121,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "Favorites.FavoritesOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 121,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "patch",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Updates a favorite that has already been added to an Application Insights component.\n   */\n  #suppress \"@typespec/http/deprecated-implicit-optionality\" \"Legacy implicit optionality - DO NOT COPY\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\")\n  @patch(#{ implicitOptionality: true })\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Id of a specific favorite defined in the Application Insights component\n     */\n    @path\n    favoriteId: string,\n\n    /**\n     * Properties that need to be specified to update the existing favorite.\n     */\n    @bodyRoot\n    favoriteProperties: ApplicationInsightsComponentFavorite,\n  ): ArmResponse<ApplicationInsightsComponentFavorite> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "verb": "patch",
+          "operationId": "Favorites_Update",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFavorite"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\",\"patch\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 150,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "Favorites.FavoritesOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 150,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Remove a favorite that is associated to an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Id of a specific favorite defined in the Application Insights component\n     */\n    @path\n    favoriteId: string,\n  ): OkResponse | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "verb": "delete",
+          "operationId": "Favorites_Delete",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}\",\"delete\",\"responses\"]"
+      ]
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": [
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 174,
+              "column": 22
+            },
+            "end": {
+              "line": 184,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 221,
+              "column": 22
+            },
+            "end": {
+              "line": 228,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 272,
+              "column": 22
+            },
+            "end": {
+              "line": 279,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "patch",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+            "patch",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 323,
+              "column": 22
+            },
+            "end": {
+              "line": 330,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites/swagger/stable/2015-05-01/favorites_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/favorites/{favoriteId}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 365,
+              "column": 22
+            },
+            "end": {
+              "line": 369,
+              "column": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}

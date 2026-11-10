@@ -1,0 +1,241 @@
+{
+  "project": "specification/cognitiveservices/resource-manager/Microsoft.CognitiveServices/CognitiveServices",
+  "apiVersion": "2026-09-15-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 4,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 106,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".regenerateKeyCustom",
+        "sourceFile": "client.tsp",
+        "line": 106,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{resourceGroupName}/{provider}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop regenerateKeyCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  @path\n  @segment(\"accounts\")\n  @key\n  @pattern(\"^[a-zA-Z0-9][a-zA-Z0-9_.-]*$\")\n  @minLength(2)\n  @maxLength(64)\n  accountName: string,\n\n  keyName: KeyName,\n): ApiKeys;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 74,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".checkSkuAvailabilityCustom",
+        "sourceFile": "client.tsp",
+        "line": 74,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop checkSkuAvailabilityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...SubscriptionActionScope,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  skus: string[],\n  type: string,\n  kind: string,\n): SkuAvailabilityListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 56,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".checkDomainAvailabilityCustom",
+        "sourceFile": "client.tsp",
+        "line": 56,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop checkDomainAvailabilityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...SubscriptionActionScope,\n  ...Azure.ResourceManager.Legacy.Provider,\n  subdomainName: string,\n  type: string,\n  kind?: string,\n): DomainAvailability;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 89,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".calculateModelCapacityCustom",
+        "sourceFile": "client.tsp",
+        "line": 89,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop calculateModelCapacityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  `model`?: DeploymentModel,\n  skuName?: string,\n\n  @identifiers(#[])\n  workloads?: ModelCapacityCalculatorWorkload[],\n): CalculateModelCapacityResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 191,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 106,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".regenerateKeyCustom",
+        "sourceFile": "client.tsp",
+        "line": 106,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{resourceGroupName}/{provider}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop regenerateKeyCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  @path\n  @segment(\"accounts\")\n  @key\n  @pattern(\"^[a-zA-Z0-9][a-zA-Z0-9_.-]*$\")\n  @minLength(2)\n  @maxLength(64)\n  accountName: string,\n\n  keyName: KeyName,\n): ApiKeys;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 74,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".checkSkuAvailabilityCustom",
+        "sourceFile": "client.tsp",
+        "line": 74,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop checkSkuAvailabilityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...SubscriptionActionScope,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  skus: string[],\n  type: string,\n  kind: string,\n): SkuAvailabilityListResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 56,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".checkDomainAvailabilityCustom",
+        "sourceFile": "client.tsp",
+        "line": 56,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop checkDomainAvailabilityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...SubscriptionActionScope,\n  ...Azure.ResourceManager.Legacy.Provider,\n  subdomainName: string,\n  type: string,\n  kind?: string,\n): DomainAvailability;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 89,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".calculateModelCapacityCustom",
+        "sourceFile": "client.tsp",
+        "line": 89,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop calculateModelCapacityCustom(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  `model`?: DeploymentModel,\n  skuName?: string,\n\n  @identifiers(#[])\n  workloads?: ModelCapacityCalculatorWorkload[],\n): CalculateModelCapacityResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

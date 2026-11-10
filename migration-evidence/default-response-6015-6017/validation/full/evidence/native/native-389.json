@@ -1,0 +1,856 @@
+{
+  "project": "specification/recoveryservicesbackup/resource-manager/Microsoft.RecoveryServices/RecoveryServicesBackup",
+  "status": "success",
+  "rawDiagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 660,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 717,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 687,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 747,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 777,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 474,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1121,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1878,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1815,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1848,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 807,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 833,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 865,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 603,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 629,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1350,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1376,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1407,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1434,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1617,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1543,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1583,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 936,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1083,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1504,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1465,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1719,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1686,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1784,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1749,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 898,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1651,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 970,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1004,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1041,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2159,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1183,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1224,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1909,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1935,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1967,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 578,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1994,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2200,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1296,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 555,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1266,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1319,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1152,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 505,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 532,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2074,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2100,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2048,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2129,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2025,
+      "column": 4
+    }
+  ],
+  "diagnostics": [
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 660,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 717,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 687,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 747,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 777,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 474,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1121,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1878,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1815,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1848,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 807,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 833,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 865,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 603,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 629,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1350,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1376,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1407,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1434,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1617,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1543,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1583,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 936,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1083,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1504,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1465,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1719,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1686,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1784,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1749,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 898,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1651,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 970,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1004,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1041,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2159,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1183,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1224,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1909,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1935,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1967,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 578,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1994,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2200,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1296,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 555,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1266,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1319,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 1152,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 505,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 532,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2074,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2100,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2048,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2129,
+      "column": 4
+    },
+    {
+      "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+      "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+      "sourceFile": "client.tsp",
+      "line": 2025,
+      "column": 4
+    }
+  ],
+  "ambientDiagnostics": [],
+  "packages": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+compiler@file+..+_68ca334e4184ddf42e98c562b7417615\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "sha256": "348a5bf6f5bf52adad84f19c1d48bdaf99ada8ae6fdb5263774d7028be2a466b"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_fa816c998095437467c69614a7156130\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-autor_ad839933a189a433eb04316bf4a039f4\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_fa816c998095437467c69614a7156130\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\autorest@3.8.0\\node_modules\\autorest\\dist\\exports.js",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator@2.2.4\\node_modules\\@microsoft.azure\\openapi-validator\\dist\\index.js",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-core@1.0.7\\node_modules\\@microsoft.azure\\openapi-validator-core\\dist\\index.js",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@microsoft.azure+openapi-validator-rulesets@2.2.6\\node_modules\\@microsoft.azure\\openapi-validator-rulesets\\dist\\index.js",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9e4297759356d8174bc97f032df05d4e\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9e4297759356d8174bc97f032df05d4e\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    }
+  ],
+  "defaultActivation": "not-assessed"
+}

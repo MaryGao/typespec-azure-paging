@@ -1,0 +1,83 @@
+{
+  "project": "specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement",
+  "apiVersion": "2025-09-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 1,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 228,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".replacePurge",
+        "sourceFile": "client.tsp",
+        "line": 228,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{serviceName}/{location}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n * override for DeletedServiceContracts.purge\n */\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"matches the original DeletedServiceContracts.purge operation\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/arm-delete-operation-response-codes\" \"matches the original DeletedServiceContracts.purge operation\"\nop replacePurge(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  @path\n  serviceName: string,\n\n  @path\n  location: Azure.Core.azureLocation,\n):\n  | ArmDeletedResponse\n  | (ArmDeleteAcceptedLroResponse & {\n      @bodyRoot\n      _: DeletedServiceContract;\n    })\n  | ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 636,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 228,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".replacePurge",
+        "sourceFile": "client.tsp",
+        "line": 228,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{serviceName}/{location}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n * override for DeletedServiceContracts.purge\n */\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"matches the original DeletedServiceContracts.purge operation\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/arm-delete-operation-response-codes\" \"matches the original DeletedServiceContracts.purge operation\"\nop replacePurge(\n  ...ApiVersionParameter,\n  ...SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  @path\n  serviceName: string,\n\n  @path\n  location: Azure.Core.azureLocation,\n):\n  | ArmDeletedResponse\n  | (ArmDeleteAcceptedLroResponse & {\n      @bodyRoot\n      _: DeletedServiceContract;\n    })\n  | ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

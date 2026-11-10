@@ -1,0 +1,79 @@
+{
+  "project": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector",
+  "apiVersion": "2025-03-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 1,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 19,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".AppliancesUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 19,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{resourceGroupName}/{provider}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop AppliancesUpdateCustomized(\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.ProviderNamespace<Appliance>,\n\n  @path\n  @maxLength(63)\n  @minLength(1)\n  @doc(\"Appliances name.\")\n  @segment(\"appliances\")\n  @pattern(\"^[a-zA-Z0-9]$|^[a-zA-Z0-9][-_a-zA-Z0-9]{0,61}[a-zA-Z0-9]$\")\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-no-record\" \"override\"\n  @doc(\"Resource tags\")\n  @body\n  tags?: Record<string>,\n): Appliance;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 11,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 19,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".AppliancesUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 19,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{resourceGroupName}/{provider}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop AppliancesUpdateCustomized(\n  ...Azure.ResourceManager.CommonTypes.ApiVersionParameter,\n  ...Azure.ResourceManager.CommonTypes.SubscriptionIdParameter,\n  ...Azure.ResourceManager.CommonTypes.ResourceGroupNameParameter,\n  ...Azure.ResourceManager.ProviderNamespace<Appliance>,\n\n  @path\n  @maxLength(63)\n  @minLength(1)\n  @doc(\"Appliances name.\")\n  @segment(\"appliances\")\n  @pattern(\"^[a-zA-Z0-9]$|^[a-zA-Z0-9][-_a-zA-Z0-9]{0,61}[a-zA-Z0-9]$\")\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-no-record\" \"override\"\n  @doc(\"Resource tags\")\n  @body\n  tags?: Record<string>,\n): Appliance;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

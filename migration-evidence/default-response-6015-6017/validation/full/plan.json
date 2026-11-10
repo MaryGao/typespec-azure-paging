@@ -1,0 +1,28 @@
+{
+  "approval": "User approved full validation on 2026-11-10 after reviewing the five-project result. Independent reporting remains unchanged; a separate epic child issue will discuss overlap.",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "candidateCoreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "specsCommit": "2cd3c5dd6d00a5f53214fe594afd2aef3f44d3f9",
+  "specsRuntime": "$SPECS_ROOT",
+  "reuse": "Reuse existing frozen checkout, the same 15 packed candidate artifacts, the pinned tooling, and saved Swagger observations. Do not clone or create another specs worktree.",
+  "toolingCommit": "52eeec48b136f97addc10d90dcba4457a04f83a7",
+  "baselineIdentity": "aceebb4ebf1ae78205105a94337046d18e583472bd1ebf782effca1e24a75995",
+  "baselinePolicy": "frozen-reference",
+  "expectedProjects": 487,
+  "scope": "source",
+  "nativeMode": "target-only",
+  "nativeConcurrency": 2,
+  "nativeStageBudgetSeconds": 7200,
+  "estimatedNativeMinutes": "25-60; the five-project pilot took about 19 seconds at concurrency two, but large projects and full baseline integrity checks add cost.",
+  "setupAndBaselineVerificationEstimateMinutes": "5-20; no cloning or rebuilding is planned. The official analyzer runs dependency patch/install with the approved registry proxy and verifies/copies the entire sealed baseline.",
+  "swaggerRegeneration": false,
+  "freshSwaggerExecution": false,
+  "controls": {
+    "portableHarnessSelection": "^(?!.*evaluates injected resource-group rule)",
+    "excludedFixtureGroup": "Six resource-group-path-parameter fixtures require an unrelated migration rule absent from this candidate. This applicability decision is recorded before execution.",
+    "targetSpecificControls": "Nine injected controls already passed against these exact candidate artifacts, including missing/compliant defaults, HEAD, explicit error statuses, template customization, activation and suppression."
+  },
+  "sourcePopulationCaveat": "Native source and historical selected-version Swagger are not version/reachability aligned; investigate concrete operation identities and preserve both raw member results.",
+  "setupRecovery": "The standalone complete tooling copy ran all 37 applicable controls, but the analyzer needs its Git-backed checkout for provenance. The first official installation then rejected the pilot's node_modules junction as a workspace hoist directory. Preserve that failed attempt and the private runtime; remove only the task-owned junction and let the supported installer create a real node_modules directory from cached packages.",
+  "output": "$EVIDENCE_ROOT\\.local\\full-071afdea8-frozen-reference-real-modules"
+}

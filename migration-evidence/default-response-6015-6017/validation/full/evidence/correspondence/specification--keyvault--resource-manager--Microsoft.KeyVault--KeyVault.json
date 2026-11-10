@@ -1,0 +1,241 @@
+{
+  "project": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault",
+  "apiVersion": "2026-06-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 4,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 217,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".VaultsGetDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 217,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{vaultName}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop VaultsGetDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedVault>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path subscriptionId: uuid,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path vaultName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path location: azureLocation,\n): DeletedVault;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 237,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".VaultsPurgeDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 237,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{vaultName}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop VaultsPurgeDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedVault>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path subscriptionId: uuid,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path vaultName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path location: azureLocation,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body body: void,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".ManagedHsmsGetDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{name}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop ManagedHsmsGetDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedManagedHsm>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  name: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  location: azureLocation,\n): DeletedManagedHsm;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 284,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".ManagedHsmsPurgeDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 284,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{name}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop ManagedHsmsPurgeDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedManagedHsm>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  name: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  location: azureLocation,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  body: void,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 48,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 217,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".VaultsGetDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 217,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{vaultName}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop VaultsGetDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedVault>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path subscriptionId: uuid,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path vaultName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path location: azureLocation,\n): DeletedVault;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 237,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".VaultsPurgeDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 237,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{vaultName}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop VaultsPurgeDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedVault>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path subscriptionId: uuid,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path vaultName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path location: azureLocation,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body body: void,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".ManagedHsmsGetDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{name}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop ManagedHsmsGetDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedManagedHsm>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  name: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  location: azureLocation,\n): DeletedManagedHsm;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "back-compatible.tsp",
+        "line": 284,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".ManagedHsmsPurgeDeletedCustomized",
+        "sourceFile": "back-compatible.tsp",
+        "line": 284,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{name}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop ManagedHsmsPurgeDeletedCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<DeletedManagedHsm>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  name: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  location: azureLocation,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  body: void,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

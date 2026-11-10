@@ -1,0 +1,409 @@
+{
+  "project": "specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform",
+  "apiVersion": "2020-10-30-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 7,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 113,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsGet",
+        "sourceFile": "client.tsp",
+        "line": 113,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsGet(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 65,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 65,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          201
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsCreateOrUpdate(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to create or update an account.\n   */\n  @body\n  parameters: Account,\n):\n  | ArmResourceUpdatedResponse<Account>\n  | ArmResourceCreatedSyncResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 133,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsUpdate",
+        "sourceFile": "client.tsp",
+        "line": 133,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsUpdate(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to update an account.\n   */\n  @body\n  parameters: PatchAccount,\n): ArmResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 93,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsDelete",
+        "sourceFile": "client.tsp",
+        "line": 93,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsDelete(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmDeletedResponse | ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 187,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseGet",
+        "sourceFile": "client.tsp",
+        "line": 187,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseGet(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 159,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 159,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          201
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseCreateOrUpdate(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to create or update EnterprisePolicy.\n   */\n  @body\n  parameters: EnterprisePolicy,\n):\n  | ArmResourceUpdatedResponse<EnterprisePolicy>\n  | ArmResourceCreatedSyncResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 207,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseUpdate",
+        "sourceFile": "client.tsp",
+        "line": 207,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseUpdate(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to update EnterprisePolicy.\n   */\n  @body\n  parameters: PatchEnterprisePolicy,\n): ArmResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 19,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 113,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsGet",
+        "sourceFile": "client.tsp",
+        "line": 113,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsGet(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 65,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 65,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          201
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsCreateOrUpdate(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to create or update an account.\n   */\n  @body\n  parameters: Account,\n):\n  | ArmResourceUpdatedResponse<Account>\n  | ArmResourceCreatedSyncResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 133,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsUpdate",
+        "sourceFile": "client.tsp",
+        "line": 133,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsUpdate(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to update an account.\n   */\n  @body\n  parameters: PatchAccount,\n): ArmResponse<Account>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 93,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".accountsDelete",
+        "sourceFile": "client.tsp",
+        "line": 93,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{accountName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop accountsDelete(\n  /**\n   * Name of the account.\n   */\n  @path\n  accountName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmDeletedResponse | ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 187,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseGet",
+        "sourceFile": "client.tsp",
+        "line": 187,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseGet(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n): ArmResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 159,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 159,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200,
+          201
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseCreateOrUpdate(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to create or update EnterprisePolicy.\n   */\n  @body\n  parameters: EnterprisePolicy,\n):\n  | ArmResourceUpdatedResponse<EnterprisePolicy>\n  | ArmResourceCreatedSyncResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 207,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".enterpriseUpdate",
+        "sourceFile": "client.tsp",
+        "line": 207,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{enterprisePolicyName}/{subscriptionId}/{resourceGroupName}/{provider}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop enterpriseUpdate(\n  /**\n   * Name of the EnterprisePolicy.\n   */\n  @path\n  enterprisePolicyName: string,\n\n  ...SubscriptionIdParameter,\n  ...ResourceGroupParameter,\n  ...ApiVersionParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  /**\n   * Parameters supplied to update EnterprisePolicy.\n   */\n  @body\n  parameters: PatchEnterprisePolicy,\n): ArmResponse<EnterprisePolicy>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

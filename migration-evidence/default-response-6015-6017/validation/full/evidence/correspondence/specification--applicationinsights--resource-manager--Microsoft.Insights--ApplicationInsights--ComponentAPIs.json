@@ -1,0 +1,1983 @@
+{
+  "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+  "apiVersion": "2015-05-01",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 23
+  },
+  "native": 23,
+  "matchedSwagger": 23,
+  "matchedNative": 23,
+  "bijective": 23,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "ambiguous": [],
+  "savedOperationCount": 27,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 80,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.AnnotationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 80,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Delete an Annotation of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique annotation ID. This is unique within a Application Insights component.\n     */\n    @path\n    annotationId: string,\n  ): OkResponse | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "verb": "delete",
+          "operationId": "Annotations_Delete",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}\",\"delete\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 131,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.APIKeysOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 131,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a list of API keys of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @get\n  @list\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKeyListResult> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "get",
+          "operationId": "APIKeys_List",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKeyListResult"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 148,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.APIKeysOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 148,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Create an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Properties that need to be specified to create an API Key of an Application Insights component. */\n    @bodyRoot\n    body: APIKeyRequest,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "verb": "post",
+          "operationId": "APIKeys_Create",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys\",\"post\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 168,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.APIKeysOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 168,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Delete an API Key of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "delete",
+          "operationId": "APIKeys_Delete",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\",\"delete\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 191,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.APIKeysOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 191,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get the API Key for this key id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The API Key ID. This is unique within a Application Insights component.\n     */\n    @path\n    keyId: string,\n  ): ArmResponse<ApplicationInsightsComponentAPIKey> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "verb": "get",
+          "operationId": "APIKeys_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAPIKey"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 218,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ExportConfigurationsOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 218,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a list of Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"exportconfiguration\")\n  list is ArmProviderActionSync<\n    Response = {\n      @bodyRoot\n      @identifiers(#[\"ExportId\"])\n      _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "get",
+          "operationId": "ExportConfigurations_List",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 240,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ExportConfigurationsOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 240,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Create a Continuous Export configuration of an Application Insights component.\n   */\n  @autoRoute\n  @action(\"exportconfiguration\")\n  create is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentExportRequest,\n    Response = {\n      #suppress \"@azure-tools/typespec-azure-resource-manager/missing-x-ms-identifiers\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n      @bodyRoot _: ApplicationInsightsComponentExportConfiguration[];\n    },\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "verb": "post",
+          "operationId": "ExportConfigurations_Create",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+                }
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration\",\"post\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 262,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ExportConfigurationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 262,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Delete a Continuous Export configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "delete",
+          "operationId": "ExportConfigurations_Delete",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\",\"delete\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 285,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ExportConfigurationsOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 285,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "get",
+          "operationId": "ExportConfigurations_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 308,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ExportConfigurationsOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 308,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Update the Continuous Export configuration for this export id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The Continuous Export configuration ID. This is unique within a Application Insights component.\n     */\n    @path\n    exportId: string,\n\n    /**\n     * Properties that need to be specified to update the Continuous Export configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ExportProperties: ApplicationInsightsComponentExportRequest,\n  ): ArmResponse<ApplicationInsightsComponentExportConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "verb": "put",
+          "operationId": "ExportConfigurations_Update",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentExportConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 342,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 342,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Returns current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"currentbillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentCurrentBillingFeatures_Get",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 361,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ComponentCurrentBillingFeaturesOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 361,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Update current billing features for an Application Insights component.\n   */\n  @autoRoute\n  @put\n  @action(\"currentbillingfeatures\")\n  update is ArmProviderActionSync<\n    Request = ApplicationInsightsComponentBillingFeatures,\n    Response = ApplicationInsightsComponentBillingFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "verb": "put",
+          "operationId": "ComponentCurrentBillingFeatures_Update",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentBillingFeatures"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 385,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ComponentQuotaStatusOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 385,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Returns daily data volume cap (quota) status for an Application Insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"quotastatus\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentQuotaStatus,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+          "verb": "get",
+          "operationId": "ComponentQuotaStatus_Get",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentQuotaStatus"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 408,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ComponentFeatureCapabilitiesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 408,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Returns feature capabilities of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"featurecapabilities\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentFeatureCapabilities,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+          "verb": "get",
+          "operationId": "ComponentFeatureCapabilities_Get",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentFeatureCapabilities"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 431,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ComponentAvailableFeaturesOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 431,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Returns all available features of the application insights component.\n   */\n  @autoRoute\n  @get\n  @action(\"getavailablebillingfeatures\")\n  get is ArmProviderActionSync<\n    Response = ApplicationInsightsComponentAvailableFeatures,\n    Scope = Extension.ResourceGroup,\n    Parameters = {\n      /**\n       * The name of the Application Insights component resource.\n       */\n      @path\n      @segment(\"components\")\n      resourceName: string;\n    },\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+          "verb": "get",
+          "operationId": "ComponentAvailableFeatures_Get",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAvailableFeatures"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 453,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 453,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a list of ProactiveDetection configurations of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs\")\n  @get\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ):\n    | {\n        @bodyRoot\n        @identifiers(#[\"Name\"])\n        _: ApplicationInsightsComponentProactiveDetectionConfiguration[];\n      }\n    | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_List",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+                }
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 475,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 475,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "get",
+          "operationId": "ProactiveDetectionConfigurations_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 501,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.ProactiveDetectionConfigurationsOperationGroup.update",
+        "sourceFile": "routes.tsp",
+        "line": 501,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Update the ProactiveDetection configuration for this configuration id.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\")\n  @put\n  update(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The ProactiveDetection configuration ID. This is unique within a Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @path\n    ConfigurationId: string,\n\n    /**\n     * Properties that need to be specified to update the ProactiveDetection configuration.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    ProactiveDetectionProperties: ApplicationInsightsComponentProactiveDetectionConfiguration,\n  ):\n    | ArmResponse<ApplicationInsightsComponentProactiveDetectionConfiguration>\n    | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "verb": "put",
+          "operationId": "ProactiveDetectionConfigurations_Update",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentProactiveDetectionConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 555,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.WorkItemConfigurationsOperationGroup.create",
+        "sourceFile": "routes.tsp",
+        "line": 555,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "post",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Create a work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\")\n  @post\n  create(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /** Work item configuration creation payload */\n    @bodyRoot\n    body: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "verb": "post",
+          "operationId": "WorkItemConfigurations_Create",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs\",\"post\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 576,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getDefault",
+        "sourceFile": "routes.tsp",
+        "line": 576,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets default work item configurations that exist for the application\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig\")\n  @get\n  getDefault(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n  ): ArmResponse<WorkItemConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetDefault",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 592,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.WorkItemConfigurationsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 592,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Delete a work item configuration of an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): OkResponse | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "delete",
+          "operationId": "WorkItemConfigurations_Delete",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\",\"delete\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 615,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.WorkItemConfigurationsOperationGroup.getItem",
+        "sourceFile": "routes.tsp",
+        "line": 615,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets specified work item configuration for an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @get\n  getItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n  ): ArmResponse<WorkItemConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "get",
+          "operationId": "WorkItemConfigurations_GetItem",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 639,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "ComponentAPIs.WorkItemConfigurationsOperationGroup.updateItem",
+        "sourceFile": "routes.tsp",
+        "line": 639,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "patch",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Update a work item configuration for an Application Insights component.\n   */\n  #suppress \"@typespec/http/deprecated-implicit-optionality\" \"Legacy implicit optionality - DO NOT COPY\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\")\n  @patch(#{ implicitOptionality: true })\n  updateItem(\n    ...ApiVersionParameter,\n    ...ResourceGroupParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * The unique work item configuration Id. This can be either friendly name of connector as defined in connector configuration\n     */\n    @path\n    workItemConfigId: string,\n\n    /**\n     * Properties that need to be specified to update a work item configuration for this Application Insights component.\n     */\n    #suppress \"@azure-tools/typespec-azure-core/casing-style\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n    @bodyRoot\n    WorkItemConfigurationProperties: WorkItemCreateConfiguration,\n  ): ArmResponse<WorkItemConfiguration> | never"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "verb": "patch",
+          "operationId": "WorkItemConfigurations_UpdateItem",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WorkItemConfiguration"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}\",\"patch\",\"responses\"]"
+      ]
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": [
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 72,
+              "column": 22
+            },
+            "end": {
+              "line": 79,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/APIKeys/{keyId}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 114,
+              "column": 22
+            },
+            "end": {
+              "line": 121,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/Annotations/{annotationId}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 322,
+              "column": 22
+            },
+            "end": {
+              "line": 326,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 356,
+              "column": 22
+            },
+            "end": {
+              "line": 363,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+          "post",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ApiKeys",
+            "post",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 403,
+              "column": 22
+            },
+            "end": {
+              "line": 410,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/DefaultWorkItemConfig",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 440,
+              "column": 22
+            },
+            "end": {
+              "line": 447,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 477,
+              "column": 22
+            },
+            "end": {
+              "line": 487,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 524,
+              "column": 22
+            },
+            "end": {
+              "line": 531,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/ProactiveDetectionConfigs/{ConfigurationId}",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 575,
+              "column": 22
+            },
+            "end": {
+              "line": 582,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+          "post",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs",
+            "post",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 665,
+              "column": 22
+            },
+            "end": {
+              "line": 672,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 709,
+              "column": 22
+            },
+            "end": {
+              "line": 716,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "patch",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "patch",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 760,
+              "column": 22
+            },
+            "end": {
+              "line": 767,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/WorkItemConfigs/{workItemConfigId}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 802,
+              "column": 22
+            },
+            "end": {
+              "line": 806,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 836,
+              "column": 22
+            },
+            "end": {
+              "line": 843,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/currentbillingfeatures",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 880,
+              "column": 22
+            },
+            "end": {
+              "line": 887,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 917,
+              "column": 22
+            },
+            "end": {
+              "line": 927,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+          "post",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration",
+            "post",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 964,
+              "column": 22
+            },
+            "end": {
+              "line": 974,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1011,
+              "column": 22
+            },
+            "end": {
+              "line": 1018,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1062,
+              "column": 22
+            },
+            "end": {
+              "line": 1069,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/exportconfiguration/{exportId}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1104,
+              "column": 22
+            },
+            "end": {
+              "line": 1111,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/featurecapabilities",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1141,
+              "column": 22
+            },
+            "end": {
+              "line": 1148,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/getavailablebillingfeatures",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1178,
+              "column": 22
+            },
+            "end": {
+              "line": 1185,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs/swagger/stable/2015-05-01/openapi.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{resourceName}/quotastatus",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 1215,
+              "column": 22
+            },
+            "end": {
+              "line": 1222,
+              "column": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}

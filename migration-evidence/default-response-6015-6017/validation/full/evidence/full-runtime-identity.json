@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "node": "v26.5.0",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "analyzerStatusAtVerification": "complete",
+  "analyzerFinishedAt": "2026-11-10T07:24:35.950Z",
+  "coreCommit": "8574d5453f7bf9a07dc09bd41edac579af71d94b",
+  "artifactCount": 15,
+  "verifiedWorkers": 487,
+  "artifacts": [
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "archive": "azure-tools-typespec-autorest-0.73.2.tgz",
+      "archiveSha256": "556c2a84eddb750a08681db03e40f2dacdeef192955078dfed62ee3539033135",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-autor_ad839933a189a433eb04316bf4a039f4\\node_modules\\@azure-tools\\typespec-autorest",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-autor_ad839933a189a433eb04316bf4a039f4\\node_modules\\@azure-tools\\typespec-autorest\\dist\\src\\index.js",
+      "entrypointSha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a",
+      "verifiedFiles": 71,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-core-0.73.0.tgz",
+      "archiveSha256": "c24f74ab8787b81a97bbd3d80bee61564801f90d61a6d81630f0b5677d7e9b59",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_6503da305d6c46b679dacebc5247f5e7\\node_modules\\@azure-tools\\typespec-azure-core",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_6503da305d6c46b679dacebc5247f5e7\\node_modules\\@azure-tools\\typespec-azure-core\\dist\\src\\index.js",
+      "entrypointSha256": "c3f0db9c000cd095630c77d2f44d6bdc20eaaa5ddd4ce4a2f2b655f61ff388c1",
+      "verifiedFiles": 425,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-examples",
+      "version": "0.2.2",
+      "archive": "azure-tools-typespec-azure-examples-0.2.2.tgz",
+      "archiveSha256": "b403d0c1830d206c48a057aceddb3a6c92e6e38728c27bcb69222adaeb10ac31",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_4484c38cd35667dc59cc1f372800f8ba\\node_modules\\@azure-tools\\typespec-azure-examples",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_4484c38cd35667dc59cc1f372800f8ba\\node_modules\\@azure-tools\\typespec-azure-examples\\dist\\src\\node.js",
+      "entrypointSha256": "bf55bb9187276b2eb80f2b7cff4005fc5ccc6943344f31e13f8063ba2d422f09",
+      "verifiedFiles": 169,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-resource-manager-0.73.0.tgz",
+      "archiveSha256": "d1b9b18d78c5dd88e5bdd73b647b61bef089b39f939a5f3b99b6530d14c318e4",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_fa816c998095437467c69614a7156130\\node_modules\\@azure-tools\\typespec-azure-resource-manager",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_fa816c998095437467c69614a7156130\\node_modules\\@azure-tools\\typespec-azure-resource-manager\\dist\\src\\index.js",
+      "entrypointSha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea",
+      "verifiedFiles": 435,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-azure-rulesets-0.73.0.tgz",
+      "archiveSha256": "9a489b0abda7a57696f4ed0767e90d76424b69c74205f6b55780b8c212418634",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9e4297759356d8174bc97f032df05d4e\\node_modules\\@azure-tools\\typespec-azure-rulesets",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-azure_9e4297759356d8174bc97f032df05d4e\\node_modules\\@azure-tools\\typespec-azure-rulesets\\dist\\src\\index.js",
+      "entrypointSha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea",
+      "verifiedFiles": 19,
+      "mismatches": []
+    },
+    {
+      "name": "@azure-tools/typespec-client-generator-core",
+      "version": "0.73.0",
+      "archive": "azure-tools-typespec-client-generator-core-0.73.0.tgz",
+      "archiveSha256": "556580c3193e959cea24ce7ff1633dd7f437bb35bf2b5f49b023179f23e53364",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-clien_dd0ea20c0bdff139784864010d67e90e\\node_modules\\@azure-tools\\typespec-client-generator-core",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@azure-tools+typespec-clien_dd0ea20c0bdff139784864010d67e90e\\node_modules\\@azure-tools\\typespec-client-generator-core\\dist\\src\\index.js",
+      "entrypointSha256": "34362d7ff20ea39c8394d3164d7b44b7417179e41f8f37c28a585d82a5c57475",
+      "verifiedFiles": 188,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "archive": "typespec-compiler-1.17.0.tgz",
+      "archiveSha256": "38e98a4d58b1713fde5029ab55e7c2d84ae4e1d4cce2bd87acab1a2992b9096d",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+compiler@file+..+_68ca334e4184ddf42e98c562b7417615\\node_modules\\@typespec\\compiler",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+compiler@file+..+_68ca334e4184ddf42e98c562b7417615\\node_modules\\@typespec\\compiler\\dist\\src\\index.js",
+      "entrypointSha256": "348a5bf6f5bf52adad84f19c1d48bdaf99ada8ae6fdb5263774d7028be2a466b",
+      "verifiedFiles": 1086,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/events",
+      "version": "0.87.0",
+      "archive": "typespec-events-0.87.0.tgz",
+      "archiveSha256": "bde9064cd27f0410e40f38fb333f0f966add0c657fa5879457101abf34d551bb",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+events@file+..+ev_4e1151b62972cb379e7463e4b9e46a29\\node_modules\\@typespec\\events",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+events@file+..+ev_4e1151b62972cb379e7463e4b9e46a29\\node_modules\\@typespec\\events\\dist\\src\\index.js",
+      "entrypointSha256": "05512eaa4f8d6e1c0bc3d51ea38a44851df6d3da0577dcadde998ea608f53fdf",
+      "verifiedFiles": 45,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/http",
+      "version": "1.17.0",
+      "archive": "typespec-http-1.17.0.tgz",
+      "archiveSha256": "086998d078591d2cc6b9588e31e85ba0c92b3217369a6b196b322bd18feaebdd",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+http@file+..+evid_8fe4336de7d8be7512e67c920b43e433\\node_modules\\@typespec\\http",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+http@file+..+evid_8fe4336de7d8be7512e67c920b43e433\\node_modules\\@typespec\\http\\dist\\src\\index.js",
+      "entrypointSha256": "7ff74c78e6b11476c3069d1c36b8066724784f5ca95300affb7b7c95e1a00e50",
+      "verifiedFiles": 181,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/openapi",
+      "version": "1.17.0",
+      "archive": "typespec-openapi-1.17.0.tgz",
+      "archiveSha256": "6f1f5515775ed004a6063e51d860c85c85eac7e01a27a323e06464b18eb36d31",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+openapi@file+..+e_6e46b873c529c5a6b969a43dbe23b5e6\\node_modules\\@typespec\\openapi",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+openapi@file+..+e_6e46b873c529c5a6b969a43dbe23b5e6\\node_modules\\@typespec\\openapi\\dist\\src\\index.js",
+      "entrypointSha256": "0b42fcde4f11c1a3d5f8339c4795f1e1d30b646a342ae62490f5a3f652c21b83",
+      "verifiedFiles": 42,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/rest",
+      "version": "0.87.0",
+      "archive": "typespec-rest-0.87.0.tgz",
+      "archiveSha256": "1220fdc9ac98478233cd26f5ec520849d8f9e7a811676bdd50504c61af0a9f61",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+rest@file+..+evid_22ad96d64bf49623af2582b4cbdc028a\\node_modules\\@typespec\\rest",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+rest@file+..+evid_22ad96d64bf49623af2582b4cbdc028a\\node_modules\\@typespec\\rest\\dist\\src\\index.js",
+      "entrypointSha256": "e6391ca3be79ceb37533f8a33c5370343ff0847f5d7a0a2c0ffb03cc973a641c",
+      "verifiedFiles": 58,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/sse",
+      "version": "0.87.0",
+      "archive": "typespec-sse-0.87.0.tgz",
+      "archiveSha256": "b9661fa0135212e3d947f4dda4b3edceb11c308898283928830a6222f26a9db6",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+sse@file+..+evide_5be7f7a43b4fb43b3d67f587f2990d93\\node_modules\\@typespec\\sse",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+sse@file+..+evide_5be7f7a43b4fb43b3d67f587f2990d93\\node_modules\\@typespec\\sse\\dist\\src\\index.js",
+      "entrypointSha256": "cfb3a9a8b1a5d19f8556736de26106d4a05ac5d6171660f954ba4e5d0ead289d",
+      "verifiedFiles": 38,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/streams",
+      "version": "0.87.0",
+      "archive": "typespec-streams-0.87.0.tgz",
+      "archiveSha256": "6be0d9bc48a49d9cdd080ba6a997cd8e45d96eb795af7bd2a317ca38f52660a8",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+streams@file+..+e_edc75b3535a17511e35c4bcd63bc6032\\node_modules\\@typespec\\streams",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+streams@file+..+e_edc75b3535a17511e35c4bcd63bc6032\\node_modules\\@typespec\\streams\\dist\\src\\index.js",
+      "entrypointSha256": "6b5c4e4c7dc170aee7084ffc5f241452885bfe5e9b7bc36ea95f09327b0037f1",
+      "verifiedFiles": 34,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/versioning",
+      "version": "0.87.0",
+      "archive": "typespec-versioning-0.87.0.tgz",
+      "archiveSha256": "a726a9150b541771ba0c5f3f0ad5234cf5779481073d61c83bf40c102c236ba7",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+versioning@file+._550a72c285a90d98e909328597ae1702\\node_modules\\@typespec\\versioning",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+versioning@file+._550a72c285a90d98e909328597ae1702\\node_modules\\@typespec\\versioning\\dist\\src\\index.js",
+      "entrypointSha256": "a95fb0d5c19e77db99e15f8e2bc85d3421b85e7d042be9fa1df16aec1e202af7",
+      "verifiedFiles": 61,
+      "mismatches": []
+    },
+    {
+      "name": "@typespec/xml",
+      "version": "0.87.0",
+      "archive": "typespec-xml-0.87.0.tgz",
+      "archiveSha256": "65f7da55a1a78399c4c7a6f675c5d39389748e6b7b8573dfb07e2dae149076ef",
+      "installedRoot": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+xml@file+..+evide_87d5a7febdfce656972094670074b20c\\node_modules\\@typespec\\xml",
+      "entrypoint": "$SPECS_ROOT\\node_modules\\.pnpm\\@typespec+xml@file+..+evide_87d5a7febdfce656972094670074b20c\\node_modules\\@typespec\\xml\\dist\\src\\index.js",
+      "entrypointSha256": "6ef76fe78c8c870dd4a539cf47467e5b5a95726dd9c00c3941ffa8f91c153ccd",
+      "verifiedFiles": 43,
+      "mismatches": []
+    }
+  ],
+  "workerPackageIdentities": [
+    {
+      "name": "@typespec/compiler",
+      "version": "1.17.0",
+      "sha256": "348a5bf6f5bf52adad84f19c1d48bdaf99ada8ae6fdb5263774d7028be2a466b"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-resource-manager",
+      "version": "0.73.0",
+      "sha256": "3c82cd01d326320e35f8a83d72b7624dd712e694a5f69639b227e7c779cb63ea"
+    },
+    {
+      "name": "@azure-tools/typespec-autorest",
+      "version": "0.73.2",
+      "sha256": "21d2dde5e6640028d82e9d90be297c22605cc125c6282a57b7a93cd37524ba1a"
+    },
+    {
+      "name": "autorest",
+      "version": "3.8.0",
+      "sha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator",
+      "version": "2.2.4",
+      "sha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-core",
+      "version": "1.0.7",
+      "sha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+    },
+    {
+      "name": "@microsoft.azure/openapi-validator-rulesets",
+      "version": "2.2.6",
+      "sha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+    },
+    {
+      "name": "@azure-tools/typespec-azure-rulesets",
+      "version": "0.73.0",
+      "sha256": "77b5852d8ec37e82157b25a8e55e2037aa4847bda1be4d65a5cc666ee44facea"
+    }
+  ],
+  "comparison": "Every installed archive file, including manifests, is byte-identical to the unchanged pilot candidate archives. Every recorded worker package entrypoint retains its execution hash; candidate entrypoints resolve to the verified installed packages."
+}

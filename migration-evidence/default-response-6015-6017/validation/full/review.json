@@ -1,0 +1,25 @@
+{
+  "status": "reviewed",
+  "scope": "Full frozen-corpus evidence and supporting audit, runtime-verification and report-generation logic; not another source-code or release-readiness review.",
+  "candidateCommit": "071afdea846ea0898e03a4d59f2c67bfa5a68266",
+  "reviewer": "Retained independent read-only code-review agent",
+  "highConfidenceFindings": 0,
+  "resolvedFindings": [
+    {
+      "finding": "Report slugs based only on the last two project-path components collided for SignalR and WebPubSub.",
+      "fix": "Use the full project path and assert unique slugs. Retain the original report snapshot and regenerate only reports, without rerunning native validation or the operation audit.",
+      "verification": "Reviewer verified distinct, correctly linked SignalR (6) and WebPubSub (9) pages and confirmed all 522 retained evidence files were unchanged."
+    }
+  ],
+  "conclusion": "No high-confidence material evidence errors remain from this review.",
+  "results": {
+    "assessedProjects": 487,
+    "swaggerMissingDefault": 0,
+    "swaggerRequiredDefault": 178,
+    "native": 486,
+    "bijectivelyMatched": 178,
+    "swaggerOnly": 0,
+    "nativeOnlyNonService": 308
+  },
+  "boundary": "Does not certify portable artifact recovery, fresh Swagger emission, default activation, selected-version projection equivalence, cross-rule duplicate volume, or release/merge readiness."
+}

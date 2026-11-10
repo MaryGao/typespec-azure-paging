@@ -1,0 +1,365 @@
+{
+  "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+  "apiVersion": "2015-05-01",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 4
+  },
+  "native": 4,
+  "matchedSwagger": 4,
+  "matchedNative": 4,
+  "bijective": 4,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "ambiguous": [],
+  "savedOperationCount": 4,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 20,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "AnalyticsItems.AnalyticsItemsOperationGroup.list",
+        "sourceFile": "routes.tsp",
+        "line": 20,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a list of Analytics Items defined within an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}\")\n  @get\n  list(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * Enum indicating if this item definition is owned by a specific user or is shared between all users with access to the Application Insights component.\n     */\n    @path\n    scopePath: ItemScopePath,\n\n    /**\n     * Enum indicating if this item definition is owned by a specific user or is shared between all users with access to the Application Insights component.\n     */\n    @query(\"scope\")\n    scope?: ItemScope = ItemScope.shared,\n\n    /**\n     * Enum indicating the type of the Analytics item.\n     */\n    @query(\"type\")\n    type?: ItemTypeParameter = ItemTypeParameter.none,\n\n    /**\n     * Flag indicating whether or not to return the content of each applicable item. If false, only return the item information.\n     */\n    @query(\"includeContent\")\n    includeContent?: boolean,\n  ): ArmResponse<ApplicationInsightsComponentAnalyticsItem[]>"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}",
+          "verb": "get",
+          "operationId": "AnalyticsItems_List",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ApplicationInsightsComponentAnalyticsItem"
+                }
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 61,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "AnalyticsItems.AnalyticsItemsOperationGroup.get",
+        "sourceFile": "routes.tsp",
+        "line": 61,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Gets a specific Analytics Items defined within an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\")\n  @get\n  get(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * Enum indicating if this item definition is owned by a specific user or is shared between all users with access to the Application Insights component.\n     */\n    @path\n    scopePath: ItemScopePath,\n\n    /**\n     * The Id of a specific item defined in the Application Insights component\n     */\n    @query(\"id\")\n    id?: string,\n\n    /**\n     * The name of a specific item defined in the Application Insights component\n     */\n    @query(\"name\")\n    name?: string,\n  ): ArmResponse<ApplicationInsightsComponentAnalyticsItem>"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "verb": "get",
+          "operationId": "AnalyticsItems_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAnalyticsItem"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 95,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "AnalyticsItems.AnalyticsItemsOperationGroup.put",
+        "sourceFile": "routes.tsp",
+        "line": 95,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Adds or Updates a specific Analytics Item within an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\")\n  @put\n  put(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * Enum indicating if this item definition is owned by a specific user or is shared between all users with access to the Application Insights component.\n     */\n    @path\n    scopePath: ItemScopePath,\n\n    /**\n     * Flag indicating whether or not to force save an item. This allows overriding an item if it already exists.\n     */\n    @query(\"overrideItem\")\n    overrideItem?: boolean,\n\n    /**\n     * Properties that need to be specified to create a new item and add it to an Application Insights component.\n     */\n    @body\n    itemProperties: ApplicationInsightsComponentAnalyticsItem,\n  ): ArmResponse<ApplicationInsightsComponentAnalyticsItem>"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "verb": "put",
+          "operationId": "AnalyticsItems_Put",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/ApplicationInsightsComponentAnalyticsItem"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 129,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "AnalyticsItems.AnalyticsItemsOperationGroup.delete",
+        "sourceFile": "routes.tsp",
+        "line": 129,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Deletes a specific Analytics Items defined within an Application Insights component.\n   */\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\")\n  @delete\n  delete(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n    ...ResourceGroupParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    resourceName: string,\n\n    /**\n     * Enum indicating if this item definition is owned by a specific user or is shared between all users with access to the Application Insights component.\n     */\n    @path\n    scopePath: ItemScopePath,\n\n    /**\n     * The Id of a specific item defined in the Application Insights component\n     */\n    @query(\"id\")\n    id?: string,\n\n    /**\n     * The name of a specific item defined in the Application Insights component\n     */\n    @query(\"name\")\n    name?: string,\n  ): OkResponse"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "verb": "delete",
+          "operationId": "AnalyticsItems_Delete",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded."
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item\",\"delete\",\"responses\"]"
+      ]
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": [
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 173,
+              "column": 22
+            },
+            "end": {
+              "line": 183,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 254,
+              "column": 22
+            },
+            "end": {
+              "line": 261,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 332,
+              "column": 22
+            },
+            "end": {
+              "line": 339,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems/swagger/stable/2015-05-01/analyticsItems_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/{scopePath}/item",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 408,
+              "column": 22
+            },
+            "end": {
+              "line": 412,
+              "column": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}

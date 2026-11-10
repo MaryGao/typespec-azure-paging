@@ -1,0 +1,621 @@
+{
+  "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+  "apiVersion": "2022-06-15",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 7
+  },
+  "native": 7,
+  "matchedSwagger": 7,
+  "matchedNative": 7,
+  "bijective": 7,
+  "swaggerOnly": [],
+  "nativeOnly": [],
+  "ambiguous": [],
+  "savedOperationCount": 7,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 46,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.get",
+        "sourceFile": "WebTest.tsp",
+        "line": 46,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get a specific Application Insights web test definition.\n   */\n  get is ArmResourceRead<WebTest, Error = never>"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "verb": "get",
+          "operationId": "WebTests_Get",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WebTest"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 52,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.createOrUpdate",
+        "sourceFile": "WebTest.tsp",
+        "line": 52,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "put",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Creates or updates an Application Insights web test definition.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/arm-put-operation-response-codes\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  createOrUpdate is ArmResourceCreateOrReplaceSync<\n    WebTest,\n    Response = ArmResourceUpdatedResponse<WebTest>,\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "verb": "put",
+          "operationId": "WebTests_CreateOrUpdate",
+          "responses": {
+            "200": {
+              "description": "Resource 'WebTest' update operation succeeded",
+              "schema": {
+                "$ref": "#/definitions/WebTest"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}\",\"put\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 62,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.updateTags",
+        "sourceFile": "WebTest.tsp",
+        "line": 62,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "patch",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Updates the tags associated with an Application Insights web test.\n   */\n  @patch(#{ implicitOptionality: false })\n  updateTags is ArmCustomPatchSync<\n    WebTest,\n    PatchModel = TagsResource,\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "verb": "patch",
+          "operationId": "WebTests_UpdateTags",
+          "responses": {
+            "200": {
+              "description": "Azure operation completed successfully.",
+              "schema": {
+                "$ref": "#/definitions/WebTest"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}\",\"patch\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 71,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.delete",
+        "sourceFile": "WebTest.tsp",
+        "line": 71,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "delete",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+        "statuses": [
+          200,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Deletes an Application Insights web test.\n   */\n  delete is ArmResourceDeleteSync<WebTest, Error = never>"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "verb": "delete",
+          "operationId": "WebTests_Delete",
+          "responses": {
+            "200": {
+              "description": "Resource deleted successfully."
+            },
+            "204": {
+              "description": "Resource does not exist."
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}\",\"delete\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 76,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.listByResourceGroup",
+        "sourceFile": "WebTest.tsp",
+        "line": 76,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get all Application Insights web tests defined for the specified resource group.\n   */\n  listByResourceGroup is ArmResourceListByParent<\n    WebTest,\n    Response = webTestListResult,\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests",
+          "verb": "get",
+          "operationId": "WebTests_ListByResourceGroup",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/webTestListResult"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "WebTest.tsp",
+        "line": 85,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTests.list",
+        "sourceFile": "WebTest.tsp",
+        "line": 85,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Insights/webtests",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get all Application Insights web test definitions for the specified subscription.\n   */\n  list is ArmListBySubscription<\n    WebTest,\n    Response = webTestListResult,\n    Error = never\n  >"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/providers/Microsoft.Insights/webtests",
+          "verb": "get",
+          "operationId": "WebTests_List",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/webTestListResult"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/providers/Microsoft.Insights/webtests\",\"get\",\"responses\"]"
+      ]
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "routes.tsp",
+        "line": 27,
+        "column": 3
+      },
+      "category": "matched-required-default-response",
+      "operation": {
+        "name": "WebTestsApi.WebTestsOperationGroup.listByComponent",
+        "sourceFile": "routes.tsp",
+        "line": 27,
+        "column": 3,
+        "serviceOperation": true,
+        "verb": "get",
+        "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "/**\n   * Get all Application Insights web tests defined for the specified component.\n   */\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n  #suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details\"\n  @route(\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests\")\n  @get\n  @list\n  listByComponent(\n    ...ApiVersionParameter,\n    ...SubscriptionIdParameter,\n\n    /**\n     * The name of the Application Insights component resource.\n     */\n    @path\n    componentName: string,\n\n    ...Azure.ResourceManager.ResourceGroupParameter,\n  ): webTestListResult"
+      },
+      "routeMatching": "case-insensitive-route-and-verb",
+      "savedCandidates": [
+        {
+          "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+          "section": "paths",
+          "route": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests",
+          "verb": "get",
+          "operationId": "WebTests_ListByComponent",
+          "responses": {
+            "200": {
+              "description": "The request has succeeded.",
+              "schema": {
+                "$ref": "#/definitions/webTestListResult"
+              }
+            }
+          },
+          "missingDefault": true
+        }
+      ],
+      "witnessKeys": [
+        "[\"projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json\",\"paths\",\"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests\",\"get\",\"responses\"]"
+      ]
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": [
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/providers/Microsoft.Insights/webtests",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Insights/webtests",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 22
+            },
+            "end": {
+              "line": 62,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/components/{componentName}/webtests",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 95,
+              "column": 22
+            },
+            "end": {
+              "line": 102,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 128,
+              "column": 22
+            },
+            "end": {
+              "line": 135,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "get",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+            "get",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 168,
+              "column": 22
+            },
+            "end": {
+              "line": 175,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "put",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+            "put",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 212,
+              "column": 22
+            },
+            "end": {
+              "line": 219,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "patch",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+            "patch",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 262,
+              "column": 22
+            },
+            "end": {
+              "line": 269,
+              "column": 10
+            }
+          }
+        }
+      },
+      {
+        "rule": "RequiredDefaultResponse",
+        "level": "error",
+        "project": "specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi",
+        "swaggerFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "validatorInputFile": "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json",
+        "sourceDocuments": [
+          "projects/specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi/swagger/stable/2022-06-15/webTests_API.json"
+        ],
+        "sourceAttribution": "reported",
+        "message": "The response is defined but without a default error response implementation.Consider adding it.'",
+        "path": [
+          "paths",
+          "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+          "delete",
+          "responses"
+        ],
+        "details": {
+          "jsonpath": [
+            "paths",
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/webtests/{webTestName}",
+            "delete",
+            "responses"
+          ],
+          "validationCategory": "ARMViolation",
+          "providerNamespace": false,
+          "resourceType": false,
+          "range": {
+            "start": {
+              "line": 297,
+              "column": 22
+            },
+            "end": {
+              "line": 304,
+              "column": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}

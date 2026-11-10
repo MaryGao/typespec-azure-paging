@@ -1,0 +1,349 @@
+{
+  "project": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService",
+  "apiVersion": "2025-01-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 6,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 34,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 34,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 63,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 63,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  parameters: PrivateEndpointConnection,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 96,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 96,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 174,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 174,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 141,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 141,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  parameters: SharedPrivateLinkResource,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 203,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 203,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 40,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 34,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 34,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 63,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 63,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  parameters: PrivateEndpointConnection,\n): PrivateEndpointConnection;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 96,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRPrivateEndpointConnectionsDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 96,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{privateEndpointConnectionName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRPrivateEndpointConnectionsDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<PrivateEndpointConnection>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  privateEndpointConnectionName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 174,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesGetCustomized",
+        "sourceFile": "client.tsp",
+        "line": 174,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesGetCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 141,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesCreateOrUpdateCustomized",
+        "sourceFile": "client.tsp",
+        "line": 141,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesCreateOrUpdateCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  parameters: SharedPrivateLinkResource,\n): SharedPrivateLinkResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 203,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customization.SignalRSharedPrivateLinkResourcesDeleteCustomized",
+        "sourceFile": "client.tsp",
+        "line": 203,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{provider}/{subscriptionId}/{sharedPrivateLinkResourceName}/{resourceGroupName}/{resourceName}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop SignalRSharedPrivateLinkResourcesDeleteCustomized(\n  ...Azure.ResourceManager.ProviderNamespace<SharedPrivateLinkResource>,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @query(\"api-version\")\n  apiVersion: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  subscriptionId: uuid,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  sharedPrivateLinkResourceName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceGroupName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  resourceName: string,\n): void;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

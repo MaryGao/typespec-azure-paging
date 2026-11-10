@@ -1,0 +1,697 @@
+{
+  "project": "specification/cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB",
+  "apiVersion": "2026-04-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 12,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 525,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesGetSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 525,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesGetSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<SqlRoleDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 388,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesCreateUpdateSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 388,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesCreateUpdateSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateSqlRoleDefinitionParameters: SqlRoleDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<SqlRoleDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = SqlRoleDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 460,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesDeleteSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 460,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesDeleteSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 494,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesGetSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 494,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesGetSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<SqlRoleAssignmentGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 350,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesCreateUpdateSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 350,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesCreateUpdateSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateSqlRoleAssignmentParameters: SqlRoleAssignmentCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<SqlRoleAssignmentGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = SqlRoleAssignmentGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 426,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesDeleteSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 426,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesDeleteSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 288,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesGetMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 288,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesGetMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<MongoRoleDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 145,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesCreateUpdateMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 145,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesCreateUpdateMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateMongoRoleDefinitionParameters: MongoRoleDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<MongoRoleDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = MongoRoleDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 220,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesDeleteMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 220,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesDeleteMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 319,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesGetMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 319,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesGetMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<MongoUserDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 182,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoUserDefinitionCreateUpdateMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 182,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoUserDefinitionCreateUpdateMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateMongoUserDefinitionParameters: MongoUserDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<MongoUserDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = MongoUserDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 254,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesDeleteMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 254,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesDeleteMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 319,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 525,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesGetSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 525,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesGetSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<SqlRoleDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 388,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesCreateUpdateSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 388,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesCreateUpdateSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateSqlRoleDefinitionParameters: SqlRoleDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<SqlRoleDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = SqlRoleDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 460,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesDeleteSqlRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 460,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesDeleteSqlRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 494,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesGetSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 494,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesGetSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<SqlRoleAssignmentGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 350,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesCreateUpdateSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 350,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesCreateUpdateSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateSqlRoleAssignmentParameters: SqlRoleAssignmentCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<SqlRoleAssignmentGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = SqlRoleAssignmentGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 426,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.sqlResourcesDeleteSqlRoleAssignmentCustomized",
+        "sourceFile": "client.tsp",
+        "line": 426,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{roleAssignmentId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop sqlResourcesDeleteSqlRoleAssignmentCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  roleAssignmentId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 288,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesGetMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 288,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesGetMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<MongoRoleDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 145,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesCreateUpdateMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 145,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesCreateUpdateMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateMongoRoleDefinitionParameters: MongoRoleDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<MongoRoleDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = MongoRoleDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 220,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesDeleteMongoRoleDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 220,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoRoleDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesDeleteMongoRoleDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoRoleDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 319,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesGetMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 319,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesGetMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n): Azure.ResourceManager.ArmResponse<MongoUserDefinitionGetResults>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 182,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoUserDefinitionCreateUpdateMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 182,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoUserDefinitionCreateUpdateMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @body\n  createUpdateMongoUserDefinitionParameters: MongoUserDefinitionCreateUpdateParameters,\n):\n  | Azure.ResourceManager.ArmResourceUpdatedResponse<MongoUserDefinitionGetResults>\n  | Azure.ResourceManager.ArmAcceptedLroResponse<LroHeaders = Azure.ResourceManager.ArmLroLocationHeader<FinalResult = MongoUserDefinitionGetResults> &\n      Azure.Core.Foundations.RetryAfterHeader>;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 254,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": "Customizations.mongoDBResourcesDeleteMongoUserDefinitionCustomized",
+        "sourceFile": "client.tsp",
+        "line": 254,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "get",
+        "route": "/{subscriptionId}/{provider}/{mongoUserDefinitionId}/{resourceGroupName}/{accountName}",
+        "statuses": [
+          200,
+          202,
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-resource-manager/no-response-body\" \"override\"\n#suppress \"@azure-tools/typespec-azure-core/casing-style\" \"override\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\nop mongoDBResourcesDeleteMongoUserDefinitionCustomized(\n  ...Azure.ResourceManager.ApiVersionParameter,\n  ...Azure.ResourceManager.SubscriptionIdParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  mongoUserDefinitionId: string,\n\n  ...Azure.ResourceManager.ResourceGroupParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"override\"\n  @path\n  @pattern(\"^[a-z0-9]+(-[a-z0-9]+)*\")\n  @minLength(3)\n  @maxLength(50)\n  accountName: string,\n):\n  | Azure.ResourceManager.ArmDeletedResponse\n  | Azure.ResourceManager.ArmDeleteAcceptedLroResponse\n  | Azure.ResourceManager.ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}

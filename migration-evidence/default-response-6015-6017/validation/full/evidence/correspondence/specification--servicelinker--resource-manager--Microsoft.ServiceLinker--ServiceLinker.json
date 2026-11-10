@@ -1,0 +1,693 @@
+{
+  "project": "specification/servicelinker/resource-manager/Microsoft.ServiceLinker/ServiceLinker",
+  "apiVersion": "2024-07-01-preview",
+  "status": "assessed",
+  "swaggerCounts": {
+    "MissingDefaultResponse": 0,
+    "RequiredDefaultResponse": 0
+  },
+  "native": 12,
+  "matchedSwagger": 0,
+  "matchedNative": 0,
+  "bijective": 0,
+  "swaggerOnly": [],
+  "nativeOnly": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 192,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesGetDryrun",
+        "sourceFile": "client.tsp",
+        "line": 192,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesGetDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesGetDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 213,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesCreateDryrun",
+        "sourceFile": "client.tsp",
+        "line": 213,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesCreateDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesCreateDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @body parameters: DryrunResource,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 236,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesUpdateDryrun",
+        "sourceFile": "client.tsp",
+        "line": 236,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesUpdateDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesUpdateDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @body parameters: DryrunPatch,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesDeleteDryrun",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesDeleteDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesDeleteDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n): ArmDeletedResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 280,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesListDryrun",
+        "sourceFile": "client.tsp",
+        "line": 280,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesListDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesListDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n): DryrunList;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 33,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesGet",
+        "sourceFile": "client.tsp",
+        "line": 33,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesGet(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesGet, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 54,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 54,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesCreateOrUpdate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesCreateOrUpdate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters: LinkerResource,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 77,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesUpdate",
+        "sourceFile": "client.tsp",
+        "line": 77,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesUpdate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesUpdate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters: LinkerPatch,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 100,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesDelete",
+        "sourceFile": "client.tsp",
+        "line": 100,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesDelete(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesDelete, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n): ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 121,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesList",
+        "sourceFile": "client.tsp",
+        "line": 121,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesList(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesList, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n): ResourceList;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 140,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesValidate",
+        "sourceFile": "client.tsp",
+        "line": 140,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesValidate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesValidate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  body: void,\n): ValidateOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 163,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesGenerateConfigurations",
+        "sourceFile": "client.tsp",
+        "line": 163,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesGenerateConfigurations(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(\n    linkerResourcesGenerateConfigurations,\n    \"java,python,go,javascript\"\n  )\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters?: ConfigurationInfo,\n): ConfigurationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "ambiguous": [],
+  "savedOperationCount": 28,
+  "productionLogs": 1,
+  "correspondence": [
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 192,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesGetDryrun",
+        "sourceFile": "client.tsp",
+        "line": 192,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesGetDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesGetDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 213,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesCreateDryrun",
+        "sourceFile": "client.tsp",
+        "line": 213,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesCreateDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesCreateDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @body parameters: DryrunResource,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 236,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesUpdateDryrun",
+        "sourceFile": "client.tsp",
+        "line": 236,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [
+          {
+            "code": "@typespec/http/duplicate-body",
+            "message": "Operation has a @body and an unannotated parameter. There can only be one representing the body"
+          }
+        ],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesUpdateDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesUpdateDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @body parameters: DryrunPatch,\n): DryrunResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesDeleteDryrun",
+        "sourceFile": "client.tsp",
+        "line": 259,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesDeleteDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesDeleteDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  dryrunName: string,\n): ArmDeletedResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 280,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".dryrunResourcesListDryrun",
+        "sourceFile": "client.tsp",
+        "line": 280,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop dryrunResourcesListDryrun(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(dryrunResourcesListDryrun, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n): DryrunList;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 33,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesGet",
+        "sourceFile": "client.tsp",
+        "line": 33,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesGet(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesGet, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 54,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesCreateOrUpdate",
+        "sourceFile": "client.tsp",
+        "line": 54,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesCreateOrUpdate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesCreateOrUpdate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters: LinkerResource,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 77,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesUpdate",
+        "sourceFile": "client.tsp",
+        "line": 77,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesUpdate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesUpdate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters: LinkerPatch,\n): LinkerResource;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 100,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesDelete",
+        "sourceFile": "client.tsp",
+        "line": 100,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          204
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesDelete(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesDelete, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n): ArmDeletedNoContentResponse;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 121,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesList",
+        "sourceFile": "client.tsp",
+        "line": 121,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesList(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesList, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n): ResourceList;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 140,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesValidate",
+        "sourceFile": "client.tsp",
+        "line": 140,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesValidate(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(linkerResourcesValidate, \"java,python,go,javascript\")\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  body: void,\n): ValidateOperationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    },
+    {
+      "diagnostic": {
+        "rule": "@azure-tools/typespec-azure-resource-manager/missing-default-response",
+        "message": "Operation is missing a default response. Include the standard ARM ErrorResponse.",
+        "sourceFile": "client.tsp",
+        "line": 163,
+        "column": 4
+      },
+      "category": "non-service-source-operation",
+      "operation": {
+        "name": ".linkerResourcesGenerateConfigurations",
+        "sourceFile": "client.tsp",
+        "line": 163,
+        "column": 4,
+        "serviceOperation": false,
+        "verb": "post",
+        "route": "/{resourceGroupName}/{provider}/{location}",
+        "statuses": [
+          200
+        ],
+        "httpErrors": [],
+        "snippet": "#suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-operation-decorator\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-api-version\" \"FIXME: review suppression and update justification\"\n#suppress \"@azure-tools/typespec-azure-resource-manager/use-interface\" \"customization\"\nop linkerResourcesGenerateConfigurations(\n  ...ApiVersionParameter,\n\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  @clientLocation(\n    linkerResourcesGenerateConfigurations,\n    \"java,python,go,javascript\"\n  )\n  @typeChangedFrom(Azure.ResourceManager.CommonTypes.Versions.v4, string)\n  subscriptionId: Azure.Core.uuid,\n\n  ...ResourceGroupParameter,\n  ...Azure.ResourceManager.Legacy.Provider,\n  ...LocationParameter,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  connectorName: string,\n  #suppress \"@azure-tools/typespec-azure-core/documentation-required\" \"customization\"\n  parameters?: ConfigurationInfo,\n): ConfigurationResult;"
+      },
+      "routeMatching": "parameter-name-normalized-route-and-verb",
+      "savedCandidates": [],
+      "witnessKeys": []
+    }
+  ],
+  "savedFindings": {
+    "MissingDefaultResponse": [],
+    "RequiredDefaultResponse": []
+  }
+}
