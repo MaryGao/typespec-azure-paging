@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` implements the fallback-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **Real-project equivalence remains unassessed.** Native operations and diagnostic ownership differ from response-map traversal.
+The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` implements the fallback-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **Real-project equivalence remains unassessed.** Native operation traversal differs from response-map traversal.
 
 ## 2. Actual coverage
 
@@ -26,7 +26,7 @@ No real projects were executed. Counts are individual findings.
 
 ## 4. Why diagnostic counts differ
 
-The [pinned legacy implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/RequiredDefaultResponse.ts) reports once for each selected response map with a falsy `default`. TypeSpec reports on concrete operations, with existing ARM response checks retaining ownership of findings they already diagnose. These are potential attribution and population differences, not measured gaps.
+The [pinned legacy implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/RequiredDefaultResponse.ts) reports once for each selected response map with a falsy `default`. TypeSpec reports once per concrete operation lacking a fallback, independently of other enabled ARM response checks. Both the Swagger `DeleteResponseCodes` implementation and existing TypeSpec DELETE rule also require a default, so overlapping enabled rules can produce separate findings. Population and aggregate-count differences remain unmeasured.
 
 Recommended action: retain per-operation correspondence, raw member findings, active rules, suppressions, API-version selection, and compile failures in the approved representative comparison. Do not infer equivalence from matching totals.
 
