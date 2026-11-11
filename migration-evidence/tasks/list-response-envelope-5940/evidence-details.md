@@ -21,6 +21,8 @@ must also have `@list`. The shared scope includes `/operations`. The response
 shape and paging metadata are checked independently of HTTP response status.
 Diagnostics are prioritized per operation: missing `@list` first, then
 paging/envelope defects, then extra properties.
+The rule uses four diagnostic message types; paging metadata/name defects share
+one message, as do extra properties and open indexers.
 
 ## Existing TypeSpec coverage and tests
 

@@ -10,7 +10,8 @@ GET paths, including `/operations`. This deliberately extends Swagger's response
 selector; Swagger also permits `nextLinkName: null`, whereas the TypeSpec rule
 requires continuation metadata. Diagnostics are prioritized per operation:
 missing `@list`, then paging/envelope defects, then extra properties. Real-project
-equivalence remains unassessed.
+equivalence remains unassessed. The rule has four message types: missing `@list`,
+invalid `value` array, paging metadata/name issues, and extra properties.
 
 ## 2. Actual coverage
 
@@ -58,5 +59,5 @@ been measured.
   configurations and suppressions must migrate to `list-response-envelope`.
 - Candidate development began from Azure/typespec-azure main at
   `ce1ca4c66f918a92113a035d3e7d908aa25d62f5`; the current rule candidate is
-  `2272a21afb1df13a4d727b6c3b6521448c4fbd2a`. This commit includes the main
+  `965f39bf5d1a8b315434bcf660241469d78ad9cb`. This commit includes the main
   update that added unrelated Azure HTTP unified YAML examples.
