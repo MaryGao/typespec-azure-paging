@@ -59,5 +59,5 @@ been measured.
   configurations and suppressions must migrate to `list-response-envelope`.
 - Candidate development began from Azure/typespec-azure main at
   `ce1ca4c66f918a92113a035d3e7d908aa25d62f5`; the current rule candidate is
-  `965f39bf5d1a8b315434bcf660241469d78ad9cb`. This commit includes the main
+  `19460ad141ef5bf379422f17164de2a41fd275b7`. This commit includes the main
   update that added unrelated Azure HTTP unified YAML examples.

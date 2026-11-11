@@ -13,7 +13,7 @@
     "branch": "main",
     "commit": "ce1ca4c66f918a92113a035d3e7d908aa25d62f5"
   },
-  "candidateCommit": "965f39bf5d1a8b315434bcf660241469d78ad9cb",
+  "candidateCommit": "19460ad141ef5bf379422f17164de2a41fd275b7",
   "comparison": {
     "serviceType": "resource-manager",
     "selectedBaseline": "swagger-arm-20261026-2cd3c5dd",
