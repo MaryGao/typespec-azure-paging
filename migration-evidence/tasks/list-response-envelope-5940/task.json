@@ -5,6 +5,7 @@
   "nativeRule": "@azure-tools/typespec-azure-resource-manager/list-response-envelope",
   "validatorRules": [
     "GetCollectionOnlyHasValueAndNextLink",
+    "CollectionObjectPropertiesNaming",
     "XmsPageableForListCalls"
   ],
   "membershipRevision": "e1b8b207a196cf2fc288593efec22e6e38ab98d5",
@@ -13,10 +14,11 @@
     "branch": "main",
     "commit": "ce1ca4c66f918a92113a035d3e7d908aa25d62f5"
   },
-  "candidateCommit": "19460ad141ef5bf379422f17164de2a41fd275b7",
+  "candidateCommit": "db524dc7b54d3488377b24e8d489a7b739ba6dd4",
   "comparison": {
     "serviceType": "resource-manager",
-    "selectedBaseline": "swagger-arm-20261026-2cd3c5dd",
-    "realProjectValidation": "not-run-pending-manual-pr-review-and-approval"
+    "selectedBaseline": "project-datasets-at-939d1a81ec5159e61394cd8ca2589c2c0ce49ccd",
+    "specsCommit": "939d1a81ec5159e61394cd8ca2589c2c0ce49ccd",
+    "realProjectValidation": "five-project-target-only-http-reachable"
   }
 }
