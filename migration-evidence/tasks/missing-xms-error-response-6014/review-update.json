@@ -1,0 +1,44 @@
+{
+  "pullRequest": "https://github.com/Azure/typespec-azure/pull/6028",
+  "candidateCommit": "1ace7188708ccbdcb8e714a26bf73d4a23ff47bb",
+  "mergedMain": "f2b76a8f206785a2dba829faa44db4ad4bbb0055",
+  "coreCommit": "2fa52c60865c37d8cac2f00e55cfced09d0d1a68",
+  "previousNativeRule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+  "nativeRule": "@azure-tools/typespec-azure-resource-manager/require-error-decorator",
+  "reviewComments": [
+    "https://github.com/Azure/typespec-azure/pull/6028#discussion_r4525771325",
+    "https://github.com/Azure/typespec-azure/pull/6028#discussion_r4525850322"
+  ],
+  "changes": [
+    "Rename rule, symbol, source/test/doc files, registration, disabled preset entry, references and change descriptions.",
+    "Simplify incorrect/correct snippets to a response model and a minimal HTTP operation.",
+    "Merge current main and preserve its new duplicate-resource and resource-name-conflict registrations."
+  ],
+  "predicateVerification": {
+    "status": "passed",
+    "comparison": "Normalize CRLF to LF and compare the entire source suffix starting at create(context) against commit 74e56a0f144190769180d5dbb27179db8b448c9c.",
+    "limitation": "Proves no authored predicate edit in this review update, not identical behavior across the updated compiler/library runtime."
+  },
+  "verification": {
+    "dependencyClosureBuild": { "status": "passed", "tasks": 23 },
+    "affectedArmAndRulesetTests": { "status": "passed", "files": 93, "tests": 1002 },
+    "renamedRuleTests": { "status": "passed", "tests": 28 },
+    "authoredAndGeneratedDocExamples": { "status": "passed", "cases": 4 },
+    "formatChangedFiles": "passed",
+    "rootLint": "passed",
+    "chronusVerifySinceMergedMain": "passed",
+    "gitWhitespace": "passed"
+  },
+  "historicalFullValidation": {
+    "candidateCommit": "74e56a0f144190769180d5dbb27179db8b448c9c",
+    "rule": "@azure-tools/typespec-azure-resource-manager/missing-error-decorator",
+    "projects": 487,
+    "swaggerFindings": 20,
+    "nativeFindings": 26,
+    "matched": 20,
+    "swaggerOnly": 0,
+    "nativeOnly": 6,
+    "receipts": "validation/full",
+    "repeatedAfterReview": false
+  }
+}

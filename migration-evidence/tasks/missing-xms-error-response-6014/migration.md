@@ -3,7 +3,7 @@
 ## 1. Conclusion and scope
 
 The TypeSpec rule
-`@azure-tools/typespec-azure-resource-manager/missing-error-decorator` migrates
+`@azure-tools/typespec-azure-resource-manager/require-error-decorator` migrates
 Swagger linter rule
 [`MissingXmsErrorResponse`](https://github.com/Azure/azure-openapi-validator/blob/main/docs/missing-xms-error-response.md).
 **Full frozen ARM validation is complete: all 487 projects assessed, all 20
@@ -12,6 +12,13 @@ native-only findings.** General semantic equivalence remains undetermined. The n
 unmarked HTTP 4xx/5xx response groups, except exactly HEAD/404, without requiring
 an error response or prescribing its body. Severity, range counting, and the
 Swagger selector's restriction to `paths` are intentional comparison boundaries.
+
+The corpus evidence is pinned to `74e56a0f144190769180d5dbb27179db8b448c9c`,
+before the review-requested rename from `missing-error-decorator` and the merge
+of newer `main`. Those historical receipts retain their original rule ID and
+runtime identities; they are not relabeled as a corpus run of the updated head.
+The [review update](review-update.json) records the current commit, merged base,
+focused verification and unchanged response-checking predicate.
 
 ## 2. Actual coverage
 
@@ -47,7 +54,7 @@ selected-version/reachability alignment are not assessed.
 ## 3. Function-level coverage
 
 The canonical suite is
-[`missing-error-decorator.test.ts`](https://github.com/Azure/typespec-azure/blob/feat/missing-xms-error-response-6014/packages/typespec-azure-resource-manager/test/rules/missing-error-decorator.test.ts).
+[`require-error-decorator.test.ts`](https://github.com/Azure/typespec-azure/blob/feat/missing-xms-error-response-6014/packages/typespec-azure-resource-manager/test/rules/require-error-decorator.test.ts).
 
 | Behavior                               | Result                                        | Rationale                                                                                                                                                                        |
 | -------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -96,7 +103,7 @@ correspondence.
 - Reviewed implementation commit: [`74e56a0f144190769180d5dbb27179db8b448c9c`](https://github.com/Azure/typespec-azure/commit/74e56a0f144190769180d5dbb27179db8b448c9c).
 - Native owner: Azure Resource Manager. Existing `use-standard-error` checks for at least one marked error and the shapes of marked error payloads, and exempts all HEAD operations. Existing response-code rules discourage explicit error statuses regardless of marking. Neither is equivalent to this response-marker policy.
 - Production uses only compiler/HTTP metadata and existing ARM helpers. No emitter, TCGC, Swagger parser, or JSON traversal dependency was introduced.
-- Documentation examples use `ArmResourceRead<Widget, Error = BadRequest>` in both cases; only `@error` changes. Shared package test setup supplies imports/usings, without replacing the published examples.
+- Original development examples used `ArmResourceRead<Widget, Error = BadRequest>`; review simplified both to a response model and `@get op read(): BadRequest`, differing only by `@error`. All four actual authored/generated examples were compiled again with the renamed registered rule. Historical documentation receipts remain unchanged.
 - Development outcomes and reproducible commands are recorded in [development-checks.json](development-checks.json). One-time documentation and emission receipts are linked there.
 - Dependency setup used the pinned Node 26.5.0 and pnpm 11.10.0, frozen filtered installation with lifecycle scripts disabled. The initial incomplete new submodule checkout was repaired for Windows long paths. Root type-aware lint required the previously uninstalled playground's declared Vite types; only that additional package was materialized.
 - The Chronus CLI declined to create entries before an implementation commit because it considers committed package changes only. Two task-owned entries were added in the repository's existing format instead: a feature for ARM and internal disabled-registration metadata for the rulesets package.
@@ -106,3 +113,4 @@ correspondence.
 - The official no-filter/no-limit analyzer finished successfully at `2026-11-10T05:20:39.843Z`, retaining the complete 93,496-file sealed dataset and all 487 native receipts. Runtime package artifacts and sanitized build/pack provenance are preserved in the [runtime release](https://github.com/MaryGao/typespec-azure-paging/releases/tag/missing-xms-error-response-full-20261110-74e56a0f1); [publication inventory](validation/publication-inventory.json) records source/publication hashes and immutable shared-baseline references.
 - Five target controls and 37 applicable portable injected controls passed. Six unrelated unregistered migration fixtures were explicitly excluded, not counted as passes. Two zero-test tooling-bootstrap failures are retained and disclosed in the full report.
 - CI's only original failure was a 10-second timeout in the existing TCGC `use-correct-verb` test on Ubuntu/Node 22; the other five build-matrix jobs passed. The failed job was rerun without implementation changes. CI status remains separate from this completed native coverage assessment.
+- Review update: [`1ace7188708ccbdcb8e714a26bf73d4a23ff47bb`](https://github.com/Azure/typespec-azure/commit/1ace7188708ccbdcb8e714a26bf73d4a23ff47bb) merges main `f2b76a8f206785a2dba829faa44db4ad4bbb0055` (core `2fa52c60865c37d8cac2f00e55cfced09d0d1a68`), renames the rule to `require-error-decorator`, simplifies the examples and resolves both review threads. Upstream duplicate-resource/name-conflict registrations are retained. The dependency-closure build, 1,002 affected ARM/ruleset tests, four documentation controls, root lint and Chronus verification passed; the response-checking function is byte-identical to the prior implementation. Full real-spec validation was not repeated for this review update.
