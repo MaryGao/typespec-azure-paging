@@ -15,9 +15,9 @@ invalid `value` array, paging metadata/name issues, and extra properties.
 
 ## 2. Actual coverage
 
-| Count | Swagger linter | TypeSpec linter |
-| --- | --- | --- |
-| Real-project diagnostics | Unassessed | Unassessed |
+| Count                    | Swagger linter | TypeSpec linter |
+| ------------------------ | -------------- | --------------- |
+| Real-project diagnostics | Unassessed     | Unassessed      |
 
 **Assessed coverage:** Source and focused-test analysis support the intended checks;
 real-project coverage, comparable counts, and correspondence are unassessed.
@@ -26,13 +26,13 @@ explicitly approved for validation.
 
 ## 3. Function-level coverage
 
-| Behavior | Result | Rationale |
-| --- | --- | --- |
-| Collection identity | Focused tests; real projects unassessed | `@list` operations and Swagger-shaped GET paths are both selected; see [predicate tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
-| Required list and paging markers | Focused tests; real projects unassessed | Missing `@list` takes priority over paging/envelope diagnostics; paging defects take priority over extra properties. See [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts). |
-| HTTP 200 response envelope | Focused tests; real projects unassessed | Union members, status ranges including 200, missing bodies, JSON names, array value, inherited properties and indexers are covered by [response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
-| Paging-property names | Focused tests; real projects unassessed | TypeSpec property names must match emitted JSON names because AutoRest uses TypeSpec names for `x-ms-pageable`; see [AutoRest emission](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-autorest/src/openapi.ts). |
-| Collection query parameters | Separate rule | `no-query-in-collection` is unchanged and will be handled in a separate task. |
+| Behavior                         | Result                                  | Rationale                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Collection identity              | Focused tests; real projects unassessed | `@list` operations and Swagger-shaped GET paths are both selected; see [predicate tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts).                                                               |
+| Required list and paging markers | Focused tests; real projects unassessed | Missing `@list` takes priority over paging/envelope diagnostics; paging defects take priority over extra properties. See [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts).         |
+| HTTP 200 response envelope       | Focused tests; real projects unassessed | Union members, status ranges including 200, missing bodies, JSON names, array value, inherited properties and indexers are covered by [response tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
+| Paging-property names            | Focused tests; real projects unassessed | TypeSpec property names must match emitted JSON names because AutoRest uses TypeSpec names for `x-ms-pageable`; see [AutoRest emission](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-autorest/src/openapi.ts).                                                         |
+| Collection query parameters      | Separate rule                           | `no-query-in-collection` is unchanged and will be handled in a separate task.                                                                                                                                                                                                                                                |
 
 ## 4. Why diagnostic counts differ
 

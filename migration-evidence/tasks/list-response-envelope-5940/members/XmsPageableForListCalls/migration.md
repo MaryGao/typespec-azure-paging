@@ -9,19 +9,19 @@ The TypeSpec rule requires list and continuation markers; Swagger accepts
 
 ## 2. Actual coverage
 
-| Count | Swagger linter | TypeSpec linter |
-| --- | --- | --- |
-| Real-project diagnostics | Unassessed | Unassessed |
+| Count                    | Swagger linter | TypeSpec linter |
+| ------------------------ | -------------- | --------------- |
+| Real-project diagnostics | Unassessed     | Unassessed      |
 
 **Assessed coverage:** Existing source and focused tests exercise missing paging
 metadata; real-project coverage and correspondence have not been assessed.
 
 ## 3. Function-level coverage
 
-| Behavior | Result | Rationale |
-| --- | --- | --- |
+| Behavior                              | Result                                  | Rationale                                                                                                                                                                                                                                                                               |
+| ------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Missing list marker on collection GET | Focused tests; real projects unassessed | TypeSpec prioritizes the missing marker ahead of response/paging diagnostics. See [collection-scope tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts). |
-| Missing continuation metadata | Focused tests; real projects unassessed | TypeSpec requires `@nextLink` rather than accepting Swagger's null form. See [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts). |
+| Missing continuation metadata         | Focused tests; real projects unassessed | TypeSpec requires `@nextLink` rather than accepting Swagger's null form. See [paging tests](https://github.com/Azure/typespec-azure/blob/refactor/paging-collection-api-5940/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts).                |
 
 ## 4. Why diagnostic counts differ
 
