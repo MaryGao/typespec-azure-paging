@@ -1,0 +1,1628 @@
+{
+  "schemaVersion": 1,
+  "rule": "QueryParametersInCollectionGet",
+  "rulesetPackage": "@microsoft.azure/openapi-validator-rulesets@2.2.6",
+  "stagingOnly": true,
+  "evaluation": "Official registered rule function on the run-generated latest-version Swagger documents; operation parameter $refs resolved from local files before evaluation.",
+  "unresolvedParameterReferences": [],
+  "complete": true,
+  "projects": [
+    {
+      "project": "specification/advisor/resource-manager/Microsoft.Advisor/Advisor",
+      "apiVersion": "2026-10-01",
+      "compileStatus": "success",
+      "fullValidatorStatus": "success",
+      "targetFindings": 6,
+      "findings": [
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/recommendations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/recommendations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/resiliencyReviews",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/suppressions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/advisor/resource-manager/Microsoft.Advisor/Advisor/swagger/stable/2026-10-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Advisor/suppressions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        }
+      ]
+    },
+    {
+      "project": "specification/compute/resource-manager/Microsoft.Compute/Compute/Compute",
+      "apiVersion": "2026-04-01",
+      "compileStatus": "success",
+      "fullValidatorStatus": "failed",
+      "targetFindings": 28,
+      "findings": [
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/availabilitySets",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/capacityReservationGroups",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/capacityReservationGroups",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter resourceIdsOnly should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/edgeZones/{edgeZone}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $orderby should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types/{type}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types/{type}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $orderby should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmextension/types/{type}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $orderby should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachines",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter statusOnly should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/virtualMachines",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/capacityReservationGroups/{capacityReservationGroupName}/capacityReservations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $select should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/diagnosticRunCommands",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/extensions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/runCommands",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "x-ms-paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions?$expand=Properties",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "x-ms-paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions?$expand=Properties",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/compute/resource-manager/Microsoft.Compute/Compute/Compute/swagger/stable/2026-04-01/ComputeRP.json",
+          "jsonPath": [
+            [
+              "x-ms-paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Compute/locations/{location}/publishers/{publisherName}/artifacttypes/vmimage/offers/{offer}/skus/{skus}/versions?$expand=Properties",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $orderby should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        }
+      ]
+    },
+    {
+      "project": "specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault",
+      "apiVersion": "2026-10-01-preview",
+      "compileStatus": "success",
+      "fullValidatorStatus": "success",
+      "targetFindings": 5,
+      "findings": [
+        {
+          "swaggerFile": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-10-01-preview/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/managedHSMs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-10-01-preview/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.KeyVault/vaults",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-10-01-preview/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/managedHSMs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-10-01-preview/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault/swagger/preview/2026-10-01-preview/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}/secrets",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        }
+      ]
+    },
+    {
+      "project": "specification/network/resource-manager/Microsoft.Network/Network/Network",
+      "apiVersion": "2026-03-01",
+      "compileStatus": "success",
+      "fullValidatorStatus": "success",
+      "targetFindings": 79,
+      "findings": [
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/providers/Microsoft.Management/managementGroups/{managementGroupId}/providers/Microsoft.Network/networkManagerConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/providers/Microsoft.Management/managementGroups/{managementGroupId}/providers/Microsoft.Network/networkManagerConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkManagerConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkManagerConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkManagers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkManagers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/commits",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/commits",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/connectivityConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/connectivityConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/networkGroups",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/networkGroups",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/networkGroups/{networkGroupName}/staticMembers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/networkGroups/{networkGroupName}/staticMembers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/routingConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/scopeConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/scopeConnections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations/{configurationName}/ruleCollections",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkManager.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityUserConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkSecurityPerimeters",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/networkSecurityPerimeters",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/linkReferences",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/linkReferences",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/links",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/links",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/profiles",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/profiles",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/profiles/{profileName}/accessRules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/profiles/{profileName}/accessRules",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/resourceAssociations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/networkSecurityPerimeter.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityPerimeters/{networkSecurityPerimeterName}/resourceAssociations",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/checkDnsNameAvailability",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter domainNameLabel should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/serviceTagDetails",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter noAddressPrefixes should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/serviceTagDetails",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter tagName should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortKey should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortValue should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools/{poolName}/staticCidrs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools/{poolName}/staticCidrs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools/{poolName}/staticCidrs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools/{poolName}/staticCidrs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortKey should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/ipamPools/{poolName}/staticCidrs",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortValue should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortKey should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortValue should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisIntents",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisIntents",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisIntents",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisIntents",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortKey should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisIntents",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortValue should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisRuns",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skipToken should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisRuns",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter skip should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisRuns",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisRuns",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortKey should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/verifierWorkspaces/{workspaceName}/reachabilityAnalysisRuns",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter sortValue should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/network/resource-manager/Microsoft.Network/Network/Network/swagger/stable/2026-03-01/virtualNetwork.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/checkIPAddressAvailability",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter ipAddress should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        }
+      ]
+    },
+    {
+      "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "apiVersion": "2026-09-01",
+      "compileStatus": "success",
+      "fullValidatorStatus": "success",
+      "targetFindings": 13,
+      "findings": [
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $include should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/encryptionScopes",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $include should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/shares",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $expand should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default/usages",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/localUsers",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $include should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/reports",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        },
+        {
+          "swaggerFile": "projects/specification/storage/resource-manager/Microsoft.Storage/Storage/swagger/stable/2026-09-01/openapi.json",
+          "jsonPath": [
+            [
+              "paths"
+            ],
+            "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/storageTaskAssignments/{storageTaskAssignmentName}/reports",
+            "get",
+            "parameters"
+          ],
+          "message": "Query parameter $maxpagesize should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "kind": "swagger-only",
+  "project": "specification/web/resource-manager/Microsoft.Web/AppService",
+  "apiVersion": "2026-08-01",
+  "finding": {
+    "swaggerFile": "projects/specification/web/resource-manager/Microsoft.Web/AppService/swagger/stable/2026-08-01/openapi.json",
+    "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/aigateways",
+    "section": "paths",
+    "parameter": "top",
+    "message": "Query parameter top should be removed. Collection Get's/List operation MUST not have query parameters other than api version & OData filter."
+  },
+  "parameterSourceLocations": [
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    },
+    {
+      "sourceFile": "@azure-tools/typespec-azure-core/lib/models.tsp",
+      "line": 66,
+      "column": 3
+    }
+  ],
+  "nativeRawCount": 32,
+  "reason": "Same selected-version GET path and query parameter resolves to these source locations, but no native diagnostic exists at any location.",
+  "unmappedEarlierInProject": 0,
+  "publicationNote": "Package-install source paths normalized to a portable package path; counts and coordinates are unchanged."
+}

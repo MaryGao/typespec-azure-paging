@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "taskId": "no-query-in-collection-6056",
+  "nativeRule": "@azure-tools/typespec-azure-resource-manager/no-query-in-collection",
+  "validatorRules": ["QueryParametersInCollectionGet"],
+  "candidateCommit": "35bba1703d4c261d3807a67a3c1cfa6e2c923d12",
+  "prHeadAtPublication": "1aa8e2db1fa27810eea297944284d6aa353a0eaa",
+  "specsCommit": "939d1a81ec5159e61394cd8ca2589c2c0ce49ccd",
+  "comparison": {
+    "discoveredProjects": 489,
+    "compiledProjects": 488,
+    "unassessedProjects": 1,
+    "emittedAndValidatedSwaggerFiles": 650,
+    "swaggerTargetFindings": 2155,
+    "typeSpecRawDiagnosticsInCompiledProjects": 2215,
+    "fullFindingCorrespondence": "unassessed"
+  },
+  "sourceReceipts": [
+    {
+      "publishedPath": "runs/full-20261111/full-staging-screen.json",
+      "originalSha256": "299a714b6fe2396b51613966288473b54b55c8c599e9bdd7a7c985f3efdcf5ba",
+      "publishedSha256": "299a714b6fe2396b51613966288473b54b55c8c599e9bdd7a7c985f3efdcf5ba",
+      "transformation": "none"
+    },
+    {
+      "publishedPath": "runs/five-project-fresh-2026-11-12/staging-rule-evaluation.json",
+      "originalSha256": "c0587c8c40c89836c9c5d89ff5a25f79a728d7a18ed41122be7a5aafe13f4c8c",
+      "publishedSha256": "c0587c8c40c89836c9c5d89ff5a25f79a728d7a18ed41122be7a5aafe13f4c8c",
+      "transformation": "none"
+    },
+    {
+      "publishedPath": "runs/five-project-fresh-2026-11-12/swagger-native-operation-matches.json",
+      "originalSha256": "ac7b8008a03577c05c3fd81079f78e7cb4f7599c28f90a8795f45d2800e9c3ed",
+      "publishedSha256": "ac7b8008a03577c05c3fd81079f78e7cb4f7599c28f90a8795f45d2800e9c3ed",
+      "transformation": "none"
+    },
+    {
+      "publishedPath": "runs/full-20261111/full-swagger-only-first.sanitized.json",
+      "originalSha256": "732b52ff4a470724701c7ca263866cbf28b945ac338615f65287657f47056e58",
+      "publishedSha256": "dcf4a84fb2a3bf324d245f0de23b0d0164084e2048ab220f8299f35a6521d57a",
+      "transformation": "Replace the package-install source path with the portable package path."
+    },
+    {
+      "publishedPath": "runs/full-20261111/native-483.raw-diagnostics.json",
+      "originalSha256": "4ba89dcde554dd6f81b3f67d84c110b67f1e75591600abc27eba638d59f46b82",
+      "publishedSha256": "b389dd75e8d3f5316660968bb4adbceb7fe3cb6c9bb3289cf7b3b5b47f688f90",
+      "transformation": "Extract project identity, API version, and all raw rule diagnostics."
+    }
+  ]
+}
