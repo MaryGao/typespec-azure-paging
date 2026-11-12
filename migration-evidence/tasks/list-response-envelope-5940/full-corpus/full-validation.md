@@ -10,6 +10,10 @@ Swagger runtime: Previously installed ARM artifact; its installed dist/lib files
 
 Successful independent retries replaced failed primary results for 1 projects. Original and retry evidence are retained.
 
+The fourth Swagger rule was separately rerun on all 651 emitted inputs, with
+zero findings. The other three Swagger results and TypeSpec receipts were
+reused. See its [member note](../members/XmsPageableMustHaveCorrespondingResponse/migration.md).
+
 | Measure | Count |
 | --- | ---: |
 | Selected / assessed projects | 489 / 489 |
@@ -44,6 +48,7 @@ Machine-readable execution receipts are retained in the original validation envi
 | GetCollectionOnlyHasValueAndNextLink | 438 | 313 |
 | CollectionObjectPropertiesNaming | 3 | 3 |
 | XmsPageableForListCalls | 463 | 278 |
+| XmsPageableMustHaveCorrespondingResponse | 0 | 0 |
 
 ## Projects
 

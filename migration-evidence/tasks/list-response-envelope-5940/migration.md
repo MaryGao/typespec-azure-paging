@@ -6,7 +6,8 @@ The TypeSpec linter rule `list-response-envelope` combines the intent of the
 Swagger linter rules
 [`GetCollectionOnlyHasValueAndNextLink`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/get-collection-only-has-value-and-next-link.ts),
 [`CollectionObjectPropertiesNaming`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/collection-object-properties-naming.ts),
-and [`XmsPageableForListCalls`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/xms-pageable-for-list-calls.ts).
+[`XmsPageableForListCalls`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/xms-pageable-for-list-calls.ts),
+and [`XmsPageableMustHaveCorrespondingResponse`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/XmsPageableMustHaveCorrespondingResponse.ts).
 
 **The rules are not scope- or bug-for-bug equivalent.** TypeSpec also checks
 `@list` operations outside the Swagger collection-GET selectors and requires
@@ -24,6 +25,13 @@ Reported diagnostics are individual findings, not project counts.
 | Count | Swagger linter | TypeSpec linter |
 | --- | ---: | ---: |
 | Reported diagnostics, raw | 904 | 616 |
+| Distinct project/rule/JSON paths | 594 | — |
+| HTTP-aligned warnings | — | 608 |
+
+The fourth Swagger rule produced **zero findings** across all 651 emitted
+Swagger inputs. It adds no Swagger-only cases to the previous comparison.
+Its isolated native-rule rerun and positive control are described in the
+[member note](members/XmsPageableMustHaveCorrespondingResponse/migration.md).
 
 **Assessed coverage:** The Swagger findings comprise 594 distinct
 project/rule/JSON paths. Of these, 564 have a corresponding TypeSpec
@@ -46,6 +54,7 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
 | --- | --- | --- |
 | Envelope properties | Observed coverage; different inheritance behavior | 284 distinct Swagger envelope findings match a TypeSpec invalid-envelope category on the same operation. The 28 inherited-envelope findings differ; see the [analysis](full-corpus/swagger-only-analysis.md). |
 | List and continuation metadata | Observed coverage; scope and policy differ | 277 distinct missing-pageable findings match an operation-level TypeSpec list/paging category. Swagger accepts `nextLinkName: null`; TypeSpec requires continuation metadata. See the [member note](members/XmsPageableForListCalls/migration.md). |
+| Pageable response contains named continuation property | No corpus findings; equivalence unproven | The fourth Swagger rule checks a named property in its selected successful response schema. TypeSpec enforces standard envelope and paging metadata for its own operation scope; response selection and custom names differ. See the [member note](members/XmsPageableMustHaveCorrespondingResponse/migration.md). |
 | Array-valued `value` | Observed coverage; selectors differ | All three observed naming findings match a TypeSpec invalid-array category on the same operation. Swagger selects pageable `_List` operations; TypeSpec checks `@list` operations. See the [member note](members/CollectionObjectPropertiesNaming/migration.md). |
 | Single-page `value`-only response | Both report an envelope finding | Two Compute `ListSinglePage` extension responses lack `nextLink` and are flagged by both envelope checks. This is separate from Swagger accepting `nextLinkName: null` in an existing paging extension. See the [raw findings](full-corpus/warning-details-03.md#project-182). |
 | Compliant inherited paging envelope | Covered by focused tests | The [response tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts#L261) and [paging tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts#L194) include valid inherited responses and metadata. |
@@ -107,10 +116,12 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
 - Member notes:
   [envelope](members/GetCollectionOnlyHasValueAndNextLink/migration.md),
   [value naming](members/CollectionObjectPropertiesNaming/migration.md), and
-  [pageability](members/XmsPageableForListCalls/migration.md).
+  [pageability](members/XmsPageableForListCalls/migration.md),
+  [corresponding response](members/XmsPageableMustHaveCorrespondingResponse/migration.md).
   [Source and focused-test evidence](evidence-details.md) describes the
   shared implementation and checks.
-- This work relates to [issue #5940](https://github.com/Azure/typespec-azure/issues/5940)
+- This work relates to [issue #5940](https://github.com/Azure/typespec-azure/issues/5940),
+  [issue #6037](https://github.com/Azure/typespec-azure/issues/6037),
   and the [collection-API agreement](https://github.com/Azure/typespec-azure/issues/5970#issuecomment-6648847404).
   `list-operation-missing-pageable` is retired in favor of
   `list-response-envelope`; `no-query-in-collection` remains separate.

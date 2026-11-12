@@ -2,6 +2,7 @@
 
 Candidate: `db524dc7b54d3488377b24e8d489a7b739ba6dd4`. Specs: `939d1a81ec5159e61394cd8ca2589c2c0ce49ccd`.
 Existing Swagger results were reused. TypeSpec was assessed target-only; source diagnostics were aligned to HTTP-reachable locations in the selected API version.
+The fourth rule, `XmsPageableMustHaveCorrespondingResponse`, was separately rerun on all 651 emitted inputs and produced no findings, so it adds no Swagger-only cases. See its [member note](../members/XmsPageableMustHaveCorrespondingResponse/migration.md).
 Matching pairs each Swagger rule finding with the corresponding TypeSpec diagnostic category on the same HTTP operation. The instrumented TypeSpec diagnostics were checked against the original receipts; raw Swagger repetitions are retained.
 Envelope findings are matched to invalid-envelope warnings, missing `x-ms-pageable` findings to operation-level missing-`@list` or paging-metadata warnings, and value-property findings to invalid-array warnings.
 

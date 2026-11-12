@@ -6,7 +6,8 @@
   "validatorRules": [
     "GetCollectionOnlyHasValueAndNextLink",
     "CollectionObjectPropertiesNaming",
-    "XmsPageableForListCalls"
+    "XmsPageableForListCalls",
+    "XmsPageableMustHaveCorrespondingResponse"
   ],
   "membershipRevision": "e1b8b207a196cf2fc288593efec22e6e38ab98d5",
   "candidateBase": {

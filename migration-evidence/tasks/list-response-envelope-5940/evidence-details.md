@@ -7,6 +7,7 @@
 | `GetCollectionOnlyHasValueAndNextLink` | [Implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/get-collection-only-has-value-and-next-link.ts) | [Guideline](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/get-collection-only-has-value-and-next-link.md) |
 | `CollectionObjectPropertiesNaming`    | [Implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/collection-object-properties-naming.ts)    | [Guideline](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/collection-object-properties-naming.md)    |
 | `XmsPageableForListCalls`              | [Implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/xms-pageable-for-list-calls.ts)                 | [Guideline](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/xms-pageable-for-list-calls.md)                 |
+| `XmsPageableMustHaveCorrespondingResponse` | [Implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/native/legacyRules/XmsPageableMustHaveCorrespondingResponse.ts) | [Rule notes](members/XmsPageableMustHaveCorrespondingResponse/migration.md) |
 
 The ARM ruleset selector at
 [e1b8b207](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/az-arm.ts)
@@ -15,7 +16,9 @@ ending in `}`, `operations`, or `default`. The envelope function checks the
 selected direct properties. The pageable check applies a list-path heuristic
 and requires a truthy `x-ms-pageable`; the naming check selects pageable
 operations whose IDs match its `_List` pattern and checks for an array-valued
-`value`.
+`value`. The fourth, native rule selects operations with `x-ms-pageable`, skips
+falsy `nextLinkName`, and checks whether the selected successful response's
+resolved schema contains the named property.
 
 The TypeSpec population includes project `@list` operations and
 collection-shaped GETs, including `/operations`. Unmarked collection GETs
@@ -53,6 +56,15 @@ All 489 selected ARM projects were assessed at specs revision
 findings; TypeSpec recorded 616 raw warnings, of which 608 were
 HTTP-aligned. Swagger results were grouped by project/rule/JSON path for the
 operation-level analysis. The two sides' raw and grouped units differ.
+
+The fourth rule was rerun separately using the installed
+`@microsoft.azure/openapi-validator-core` 1.0.7 and
+`@microsoft.azure/openapi-validator-rulesets` 2.2.6, against all 651 emitted
+Swagger inputs including the retry. It produced zero findings; a synthetic
+missing-property positive control produced one. The archived validator logs
+also record that this rule was loaded and the native plugin completed for each
+input. The other three Swagger results and the TypeSpec receipts were reused.
+See the [fourth-rule member note](members/XmsPageableMustHaveCorrespondingResponse/migration.md).
 
 The full run used the latest emitted API version per project. TypeSpec was
 target-only; project-default activation was not assessed. It reused 169

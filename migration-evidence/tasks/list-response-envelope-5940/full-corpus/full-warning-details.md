@@ -2,6 +2,7 @@
 
 Candidate: `db524dc7b54d3488377b24e8d489a7b739ba6dd4`. Specs: `939d1a81ec5159e61394cd8ca2589c2c0ce49ccd`.
 The 904 Swagger and 616 TypeSpec raw diagnostics are retained line by line, including duplicates, in the linked parts below.
+The separately rerun `XmsPageableMustHaveCorrespondingResponse` rule produced no additional findings.
 Verified source links are pinned; other generated input paths are identified but not published.
 
 ## Projects with recorded warnings
