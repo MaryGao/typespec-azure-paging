@@ -27,7 +27,7 @@ rule has no separately attributable raw total for this member.
 
 | Behavior | Result | Rationale |
 | --- | --- | --- |
-| Missing or non-array `value` | Observed coverage | The three findings match TypeSpec invalid-array categories; see the raw findings for [Machine Learning](../../full-corpus/full-warning-details.md#project-304) and [App Service](../../full-corpus/full-warning-details.md#project-483). |
+| Missing or non-array `value` | Observed coverage | The three findings match TypeSpec invalid-array categories; see the raw findings for [Machine Learning](../../full-corpus/warning-details-02.md#project-304) and [App Service](../../full-corpus/warning-details-02.md#project-483). |
 | Different list selectors | Scope differs | Swagger uses an operation-ID pattern and paging extension, while TypeSpec uses `@list`; see the [pinned implementations](../../evidence-details.md#frozen-membership). |
 | Compliant array and paging metadata | Covered by focused tests | The [paging tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts#L194) accept compliant inherited responses. |
 

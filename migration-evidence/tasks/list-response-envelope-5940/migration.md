@@ -47,7 +47,7 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
 | Envelope properties | Observed coverage; different inheritance behavior | 284 distinct Swagger envelope findings match a TypeSpec invalid-envelope category on the same operation. The 28 inherited-envelope findings differ; see the [analysis](full-corpus/swagger-only-analysis.md). |
 | List and continuation metadata | Observed coverage; scope and policy differ | 277 distinct missing-pageable findings match an operation-level TypeSpec list/paging category. Swagger accepts `nextLinkName: null`; TypeSpec requires continuation metadata. See the [member note](members/XmsPageableForListCalls/migration.md). |
 | Array-valued `value` | Observed coverage; selectors differ | All three observed naming findings match a TypeSpec invalid-array category on the same operation. Swagger selects pageable `_List` operations; TypeSpec checks `@list` operations. See the [member note](members/CollectionObjectPropertiesNaming/migration.md). |
-| Single-page `value`-only response | Both report an envelope finding | Two Compute `ListSinglePage` extension responses lack `nextLink` and are flagged by both envelope checks. This is separate from Swagger accepting `nextLinkName: null` in an existing paging extension. See the [raw findings](full-corpus/full-warning-details.md#project-182). |
+| Single-page `value`-only response | Both report an envelope finding | Two Compute `ListSinglePage` extension responses lack `nextLink` and are flagged by both envelope checks. This is separate from Swagger accepting `nextLinkName: null` in an existing paging extension. See the [raw findings](full-corpus/warning-details-03.md#project-182). |
 | Compliant inherited paging envelope | Covered by focused tests | The [response tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts#L261) and [paging tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts#L194) include valid inherited responses and metadata. |
 
 ## 4. Why diagnostic counts differ
@@ -55,7 +55,7 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
 - **Repeated Swagger inputs:** Network has 340 raw Swagger findings but 32
   distinct project/rule/JSON paths, versus 32 aligned TypeSpec warnings.
   Findings repeat across emitted files; the 32 paths match TypeSpec diagnostic
-  categories on their operations. See [Network's raw findings](full-corpus/full-warning-details.md#project-356).
+  categories on their operations. See [Network's raw findings](full-corpus/warning-details-04.md#project-356).
 - **Inherited `nextLink`:** DataProtection has 15 and RecoveryServicesBackup
   13 Swagger envelope findings, with no corresponding TypeSpec warning. The
   Swagger check inspects direct properties rather than inherited `allOf`
@@ -70,7 +70,7 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
   envelope findings for three Compute `InstanceView` GETs, whose responses are
   status rather than lists. These six findings per side appear to result from
   collection-path classification; review the scope before changing either
-  rule. See the [Compute findings](full-corpus/full-warning-details.md#project-182).
+  rule. See the [Compute findings](full-corpus/warning-details-03.md#project-182).
 - **Broader TypeSpec scope:** PolicyInsights has 18 aligned TypeSpec warnings
   versus one distinct Swagger path; 17 are envelope warnings on `@list` POST
   responses. API Management has 122 versus 112, with ten extra envelope

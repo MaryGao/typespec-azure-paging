@@ -31,7 +31,7 @@ Category matching is not proof of complete predicate equivalence. See the
 | --- | --- | --- |
 | Collection GET and `@list` scope | Covered; broader than Swagger | The TypeSpec rule also selects `@list` operations and `/operations`; see the [scope tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts). |
 | Inherited `value` and `nextLink` | Covered; behavior differs | TypeSpec walks inherited properties; the [28 cases](../../full-corpus/swagger-only-analysis.md) show Swagger's direct-property false positives. |
-| Single-page `value`-only response | Both report an envelope finding | Two [Compute extension-list responses](../../full-corpus/full-warning-details.md#project-182) lack `nextLink` and are flagged by both envelope checks. |
+| Single-page `value`-only response | Both report an envelope finding | Two [Compute extension-list responses](../../full-corpus/warning-details-03.md#project-182) lack `nextLink` and are flagged by both envelope checks. |
 | Extra properties and indexers | Covered by focused tests | TypeSpec reports an invalid envelope independently of paging defects; see the [response tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts#L321). |
 
 ## 4. Why diagnostic counts differ
