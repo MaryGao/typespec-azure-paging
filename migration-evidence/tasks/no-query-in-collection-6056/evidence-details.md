@@ -16,7 +16,7 @@ The [`AiGateways_ListByResourceGroup` TypeSpec operation](https://github.com/Azu
 
 The Swagger linter reports all seven. The captured TypeSpec run has no corresponding warning for those names. For `top`, the [saved source-location match](runs/full-20261111/full-swagger-only-first.sanitized.json) points to the shared [Azure.Core declaration](https://github.com/MaryGao/typespec-azure-paging/blob/35bba1703d4c261d3807a67a3c1cfa6e2c923d12/packages/typespec-azure-core/lib/models.tsp#L62-L66); the [raw TypeSpec diagnostic extract](runs/full-20261111/native-483.raw-diagnostics.json) records the project's other warnings. The compiler's [linter collector](https://github.com/microsoft/typespec/blob/e06f6b34fdad9d7f49bfc084a598b03c60684e9a/packages/compiler/src/core/linter.ts#L566-L574) retains project-source diagnostics but drops library-source diagnostics. Plain `filter` is not the allowed `$filter` spelling.
 
-This is a confirmed gap, not proof that it is the only one in the corpus. [Azure/typespec-azure#6066](https://github.com/Azure/typespec-azure/issues/6066) tracks the impact and the unresolved decision on reporting at a project usage site.
+This is the only Swagger-only gap confirmed by this run; because one project is unassessed, it does not establish that no other gaps exist in the full corpus. [Azure/typespec-azure#6066](https://github.com/Azure/typespec-azure/issues/6066) tracks the Azure impact and reporting question. The compiler limitation is related to [microsoft/typespec#1997](https://github.com/microsoft/typespec/issues/1997) and [microsoft/typespec#11861](https://github.com/microsoft/typespec/issues/11861).
 
 ## Five-project comparison
 

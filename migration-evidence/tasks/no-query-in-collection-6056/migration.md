@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec linter [`no-query-in-collection`](https://github.com/MaryGao/typespec-azure-paging/blob/35bba1703d4c261d3807a67a3c1cfa6e2c923d12/packages/typespec-azure-resource-manager/src/rules/no-query-in-collection.ts) migrates the Swagger linter [`QueryParametersInCollectionGet`](https://github.com/Azure/azure-openapi-validator/blob/main/docs/query-parameters-in-collection-get.md). **It is not fully equivalent:** TypeSpec currently drops diagnostics targeting library-defined query parameters, as tracked in [Azure/typespec-azure#6066](https://github.com/Azure/typespec-azure/issues/6066). TypeSpec also checks `@list` operations beyond Swagger's collection-GET scope. Full finding-by-finding correspondence remains unassessed.
+The TypeSpec linter [`no-query-in-collection`](https://github.com/MaryGao/typespec-azure-paging/blob/35bba1703d4c261d3807a67a3c1cfa6e2c923d12/packages/typespec-azure-resource-manager/src/rules/no-query-in-collection.ts) migrates the Swagger linter [`QueryParametersInCollectionGet`](https://github.com/Azure/azure-openapi-validator/blob/main/docs/query-parameters-in-collection-get.md). **The full-corpus screen confirms a Swagger-only gap:** App Service query parameters defined in Azure.Core are reported by Swagger but receive no TypeSpec warning because the compiler drops diagnostics targeting library source. The gap is tracked in [Azure/typespec-azure#6066](https://github.com/Azure/typespec-azure/issues/6066), with related compiler issues [microsoft/typespec#1997](https://github.com/microsoft/typespec/issues/1997) and [microsoft/typespec#11861](https://github.com/microsoft/typespec/issues/11861). Its full extent remains unassessed.
 
 ## 2. Actual coverage
 
