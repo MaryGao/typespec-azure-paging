@@ -1,39 +1,116 @@
 # Collection response and paging migration
 
-## 1. Scope
+## 1. Conclusion and scope
 
-The TypeSpec `list-response-envelope` rule combines the intent of these Swagger validators:
+The TypeSpec linter rule `list-response-envelope` combines the intent of the
+Swagger linter rules
+[`GetCollectionOnlyHasValueAndNextLink`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/get-collection-only-has-value-and-next-link.ts),
+[`CollectionObjectPropertiesNaming`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/collection-object-properties-naming.ts),
+and [`XmsPageableForListCalls`](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/xms-pageable-for-list-calls.ts).
 
-- [GetCollectionOnlyHasValueAndNextLink](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/get-collection-only-has-value-and-next-link.ts)
-- [CollectionObjectPropertiesNaming](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/collection-object-properties-naming.ts)
-- [XmsPageableForListCalls](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/xms-pageable-for-list-calls.ts)
+**The rules are not scope- or bug-for-bug equivalent.** TypeSpec also checks
+`@list` operations outside the Swagger collection-GET selectors and requires
+continuation metadata where Swagger accepts `nextLinkName: null`. The Swagger
+envelope check overlooks inherited properties, producing 28 apparent false
+positives that TypeSpec avoids. Both linters also appear to flag three Compute
+status GETs that are not lists. Complete predicate equivalence and default rule
+activation remain unassessed.
 
-The rule selects project `@list` operations and collection-shaped GET paths. Operation paging and HTTP 200 response-envelope findings are reported independently. One envelope diagnostic covers missing or extra properties on a response model. The four message types cover missing `@list`, invalid `value` array, paging metadata/name issues, and invalid envelopes.
+## 2. Actual coverage
 
-The previous `list-operation-missing-pageable` rule ID is retired; existing configurations and suppressions must migrate to `list-response-envelope`. `no-query-in-collection` is separate and unchanged.
+All 489 selected ARM projects were assessed; none remained unassessed.
+Reported diagnostics are individual findings, not project counts.
 
-## 2. Five-project comparison
-
-Candidate: `db524dc7b54d3488377b24e8d489a7b739ba6dd4`. Specs: `939d1a81ec5159e61394cd8ca2589c2c0ce49ccd`. TypeSpec was assessed in target-only mode with HTTP-reachable alignment; project-default activation was not assessed.
-
-| Project | Swagger findings | TypeSpec warnings |
+| Count | Swagger linter | TypeSpec linter |
 | --- | ---: | ---: |
-| Advisor | 2 | 2 |
-| Compute | 22 | 22 |
-| Key Vault | 4 | 4 |
-| Network | 32 distinct rule paths (340 raw) | 32 |
-| Storage | 8 | 8 |
+| Reported diagnostics, raw | 904 | 616 |
 
-Network's 340 raw findings repeat across 19 emitted Swagger files. They reduce to 19 distinct pageable paths and 13 distinct envelope paths. No project had a higher TypeSpec count in this comparison. Equal counts do not prove finding-by-finding or predicate equivalence. `CollectionObjectPropertiesNaming` had no observations in these projects, which does not establish its semantic coverage.
+**Assessed coverage:** The Swagger findings comprise 594 distinct
+project/rule/JSON paths. Of these, 564 have a corresponding TypeSpec
+diagnostic category on the same operation; 28 are the inherited-envelope
+findings above, and two are attributed to a referenced sibling document whose
+TypeSpec warnings occur in the separate PricingsAPI project. The matching
+uses operation and diagnostic category, not one-to-one defect identity.
+Comparable violation totals and coverage percentages are therefore
+unassessed; matching categories do not prove complete predicate equivalence.
 
-The existing Swagger datasets were reused. The updated TypeSpec rule was loaded into the same installed runtime using an isolated loader and a session copy of the native worker with a ruleset-alias identification fix. The shared specs checkout and worker were not changed. The compared compiled rule's SHA-256 is `0561fdb5b04b7867353679093a40579fdd8e167252a75cddc2253762335a392a`.
+TypeSpec has 608 HTTP-aligned warnings. Compared with distinct Swagger paths,
+12 projects have higher counts, 474 equal counts, and three lower counts; the
+units differ, so these deltas are not counts of unmatched warnings.
+See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
+[complete project table](full-corpus/full-validation.md#projects).
 
-## 3. Remaining differences
+## 3. Function-level coverage
 
-TypeSpec checks native paging metadata, inherited properties, JSON names, and open indexers; its `@list` scope includes operations beyond Swagger's collection GET selectors. The rule also requires TypeSpec paging-property names to match emitted JSON names because AutoRest uses TypeSpec names in `x-ms-pageable`. These checks can produce findings beyond Swagger in other projects.
+| Behavior | Result | Rationale |
+| --- | --- | --- |
+| Envelope properties | Observed coverage; different inheritance behavior | 284 distinct Swagger envelope findings match a TypeSpec invalid-envelope category on the same operation. The 28 inherited-envelope findings differ; see the [analysis](full-corpus/swagger-only-analysis.md). |
+| List and continuation metadata | Observed coverage; scope and policy differ | 277 distinct missing-pageable findings match an operation-level TypeSpec list/paging category. Swagger accepts `nextLinkName: null`; TypeSpec requires continuation metadata. See the [member note](members/XmsPageableForListCalls/migration.md). |
+| Array-valued `value` | Observed coverage; selectors differ | All three observed naming findings match a TypeSpec invalid-array category on the same operation. Swagger selects pageable `_List` operations; TypeSpec checks `@list` operations. See the [member note](members/CollectionObjectPropertiesNaming/migration.md). |
+| Single-page `value`-only response | Both report an envelope finding | Two Compute `ListSinglePage` extension responses lack `nextLink` and are flagged by both envelope checks. This is separate from Swagger accepting `nextLinkName: null` in an existing paging extension. See the [raw findings](full-corpus/full-warning-details.md#project-182). |
+| Compliant inherited paging envelope | Covered by focused tests | The [response tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope.test.ts#L261) and [paging tests](https://github.com/Azure/typespec-azure/blob/db524dc7b54d3488377b24e8d489a7b739ba6dd4/packages/typespec-azure-resource-manager/test/rules/list-response-envelope-paging.test.ts#L194) include valid inherited responses and metadata. |
 
-The three Compute `InstanceView` GETs return status rather than lists and appear to be false positives in both validators. Single-page responses without `nextLink` are also reported by the selected Swagger rules and the TypeSpec rule.
+## 4. Why diagnostic counts differ
 
-## 4. Verification
+- **Repeated Swagger inputs:** Network has 340 raw Swagger findings but 32
+  distinct project/rule/JSON paths, versus 32 aligned TypeSpec warnings.
+  Findings repeat across emitted files; the 32 paths match TypeSpec diagnostic
+  categories on their operations. See [Network's raw findings](full-corpus/full-warning-details.md#project-356).
+- **Inherited `nextLink`:** DataProtection has 15 and RecoveryServicesBackup
+  13 Swagger envelope findings, with no corresponding TypeSpec warning. The
+  Swagger check inspects direct properties rather than inherited `allOf`
+  properties; the effective schemas contain exactly `value` and `nextLink`.
+  This appears to be a Swagger false-positive bug, not a missing TypeSpec
+  envelope check. See the [28 individual cases](full-corpus/swagger-only-analysis.md).
+- **Referenced document:** BatchPricingsAPI records four raw findings for two
+  distinct paths in a sibling `pricings.json`, with no TypeSpec warning in
+  BatchPricingsAPI. Both corresponding TypeSpec warning categories occur in
+  PricingsAPI. See the [referenced-document analysis](full-corpus/swagger-only-analysis.md#referenced-swagger-document-not-an-additional-typespec-miss).
+- **Shared possible false positives:** Both linters report paging/list and
+  envelope findings for three Compute `InstanceView` GETs, whose responses are
+  status rather than lists. These six findings per side appear to result from
+  collection-path classification; review the scope before changing either
+  rule. See the [Compute findings](full-corpus/full-warning-details.md#project-182).
+- **Broader TypeSpec scope:** PolicyInsights has 18 aligned TypeSpec warnings
+  versus one distinct Swagger path; 17 are envelope warnings on `@list` POST
+  responses. API Management has 122 versus 112, with ten extra envelope
+  warnings on report/action or `operations` paths. AzureArcData and Compute
+  BulkActions each have four TypeSpec warnings versus no Swagger findings on
+  two `@list` POST responses. See the [investigated differences](full-corpus/full-validation.md#investigated-count-differences).
+  These reflect the broader TypeSpec scope; review that policy rather than
+  treating the count deltas alone as missing Swagger coverage.
+- The other eight projects with higher aligned TypeSpec counts have not all
+  been dispositioned finding by finding. Their [raw warnings and project
+  counts](full-corpus/full-validation.md#projects) remain available for review;
+  no additional unmatched-warning total is inferred.
 
-The focused ARM rule tests, ARM source build, changed-file lint, formatting, and whitespace checks passed. The five-project comparison above is not a full-corpus validation.
+## NOTES
+
+- The assessed candidate was
+  [`db524dc7`](https://github.com/Azure/typespec-azure/tree/db524dc7b54d3488377b24e8d489a7b739ba6dd4)
+  and the specs revision was
+  [`939d1a81`](https://github.com/Azure/azure-rest-api-specs/tree/939d1a81ec5159e61394cd8ca2589c2c0ce49ccd).
+  PR [#6044](https://github.com/Azure/typespec-azure/pull/6044) subsequently
+  added only a generated-documentation formatting change at `e1e372fc`; the
+  assessed rule source was unchanged.
+- Projects were selected by `main.tsp` and an ARM-ruleset configuration.
+  Swagger used the latest emitted API version per project. TypeSpec ran
+  target-only with HTTP-reachable location alignment; project-default
+  activation and other API versions were not assessed. The full run reused
+  169 verified TypeSpec prepass results and included one successful retry.
+- The [full comparison](full-corpus/full-validation.md), [raw warnings
+  line by line](full-corpus/full-warning-details.md), and
+  [Swagger-only analysis](full-corpus/swagger-only-analysis.md) retain the
+  observations and limitations. Some generated Swagger input files and
+  machine-readable receipts remain in the original validation environment
+  and are not published in these appendices.
+- Member notes:
+  [envelope](members/GetCollectionOnlyHasValueAndNextLink/migration.md),
+  [value naming](members/CollectionObjectPropertiesNaming/migration.md), and
+  [pageability](members/XmsPageableForListCalls/migration.md).
+  [Source and focused-test evidence](evidence-details.md) describes the
+  shared implementation and checks.
+- This work relates to [issue #5940](https://github.com/Azure/typespec-azure/issues/5940)
+  and the [collection-API agreement](https://github.com/Azure/typespec-azure/issues/5970#issuecomment-6648847404).
+  `list-operation-missing-pageable` is retired in favor of
+  `list-response-envelope`; `no-query-in-collection` remains separate.

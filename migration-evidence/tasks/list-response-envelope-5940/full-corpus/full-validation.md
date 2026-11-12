@@ -1,0 +1,544 @@
+# Full list-response-envelope comparison
+
+Candidate: `db524dc7b54d3488377b24e8d489a7b739ba6dd4`. Specs: `939d1a81ec5159e61394cd8ca2589c2c0ce49ccd`.
+Projects were discovered by `main.tsp` and a `tspconfig.yaml` referencing the resource-manager ruleset, including `.Management` layouts; data-plane-only configurations are outside this scope.
+Swagger uses the latest emitted API version per project. TypeSpec ran in target-only mode with HTTP-reachable location alignment; project-default activation was not assessed.
+
+Swagger runtime: Previously installed ARM artifact; its installed dist/lib files match that artifact. The current candidate artifact differs only in the collection-rule files and dependency-metadata key order. TypeSpec runtime: Installed runtime with the current candidate rule loaded by an isolated loader.
+
+169 TypeSpec project result(s) were reused from a completed prepass after matching revisions, API versions, runtime identities, and receipt hashes.
+
+Successful independent retries replaced failed primary results for 1 projects. Original and retry evidence are retained.
+
+| Measure | Count |
+| --- | ---: |
+| Selected / assessed projects | 489 / 489 |
+| Unassessed projects | 0 |
+| Swagger raw occurrences / distinct rule paths | 904 / 594 |
+| TypeSpec raw / aligned warnings | 616 / 608 |
+| Projects with more / equal / fewer raw TypeSpec warnings by count | 13 / 472 / 4 |
+| Projects with more / equal / fewer aligned TypeSpec warnings by count | 12 / 474 / 3 |
+
+Distinct Swagger paths are counted per project by rule and JSON path, ignoring repeated emitted files. TypeSpec aligned warnings retain repeated diagnostics; raw TypeSpec warnings also include source findings outside HTTP alignment. These are different identity domains: count differences do not identify unmatched warnings, and equal counts do not prove equivalence.
+
+## Investigated count differences
+
+- **PolicyInsights (+17 aligned):** The one missing-`@list` warning corresponds to the Swagger missing-`x-ms-pageable` finding on the operations GET. The other 17 are repeated envelope warnings on `@list` POST `queryResults` responses; Swagger's selected envelope rule checks collection GETs. The response models contain OData metadata in addition to `value` and `nextLink`.
+- **API Management (+10):** The extra envelope warnings are on report/action paths and paths ending in `operations`, beyond the selected Swagger envelope-rule scope.
+- **AzureArcData (+4):** Two `@list` POST responses use `columns`, `rows`, and `nextLink`; each triggers missing-`value` and invalid-envelope warnings. These do not match the Swagger GET selectors.
+- **Compute BulkActions (+4):** Two `@list` POST action responses use `results` and `nextLink`; each triggers missing-`value` and invalid-envelope warnings. These do not match the Swagger GET selectors.
+- **[Compute](full-warning-details.md#project-182) (22 Swagger and 22 aligned TypeSpec findings):** Both linters flag three `InstanceView` GETs that return status rather than lists; these appear to be shared false positives. Both envelope checks also flag two `ListSinglePage` extension-list responses with `value` but no `nextLink`.
+- **[DataProtection](full-warning-details.md#project-217) and [RecoveryServicesBackup](full-warning-details.md#project-391) (15 and 13 Swagger findings, respectively; no TypeSpec warnings):** All 28 Swagger envelope findings are on schemas with a directly declared `value` and an inherited `nextLink` in `allOf`. Including the inherited properties yields exactly `value` and `nextLink`; the Swagger rule checks only the direct `properties` object, while TypeSpec checks inherited properties. These appear to be Swagger false positives rather than missed invalid envelopes.
+- **[BatchPricingsAPI](full-warning-details.md#project-427) (4 raw Swagger findings; no TypeSpec warnings):** The findings concern the sibling `pricings.json`, not an operation in `batchPricings.json`, and repeat two findings across validator inputs. The same two findings and corresponding TypeSpec warnings occur in the separate PricingsAPI project.
+
+These examples show differences in rule scope and schema handling. The aggregate difference (608 aligned TypeSpec warnings versus 594 distinct Swagger paths) is a count comparison, not a count of confirmed unmatched equivalent warnings.
+
+[Raw warnings, line by line](full-warning-details.md) | [Swagger-only analysis](swagger-only-analysis.md)
+
+Machine-readable execution receipts are retained in the original validation environment and are not published in this appendix.
+
+## Swagger rules
+
+| Rule | Raw occurrences | Distinct rule paths |
+| --- | ---: | ---: |
+| GetCollectionOnlyHasValueAndNextLink | 438 | 313 |
+| CollectionObjectPropertiesNaming | 3 | 3 |
+| XmsPageableForListCalls | 463 | 278 |
+
+## Projects
+
+| Project | Swagger raw | Swagger distinct paths | TypeSpec raw | TypeSpec aligned | Aligned minus paths |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| [specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyInsightsApi](full-warning-details.md#project-372) | 1 | 1 | 18 | 18 | 17 |
+| [specification/apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement](full-warning-details.md#project-12) | 112 | 112 | 122 | 122 | 10 |
+| [specification/azurearcdata/resource-manager/Microsoft.AzureArcData/AzureArcData](full-warning-details.md#project-157) | 0 | 0 | 4 | 4 | 4 |
+| [specification/compute/resource-manager/Microsoft.Compute/Bulkactions](full-warning-details.md#project-181) | 0 | 0 | 4 | 4 | 4 |
+| [specification/web/resource-manager/Microsoft.Web/AppService](full-warning-details.md#project-483) | 67 | 67 | 69 | 69 | 2 |
+| [specification/attestation/resource-manager/Microsoft.Attestation/Attestation](full-warning-details.md#project-30) | 10 | 10 | 11 | 11 | 1 |
+| [specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices](full-warning-details.md#project-304) | 5 | 5 | 6 | 6 | 1 |
+| [specification/management/resource-manager/Microsoft.Management/ManagementGroups](full-warning-details.md#project-308) | 3 | 3 | 4 | 4 | 1 |
+| [specification/purview/resource-manager/Microsoft.Purview/Purview](full-warning-details.md#project-386) | 3 | 3 | 4 | 4 | 1 |
+| [specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth](full-warning-details.md#project-408) | 1 | 1 | 2 | 2 | 1 |
+| [specification/search/resource-manager/Microsoft.Search/Search](full-warning-details.md#project-419) | 0 | 0 | 5 | 1 | 1 |
+| [specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole](full-warning-details.md#project-457) | 5 | 5 | 6 | 6 | 1 |
+| [specification/advisor/resource-manager/Microsoft.Advisor/Advisor](full-warning-details.md#project-0) | 2 | 2 | 2 | 2 | 0 |
+| specification/agricultureplatform/AgriculturePlatform.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/aiinfraoptimization/resource-manager/Microsoft.AIInfraOptimization/AIInfraOptimization | 0 | 0 | 0 | 0 | 0 |
+| specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertProcessingRules | 0 | 0 | 0 | 0 | 0 |
+| specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertRuleRecommendations | 0 | 0 | 0 | 0 | 0 |
+| [specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/AlertsManagement](full-warning-details.md#project-5) | 8 | 8 | 8 | 8 | 0 |
+| specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PreviewAlertRule | 0 | 0 | 0 | 0 | 0 |
+| specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups | 0 | 0 | 0 | 0 | 0 |
+| specification/alertsmanagement/resource-manager/Microsoft.AlertsManagement/TenantActivityLogAlerts | 0 | 0 | 0 | 0 | 0 |
+| specification/anyscale/resource-manager/Anyscale.Platform/platform | 0 | 0 | 0 | 0 | 0 |
+| specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter | 0 | 0 | 0 | 0 | 0 |
+| specification/apimanagement/resource-manager/Microsoft.ApiManagement/AIGateway | 0 | 0 | 0 | 0 | 0 |
+| [specification/app/resource-manager/Microsoft.App/ContainerApps](full-warning-details.md#project-13) | 13 | 13 | 13 | 13 | 0 |
+| specification/app/resource-manager/Microsoft.App/SreAgent | 0 | 0 | 0 | 0 | 0 |
+| specification/appcomplianceautomation/resource-manager/Microsoft.AppComplianceAutomation/AppComplianceAutomation | 0 | 0 | 0 | 0 | 0 |
+| specification/appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/AnalyticsItems | 0 | 0 | 0 | 0 | 0 |
+| [specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentAPIs](full-warning-details.md#project-18) | 12 | 12 | 12 | 12 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/ComponentLinkedStorageAccountApi | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Components | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/DeletedWorkbookApi | 0 | 0 | 0 | 0 | 0 |
+| [specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/Favorites](full-warning-details.md#project-22) | 1 | 1 | 1 | 1 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/LiveTokenApi | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestLocation | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WebTestsApi | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkBookOperations | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbooksApi | 0 | 0 | 0 | 0 | 0 |
+| specification/applicationinsights/resource-manager/Microsoft.Insights/ApplicationInsights/WorkbookTemplatesApi | 0 | 0 | 0 | 0 | 0 |
+| specification/applink/AppLink.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AccessReview | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/AttributeNamespaces | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/Authorization | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ClassicAdmin | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/DenyAssignment | 0 | 0 | 0 | 0 | 0 |
+| [specification/authorization/resource-manager/Microsoft.Authorization/Authorization/PrivilegedAccess](full-warning-details.md#project-36) | 1 | 1 | 1 | 1 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/ProviderOperations | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleAssignment | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleDefinitions | 0 | 0 | 0 | 0 | 0 |
+| specification/authorization/resource-manager/Microsoft.Authorization/Authorization/RoleManagementAlerts | 0 | 0 | 0 | 0 | 0 |
+| [specification/automation/resource-manager/Microsoft.Automation/Automation](full-warning-details.md#project-41) | 20 | 20 | 20 | 20 | 0 |
+| specification/awsconnector/AccessAnalyzerAnalyzer.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/AcmCertificateSummary.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ApiGatewayRestApi.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ApiGatewayStage.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/AppSyncGraphqlApi.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/AutoScalingAutoScalingGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Awsconnector.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CloudFormationStack.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CloudFormationStackSet.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CloudFrontDistribution.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CloudTrailTrail.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CloudWatchAlarm.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CodeBuildProject.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/CodeBuildSourceCredentialsInfo.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ConfigServiceConfigurationRecorder.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ConfigServiceConfigurationRecorderStatus.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ConfigServiceDeliveryChannel.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/DatabaseMigrationServiceReplicationInstance.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/DaxCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/DynamoDBContinuousBackupsDescription.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/DynamoDBTable.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2AccountAttribute.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Address.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2FlowLog.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Image.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Instance.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2InstanceStatus.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Ipam.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2KeyPair.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2NetworkAcl.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2NetworkInterface.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2RouteTable.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2SecurityGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Snapshot.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Subnet.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Volume.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2Vpc.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2VPCEndpoint.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Ec2VPCPeeringConnection.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EcrImageDetail.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EcrRepository.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EcsCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EcsService.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EcsTaskDefinition.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EfsFileSystem.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EfsMountTarget.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EksCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EksNodegroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticBeanstalkApplication.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticBeanstalkConfigurationTemplate.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticBeanstalkEnvironment.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticLoadBalancingV2Listener.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticLoadBalancingV2LoadBalancer.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticLoadBalancingV2TargetGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/ElasticLoadBalancingv2TargetHealthDescription.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/EmrCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/GuardDutyDetector.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamAccessKeyLastUsed.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamAccessKeyMetadata.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamInstanceProfile.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamMFADevice.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamPasswordPolicy.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamPolicyVersion.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamRole.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamServerCertificate.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/IamVirtualMFADevice.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/KmsAlias.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/KmsKey.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LambdaFunction.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LambdaFunctionCodeLocation.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LightsailBucket.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LightsailInstance.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LogsLogGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LogsLogStream.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LogsMetricFilter.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/LogsSubscriptionFilter.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Macie2JobSummary.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/MacieAllowList.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/NetworkFirewallFirewall.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/NetworkFirewallFirewallPolicy.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/NetworkFirewallRuleGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/OpenSearchDomainStatus.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/OrganizationsAccount.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/OrganizationsOrganization.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsDBCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsDBInstance.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsDBSnapshot.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsDBSnapshotAttributesResult.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsEventSubscription.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RdsExportTask.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RedshiftCluster.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/RedshiftClusterParameterGroup.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Route53DomainsDomainSummary.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Route53HostedZone.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Route53ResourceRecordSet.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/S3AccessControlPolicy.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/S3AccessPoint.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/S3Bucket.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/S3BucketPolicy.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/S3ControlMultiRegionAccessPointPolicyDocument.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SageMakerApp.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SageMakerNotebookInstanceSummary.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SecretsManagerResourcePolicy.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SecretsManagerSecret.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SnsSubscription.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SnsTopic.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SqsQueue.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SsmInstanceInformation.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SsmParameter.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/SsmResourceComplianceSummaryItem.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/Wafv2LoggingConfiguration.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/awsconnector/WafWebACLSummary.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/azure-kusto/resource-manager/Microsoft.Kusto/Kusto | 0 | 0 | 0 | 0 | 0 |
+| specification/azure-native-integrations/resource-manager/Kore.AgentPlatform/AgentPlatform | 0 | 0 | 0 | 0 | 0 |
+| specification/azuredatatransfer/resource-manager/Microsoft.AzureDataTransfer/AzureDataTransfer | 0 | 0 | 0 | 0 | 0 |
+| specification/azuredependencymap/resource-manager/Microsoft.DependencyMap/DependencyMap | 0 | 0 | 0 | 0 | 0 |
+| specification/azurefleet/resource-manager/Microsoft.AzureFleet/AzureFleet | 0 | 0 | 0 | 0 | 0 |
+| specification/azurelargeinstance/resource-manager/Microsoft.AzureLargeInstance/AzureLargeInstance | 0 | 0 | 0 | 0 | 0 |
+| specification/azureresiliencemanagement/resource-manager/Microsoft.AzureResilienceManagement/AzureResilienceManagement | 0 | 0 | 0 | 0 | 0 |
+| specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCI | 0 | 0 | 0 | 0 | 0 |
+| specification/azurestackhci/resource-manager/Microsoft.AzureStackHCI/StackHCIVM | 0 | 0 | 0 | 0 | 0 |
+| [specification/batch/resource-manager/Microsoft.Batch/Batch](full-warning-details.md#project-165) | 2 | 2 | 2 | 2 | 0 |
+| [specification/billing/resource-manager/Microsoft.Billing/Billing](full-warning-details.md#project-166) | 11 | 11 | 11 | 11 | 0 |
+| [specification/billingbenefits/resource-manager/Microsoft.BillingBenefits/BillingBenefits](full-warning-details.md#project-167) | 1 | 1 | 1 | 1 | 0 |
+| specification/billingtrust/resource-manager/Microsoft.BillingTrust/BillingTrust | 0 | 0 | 0 | 0 | 0 |
+| [specification/botservice/resource-manager/Microsoft.BotService/BotService](full-warning-details.md#project-169) | 4 | 4 | 4 | 4 | 0 |
+| specification/carbon/resource-manager/Microsoft.Carbon/Carbon | 0 | 0 | 0 | 0 | 0 |
+| [specification/cdn/resource-manager/Microsoft.Cdn/Cdn](full-warning-details.md#project-171) | 12 | 12 | 12 | 12 | 0 |
+| specification/cdn/resource-manager/Microsoft.Cdn/EdgeActions | 0 | 0 | 0 | 0 | 0 |
+| specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration | 0 | 0 | 0 | 0 | 0 |
+| specification/chaos/resource-manager/Microsoft.Chaos/Chaos | 0 | 0 | 0 | 0 | 0 |
+| specification/cloudhealth/resource-manager/Microsoft.CloudHealth/CloudHealth | 0 | 0 | 0 | 0 | 0 |
+| specification/codesigning/resource-manager/Microsoft.CodeSigning/CodeSigning | 0 | 0 | 0 | 0 | 0 |
+| [specification/cognitiveservices/resource-manager/Microsoft.CognitiveServices/CognitiveServices](full-warning-details.md#project-177) | 7 | 7 | 7 | 7 | 0 |
+| [specification/commerce/resource-manager/Microsoft.Commerce/Commerce](full-warning-details.md#project-178) | 2 | 2 | 2 | 2 | 0 |
+| specification/communication/resource-manager/Microsoft.Communication/Communication | 0 | 0 | 0 | 0 | 0 |
+| specification/communitytraining/resource-manager/Microsoft.Community/Community | 0 | 0 | 0 | 0 | 0 |
+| [specification/compute/resource-manager/Microsoft.Compute/Compute/Compute](full-warning-details.md#project-182) | 22 | 22 | 22 | 22 | 0 |
+| [specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeDisk](full-warning-details.md#project-183) | 2 | 2 | 2 | 2 | 0 |
+| [specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeGallery](full-warning-details.md#project-184) | 2 | 2 | 2 | 2 | 0 |
+| specification/compute/resource-manager/Microsoft.Compute/Compute/ComputeSku | 0 | 0 | 0 | 0 | 0 |
+| specification/compute/resource-manager/Microsoft.Compute/Recommender | 0 | 0 | 0 | 0 | 0 |
+| specification/compute/resource-manager/Microsoft.Compute/WorkloadManager | 0 | 0 | 0 | 0 | 0 |
+| specification/computebulkactions/ComputeBulkActions.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/computelimit/resource-manager/Microsoft.ComputeLimit/ComputeLimit | 0 | 0 | 0 | 0 | 0 |
+| specification/computeschedule/resource-manager/Microsoft.ComputeSchedule/ComputeSchedule | 0 | 0 | 0 | 0 | 0 |
+| specification/confidentialledger/resource-manager/Microsoft.ConfidentialLedger/ConfidentialLedger | 0 | 0 | 0 | 0 | 0 |
+| specification/confluent/resource-manager/Microsoft.Confluent/Confluent | 0 | 0 | 0 | 0 | 0 |
+| specification/connectedcache/resource-manager/Microsoft.ConnectedCache/ConnectedCache | 0 | 0 | 0 | 0 | 0 |
+| [specification/consumption/resource-manager/Microsoft.Consumption/Consumption](full-warning-details.md#project-194) | 15 | 15 | 15 | 15 | 0 |
+| [specification/containerinstance/resource-manager/Microsoft.ContainerInstance/ContainerInstance](full-warning-details.md#project-195) | 3 | 3 | 3 | 3 | 0 |
+| [specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry](full-warning-details.md#project-196) | 2 | 2 | 2 | 2 | 0 |
+| specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks | 0 | 0 | 0 | 0 | 0 |
+| specification/containerservice/resource-manager/Microsoft.ContainerService/aimanager | 0 | 0 | 0 | 0 | 0 |
+| [specification/containerservice/resource-manager/Microsoft.ContainerService/aks](full-warning-details.md#project-199) | 8 | 8 | 8 | 8 | 0 |
+| specification/containerservice/resource-manager/Microsoft.ContainerService/deploymentsafeguards | 0 | 0 | 0 | 0 | 0 |
+| specification/containerservice/resource-manager/Microsoft.ContainerService/fleet | 0 | 0 | 0 | 0 | 0 |
+| specification/containerservice/resource-manager/Microsoft.ContainerService/nodecustomization | 0 | 0 | 0 | 0 | 0 |
+| specification/containerservice/resource-manager/Microsoft.ContainerService/preparedimagespecification | 0 | 0 | 0 | 0 | 0 |
+| specification/containerstorage/resource-manager/Microsoft.ContainerStorage/ContainerStorage | 0 | 0 | 0 | 0 | 0 |
+| specification/contosowidgetmanager/Contoso.Management | 0 | 0 | 0 | 0 | 0 |
+| [specification/cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB](full-warning-details.md#project-206) | 4 | 4 | 8 | 4 | 0 |
+| [specification/cost-management/resource-manager/Microsoft.CostManagement/CostManagement](full-warning-details.md#project-207) | 8 | 8 | 8 | 8 | 0 |
+| specification/dashboard/resource-manager/Microsoft.Dashboard/Dashboard | 0 | 0 | 0 | 0 | 0 |
+| specification/databasefleetmanager/resource-manager/Microsoft.DatabaseFleetManager/DatabaseFleetManager | 0 | 0 | 0 | 0 | 0 |
+| specification/databasewatcher/resource-manager/Microsoft.DatabaseWatcher/DatabaseWatcher | 0 | 0 | 0 | 0 | 0 |
+| specification/databox/resource-manager/Microsoft.DataBox/DataBox | 0 | 0 | 0 | 0 | 0 |
+| specification/databoxedge/resource-manager/Microsoft.DataBoxEdge/DataBoxEdge | 0 | 0 | 0 | 0 | 0 |
+| specification/databricks/resource-manager/Microsoft.Databricks/Databricks | 0 | 0 | 0 | 0 | 0 |
+| specification/datadog/resource-manager/Microsoft.Datadog/Datadog | 0 | 0 | 0 | 0 | 0 |
+| [specification/datafactory/resource-manager/Microsoft.DataFactory/DataFactory](full-warning-details.md#project-215) | 5 | 5 | 5 | 5 | 0 |
+| specification/datamigration/resource-manager/Microsoft.DataMigration/DataMigration | 0 | 0 | 0 | 0 | 0 |
+| specification/dell/resource-manager/Dell.Storage/DellStorage | 0 | 0 | 0 | 0 | 0 |
+| specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization | 0 | 0 | 0 | 0 | 0 |
+| specification/devcenter/resource-manager/Microsoft.DevCenter/DevCenter | 0 | 0 | 0 | 0 | 0 |
+| [specification/developerhub/resource-manager/Microsoft.DevHub/DeveloperHub](full-warning-details.md#project-221) | 3 | 3 | 3 | 3 | 0 |
+| [specification/deviceprovisioningservices/resource-manager/Microsoft.Devices/DeviceProvisioningServices](full-warning-details.md#project-222) | 5 | 5 | 5 | 5 | 0 |
+| specification/deviceregistry/resource-manager/Microsoft.DeviceRegistry/DeviceRegistry | 0 | 0 | 0 | 0 | 0 |
+| specification/deviceupdate/resource-manager/Microsoft.DeviceUpdate/DuDeviceRegistry | 0 | 0 | 0 | 0 | 0 |
+| specification/devopsinfrastructure/resource-manager/Microsoft.DevOpsInfrastructure/DevOpsInfrastructure | 0 | 0 | 0 | 0 | 0 |
+| specification/devtestlabs/resource-manager/Microsoft.DevTestLab/DevTestLabs | 0 | 0 | 0 | 0 | 0 |
+| specification/discovery/Discovery.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/dns/resource-manager/Microsoft.Network/Dns | 0 | 0 | 0 | 0 | 0 |
+| specification/dnsresolver/resource-manager/Microsoft.Network/DnsResolver | 0 | 0 | 0 | 0 | 0 |
+| specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration | 0 | 0 | 0 | 0 | 0 |
+| specification/domainservices/resource-manager/Microsoft.AAD/DomainServices | 0 | 0 | 0 | 0 | 0 |
+| specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask | 0 | 0 | 0 | 0 | 0 |
+| specification/dynatrace/resource-manager/Dynatrace.Observability/DynatraceObservability | 0 | 0 | 0 | 0 | 0 |
+| specification/edge/resource-manager/Microsoft.Edge/configurationmanager | 0 | 0 | 0 | 0 | 0 |
+| specification/edge/resource-manager/Microsoft.Edge/configurations | 0 | 0 | 0 | 0 | 0 |
+| specification/edge/resource-manager/Microsoft.Edge/disconnectedOperations | 0 | 0 | 0 | 0 | 0 |
+| specification/edge/resource-manager/Microsoft.Edge/edge | 0 | 0 | 0 | 0 | 0 |
+| specification/edge/resource-manager/Microsoft.Edge/sites | 0 | 0 | 0 | 0 | 0 |
+| specification/edgemarketplace/resource-manager/Microsoft.EdgeMarketplace/EdgeMarketplace | 0 | 0 | 0 | 0 | 0 |
+| specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/ObservabilityConfiguration | 0 | 0 | 0 | 0 | 0 |
+| specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemConfiguration | 0 | 0 | 0 | 0 | 0 |
+| specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness | 0 | 0 | 0 | 0 | 0 |
+| specification/edgeorder/resource-manager/Microsoft.EdgeOrder/EdgeOrder | 0 | 0 | 0 | 0 | 0 |
+| specification/edgezones/resource-manager/Microsoft.EdgeZones/EdgeZones | 0 | 0 | 0 | 0 | 0 |
+| [specification/education/resource-manager/Microsoft.Education/Education](full-warning-details.md#project-245) | 1 | 1 | 1 | 1 | 0 |
+| specification/elastic/resource-manager/Microsoft.Elastic/Elastic | 0 | 0 | 0 | 0 | 0 |
+| [specification/elasticsan/resource-manager/Microsoft.ElasticSan/ElasticSan](full-warning-details.md#project-247) | 1 | 1 | 1 | 1 | 0 |
+| specification/eventgrid/resource-manager/Microsoft.EventGrid/EventGrid | 0 | 0 | 0 | 0 | 0 |
+| [specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub](full-warning-details.md#project-249) | 8 | 8 | 8 | 8 | 0 |
+| specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController | 0 | 0 | 0 | 0 | 0 |
+| specification/extendedlocation/resource-manager/Microsoft.ExtendedLocation/CustomLocations | 0 | 0 | 0 | 0 | 0 |
+| specification/fabric/resource-manager/Microsoft.Fabric/Fabric | 0 | 0 | 0 | 0 | 0 |
+| specification/fileshares/resource-manager/Microsoft.FileShares/FileShares | 0 | 0 | 0 | 0 | 0 |
+| specification/fist/resource-manager/Microsoft.IoTFirmwareDefense/IoTFirmwareDefense | 0 | 0 | 0 | 0 | 0 |
+| [specification/frontdoor/resource-manager/Microsoft.Network/FrontDoor](full-warning-details.md#project-255) | 4 | 4 | 4 | 4 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/BigQueryDataset | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/CloudFunction | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ComputeInstance | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/ContainerClusters | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/GcpConnector | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/SQLAdminInstances | 0 | 0 | 0 | 0 | 0 |
+| specification/gcpconnector/resource-manager/Microsoft.GcpConnector/StorageBucket | 0 | 0 | 0 | 0 | 0 |
+| specification/github-network/resource-manager/GitHub.Network/GitHubNetwork | 0 | 0 | 0 | 0 | 0 |
+| [specification/guestconfiguration/resource-manager/Microsoft.GuestConfiguration/Assignments](full-warning-details.md#project-264) | 3 | 3 | 3 | 3 | 0 |
+| specification/hanaonazure/resource-manager/Microsoft.HanaOnAzure/HanaOnAzure | 0 | 0 | 0 | 0 | 0 |
+| specification/hardwaresecuritymodules/resource-manager/Microsoft.HardwareSecurityModules/HardwareSecurityModules | 0 | 0 | 0 | 0 | 0 |
+| [specification/hdinsight/resource-manager/Microsoft.HDInsight/HDInsight](full-warning-details.md#project-267) | 8 | 8 | 8 | 8 | 0 |
+| specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot | 0 | 0 | 0 | 0 | 0 |
+| [specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis](full-warning-details.md#project-269) | 1 | 1 | 1 | 1 | 0 |
+| specification/healthdataaiservices/resource-manager/Microsoft.HealthDataAIServices/HealthDataAIServices | 0 | 0 | 0 | 0 | 0 |
+| specification/help/resource-manager/Microsoft.Help/Help | 0 | 0 | 0 | 0 | 0 |
+| specification/horizondb/resource-manager/Microsoft.HorizonDb/HorizonDb | 0 | 0 | 0 | 0 | 0 |
+| specification/hybridaks/resource-manager/Microsoft.HybridContainerService/HybridContainerService | 0 | 0 | 0 | 0 | 0 |
+| [specification/hybridcompute/resource-manager/Microsoft.HybridCompute/HybridCompute](full-warning-details.md#project-274) | 4 | 4 | 4 | 4 | 0 |
+| specification/hybridconnectivity/resource-manager/Microsoft.HybridConnectivity/HybridConnectivity | 0 | 0 | 0 | 0 | 0 |
+| specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes | 0 | 0 | 0 | 0 | 0 |
+| specification/imagebuilder/resource-manager/Microsoft.VirtualMachineImages/ImageBuilder | 0 | 0 | 0 | 0 | 0 |
+| specification/impact/resource-manager/Microsoft.Impact/Impact | 0 | 0 | 0 | 0 | 0 |
+| specification/informatica/resource-manager/Informatica.DataManagement/Informatica | 0 | 0 | 0 | 0 | 0 |
+| [specification/iothub/resource-manager/Microsoft.Devices/IoTHub](full-warning-details.md#project-280) | 8 | 8 | 8 | 8 | 0 |
+| specification/iotoperations/resource-manager/Microsoft.IoTOperations/IoTOperations | 0 | 0 | 0 | 0 | 0 |
+| specification/iotoperationsdataprocessor/resource-manager/Microsoft.IoTOperationsDataProcessor/IoTOperationsDataProcessor | 0 | 0 | 0 | 0 | 0 |
+| specification/iotoperationsmq/resource-manager/Microsoft.IoTOperationsMQ/IoTOperationsMQ | 0 | 0 | 0 | 0 | 0 |
+| specification/iotoperationsorchestrator/resource-manager/Microsoft.IoTOperationsOrchestrator/IoTOperationsOrchestrator | 0 | 0 | 0 | 0 | 0 |
+| [specification/keyvault/resource-manager/Microsoft.KeyVault/KeyVault](full-warning-details.md#project-285) | 4 | 4 | 4 | 4 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions | 0 | 0 | 0 | 0 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes | 0 | 0 | 0 | 0 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations | 0 | 0 | 0 | 0 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/kubernetesResources | 0 | 0 | 0 | 0 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/operations | 0 | 0 | 0 | 0 | 0 |
+| [specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes](full-warning-details.md#project-291) | 2 | 2 | 2 | 2 | 0 |
+| specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/upgradeAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/kubernetesruntime/resource-manager/Microsoft.KubernetesRuntime/KubernetesRuntime | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrarize/resource-manager/ArizeAi.ObservabilityEval/ObservabilityEval | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrcommvault/Commvault.ContentStore.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrhyperexecute/resource-manager/LambdaTest.HyperExecute/HyperExecute | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrmongodb/resource-manager/MongoDB.Atlas/MongoDBAtlas | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrpinecone/resource-manager/Pinecone.VectorDb/PineconeVectorDb | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage | 0 | 0 | 0 | 0 | 0 |
+| specification/liftrweightsandbiases/resource-manager/Microsoft.WeightsAndBiases/WeightsAndBiases | 0 | 0 | 0 | 0 | 0 |
+| specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting | 0 | 0 | 0 | 0 | 0 |
+| specification/loadtestservice/resource-manager/Microsoft.LoadTestService/playwright | 0 | 0 | 0 | 0 | 0 |
+| specification/logic/resource-manager/Microsoft.Logic/Logic | 0 | 0 | 0 | 0 | 0 |
+| specification/maintenance/resource-manager/Microsoft.Maintenance/Maintenance | 0 | 0 | 0 | 0 | 0 |
+| specification/managednetworkfabric/resource-manager/Microsoft.ManagedNetworkFabric/ManagedNetworkFabric | 0 | 0 | 0 | 0 | 0 |
+| specification/managedoperations/ManagedOps.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/management/resource-manager/Microsoft.Management/ServiceGroups | 0 | 0 | 0 | 0 | 0 |
+| specification/manufacturingplatform/Manufacturingplatform.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/maps/resource-manager/Microsoft.Maps/Maps | 0 | 0 | 0 | 0 | 0 |
+| [specification/marketplace/resource-manager/Microsoft.Marketplace/Marketplace](full-warning-details.md#project-312) | 3 | 3 | 3 | 3 | 0 |
+| [specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Products](full-warning-details.md#project-313) | 4 | 4 | 4 | 4 | 0 |
+| specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Reviews | 0 | 0 | 0 | 0 | 0 |
+| specification/marketplacecatalog/resource-manager/Microsoft.Marketplace/Skus | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/AKSAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/AssessmentProjects | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/AvsAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/BusinessCases | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/Collectors | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/HeterogenousAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/MachineAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/SqlAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/Waves | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/WebAppAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.Migrate/WebAppCompoundAssessments | 0 | 0 | 0 | 0 | 0 |
+| specification/migrate/resource-manager/Microsoft.OffAzure/OffAzure | 0 | 0 | 0 | 0 | 0 |
+| specification/mission/resource-manager/Microsoft.Mission/Mission | 0 | 0 | 0 | 0 | 0 |
+| specification/mongocluster/resource-manager/Microsoft.DocumentDB/MongoCluster | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/DataCollectionRuleConfigurationMetadata | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/ActionGroupsApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogAlertsApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/ActivityLogsApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/AlertRulesIncidentsApi | 0 | 0 | 0 | 0 | 0 |
+| [specification/monitor/resource-manager/Microsoft.Insights/Insights/AutoScaleApi](full-warning-details.md#project-335) | 2 | 2 | 2 | 2 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/DataCollectionApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/DiagnosticsSettings | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/LogProfilesApi | 0 | 0 | 0 | 0 | 0 |
+| [specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricAlertApi](full-warning-details.md#project-339) | 2 | 2 | 2 | 2 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricBaselinesApi | 0 | 0 | 0 | 0 | 0 |
+| [specification/monitor/resource-manager/Microsoft.Insights/Insights/MetricsApi](full-warning-details.md#project-341) | 4 | 4 | 4 | 4 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/NetworkSecurityPerimeterApi | 0 | 0 | 0 | 0 | 0 |
+| [specification/monitor/resource-manager/Microsoft.Insights/Insights/PrivateLinkScopesApi](full-warning-details.md#project-343) | 3 | 3 | 3 | 3 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/ScheduledQueryRuleApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/ServiceDiagnosticsSettingsApi | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/TenantActionGroups | 0 | 0 | 0 | 0 | 0 |
+| specification/monitor/resource-manager/Microsoft.Insights/Insights/VmInsightsOnboarding | 0 | 0 | 0 | 0 | 0 |
+| specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts | 0 | 0 | 0 | 0 | 0 |
+| specification/monitoringservice/resource-manager/Microsoft.Monitor/Agents | 0 | 0 | 0 | 0 | 0 |
+| specification/monitoringservice/resource-manager/Microsoft.Monitor/PipelineGroups | 0 | 0 | 0 | 0 | 0 |
+| specification/monitoringservice/resource-manager/Microsoft.Monitor/Slis | 0 | 0 | 0 | 0 | 0 |
+| specification/msi/resource-manager/Microsoft.ManagedIdentity/ManagedIdentity | 0 | 0 | 0 | 0 | 0 |
+| [specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers](full-warning-details.md#project-353) | 4 | 4 | 4 | 4 | 0 |
+| specification/napster/Napster.CompanionAPI.Management | 0 | 0 | 0 | 0 | 0 |
+| [specification/netapp/resource-manager/Microsoft.NetApp/NetApp](full-warning-details.md#project-355) | 5 | 5 | 5 | 5 | 0 |
+| [specification/network/resource-manager/Microsoft.Network/Network/Network](full-warning-details.md#project-356) | 340 | 32 | 32 | 32 | 0 |
+| specification/network/resource-manager/Microsoft.Network/Network/Vmss | 0 | 0 | 0 | 0 | 0 |
+| specification/networkcloud/resource-manager/Microsoft.NetworkCloud/NetworkCloud | 0 | 0 | 0 | 0 | 0 |
+| specification/networkfunction/resource-manager/Microsoft.NetworkFunction/TrafficCollector | 0 | 0 | 0 | 0 | 0 |
+| specification/networksecurity/resource-manager/Microsoft.NetworkSecurity/neuroShield | 0 | 0 | 0 | 0 | 0 |
+| specification/newrelic/resource-manager/NewRelic.Observability/NewRelicObservability | 0 | 0 | 0 | 0 | 0 |
+| specification/nginx/resource-manager/Nginx.NginxPlus/NginxPlus | 0 | 0 | 0 | 0 | 0 |
+| specification/notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs | 0 | 0 | 0 | 0 | 0 |
+| specification/onlineexperimentation/resource-manager/Microsoft.OnlineExperimentation/OnlineExperimentation | 0 | 0 | 0 | 0 | 0 |
+| [specification/operationalinsights/resource-manager/Microsoft.OperationalInsights/OperationalInsights](full-warning-details.md#project-365) | 5 | 5 | 5 | 5 | 0 |
+| specification/oracle/resource-manager/Oracle.Database/OracleDatabase | 0 | 0 | 0 | 0 | 0 |
+| specification/orbitalplanetarycomputer/Orbital.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/paloaltonetworks/resource-manager/PaloAltoNetworks.Cloudngfw/Cloudngfw | 0 | 0 | 0 | 0 | 0 |
+| specification/peering/resource-manager/Microsoft.Peering/Peering | 0 | 0 | 0 | 0 | 0 |
+| specification/platformvalidation/resource-manager/Microsoft.PlatformValidation/PlatformValidation | 0 | 0 | 0 | 0 | 0 |
+| specification/playwrighttesting/PlaywrightTesting.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/policyinsights/resource-manager/Microsoft.PolicyInsights/PolicyInsights/PolicyTrackedResourcesApi | 0 | 0 | 0 | 0 | 0 |
+| specification/portal/resource-manager/Microsoft.Portal/Portal | 0 | 0 | 0 | 0 | 0 |
+| specification/portalservices/resource-manager/Microsoft.PortalServices/copilotSettings | 0 | 0 | 0 | 0 | 0 |
+| specification/portalservices/resource-manager/Microsoft.PortalServices/extensions | 0 | 0 | 0 | 0 | 0 |
+| specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql | 0 | 0 | 0 | 0 | 0 |
+| specification/postgresqlhsc/resource-manager/Microsoft.DBforPostgreSQL/PostgresqlHsc | 0 | 0 | 0 | 0 | 0 |
+| [specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated](full-warning-details.md#project-379) | 4 | 4 | 4 | 4 | 0 |
+| specification/powerplatform/resource-manager/Microsoft.PowerPlatform/PowerPlatform | 0 | 0 | 0 | 0 | 0 |
+| specification/privatedns/resource-manager/Microsoft.Network/PrivateDns | 0 | 0 | 0 | 0 | 0 |
+| specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment | 0 | 0 | 0 | 0 | 0 |
+| specification/programmableconnectivity/ProgrammableConnectivity.Management | 0 | 0 | 0 | 0 | 0 |
+| specification/providerhub/resource-manager/Microsoft.ProviderHub/ProviderHub | 0 | 0 | 0 | 0 | 0 |
+| specification/purestorage/resource-manager/PureStorage.Block/PureStorageBlock | 0 | 0 | 0 | 0 | 0 |
+| specification/purviewpolicy/resource-manager/Microsoft.Purview/PurviewPolicy | 0 | 0 | 0 | 0 | 0 |
+| specification/quantum/resource-manager/Microsoft.Quantum/Quantum | 0 | 0 | 0 | 0 | 0 |
+| specification/quota/resource-manager/Microsoft.Quota/Quota | 0 | 0 | 0 | 0 | 0 |
+| specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices | 0 | 0 | 0 | 0 | 0 |
+| specification/recoveryservicesdatareplication/resource-manager/Microsoft.DataReplication/DataReplication | 0 | 0 | 0 | 0 | 0 |
+| [specification/recoveryservicessiterecovery/resource-manager/Microsoft.RecoveryServices/SiteRecovery](full-warning-details.md#project-393) | 6 | 6 | 6 | 6 | 0 |
+| specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/hcpopenshiftclusters | 0 | 0 | 0 | 0 | 0 |
+| specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters | 0 | 0 | 0 | 0 | 0 |
+| specification/redis/resource-manager/Microsoft.Cache/Redis | 0 | 0 | 0 | 0 | 0 |
+| specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise | 0 | 0 | 0 | 0 | 0 |
+| specification/relationships/resource-manager/Microsoft.Relationships/Relationships | 0 | 0 | 0 | 0 | 0 |
+| [specification/relay/resource-manager/Microsoft.Relay/Relay](full-warning-details.md#project-399) | 7 | 7 | 7 | 7 | 0 |
+| specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Quota | 0 | 0 | 0 | 0 | 0 |
+| [specification/reservations/resource-manager/Microsoft.Capacity/Reservations/Reservations](full-warning-details.md#project-401) | 4 | 4 | 4 | 4 | 0 |
+| [specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector](full-warning-details.md#project-402) | 2 | 2 | 2 | 2 | 0 |
+| specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/GraphQueryApi | 0 | 0 | 0 | 0 | 0 |
+| specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/OnboardingApi | 0 | 0 | 0 | 0 | 0 |
+| specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceChanges | 0 | 0 | 0 | 0 | 0 |
+| specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceGraphApi | 0 | 0 | 0 | 0 | 0 |
+| specification/resourcegraph/resource-manager/Microsoft.ResourceGraph/ResourceGraph/ResourceHistory | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Authorization/policy | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/bicep | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/databoundaries | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/deployments | 0 | 0 | 0 | 0 | 0 |
+| [specification/resources/resource-manager/Microsoft.Resources/deploymentScripts](full-warning-details.md#project-413) | 2 | 2 | 2 | 2 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/deploymentStacks | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/resources | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/resourceValidator | 0 | 0 | 0 | 0 | 0 |
+| specification/resources/resource-manager/Microsoft.Resources/subscriptions | 0 | 0 | 0 | 0 | 0 |
+| specification/scvmm/resource-manager/Microsoft.ScVmm/ScVmm | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/AlertsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/AlertsSuppressionRulesAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ApiCollectionsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ApplicationsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/AssessmentAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ATPSettingsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/AutomationsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ComplianceResultsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/DataScannersAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/DefenderForStorageAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/GovernanceAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/HealthReportsAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/IoTSecurityAPI](full-warning-details.md#project-433) | 1 | 1 | 1 | 1 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/LegacySettingsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/LocationsAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/MdeOnboardingAPI](full-warning-details.md#project-436) | 2 | 2 | 2 | 2 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/OperationsAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/PricingsAPI](full-warning-details.md#project-438) | 2 | 2 | 2 | 2 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/PrivateLinksAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/RegulatoryComplianceAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SecureScoreAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SecurityConnectorsDevOpsAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/SecurityOperatorsAPI](full-warning-details.md#project-444) | 2 | 2 | 2 | 2 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/SecuritySolutionsAPI](full-warning-details.md#project-445) | 6 | 6 | 6 | 6 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SecurityStandardsAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/SensitivitySettingsAPI](full-warning-details.md#project-447) | 2 | 2 | 2 | 2 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ServerVulnerabilityAssessmentsSettingsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/ServiceEntitlementSettingsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SettingsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SqlVulnerabilityAssessmentsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/StandardsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/SubAssessmentsAPI | 0 | 0 | 0 | 0 | 0 |
+| specification/security/resource-manager/Microsoft.Security/Security/TasksAPI | 0 | 0 | 0 | 0 | 0 |
+| [specification/securityinsights/resource-manager/Microsoft.SecurityInsights/SecurityInsights](full-warning-details.md#project-456) | 4 | 4 | 4 | 4 | 0 |
+| [specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus](full-warning-details.md#project-458) | 1 | 1 | 1 | 1 | 0 |
+| [specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric](full-warning-details.md#project-459) | 2 | 2 | 2 | 2 | 0 |
+| [specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters](full-warning-details.md#project-460) | 2 | 2 | 2 | 2 | 0 |
+| specification/servicelinker/resource-manager/Microsoft.ServiceLinker/ServiceLinker | 0 | 0 | 0 | 0 | 0 |
+| specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking | 0 | 0 | 0 | 0 | 0 |
+| [specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService](full-warning-details.md#project-463) | 2 | 2 | 2 | 2 | 0 |
+| [specification/solutions/resource-manager/Microsoft.Solutions/Solutions](full-warning-details.md#project-464) | 2 | 2 | 2 | 2 | 0 |
+| specification/sovereign/resource-manager/Microsoft.Sovereign/Sovereign | 0 | 0 | 0 | 0 | 0 |
+| specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere | 0 | 0 | 0 | 0 | 0 |
+| specification/splitio/SplitIO.Experimentation.Management | 0 | 0 | 0 | 0 | 0 |
+| [specification/sql/resource-manager/Microsoft.Sql/SQL](full-warning-details.md#project-468) | 5 | 5 | 5 | 5 | 0 |
+| specification/sqlvirtualmachine/resource-manager/Microsoft.SqlVirtualMachine/SqlVirtualMachine | 0 | 0 | 0 | 0 | 0 |
+| specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool | 0 | 0 | 0 | 0 | 0 |
+| [specification/storage/resource-manager/Microsoft.Storage/Storage](full-warning-details.md#project-471) | 8 | 8 | 8 | 8 | 0 |
+| specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions | 0 | 0 | 0 | 0 | 0 |
+| specification/storagecache/resource-manager/Microsoft.StorageCache/StorageCache | 0 | 0 | 0 | 0 | 0 |
+| specification/storagediscovery/resource-manager/Microsoft.StorageDiscovery/StorageDiscovery | 0 | 0 | 0 | 0 | 0 |
+| specification/storagemover/resource-manager/Microsoft.StorageMover/StorageMover | 0 | 0 | 0 | 0 | 0 |
+| [specification/storagesync/resource-manager/Microsoft.StorageSync/StorageSync](full-warning-details.md#project-476) | 4 | 4 | 4 | 4 | 0 |
+| [specification/subscription/resource-manager/Microsoft.Subscription/Subscription](full-warning-details.md#project-477) | 2 | 2 | 2 | 2 | 0 |
+| specification/support/resource-manager/Microsoft.Support/Support | 0 | 0 | 0 | 0 | 0 |
+| specification/terraform/resource-manager/Microsoft.AzureTerraform/AzureTerraform | 0 | 0 | 0 | 0 | 0 |
+| specification/trafficmanager/resource-manager/Microsoft.Network/TrafficManager | 0 | 0 | 0 | 0 | 0 |
+| specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId | 0 | 0 | 0 | 0 | 0 |
+| specification/vmware/resource-manager/Microsoft.AVS/AVS | 0 | 0 | 0 | 0 | 0 |
+| [specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService](full-warning-details.md#project-484) | 2 | 2 | 2 | 2 | 0 |
+| specification/widget/resource-manager/Microsoft.Widget/Widget | 0 | 0 | 0 | 0 | 0 |
+| specification/workloads/resource-manager/Microsoft.Workloads/monitors | 0 | 0 | 0 | 0 | 0 |
+| specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites | 0 | 0 | 0 | 0 | 0 |
+| specification/workloads/resource-manager/Microsoft.Workloads/SAPVirtualInstance | 0 | 0 | 0 | 0 | 0 |
+| [specification/security/resource-manager/Microsoft.Security/Security/BatchPricingsAPI](full-warning-details.md#project-427) | 4 | 2 | 0 | 0 | -2 |
+| [specification/recoveryservicesbackup/resource-manager/Microsoft.RecoveryServices/RecoveryServicesBackup](full-warning-details.md#project-391) | 13 | 13 | 0 | 0 | -13 |
+| [specification/dataprotection/resource-manager/Microsoft.DataProtection/DataProtection](full-warning-details.md#project-217) | 15 | 15 | 0 | 0 | -15 |
+
+## Unassessed projects
+
+None.

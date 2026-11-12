@@ -19,6 +19,6 @@
     "serviceType": "resource-manager",
     "selectedBaseline": "project-datasets-at-939d1a81ec5159e61394cd8ca2589c2c0ce49ccd",
     "specsCommit": "939d1a81ec5159e61394cd8ca2589c2c0ce49ccd",
-    "realProjectValidation": "five-project-target-only-http-reachable"
+    "realProjectValidation": "full-corpus-target-only-http-reachable"
   }
 }
