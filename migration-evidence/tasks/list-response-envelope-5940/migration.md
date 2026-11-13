@@ -101,7 +101,10 @@ See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) and the
   [`939d1a81`](https://github.com/Azure/azure-rest-api-specs/tree/939d1a81ec5159e61394cd8ca2589c2c0ce49ccd).
   PR [#6044](https://github.com/Azure/typespec-azure/pull/6044) subsequently
   added only a generated-documentation formatting change at `e1e372fc`; the
-  assessed rule source was unchanged.
+  assessed rule source was unchanged. The later merge of main at
+  [`0a2784f1`](https://github.com/Azure/typespec-azure/commit/0a2784f1356515fc13a329588e4de017c4110a32)
+  also left that rule source unchanged, but updated the core submodule and
+  other dependencies. Full-corpus validation was not repeated on that merge.
 - Projects were selected by `main.tsp` and an ARM-ruleset configuration.
   Swagger used the latest emitted API version per project. TypeSpec ran
   target-only with HTTP-reachable location alignment; project-default

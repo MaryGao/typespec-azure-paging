@@ -1,6 +1,7 @@
 # Full list-response-envelope comparison
 
 Candidate: `db524dc7b54d3488377b24e8d489a7b739ba6dd4`. Specs: `939d1a81ec5159e61394cd8ca2589c2c0ce49ccd`.
+The later main merge at `0a2784f1356515fc13a329588e4de017c4110a32` did not change the candidate rule source, but updated dependencies; this full-corpus run was not repeated on that merge.
 Projects were discovered by `main.tsp` and a `tspconfig.yaml` referencing the resource-manager ruleset, including `.Management` layouts; data-plane-only configurations are outside this scope.
 Swagger uses the latest emitted API version per project. TypeSpec ran in target-only mode with HTTP-reachable location alignment; project-default activation was not assessed.
 
