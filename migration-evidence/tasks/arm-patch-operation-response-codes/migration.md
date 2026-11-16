@@ -44,10 +44,11 @@ current comparison limitation.
 ## 4. Why diagnostic counts differ
 
 No real Azure specification comparison or diagnostic attribution was run.
-Focused tests establish that explicit or legacy LRO markers without protocol
-metadata can lead to different classification. The TypeSpec rule also does not
-check LRO options. Service-project counts, attribution, and group correspondence
-remain unassessed pending the approved comparison.
+Focused ARM tests cover explicit flags without protocol metadata; the [AutoRest
+emitter](https://github.com/Azure/typespec-azure/blob/36dfe969c063dab62d049bb3c807cd71dc41ef05/packages/typespec-autorest/src/openapi.ts)
+also recognizes legacy markers that the TypeSpec rule does not. The TypeSpec
+rule does not check LRO options. Service-project counts, attribution, and group
+correspondence remain unassessed pending the approved comparison.
 
 ## NOTES
 
@@ -56,15 +57,15 @@ remain unassessed pending the approved comparison.
   and approval.
 - Frozen Swagger source revision: `e1b8b207a196cf2fc288593efec22e6e38ab98d5`.
   Azure base: `72f18e650de1b07b991839e61ee5b2642df3e37f`; candidate:
-  `bd79e30505769b2490ea33e447c1024f2c3898e6`; core submodule:
+  `36dfe969c063dab62d049bb3c807cd71dc41ef05`; core submodule:
   `b5e41f255d6b1fe573904e44cb71d772802ada3b`.
-- Focused PATCH, DELETE, and ruleset tests passed: 53 tests across three
-  files. Build-mode TypeScript checks passed for Azure Core, TCGC, ARM, and
-  AutoRest; formatting and type-aware lint passed for the revised files.
+- Focused PATCH and ruleset tests passed: 50 tests across two files. The
+  rulesets build-mode TypeScript check, formatting, and type-aware lint passed
+  for the revised files.
 - Full package lifecycle scripts were not rerun against this head: the
   repository-pinned pnpm manager was unavailable, and Corepack's download
   failed with a TLS handshake error. No real-spec validation was run.
-- The rule is a warning, enabled in ARM's `all` ruleset and not added to the
-  curated `resource-manager` ruleset. Duplicate HTTP compiler diagnostics
+- The rule is a warning, enabled in ARM's `all` ruleset and explicitly
+  disabled in the curated `resource-manager` ruleset. Duplicate HTTP compiler diagnostics
   remain tracked separately in [Azure/typespec-azure#6084](https://github.com/Azure/typespec-azure/issues/6084);
   this change does not modify TypeSpec HTTP diagnostic behavior.
