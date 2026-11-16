@@ -36,7 +36,7 @@ current comparison limitation.
 | --- | --- | --- |
 | Synchronous PATCH has exactly `200` and `default` responses. | Implemented; production equivalence unassessed | The rule check and focused tests are in [the implementation](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-response-codes.ts) and [ARM tests](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/test/rules/arm-patch-response-codes.test.ts). No service comparison has been run. |
 | Long-running PATCH has exactly `200`, `202`, and `default`; its `202` response has no body. | Implemented; production equivalence unassessed | The check and fixtures are covered by the [rule implementation](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-response-codes.ts) and [ARM tests](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/test/rules/arm-patch-response-codes.test.ts). |
-| LRO classification using Azure Core metadata. | Implemented; differs from Swagger flags | The [rule](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-response-codes.ts) uses `getLroMetadata`, as DELETE does. [AutoRest tests](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-autorest/test/arm-patch-response-codes.test.ts) show that an explicit flag or AutoRest-scoped legacy marker alone emits an LRO flag but is treated as synchronous by the TypeSpec rule. |
+| LRO classification using Azure Core metadata. | Implemented; differs from Swagger flags | The [rule](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-response-codes.ts) uses `getLroMetadata`, as DELETE does, and does not consult explicit OpenAPI flags or legacy markers. The [ARM tests](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/test/rules/arm-patch-response-codes.test.ts) confirm an explicit flag without native metadata is classified synchronously. |
 | Long-running options and explicit flag consistency. | Missing | The TypeSpec rule does not validate `x-ms-long-running-operation-options` or its flag; see [Swagger implementation](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/patch-response-codes.ts). |
 | Scope is ARM provider services, including nested namespaces. | Implemented; population coverage unassessed | The rule enumerates provider service operations in its [implementation](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-response-codes.ts); production project coverage has not been measured. |
 | Per-version response behavior. | Unassessed | The rule inspects unprojected response types; the [rule documentation](https://github.com/Azure/typespec-azure/blob/fix/arm-patch-response-codes-clean/packages/typespec-azure-resource-manager/src/rules/arm-patch-operation-response-codes.md) records this limitation. |
@@ -56,11 +56,11 @@ remain unassessed pending the approved comparison.
   and approval.
 - Frozen Swagger source revision: `e1b8b207a196cf2fc288593efec22e6e38ab98d5`.
   Azure base: `72f18e650de1b07b991839e61ee5b2642df3e37f`; candidate:
-  `2c8fd2fbdc425119e1ff34faad2828525f57b7ef`; core submodule:
+  `bd79e30505769b2490ea33e447c1024f2c3898e6`; core submodule:
   `b5e41f255d6b1fe573904e44cb71d772802ada3b`.
-- Focused PATCH, DELETE, AutoRest, and ruleset tests passed. Build-mode
-  TypeScript checks passed for Azure Core, TCGC, ARM, and AutoRest; formatting
-  and type-aware lint passed for the revised files.
+- Focused PATCH, DELETE, and ruleset tests passed: 53 tests across three
+  files. Build-mode TypeScript checks passed for Azure Core, TCGC, ARM, and
+  AutoRest; formatting and type-aware lint passed for the revised files.
 - Full package lifecycle scripts were not rerun against this head: the
   repository-pinned pnpm manager was unavailable, and Corepack's download
   failed with a TLS handshake error. No real-spec validation was run.
