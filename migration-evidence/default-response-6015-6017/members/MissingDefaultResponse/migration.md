@@ -2,32 +2,30 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` follows the documented [MissingDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/missing-default-response.md) guideline. It is intentionally **not bug-for-bug equivalent** to the Swagger linter's key-selector implementation. The full 487-project run shows zero saved Spectral findings versus 486 fresh native findings: 178 corroborated saved-wire false negatives plus 308 non-service source declarations outside the saved Swagger population.
+The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` follows the documented [MissingDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/missing-default-response.md) guideline. It is intentionally **not bug-for-bug equivalent** to the Swagger linter's response-key selector, which misses absent defaults. Native also checks non-service source declarations outside the saved Swagger population; their inclusion remains a rollout decision with recommended activation disabled.
 
 ## 2. Actual coverage
 
-The five-project pilot and full 487-project frozen-corpus run were each explicitly approved and assessed with fresh native execution and verified saved production Swagger observations. Counts are individual findings, not projects; the full run includes the pilot population.
+All 487 frozen projects were assessed with fresh native execution and verified saved production Swagger observations, without a project filter or limit. No compile/worker failures or unassessed projects occurred in this population. Counts are individual findings, not projects.
 
-| Count                             | Swagger linter | TypeSpec linter |
-| --------------------------------- | -------------- | --------------- |
-| Five-project reported diagnostics | 0              | 161             |
-| Full-corpus reported diagnostics  | 0              | 486             |
+| Count                            | Swagger linter | TypeSpec linter |
+| -------------------------------- | -------------- | --------------- |
+| Full-corpus reported diagnostics | 0              | 486             |
 
-**Full assessed coverage:** saved logs prove registration and successful production validator completion in 649 executions across all 487 projects. The absent shard means zero observed findings, not skipped evaluation. Of the 486 native findings, 178 have individual matching `RequiredDefaultResponse` witnesses and saved Swagger responses without a default. These corroborate the selector defect on emitted operations.
+**Assessed coverage:** all 487 projects are accounted for. Of the 486 native findings, 178 have individual matching `RequiredDefaultResponse` witnesses and saved Swagger responses without a default, corroborating the selector defect on emitted operations. The other 308 are verified non-service source declarations without saved counterparts, not demonstrated Spectral false negatives. A capture percentage or matched-diagnostic grouping against zero Spectral findings is not meaningful; no normalized count is invented.
 
-The other 308 native findings across 17 projects target non-service SDK customization/compatibility declarations, with no saved route/verb counterparts: 304 in `client.tsp` and four in Key Vault's `back-compatible.tsp`. They are source-scope excess, not proved Spectral false negatives. Equal-count projects: 463/487; Swagger-higher excess: zero; native-higher excess and total absolute difference: 486. A capture percentage with zero Swagger findings is not meaningful.
+See [Why diagnostic counts differ](#4-why-diagnostic-counts-differ) for the confirmed selector bug and source-population difference.
 
-Five original synthetic Spectral controls explain the selector defect. Nine target-specific controls and 37 applicable portable harness controls establish native behavior against the unchanged candidate archives. The [full report](../../validation/full/README.md) retains all 487 native receipts and concrete correspondences; the original [pilot](../../validation/five-project/README.md) is unchanged. Swagger was not regenerated or rerun; version projection, default activation and fresh-emission equivalence remain unassessed.
+The [complete project inventory](../../validation/full/projects.md) includes individual data for all 487 projects, including zero-finding cases; the [full report](../../validation/full/README.md) retains native receipts and concrete correspondences. Swagger was not regenerated or rerun; version projection, default activation and fresh-emission equivalence remain unassessed.
 
 ## 3. Function-level coverage
 
-| Behavior                               | Result                                      | Rationale                                                                                                         |
-| -------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Require an operation fallback          | Implemented intended policy                 | The TypeSpec rule checks resolved HTTP status `"*"` instead of response-key strings.                              |
-| Accept a real default                  | Implemented intended policy                 | Standard ARM errors and custom defaults satisfy presence; payload validation is separate.                         |
-| Reproduce response-key false negatives | Intentionally not reproduced                | The Swagger selector passes nonempty status-key strings to `truthy`.                                              |
-| Selected real-project correspondence   | Assessed: intentional difference            | Zero observed Swagger versus 161 native findings; every native finding corresponds to a real absent fallback.     |
-| Full-population comparison             | Assessed: intentional and scope differences | Zero saved findings versus 486 native: 178 corroborated selector misses plus 308 non-service source declarations. |
+| Behavior                               | Result                                      | Rationale                                                                                                                                                                                                                                                              |
+| -------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Require an operation fallback          | Implemented intended policy                 | The [native checks and tests](../../migration.md#3-function-level-coverage) inspect resolved status `"*"` instead of response-key strings.                                                                                                                             |
+| Accept a real default                  | Verified                                    | [Compliant tests](../../migration.md#3-function-level-coverage) accept standard and custom defaults; payload validation remains separate.                                                                                                                              |
+| Reproduce response-key false negatives | Intentionally not reproduced                | The [pinned Swagger selector](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/az-arm.ts#L1305-L1313) supplies nonempty status-key strings to `truthy`, unlike the native fallback check. |
+| Full-population comparison             | Assessed: intentional and scope differences | The [operation audit](../../validation/full/evidence/full-audit-summary.json) accounts for 178 corroborated selector misses and 308 non-service source declarations.                                                                                                   |
 
 ## 4. Why diagnostic counts differ
 
@@ -35,6 +33,12 @@ The [pinned Spectral rule](https://github.com/Azure/azure-openapi-validator/blob
 
 Recommended action: retain the intended fallback-presence policy and raw member counts rather than reproduce selector false negatives. Keep recommended activation disabled while reviewing the broader native source policy for non-service SDK declarations; no scope or independent-reporting implementation change was made during validation.
 
+The 308 source-only findings across 17 projects have no saved route/verb counterparts: 304 in `client.tsp` and four in Key Vault's `back-compatible.tsp`. Their individual causes and dispositions are retained in the [full comparison](../../validation/full/README.md#3-missingdefaultresponse) and linked project reports. Equal-count projects: 463/487; Swagger-higher excess: zero; native-higher excess and total absolute difference: 486.
+
 ## NOTES
 
-See the [group report](../../migration.md) for frozen membership, severity/activation, source identities, counting policy, publication and approval gates. The synthetic Spectral probe was run during analysis using `@stoplight/spectral-core@1.18.3` and `@stoplight/spectral-functions@1.7.2`; it was not a real-spec validation run.
+See the [group report](../../migration.md) for frozen membership, severity/activation, source identities, counting policy, publication and the distinction between the full-corpus candidate and later main refresh. The synthetic Spectral probe was run during analysis using `@stoplight/spectral-core@1.18.3` and `@stoplight/spectral-functions@1.7.2`; it was not a real-spec validation run.
+
+Saved logs prove registration and successful production validator completion in 649 executions across all 487 projects. The absent Spectral shard means zero observed findings, not skipped evaluation.
+
+Five synthetic Spectral controls explain the selector defect; these are not a project sample. Thirty-seven applicable portable harness controls passed against the full-run tooling.
