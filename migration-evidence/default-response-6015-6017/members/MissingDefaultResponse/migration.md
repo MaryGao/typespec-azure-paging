@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` follows the documented [MissingDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/missing-default-response.md) guideline. It is intentionally **not bug-for-bug equivalent** to the Swagger linter's response-key selector, which misses absent defaults. Native also checks non-service source declarations outside the saved Swagger population; their inclusion remains a rollout decision with recommended activation disabled.
+The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/require-standard-error-response` follows the documented [MissingDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/missing-default-response.md) guideline for generic error responses. It is intentionally **not bug-for-bug equivalent** to the Swagger linter's response-key selector, which misses absent generic responses. Native also checks non-service source declarations outside the saved Swagger population; their inclusion remains a rollout decision with recommended activation disabled.
 
 ## 2. Actual coverage
 
@@ -38,6 +38,8 @@ The 308 source-only findings across 17 projects have no saved route/verb counter
 ## NOTES
 
 See the [group report](../../migration.md) for frozen membership, severity/activation, source identities, counting policy, publication and the distinction between the full-corpus candidate and later main refresh. The synthetic Spectral probe was run during analysis using `@stoplight/spectral-core@1.18.3` and `@stoplight/spectral-functions@1.7.2`; it was not a real-spec validation run.
+
+The current native name is `require-standard-error-response`. Full-corpus counts and receipts retain the original `missing-default-response` identity at candidate `071afdea`; that corpus was not rerun after the terminology-only rename.
 
 Saved logs prove registration and successful production validator completion in 649 executions across all 487 projects. The absent Spectral shard means zero observed findings, not skipped evaluation.
 

@@ -2,7 +2,7 @@
 
 ## 1. Conclusion and scope
 
-The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/missing-default-response` implements the fallback-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **The intended policy is covered for historical emitted operations, but raw diagnostics and source populations are not equivalent.** Native additionally checks non-service SDK customization/compatibility declarations; their inclusion remains a rollout decision with recommended activation disabled.
+The TypeSpec rule `@azure-tools/typespec-azure-resource-manager/require-standard-error-response` implements the generic response-presence policy of [RequiredDefaultResponse](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/docs/required-default-response.md). **The intended policy is covered for historical emitted operations, but raw diagnostics and source populations are not equivalent.** Native additionally checks non-service SDK customization/compatibility declarations; their inclusion remains a rollout decision with recommended activation disabled.
 
 ## 2. Actual coverage
 
@@ -40,5 +40,7 @@ The 308 source-only findings across 17 projects are excluded from the compiler's
 ## NOTES
 
 See the [group report](../../migration.md) for shared membership, severity/activation, exact source identities, counting policy, publication and the distinction between the full-corpus candidate and later main refresh. `MissingXmsErrorResponse` and error-schema validity are separate responsibilities.
+
+The current native name is `require-standard-error-response`. Full-corpus counts and receipts retain the original `missing-default-response` identity at candidate `071afdea`; that corpus was not rerun after the terminology-only rename.
 
 The source predicate `!node.default` has direct synthetic outcomes `1, 0, 1, 1, 1` for missing, valid, multiple-without-default, empty and null response-map cases. This predicate probe was not legacy-engine execution.
