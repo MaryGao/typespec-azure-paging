@@ -8,7 +8,28 @@ The check requires a fallback response, not a particular payload or error marker
 
 ## 2. Actual coverage
 
-The initial five-project pilot and subsequent full 487-project run were each explicitly approved. Swagger counts are retained successful production observations from the sealed frozen baseline, not fresh execution. TypeSpec counts are fresh injected-candidate diagnostics. The same shared native count is compared independently to each Swagger member; it must not be summed twice. The original pilot results below remain unchanged.
+The initial five-project pilot and subsequent full 487-project run were each explicitly approved. Swagger counts are retained successful production observations from the sealed frozen baseline, not fresh execution. TypeSpec counts are fresh injected-candidate diagnostics. The same shared native count is compared independently to each Swagger member; it must not be summed twice.
+
+### 2.1. Full coverage: all 487 frozen projects
+
+The primary coverage evidence is the [full-corpus report](validation/full/README.md) and [complete 487-project inventory](validation/full/projects.md), including projects with zero findings. The five-project pilot is historical evidence, not the limit of assessed coverage.
+
+| Population                     | MissingDefaultResponse | RequiredDefaultResponse | Native | Bijectively matched legacy findings | Native-only non-service source |
+| ------------------------------ | ---------------------: | ----------------------: | -----: | ----------------------------------: | -----------------------------: |
+| Full 487-project frozen corpus |                      0 |                     178 |    486 |                                 178 |                            308 |
+| Initial five-project pilot     |                      0 |                     161 |    161 |                                 161 |                              0 |
+
+The [full report](validation/full/README.md) includes all 487 raw native receipts, 24 finding-project reports and individual operation correspondence. The other 463 projects have zero findings in both saved Swagger members and native execution. All 178 historical findings match concrete native operations by source location, route, verb and missing fallback, with zero Swagger-only or ambiguous findings. The 308 native-only findings across 17 other projects are all non-service SDK customization/compatibility declarations without saved Swagger route/verb counterparts: 304 in `client.tsp` and four in Key Vault's `back-compatible.tsp`. None belongs to the compiler's HTTP service operation set. Their absent fallback and exact source identities are corroborated; they are not 308 extra saved-wire defects or unexplained Spectral misses.
+
+Both Swagger members were registered in all 649 successful retained production executions. All 15 installed candidate archives and all 487 worker package identities were verified after the official analyzer completed its full baseline/dataset integrity checks. Thirty-seven applicable portable controls passed; six fixtures requiring an unrelated unmerged rule were prospectively excluded. The nine target-specific pilot controls used the same unchanged archives.
+
+Native mode is `target-only`, scope is `source`, and suppressions are retained. Default activation, fresh emission and selected-version projection are not assessed. Leave recommended-ruleset activation disabled while reviewing whether non-service SDK customization/compatibility operations belong in the rule's policy. No implementation or independent-reporting behavior was changed by validation.
+
+The full-corpus run assessed candidate `071afdea846ea0898e03a4d59f2c67bfa5a68266` with TypeSpec compiler 1.17.0. The later main refresh at `9a13874badf91ca8fc78507576dee49ce6592b13` passed focused checks with compiler 1.18.0; the full corpus was not rerun for that refresh.
+
+### 2.2. Historical five-project pilot
+
+The original pilot results below remain unchanged.
 
 | Project                             | MissingDefaultResponse | RequiredDefaultResponse |  Native | Legacy/native matched |
 | ----------------------------------- | ---------------------: | ----------------------: | ------: | --------------------: |
@@ -19,20 +40,9 @@ The initial five-project pilot and subsequent full 487-project run were each exp
 | Storage                             |                      0 |                       0 |       0 |                     0 |
 | **Total**                           |                  **0** |                 **161** | **161** |               **161** |
 
-**Assessed coverage:** all 161 selected `RequiredDefaultResponse` findings map one-to-one to concrete native operations by route, verb, authored location and absent fallback. There are no legacy-only or native-only findings against that member in this sample. The 161 native-only findings against `MissingDefaultResponse` are corroborated false negatives of its selector, not unexplained coverage gaps. Both Swagger rules were demonstrably registered in each saved production execution. Nine injected artifact controls passed; all 15 installed package payloads match their archives byte-for-byte; all five project workers compiled successfully.
+**Pilot coverage:** all 161 selected `RequiredDefaultResponse` findings map one-to-one to concrete native operations by route, verb, authored location and absent fallback. There are no legacy-only or native-only findings against that member in this sample. The 161 native-only findings against `MissingDefaultResponse` are corroborated false negatives of its selector, not unexplained coverage gaps. Both Swagger rules were demonstrably registered in each saved production execution. Nine injected artifact controls passed; all 15 installed package payloads match their archives byte-for-byte; all five project workers compiled successfully.
 
 The [five-project report](validation/five-project/README.md) contains its original per-project inventories, exact TypeSpec/Swagger examples, receipts, hashes and limitations.
-
-| Population                     | MissingDefaultResponse | RequiredDefaultResponse | Native | Bijectively matched legacy findings | Native-only non-service source |
-| ------------------------------ | ---------------------: | ----------------------: | -----: | ----------------------------------: | -----------------------------: |
-| Initial five-project pilot     |                      0 |                     161 |    161 |                                 161 |                              0 |
-| Full 487-project frozen corpus |                      0 |                     178 |    486 |                                 178 |                            308 |
-
-The [full report](validation/full/README.md) includes all 487 raw native receipts, 24 finding-project reports and individual operation correspondence. All 178 historical findings match concrete native operations by source location, route, verb and missing fallback, with zero Swagger-only or ambiguous findings. The 308 native-only findings across 17 other projects are all non-service SDK customization/compatibility declarations without saved Swagger route/verb counterparts: 304 in `client.tsp` and four in Key Vault's `back-compatible.tsp`. None belongs to the compiler's HTTP service operation set. Their absent fallback and exact source identities are corroborated; they are not 308 extra saved-wire defects or unexplained Spectral misses.
-
-Both Swagger members were registered in all 649 successful retained production executions. All 15 installed candidate archives and all 487 worker package identities were verified after the official analyzer completed its full baseline/dataset integrity checks. Thirty-seven applicable portable controls passed; six fixtures requiring an unrelated unmerged rule were prospectively excluded. The nine target-specific pilot controls used the same unchanged archives.
-
-Native mode is `target-only`, scope is `source`, and suppressions are retained. Default activation, fresh emission and selected-version projection are not assessed. Leave recommended-ruleset activation disabled while reviewing whether non-service SDK customization/compatibility operations belong in the rule's policy. No implementation or independent-reporting behavior was changed by validation.
 
 The 27 new-rule cases, 72 existing-rule/package regressions and 17 ruleset checks are retained in [development evidence](development.md); focused semantic controls are not substitutes for full-corpus evidence.
 
