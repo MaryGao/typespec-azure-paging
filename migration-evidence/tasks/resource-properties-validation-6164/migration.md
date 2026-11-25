@@ -12,16 +12,17 @@ All **56 approved services** were assessed: 57 default-tag checked-in Swagger fi
 | --- | ---: | ---: |
 | Reported diagnostics | 74 | 0 |
 
-**Analysis:** All 74 Swagger diagnostics are from the required-properties rule; none are from the tags rule. The TypeSpec linter reported none. The populations are not version-aligned, so these are not 74 proven missing TypeSpec checks. Source suppressions were retained; Swagger counts are emitted diagnostics with README configuration, not a proven suppression-inclusive total. A synthetic control also found a nullable-tag-value difference. See [Why diagnostic counts differ](#3-why-diagnostic-counts-differ) and the [complete inventory](evidence-details.md).
+**Analysis:** All 74 Swagger diagnostics are from the required-properties rule; none are from the tags rule. The TypeSpec linter reported none. **50 Swagger findings are false positives on collection-response envelopes**, not TypeSpec gaps; the other 24 require review. The populations are not version-aligned. Source suppressions were retained; Swagger counts are emitted diagnostics with README configuration, not a proven suppression-inclusive total. A synthetic control also found a nullable-tag-value difference. See [Why diagnostic counts differ](#3-why-diagnostic-counts-differ) and the [complete inventory](evidence-details.md).
 
 ## 3. Why diagnostic counts differ
 
 | Difference (with evidence) | Swagger diagnostics | TypeSpec diagnostics for the same check | analysis |
 | --- | ---: | ---: | --- |
+| [Collection-response envelopes](collection-findings.md) | 50 | 0 observed in the projects | Swagger false positives for resource-envelope identity checks: these models are collection responses, not individual ARM resources. |
 | [Resource Health `availabilityStatus`](evidence-details.md#interpreted-examples-and-outstanding-cases) | 1 | 0 observed in the project | Its resource-shaped TypeSpec model extends a local `ProxyResource`, while the TypeSpec linter checks registered ARM resources. The endpoint is described as non-resource; whether it belongs in the rule's policy remains unresolved. |
-| [Other Swagger responses](evidence-details.md#swagger-diagnostic-inventory) | 73 | 0 observed in the projects | Swagger also checks GET and list responses; examples include collection, quota and action responses. The remaining cases are not all classified or version-aligned, so they cannot all be called false positives or native gaps. |
+| [Other Swagger responses](evidence-details.md#swagger-diagnostic-inventory) | 23 | 0 observed in the projects | Examples include quota, analytics, action and operation-status responses. Individual classification and version alignment remain incomplete. |
 
-**Raw-count reconciliation:** 74 − 0 = 1 + 73. Both TypeSpec zeros are project-level observations, not proof of case-by-case equivalence.
+**Raw-count reconciliation:** 74 − 0 = 50 + 1 + 23. TypeSpec zeros are project-level observations, not proof of case-by-case equivalence.
 
 A separate [synthetic control](evidence-details.md#nullable-string-values-control) shows that Swagger accepts nullable string **values** in a tags record, while TypeSpec reports them. This is not a real-service diagnostic in the table; deciding whether to align that behavior remains open.
 
