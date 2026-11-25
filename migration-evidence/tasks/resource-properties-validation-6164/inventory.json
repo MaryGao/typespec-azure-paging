@@ -1,0 +1,1294 @@
+{
+  "specsCommit": "1775cd6359369f2e5092d08ada94b4b4c1b8acba",
+  "candidateCommit": "76b0e3cdfa4fd0069af4d9d26c265934c6c814b9",
+  "scope": "56 approved suitable services",
+  "policy": "README default Swagger inputs in ARM mode; TypeSpec project rules plus target rule with source suppressions and no emission",
+  "swaggerInputs": 57,
+  "swaggerFindings": {
+    "RequiredPropertiesMissingInResourceModel": 74,
+    "AzureResourceTagsSchema": 0
+  },
+  "typespecFindings": 0,
+  "projects": [
+    {
+      "project": "specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter",
+      "swaggerInputs": [
+        {
+          "file": "specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter/preview/2024-06-01-preview/apicenter.json",
+          "sha256": "8f9d49fa3dc39cdffc3d6fdf079c956da532bc127f30f9022db8e8478079d336"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation",
+      "swaggerInputs": [
+        {
+          "file": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation/stable/2021-06-01/attestation.json",
+          "sha256": "273957478886efaed849931b1da54238af5264b368e7e552cfdff2df0056b85b"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationList",
+          "file": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation/stable/2021-06-01/attestation.json",
+          "line": 1078
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/batch/resource-manager/Microsoft.Batch/Batch",
+      "swaggerInputs": [
+        {
+          "file": "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json",
+          "sha256": "799005dab4f0f55f04454ccba8ee678bdd407548f13d8f0bb4d014ec24272293"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json",
+          "line": 5512
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'BatchLocationQuota' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.BatchLocationQuota",
+          "file": "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json",
+          "line": 3734
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SupportedSkusResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SupportedSkusResult",
+          "file": "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json",
+          "line": 6975
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OutboundEnvironmentEndpointCollection' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OutboundEnvironmentEndpointCollection",
+          "file": "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json",
+          "line": 5561
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/botservice/resource-manager/Microsoft.BotService/BotService",
+      "swaggerInputs": [
+        {
+          "file": "specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json",
+          "sha256": "f4a3538c9dc761aba5e3fd61237e6cc7fc1403774a3e11036e1c808a9fdbe81c"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationEntityListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationEntityListResult",
+          "file": "specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json",
+          "line": 3631
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'HostSettingsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.HostSettingsResponse",
+          "file": "specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json",
+          "line": 3033
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationResultsDescription' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationResultsDescription",
+          "file": "specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json",
+          "line": 3688
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn",
+      "swaggerInputs": [
+        {
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "sha256": "06fffde623c8f4e4030c0368eb523d917e58375b732b676eb2537f021de873e1"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationsListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationsListResult",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 14025
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ContinentsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ContinentsResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 10477
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'MetricsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.MetricsResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 13705
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'RankingsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.RankingsResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 15470
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ResourcesResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ResourcesResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 16259
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'WafMetricsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.WafMetricsResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 18744
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'WafRankingsResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.WafRankingsResponse",
+          "file": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json",
+          "line": 18822
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration",
+      "swaggerInputs": [
+        {
+          "file": "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration/stable/2024-11-01/openapi.json",
+          "sha256": "d8e4d828d205e9c2ac1998b486cadb5a43ae039766da047727126a9b9cbadd62"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'CsmOperationCollection' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.CsmOperationCollection",
+          "file": "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration/stable/2024-11-01/openapi.json",
+          "line": 1825
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/communication/resource-manager/Microsoft.Communication/Communication",
+      "swaggerInputs": [
+        {
+          "file": "specification/communication/resource-manager/Microsoft.Communication/Communication/stable/2026-03-18/openapi.json",
+          "sha256": "90a9d1e45060c05bbecfa473f76e2886e576b12973cda051553ec462508c3efb"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry",
+      "swaggerInputs": [
+        {
+          "file": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry/stable/2026-11-01/containerregistry.json",
+          "sha256": "c5271a38e19d77b87a4a329cab6fa60796a2ffd5bd98e899010436ea3dc1c385"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry/stable/2026-11-01/containerregistry.json",
+          "line": 5290
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'RegistryUsageListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.RegistryUsageListResult",
+          "file": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry/stable/2026-11-01/containerregistry.json",
+          "line": 6115
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks",
+      "swaggerInputs": [
+        {
+          "file": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks/preview/2025-03-01-preview/containerregistry_build.json",
+          "sha256": "c76ca489295c599fac39622c67bf0b573cd6c514c7e1ef3918d21b324ccb0c3e"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks",
+      "swaggerInputs": [
+        {
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "sha256": "f15a0ed71a40e71b15e4fb6e61354c46dce9be87ee89fd44edfb3ebce6cd9af1"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 10129
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'KubernetesVersionListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.KubernetesVersionListResult",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 6516
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'TrustedAccessRoleListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.TrustedAccessRoleListResult",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 11319
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'RunCommandResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.RunCommandResult",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 10678
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OutboundEnvironmentEndpointCollection' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OutboundEnvironmentEndpointCollection",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 10215
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'PrivateLinkResourcesListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.PrivateLinkResourcesListResult",
+          "file": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json",
+          "line": 10438
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/databox/resource-manager/Microsoft.DataBox/DataBox",
+      "swaggerInputs": [
+        {
+          "file": "specification/databox/resource-manager/Microsoft.DataBox/DataBox/stable/2025-07-01/databox.json",
+          "sha256": "6e837c6ef46ded5b115885686a3dd92353ccbe38b19b8a7a6710be5835646b54"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationList",
+          "file": "specification/databox/resource-manager/Microsoft.DataBox/DataBox/stable/2025-07-01/databox.json",
+          "line": 4439
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/databricks/resource-manager/Microsoft.Databricks/Databricks",
+      "swaggerInputs": [
+        {
+          "file": "specification/databricks/resource-manager/Microsoft.Databricks/Databricks/stable/2026-01-01/openapi.json",
+          "sha256": "012cb51f73c2f954cdc4adb4e556682b3bed62e983f18fcfa3fb85c38eab138f"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/databricks/resource-manager/Microsoft.Databricks/Databricks/stable/2026-01-01/openapi.json",
+          "line": 2261
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization",
+      "swaggerInputs": [
+        {
+          "file": "specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization/stable/2026-04-16/desktopvirtualization.json",
+          "sha256": "3c5540d4cf9ef74307f08812a06ec8b37437173f0954585c293edf43fcb8f5fa"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration",
+      "swaggerInputs": [
+        {
+          "file": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/stable/2024-11-01/openapi.json",
+          "sha256": "ccedcbfb48f08a9d757960adee34158a89f8ba1faf10bcd01c562a64e1ab5383"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'CsmOperationCollection' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.CsmOperationCollection",
+          "file": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/stable/2024-11-01/openapi.json",
+          "line": 1162
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask",
+      "swaggerInputs": [
+        {
+          "file": "specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask/preview/2026-07-01-preview/durabletask.json",
+          "sha256": "84588f1739c8c142cfffe80fa91d717c460f0d9108384e8ce55861f27f0c515e"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/mission/resource-manager/Microsoft.Mission/Mission",
+      "swaggerInputs": [
+        {
+          "file": "specification/mission/resource-manager/Microsoft.Mission/Mission/preview/2026-10-01-preview/openapi.json",
+          "sha256": "5546d551b838ed26686942ed2d6cd28512be648cbd80a9d8715032892676e4e7"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub",
+      "swaggerInputs": [
+        {
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "sha256": "ab2524745b2010ab58029351d1b48ca783b2432a7af0368d0914d2e0e6c91aef"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "line": 6188
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'AvailableClustersList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.AvailableClustersList",
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "line": 4512
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'EHNamespaceIdListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.EHNamespaceIdListResult",
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "line": 4997
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ClusterQuotaConfigurationProperties' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ClusterQuotaConfigurationProperties",
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "line": 4740
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'PrivateLinkResourcesListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.PrivateLinkResourcesListResult",
+          "file": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json",
+          "line": 6367
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric",
+      "swaggerInputs": [
+        {
+          "file": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric/stable/2023-11-01/fabric.json",
+          "sha256": "c955969c9b6a515592fef7c54538927afbf535da35b3b53d7af482cef4e687c6"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'RpSkuEnumerationForNewResourceResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.RpSkuEnumerationForNewResourceResult",
+          "file": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric/stable/2023-11-01/fabric.json",
+          "line": 1035
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'RpSkuEnumerationForExistingResourceResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.RpSkuEnumerationForExistingResourceResult",
+          "file": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric/stable/2023-11-01/fabric.json",
+          "line": 1014
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot",
+      "swaggerInputs": [
+        {
+          "file": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/stable/2025-11-01/healthbot.json",
+          "sha256": "3c20cbfae050e20df6d0b470d7016dd05bfb08bf73a9478a50f3b3dae5fbb051"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'AvailableOperations' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.AvailableOperations",
+          "file": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/stable/2025-11-01/healthbot.json",
+          "line": 533
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis",
+      "swaggerInputs": [
+        {
+          "file": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis/preview/2025-04-01-preview/healthcare-apis.json",
+          "sha256": "9fff36ce1f84be9b6fe38e5d27e1bcbcf2753bc9e1acd6838377b892dee2d16a"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ListOperations' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ListOperations",
+          "file": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis/preview/2025-04-01-preview/healthcare-apis.json",
+          "line": 3958
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationResultsDescription' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationResultsDescription",
+          "file": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis/preview/2025-04-01-preview/healthcare-apis.json",
+          "line": 4231
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes",
+      "swaggerInputs": [
+        {
+          "file": "specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes/stable/2026-05-01/connectedClusters.json",
+          "sha256": "c4080219232124ddd9be326edba5bed8f2a39fe7d01af74616c9f5f35c33bbf6"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions",
+      "swaggerInputs": [
+        {
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/stable/2025-03-01/extensions.json",
+          "sha256": "04f08bc5b753106e7367b121fe25d07f7aa2ded42f63557822c3e1556e1f15e9"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationStatusResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationStatusResult",
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/stable/2025-03-01/extensions.json",
+          "line": 1039
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes",
+      "swaggerInputs": [
+        {
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/preview/2024-11-01-preview/extensionTypes.json",
+          "sha256": "04fa394d0d2cf97bb53b99b792c38be08e9eec89c43d9b62f482b28bb3a3b250"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations",
+      "swaggerInputs": [
+        {
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/stable/2025-04-01/fluxconfiguration.json",
+          "sha256": "4dff39f104f517cdfa56838ac4765882f0384026fb733c8f44bd1b708faa7393"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationStatusResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationStatusResult",
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/stable/2025-04-01/fluxconfiguration.json",
+          "line": 1812
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes",
+      "swaggerInputs": [
+        {
+          "file": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/preview/2024-11-01-preview/privateLinkScopes.json",
+          "sha256": "484e87f767c080b0e624778d23522087e223b2ea4d2d024e23f0b7186922a540"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting",
+      "swaggerInputs": [
+        {
+          "file": "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/stable/2022-12-01/loadtestservice.json",
+          "sha256": "4eb40348d723c8f1b8b1be9b886772bedc49e1d6702d054fa7562ad1c6139b2a"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices",
+      "swaggerInputs": [
+        {
+          "file": "specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices/stable/2026-09-01/openapi.json",
+          "sha256": "e82f840a43ce9b32cbafadb22e80a84a2a35123074bd21922c1b52ac488441d9"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/maps/resource-manager/Microsoft.Maps/Maps",
+      "swaggerInputs": [
+        {
+          "file": "specification/maps/resource-manager/Microsoft.Maps/Maps/preview/2025-10-01-preview/maps-management.json",
+          "sha256": "ce3bcd016dd8891783d736f9a450c38933ced7aa7b81372bb9234b4e192e78fb"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts",
+      "swaggerInputs": [
+        {
+          "file": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts/stable/2025-10-03/azuremonitorworkspace.json",
+          "sha256": "ebad37d7a5825699b67d0e781bdeba69bf2fcd9251b83edf366ef152813465f4"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers",
+      "swaggerInputs": [
+        {
+          "file": "specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/preview/2025-12-01-preview/openapi.json",
+          "sha256": "cae50ce38dd6b9c3028a4d358f5b6b47ca3efb97c7712c8f1d5cd1688ce3d162"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql",
+      "swaggerInputs": [
+        {
+          "file": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/stable/2026-10-01/openapi.json",
+          "sha256": "b8c86c6be9b51fd5578e5406fbcdcc710fd0ef49ba34d48f37d2ca7cf778bba5"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationList",
+          "file": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/stable/2026-10-01/openapi.json",
+          "line": 8679
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'CapabilityList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.CapabilityList",
+          "file": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/stable/2026-10-01/openapi.json",
+          "line": 5799
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'QuotaUsageList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.QuotaUsageList",
+          "file": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/stable/2026-10-01/openapi.json",
+          "line": 9013
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage",
+      "swaggerInputs": [
+        {
+          "file": "specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage/stable/2026-04-16/Qumulo.Storage.json",
+          "sha256": "31d3596b11b2ef17c0fb6e931687af2b0289f7c70c5a679709df1b94326fdefa"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices",
+      "swaggerInputs": [
+        {
+          "file": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json",
+          "sha256": "762521612a4029d9c1c4d7563fef46dd359c44db9ab6f3a73a0c9d4d66fe7d17"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ClientDiscoveryResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ClientDiscoveryResponse",
+          "file": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json",
+          "line": 1691
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationResource' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationResource",
+          "file": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json",
+          "line": 2308
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'ReplicationUsageList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.ReplicationUsageList",
+          "file": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json",
+          "line": 2689
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'VaultUsageList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.VaultUsageList",
+          "file": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json",
+          "line": 3712
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/redis/resource-manager/Microsoft.Cache/Redis",
+      "swaggerInputs": [
+        {
+          "file": "specification/redis/resource-manager/Microsoft.Cache/Redis/stable/2024-11-01/redis.json",
+          "sha256": "24a339e685f02c866a91cde3fe94274eccbdbca65788297591ba131c159383ac"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/redis/resource-manager/Microsoft.Cache/Redis/stable/2024-11-01/redis.json",
+          "line": 2828
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationStatus' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationStatus",
+          "file": "specification/redis/resource-manager/Microsoft.Cache/Redis/stable/2024-11-01/redis.json",
+          "line": 2851
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'NotificationListResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.NotificationListResponse",
+          "file": "specification/redis/resource-manager/Microsoft.Cache/Redis/stable/2024-11-01/redis.json",
+          "line": 2767
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise",
+      "swaggerInputs": [
+        {
+          "file": "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise/preview/2026-10-01-preview/redisenterprise.json",
+          "sha256": "4373408cca4a80ef67642c2f942e56f65a4ae26dc3811388181e3eb4d1d20ced"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationStatus' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationStatus",
+          "file": "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise/preview/2026-10-01-preview/redisenterprise.json",
+          "line": 4119
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/relationships/resource-manager/Microsoft.Relationships/Relationships",
+      "swaggerInputs": [
+        {
+          "file": "specification/relationships/resource-manager/Microsoft.Relationships/Relationships/stable/2026-08-01/relationships.json",
+          "sha256": "d7be0be78fa2c99bf7727c97b216486ca2830bb19d0ee41ec87f917f87dfcfc3"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector",
+      "swaggerInputs": [
+        {
+          "file": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json",
+          "sha256": "9d6101bde7c397ab57827af043fa17a060605bd320de69aa88267d3d2b229042"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'applianceOperationsList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.applianceOperationsList",
+          "file": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json",
+          "line": 1382
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'applianceGetTelemetryConfigResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.applianceGetTelemetryConfigResult",
+          "file": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json",
+          "line": 1246
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'UpgradeGraph' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.UpgradeGraph",
+          "file": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json",
+          "line": 1170
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth",
+      "swaggerInputs": [
+        {
+          "file": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json",
+          "sha256": "e3cec7a34ba937a76716a07dc10499ad506cf7448657caad9da5748ea21c5244"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'availabilityStatus' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.availabilityStatus",
+          "file": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json",
+          "line": 2341
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'availabilityStatusListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.availabilityStatusListResult",
+          "file": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json",
+          "line": 2356
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'operationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.operationListResult",
+          "file": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json",
+          "line": 2680
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/search/resource-manager/Microsoft.Search/Search",
+      "swaggerInputs": [
+        {
+          "file": "specification/search/resource-manager/Microsoft.Search/Search/stable/2026-11-01/search.json",
+          "sha256": "043b3b412a1beafbb96f0db526b40da09f47af040ce0c475198857471fe7bc1c"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'QuotaUsagesListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.QuotaUsagesListResult",
+          "file": "specification/search/resource-manager/Microsoft.Search/Search/stable/2026-11-01/search.json",
+          "line": 2820
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'QuotaUsageResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.QuotaUsageResult",
+          "file": "specification/search/resource-manager/Microsoft.Search/Search/stable/2026-11-01/search.json",
+          "line": 2777
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController",
+      "swaggerInputs": [
+        {
+          "file": "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/preview/2026-09-25-preview/secretsynccontroller.json",
+          "sha256": "e2f6ae0ce37c0e6b26ecb4da5d8ab448b16ddc5084771c6dfe95ab32cbabb084"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/help/resource-manager/Microsoft.Help/Help",
+      "swaggerInputs": [
+        {
+          "file": "specification/help/resource-manager/Microsoft.Help/Help/preview/2024-03-01-preview/help.json",
+          "sha256": "6cda0116dbab80a20198002921a6792c6073f0f4ce68c8036fed6ceadecf125d"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole",
+      "swaggerInputs": [
+        {
+          "file": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json",
+          "sha256": "b3deca8352c567abfb21a1d4541f5f2bb3a2a4dbdfe9744168a862ca2ec15274"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SerialConsoleOperations' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SerialConsoleOperations",
+          "file": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json",
+          "line": 659
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SerialConsoleStatus' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SerialConsoleStatus",
+          "file": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json",
+          "line": 707
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus",
+      "swaggerInputs": [
+        {
+          "file": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2026-01-01/servicebus.json",
+          "sha256": "caa6b9b8c9afb745f59abb76fb9a255cade1779eda76f466a02e70fcda7b6a0d"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2026-01-01/servicebus.json",
+          "line": 5836
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'PrivateLinkResourcesListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.PrivateLinkResourcesListResult",
+          "file": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2026-01-01/servicebus.json",
+          "line": 6012
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+      "swaggerInputs": [
+        {
+          "file": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/stable/2021-06-01/cluster.json",
+          "sha256": "0cc931d396dc3b8b93dfcb168ce4c188d44397e1e3a425215e6b4860edf76221"
+        },
+        {
+          "file": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/stable/2021-06-01/application.json",
+          "sha256": "f4f262db6672c663ec36a7a59b151aec8fc4dc01b5cd51f77b6de0d383fd6f76"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters",
+      "swaggerInputs": [
+        {
+          "file": "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters/preview/2026-09-01-preview/servicefabricmanagedclusters.json",
+          "sha256": "e2a3ec02900d118c0ba8345e358868ffce464bb612cf90643fd35b5997725cac"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/management/resource-manager/Microsoft.Management/ServiceGroups",
+      "swaggerInputs": [
+        {
+          "file": "specification/management/resource-manager/Microsoft.Management/ServiceGroups/stable/2026-08-01/serviceGroups.json",
+          "sha256": "f818eccf20ecac4db654ea069a00fbfe9a4044c5abc85648c4ae0fd691450ad0"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking",
+      "swaggerInputs": [
+        {
+          "file": "specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking/stable/2026-03-01/TrafficController.json",
+          "sha256": "1934ad1e45d120de18dd4436916f9886ced8965831ad7752b2fd7ec86098f907"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService",
+      "swaggerInputs": [
+        {
+          "file": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-01-01-preview/signalr.json",
+          "sha256": "ad21d6da7391aabec4691407fcf66c31cfa0cbc608d8e606e1db507a45c3ddaf"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationList",
+          "file": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-01-01-preview/signalr.json",
+          "line": 3197
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SignalRUsageList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SignalRUsageList",
+          "file": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-01-01-preview/signalr.json",
+          "line": 4310
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SkuList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SkuList",
+          "file": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-01-01-preview/signalr.json",
+          "line": 4404
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/edge/resource-manager/Microsoft.Edge/sites",
+      "swaggerInputs": [
+        {
+          "file": "specification/edge/resource-manager/Microsoft.Edge/sites/stable/2025-06-01/sites.json",
+          "sha256": "48b6e3e51adf887e4342c8dc0bb4535a95f1b629ce8fa13ee1d3e2ebd94d531e"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere",
+      "swaggerInputs": [
+        {
+          "file": "specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere/stable/2024-04-01/azuresphere.json",
+          "sha256": "0fa1f8d1f4ca3ec5d63b6695151b55a79f71431c54d6f0136c6b0e0823efa7fb"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool",
+      "swaggerInputs": [
+        {
+          "file": "specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool/stable/2026-04-01/standbypool.json",
+          "sha256": "1d37f06833e03c94eb7f2463d625897a3f7893b1a9fb1f8e0e73bd95ad3f79ff"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "swaggerInputs": [
+        {
+          "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/stable/2026-09-01/openapi.json",
+          "sha256": "9b3aeac07a8682e7adc3055adbde5da2d5cfb3670891856b7733535ce4d0eef0"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationListResult",
+          "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/stable/2026-09-01/openapi.json",
+          "line": 15609
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'UsageListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.UsageListResult",
+          "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/stable/2026-09-01/openapi.json",
+          "line": 19327
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'StorageSkuListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.StorageSkuListResult",
+          "file": "specification/storage/resource-manager/Microsoft.Storage/Storage/stable/2026-09-01/openapi.json",
+          "line": 18520
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions",
+      "swaggerInputs": [
+        {
+          "file": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/stable/2026-03-01/storageactions.json",
+          "sha256": "470ef89e94104daf3f75ec7711fc44f274dea9196b8d41b55d41bf52d993b4ae"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'StorageTaskAssignmentsListResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.StorageTaskAssignmentsListResult",
+          "file": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/stable/2026-03-01/storageactions.json",
+          "line": 949
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription",
+      "swaggerInputs": [
+        {
+          "file": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription/preview/2025-11-01-preview/subscriptions.json",
+          "sha256": "c8cc3d8214a149a2d118a2bc8868f904ba4c8f55cff6022f91da063fee39081c"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SubscriptionCreationResult' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SubscriptionCreationResult",
+          "file": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription/preview/2025-11-01-preview/subscriptions.json",
+          "line": 1336
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'AcceptOwnershipStatusResponse' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.AcceptOwnershipStatusResponse",
+          "file": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription/preview/2025-11-01-preview/subscriptions.json",
+          "line": 904
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId",
+      "swaggerInputs": [
+        {
+          "file": "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/preview/2024-01-26-preview/verifiedid.json",
+          "sha256": "440312e37364feb9ddb93bed51dab9dc10dd24c837bd2303742a4e325585cad1"
+        }
+      ],
+      "swaggerFindings": [],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    },
+    {
+      "project": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService",
+      "swaggerInputs": [
+        {
+          "file": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json",
+          "sha256": "70d32afea69e0b3bee8e0cd972740fbba680c768af399830d7258a90fe1bb11d"
+        }
+      ],
+      "swaggerFindings": [
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'OperationList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.OperationList",
+          "file": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json",
+          "line": 3891
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SignalRServiceUsageList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SignalRServiceUsageList",
+          "file": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json",
+          "line": 4650
+        },
+        {
+          "code": "RequiredPropertiesMissingInResourceModel",
+          "message": "Model definition 'SkuList' must have the properties 'name', 'id' and 'type' in its hierarchy and these properties must be marked as readonly.",
+          "model": "definitions.SkuList",
+          "file": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json",
+          "line": 4744
+        }
+      ],
+      "typespecFindings": 0,
+      "swaggerStatus": "assessed",
+      "typespecStatus": "assessed"
+    }
+  ]
+}

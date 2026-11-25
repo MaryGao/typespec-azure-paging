@@ -1,0 +1,29 @@
+{
+  "description": "Synthetic ARM PUT response with nullable tag values",
+  "source": "model Test { tags?: Record<string | null> | null; }",
+  "compiler": "1.18.0",
+  "emitter": "@azure-tools/typespec-autorest 0.74.0",
+  "autorest": "3.8.0",
+  "validator": "2.2.4",
+  "rulesets": "2.2.6",
+  "mode": "ARM; semantic and model validators disabled",
+  "controls": [
+    {
+      "file": "nullable-string.json",
+      "tagsValueSchema": { "type": "string", "x-nullable": true },
+      "ruleSelected": true,
+      "pluginCompleted": true,
+      "fatalMessages": 0,
+      "AzureResourceTagsSchemaDiagnostics": 0
+    },
+    {
+      "file": "nullable-integer.json",
+      "tagsValueSchema": { "type": "integer", "x-nullable": true },
+      "ruleSelected": true,
+      "pluginCompleted": true,
+      "fatalMessages": 0,
+      "AzureResourceTagsSchemaDiagnostics": 1
+    }
+  ],
+  "typespecObservation": "The focused resource rule test reports Record<string | null> | null."
+}
