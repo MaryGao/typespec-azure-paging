@@ -4,7 +4,7 @@
 
 All 56 approved services were assessed. Swagger ran on 57 checked-in files selected by the services' default README tags. TypeSpec was compiled once per project without emission, with configured rules plus the target rule enabled and source suppressions retained. The Swagger runs used ARM subtype and the README configuration. Whether every rule-level suppression was reflected in the emitted logs was not independently established.
 
-The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 50 are classified as collection-response false positives; the remaining 24 are not all assessed. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
+The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 50 collection-response findings and 10 operation/status-response findings are classified as false positives; the remaining 14 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
 
 | TypeSpec project | Swagger files | Swagger diagnostics | TypeSpec diagnostics |
 | --- | ---: | ---: | ---: |
@@ -148,7 +148,11 @@ Each row is one emitted diagnostic. The list preserves all 74 occurrences, inclu
 
 ## Collection-response false positives
 
-The [50 collection-response findings](collection-findings.md) concern envelopes with a `value` array (49) or a `values` array (1), rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check and are not classified as TypeSpec gaps. The remaining 24 findings require individual assessment; exact version alignment remains unverified.
+The [50 collection-response findings](collection-findings.md) concern envelopes with a `value` array (49) or a `values` array (1), rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check and are not classified as TypeSpec gaps. Exact version alignment remains unverified.
+
+## Operation and status response false positives
+
+The [10 operation/status-response findings](operation-status-findings.md) concern operation, command or ownership-status results rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check. The remaining 14 findings require individual assessment.
 
 ## Interpreted examples and outstanding cases
 
