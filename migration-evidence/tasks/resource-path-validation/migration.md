@@ -2,11 +2,11 @@
 
 ## 1. Scope
 
-The opt-in TypeSpec rule `@azure-tools/typespec-azure-resource-manager/resource-path-validation` covers five Swagger rules: `PathContainsResourceType`, `PathForNestedResource`, `PathForTrackedResourceTypes`, `PathResourceProviderNamePascalCase`, and `PathResourceProviderMatchNamespace`.
+The opt-in TypeSpec rule `@azure-tools/typespec-azure-resource-manager/resource-path-validation` in [PR #6163](https://github.com/Azure/typespec-azure/pull/6163) covers five Swagger rules: `PathContainsResourceType`, `PathForNestedResource`, `PathForTrackedResourceTypes`, `PathResourceProviderNamePascalCase`, and `PathResourceProviderMatchNamespace`.
 
-This report records the **latest completed full suitable-service validation**, not a final resolution of every gap. The comparison uses TypeSpec Azure candidate `0e9615c43f864c0c63d278e00cf3bdffe9ec21bd`, TypeSpec core `123e997958ced3b632caa0a4486e306d1487ca82`, and [azure-rest-api-specs `1775cd6359369f2e5092d08ada94b4b4c1b8acba`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba).
+This report records the **latest completed full suitable-service validation**, not a final resolution of every gap. The comparison uses TypeSpec Azure candidate `c96618b96d4de6901f87a69529025617c5e180fe`, TypeSpec core `123e997958ced3b632caa0a4486e306d1487ca82`, and [azure-rest-api-specs `1775cd6359369f2e5092d08ada94b4b4c1b8acba`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba).
 
-**Revision caveat:** The candidate includes a committed parent-scope fix that was not on the PR head when this report was prepared. A subsequent local inherited-operation fix passed its focused regression test but was not included in this full run. Neither change is reflected in the counts below for the PR's earlier head.
+**Revision caveat:** Both fixes are committed and included in this full run, but have not been pushed to the PR. These results apply to candidate `c96618b96`, not the PR's earlier head.
 
 ## 2. Coverage
 
@@ -16,9 +16,9 @@ The run assessed all **56 TypeSpec projects** on the [pinned suitable-service li
 | --- | ---: |
 | Swagger diagnostic instances | 102 |
 | Distinct Swagger route/rule pairs | 102 |
-| TypeSpec diagnostic instances | 109 |
-| Matched route/rule pairs | 97 |
-| Swagger-only route/rule pairs | 5 |
+| TypeSpec diagnostic instances | 110 |
+| Matched route/rule pairs | 98 |
+| Swagger-only route/rule pairs | 4 |
 | TypeSpec-only route/rule pairs | 12 |
 
 | Swagger rule | Swagger route/rule pairs | TypeSpec diagnostics | Matched pairs |
@@ -26,10 +26,10 @@ The run assessed all **56 TypeSpec projects** on the [pinned suitable-service li
 | PathContainsResourceType | 0 | 0 | 0 |
 | PathForNestedResource | 1 | 8 | 0 |
 | PathForTrackedResourceTypes | 3 | 0 | 0 |
-| PathResourceProviderNamePascalCase | 98 | 101 | 97 |
+| PathResourceProviderNamePascalCase | 98 | 102 | 98 |
 | PathResourceProviderMatchNamespace | 0 | 0 | 0 |
 
-Matching uses the literal route and corresponding rule category; it does not establish operation-level or API-version equivalence. Diagnostic instances and distinct pairs are different measures. No findings in this population do not prove complete coverage.
+All 56 approved projects were assessed; none failed or were omitted. PostgreSQL's inherited-operation bug is resolved: the rerun added exactly one native route/rule pair and removed none. The remaining 16 mismatches are classified below, with semantic conclusions still provisional. Matching uses literal route plus rule category, not operation-level or API-version equivalence.
 
 ### Projects with findings
 
@@ -39,7 +39,7 @@ Matching uses the literal route and corresponding rule category; it does not est
 | Load Testing | 2022-12-01 | 0 | 1 | 0 | 0 | 1 |
 | Machine Learning | 2026-09-01 | 0 | 3 | 0 | 0 | 3 |
 | MySQL | 2024-12-30 | 46 | 48 | 46 | 0 | 2 |
-| PostgreSQL | 2026-10-01 | 52 | 53 | 51 | 1 | 2 |
+| PostgreSQL | 2026-10-01 | 52 | 54 | 52 | 0 | 2 |
 | Recovery Services | 2026-11-01 | 1 | 0 | 0 | 1 | 0 |
 | Redis | 2024-11-01 | 0 | 4 | 0 | 0 | 4 |
 | Resource Health | 2026-07-01 | 2 | 0 | 0 | 2 | 0 |
@@ -48,19 +48,20 @@ The remaining 48 listed projects had no findings for these five checks in this r
 
 ## 3. Why diagnostic counts differ
 
-The completed run found **5 Swagger-only** and **12 TypeSpec-only** route/rule pairs across the five checks.
+The completed run found **4 Swagger-only** and **12 TypeSpec-only** route/rule pairs across the five checks.
 
 ### Overall gap categories
 
 | Gap case | Analysis |
 | --- | --- |
-| [API-version mismatch (7 cases)](gap-evidence.md#api-version-mismatch-cases) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| [Inherited operation skipped (1 case)](gap-evidence.md#inherited-operation-skipped) | TypeSpec skipped PostgreSQL's inherited `/operations` route. Fixed locally; not included in the full run. |
-| [Named singleton (1 case)](gap-evidence.md#named-singleton) | TypeSpec accepts Recovery Services' declared singleton name; Swagger flags the literal segment. |
-| [Parent placeholder names (5 cases)](gap-evidence.md#parent-placeholder-names) | TypeSpec treats different placeholder names in the same position as a mismatch, likely producing false positives. |
-| [Tracked-resource classification (3 cases)](gap-evidence.md#tracked-resource-classification) | Swagger uses response `location`; TypeSpec checks tracked-resource lifecycle paths. |
+| [API-version mismatch (7 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| [Named singleton (1 Swagger-only)](gap-evidence.md#named-singleton) | TypeSpec accepts Recovery Services' declared singleton name; Swagger flags the literal segment. |
+| [Parent placeholder names (5 TypeSpec-only)](gap-evidence.md#parent-placeholder-names) | TypeSpec treats different placeholder names in the same position as a mismatch, likely producing false positives. |
+| [Tracked-resource classification (3 Swagger-only)](gap-evidence.md#tracked-resource-classification) | Swagger uses response `location`; TypeSpec checks tracked-resource lifecycle paths. |
 
 See the [gap evidence report](gap-evidence.md) for affected routes, counts, and source links.
+
+**Reconciliation (Swagger minus TypeSpec):** `102 - 110 = -8 = -7 + 1 - 5 + 3`. The counting remainder is zero; this does not resolve the provisional policy conclusions. The [inherited-operation bug](gap-evidence.md#inherited-operation-skipped) is now matched and is excluded from the remaining gap counts.
 
 ### PathContainsResourceType
 
@@ -78,7 +79,7 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 
 ### PathResourceProviderNamePascalCase
 
-**Result:** 98 Swagger pairs, 101 TypeSpec diagnostics, 97 matched pairs; 1 Swagger-only and 4 TypeSpec-only pairs (all 4 counted under API-version mismatch).
+**Result:** 98 Swagger pairs, 102 TypeSpec diagnostics, 98 matched pairs; 0 Swagger-only and 4 TypeSpec-only pairs (all 4 counted under API-version mismatch). The inherited-operation fix was confirmed in the full rerun.
 
 ### PathResourceProviderMatchNamespace
 
@@ -91,7 +92,7 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 | Resource type path | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
 | Nested resource path | 1 Swagger / 8 TypeSpec | API-version, singleton, and parent-placeholder differences. |
 | Tracked-resource scope | 3 Swagger / 0 TypeSpec | Swagger's response-location heuristic and TypeSpec's lifecycle metadata differ. |
-| Provider PascalCase | 98 Swagger / 101 TypeSpec; 97 matched pairs | API-version mismatch and one skipped inherited operation. |
+| Provider PascalCase | 98 Swagger / 102 TypeSpec; 98 matched pairs | Only API-version mismatches remain; the inherited-operation bug is resolved. |
 | Provider namespace match | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
 
 ## 5. Method and limitations
@@ -99,5 +100,6 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 - The native rule was explicitly enabled; authored TypeSpec suppressions were retained. Swagger README suppressions were not applied.
 - Swagger used OpenAPI validator 2.2.4, rulesets 2.2.6, validator core 1.0.7 and AutoRest launcher 3.8.0. The exact AutoRest core selected at runtime was not independently recorded.
 - The full rerun compiled all 56 TypeSpec projects against the candidate and reused the prior Swagger results at the same specs revision after checking cached receipts, selected rules, and input/output hashes.
+- [Published validation receipt summaries](validation-receipts.json) retain all target-rule findings, per-project counts, selected Swagger inputs, versions, and hashes. Machine-specific runtime paths are omitted.
 - This is one selected API version per suitable project, not all historical versions or the entire specs repository. Unprojected source versus selected Swagger and differing suppression policies limit parity conclusions.
 - The earlier member notes and [evidence details](evidence-details.md) describe preliminary source analysis and focused checks; they do not contain this later full-run data.
