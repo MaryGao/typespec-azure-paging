@@ -52,7 +52,15 @@ The completed run found **5 Swagger-only** and **12 TypeSpec-only** route/rule p
 
 ### Overall gap categories
 
-- **API-version mismatch (7 TypeSpec-only; [#5875](https://github.com/Azure/typespec-azure/issues/5875)):** TypeSpec linted unprojected source. The selected Swagger versions omit four casing cases (two MySQL Fabric Mirroring routes added later and two PostgreSQL `dbAgents` routes removed) and three nested-path cases (two Machine Learning inference routes and one Load Testing limit). The inference routes also have parent-placeholder differences; the [Load Testing limit](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225) has a literal name without singleton metadata.
+- **API-version mismatches:** Seven TypeSpec-only pairs result from validating unprojected TypeSpec source against selected Swagger versions. These are tracked by [#5875](https://github.com/Azure/typespec-azure/issues/5875).
+
+| Swagger rule | Service | TypeSpec-only route(s) | Selected Swagger | TypeSpec source/version difference | Count |
+| --- | --- | --- | --- | --- | ---: |
+| PathResourceProviderNamePascalCase | MySQL | `.../fabricMirroringSettings/{fabricMirroringSettingsName}`; `.../fabricMirroringSettings` | `2024-12-30` | Fabric Mirroring routes added in `2025-12-01-preview`, after the selected Swagger version | 2 |
+| PathResourceProviderNamePascalCase | PostgreSQL | `.../dbAgents`; `.../dbAgents/Default` | `2026-10-01` | `dbAgents` routes added in `2026-07-01` and removed in the selected version | 2 |
+| PathForNestedResource | Machine Learning | `.../inferencePools/{poolName}/endpoints/{endpointName}`; `.../inferencePools/{poolName}/groups/{groupName}` | `2026-09-01` | Inference operations are absent from selected stable Swagger and reintroduced in a preview version; these routes also have parent-placeholder differences | 2 |
+| PathForNestedResource | Load Testing | `.../limits/maxMonthlyVirtualUserHours` | `2022-12-01` | Route added in `2024-12-01-preview`; its literal name also lacks singleton metadata ([model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225)) | 1 |
+
 - **Rule behavior on shared routes (10 pairs):** 5 Swagger-only and 5 TypeSpec-only, detailed by rule below.
 
 ### PathContainsResourceType
