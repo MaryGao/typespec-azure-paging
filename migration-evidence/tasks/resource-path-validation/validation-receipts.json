@@ -1,6 +1,6 @@
 {
   "description": "Public summaries of the verified full-run receipts; target-rule findings and input hashes retained, machine-specific runtime paths omitted.",
-  "candidate": "bb9e0d61171c966fecdb803cf095819f7cbd1327",
+  "candidate": "6f1de36f58258c789577ae516331b14a3af7b121",
   "specs": "1775cd6359369f2e5092d08ada94b4b4c1b8acba",
   "core": "123e997958ced3b632caa0a4486e306d1487ca82",
   "serviceList": "https://github.com/markcowl/azure-rest-api-specs/blob/30a602e9e17f834fb9de6c3f500dbc1a5f2447cb/documentation/typespec-arm-resource-data/Report_20261106/provisioning-validation-services.md#services-suitable-for-validation",
@@ -18,129 +18,77 @@
   "totals": {
     "swaggerDiagnostics": 102,
     "swaggerRouteRulePairs": 102,
-    "nativeDiagnostics": 103,
-    "matchedPairs": 98,
-    "swaggerOnlyPairs": 4,
+    "nativeDiagnostics": 106,
+    "matchedPairs": 101,
+    "swaggerOnlyPairs": 1,
     "nativeOnlyPairs": 5
   },
-  "differenceFromInheritedFix": {
-    "before": "c96618b96d4de6901f87a69529025617c5e180fe",
-    "after": "bb9e0d61171c966fecdb803cf095819f7cbd1327",
+  "differenceFromParentConceptBaseline": {
+    "before": "bb9e0d61171c966fecdb803cf095819f7cbd1327",
+    "after": "6f1de36f58258c789577ae516331b14a3af7b121",
     "totals": {
-      "beforeDiagnostics": 110,
-      "afterDiagnostics": 103,
-      "removedPairs": 7,
-      "addedPairs": 0
+      "beforeDiagnostics": 103,
+      "afterDiagnostics": 106,
+      "removedPairs": 0,
+      "addedPairs": 3
     },
     "changedServices": [
       {
-        "id": "MachineLearning",
-        "slug": "machinelearning",
-        "beforeDiagnostics": 3,
-        "afterDiagnostics": 0,
-        "removed": [
+        "id": "Attestation",
+        "slug": "attestation",
+        "beforeDiagnostics": 0,
+        "afterDiagnostics": 1,
+        "removed": [],
+        "added": [
           {
-            "rule": "PathForNestedResource",
+            "rule": "PathForTrackedResourceTypes",
             "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
             "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\machinelearningservices\\resource-manager\\Microsoft.MachineLearningServices\\MachineLearningServices\\Feature.tsp",
-            "line": 110,
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\attestation\\resource-manager\\Microsoft.Attestation\\Attestation\\routes.tsp",
+            "line": 36,
             "column": 3,
             "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{featuresetName}/versions/{featuresetVersion}/features/{featureName}",
-            "verb": "get"
-          },
-          {
-            "rule": "PathForNestedResource",
-            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
-            "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\machinelearningservices\\resource-manager\\Microsoft.MachineLearningServices\\MachineLearningServices\\InferenceEndpoint.tsp",
-            "line": 117,
-            "column": 3,
-            "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/inferencePools/{poolName}/endpoints/{endpointName}",
-            "verb": "get"
-          },
-          {
-            "rule": "PathForNestedResource",
-            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
-            "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\machinelearningservices\\resource-manager\\Microsoft.MachineLearningServices\\MachineLearningServices\\InferenceGroup.tsp",
-            "line": 117,
-            "column": 3,
-            "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/inferencePools/{poolName}/groups/{groupName}",
+            "targetName": "getDefaultByLocation",
+            "path": "/subscriptions/{subscriptionId}/providers/Microsoft.Attestation/locations/{location}/defaultProvider",
             "verb": "get"
           }
-        ],
-        "added": []
+        ]
       },
       {
-        "id": "Redis",
-        "slug": "redis",
-        "beforeDiagnostics": 4,
-        "afterDiagnostics": 0,
-        "removed": [
+        "id": "ResourceHealth",
+        "slug": "resourcehealth",
+        "beforeDiagnostics": 0,
+        "afterDiagnostics": 2,
+        "removed": [],
+        "added": [
           {
-            "rule": "PathForNestedResource",
+            "rule": "PathForTrackedResourceTypes",
             "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
             "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\redis\\resource-manager\\Microsoft.Cache\\Redis\\RedisFirewallRule.tsp",
-            "line": 33,
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\resourcehealth\\resource-manager\\Microsoft.ResourceHealth\\ResourceHealth\\AvailabilityStatus.tsp",
+            "line": 37,
             "column": 3,
             "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/firewallRules/{ruleName}",
+            "targetName": "getByResource",
+            "path": "/{resourceUri}/providers/Microsoft.ResourceHealth/availabilityStatuses/current",
             "verb": "get"
           },
           {
-            "rule": "PathForNestedResource",
+            "rule": "PathForTrackedResourceTypes",
             "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
             "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\redis\\resource-manager\\Microsoft.Cache\\Redis\\PrivateEndpointConnection.tsp",
-            "line": 25,
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\resourcehealth\\resource-manager\\Microsoft.ResourceHealth\\ResourceHealth\\AvailabilityStatus.tsp",
+            "line": 148,
             "column": 3,
             "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/privateEndpointConnections/{privateEndpointConnectionName}",
-            "verb": "get"
-          },
-          {
-            "rule": "PathForNestedResource",
-            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
-            "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\redis\\resource-manager\\Microsoft.Cache\\Redis\\RedisCacheAccessPolicy.tsp",
-            "line": 32,
-            "column": 3,
-            "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/accessPolicies/{accessPolicyName}",
-            "verb": "get"
-          },
-          {
-            "rule": "PathForNestedResource",
-            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
-            "severity": "warning",
-            "message": "The path for a nested resource must follow the resource type and name pattern.",
-            "file": "specification\\redis\\resource-manager\\Microsoft.Cache\\Redis\\RedisCacheAccessPolicyAssignment.tsp",
-            "line": 32,
-            "column": 3,
-            "targetKind": "Operation",
-            "targetName": "get",
-            "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/accessPolicyAssignments/{accessPolicyAssignmentName}",
+            "targetName": "getByResource",
+            "path": "/{resourceUri}/providers/Microsoft.ResourceHealth/childAvailabilityStatuses/current",
             "verb": "get"
           }
-        ],
-        "added": []
+        ]
       }
     ]
   },
@@ -200,8 +148,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "511b6fa89548280ecd9926ebf303d97919c1bd118b92e29399925bea8ecbdb21",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "06f4474d11478fcee0e6cdc58c623b75859d310a4c307d49c2afb1bd6b701f2b",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -526,9 +474,9 @@
         ],
         "swaggerDiagnostics": 1,
         "swaggerRouteRulePairs": 1,
-        "nativeDiagnostics": 0,
-        "matchedPairs": 0,
-        "swaggerOnlyPairs": 1,
+        "nativeDiagnostics": 1,
+        "matchedPairs": 1,
+        "swaggerOnlyPairs": 0,
         "nativeOnlyPairs": 0,
         "byRule": [
           {
@@ -546,8 +494,8 @@
           {
             "rule": "PathForTrackedResourceTypes",
             "swagger": 1,
-            "native": 0,
-            "matched": 0
+            "native": 1,
+            "matched": 1
           },
           {
             "rule": "PathResourceProviderNamePascalCase",
@@ -566,8 +514,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "8f02b101b68c3d656bdacd447136545e411b1a79481f8894f59094b285ec1a40",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "7413594cd6389a9d575591770c10ff946c0838e749183c98d70f29390232db79",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -634,7 +582,20 @@
             "version": "0.88.0"
           }
         ],
-        "findings": []
+        "findings": [
+          {
+            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
+            "severity": "warning",
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\attestation\\resource-manager\\Microsoft.Attestation\\Attestation\\routes.tsp",
+            "line": 36,
+            "column": 3,
+            "targetKind": "Operation",
+            "targetName": "getDefaultByLocation",
+            "path": "/subscriptions/{subscriptionId}/providers/Microsoft.Attestation/locations/{location}/defaultProvider",
+            "verb": "get"
+          }
+        ]
       },
       "swagger": [
         {
@@ -787,8 +748,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "4aaae06ca37c1f579b2bf0ad40982958fecc75274535a5ad11da4a9b872e830e",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "3bbb5be052415b5124c8d3a5213a44c864674d112a548d25325025a6c5a5e0da",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -1273,8 +1234,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "d02da85c1906a0566a175605a90e944bf4fcc1d621a56d678d24738da371d5b4",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "15c2f73a5e5082101ea9bcf371176f96d182164fd96195a7f0f8a541cd1c75dd",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -1615,8 +1576,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "beacb289e342871391e8923c4e46a969013f9fd48f82d1e396c0b7f4b501a91d",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "23371b9fca1ae8f517f72e1a708039e1d10615b370d831327d94f36f52dd8bfe",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -2341,8 +2302,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "aa5c0fe6503521018a8f8005ed66f4c89ff1f6658eca77d3bbd3d3d7e747f525",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "31feecefd3e214c23ce8d7510c0f5ae2d5811929dc6be345cac51dfb5256c8b3",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -2591,8 +2552,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "0e7bfc5acecb0742756e848a4c26dbe4b92d8f37e3f87edb3493758f2ddf0fba",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "f79800a40f5ade7d481754257bc9e93d49a9a135d351e45113321b5b6cd1e9cd",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -2973,8 +2934,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "ceb1ddcf300d670c7d441d0404e258d3b8fbafc63007d65811360fcf0693f15b",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "e9e9c091c494e6d2b0f3426cdd1f2909e330c105b31bdcb84bbddf1fff225828",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -3507,8 +3468,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7fbc642b141af5cda0dd8c8012a89a167fafe9d2f71d3e833bf5bab83d2f67c9",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "0d98ce3ebed07b0131be08726f853d536f49185028afbe80b538f2fdd64a3360",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -3769,8 +3730,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "fd80ca82aeca7cc00269951baf4aa105df3f972b99719188b2beb945c1c165cd",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "8b60b538f9e6c7be5bbb5a09ee9a7924c56d4977173f21db720f29d44109b5ee",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -4507,8 +4468,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "5fe2b491902a9feef33261da09c01742f43081ffcb9ee8d9bd6d5de5441b144c",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "86c95a68c7bec0a033f6255aff85da308ac51d4ff7350475dc5c9fbc477f58ee",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -4773,8 +4734,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "0ada1a491572f96a9eb63cd7d6596c199f1af6d6c80d114eca0d09ac32d4d799",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "9f6e53ea90f22ec4f6c8f843a734c8dc43f4899a0b8134df1adce22f053ea0a0",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -5083,8 +5044,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "670ce4254e5666b0495f92714a967b5220b4f0302c003c13e5e012034128e4a4",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "33a1b271f8f17a12c5fcced40cbb06122459a897d551f621c938a5e8c941511e",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -5625,8 +5586,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "76d46517ac2db376f00e022d5d0585a58cffde9805cb3b86abf5ec1e291cd0cc",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "5ffa58c0bc2f55d84221182f2e3e6b5bf5a575a75e78bf12e05c1dd53fd8e569",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -5863,8 +5824,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "b4d18405bed0f136e3d64683b827f8367b5ec11047f68e6a1e566f0b499b5c3e",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "86293999f55864c71c7e41703364bfc868c04ac985f2191b0344b0f97d94b3ae",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -6121,8 +6082,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "3e11dda8bd04bea6375c6ffb5d71628a09c4b03f01f02906e7ea71b14ad25ff9",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "641f5ccb795e28e113d32f0052ac6c7c23eed12c99465e209db0d97cf7ec4223",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -6619,8 +6580,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "041ce0883a6de19745faad82477cc718548efc14cce827cfcf788b0f1f22d695",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "0368fca5c16def5110a05cdef4472b295f4209757d7bd566dddbbfa410943c2e",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -7109,8 +7070,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "aa44e55757f781ee45b46e01010de82eff512ca15cda025506dc04ae727dd663",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "b00d69ec30e536de1b0b8365d73621298c3e27eeae49f9512de1312cbd65f5af",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -7299,8 +7260,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "cc87105e7ff855c14cf4a167a55824d315eccf84549a93d9e0d7909fd1a1ef19",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "ec60cbcb04e376406dc187899a02dd0cac616b09846379511a6771aed4cf29c0",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -7481,8 +7442,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "1110aad4e206b8f75dddc7aa48e1aebcc52873597b5da96d545da3bdccc5dae1",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "1eaee066e82929fe45937fd2ea32e5701b6c15d5b2a7ade822f31d209d5fb1ad",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -7863,8 +7824,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "f78a957ab0ffbc614656022e3e64ee943a9165c871ad39c5c26c4958f0e81db8",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "7ee9da413efcec3e4484cc1ef852aafc4751c92f7bd720f0c3584eb0493e6156",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -8069,8 +8030,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "0c00266f8f5bb860fac236298fed0cf9b5fecb92cac02029f466dd0e75ef72db",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "a687a6225b7d9fd3bb71ca5945f974282a03f759fd436fc9529791c5c7aa2bfd",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -8263,8 +8224,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "785ba59565f2fc4189c3331d032c0e0160c59af7a090f0a2963c767abf415ce2",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "678956c697a2d8212a1113f5188697e5c79aeb4bf27018c11607c8c02469008c",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -8445,8 +8406,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "d7d8fc2621676226fbc3eb94effeb7fb4d3c121dffb8eeedd56ab271cd9c74a6",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "4878f65235779176c270fc090ee2cb886d03529942131278cce2d11c12d99d6f",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -8627,8 +8588,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "2a0fd563c48d8d9ea5bc92db9baf22a8ba6e90ac40b9d11c1a3c3ddccf12eaff",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "82795e3e0b9dca30a48b828cc9731280a32a0ff3586f81e65bf7b57035841def",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -8837,8 +8798,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "ab410f2659cfceef61fb2176fbc514201679a72e03f216cf48cd8f058cbfe41c",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "5493fc9738f9f4594012b23699d7dc8da54f66c512fdd05c73e09758c930552d",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -9048,8 +9009,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "535c21d72cc2e7791848c0a6386a057489eb56e7de03013067d1151eb38dee98",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "d474ba48717ec645e6c4fd20fb2779aa7e0250be8abebfd295afb2703af24043",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -10342,8 +10303,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7a5afce14413c5f44cbd54879b22390bc3344ff8fe1e25bc9b8cb9cf4da921e9",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "0518d2b7ece1c59404aa8fe0a3c69fe87211c055303d846e3a49a252117825a4",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -10608,8 +10569,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "8c7bd74d14aeb9dd5734a6a7233762deef6c5b463aec13973ebb30e69b0bca0a",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "e93a1476028c7e4ed23820a7bc69d18022558bb2b6e3b5d96feef285b890bbd6",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -10906,8 +10867,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7447c11e2bd33aceac536e5c43229287ed0e00e99840b45ed9cdc4234e83186c",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "fb338a80beafd9314fc3d528610ead73b6dbe8b865ff84d19053d075dda17ec1",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -12266,8 +12227,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "96e9a2f6b5562a8d24b3707c09caffd97e00e1a81b6e903661a3e2fea17040a3",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "828d77bffe2bd5561b5a1bb30db76eb9f20bce8f7098f1d50988e56d734f2a40",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -13886,8 +13847,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "4302f8ae29e7331286c727fdf1d2619ede88f68813093c576eb0ad8cabdde42a",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "235bf4c004fca0dbdbf6d084e74be0e9273ae770b188bd712acd516455d970e0",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -14092,8 +14053,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "139890a27bfba0d8b73f061d3295a7dafbd601b42b15ba6816acc83658c78774",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "b988d4e93b8a88eede2aa68307728f685718378927cf3c3c859eac225f841725",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -14441,8 +14402,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "c31327aa0a61e7cc65968c051d612f889444a1a58b4e3a3976a8fb673127c4bd",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "5b85e50438126a5aebd0207f5733424b98d1dfa9972d12b6de364ce596883227",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -14807,8 +14768,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "141f008aeb9149b74d374439f1514fe356ab1b9676e02f4d324532de3df450c0",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "b3f36b9c008929975ebd1f1e4ab5561a6695de02c37223c7faec74499b14d5bb",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -15161,8 +15122,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "e82428d4d922223345e5798e3704d19af839a12ba9d1dc181cf360fd3294faf6",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "7de2857eea3c564f4017f05db6dc78a29596fff8c1e1ae6bbd4f827be17fb12f",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -15347,8 +15308,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7d05f50bdf906f8a8c0380fa345a4d424d7fc4dc1ad8123cb2c18eb567839b87",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "346c0ae57d346425cd57aa79fa7de552dad6f20fb2a2b204dbed8dc17b15c488",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -15501,9 +15462,9 @@
         ],
         "swaggerDiagnostics": 2,
         "swaggerRouteRulePairs": 2,
-        "nativeDiagnostics": 0,
-        "matchedPairs": 0,
-        "swaggerOnlyPairs": 2,
+        "nativeDiagnostics": 2,
+        "matchedPairs": 2,
+        "swaggerOnlyPairs": 0,
         "nativeOnlyPairs": 0,
         "byRule": [
           {
@@ -15521,8 +15482,8 @@
           {
             "rule": "PathForTrackedResourceTypes",
             "swagger": 2,
-            "native": 0,
-            "matched": 0
+            "native": 2,
+            "matched": 2
           },
           {
             "rule": "PathResourceProviderNamePascalCase",
@@ -15541,8 +15502,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "1af72bbbb18c458ac94db673454a3a457225a2d909c64b98d3b6d81ce6484c11",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "3376abbf208719a8dda3c90a6787e78d74a267b418f78dfc2d375a4a21a23bcc",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -15621,7 +15582,32 @@
             "version": "0.88.0"
           }
         ],
-        "findings": []
+        "findings": [
+          {
+            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
+            "severity": "warning",
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\resourcehealth\\resource-manager\\Microsoft.ResourceHealth\\ResourceHealth\\AvailabilityStatus.tsp",
+            "line": 37,
+            "column": 3,
+            "targetKind": "Operation",
+            "targetName": "getByResource",
+            "path": "/{resourceUri}/providers/Microsoft.ResourceHealth/availabilityStatuses/current",
+            "verb": "get"
+          },
+          {
+            "code": "@azure-tools/typespec-azure-resource-manager/resource-path-validation",
+            "severity": "warning",
+            "message": "Tracked resources must use paths under /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}.",
+            "file": "specification\\resourcehealth\\resource-manager\\Microsoft.ResourceHealth\\ResourceHealth\\AvailabilityStatus.tsp",
+            "line": 148,
+            "column": 3,
+            "targetKind": "Operation",
+            "targetName": "getByResource",
+            "path": "/{resourceUri}/providers/Microsoft.ResourceHealth/childAvailabilityStatuses/current",
+            "verb": "get"
+          }
+        ]
       },
       "swagger": [
         {
@@ -15824,8 +15810,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "186fceeb3ab5c1be3a0f00a510532eca8412e8ef304ec6ce13ba79aaa9da083a",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "faa2a27bd597484501a6ea2ad475618a5da78b2f671fe3ba551a8cf98ceef860",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -16194,8 +16180,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "3a245dcab6598c849af9b8f2cb076a1b76b466ff1d633242e970877bc76a521b",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "ef476b8c515d6e21bcf80f5d44966801eb2ed7c9789a77cd059b8ad8b6075d13",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -16392,8 +16378,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "ed7edfc07d233e945c5584d41436d8b1148f9320ca768f294c0297eab2ac8bdd",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "aa19e1f073c9df72d40329dd77dc15fec2fa302c4c215a3f631a2d95fcb9fcb2",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -16582,8 +16568,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "f58ba3f4185fd3cd4b291fdf1c92a8c18f495ce9643eeb6dbafc30e9ac7b40ed",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "ce4b8fa66fad9b1613903d0f57687429a900efffc284a2478549640d16462700",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -16772,8 +16758,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7455c682e8560a473413951cfddc45d0639ea99ac4dcba88283ee790ac458086",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "3ee819c8661f6303d73e86599bda2abc058f224ba13151ccbc53c33cad21914a",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -17259,8 +17245,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "de33d68f8d3867b9da4c8ccbe704adf397f9778f190a2d3d15be05a53b963ae7",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "e42e25c6efcc348033ef7436771ee8deb1a3f463d11d0b540764fb02a65e75ec",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -17587,8 +17573,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "7aeaf0e0f1f5623ad1fa476573ef53158760b152d29a6afb7bdab7f4ba6c3b94",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "78be27d125dc1ef8e068abae333040b7c2cbd975327c5f78a1b026b6a94903cc",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -18049,8 +18035,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "4c03583352b5ce1c2498bca46ceda18baec08ca849d0d2a9954c6047132dd1bf",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "4fc5d691893ab80f5ae91dafb1845bec8dd5d2fd7cdbd5c498792445e13886f7",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -18215,8 +18201,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "9604a487037e8ff782dc5afd9429060b830400b3af433662ae008d5915765df6",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "0d8d59cc5bef8ad53c7997a78233421c254fe1e3b765042c8ffc22a680a2eab3",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -18477,8 +18463,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "bdcf2fe1d3e1a43d4f645887d090a4921cfe1d541783f3d91ed906a43ae943ed",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "aa29116cc61720968e52e3b1daf98f9865cad30e53c6308bcf541297656b9f58",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -18815,8 +18801,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "d4cbe175527677d83093e6ac65dfe15e9c2a4788bba692b686ae082180a55c11",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "e0af1a90e5fa4c7dddb6d09e930da4f55beef4456e4154bad3f35bc5e9a61936",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -19025,8 +19011,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "0d0ad1476c15557babca97a155a47147f608776e85a56f02e5ba3100625224d2",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "2247ca56b1eded731a9705211588b064b6f9903714ba9e496fa31abfed522ac3",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -19371,8 +19357,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "c8b7ce51b8b5743b46882019566f635af9648a6c39a578a19d2a822dd715c278",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "accd6a88a3cb292a55f36ab171d93818334a2461855d4988603ce595e92dc467",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -19617,8 +19603,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "00a3275914bb6110ed0b47e423db9c066d82327fb7c5bea892211a72fd877402",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "11d72226fd81ab66ea8f9888197bd2fdaf4ef8198bbbdc5dd96bf16382511651",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -20815,8 +20801,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "16ac9958e448d12ff7fe7494b29c90cb4a491debb4f34bb2ee56ededa2885df8",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "d7f36d7f5fdd5675404a66e50bf9f95d42a2264801273f8b9c688a9bff9d25e8",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -21013,8 +20999,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "f4ebc362521cf94a4ed26f1a7084ffa8cad1e41e6ce523908c2e2cc18e1db523",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "d46fd3fd0c55f2e5aafa84f3cf96e0f54ae78c189b433207db12f3f176802f76",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -21235,8 +21221,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "fef717c8dcc2a5ea05197da0ce8a27a2327438c239c66f885a4f561220ae65cb",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "f42ef4c9aa34138b1a9e2a8a50d2552d72d0b1f33efe69a31d41a5740317033a",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [
@@ -21397,8 +21383,8 @@
       "native": {
         "status": "assessed",
         "node": "v24.20.0",
-        "originalReceiptSha256": "2d030019185e5cdcbb72304a4766e48a4969242f461c06e63b2d5e851752b04b",
-        "ruleBuiltSha256": "d61ab41ea7211bd5cb6b3e3472ba413a85d3aa3d4303c187e1bd5b6523101d1f",
+        "originalReceiptSha256": "0c88d58a54320b3c8bf59b775d3ac19319094fdd7bc6c1c618e92807509bb5ba",
+        "ruleBuiltSha256": "3e161cdd5b972eca3ee04c9348d1595e298dde3bdcc50d50ea163189c2ab4709",
         "resolverSourceSha256": "9f7225131c86b93935697c7d7ed69356e366e9e9f46095dc5e77e6da304fecf3",
         "resolverBuiltSha256": "4f82d54b74ec9980696b7400610380634b470d7d9093b0050e7022c485508d67",
         "sourceFiles": [

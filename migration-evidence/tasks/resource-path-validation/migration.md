@@ -4,9 +4,9 @@
 
 The opt-in TypeSpec rule `@azure-tools/typespec-azure-resource-manager/resource-path-validation` in [PR #6163](https://github.com/Azure/typespec-azure/pull/6163) covers five Swagger rules: `PathContainsResourceType`, `PathForNestedResource`, `PathForTrackedResourceTypes`, `PathResourceProviderNamePascalCase`, and `PathResourceProviderMatchNamespace`.
 
-This report records the **latest completed full suitable-service validation**, not a final resolution of every gap. The comparison uses TypeSpec Azure candidate `bb9e0d61171c966fecdb803cf095819f7cbd1327`, TypeSpec core `123e997958ced3b632caa0a4486e306d1487ca82`, and [azure-rest-api-specs `1775cd6359369f2e5092d08ada94b4b4c1b8acba`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba).
+This report records the **latest completed full suitable-service validation**, not a final resolution of every gap. The comparison uses TypeSpec Azure candidate `6f1de36f58258c789577ae516331b14a3af7b121`, TypeSpec core `123e997958ced3b632caa0a4486e306d1487ca82`, and [azure-rest-api-specs `1775cd6359369f2e5092d08ada94b4b4c1b8acba`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba).
 
-**Revision note:** This report is pinned to candidate `bb9e0d611`; PR CI on the updated head is tracked separately.
+**Revision note:** This report is pinned to candidate `6f1de36f5`; PR CI is tracked separately.
 
 ## 2. Coverage
 
@@ -16,51 +16,52 @@ The run assessed all **56 TypeSpec projects** on the [pinned suitable-service li
 | --------------------------------- | -----: |
 | Swagger diagnostic instances      |    102 |
 | Distinct Swagger route/rule pairs |    102 |
-| TypeSpec diagnostic instances     |    103 |
-| Matched route/rule pairs          |     98 |
-| Swagger-only route/rule pairs     |      4 |
+| TypeSpec diagnostic instances     |    106 |
+| Matched route/rule pairs          |    101 |
+| Swagger-only route/rule pairs     |      1 |
 | TypeSpec-only route/rule pairs    |      5 |
 
 | Swagger rule                       | Swagger route/rule pairs | TypeSpec diagnostics | Matched pairs |
 | ---------------------------------- | -----------------------: | -------------------: | ------------: |
 | PathContainsResourceType           |                        0 |                    0 |             0 |
 | PathForNestedResource              |                        1 |                    1 |             0 |
-| PathForTrackedResourceTypes        |                        3 |                    0 |             0 |
+| PathForTrackedResourceTypes        |                        3 |                    3 |             3 |
 | PathResourceProviderNamePascalCase |                       98 |                  102 |            98 |
 | PathResourceProviderMatchNamespace |                        0 |                    0 |             0 |
 
-All 56 approved projects were assessed; none failed or were omitted. PostgreSQL's inherited-operation bug remains resolved. The candidate now uses the resolved ARM parent relationship to identify nested resources and validates the child's trailing resource-type/name pair without requiring identical parent parameter names. Seven prior placeholder-name diagnostics disappeared; the remaining nine mismatches include one Swagger false positive for a named singleton. Other rule-behavior conclusions remain provisional. Matching uses literal route plus rule category, not operation-level or API-version equivalence.
+All 56 approved projects were assessed; none failed or were omitted. PostgreSQL's inherited-operation bug remains resolved. The candidate uses the resolved ARM parent relationship to identify nested resources and validates the child's trailing resource-type/name pair without requiring identical parent parameter names. Seven prior placeholder-name diagnostics remain absent. The three prior tracked-path classification differences now match by route and rule; the six remaining mismatches include one Swagger false positive for a named singleton. Matching uses literal route plus rule category, not operation-level or API-version equivalence.
 
 ### Projects with findings
 
 | Project           | Selected Swagger version | Swagger pairs | TypeSpec diagnostics | Matched | Swagger-only | TypeSpec-only |
 | ----------------- | ------------------------ | ------------: | -------------------: | ------: | -----------: | ------------: |
-| Attestation       | 2021-06-01               |             1 |                    0 |       0 |            1 |             0 |
+| Attestation       | 2021-06-01               |             1 |                    1 |       1 |            0 |             0 |
 | Load Testing      | 2022-12-01               |             0 |                    1 |       0 |            0 |             1 |
 | MySQL             | 2024-12-30               |            46 |                   48 |      46 |            0 |             2 |
 | PostgreSQL        | 2026-10-01               |            52 |                   54 |      52 |            0 |             2 |
 | Recovery Services | 2026-11-01               |             1 |                    0 |       0 |            1 |             0 |
-| Resource Health   | 2026-07-01               |             2 |                    0 |       0 |            2 |             0 |
+| Resource Health   | 2026-07-01               |             2 |                    2 |       2 |            0 |             0 |
 
 The remaining 50 listed projects had no findings for these five checks in this run.
 
 ## 3. Why diagnostic counts differ
 
-The completed run found **4 Swagger-only** and **5 TypeSpec-only** route/rule pairs across the five checks.
+The completed run found **1 Swagger-only** and **5 TypeSpec-only** route/rule pairs across the five checks.
 
 ### Overall gap categories
 
-| Gap case                                                                                            | Analysis                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [API-version mismatch (5 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases)                | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| [Named singleton (1 Swagger-only)](gap-evidence.md#named-singleton)                                 | Swagger false positive: it flags the fixed name required by this Recovery Services singleton. TypeSpec correctly accepts it.               |
-| [Tracked-resource classification (3 Swagger-only)](gap-evidence.md#tracked-resource-classification) | Swagger uses response `location`; TypeSpec checks tracked-resource lifecycle paths.                                                        |
+| Gap case                                                                             | Analysis                                                                                                                                   |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [API-version mismatch (5 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| [Named singleton (1 Swagger-only)](gap-evidence.md#named-singleton)                  | Swagger false positive: it flags the fixed name required by this Recovery Services singleton. TypeSpec correctly accepts it.               |
 
 See the [gap evidence report](gap-evidence.md) for affected routes, counts, and source links.
 
 The seven prior parent-placeholder findings (five shared routes and two Machine Learning routes absent from selected Swagger) are resolved; see the [rerun evidence](gap-evidence.md#resolved-parent-placeholder-cases).
 
-**Reconciliation (Swagger minus TypeSpec):** `102 - 103 = -1 = -5 + 1 + 3`. The counting remainder is zero; this does not resolve the provisional policy conclusions. The [inherited-operation bug](gap-evidence.md#inherited-operation-skipped) is matched and excluded from the remaining gap counts.
+The [three prior tracked-classification differences](gap-evidence.md#tracked-resource-classification) now match in the location-based candidate; this does not establish whether the APIs should be classified as tracked resources.
+
+**Reconciliation (Swagger minus TypeSpec):** `102 - 106 = -4 = -5 + 1`. The counting remainder is zero. The [inherited-operation bug](gap-evidence.md#inherited-operation-skipped) is matched and excluded from the remaining gap counts.
 
 ### PathContainsResourceType
 
@@ -74,7 +75,7 @@ The named-singleton route remains a Swagger false positive. The Load Testing war
 
 ### PathForTrackedResourceTypes
 
-**Result:** 3 Swagger pairs, 0 TypeSpec diagnostics, 0 matched pairs; 3 Swagger-only and 0 TypeSpec-only pairs.
+**Result:** 3 Swagger pairs, 3 TypeSpec diagnostics, 3 matched pairs; no unmatched pairs. These are route/rule matches, not proof of full parity.
 
 ### PathResourceProviderNamePascalCase
 
@@ -90,7 +91,7 @@ The named-singleton route remains a Swagger false positive. The Load Testing war
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Resource type path       | 0 Swagger / 0 TypeSpec                      | No observed findings; this is not proof of equivalence.                                                                                                                                                                    |
 | Nested resource path     | 1 Swagger / 1 TypeSpec                      | One Swagger false positive for a named singleton; the remaining TypeSpec-only Load Testing route is absent from the selected Swagger version and lacks singleton metadata. Seven parent-placeholder warnings are resolved. |
-| Tracked-resource scope   | 3 Swagger / 0 TypeSpec                      | Swagger's response-location heuristic differs from TypeSpec's resolved `kind === "Tracked"` resources and their GET/PUT lifecycle paths.                                                                                   |
+| Tracked-resource scope   | 3 Swagger / 3 TypeSpec; 3 matched pairs     | The location heuristic reports the three previously Swagger-only routes; response schema visibility and version differences can still affect parity.                                                                       |
 | Provider PascalCase      | 98 Swagger / 102 TypeSpec; 98 matched pairs | Only API-version mismatches remain; the inherited-operation bug is resolved.                                                                                                                                               |
 | Provider namespace match | 0 Swagger / 0 TypeSpec                      | No observed findings; this is not proof of equivalence.                                                                                                                                                                    |
 
