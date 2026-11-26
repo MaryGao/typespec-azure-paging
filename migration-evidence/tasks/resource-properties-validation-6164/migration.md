@@ -14,7 +14,9 @@ All **56 approved services** were assessed: 57 default-tag checked-in Swagger fi
 | False positives | 74 | 0 |
 | Confirmed violations among reported diagnostics | 0 | 0 |
 
-**Final analysis:** No migration gaps were identified across the **56 approved services**. All 74 Swagger diagnostics flagged responses that were not individual ARM resources: **57 collection or quota responses** and **17 other non-resource responses**. The TypeSpec rule checks only registered ARM resources. Neither linter reported tags-schema diagnostics. See the [case breakdown](#3-why-diagnostic-counts-differ).
+**Final analysis:** We confirmed that **all 74 Swagger diagnostics are false positives**: **57 collection or quota responses** and **17 other non-resource responses**, not individual ARM resources. No migration gaps were identified across the **56 approved services**. The TypeSpec rule checks only registered ARM resources. Neither linter reported tags-schema diagnostics. See the [case breakdown](#3-why-diagnostic-counts-differ).
+
+For the three resource-shaped GET cases (`UpgradeGraph`, `availabilityStatus`, and `QuotaUsageResult`), we also verified that **no matching Bicep resource references are published** in Microsoft Learn's provider indexes. See the [case evidence](evidence-details.md#interpreted-examples-and-outstanding-cases).
 
 These are observed results, not a version-matched or suppression-inclusive parity claim. See the [validation scope and limitations](evidence-details.md#population).
 
