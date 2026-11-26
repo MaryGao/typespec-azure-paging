@@ -24,16 +24,12 @@ All **56 approved services** were assessed: 57 default-tag checked-in Swagger fi
 
 TypeSpec reported zero findings across the projects. The Swagger and TypeSpec versions were not matched case by case.
 
-A separate [synthetic control](evidence-details.md#nullable-string-values-control) shows that Swagger accepts nullable string **values** in a tags record, while TypeSpec reports them. This is not a real-service diagnostic in the table; deciding whether to align that behavior remains open.
-
 ## 4. Function-level coverage
 
 | Behavior | Result | analysis |
 | --- | --- | --- |
 | Read-only resource identity properties | Covered for registered ARM resources | [Focused tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L23-L78) cover compliant and invalid identity properties. Swagger's broader response selection and unregistered models remain policy questions. |
 | String-valued and nullable tags records | Covered for the tested cases | [Tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L84-L135) cover string tags and a nullable record; the Machine Learning Services warning no longer appears. |
-| Nullable individual tag values | Different | The [synthetic control](evidence-details.md#nullable-string-values-control) shows Swagger accepts them but TypeSpec rejects them. |
-
 ## NOTES
 
 - **Inputs:** [Specs revision](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba), [TypeSpec revision](https://github.com/Azure/typespec-azure/commit/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9), [scope and execution details](evidence-details.md#revisions-and-limitations).

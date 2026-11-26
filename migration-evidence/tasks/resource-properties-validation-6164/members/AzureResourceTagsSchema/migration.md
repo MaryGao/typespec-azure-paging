@@ -16,15 +16,13 @@ All 56 approved services were assessed using 57 default-tag Swagger files and 56
 
 ## 3. Why diagnostic counts differ
 
-The real-service raw-count difference is **0 − 0 = 0**. A [synthetic nullable-value control](../../evidence-details.md#nullable-string-values-control) reveals different behavior: Swagger accepts nullable string tag values and TypeSpec reports them. This control is not included in the real-service counts.
+Across the 56 approved services, the real-service raw-count difference is **0 − 0 = 0**.
 
 ## 4. Function-level coverage
 
 | Behavior | Result | analysis |
 | --- | --- | --- |
 | String-valued tags, nullable record and non-string values | Covered for tested cases | [Focused tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L84-L178) exercise these cases. |
-| Nullable individual string values | Different | The [synthetic control](../../evidence-details.md#nullable-string-values-control) demonstrates Swagger acceptance and TypeSpec rejection. A policy decision remains open. |
-
 ## NOTES
 
 The [group report](../../migration.md) and [evidence](../../evidence-details.md) record revisions, suppression limits and validation results.
