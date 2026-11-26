@@ -4,7 +4,7 @@
 
 All 56 approved services were assessed. Swagger ran on 57 checked-in files selected by the services' default README tags. TypeSpec was compiled once per project without emission, with configured rules plus the target rule enabled and source suppressions retained. The Swagger runs used ARM subtype and the README configuration. Whether every rule-level suppression was reflected in the emitted logs was not independently established.
 
-The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 56 collection responses, 10 operation/status results, and 1 settings response are classified as false positives; the remaining 7 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
+The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 57 collection and quota responses, 10 operation/status results, and 1 settings response are classified as false positives; the remaining 6 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
 
 | TypeSpec project | Swagger files | Swagger diagnostics | TypeSpec diagnostics |
 | --- | ---: | ---: | ---: |
@@ -148,7 +148,7 @@ Each row is one emitted diagnostic. The list preserves all 74 occurrences, inclu
 
 ## Collection-response false positives
 
-The [56 collection-response findings](collection-findings.md) cover 50 list envelopes with a `value` or `values` array and [6 CDN analytics responses](collection-findings.md#cdn-analytics-responses) with other named arrays. These are Swagger false positives for the resource identity check, not TypeSpec gaps.
+The [57 collection and quota findings](collection-findings.md) cover 50 list envelopes with a `value` or `values` array, [6 CDN analytics responses](collection-findings.md#cdn-analytics-responses) with other named arrays, and the [Batch quota lookup](collection-findings.md#batch-quota-lookup). These are Swagger false positives for the resource identity check, not TypeSpec gaps.
 
 ## Operation and status response false positives
 
@@ -160,14 +160,7 @@ Bot Service's [`HostSettings_Get`](https://github.com/Azure/azure-rest-api-specs
 
 ## Interpreted examples and outstanding cases
 
-These seven models each produced one Swagger `RequiredPropertiesMissingInResourceModel` finding. The rule expects read-only `id`, `name`, and `type` on an ARM resource. The TypeSpec linter checks registered ARM resources and reported no findings in these projects. The linked TypeSpec source is unprojected; version-by-version correspondence has not been established.
-
-### Batch: `BatchLocationQuota`
-
-- **Swagger:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json#L3734); [GET `Location_GetQuotas`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json#L206) (200).
-- **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/models.tsp#L1745-L1751); [`getQuotas`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/routes.tsp#L23-L29).
-
-**Review:** Returns a single `accountQuota` number for a subscription and location, with none of the ARM identity fields. Despite the plural operation name, this looks like a provider-action result, not a collection or an individual resource.
+These six models each produced one Swagger `RequiredPropertiesMissingInResourceModel` finding. The rule expects read-only `id`, `name`, and `type` on an ARM resource. The TypeSpec linter checks registered ARM resources and reported no findings in these projects. The linked TypeSpec source is unprojected; version-by-version correspondence has not been established.
 
 ### Event Hubs: `ClusterQuotaConfigurationProperties`
 

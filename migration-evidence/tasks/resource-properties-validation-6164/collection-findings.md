@@ -1,6 +1,6 @@
 # Collection-response findings
 
-These 56 Swagger diagnostics are false positives for the resource identity check: 50 list envelopes and 6 CDN analytics responses describe collections, not individual ARM resources. Swagger includes GET/list responses in resource selection; TypeSpec checks registered ARM resources. Exact version alignment is unverified.
+These 57 Swagger diagnostics are false positives for the resource identity check: 50 list envelopes, 6 CDN analytics responses, and 1 Batch quota lookup. None return an individual ARM resource. Swagger includes GET/list responses in resource selection; TypeSpec checks registered ARM resources. Exact version alignment is unverified.
 
 Each row is one emitted diagnostic. See the [complete inventory](evidence-details.md#swagger-diagnostic-inventory) for all 74 findings.
 
@@ -73,3 +73,10 @@ These six GET operations return analytics collections in named arrays, not ARM r
 | [`definitions.ResourcesResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L16259) | [`LogAnalytics_GetLogAnalyticsResources`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5375) | `endpoints`, `customDomains` |
 | [`definitions.WafMetricsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L18744) | [`LogAnalytics_GetWafLogAnalyticsMetrics`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5473) | `series` |
 | [`definitions.WafRankingsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L18822) | [`LogAnalytics_GetWafLogAnalyticsRankings`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5639) | `groups`, `data` |
+
+## Batch quota lookup
+
+- **Swagger:** [`BatchLocationQuota`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json#L3734); [GET `Location_GetQuotas`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json#L206) (200).
+- **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/models.tsp#L1745-L1751); [`getQuotas`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/batch/resource-manager/Microsoft.Batch/Batch/routes.tsp#L23-L29).
+
+This quota lookup is grouped with the collection false positives. It returns a single `accountQuota` count for a subscription and location, not an array or an ARM resource with `id`, `name`, and `type`.
