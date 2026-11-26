@@ -54,7 +54,7 @@ The completed run found **5 Swagger-only** and **12 TypeSpec-only** route/rule p
 
 | Gap case | Analysis |
 | --- | --- |
-| [API-version mismatch (7 cases)](gap-evidence.md#api-version-mismatch) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| [API-version mismatch (7 cases)](gap-evidence.md#api-version-mismatch-cases) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
 | [Inherited operation skipped (1 case)](gap-evidence.md#inherited-operation-skipped) | TypeSpec skipped PostgreSQL's inherited `/operations` route. Fixed locally; not included in the full run. |
 | [Named singleton (1 case)](gap-evidence.md#named-singleton) | TypeSpec accepts Recovery Services' declared singleton name; Swagger flags the literal segment. |
 | [Parent placeholder names (5 cases)](gap-evidence.md#parent-placeholder-names) | TypeSpec treats different placeholder names in the same position as a mismatch, likely producing false positives. |
