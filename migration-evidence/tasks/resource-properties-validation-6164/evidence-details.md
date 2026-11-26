@@ -4,7 +4,7 @@
 
 All 56 approved services were assessed. Swagger ran on 57 checked-in files selected by the services' default README tags. TypeSpec was compiled once per project without emission, with configured rules plus the target rule enabled and source suppressions retained. The Swagger runs used ARM subtype and the README configuration. Whether every rule-level suppression was reflected in the emitted logs was not independently established.
 
-The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 57 collection and quota responses, 10 operation/status results, and 1 settings response are classified as false positives; the remaining 6 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
+The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 57 collection and quota responses, 10 operation/status results, and 4 configuration and status responses are classified as false positives; the remaining 3 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
 
 | TypeSpec project | Swagger files | Swagger diagnostics | TypeSpec diagnostics |
 | --- | ---: | ---: | ---: |
@@ -154,27 +154,38 @@ The [57 collection and quota findings](collection-findings.md) cover 50 list env
 
 The [10 operation/status-response findings](operation-status-findings.md) concern operation, command or ownership-status results rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check.
 
-## Host settings response false positive
+## Configuration and status response false positives
+
+These four responses describe settings or report a feature's status. They do not represent individual ARM resources.
+
+### Host settings response false positive
 
 Bot Service's [`HostSettings_Get`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json#L176-L194) returns [`HostSettingsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/botservice/resource-manager/Microsoft.BotService/BotService/preview/2023-09-15-preview/botservice.json#L3032): subscription-level bot host settings, not an ARM resource. The [TypeSpec operation](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/botservice/resource-manager/Microsoft.BotService/BotService/routes.tsp#L70-L78) likewise models this as a provider action.
-
-## Interpreted examples and outstanding cases
-
-These six models each produced one Swagger `RequiredPropertiesMissingInResourceModel` finding. The rule expects read-only `id`, `name`, and `type` on an ARM resource. The TypeSpec linter checks registered ARM resources and reported no findings in these projects. The linked TypeSpec source is unprojected; version-by-version correspondence has not been established.
 
 ### Event Hubs: `ClusterQuotaConfigurationProperties`
 
 - **Swagger:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json#L4740); [GET `Configuration_Get`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json#L653) (200), [PATCH `Configuration_Patch`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json#L699) (200/201).
 - **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/models.tsp#L1356-L1363); [`configurationGet`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/Cluster.tsp#L135-L142), [`patch`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/Cluster.tsp#L120-L129).
 
-**Review:** Both operations return a `settings` dictionary with no ARM identity fields. TypeSpec models them as actions on `Cluster`; the question is whether the configuration endpoint should be treated as an independent resource or as cluster settings.
+**Why it is a false positive:** Both operations are actions on `Cluster` that return a `settings` dictionary, not a separately managed ARM resource.
 
 ### Resource Connector: `applianceGetTelemetryConfigResult`
 
 - **Swagger:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json#L1246); [GET `Appliances_GetTelemetryConfig`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json#L128) (200).
 - **TypeSpec:** [`ApplianceGetTelemetryConfigResult`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/models.tsp#L450-L457); [`getTelemetryConfig`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/routes.tsp#L21-L27).
 
-**Review:** Returns only `telemetryInstrumentationKey`, with none of the ARM identity fields. It looks like subscription-level configuration returned by a provider action, not an appliance resource.
+**Why it is a false positive:** The provider action returns subscription-level telemetry configuration, not an appliance resource.
+
+### Serial Console: `SerialConsoleStatus`
+
+- **Swagger:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json#L707); [GET `GetConsoleStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json#L85) (200).
+- **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/models.tsp#L153-L163); [`getConsoleStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/routes.tsp#L24-L38).
+
+**Why it is a false positive:** The response reports whether Serial Console is disabled for a subscription, not an ARM resource.
+
+## Interpreted examples and outstanding cases
+
+These three models each produced one Swagger `RequiredPropertiesMissingInResourceModel` finding. The rule expects read-only `id`, `name`, and `type` on an ARM resource. The TypeSpec linter checks registered ARM resources and reported no findings in these projects. The linked TypeSpec source is unprojected; version-by-version correspondence has not been established.
 
 ### Resource Connector: `UpgradeGraph`
 
@@ -196,13 +207,6 @@ These six models each produced one Swagger `RequiredPropertiesMissingInResourceM
 - **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/search/resource-manager/Microsoft.Search/Search/models.tsp#L1374-L1399); [`usageBySubscriptionSku`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/search/resource-manager/Microsoft.Search/Search/routes.tsp#L83-L106).
 
 **Review:** Returns usage and quota limits for one SKU. `id` identifies the usage endpoint and is not read-only; `name` is a read-only SKU information object, and `type` is absent. Confirm whether this is usage data or an ARM resource.
-
-### Serial Console: `SerialConsoleStatus`
-
-- **Swagger:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json#L707); [GET `GetConsoleStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json#L85) (200).
-- **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/models.tsp#L153-L163); [`getConsoleStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/routes.tsp#L24-L38).
-
-**Review:** Returns `properties.disabled` for the subscription, with none of the ARM identity fields. Confirm whether the singleton `/consoleServices/default` endpoint is a resource or just a status read.
 
 ## Revisions and limitations
 
