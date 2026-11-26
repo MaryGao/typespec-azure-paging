@@ -12,15 +12,15 @@ All **56 approved services** were assessed: 57 default-tag checked-in Swagger fi
 | --- | ---: | ---: |
 | Reported diagnostics | 74 | 0 |
 
-**Analysis:** All 74 Swagger findings are from the required-properties rule; none are from the tags rule. **66 are false positives; 8 remain under review.** TypeSpec source suppressions were retained. Swagger counts reflect emitted diagnostics with README configuration, not a proven suppression-inclusive total. See the [complete inventory](evidence-details.md).
+**Analysis:** All 74 Swagger findings are from the required-properties rule; none are from the tags rule. **67 are false positives; 7 remain under review.** TypeSpec source suppressions were retained. Swagger counts reflect emitted diagnostics with README configuration, not a proven suppression-inclusive total. See the [complete inventory](evidence-details.md).
 
 ## 3. Why diagnostic counts differ
 
 | Response type | Swagger findings | Assessment |
 | --- | ---: | --- |
 | [Collections](collection-findings.md) | 56 | False positives: 50 list envelopes and 6 CDN analytics responses. |
-| [Operation/status results](operation-status-findings.md) | 10 | False positives: results, not ARM resources. |
-| [Other responses](evidence-details.md#interpreted-examples-and-outstanding-cases) | 8 | Under review; no confirmed TypeSpec gaps. |
+| Other non-resource responses | 11 | False positives: 10 [operation/status results](operation-status-findings.md) and 1 [settings response](evidence-details.md#host-settings-response-false-positive). |
+| [Other responses](evidence-details.md#interpreted-examples-and-outstanding-cases) | 7 | Under review; no confirmed TypeSpec gaps. |
 
 TypeSpec reported zero findings across the projects. The Swagger and TypeSpec versions were not matched case by case.
 
