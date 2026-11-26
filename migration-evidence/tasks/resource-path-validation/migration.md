@@ -48,19 +48,45 @@ The remaining 48 listed projects had no findings for these five checks in this r
 
 ## 3. Why diagnostic counts differ
 
-The following accounts for all **5 Swagger-only** and **12 TypeSpec-only** pairs in the completed run. Some cases have more than one contributing difference. Dispositions remain provisional where noted.
+Each Swagger rule maps to a check within the single TypeSpec rule. The sections below account for all **5 Swagger-only** and **12 TypeSpec-only** route/rule pairs. Counts are for the completed run described above; some cases have more than one contributing difference.
 
-| Rule and cases | Swagger-only | TypeSpec-only | Analysis |
+### PathContainsResourceType
+
+**Result:** 0 Swagger findings, 0 TypeSpec diagnostics, and no unmatched pairs. No findings in this population do not establish parity.
+
+### PathForNestedResource
+
+**Result:** 1 Swagger pair, 8 TypeSpec diagnostics, 0 matched pairs; 1 Swagger-only and 8 TypeSpec-only pairs.
+
+| Case | Swagger-only | TypeSpec-only | Analysis |
 | --- | ---: | ---: | --- |
-| Provider casing: MySQL and PostgreSQL versioned paths | 0 | 4 | Two MySQL Fabric Mirroring paths were added after selected Swagger `2024-12-30`; two PostgreSQL `dbAgents` paths were removed in selected Swagger `2026-10-01`. The unprojected TypeSpec run still visits them. Version-aware linting is tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| Provider casing: PostgreSQL `/providers/Microsoft.DBforPostgreSQL/operations` | 1 | 0 | The [service interface](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/main.tsp#L74-L78) inherits `list` from an ARM library interface. The validated candidate filters the operation by its library namespace, so the warning is omitted. A local follow-up addresses this and passes a focused regression, but has not had a full rerun. |
-| Nested path: Recovery Services singleton | 1 | 0 | Swagger rejects the literal name in `/vaults/{vaultName}/extendedInformation/vaultExtendedInfo`; TypeSpec resolves an explicitly declared [`@singleton("vaultExtendedInfo")`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/VaultExtendedInfoResource.tsp#L16-L26) under `Vault` and accepts that name. This is a metadata-aware divergence if named singletons are valid. |
-| Nested path: Redis and Machine Learning placeholder names | 0 | 7 | Four Redis and three Machine Learning child paths use different placeholder names from their resolved parents. The candidate compares the parent prefix literally, producing probable TypeSpec false positives despite equivalent parameter positions. Two Machine Learning inference paths are also absent from the selected Swagger version. |
-| Nested path: Load Testing fixed name | 0 | 1 | `/limits/maxMonthlyVirtualUserHours` was added after the selected `2022-12-01` Swagger. The [TypeSpec model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225) has a literal name but no resolved singleton key, so native validation rejects it. Whether to annotate it as a singleton or accept literal key types remains to be decided. |
-| Tracked-resource scope: Attestation default provider | 1 | 0 | Swagger flags the [GET](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/routes.tsp#L31-L40) because its response inherits `location`. TypeSpec identifies it as a provider action returning a tracked model, not a tracked-resource lifecycle GET. This is a semantic difference; the intended policy for such actions needs confirmation. |
-| Tracked-resource scope: Resource Health availability statuses | 2 | 0 | Swagger sees `location` in the proxy response schema and flags two extension-status GET paths. TypeSpec does not classify these operations as tracked-resource lifecycle paths. These appear to be Swagger overclassifications; confirm the intended policy. |
+| Recovery Services singleton | 1 | 0 | Swagger rejects the literal name in `/vaults/{vaultName}/extendedInformation/vaultExtendedInfo`; TypeSpec resolves an explicitly declared [`@singleton("vaultExtendedInfo")`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/VaultExtendedInfoResource.tsp#L16-L26) under `Vault` and accepts that name. This is a metadata-aware divergence if named singletons are valid. |
+| Redis and Machine Learning placeholder names | 0 | 7 | Four Redis and three Machine Learning child paths use different placeholder names from their resolved parents. The candidate compares the parent prefix literally, producing probable TypeSpec false positives despite equivalent parameter positions. Two Machine Learning inference paths are also absent from the selected Swagger version. |
+| Load Testing fixed name | 0 | 1 | `/limits/maxMonthlyVirtualUserHours` was added after the selected `2022-12-01` Swagger. The [TypeSpec model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225) has a literal name but no resolved singleton key, so native validation rejects it. Whether to annotate it as a singleton or accept literal key types remains to be decided. |
 
 An earlier candidate produced one additional TypeSpec-only Resource Health nested-path warning. The parent-scope fix in `0e9615c43` removed it; no native route/rule pairs were added in that before/after comparison.
+
+### PathForTrackedResourceTypes
+
+**Result:** 3 Swagger pairs, 0 TypeSpec diagnostics, 0 matched pairs; 3 Swagger-only and 0 TypeSpec-only pairs.
+
+| Case | Swagger-only | TypeSpec-only | Analysis |
+| --- | ---: | ---: | --- |
+| Attestation default provider | 1 | 0 | Swagger flags the [GET](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/routes.tsp#L31-L40) because its response inherits `location`. TypeSpec identifies it as a provider action returning a tracked model, not a tracked-resource lifecycle GET. This is a semantic difference; the intended policy for such actions needs confirmation. |
+| Resource Health availability statuses | 2 | 0 | Swagger sees `location` in the proxy response schema and flags two extension-status GET paths. TypeSpec does not classify these operations as tracked-resource lifecycle paths. These appear to be Swagger overclassifications; confirm the intended policy. |
+
+### PathResourceProviderNamePascalCase
+
+**Result:** 98 Swagger pairs, 101 TypeSpec diagnostics, 97 matched pairs; 1 Swagger-only and 4 TypeSpec-only pairs.
+
+| Case | Swagger-only | TypeSpec-only | Analysis |
+| --- | ---: | ---: | --- |
+| MySQL and PostgreSQL versioned paths | 0 | 4 | Two MySQL Fabric Mirroring paths were added after selected Swagger `2024-12-30`; two PostgreSQL `dbAgents` paths were removed in selected Swagger `2026-10-01`. The unprojected TypeSpec run still visits them. Version-aware linting is tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| PostgreSQL `/providers/Microsoft.DBforPostgreSQL/operations` | 1 | 0 | The [service interface](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/main.tsp#L74-L78) inherits `list` from an ARM library interface. The validated candidate filters the operation by its library namespace, so the warning is omitted. A local follow-up addresses this and passes a focused regression, but has not had a full rerun. |
+
+### PathResourceProviderMatchNamespace
+
+**Result:** 0 Swagger findings, 0 TypeSpec diagnostics, and no unmatched pairs. No findings in this population do not establish parity.
 
 ## 4. Function-level coverage
 
