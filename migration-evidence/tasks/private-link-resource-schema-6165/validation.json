@@ -1,0 +1,85 @@
+{
+  "verificationTime": "2026-11-26T04:05:38.235Z",
+  "candidateCommit": "9fc24d4768a0c7b1a490de863958abe44085881f",
+  "coreCommit": "123e997958ced3b632caa0a4486e306d1487ca82",
+  "specsCommit": "1775cd6359369f2e5092d08ada94b4b4c1b8acba",
+  "candidateRuleSourceSha256": "160a44aa84174899fc7a43e3eb9bcfbc883a8021b43ba7a0dea96c6295e3d93e",
+  "candidateRuleBuiltSha256": "f7c6bca679f59bbf6b43484e1b2093dc850a2c24894a8a8a2a57c992d441bdab",
+  "native": {
+    "completed": 56,
+    "failures": 0,
+    "nodeVersions": ["v26.5.0"],
+    "importedCandidatePackageVersions": {
+      "@azure-tools/typespec-azure-resource-manager": "0.74.0",
+      "@azure-tools/typespec-client-generator-core": "0.74.0",
+      "@azure-tools/typespec-azure-core": "0.74.0",
+      "@typespec/versioning": "0.88.0",
+      "@typespec/compiler": "1.18.0",
+      "@typespec/openapi": "1.18.0",
+      "@typespec/http": "1.18.0",
+      "@typespec/rest": "0.88.0"
+    },
+    "targetRuleExplicitlyEnabled": true,
+    "severity": "warning",
+    "sourceSuppressionsRetained": true,
+    "unprojected": true,
+    "noEmit": true
+  },
+  "swagger": {
+    "completedDocuments": 57,
+    "failures": 0,
+    "reusedObservations": true,
+    "severity": "error",
+    "readmeSuppressionsApplied": false,
+    "activationAndCompletionVerifiedInEachRawLog": true,
+    "allLocalInputHashesVerified": true,
+    "originalOutputHashesVerified": true,
+    "packageEntrypoints": [
+      {
+        "name": "autorest",
+        "version": "3.8.0",
+        "entrySha256": "dda319cef00738aee565422799857ba8a883c54b67d595284a60f34f6d6d83f2"
+      },
+      {
+        "name": "@microsoft.azure/openapi-validator",
+        "version": "2.2.4",
+        "entrySha256": "48c7dd60d49154b609d73a9640a0725ef5d6ccc86346361a322cefdd72aa1fcd"
+      },
+      {
+        "name": "@microsoft.azure/openapi-validator-core",
+        "version": "1.0.7",
+        "entrySha256": "c9e8139d0be3c415490a2583cc9b9daba040e0a84130b89412ddf1bbe94b0ca4"
+      },
+      {
+        "name": "@microsoft.azure/openapi-validator-rulesets",
+        "version": "2.2.6",
+        "entrySha256": "0913519358ae8cd006c1d59580db753166fd084f0e6a46e5faf6c542413e5be9"
+      }
+    ],
+    "autoRestCoreVersion": "not independently recorded",
+    "fullTransitiveToolDependencyHashes": "not recorded"
+  },
+  "reconciliation": {
+    "swaggerRaw": 1,
+    "nativeRaw": 1,
+    "shared": 1,
+    "swaggerOnly": 0,
+    "nativeOnly": 0,
+    "unresolvedRemainder": 0
+  },
+  "functions": {
+    "connectionPoint": {
+      "swagger": 24,
+      "native": 25
+    },
+    "connectionCollection": {
+      "swagger": 24,
+      "native": 25
+    },
+    "linkCollection": {
+      "swagger": 25,
+      "native": 26
+    }
+  },
+  "publicationContents": "Real-service target diagnostic excerpts, inventories, verified fingerprints, and input mappings. Synthetic controls and machine-specific paths are excluded."
+}

@@ -1,0 +1,409 @@
+{
+  "rule": "private-link-resource-schema",
+  "swaggerRule": "PrivateEndpointResourceSchemaValidation",
+  "implementationPr": "https://github.com/Azure/typespec-azure/pull/6165",
+  "candidateCommit": "9fc24d4768a0c7b1a490de863958abe44085881f",
+  "coreCommit": "123e997958ced3b632caa0a4486e306d1487ca82",
+  "specsCommit": "1775cd6359369f2e5092d08ada94b4b4c1b8acba",
+  "serviceList": "https://github.com/markcowl/azure-rest-api-specs/blob/30a602e9e17f834fb9de6c3f500dbc1a5f2447cb/documentation/typespec-arm-resource-data/Report_20261106/provisioning-validation-services.md#services-suitable-for-validation",
+  "serviceListCommit": "30a602e9e17f834fb9de6c3f500dbc1a5f2447cb",
+  "approved": 56,
+  "assessed": 56,
+  "unassessed": 0,
+  "selectionPolicy": "One unprojected TypeSpec project per suitable service; latest selected stable Swagger version, or preview when no stable exists; all root documents in the selected version folder.",
+  "projects": [
+    {
+      "service": "apicenter",
+      "project": "specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter",
+      "swaggerDocuments": [
+        "specification/apicenter/resource-manager/Microsoft.ApiCenter/ApiCenter/stable/2024-03-01/apicenter.json"
+      ]
+    },
+    {
+      "service": "attestation",
+      "project": "specification/attestation/resource-manager/Microsoft.Attestation/Attestation",
+      "swaggerDocuments": [
+        "specification/attestation/resource-manager/Microsoft.Attestation/Attestation/stable/2021-06-01/attestation.json"
+      ]
+    },
+    {
+      "service": "batch",
+      "project": "specification/batch/resource-manager/Microsoft.Batch/Batch",
+      "swaggerDocuments": [
+        "specification/batch/resource-manager/Microsoft.Batch/Batch/stable/2026-10-01/openapi.json"
+      ]
+    },
+    {
+      "service": "botservice",
+      "project": "specification/botservice/resource-manager/Microsoft.BotService/BotService",
+      "swaggerDocuments": [
+        "specification/botservice/resource-manager/Microsoft.BotService/BotService/stable/2022-09-15/botservice.json"
+      ]
+    },
+    {
+      "service": "cdn",
+      "project": "specification/cdn/resource-manager/Microsoft.Cdn/Cdn",
+      "swaggerDocuments": [
+        "specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json"
+      ]
+    },
+    {
+      "service": "certificateregistration",
+      "project": "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration",
+      "swaggerDocuments": [
+        "specification/certificateregistration/resource-manager/Microsoft.CertificateRegistration/CertificateRegistration/stable/2024-11-01/openapi.json"
+      ]
+    },
+    {
+      "service": "communication",
+      "project": "specification/communication/resource-manager/Microsoft.Communication/Communication",
+      "swaggerDocuments": [
+        "specification/communication/resource-manager/Microsoft.Communication/Communication/stable/2026-03-18/openapi.json"
+      ]
+    },
+    {
+      "service": "containerregistry",
+      "project": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry",
+      "swaggerDocuments": [
+        "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/Registry/stable/2026-11-01/containerregistry.json"
+      ]
+    },
+    {
+      "service": "containerregistry-tasks",
+      "project": "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks",
+      "swaggerDocuments": [
+        "specification/containerregistry/resource-manager/Microsoft.ContainerRegistry/RegistryTasks/stable/2019-04-01/containerregistry_build.json"
+      ]
+    },
+    {
+      "service": "containerservice",
+      "project": "specification/containerservice/resource-manager/Microsoft.ContainerService/aks",
+      "swaggerDocuments": [
+        "specification/containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2026-09-01/managedClusters.json"
+      ]
+    },
+    {
+      "service": "databox",
+      "project": "specification/databox/resource-manager/Microsoft.DataBox/DataBox",
+      "swaggerDocuments": [
+        "specification/databox/resource-manager/Microsoft.DataBox/DataBox/stable/2025-07-01/databox.json"
+      ]
+    },
+    {
+      "service": "databricks",
+      "project": "specification/databricks/resource-manager/Microsoft.Databricks/Databricks",
+      "swaggerDocuments": [
+        "specification/databricks/resource-manager/Microsoft.Databricks/Databricks/stable/2026-01-01/openapi.json"
+      ]
+    },
+    {
+      "service": "desktopvirtualization",
+      "project": "specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization",
+      "swaggerDocuments": [
+        "specification/desktopvirtualization/resource-manager/Microsoft.DesktopVirtualization/DesktopVirtualization/stable/2026-04-16/desktopvirtualization.json"
+      ]
+    },
+    {
+      "service": "domainregistration",
+      "project": "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration",
+      "swaggerDocuments": [
+        "specification/domainregistration/resource-manager/Microsoft.DomainRegistration/DomainRegistration/stable/2024-11-01/openapi.json"
+      ]
+    },
+    {
+      "service": "durabletask",
+      "project": "specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask",
+      "swaggerDocuments": [
+        "specification/durabletask/resource-manager/Microsoft.DurableTask/DurableTask/stable/2026-02-01/durabletask.json"
+      ]
+    },
+    {
+      "service": "enclave",
+      "project": "specification/mission/resource-manager/Microsoft.Mission/Mission",
+      "swaggerDocuments": [
+        "specification/mission/resource-manager/Microsoft.Mission/Mission/stable/2026-04-01/openapi.json"
+      ]
+    },
+    {
+      "service": "eventhubs",
+      "project": "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub",
+      "swaggerDocuments": [
+        "specification/eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2026-01-01/openapi.json"
+      ]
+    },
+    {
+      "service": "fabric",
+      "project": "specification/fabric/resource-manager/Microsoft.Fabric/Fabric",
+      "swaggerDocuments": [
+        "specification/fabric/resource-manager/Microsoft.Fabric/Fabric/stable/2023-11-01/fabric.json"
+      ]
+    },
+    {
+      "service": "healthbot",
+      "project": "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot",
+      "swaggerDocuments": [
+        "specification/healthbot/resource-manager/Microsoft.HealthBot/HealthBot/stable/2025-11-01/healthbot.json"
+      ]
+    },
+    {
+      "service": "healthcareapis",
+      "project": "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis",
+      "swaggerDocuments": [
+        "specification/healthcareapis/resource-manager/Microsoft.HealthcareApis/HealthcareApis/stable/2024-03-31/healthcare-apis.json"
+      ]
+    },
+    {
+      "service": "kubernetes",
+      "project": "specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes",
+      "swaggerDocuments": [
+        "specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/HybridKubernetes/stable/2026-05-01/connectedClusters.json"
+      ]
+    },
+    {
+      "service": "kubernetesconfiguration-extensions",
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions",
+      "swaggerDocuments": [
+        "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensions/stable/2025-03-01/extensions.json"
+      ]
+    },
+    {
+      "service": "kubernetesconfiguration-extensiontypes",
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes",
+      "swaggerDocuments": [
+        "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/extensionTypes/preview/2024-11-01-preview/extensionTypes.json"
+      ]
+    },
+    {
+      "service": "kubernetesconfiguration-fluxconfigurations",
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations",
+      "swaggerDocuments": [
+        "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/stable/2025-04-01/fluxconfiguration.json"
+      ]
+    },
+    {
+      "service": "kubernetesconfiguration-privatelinkscopes",
+      "project": "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes",
+      "swaggerDocuments": [
+        "specification/kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/privateLinkScopes/preview/2024-11-01-preview/privateLinkScopes.json"
+      ]
+    },
+    {
+      "service": "loadtesting",
+      "project": "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting",
+      "swaggerDocuments": [
+        "specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/stable/2022-12-01/loadtestservice.json"
+      ]
+    },
+    {
+      "service": "machinelearning",
+      "project": "specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices",
+      "swaggerDocuments": [
+        "specification/machinelearningservices/resource-manager/Microsoft.MachineLearningServices/MachineLearningServices/stable/2026-09-01/openapi.json"
+      ]
+    },
+    {
+      "service": "maps",
+      "project": "specification/maps/resource-manager/Microsoft.Maps/Maps",
+      "swaggerDocuments": [
+        "specification/maps/resource-manager/Microsoft.Maps/Maps/stable/2023-06-01/maps-management.json"
+      ]
+    },
+    {
+      "service": "monitor",
+      "project": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts",
+      "swaggerDocuments": [
+        "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts/stable/2025-10-03/azuremonitorworkspace.json"
+      ]
+    },
+    {
+      "service": "mysql",
+      "project": "specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers",
+      "swaggerDocuments": [
+        "specification/mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2024-12-30/openapi.json"
+      ]
+    },
+    {
+      "service": "postgresql",
+      "project": "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql",
+      "swaggerDocuments": [
+        "specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/stable/2026-10-01/openapi.json"
+      ]
+    },
+    {
+      "service": "qumulo",
+      "project": "specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage",
+      "swaggerDocuments": [
+        "specification/liftrqumulo/resource-manager/Qumulo.Storage/QumuloStorage/stable/2026-04-16/Qumulo.Storage.json"
+      ]
+    },
+    {
+      "service": "recoveryservices",
+      "project": "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices",
+      "swaggerDocuments": [
+        "specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/stable/2026-11-01/openapi.json"
+      ]
+    },
+    {
+      "service": "redis",
+      "project": "specification/redis/resource-manager/Microsoft.Cache/Redis",
+      "swaggerDocuments": [
+        "specification/redis/resource-manager/Microsoft.Cache/Redis/stable/2024-11-01/redis.json"
+      ]
+    },
+    {
+      "service": "redisenterprise",
+      "project": "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise",
+      "swaggerDocuments": [
+        "specification/redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise/stable/2026-09-01/redisenterprise.json"
+      ]
+    },
+    {
+      "service": "relationships",
+      "project": "specification/relationships/resource-manager/Microsoft.Relationships/Relationships",
+      "swaggerDocuments": [
+        "specification/relationships/resource-manager/Microsoft.Relationships/Relationships/stable/2026-08-01/relationships.json"
+      ]
+    },
+    {
+      "service": "resourceconnector",
+      "project": "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector",
+      "swaggerDocuments": [
+        "specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/stable/2022-10-27/appliances.json"
+      ]
+    },
+    {
+      "service": "resourcehealth",
+      "project": "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth",
+      "swaggerDocuments": [
+        "specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json"
+      ]
+    },
+    {
+      "service": "search",
+      "project": "specification/search/resource-manager/Microsoft.Search/Search",
+      "swaggerDocuments": [
+        "specification/search/resource-manager/Microsoft.Search/Search/stable/2026-11-01/search.json"
+      ]
+    },
+    {
+      "service": "secretsstoreextension",
+      "project": "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController",
+      "swaggerDocuments": [
+        "specification/ews/resource-manager/Microsoft.SecretSyncController/SecretSyncController/preview/2026-09-25-preview/secretsynccontroller.json"
+      ]
+    },
+    {
+      "service": "selfhelp",
+      "project": "specification/help/resource-manager/Microsoft.Help/Help",
+      "swaggerDocuments": [
+        "specification/help/resource-manager/Microsoft.Help/Help/stable/2023-06-01/help.json"
+      ]
+    },
+    {
+      "service": "serialconsole",
+      "project": "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole",
+      "swaggerDocuments": [
+        "specification/serialconsole/resource-manager/Microsoft.SerialConsole/SerialConsole/stable/2024-07-01/openapi.json"
+      ]
+    },
+    {
+      "service": "servicebus",
+      "project": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus",
+      "swaggerDocuments": [
+        "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2026-01-01/servicebus.json"
+      ]
+    },
+    {
+      "service": "servicefabric",
+      "project": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
+      "swaggerDocuments": [
+        "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/stable/2021-06-01/application.json",
+        "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric/stable/2021-06-01/cluster.json"
+      ]
+    },
+    {
+      "service": "servicefabricmanagedclusters",
+      "project": "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters",
+      "swaggerDocuments": [
+        "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters/stable/2026-02-01/servicefabricmanagedclusters.json"
+      ]
+    },
+    {
+      "service": "servicegroups",
+      "project": "specification/management/resource-manager/Microsoft.Management/ServiceGroups",
+      "swaggerDocuments": [
+        "specification/management/resource-manager/Microsoft.Management/ServiceGroups/stable/2026-08-01/serviceGroups.json"
+      ]
+    },
+    {
+      "service": "servicenetworking",
+      "project": "specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking",
+      "swaggerDocuments": [
+        "specification/servicenetworking/resource-manager/Microsoft.ServiceNetworking/ServiceNetworking/stable/2026-03-01/TrafficController.json"
+      ]
+    },
+    {
+      "service": "signalr",
+      "project": "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService",
+      "swaggerDocuments": [
+        "specification/signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/signalr.json"
+      ]
+    },
+    {
+      "service": "sitemanager",
+      "project": "specification/edge/resource-manager/Microsoft.Edge/sites",
+      "swaggerDocuments": [
+        "specification/edge/resource-manager/Microsoft.Edge/sites/stable/2025-06-01/sites.json"
+      ]
+    },
+    {
+      "service": "sphere",
+      "project": "specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere",
+      "swaggerDocuments": [
+        "specification/sphere/resource-manager/Microsoft.AzureSphere/AzureSphere/stable/2024-04-01/azuresphere.json"
+      ]
+    },
+    {
+      "service": "standbypool",
+      "project": "specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool",
+      "swaggerDocuments": [
+        "specification/standbypool/resource-manager/Microsoft.StandbyPool/StandbyPool/stable/2026-04-01/standbypool.json"
+      ]
+    },
+    {
+      "service": "storage",
+      "project": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+      "swaggerDocuments": [
+        "specification/storage/resource-manager/Microsoft.Storage/Storage/stable/2026-09-01/openapi.json"
+      ]
+    },
+    {
+      "service": "storageactions",
+      "project": "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions",
+      "swaggerDocuments": [
+        "specification/storageactions/resource-manager/Microsoft.StorageActions/StorageActions/stable/2026-03-01/storageactions.json"
+      ]
+    },
+    {
+      "service": "subscription",
+      "project": "specification/subscription/resource-manager/Microsoft.Subscription/Subscription",
+      "swaggerDocuments": [
+        "specification/subscription/resource-manager/Microsoft.Subscription/Subscription/stable/2021-10-01/subscriptions.json"
+      ]
+    },
+    {
+      "service": "verifiedid",
+      "project": "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId",
+      "swaggerDocuments": [
+        "specification/verifiedid/resource-manager/Microsoft.VerifiedId/VerifiedId/preview/2024-01-26-preview/verifiedid.json"
+      ]
+    },
+    {
+      "service": "webpubsub",
+      "project": "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService",
+      "swaggerDocuments": [
+        "specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/webpubsub.json"
+      ]
+    }
+  ]
+}
