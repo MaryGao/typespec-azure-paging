@@ -2,34 +2,32 @@
 
 ## 1. Scope
 
-The Swagger linter [PathForNestedResource](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/arm-path-validation.ts#L58-L72) maps to the TypeSpec linter `@azure-tools/typespec-azure-resource-manager/resource-path-validation`.
+The Swagger linter [PathForNestedResource](https://github.com/Azure/azure-openapi-validator/blob/e1b8b207a196cf2fc288593efec22e6e38ab98d5/packages/rulesets/src/spectral/functions/arm-path-validation.ts#L58-L72) maps to `@azure-tools/typespec-azure-resource-manager/resource-path-validation`.
+
+The TypeSpec rule identifies a nested ARM resource from its resolved `resource.parent` relationship. It validates that the child path ends with the child resource type and name; parent parameter names do not need to match textually.
 
 ## 2. Coverage
 
-No projects have been assessed.
+The full run assessed all 56 approved suitable TypeSpec projects against 57 selected Swagger documents at candidate `bb9e0d61171c966fecdb803cf095819f7cbd1327`. See the [overall validation report](../../migration.md#2-coverage) and [per-case evidence](../../gap-evidence.md).
 
-| Count                | Swagger linter | TypeSpec linter |
-| -------------------- | -------------- | --------------- |
-| Reported diagnostics | Not assessed   | Not assessed    |
+| Metric                        | Count |
+| ----------------------------- | ----: |
+| Swagger diagnostic instances  |     1 |
+| TypeSpec diagnostic instances |     1 |
+| Matched route/rule pairs      |     0 |
+| Swagger-only pairs            |     1 |
+| TypeSpec-only pairs           |     1 |
 
-**Analysis:** Source and fixture analysis cannot establish real-spec correspondence or coverage. See [Why diagnostic counts differ](#3-why-diagnostic-counts-differ).
+The Swagger-only finding is a false positive for a named singleton. The TypeSpec-only finding is a Load Testing route added after the selected Swagger version; its fixed child name lacks resolved singleton metadata. Seven previous placeholder-name diagnostics were eliminated by the parent-concept change.
 
-## 3. Why diagnostic counts differ
+## 3. Function-level coverage
 
-| Difference (with evidence) | Swagger diagnostics | TypeSpec diagnostics for the same check | analysis                                                                  |
-| -------------------------- | ------------------- | --------------------------------------- | ------------------------------------------------------------------------- |
-| Nested resource paths      | Not assessed        | Not assessed                            | The compared project population and emitted paths have not been assessed. |
+| Behavior                       | Result                                                                                                                               |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Nested-resource identification | Uses the resolved ARM parent relationship (`resource.parent !== undefined`).                                                         |
+| Child path shape               | Validates the trailing child resource-type/name pair, including declared singleton names.                                            |
+| Parent placeholder spelling    | Different parameter names at corresponding parent positions are accepted; seven previous TypeSpec-only findings no longer reproduce. |
+| Named singleton                | TypeSpec accepts the declared singleton name; Swagger flags one valid Recovery Services singleton.                                   |
+| Version mismatch               | One Load Testing route is not present in the selected Swagger version and still lacks singleton metadata in TypeSpec.                |
 
-## 4. Function-level coverage
-
-[Focused TypeSpec tests](https://github.com/Azure/typespec-azure/blob/f0c007f3f2ffa53db901177c2f2869542cf45ac3/packages/typespec-azure-resource-manager/test/rules/resource-path-validation.test.ts).
-
-| Behavior                                     | Result                                              | analysis                                                                                                               |
-| -------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Invalid nested paths and singleton `default` | Focused tests passed; real-spec coverage unassessed | Swagger checks four invalid patterns, not a general even-segment predicate.                                            |
-| Extension paths                              | Focused tests passed; real-spec coverage unassessed | Some fully qualified extension paths can require Swagger suppression; equivalence is not yet assessed.                 |
-| Existing TypeSpec coverage                   | Partial                                             | Standard templates generate normal paths, and `use-resource-path-for-put` checks PUT paths but not all selected verbs. |
-
-## NOTES
-
-- **Validation:** The representative and full-spec comparisons await separate user approvals.
+This comparison does not imply parity across unselected API versions. The complete [nested-path findings and resolved regression routes](../../gap-evidence.md#api-version-mismatch-cases) include source links and counts.
