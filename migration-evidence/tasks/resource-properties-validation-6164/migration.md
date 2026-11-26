@@ -8,11 +8,15 @@ The TypeSpec linter `resource-properties-validation` migrates [`RequiredProperti
 
 All **56 approved services** were assessed: 57 default-tag checked-in Swagger files and 56 unprojected TypeSpec projects. No project failed.
 
-| Count | Swagger linter | TypeSpec linter |
+| Result | Swagger linter | TypeSpec linter |
 | --- | ---: | ---: |
 | Reported diagnostics | 74 | 0 |
+| False positives | 74 | 0 |
+| Confirmed violations among reported diagnostics | 0 | 0 |
 
-**Analysis:** All **74 Swagger findings are false positives** from the required-properties rule. Neither linter reported tags diagnostics. TypeSpec source suppressions were retained. Swagger counts reflect emitted diagnostics with README configuration, not a proven suppression-inclusive total. See the [complete inventory](evidence-details.md).
+**Final analysis:** No migration gaps were identified across the **56 approved services**. All 74 Swagger diagnostics flagged responses that were not individual ARM resources: **57 collection or quota responses** and **17 other non-resource responses**. The TypeSpec rule checks only registered ARM resources. Neither linter reported tags-schema diagnostics. See the [case breakdown](#3-why-diagnostic-counts-differ).
+
+These are observed results, not a version-matched or suppression-inclusive parity claim. See the [validation scope and limitations](evidence-details.md#population).
 
 ## 3. Why diagnostic counts differ
 
