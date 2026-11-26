@@ -4,7 +4,7 @@
 
 All 56 approved services were assessed. Swagger ran on 57 checked-in files selected by the services' default README tags. TypeSpec was compiled once per project without emission, with configured rules plus the target rule enabled and source suppressions retained. The Swagger runs used ARM subtype and the README configuration. Whether every rule-level suppression was reflected in the emitted logs was not independently established.
 
-The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 57 collection and quota responses, 10 operation/status results, and 4 configuration and status responses are classified as false positives; the remaining 3 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
+The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. All 74 emitted Swagger findings are classified as false positives for the resource identity check: 57 collection and quota responses, 10 operation/status results, 4 configuration and status responses, and 3 additional GET responses. No findings remain under review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
 
 | TypeSpec project | Swagger files | Swagger diagnostics | TypeSpec diagnostics |
 | --- | ---: | ---: | ---: |
@@ -185,7 +185,7 @@ Bot Service's [`HostSettings_Get`](https://github.com/Azure/azure-rest-api-specs
 
 ## Interpreted examples and outstanding cases
 
-These three models each produced one Swagger `RequiredPropertiesMissingInResourceModel` finding. The rule expects read-only `id`, `name`, and `type` on an ARM resource. The TypeSpec linter checks registered ARM resources and reported no findings in these projects. The linked TypeSpec source is unprojected; version-by-version correspondence has not been established.
+The final three cases are classified as Swagger false positives. Their GET operations return information about a resource or SKU, rather than an individual ARM resource. None of the candidate types appears in the Microsoft Learn template indexes for [Resource Connector](https://learn.microsoft.com/en-us/azure/templates/microsoft.resourceconnector/allversions), [Resource Health](https://learn.microsoft.com/en-us/azure/templates/microsoft.resourcehealth/allversions), or [Search](https://learn.microsoft.com/en-us/azure/templates/microsoft.search/allversions). The absence of a Bicep reference supports, but does not by itself establish, the classification.
 
 ### Resource Connector: `UpgradeGraph`
 
@@ -193,7 +193,7 @@ These three models each produced one Swagger `RequiredPropertiesMissingInResourc
 - **Swagger path:** `GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/upgradeGraphs/{upgradeGraph}` ([`Appliances_GetUpgradeGraph`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/appliances.json#L565), 200).
 - **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/models.tsp#L613-L630); [`getUpgradeGraph`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/Appliance.tsp#L118-L133).
 
-**Review:** Returns the supported upgrade versions for an appliance and release train. `id` is the appliance path and `name` is the release train; both are read-only, but `type` is absent. TypeSpec models the endpoint as an appliance action. Confirm whether the graph is an independent resource or an action result.
+**Why it is a false positive:** TypeSpec models the endpoint as an appliance action that returns supported upgrade versions for a release train. The [Swagger example](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourceconnector/resource-manager/Microsoft.ResourceConnector/ResourceConnector/preview/2025-03-01-preview/examples/UpgradeGraph.json) returns the parent appliance's `id`, not a graph ID, and has no `type`.
 
 ### Resource Health: `availabilityStatus`
 
@@ -202,7 +202,7 @@ These three models each produced one Swagger `RequiredPropertiesMissingInResourc
 - **Swagger path:** `GET /{resourceUri}/providers/Microsoft.ResourceHealth/childAvailabilityStatuses/current` ([`ChildAvailabilityStatuses_GetByResource`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json#L247), 200).
 - **TypeSpec:** [`AvailabilityStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/AvailabilityStatus.tsp#L19-L24); [Resource status](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/AvailabilityStatus.tsp#L35-L55), [child resource status](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/AvailabilityStatus.tsp#L145-L166).
 
-**Review:** Both models inherit `id`, `name`, and `type` without read-only markers from a local proxy model ([Swagger](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json#L2209), [TypeSpec](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/models.tsp#L1478-L1494)). TypeSpec describes the `current` endpoints as non-resource operations. The open question is whether these resource-shaped status responses should still be covered.
+**Why it is a false positive:** TypeSpec explicitly describes both `current` endpoints as non-resource operations. The status payload inherits `id`, `name`, and `type` without read-only markers from a local proxy model ([Swagger](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/stable/2026-07-01/ResourceHealth.json#L2209), [TypeSpec](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/models.tsp#L1478-L1494)), but reports the health of another resource.
 
 ### Search: `QuotaUsageResult`
 
@@ -210,7 +210,7 @@ These three models each produced one Swagger `RequiredPropertiesMissingInResourc
 - **Swagger path:** `GET /subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}` ([`UsageBySubscriptionSku`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/search/resource-manager/Microsoft.Search/Search/stable/2026-11-01/search.json#L220), 200).
 - **TypeSpec:** [Model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/search/resource-manager/Microsoft.Search/Search/models.tsp#L1374-L1399); [`usageBySubscriptionSku`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/search/resource-manager/Microsoft.Search/Search/routes.tsp#L83-L106).
 
-**Review:** Returns usage and quota limits for one SKU. `id` identifies the usage endpoint and is not read-only; `name` is a read-only SKU information object, and `type` is absent. Confirm whether this is usage data or an ARM resource.
+**Why it is a false positive:** The GET returns usage and quota limits for one SKU. Its `id` identifies the usage endpoint, `name` holds SKU information, and there is no `type`. It is usage data, not an individual ARM resource.
 
 ## Revisions and limitations
 

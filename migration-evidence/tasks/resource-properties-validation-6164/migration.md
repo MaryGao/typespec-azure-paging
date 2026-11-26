@@ -12,24 +12,24 @@ All **56 approved services** were assessed: 57 default-tag checked-in Swagger fi
 | --- | ---: | ---: |
 | Reported diagnostics | 74 | 0 |
 
-**Analysis:** All 74 Swagger findings are from the required-properties rule; none are from the tags rule. **71 are false positives; 3 remain under review.** TypeSpec source suppressions were retained. Swagger counts reflect emitted diagnostics with README configuration, not a proven suppression-inclusive total. See the [complete inventory](evidence-details.md).
+**Analysis:** All **74 Swagger findings are false positives** from the required-properties rule. Neither linter reported tags diagnostics. TypeSpec source suppressions were retained. Swagger counts reflect emitted diagnostics with README configuration, not a proven suppression-inclusive total. See the [complete inventory](evidence-details.md).
 
 ## 3. Why diagnostic counts differ
 
 | Response type | Swagger findings | Assessment |
 | --- | ---: | --- |
 | [Collections and quota lookup](collection-findings.md) | 57 | False positives: 50 list envelopes, 6 CDN analytics responses, and 1 Batch quota lookup. |
-| Other non-resource responses | 14 | False positives: 10 [operation results](operation-status-findings.md) and 4 [configuration and status responses](evidence-details.md#configuration-and-status-response-false-positives). |
-| [Other responses](evidence-details.md#interpreted-examples-and-outstanding-cases) | 3 | Under review; no confirmed TypeSpec gaps. |
+| Other non-resource responses | 17 | False positives: 10 [operation results](operation-status-findings.md), 4 [configuration and status responses](evidence-details.md#configuration-and-status-response-false-positives), and 3 [other GET responses](evidence-details.md#interpreted-examples-and-outstanding-cases). |
 
-TypeSpec reported zero findings across the projects. The Swagger and TypeSpec versions were not matched case by case.
+No findings remain under review, and no TypeSpec gaps were confirmed in the scoped comparison. The Swagger and TypeSpec versions were not matched case by case.
 
 ## 4. Function-level coverage
 
 | Behavior | Result | analysis |
 | --- | --- | --- |
-| Read-only resource identity properties | Covered for registered ARM resources | [Focused tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L23-L78) cover compliant and invalid identity properties. Swagger's broader response selection and unregistered models remain policy questions. |
+| Read-only resource identity properties | Covered for registered ARM resources | [Focused tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L23-L78) cover compliant and invalid identity properties. |
 | String-valued and nullable tags records | Covered for the tested cases | [Tests](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/test/rules/resource-properties-validation.test.ts#L84-L135) cover string tags and a nullable record; the Machine Learning Services warning no longer appears. |
+
 ## NOTES
 
 - **Inputs:** [Specs revision](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba), [TypeSpec revision](https://github.com/Azure/typespec-azure/commit/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9), [scope and execution details](evidence-details.md#revisions-and-limitations).
