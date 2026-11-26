@@ -10,6 +10,17 @@ The comparison uses TypeSpec Azure candidate `6f1de36f58258c789577ae516331b14a3a
 
 All **56 projects** on the [suitable-service list](https://github.com/markcowl/azure-rest-api-specs/blob/30a602e9e17f834fb9de6c3f500dbc1a5f2447cb/documentation/typespec-arm-resource-data/Report_20261106/provisioning-validation-services.md#services-suitable-for-validation) were assessed against **57 Swagger documents**. Swagger reported **102 diagnostics** and TypeSpec **106**, with **101 matching route/rule pairs**.
 
+### Projects with findings
+
+| Project           | Swagger version | Swagger | TypeSpec | Matched | Swagger-only | TypeSpec-only |
+| ----------------- | --------------- | ------: | -------: | ------: | -----------: | ------------: |
+| Attestation       | 2021-06-01      |       1 |        1 |       1 |            0 |             0 |
+| Load Testing      | 2022-12-01      |       0 |        1 |       0 |            0 |             1 |
+| MySQL             | 2024-12-30      |      46 |       48 |      46 |            0 |             2 |
+| PostgreSQL        | 2026-10-01      |      52 |       54 |      52 |            0 |             2 |
+| Recovery Services | 2026-11-01      |       1 |        0 |       0 |            1 |             0 |
+| Resource Health   | 2026-07-01      |       2 |        2 |       2 |            0 |             0 |
+
 ## 3. Why diagnostic counts differ
 
 All six remaining gaps are known issues or a false positive:
