@@ -48,7 +48,12 @@ The remaining 48 listed projects had no findings for these five checks in this r
 
 ## 3. Why diagnostic counts differ
 
-Each Swagger rule maps to a check within the single TypeSpec rule. The sections below account for all **5 Swagger-only** and **12 TypeSpec-only** route/rule pairs. Counts are for the completed run described above; some cases have more than one contributing difference.
+The completed run found **5 Swagger-only** and **12 TypeSpec-only** route/rule pairs across the five checks.
+
+### Overall gap categories
+
+- **API-version mismatch (7 TypeSpec-only; [#5875](https://github.com/Azure/typespec-azure/issues/5875)):** TypeSpec linted unprojected source. The selected Swagger versions omit four casing cases (two MySQL Fabric Mirroring routes added later and two PostgreSQL `dbAgents` routes removed) and three nested-path cases (two Machine Learning inference routes and one Load Testing limit). The inference routes also have parent-placeholder differences; the [Load Testing limit](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225) has a literal name without singleton metadata.
+- **Rule behavior on shared routes (10 pairs):** 5 Swagger-only and 5 TypeSpec-only, detailed by rule below.
 
 ### PathContainsResourceType
 
@@ -56,13 +61,12 @@ Each Swagger rule maps to a check within the single TypeSpec rule. The sections 
 
 ### PathForNestedResource
 
-**Result:** 1 Swagger pair, 8 TypeSpec diagnostics, 0 matched pairs; 1 Swagger-only and 8 TypeSpec-only pairs.
+**Result:** 1 Swagger pair, 8 TypeSpec diagnostics, 0 matched pairs; 1 Swagger-only and 8 TypeSpec-only pairs (3 of the latter are counted under API-version mismatch).
 
 | Case | Swagger-only | TypeSpec-only | Analysis |
 | --- | ---: | ---: | --- |
 | Recovery Services singleton | 1 | 0 | Swagger rejects the literal name in `/vaults/{vaultName}/extendedInformation/vaultExtendedInfo`; TypeSpec resolves an explicitly declared [`@singleton("vaultExtendedInfo")`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/VaultExtendedInfoResource.tsp#L16-L26) under `Vault` and accepts that name. This is a metadata-aware divergence if named singletons are valid. |
-| Redis and Machine Learning placeholder names | 0 | 7 | Four Redis and three Machine Learning child paths use different placeholder names from their resolved parents. The candidate compares the parent prefix literally, producing probable TypeSpec false positives despite equivalent parameter positions. Two Machine Learning inference paths are also absent from the selected Swagger version. |
-| Load Testing fixed name | 0 | 1 | `/limits/maxMonthlyVirtualUserHours` was added after the selected `2022-12-01` Swagger. The [TypeSpec model](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/loadtestservice/resource-manager/Microsoft.LoadTestService/loadtesting/models.tsp#L212-L225) has a literal name but no resolved singleton key, so native validation rejects it. Whether to annotate it as a singleton or accept literal key types remains to be decided. |
+| Redis and Machine Learning placeholder names | 0 | 5 | Four Redis paths and the Machine Learning Feature path use different placeholder names from their resolved parents. Literal prefix comparison produces probable TypeSpec false positives despite equivalent parameter positions. |
 
 An earlier candidate produced one additional TypeSpec-only Resource Health nested-path warning. The parent-scope fix in `0e9615c43` removed it; no native route/rule pairs were added in that before/after comparison.
 
@@ -77,11 +81,10 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 
 ### PathResourceProviderNamePascalCase
 
-**Result:** 98 Swagger pairs, 101 TypeSpec diagnostics, 97 matched pairs; 1 Swagger-only and 4 TypeSpec-only pairs.
+**Result:** 98 Swagger pairs, 101 TypeSpec diagnostics, 97 matched pairs; 1 Swagger-only and 4 TypeSpec-only pairs (all 4 counted under API-version mismatch).
 
 | Case | Swagger-only | TypeSpec-only | Analysis |
 | --- | ---: | ---: | --- |
-| MySQL and PostgreSQL versioned paths | 0 | 4 | Two MySQL Fabric Mirroring paths were added after selected Swagger `2024-12-30`; two PostgreSQL `dbAgents` paths were removed in selected Swagger `2026-10-01`. The unprojected TypeSpec run still visits them. Version-aware linting is tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
 | PostgreSQL `/providers/Microsoft.DBforPostgreSQL/operations` | 1 | 0 | The [service interface](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/main.tsp#L74-L78) inherits `list` from an ARM library interface. The validated candidate filters the operation by its library namespace, so the warning is omitted. A local follow-up addresses this and passes a focused regression, but has not had a full rerun. |
 
 ### PathResourceProviderMatchNamespace
@@ -93,9 +96,9 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 | Behavior | Result in completed run | Interpretation |
 | --- | --- | --- |
 | Resource type path | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
-| Nested resource path | 1 Swagger / 8 TypeSpec | Singleton, version-population and parent-placeholder differences require the review above. |
+| Nested resource path | 1 Swagger / 8 TypeSpec | See [overall gap categories](#overall-gap-categories) and [shared-route cases](#pathfornestedresource). |
 | Tracked-resource scope | 3 Swagger / 0 TypeSpec | Swagger's response-location heuristic and TypeSpec's lifecycle metadata differ. |
-| Provider PascalCase | 98 Swagger / 101 TypeSpec; 97 matched pairs | Four source-version differences and one inherited-operation gap. |
+| Provider PascalCase | 98 Swagger / 101 TypeSpec; 97 matched pairs | See [overall gap categories](#overall-gap-categories) and the [inherited-operation gap](#pathresourceprovidernamedpascalcase). |
 | Provider namespace match | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
 
 ## 5. Method and limitations
