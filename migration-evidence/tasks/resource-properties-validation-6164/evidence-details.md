@@ -4,7 +4,7 @@
 
 All 56 approved services were assessed. Swagger ran on 57 checked-in files selected by the services' default README tags. TypeSpec was compiled once per project without emission, with configured rules plus the target rule enabled and source suppressions retained. The Swagger runs used ARM subtype and the README configuration. Whether every rule-level suppression was reflected in the emitted logs was not independently established.
 
-The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 50 collection-response findings and 10 operation/status-response findings are classified as false positives; the remaining 14 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
+The two populations are not version-aligned: checked-in Swagger versions and current unprojected TypeSpec are not one-to-one diagnostic matches. The 74 Swagger diagnostics below are raw emitted occurrences, not 74 confirmed missing TypeSpec checks. Of these, 56 collection-response findings and 10 operation/status-response findings are classified as false positives; the remaining 8 require review. Source-level suppression-inclusive totals are unassessed. A machine-readable per-project inventory with file hashes is in [inventory.json](inventory.json).
 
 | TypeSpec project | Swagger files | Swagger diagnostics | TypeSpec diagnostics |
 | --- | ---: | ---: | ---: |
@@ -148,17 +148,18 @@ Each row is one emitted diagnostic. The list preserves all 74 occurrences, inclu
 
 ## Collection-response false positives
 
-The [50 collection-response findings](collection-findings.md) concern envelopes with a `value` array (49) or a `values` array (1), rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check and are not classified as TypeSpec gaps. Exact version alignment remains unverified.
+The [56 collection-response findings](collection-findings.md) cover 50 list envelopes with a `value` or `values` array and [6 CDN analytics responses](collection-findings.md#cdn-analytics-responses) with other named arrays. These are Swagger false positives for the resource identity check, not TypeSpec gaps.
 
 ## Operation and status response false positives
 
-The [10 operation/status-response findings](operation-status-findings.md) concern operation, command or ownership-status results rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check. The remaining 14 findings require individual assessment.
+The [10 operation/status-response findings](operation-status-findings.md) concern operation, command or ownership-status results rather than individual ARM resources. They are Swagger false positives for the resource-envelope identity check.
 
 ## Interpreted examples and outstanding cases
 
-- `BatchLocationQuota` and the collection models in Batch, Storage, Container Registry and Service Bus illustrate Swagger's broader GET/list-response selection. The TypeSpec linter only visits registered ARM resource models. This interpretation is grounded in the [Swagger implementation](https://github.com/Azure/azure-openapi-validator/blob/405e6f094fa8280e05af23327845f6202a8edc65/packages/rulesets/src/native/functions/arm-resource-validation.ts) and the [TypeSpec implementation](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/src/rules/resource-properties-validation.ts#L30-L32), but exact version-by-version correspondence has not been established.
+Eight findings remain under review: Batch `BatchLocationQuota`, Bot Service `HostSettingsResponse`, Event Hubs `ClusterQuotaConfigurationProperties`, Resource Connector `applianceGetTelemetryConfigResult` and `UpgradeGraph`, Resource Health `availabilityStatus`, Search `QuotaUsageResult`, and Serial Console `SerialConsoleStatus`. Model links are in the [Swagger diagnostic inventory](#swagger-diagnostic-inventory).
+
+- `Location_GetQuotas` returns `BatchLocationQuota`, which contains a single `accountQuota` value, not a collection. The [Swagger linter](https://github.com/Azure/azure-openapi-validator/blob/405e6f094fa8280e05af23327845f6202a8edc65/packages/rulesets/src/native/functions/arm-resource-validation.ts) selects GET/list responses more broadly than the [TypeSpec linter](https://github.com/Azure/typespec-azure/blob/76b0e3cdfa4fd0069af4d9d26c265934c6c814b9/packages/typespec-azure-resource-manager/src/rules/resource-properties-validation.ts#L30-L32), which checks registered ARM resources.
 - Resource Health's [`AvailabilityStatus`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/AvailabilityStatus.tsp#L14-L39) extends a [local resource-shaped `ProxyResource`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/resourcehealth/resource-manager/Microsoft.ResourceHealth/ResourceHealth/models.tsp#L1478-L1494) whose identity properties have no read-only visibility. Swagger reports its corresponding `availabilityStatus` schema; no TypeSpec diagnostic was emitted. The source describes its current endpoint as a non-resource operation. Whether this resource-shaped response should be within the TypeSpec policy remains unresolved.
-- `SubscriptionCreationResult` is a [subscription-creation response containing a status link](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/subscription/resource-manager/Microsoft.Subscription/Subscription/models.tsp#L264-L272), rather than a standard registered resource envelope. Other unmatched models have not all been classified; do not treat the whole inventory as false positives or confirmed gaps.
 
 ## Nullable string values control
 

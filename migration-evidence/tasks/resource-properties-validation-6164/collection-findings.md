@@ -1,8 +1,12 @@
 # Collection-response findings
 
-These 50 Swagger diagnostics are classified as false positives for the resource-envelope identity check: the definitions describe collection responses, not individual ARM resources. Swagger includes GET/list response schemas in resource selection; the TypeSpec linter checks registered ARM resources. The comparison uses checked-in default-tag Swagger and unprojected TypeSpec; exact emitted-version alignment is unverified.
+These 56 Swagger diagnostics are false positives for the resource identity check: 50 list envelopes and 6 CDN analytics responses describe collections, not individual ARM resources. Swagger includes GET/list responses in resource selection; TypeSpec checks registered ARM resources. Exact version alignment is unverified.
 
-Each row is one raw diagnostic. The checked definitions contain an array property named `value` (49) or `values` (1). See the [complete inventory](evidence-details.md#swagger-diagnostic-inventory) for all 74 findings.
+Each row is one emitted diagnostic. See the [complete inventory](evidence-details.md#swagger-diagnostic-inventory) for all 74 findings.
+
+## List envelopes
+
+49 definitions use a `value` array and one uses a `values` array.
 
 | Project | Swagger definition | Array property |
 | --- | --- | --- |
@@ -56,3 +60,16 @@ Each row is one raw diagnostic. The checked definitions contain an array propert
 | [`specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService) | [`definitions.OperationList`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json#L3891) | `value` |
 | [`specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService) | [`definitions.SignalRServiceUsageList`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json#L4650) | `value` |
 | [`specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService`](https://github.com/Azure/azure-rest-api-specs/tree/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService) | [`definitions.SkuList`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/webpubsub/resource-manager/Microsoft.SignalRService/SignalRService/preview/2025-12-01-preview/webpubsub.json#L4744) | `value` |
+
+## CDN analytics responses
+
+These six GET operations return analytics collections in named arrays, not ARM resource envelopes.
+
+| Swagger definition | GET operation | Array properties |
+| --- | --- | --- |
+| [`definitions.ContinentsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L10477) | [`LogAnalytics_GetLogAnalyticsLocations`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L4980) | `continents`, `countryOrRegions` |
+| [`definitions.MetricsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L13705) | [`LogAnalytics_GetLogAnalyticsMetrics`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5029) | `series` |
+| [`definitions.RankingsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L15470) | [`LogAnalytics_GetLogAnalyticsRankings`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5230) | `tables` |
+| [`definitions.ResourcesResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L16259) | [`LogAnalytics_GetLogAnalyticsResources`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5375) | `endpoints`, `customDomains` |
+| [`definitions.WafMetricsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L18744) | [`LogAnalytics_GetWafLogAnalyticsMetrics`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5473) | `series` |
+| [`definitions.WafRankingsResponse`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L18822) | [`LogAnalytics_GetWafLogAnalyticsRankings`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2026-10-01/openapi.json#L5639) | `groups`, `data` |
