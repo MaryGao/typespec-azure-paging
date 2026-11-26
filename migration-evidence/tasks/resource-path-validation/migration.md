@@ -52,14 +52,15 @@ The completed run found **5 Swagger-only** and **12 TypeSpec-only** route/rule p
 
 ### Overall gap categories
 
-| Gap | Swagger rule(s) | Affected services and routes | Swagger-only | TypeSpec-only | Cause / status |
-| --- | --- | --- | ---: | ---: | --- |
-| API-version mismatch | [Provider casing](#pathresourceprovidernamedpascalcase), [nested paths](#pathfornestedresource) | MySQL Fabric Mirroring (2), PostgreSQL `dbAgents` (2), Machine Learning inference (2), Load Testing limit (1) | 0 | 7 | Unprojected TypeSpec includes routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| Inherited operation skipped | [Provider casing](#pathresourceprovidernamedpascalcase) | PostgreSQL `/providers/Microsoft.DBforPostgreSQL/operations` | 1 | 0 | The candidate filters the [inherited `list` operation](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/postgresql/resource-manager/Microsoft.DBforPostgreSQL/PostgreSql/main.tsp#L74-L78) by its library namespace. The local fix passed a focused regression; no full rerun yet. |
-| Named singleton | [Nested paths](#pathfornestedresource) | Recovery Services `/vaults/{vaultName}/extendedInformation/vaultExtendedInfo` | 1 | 0 | Swagger rejects the literal name; TypeSpec accepts the declared [`@singleton("vaultExtendedInfo")`](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/recoveryservices/resource-manager/Microsoft.RecoveryServices/RecoveryServices/VaultExtendedInfoResource.tsp#L16-L26). |
-| Parent placeholder names | [Nested paths](#pathfornestedresource) | Redis child routes (4), Machine Learning Feature (1) | 0 | 5 | TypeSpec compares parent prefixes literally and flags equivalent parameter positions with different names. Likely TypeSpec false positives. |
-| Tracked-resource classification | [Tracked scope](#pathfortrackedresourcetypes) | [Attestation default provider](https://github.com/Azure/azure-rest-api-specs/blob/1775cd6359369f2e5092d08ada94b4b4c1b8acba/specification/attestation/resource-manager/Microsoft.Attestation/Attestation/routes.tsp#L31-L40) (1), Resource Health availability statuses (2) | 3 | 0 | Swagger flags responses with `location`; TypeSpec checks tracked-resource lifecycle paths. Attestation is a provider action; Resource Health returns a proxy model. Policy confirmation pending. |
-| **Total** | | | **5** | **12** | |
+| Gap case | Analysis |
+| --- | --- |
+| API-version mismatch | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| Inherited operation skipped | TypeSpec skipped PostgreSQL's inherited `/operations` route. Fixed locally; not included in the full run. |
+| Named singleton | TypeSpec accepts Recovery Services' declared singleton name; Swagger flags the literal segment. |
+| Parent placeholder names | TypeSpec treats different placeholder names in the same position as a mismatch, likely producing false positives. |
+| Tracked-resource classification | Swagger uses response `location`; TypeSpec checks tracked-resource lifecycle paths. |
+
+See the [gap evidence report](gap-evidence.md) for affected routes, counts, and source links.
 
 ### PathContainsResourceType
 
