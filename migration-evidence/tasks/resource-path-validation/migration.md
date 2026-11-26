@@ -10,21 +10,22 @@ The comparison uses TypeSpec Azure candidate `6f1de36f58258c789577ae516331b14a3a
 
 All **56 projects** on the [suitable-service list](https://github.com/markcowl/azure-rest-api-specs/blob/30a602e9e17f834fb9de6c3f500dbc1a5f2447cb/documentation/typespec-arm-resource-data/Report_20261106/provisioning-validation-services.md#services-suitable-for-validation) were assessed against **57 Swagger documents**; none failed or were omitted.
 
-| Linter   | Diagnostics |
-| -------- | ----------: |
-| Swagger  |         102 |
-| TypeSpec |         106 |
-
-There were **101 matching route/rule pairs**. All remaining gaps are known issues or a false positive, as summarized below.
+| Metric                         | Count |
+| ------------------------------ | ----: |
+| Swagger diagnostics            |   102 |
+| TypeSpec diagnostics           |   106 |
+| Matched route/rule pairs       |   101 |
+| TypeSpec-only route/rule pairs | **5** |
+| Swagger-only route/rule pairs  | **1** |
 
 ## 3. Why diagnostic counts differ
 
 All six remaining gaps are known issues or a false positive:
 
-| Gap case                                                                                    | Analysis                                                                 |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Known issue: API versions (5 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases)   | Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| [Swagger false positive: named singleton (1 Swagger-only)](gap-evidence.md#named-singleton) | Swagger rejects a required fixed singleton name.                         |
+| Gap case                                                                                    | Analysis                                                                                                                                    |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Known issue: API versions (5 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases)   | TypeSpec includes routes absent from the selected Swagger version; tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
+| [Swagger false positive: named singleton (1 Swagger-only)](gap-evidence.md#named-singleton) | Swagger rejects a required fixed singleton name.                                                                                            |
 
 The [three previously Swagger-only tracked paths](gap-evidence.md#tracked-resource-classification) now match. Counts reconcile as `102 - 106 = 1 - 5 = -4`.
 
