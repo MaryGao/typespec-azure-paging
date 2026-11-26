@@ -29,7 +29,7 @@ The run assessed all **56 TypeSpec projects** on the [pinned suitable-service li
 | PathResourceProviderNamePascalCase | 98 | 102 | 98 |
 | PathResourceProviderMatchNamespace | 0 | 0 | 0 |
 
-All 56 approved projects were assessed; none failed or were omitted. PostgreSQL's inherited-operation bug is resolved: the rerun added exactly one native route/rule pair and removed none. The remaining 16 mismatches are classified below, with semantic conclusions still provisional. Matching uses literal route plus rule category, not operation-level or API-version equivalence.
+All 56 approved projects were assessed; none failed or were omitted. PostgreSQL's inherited-operation bug is resolved: the rerun added exactly one native route/rule pair and removed none. The 16 mismatches include one Swagger false positive for a named singleton. Other rule-behavior conclusions remain provisional. Matching uses literal route plus rule category, not operation-level or API-version equivalence.
 
 ### Projects with findings
 
@@ -55,7 +55,7 @@ The completed run found **4 Swagger-only** and **12 TypeSpec-only** route/rule p
 | Gap case | Analysis |
 | --- | --- |
 | [API-version mismatch (7 TypeSpec-only)](gap-evidence.md#api-version-mismatch-cases) | TypeSpec checks routes absent from the selected Swagger versions. Tracked in [#5875](https://github.com/Azure/typespec-azure/issues/5875). |
-| [Named singleton (1 Swagger-only)](gap-evidence.md#named-singleton) | TypeSpec accepts Recovery Services' declared singleton name; Swagger flags the literal segment. |
+| [Named singleton (1 Swagger-only)](gap-evidence.md#named-singleton) | Swagger false positive: it flags the fixed name required by this Recovery Services singleton. TypeSpec correctly accepts it. |
 | [Parent placeholder names (5 TypeSpec-only)](gap-evidence.md#parent-placeholder-names) | TypeSpec treats different placeholder names in the same position as a mismatch, likely producing false positives. |
 | [Tracked-resource classification (3 Swagger-only)](gap-evidence.md#tracked-resource-classification) | Swagger uses response `location`; TypeSpec checks tracked-resource lifecycle paths. |
 
@@ -90,7 +90,7 @@ An earlier candidate produced one additional TypeSpec-only Resource Health neste
 | Behavior | Result in completed run | Interpretation |
 | --- | --- | --- |
 | Resource type path | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
-| Nested resource path | 1 Swagger / 8 TypeSpec | API-version, singleton, and parent-placeholder differences. |
+| Nested resource path | 1 Swagger / 8 TypeSpec | One Swagger false positive for a named singleton; TypeSpec-only findings involve API versions and parent placeholder names. |
 | Tracked-resource scope | 3 Swagger / 0 TypeSpec | Swagger's response-location heuristic and TypeSpec's lifecycle metadata differ. |
 | Provider PascalCase | 98 Swagger / 102 TypeSpec; 98 matched pairs | Only API-version mismatches remain; the inherited-operation bug is resolved. |
 | Provider namespace match | 0 Swagger / 0 TypeSpec | No observed findings; this is not proof of equivalence. |
